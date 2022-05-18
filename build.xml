@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./resource/ant-project.xsl"?>
+<!DOCTYPE project SYSTEM "scm_tools/project.dtd">
+
+<project name="poptropica2" default="compile" xmlns:if="ant:if">
+
+	<property environment="env"/>
+
+	<property name="svnant.install.dir" location="${basedir}/scm_tools"/>
+
+	<property name="scm.tools.build.svn.project" location="${basedir}/scm_tools/build-svn.xml"/>
+	<property name="scm.tools.build.mobile.ad.archives.project" location="${basedir}/scm_tools/buildMobileAdZips.xml"/>
+	<property name="islands.build.island.archives.project" location="${basedir}/bin/data/dlc/islands.xml"/>
+
+	<import file="${basedir}/scm_tools/build-svn.xml"/>
+	<import file="${scm.tools.build.mobile.ad.archives.project}"/>
+	<import file="${islands.build.island.archives.project}"/>
+
+	<description>Automated Build and Release Process for Poptropica AS3 Components</description>
+
+	<property file="build.properties"/>
+	<property file="default.properties"/>
+
+	<property name="package.bin.dir" location="${package.dir}/bin"/>
+
+	<property name="AIR_SDK_HOME" value="${env.AIR_SDK_HOME}"/>
+	<property name="ADT.JAR_ANDROID" value="${AIR_SDK_HOME}/lib/adt.jar"/>
+	
+	<property name="AIR_SDK_HOME_IOS" value="${env.AIR_SDK_HOME_IOS}"/>
+	<property name="ADT.JAR_IOS" value="${AIR_SDK_HOME_IOS}/lib/adt.jar"/>
+
+	<taskdef resource="flexTasks.tasks" classpath="${AIR_SDK_HOME}/ant/lib/flexTasks.jar"/>
+	<!-- ====================================================================
+
+STANDARD ANT TARGETS
+
+From "Ant Developer's Handbook"
+
+    init    sets properties for the entire build
+    prepare creates a build directory, test results directory, and so on
+    fetch   fetches your source code updates from a source code repository
+
+    compile compiles, obviously (e.g., Shell.swf and IosShell.swf)
+    test    executes JUnit tests and generates reports
+
+    docs    generates JavaDocs documentation
+
+    jar     creates a JAR file
+    war     creates a WAR file
+
+    build   performs an incremental build (i.e, compile + package)
+    main    performs a default build; generally just a build and test
+    all     performs an entire build from start to finish
+
+    install performs a local install
+    staging moves the complete project to a pre-production area
+    publish to “output the source and binaries to any distribution site”
+    deploy  copies or FTPs the JAR/WAR/EAR to a deployment machine
+
+The jar and war targets are Java-specific packaging steps that bundle
+compiled applications with their resources, so they are not relevant here.
+The AIR SDK uses ADT to package SWF files with the resources that make up
+the mobile application package (whether for Ios or Android) so in place of
+jar or war targets this uses the 'adt' target as the main packaging step.
+
+===================================================================== -->
+
+	<target name="spewTruth" depends="init">
+		<echoproperties/>
+	</target>
+
+	<target name="prep-local-device-build"
+			description="Top-level convenience target for mobile debugging on laptop"
+			depends="local-init, stage-package-contents, update-bin-data-dlc">
+		<echo>Your device build is ready to debug. May the wind be always at your back.</echo>
+	</target>
+
+	<target name="update-bin-data-dlc">
+		<copy toDir="${local.install.dir}/data/dlc" overwrite="true">
+			<fileset dir="${package.bin.dir}/data/dlc"/>
+		</copy>
+	</target>
+
+	<target name="local-init"
+			description="First target when building locally. Puts zip files in bin/ for USB debugging and prepares for
+     second target (stage-package-contents).">
+		<property name="build.island.dir" location="${resource.dir}"/>
+	</target>
+
+	<target name="init" depends="-get-svn-info"
+			description="Initialize property values">
+
+		<tstamp/>
+		<property name="BUILD_TIME" value="${DSTAMP}T${TSTAMP}"/>
+		<ucfirst string="${target.platform}" to="target.prefix"/>
+
+		<condition property="OS" value="${OS}" else="${os.name}_${os.version}">
+			<isset property="OS"/>
+		</condition>
+
+		<condition property="debug.flag" value="true" else="false">
+			<or>
+				<equals arg1="${build.type}" arg2="debug"/>
+				<equals arg1="${build.type}" arg2="smoketest"/>
+				<equals arg1="${build.type}" arg2="test"/>
+			</or>
+		</condition>
+
+		<condition property="adt.target.default" value="ipa-debug">
+			<equals arg1="${build.type}" arg2="debug"/>
+		</condition>
+		<condition property="adt.target.default" value="ipa-app-store" else="ipa-test-interpreter">
+			<equals arg1="${build.type}" arg2="release"/>
+		</condition>
+
+		<property name="svn.project" value="poptropica2"/>
+
+		<condition property="production.flag" value="true" else="false">
+			<equals arg1="${release.environment}" arg2="PRD"/>
+		</condition>
+
+		<condition property="inAppPurchase.flag" value="true" else="false">
+			<equals arg1="${release.environment}" arg2="PRD"/>
+		</condition>
+
+		<property name="force.mobile" value="false"/>
+
+		<condition property="mobile.flag" value="true" else="false">
+			<or>
+				<equals arg1="${target.prefix}" arg2="Ios"/>
+				<equals arg1="${target.prefix}" arg2="Android"/>
+				<equals arg1="${target.prefix}" arg2="Amazon"/>
+			</or>
+		</condition>
+
+		<property name="build.ads.dir" location="${build.dir}/ads"/>
+		<property name="build.island.dir" location="${build.dir}/islands"/>
+
+		<property name="stylesheet.project.to.list" value=""/>
+		<property name="islands.manifest.assets.list.all" value="${build.dir}/all_assets.txt"/>
+		<property name="islands.manifest.assets.list.unique" value="${build.dir}/all_assets_uniq.txt"/>
+		<property name="islands.manifest.assets.list.duplicates" value="${build.dir}/all_assets_dups.txt"/>
+		<property name="islands.manifest.assets.list.sorted" value="${build.dir}/all_assets_sorted.txt"/>
+
+		<property name="local.install.dir" location="${basedir}/bin/"/>
+
+		<property name="zip.checksums.xml" location="${package.dir}/bin/data/dlc/zipCheckSums.xml"/>
+	</target>
+
+	<target name="prepare" depends="init"
+			description="Create direcories and modify source files for the build">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${build.ads.dir}"/>
+		<mkdir dir="${build.island.dir}"/>
+		<mkdir dir="${package.dir}/bin/data/dlc"/>
+	</target>
+
+	<target name="force-qa">
+		<replace file="${basedir}/bin/data/game/comm.xml"
+				 token="www.poptropica.com"
+				 value="xpop.poptropica.com"/>
+		<replace file="${basedir}/bin/data/game/comm.xml"
+				 token="static.poptropica.com"
+				 value="xpop.poptropica.com"/>
+	</target>
+	
+<!-- having the compiler use local core instead of remote
+	<target name="fetch" depends="prepare" description="Pull debug SWC from external projects">
+		<property name="core.swc.path" value="/lastSuccessfulBuild/artifact/bld/debug/poptropicore.swc"/>
+		<property name="core.artifact.repo" value="https://jenkins.fen.com"/>
+		<get src="${core.artifact.repo}/job/poptropicore-${config.kernelVersionNumber}${core.swc.path}"
+			 dest="${basedir}/lib"/>
+	</target>
+-->
+	<target name="compile"
+			description="Build {Prefix}Shell.swf using the configured environment variables"
+			depends="prepare, -compile-mxmlc"/>
+
+	<target name="create-package"
+			description="Build a packaged application (e.g., IosShell.ipa or AndroidShell.apk)"
+			depends="adt">
+	</target>
+
+	<target name="test" depends="prepare"/>
+
+	<target name="install"
+			description="Copy web Shell.swf to asset tree"
+			depends="compile">
+		<copy file="${build.dir}/${build.type}/bin/${target.prefix}Shell.swf" todir="${local.install.dir}"/>
+	</target>
+
+	<target name="stage" depends="prepare"/>
+
+	<target name="publish" depends="prepare"/>
+
+	<target name="deploy" depends="prepare"/>
+
+	<target name="build" depends="create-package"/>
+
+	<target name="main" depends="prepare, build, test"/>
+
+	<target name="all" depends="clean,prepare,main"/>
+
+	<target name="clean"
+			description="Remove built files and packages"
+			depends="init">
+		<delete dir="${build.dir}"/>
+		<delete dir="${package.dir}"/>
+		<delete>
+			<fileset dir="${source.dir}" includes="*-IosGame-app.xml"/>
+			<fileset dir="${source.dir}" includes="*-AndroidGame-app.xml"/>
+			<fileset dir="${source.dir}" includes="*-AmazonGame-app.xml"/>
+		</delete>
+	</target>
+
+	<!-- ==========  Compilation SubTargets ============================= -->
+
+	<!-- No-Op to be sure older invocations don't fail -->
+	<target name="-source-code-substitutions"/>
+
+	<!-- Compile Shell.swf or IosShell.swf using the currently configured ant property definitions -->
+	<target name="-compile-mxmlc" depends="-source-code-substitutions">
+		<compile-mxmlc/>
+	</target>
+
+	<target name="compile-web" depends="-source-code-substitutions"
+			description="compile Shell.swf using the currently configured ant property definitions">
+		<compile-mxmlc mobile="false" target.prefix="Browser"/>
+	</target>
+
+	<target name="compile-mobile" depends="-source-code-substitutions"
+			description="compile IosShell.swf using the currently configured ant property definitions">
+		<compile-mxmlc mobile="true" target.prefix="Ios"/>
+		<compile-mxmlc mobile="true" target.prefix="Android"/>
+	</target>
+
+	<!-- Compile release, debug, or smoketest versions of IosShell.swf for adt-% dependencies -->
+	<target name="-compile-mobile-release" depends="-source-code-substitutions">
+		<compile-mxmlc mobile="true" target.prefix="Ios" debug="false" build.type="release"/>
+		<compile-mxmlc mobile="true" target.prefix="Android" debug="false" build.type="release"/>
+		<compile-mxmlc mobile="true" target.prefix="Amazon" debug="false" build.type="release"/>
+	</target>
+	<target name="-compile-mobile-debug" depends="-source-code-substitutions">
+		<compile-mxmlc mobile="true" target.prefix="Ios" debug="true" build.type="debug"/>
+		<compile-mxmlc mobile="true" target.prefix="Android" debug="true" build.type="debug"/>
+		<compile-mxmlc mobile="true" target.prefix="Amazon" debug="true" build.type="debug"/>
+	</target>
+	<target name="-compile-mobile-smoketest" depends="-source-code-substitutions">
+		<compile-mxmlc mobile="true" target.prefix="Ios" debug="true" build.type="smoketest"/>
+		<compile-mxmlc mobile="true" target.prefix="Android" debug="true" build.type="smoketest"/>
+		<compile-mxmlc mobile="true" target.prefix="Amazon" debug="true" build.type="smoketest"/>
+	</target>
+
+	<macrodef name="compile-mxmlc">
+		<attribute name="debug" default="${debug.flag}"/>
+		<attribute name="mobile" default="${mobile.flag}"/>
+		<attribute name="build.type" default="${build.type}"/>
+		<attribute name="target.prefix" default="${target.prefix}"/>
+		<sequential>
+			<local name="input.file.name"/>
+			<property name="input.file.name" value="@{target.prefix}Game"/>
+			<local name="output.file.name"/>
+			<condition property="output.file.name" value="@{target.prefix}Game" else="Shell">
+				<equals arg1="@{mobile}" arg2="true"/>
+			</condition>
+			<local name="air.sdk.path"/>
+			<condition property="air.sdk.path" value="${AIR_SDK_HOME_IOS}" else="${AIR_SDK_HOME}">
+				<equals arg1="@{target.prefix}" arg2="Ios"/>
+			</condition>
+			<echo message="sdk path = ${air.sdk.path}"/>
+
+			<replaceregexp file="${source.dir}/com/poptropica/PopAppBase.as"
+						   match="(isDebugBuild:Boolean) ?= ?(true|false);"
+						   replace="\1 = @{debug};"/>
+
+			<mkdir dir="${build.dir}/ane"/>
+			<copy todir="${build.dir}/ane">
+				<fileset dir="${basedir}/lib" includes="*.ane">
+				</fileset>
+				<mapper type="glob" from="*.ane" to="*.swc"/>
+			</copy>
+
+			<mkdir dir="${build.dir}/@{build.type}"/>
+			<mxmlc file="src/${input.file.name}.as"
+				   output="${build.dir}/@{build.type}/bin/${output.file.name}.swf"
+				   maxmemory="1024m"
+				   fork="true"
+				   debug="@{debug}"
+				   mobile="@{mobile}"
+				   target-player="12.0"
+				   default-background-color="0xFFFFFF"
+				   strict="true">
+				<compiler.source-path path-element="${basedir}/src"/>
+				<compiler.library-path append="false" dir="${air.sdk.path}/frameworks/libs" includes="core.swc,asc-support.swc"/>
+				<compiler.library-path append="true" dir="${air.sdk.path}/frameworks/libs/air" includes="servicemonitor.swc"/>
+				<compiler.library-path append="true" dir="${basedir}/lib" includes="*.swc"/>
+				<compiler.external-library-path dir="${air.sdk.path}/frameworks/libs/air" includes="airglobal.swc"/>
+				<compiler.external-library-path append="true" dir="${build.dir}/ane" includes="*.swc"/>
+				<load-config append="true">${svnant.install.dir}/global-defines.xml</load-config>
+				<define name="CONFIG::allowOverwrite" value="${config.allowOverwrite}"/>
+				<define name="CONFIG::appVersionNumber" value="'${config.appVersionNumber}'"/>
+				<define name="CONFIG::kernelVersionNumber" value="'${config.kernelVersionNumber}'"/>
+				<define name="CONFIG::appBuildInfo" value="'${config.appBuildInfo} ${BUILD_TIME}'"/>
+				<define name="CONFIG::isProductionBuild" value="${config.isProductionBuild}"/>
+				<define name="CONFIG::isDebugBuild" value="${config.isDebugBuild}"/>
+				<define name="CONFIG::iapOn" value="${config.iapOn}"/>
+				<define name="CONFIG::isAdsActive" value="${config.isAdsActive}"/>
+				<define name="CONFIG::logLevel" value="${config.logLevel}"/>
+
+				<size-report if:true="@{mobile}">${build.dir}/@{build.type}/sizeReport.xml</size-report>
+				<!--<arg value="-swf-version:35" />-->
+				<swf-version if:true="@{mobile}">43</swf-version>
+				<dump-config>${build.dir}/@{build.type}/mxmlc-config.xml</dump-config>
+			</mxmlc>
+		</sequential>
+	</macrodef>
+
+	<target name="allAsssetManifest">
+		<xslt in="bin/data/dlc/islands.xml"
+			  out="bin/data/dlc/newIslands.xml"
+			  style="scm_tools/allAssetsIslands.xsl"/>
+		<move file="bin/data/dlc/newIslands.xml" tofile="bin/data/dlc/islands.xml"/>
+	</target>
+
+	<!-- ==========  Packaging SubTargets ===============================
+
+	===================================================================== -->
+
+	<macrodef name="app-config">
+		<attribute name="build.type" default="${build.type}"/><!-- debug, release -->
+		<attribute name="target.prefix"/><!-- Ios, Android, Amazon -->
+		<attribute name="release.environment" default="${release.environment}"/><!-- DEV, QA, PRD-->
+		<attribute name="config.isAdsActive" default="true"/>
+		<sequential>
+			<local name=".app.id"/>
+			<local name=".app.name"/>
+			<local name=".app.name.prefix"/>
+			<local name=".app.name.suffix"/>
+			<local name=".app.id.suffix"/>
+			<local name="target.prefix.lowercase"/>
+			<local name="release.environment.lowercase"/>
+
+			<lower string="@{target.prefix}" to="target.prefix.lowercase"/>
+			<property name="target.prefix.lowercase" value=""/>
+
+			<lower string="@{release.environment}" to="release.environment.lowercase"/>
+			<property name="release.environment.lowercase" value=""/>
+
+			<!-- Application ID Suffix -->
+			<condition property=".app.id.suffix" value="${target.prefix.lowercase}">
+				<and>
+					<equals arg1="@{target.prefix}" arg2="Amazon"/>
+					<equals arg1="@{build.type}" arg2="release"/>
+				</and>
+			</condition>
+			<condition property=".app.id.suffix" value="" else=".@{build.type}">
+				<and>
+					<equals arg1="@{build.type}" arg2="release"/>
+				</and>
+			</condition>
+
+			<!-- Application Name Suffix -->
+			<condition property=".app.name.suffix" value="" else="-@{build.type}">
+				<equals arg1="@{build.type}" arg2="release"/>
+			</condition>
+
+			<!-- Application Name Prefix -->
+			<condition property=".app.name.prefix" value="">
+				<equals arg1="@{release.environment}" arg2="PRD"/>
+			</condition>
+			<property name=".app.name.prefix" value="@{release.environment}-"/>
+
+			<!-- Application ID -->
+			<condition property=".app.id"
+					   value="${application}${.app.id.suffix}">
+				<equals arg1="@{release.environment}" arg2="PRD"/>
+			</condition>
+			<property name=".app.id"
+					  value="${application}.${target.prefix.lowercase}.${release.environment.lowercase}${.app.id.suffix}"/>
+
+			<!-- Application Name -->
+			<condition property=".app.name"
+					   value="${.app.name.prefix}${package.base.name}">
+				<equals arg1="@{release.environment}" arg2="PRD"/>
+			</condition>
+			<property name=".app.name"
+					  value="${.app.name.prefix}${package.base.name}-@{target.prefix}${.app.name.suffix}"/>
+
+			<xslt style="scm_tools/appShell.xsl"
+				  in="src/Jenkins-app.xml"
+				  out="pkg/@{build.type}-@{target.prefix}Game-app.xml">
+				<param name="appId" expression="${.app.id}"/>
+				<param name="packageFilename" expression="${.app.name}"/>
+				<param name="packageName" expression="${.app.name}"/>
+				<param name="versionNumber" expression="${config.appVersionNumber}"/>
+				<param name="buildNumber" expression="${project.build.number}"/>
+				<param name="initialWindowContent" expression="@{target.prefix}Game.swf"/>
+				<param name="targetPrefix" expression="@{target.prefix}"/>
+				<param name="iconDir" expression="@{target.prefix}"/>
+				<param name="config.isAdsActive" expression="${config.isAdsActive}"/>
+			</xslt>
+			<replace
+					file="pkg/@{build.type}-@{target.prefix}Game-app.xml"
+					token=" xmlns=&quot;http://schemas.android.com/apk/res/manifest&quot; xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+			/>
+		</sequential>
+	</macrodef>
+
+	<!-- This is the packaging step, so it is analogous to jar or war in the AIR SDK world -->
+	<target name="adt" depends="compile-mobile, stage-package-contents">
+		<adt/>
+	</target>
+
+
+	<target name="adt-smoketest"
+			description="Create fast-build packages to ensure packaging works"
+			depends="-compile-mobile-smoketest, stage-package-contents">
+		<parallel>
+			<adt build.type="smoketest" target="ipa-test-interpreter" prefix="Ios"/>
+			<adt build.type="smoketest" target="apk" prefix="Android"/>
+			<adt build.type="smoketest" target="apk" prefix="Amazon"/>
+		</parallel>
+	</target>
+
+	<target name="adt-debug"
+			description="Create a debug IPA for mobile testing"
+			depends="-compile-mobile-debug, stage-package-contents">
+		<parallel>
+			<adt build.type="debug" target="ipa-debug" prefix="Ios"/>
+			<adt build.type="debug" target="apk-debug" prefix="Android"/>
+			<adt build.type="debug" target="apk-debug" prefix="Amazon"/>
+		</parallel>
+	</target>
+
+	<!-- @todo somehow this is not requiring prepare -->
+	<target name="ipa-debug"
+			description="Create a debug IPA for mobile testing"
+			depends="-compile-mobile-debug, stage-package-contents">
+		<adt build.type="debug" target="ipa-debug" prefix="Ios"/>
+	</target>
+
+	<target name="apk-debug"
+			description="Create a debug APK for Android mobile testing"
+			depends="-compile-mobile-debug, stage-package-contents">
+		<adt build.type="debug" target="apk-debug" prefix="Android"/>
+	</target>
+
+	<target name="amazon-debug"
+			description="Create a debug APK for Amazon mobile testing"
+			depends="-compile-mobile-debug, stage-package-contents">
+		<adt build.type="debug" target="apk-debug" prefix="Amazon"/>
+	</target>
+
+	<target name="adt-release"
+			description="Create a releasable IPA"
+			depends="-compile-mobile-release, stage-package-contents">
+		<parallel>
+			<adt build.type="release" target="ipa-app-store" prefix="Ios"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Android"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Amazon"/>
+		</parallel>
+	</target>
+
+    <target name="ipa-release"
+            description="Create a releasable IPA that needs to be re-signed"
+            depends="-compile-mobile-release, stage-package-contents">
+        <adt build.type="release" release.environment="PRD" target="ipa-app-store" prefix="Ios"/>
+    </target>
+
+	<target name="ipa-release-resign"
+			description="Create a releasable IPA"
+			depends="ipa-release, ipa-resign">
+	</target>
+
+	<target name="ipa-resign" description="Re-sign the IPA">
+        <property name="ipa.resign.bin" value="bld/release/bin" />
+		<property name="ipa.resign.temp" value="${ipa.resign.bin}/tmp" />
+		<!-- Clear the temporary area left behind, if any -->
+		<delete dir="${ipa.resign.temp}" quiet="true" />
+		<!-- Unzip the application IPA file. -->
+		<unzip src="${ipa.resign.bin}/IosGame.ipa" dest="${ipa.resign.temp}" />
+		<!-- Extract entitlements. -->
+		<exec executable="codesign" dir="${ipa.resign.temp}" failonerror="true">
+			<arg value="-d"/>
+			<arg value="--entitlements" /><arg value=":entitlements.plist" />
+			<arg value="Payload/Poptropica.app" />
+		</exec>
+		<!-- Remove the current signature. -->
+		<delete dir="${ipa.resign.temp}/Payload/Poptropica.app/_CodeSignature" />
+		<!-- Unlock the keychain. -->
+		<exec executable="security" dir="${ipa.resign.temp}" failonerror="true">
+			<arg value="-v" />
+			<arg value="unlock-keychain" />
+			<arg value="-p" /><arg value="${KEYCHAIN_PASSWORD}" />
+			<arg value="${env.HOME}/Library/Keychains/login.keychain" />
+		</exec>
+		<!-- Sign the app using the updated entitlements. Make sure that your distribution certificate is in your keychain. -->
+		<exec executable="codesign" dir="${ipa.resign.temp}" failonerror="true">
+			<arg value="--verbose" />
+			<arg value="-f" />
+			<arg value="-s" /><arg value="${mobile.provision.identity}" />
+			<arg value="--entitlements" /><arg value="entitlements.plist" />
+			<arg value="Payload/Poptropica.app" />
+		</exec>
+		<!-- Zip the re-signed IPA. -->
+		<delete file="${ipa.resign.bin}/IosGame.ipa" />
+		<zip basedir="${ipa.resign.temp}" destfile="${ipa.resign.bin}/IosGame.ipa">
+			<fileset dir="${ipa.resign.temp}" includes="Payload/" />
+		</zip>
+	</target>
+
+	<target name="apk-release"
+			description="Create a releasable APK for Google"
+			depends="-compile-mobile-release, stage-package-contents">
+		<adt build.type="release" release.environment="PRD" target="apk-captive-runtime" prefix="Android"/>
+	</target>
+
+	<target name="amazon-release"
+			description="Create a releasable APK for amazon"
+			depends="-compile-mobile-release, stage-package-contents">
+		<adt build.type="release" release.environment="PRD" target="apk-captive-runtime" prefix="Amazon"/>
+	</target>
+
+	<target name="ipa-parallel"
+			description="Create debug and non-debug IPAs in parallel"
+			depends="-compile-mobile-release, -compile-mobile-debug, stage-package-contents">
+		<parallel>
+			<adt build.type="debug" target="ipa-debug" prefix="Ios"/>
+			<adt build.type="release" target="ipa-app-store" prefix="Ios"/>
+		</parallel>
+	</target>
+
+	<target name="apk-parallel"
+			description="Create debug and non-debug APKs in parallel"
+			depends="-compile-mobile-release, -compile-mobile-debug, stage-package-contents">
+		<parallel>
+			<adt build.type="debug" target="apk-debug" prefix="Android"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Android"/>
+		</parallel>
+	</target>
+
+	<target name="amazon-parallel"
+			description="Create debug and non-debug APKs in parallel"
+			depends="-compile-mobile-release, -compile-mobile-debug, stage-package-contents">
+		<parallel>
+			<adt build.type="debug" target="apk-debug" prefix="Amazon"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Amazon"/>
+		</parallel>
+	</target>
+
+	<!-- depends="-compile-mobile-release, -compile-mobile-debug, stage-package-contents" -->
+	<!-- depends="clean,init" -->
+	<target name="adt-parallel"
+			depends="-compile-mobile-release, -compile-mobile-debug, stage-package-contents"
+			description="Create a debug and non-debug IPAs in parallel">
+
+		<parallel threadsperprocessor="1">
+			<adt build.type="debug" target="ipa-debug" prefix="Ios"/>
+			<adt build.type="release" target="ipa-app-store" prefix="Ios"/>
+			<adt build.type="debug" target="apk-debug" prefix="Android"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Android"/>
+			<adt build.type="debug" target="apk-debug" prefix="Amazon"/>
+			<adt build.type="release" target="apk-captive-runtime" prefix="Amazon"/>
+		</parallel>
+	</target>
+
+	<property
+			name="provisioning.profile"
+			value="scm_tools/IosShell_cert/${mobile.provision.profile}.mobileprovision"/>
+
+	<target name="prepare-adt">
+		<adt-prepare prefix="Amazon"/>
+	</target>
+
+	<macrodef name="adt-prepare">
+		<attribute name="build.type" default="${build.type}"/>
+		<attribute name="release.environment" default="${release.environment}"/>
+		<attribute name="prefix"/>
+		<sequential>
+			<local name="adt.target.prefix"/>
+			<property name="adt.target.prefix" value="@{prefix}"/>
+			<app-config
+					build.type="@{build.type}"
+					target.prefix="${adt.target.prefix}"
+					release.environment="@{release.environment}"
+					config.isAdsActive="${config.isAdsActive}"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="adt">
+		<attribute name="target" default="${adt.target.default}"/>
+		<attribute name="build.type" default="${build.type}"/>
+		<attribute name="release.environment" default="${release.environment}"/>
+		<attribute name="prefix"/>
+		<sequential>
+			<local name="adt.target.suffix"/>
+			<local name="adt.target.prefix"/>
+			<local name="icon.source.dir"/>
+			<local name="adt.target.is.ipa"/>
+			<local name="keystore"/>
+			<local name="password"/>
+			<local name="adt.jar"/>
+
+			<property name="adt.target.prefix" value="@{prefix}"/>
+
+			<condition property="debug.flag.@{target}">
+				<equals arg1="@{target}" arg2="ipa-debug"/>
+			</condition>
+
+			<condition property="adt.target.suffix" value="ipa">
+				<matches pattern="^ipa" string="@{target}"/>
+			</condition>
+			<condition property="adt.target.suffix" value="apk">
+				<or>
+					<matches pattern="^apk" string="@{target}"/>
+					<matches pattern="^amazon" string="@{target}"/>
+				</or>
+			</condition>
+
+			<condition property="icon.source.dir" value="Ios">
+				<equals arg1="${adt.target.suffix}" arg2="ipa"/>
+			</condition>
+			<condition property="icon.source.dir" value="Android">
+				<equals arg1="${adt.target.suffix}" arg2="apk"/>
+			</condition>
+
+			<condition property="keystore" value="scm_tools/IosShell_cert/${keystore.ios}">
+				<equals arg1="${adt.target.suffix}" arg2="ipa"/>
+			</condition>
+			<condition property="keystore" value="scm_tools/AndroidShell_cert/${keystore.apk}">
+				<equals arg1="${adt.target.suffix}" arg2="apk"/>
+			</condition>
+
+			<condition property="password" value="${password.ipa}">
+				<equals arg1="${adt.target.suffix}" arg2="ipa"/>
+			</condition>
+			<condition property="password" value="${password.apk}">
+				<equals arg1="${adt.target.suffix}" arg2="apk"/>
+			</condition>
+
+			<condition property="adt.target.is.ipa">
+				<equals arg1="${adt.target.suffix}" arg2="ipa"/>
+			</condition>
+
+			<copy todir="${package.bin.dir}/${application.icon.dir}/${adt.target.prefix}/">
+				<fileset dir="${resource.dir}" includes="${application.icon.dir}/${icon.source.dir}/*.png"/>
+				<mapper type="flatten"/>
+			</copy>
+
+			<path id="package.bin.dir.object.ref">
+				<fileset dir="${package.bin.dir}" includes="*.zip" excludes="*.swf"/>
+				<dirset dir="${package.bin.dir}" includes="data"/>
+			</path>
+			<pathconvert pathsep=" " property="package.bin.dir.objects" refid="package.bin.dir.object.ref">
+				<mapper type="flatten"/>
+			</pathconvert>
+
+			<app-config
+					build.type="@{build.type}"
+					target.prefix="${adt.target.prefix}"
+					release.environment="@{release.environment}"/>
+
+			<mkdir dir="${build.dir}/@{build.type}/bin"/>
+
+			<echo message="jar prefix = ${adt.target.prefix}"/>
+			<condition property="adt.jar" value="${ADT.JAR_IOS}" else="${ADT.JAR_ANDROID}">
+				<equals arg1="${adt.target.prefix}" arg2="Ios"/>
+			</condition>
+			<echo message="jar path = ${adt.jar}"/>
+
+				<java jar="${adt.jar}" fork="true" failonerror="true">
+				<jvmarg value="-Xmx2048m"/>
+				<jvmarg value="-Dsun.io.useCanonCaches=false"/>
+				<arg value="-package"/>
+				<arg value="-target"/>
+				<arg value="@{target}"/>
+				<arg value="-sampler" if:set="debug.flag.@{target}"/>
+				<arg value="-storetype"/>
+				<arg value="pkcs12"/>
+				<arg value="-storepass"/>
+				<arg value="${password}"/>
+				<arg value="-keystore"/>
+				<arg file="${keystore}"/>
+				<arg value="-provisioning-profile" if:set="adt.target.is.ipa"/>
+				<arg file="${provisioning.profile}" if:set="adt.target.is.ipa"/>
+				<arg file="${build.dir}/@{build.type}/bin/${adt.target.prefix}Game.${adt.target.suffix}"/>
+				<arg file="pkg/@{build.type}-${adt.target.prefix}Game-app.xml"/>
+				<arg value="-extdir"/>
+				<arg value="lib"/>
+				<arg value="-C"/>
+				<arg file="${build.dir}/@{build.type}/bin"/>
+				<arg value="${adt.target.prefix}Game.swf"/>
+				<arg value="-C"/>
+				<arg value="src"/>
+				<arg value="Default.png"/>
+				<arg value="Default@2x.png"/>
+				<arg value="Default-568h@2x.png"/>
+				<arg value="Default-Landscape.png"/>
+				<arg value="Default-Landscape@2x.png"/>
+				<arg value="Default-Portrait.png"/>
+				<arg value="Default-Portrait@2x.png"/>
+				<arg value="Assets.car"/>
+				<arg value="-C"/>
+				<arg value="${package.bin.dir}/${application.icon.dir}"/>
+				<arg value="${adt.target.prefix}"/>
+				<arg value="-C"/>
+				<arg value="${package.bin.dir}"/>
+				<arg line="${package.bin.dir.objects}"/>
+			</java>
+		</sequential>
+	</macrodef>
+
+	<!-- ====================================================================
+
+	ASSET PACKAGING
+
+	Creates zip file packages of assets for mobile islands and mobile ads
+
+	===================================================================== -->
+
+	<target name="create-ad-asset-zips"
+			description="Create zip files for mobile ad assets"
+			depends="prepare">
+		<antcall target="build-mobile-ad-zips"/>
+	</target>
+
+	<target name="publish-ad-asset-zips" depends="create-ad-asset-zips">
+		<exec executable="scp">
+			<arg value="-rp"/>
+			<arg value="${build.ads.dir}"/>
+			<arg value="webadmin@i.xpop.poptropica.com:/site/html/poptrop/zipfiles/"/>
+		</exec>
+	</target>
+
+	<target name="deploy-ad-asset-zips">
+		<exec executable="popsync">
+			<arg value="${build.ads.dir}/*.zip"/>
+		</exec>
+	</target>
+
+	<macrodef name="create-ad-zip">
+		<attribute name="campaign"/>
+		<sequential>
+			<xslt
+					style="scm_tools/adManifest.xsl"
+					in="bin/data/limited/@{campaign}/zipmanifest.xml"
+					out="${build.dir}/@{campaign}/manifest.txt"/>
+			<zip
+					destfile="${build.ads.dir}/@{campaign}.zip"
+					basedir="bin"
+					keepcompression="true"
+					includesfile="${build.dir}/@{campaign}/manifest.txt"/>
+		</sequential>
+	</macrodef>
+
+	<target name="publish-island-zips">
+		<exec executable="scp">
+			<arg value="-rp"/>
+			<arg value="${build.island.dir}"/>
+			<arg value="webadmin@i.ext.poptropica.com:/site/html/poptrop/zipfiles/${ENV}/"/>
+		</exec>
+	</target>
+
+	<target name="stage-package-contents"
+			description="Create asset zip files and copy to packaging directory with uncompressed files."
+			depends="prepare,-package-islands">
+	</target>
+
+	<target name="build-local-zips"
+			depends="local-init,clean-dlc-zips,stage-package-contents">
+		<copy todir="${resource.dir}/data/dlc/">
+			<fileset dir="${package.dir}/bin/data/dlc" includes="*.xml"/>
+		</copy>
+	</target>
+
+	<target name="clean-dlc-zips" depends="init,prepare">
+		<delete>
+			<fileset dir="${build.island.dir}" includes="*.zip"/>
+		</delete>
+	</target>
+
+	<target name="-package-islands"
+			depends="-checksum-xml-header,-islands-xml-header,-build-island-zips,-checksum-xml-footer,-islands-xml-footer"/>
+
+	<target name="-checksum-xml-header">
+		<property name="zip.checksums.xml" location="${package.dir}/bin/data/dlc/zipCheckSums.xml"/>
+		<checksum-header file="${zip.checksums.xml}"/>
+	</target>
+
+	<target name="-checksum-xml-footer">
+		<checksum-footer file="${zip.checksums.xml}"/>
+	</target>
+
+	<macrodef name="checksum-header">
+		<attribute name="file"/>
+		<sequential>
+			<echo file="@{file}"
+				  append="no"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE communicationConfig SYSTEM "communicationConfig.dtd">
+<DLCData>
+]]></echo>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="checksum-footer">
+		<attribute name="file"/>
+		<sequential>
+			<echo file="@{file}"
+				  append="yes"><![CDATA[</DLCData>]]></echo>
+		</sequential>
+	</macrodef>
+
+	<target name="-islands-xml-header">
+		<property name="islands.xml" location="${package.dir}/bin/data/dlc/islands.xml"/>
+		<echo file="${islands.xml}"
+			  append="no"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<target name="-build-island-zips">
+]]></echo>
+	</target>
+
+	<target name="-islands-xml-footer">
+		<echo file="${islands.xml}"
+			  append="yes"><![CDATA[</target>
+</project>]]></echo>
+	</target>
+
+	<filterchain id="filter.unique">
+		<uniqfilter/>
+	</filterchain>
+
+	<filterchain id="filter.clean.sort">
+		<fixcrlf/>
+		<trim/>
+		<deletecharacters chars="\t "/>
+		<replaceregex pattern="[^/:a-zA-Z0-9._-]" replace=""/>
+		<replacestring from="//" to="/"/>
+		<ignoreblank/>
+		<sortfilter/>
+	</filterchain>
+
+	<macrodef name="include-zip">
+		<attribute name="island"/>
+		<attribute name="free"/>
+		<attribute name="storeID" default=""/>
+		<attribute name="packagedFileState"/>
+		<attribute name="files" default=""/>
+		<element name="fileset" optional="true"/>
+		<sequential>
+			<package-zip-file island="@{island}-character-entity-assets" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-character-entity-data" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-misc" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-sound-ambient" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-sound-effects" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-sound-music1" state="@{packagedFileState}"/>
+			<package-zip-file island="@{island}-sound-music2" state="@{packagedFileState}"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="create-island-zip">
+		<attribute name="island"/>
+		<attribute name="free"/>
+		<attribute name="storeID" default=""/>
+		<attribute name="packagedFileState"/>
+		<attribute name="files" default=""/>
+		<attribute name="debug" default="false"/>
+		<element name="fileset" optional="true"/>
+		<sequential>
+			<local name="need.island.package"/>
+			<condition property="need.island.package">
+				<or>
+					<isfalse value="@{debug}"/>
+					<and>
+						<istrue value="@{debug}"/>
+						<istrue value="${debug.flag}"/>
+					</and>
+				</or>
+			</condition>
+			<sequential if:set="need.island.package">
+				<!-- check to see how assets will be packaged or distributed -->
+				<condition property="create.island.zip.@{island}">
+					<not>
+						<equals arg1="@{packagedFileState}" arg2="uncompressed"/>
+					</not>
+				</condition>
+				<condition property="package.island.files.@{island}">
+					<equals arg1="@{packagedFileState}" arg2="uncompressed"/>
+				</condition>
+
+				<!-- create zip files and manifests unless fileState is uncompressed -->
+				<property name="source.@{island}" location="bin/data/scenes/@{island}/mobileAssets.txt"/>
+				<fileset id="zip.contents.@{island}" dir="bin" includesfile="${source.@{island}}"/>
+				<echo file="${islands.xml}"
+					  append="yes"><![CDATA[
+<create-island-zip
+    island="@{island}"
+    free="@{free}"
+    storeID="@{storeID}"
+    packagedFileState="@{packagedFileState}"
+    files="]]></echo>
+				<condition property="archive.@{island}">
+					<or>
+						<equals arg1="@{packagedFileState}" arg2="localCompressed"/>
+						<equals arg1="@{packagedFileState}" arg2="remoteCompressed"/>
+					</or>
+				</condition>
+				<create-island-asset-shards island="@{island}"/>
+				<echo file="${islands.xml}" append="yes"><![CDATA["/>
+]]></echo>
+
+				<!-- copy local compressed zip files to packaging area -->
+				<package-zip-file island="@{island}" state="@{packagedFileState}"/>
+
+				<package-local-files dir="bin" island="@{island}"
+									 manifest="bin/data/scenes/@{island}/mobileAssets.txt"/>
+			</sequential>
+		</sequential>
+	</macrodef>
+
+	<target name="-copy-uncompressed">
+
+	</target>
+
+	<!-- copy zip files to packaging area if we want localCompressed -->
+	<macrodef name="package-zip-file">
+		<attribute name="island"/>
+		<attribute name="state"/>
+		<sequential>
+			<local name="package.archive"/>
+			<condition property="package.archive">
+				<equals arg1="@{state}" arg2="localCompressed"/>
+			</condition>
+			<copy todir="${package.bin.dir}"
+				  if:set="package.archive">
+				<fileset dir="${build.island.dir}" includes="@{island}*.zip"/>
+			</copy>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="create-island-asset-shards">
+		<attribute name="island"/>
+		<sequential>
+			<load-shard-manifest island="@{island}" shard="character.entity.assets"
+								 regexp="^assets/entity/character/"/>
+			<load-shard-manifest island="@{island}" shard="character.entity.data"
+								 regexp="^data/entity/character/"/>
+			<load-shard-manifest island="@{island}" shard="sound.ambient"
+								 regexp="sound/ambient/"/>
+			<load-shard-manifest island="@{island}" shard="sound.effects"
+								 regexp="^sound/effects/"/>
+			<load-shard-manifest island="@{island}" shard="sound.music"
+								 regexp="^sound/music/"/>
+			<load-shard-manifest island="@{island}" shard="misc" negate="true"
+								 regexp="^(sound/(ambient|effects|music)|(assets|data)/entity/character)/"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="load-shard-manifest">
+		<attribute name="island"/>
+		<attribute name="shard"/>
+		<attribute name="regexp"/>
+		<attribute name="negate" default="false"/>
+		<sequential>
+			<loadfile srcfile="${source.@{island}}" property="manifest.@{island}.@{shard}">
+				<filterchain>
+					<linecontainsregexp negate="@{negate}">
+						<regexp pattern="@{regexp}"/>
+					</linecontainsregexp>
+					<prefixlines prefix=" "/>
+					<striplinebreaks/>
+					<trim/>
+				</filterchain>
+			</loadfile>
+
+			<fileset id="zip.contents.@{island}.@{shard}" dir="bin"
+					 includes="${manifest.@{island}.@{shard}}"/>
+
+			<condition property="create.island.zip.@{island}.@{shard}">
+				<and>
+					<isset property="create.island.zip.@{island}"/>
+					<length when="greater" length="0">
+						<fileset refid="zip.contents.@{island}.@{shard}"/>
+					</length>
+				</and>
+			</condition>
+
+			<create-manifest-zip island="@{island}.@{shard}"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="create-manifest-zip">
+		<attribute name="island"/>
+		<sequential>
+			<zip if:set="create.island.zip.@{island}"
+				 destfile="${build.island.dir}/@{island}.zip"
+				 keepcompression="true">
+				<fileset refid="zip.contents.@{island}"/>
+			</zip>
+
+			<checksum if:set="create.island.zip.@{island}"
+					  todir="${build.dir}/@{island}"
+					  format="MD5SUM"
+					  totalproperty="checksum.@{island}">
+				<fileset refid="zip.contents.@{island}"/>
+			</checksum>
+
+			<echoxml file="${zip.checksums.xml}"
+					 append="yes"
+					 if:set="create.island.zip.@{island}">
+				<item>
+					<file>@{island}</file>
+					<checkSum>${checksum.@{island}}</checkSum>
+				</item>
+			</echoxml>
+
+			<echo file="${islands.xml}"
+				  append="yes"
+				  if:set="create.island.zip.@{island}">@{island},</echo>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="package-local-files">
+		<attribute name="island"/>
+		<attribute name="manifest"/>
+		<attribute name="dir" default="."/>
+		<sequential>
+			<copy todir="${package.dir}/@{dir}" if:set="package.island.files.@{island}">
+				<fileset dir="@{dir}" includesfile="@{manifest}"/>
+			</copy>
+		</sequential>
+	</macrodef>
+</project>

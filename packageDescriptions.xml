@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<overviews>
+	<packages>
+		<package name="engine">
+			<shortDescription><![CDATA[
+				The engine package contains the core classes essential to any ash game.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The engine package contains the core classes essential to any ash game. Most notable is ShellApi, which acts as a proxy for the Shell and provides high-level services for all parts of the game.
+			]]>
+			</description>
+		</package>
+		<package name="engine.creators">
+			<shortDescription><![CDATA[
+				The creators package contains utility classes which help configure entities in a standard way.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The creators package contains utility classes which help configure entities in a standard way.
+			]]>
+			</description>
+		</package>
+		<package name="engine.data">
+			<shortDescription><![CDATA[
+				The data package contains the core value classes useful to any ash game.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The data package contains the core value classes useful to any ash game.
+			]]>
+			</description>
+		</package>
+		<package name="engine.group">
+			<shortDescription><![CDATA[
+				The group package contains the core classes which define a hierarchy of containers useful to any ash game.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The group package contains the core classes which define a hierarchy of containers useful to any ash game.
+			]]>
+			</description>
+		</package>
+		<package name="engine.managers">
+			<shortDescription><![CDATA[
+				The managers package contains utility classes which provide services to the Shell.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The managers package contains utility classes which provide services to the Shell.
+			]]>
+			</description>
+		</package>
+		<package name="engine.nodes">
+			<shortDescription><![CDATA[
+				The nodes package contains the core ash nodes essential to any ash game.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The nodes package contains the core ash nodes essential to any ash game.
+			]]>
+			</description>
+		</package>
+		<package name="engine.systems">
+			<shortDescription><![CDATA[
+				The systems package contains the core ash systems essential to any ash game.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The systems package contains the core ash systems essential to any ash game.
+			]]>
+			</description>
+		</package>
+		<package name="engine.util">
+			<shortDescription><![CDATA[
+				The util package contains utility classes which provide core development tools.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The util package contains utility classes which provide core development tools.
+			]]>
+			</description>
+		</package>
+		<package name="game">
+			<shortDescription><![CDATA[
+				The game package contains the game classes specific to Poptropica Island development.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The game package contains the game classes specific to Poptropica Island development.
+			]]>
+			</description>
+		</package>
+		<package name="game.components">
+			<shortDescription><![CDATA[
+				The components package contains the core ash components specific to Poptropica Islands.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The components package contains the core ash components specific to Poptropica Islands.
+			]]>
+			</description>
+		</package>
+		<package name="game.data">
+			<shortDescription><![CDATA[
+				The data package contains the core value classes useful to Poptropica Islands.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The data package contains the core value classes useful to Poptropica Islands.
+			]]>
+			</description>
+		</package>
+		<package name="game.item">
+			<shortDescription><![CDATA[
+				The item package contains the classes which define a Poptropica Island's Inventory Items.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The item package contains the classes which define a Poptropica Island's Inventory Items.
+			]]>
+			</description>
+		</package>
+		<package name="game.managers">
+			<shortDescription><![CDATA[
+				The managers package contains utility classes which provide services useful to Poptropica Islands.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The managers package contains utility classes which provide services useful to Poptropica Islands.
+			]]>
+			</description>
+		</package>
+		<package name="game.nodes">
+			<shortDescription><![CDATA[
+				The nodes package contains the core ash nodes essential to any Poptropica Island.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The nodes package contains the core ash nodes essential to any Poptropica Island.
+			]]>
+			</description>
+		</package>
+		<package name="game.proxy">
+			<shortDescription><![CDATA[
+				The proxy package contains classes which manage data transfer for a Poptropica Island.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The proxy package contains classes which manage data transfer for a Poptropica Island.
+			]]>
+			</description>
+		</package>
+		<package name="game.systems">
+			<shortDescription><![CDATA[
+				The systems package contains the core ash systems essential to any Poptropica Island.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The systems package contains the core ash systems essential to any Poptropica Island.
+			]]>
+			</description>
+		</package>
+		<package name="game.ui">
+			<shortDescription><![CDATA[
+				The ui package contains classes which define the user interface of any Poptropica Island.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The ui package contains classes which define the user interface of any Poptropica Island.
+			]]>
+			</description>
+		</package>
+		<package name="game.util">
+			<shortDescription><![CDATA[
+				The util package contains utility classes which provide Poptropica Island development tools.
+			]]>
+			</shortDescription>
+			<description><![CDATA[
+				The util package contains utility classes which provide Poptropica Island development tools.
+			]]>
+			</description>
+		</package>
+	</packages>
+</overviews>

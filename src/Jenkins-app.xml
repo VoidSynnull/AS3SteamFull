@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+    <id>universallyUniqueIdentifierStub</id>
+    <filename>appFilenameStub</filename>
+    <name>appNameStub</name>
+    <versionNumber>0.0.0</versionNumber>
+    <versionLabel>0.0.0 #0</versionLabel>
+
+    <initialWindow>
+        <content>mainSWFName.swfStub</content>
+        <visible>true</visible>
+        <autoOrients>true</autoOrients>
+        <fullScreen>true</fullScreen>
+        <renderMode>gpu</renderMode>
+        <aspectRatio>landscape</aspectRatio>
+    </initialWindow>
+
+    <icon>
+        <image57x57>Icon.png</image57x57>
+        <image114x114>Icon@2x.png</image114x114>
+        <image60x60>Icon-60.png</image60x60>
+        <image120x120>Icon-60@2x.png</image120x120>
+		 <image100x100>Icon-60@2x.png</image100x100>
+        <image180x180>Icon-60@3x.png</image180x180>
+        <image72x72>Icon-72.png</image72x72>
+        <image144x144>Icon-72@2x.png</image144x144>
+        <image76x76>Icon-76.png</image76x76>
+        <image152x152>Icon-76@2x.png</image152x152>
+        <image167x167>Icon-167.png</image167x167>
+        <image29x29>Icon-Small.png</image29x29>
+        <image58x58>Icon-Small@2x.png</image58x58>
+        <image87x87>Icon-Small@3x.png</image87x87>
+        <image40x40>Icon-Small-40.png</image40x40>
+        <image80x80>Icon-Small-40@2x.png</image80x80>
+        <image50x50>Icon-Small-50.png</image50x50>
+        <image100x100>Icon-Small-50@2x.png</image100x100>
+        <image1024x1024>iTunesArtwork@2x.png</image1024x1024>
+    </icon>
+
+    <allowBrowserInvocation>true</allowBrowserInvocation>
+
+    <iPhone>
+        <InfoAdditions>
+            <![CDATA[
+			<key>MinimumOSVersion</key>
+			<string>9.0</string>
+			<key>NSCameraUsageDescription</key>
+			<string>Take and upload a picture of the items to transport.</string>
+			<key>NSPhotoLibraryUsageDescription</key>
+			<string>Upload a picture of the items to transport from the photo library.</string>
+			<key>NSPhotoLibraryAddUsageDescription</key>
+			<string>Write a picture of the items to transport from the photo library.</string>
+			<key>UIDeviceFamily</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+			<key>CFBundleURLTypes</key>
+			<array>
+				<dict>
+					<key>CFBundleURLSchemes</key>
+					<array>
+						<string>poptropica</string>
+					</array>
+					<key>CFBundleURLName</key>
+					<string>poptropica</string>
+				</dict>
+			</array>
+			<key>NSAppTransportSecurity</key>
+			<dict>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+			</dict>
+			<key>GoogleAppVerification</key>
+			<array>
+			  <string>X-cQUb8TLcjB3JJSAshx5nX_E53Twxe-6WtPP159fyU</string>
+			</array>
+			]]>
+        </InfoAdditions>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+
+    <android>
+        <manifestAdditions>
+            <![CDATA[
+			<manifest android:installLocation="auto">
+				<uses-sdk android:minSdkVersion="18" android:targetSdkVersion="18" />
+				
+				<supports-screens
+					android:smallScreens="false"
+					android:normalScreens="true"
+					android:largeScreens="true"
+					android:xlargeScreens="true"
+					android:anyDensity="true"
+					android:requiresSmallestWidthDp="320"/>
+
+				<uses-permission android:name="android.permission.INTERNET"/>
+				<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+				<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+				<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+			    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			    <uses-permission android:name="android.permission.CAMERA"/>
+				<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+				<uses-permission android:name="android.permission.WAKE_LOCK"/>
+				<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+				
+				<application android:hardwareAccelerated="true">
+
+					 <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background dispatching on non-Google Play devices -->
+					 <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true">
+						 <intent-filter>
+							 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+						 </intent-filter>
+					 </receiver>
+					 <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+
+					<activity android:excludeFromRecents="false">
+						<intent-filter>
+							<action   android:name="android.intent.action.MAIN"/>
+							<category android:name="android.intent.category.LAUNCHER"/>
+						</intent-filter>
+						<intent-filter>
+							<action   android:name="android.intent.action.VIEW"/>
+							<category android:name="android.intent.category.BROWSABLE"/>
+							<category android:name="android.intent.category.DEFAULT"/>
+							<data     android:scheme="poptropica"/>
+						</intent-filter>
+					</activity>
+					
+				</application>
+			</manifest>
+			]]>
+            <![CDATA[
+			<manifest android:installLocation="auto">
+				<uses-sdk android:minSdkVersion="18" android:targetSdkVersion="18" />
+
+				<supports-screens
+					android:smallScreens="false"
+					android:normalScreens="true"
+					android:largeScreens="true"
+					android:xlargeScreens="true"
+					android:anyDensity="true"
+					android:requiresSmallestWidthDp="320"/>
+
+				<uses-permission android:name="android.permission.INTERNET"/>
+				<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+				<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+				<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+			    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			    <uses-permission android:name="android.permission.CAMERA"/>
+				<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+				<uses-permission android:name="android.permission.WAKE_LOCK"/>
+				<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+				<uses-permission android:name="com.android.vending.BILLING" />
+				<uses-feature android:name="android.hardware.camera" android:required="false"/>
+				<uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+				<application android:hardwareAccelerated="true">
+
+					 <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background dispatching on non-Google Play devices -->
+					 <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true">
+						 <intent-filter>
+							 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+						 </intent-filter>
+					 </receiver>
+					 <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+
+					<activity android:excludeFromRecents="false">
+						<intent-filter>
+							<action   android:name="android.intent.action.MAIN"/>
+							<category android:name="android.intent.category.LAUNCHER"/>
+						</intent-filter>
+						<intent-filter>
+							<action   android:name="android.intent.action.VIEW"/>
+							<category android:name="android.intent.category.BROWSABLE"/>
+							<category android:name="android.intent.category.DEFAULT"/>
+							<data     android:scheme="poptropica"/>
+						</intent-filter>
+					</activity>
+
+				</application>
+			</manifest>
+			]]>
+        </manifestAdditions>
+    </android>
+
+    <extensions>
+        <extensionID>com.pearsoned.poptropica.ane.PoptropicaANE</extensionID>
+		<extensionID>com.milkmangames.extensions.StoreKit</extensionID>
+		<extensionID>com.milkmangames.extensions.AndroidIAB</extensionID>
+		<!--<extensionID>com.milkmangames.extensions.GAnalytics</extensionID>-->
+    </extensions>
+</application>

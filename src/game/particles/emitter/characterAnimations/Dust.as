@@ -1,0 +1,95 @@
+/**
+ * ...
+ * @author Bard
+ */
+
+ package game.particles.emitter.characterAnimations 
+{
+	import flash.geom.Point;
+	
+	import engine.components.Spatial;
+	
+	import org.flintparticles.common.actions.Age;
+	import org.flintparticles.common.actions.Fade;
+	import org.flintparticles.common.actions.ScaleImage;
+	import org.flintparticles.common.counters.Random;
+	import org.flintparticles.common.displayObjects.Blob;
+	import org.flintparticles.common.easing.Quadratic;
+	import org.flintparticles.common.initializers.AlphaInit;
+	import org.flintparticles.common.initializers.ImageClass;
+	import org.flintparticles.common.initializers.Lifetime;
+	import org.flintparticles.common.initializers.ScaleImageInit;
+	import org.flintparticles.twoD.actions.Accelerate;
+	import org.flintparticles.twoD.actions.Move;
+	import org.flintparticles.twoD.actions.RandomDrift;
+	import org.flintparticles.twoD.emitters.Emitter2D;
+	import org.flintparticles.twoD.initializers.Position;
+	import org.flintparticles.twoD.initializers.Velocity;
+	import org.flintparticles.twoD.zones.EllipseZone;
+	import org.flintparticles.twoD.zones.LineZone;
+	
+	public class Dust extends Emitter2D
+	{
+		public function Dust() 
+		{
+			
+		}
+		
+		public override function update( time:Number ):void
+		{
+			// check direction of followTarget
+			var newDirection:int = ( _followTarget.scaleX > 0 ) ? 1 : -1;
+			if ( newDirection != _direction )
+			{
+				_direction = newDirection;
+				changeDirection();
+			}
+			
+			super.update( time );
+		}
+		
+		public function init( followTarget:Spatial ):void
+		{
+			super.counter = new Random( 10, 30 );
+
+		    addInitializer( new ImageClass( Blob, [5], true ) );
+		    addInitializer( new ScaleImageInit( .8, 1.2) );
+			addInitializer( new AlphaInit( 0, .2 ));
+			addInitializer( new Lifetime( 1, 1.1 ) ); 
+			_velocityLineZone = new LineZone( new Point( -20, -10), new Point( -40, -30 ) );
+			addInitializer( new Velocity( _velocityLineZone ) );
+			//addInitializer( new Position( new DiscZone( new Point(0, 0), 50 ) ) );
+			addInitializer( new Position( new EllipseZone( new Point( 0,0 ), 50, 5)));
+		  
+			addAction( new Age( Quadratic.easeOut ) );
+		    addAction( new Move() );
+		    addAction( new RandomDrift( 100, 100 ) );
+			addAction( new ScaleImage( .7, 1.5 ) );
+			addAction( new Fade( .2, 0 ) );
+			_accelerate = new Accelerate( 2, 5);
+			addAction( _accelerate );
+			
+			_followTarget = followTarget;
+			_direction = 1;
+			if ( _followTarget.scaleX < 0 )
+			{
+				_direction = -1;
+				changeDirection();
+			}
+		}
+		
+		private function changeDirection():void
+		{
+			_velocityLineZone.startX *= -1;
+			_velocityLineZone.endX *= -1;
+			_accelerate.x *= -1;
+		}
+
+		private var _followTarget:Spatial;
+		private var _direction:int;
+		
+		private var _velocityLineZone:LineZone
+		private var _accelerate:Accelerate;
+	}
+}
+

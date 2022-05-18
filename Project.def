@@ -1,0 +1,95 @@
+##########################################################################
+# Global variables required by all lower level Makefiles
+##########################################################################
+
+.SUFFIXES : .fla .swf
+
+#####
+# Release Process Variables
+#####
+PROJECT_ROOT :=/cygdrive/h/cygwin64/home/pjenkadm/svn_cos/poptropica2_1-2_dev
+BLD_PFMS :=Shell IosShell
+BLD_TYPE :=Debug
+ENV :=DEV
+LABEL :=POPTROPICA2_0.0.0
+
+AS3_INST_HOST :=fs02.fen.com i.lin172.fen.com
+AS3_INST_LOC :=/tmp
+
+MOBILE_VERSION :=$(subst POPTROPICA2_,,$(LABEL))
+MOBILE_INST_HOST :=fs02.fen.com i.ext.poptropica.com
+MOBILE_INST_LOC :=/site/html/poptrop/zipfiles
+
+#####
+# Build Process
+#####
+OS := $(shell uname)
+
+export ENV LABEL BLD_TYPE MOBILE_VERSION
+
+BUILD_TIME=$(shell date +"%r on %D")
+
+ifeq ($(OS),CYGWIN_NT-6.1)
+	CYG_HOME :=//USBOST-FENCISWF/cygwin64
+	CYG_JAVA_HOME=$(shell cygpath -m $(JAVA_HOME))
+	AIR_SDK_HOME :=H:/AIR_SDK_14.0.0.137
+	SHELL :=$(CYG_HOME)/bin/bash.exe
+	BLD_PATH :=${PATH}
+	export PATH=$(BLD_PATH):$(CYG_HOME)/bin:$(JAVA_HOME)/bin AIR_SDK_HOME=$(AIR_SDK_HOME)
+	PLATFORM :=Win7_6.1
+	FLASH :='C:/Program Files (x86)/Adobe/Adobe Flash CS6/Flash.exe'
+endif
+
+MXMLC :=$(AIR_SDK_HOME)/bin/mxmlc
+MXMLC_FLAGS :=+configname=air -source-path=src -library-path+=$(AIR_SDK_HOME)/frameworks/libs/asc-support.swc \
+	-library-path+=$(AIR_SDK_HOME)/frameworks/libs/air/servicemonitor.swc -library-path+=lib \
+	-external-library-path+=$(AIR_SDK_HOME)/frameworks/libs/air/airglobal.swc \
+	-default-background-color=0xFFFFFF -strict=true
+DEBUG_FLAGS := -debug=true -advanced-telemetry=true
+MOBILE_FLAGS :=-mobile=true -inline -swf-version=41
+
+ADT :="$(CYG_JAVA_HOME)"/bin/java -jar "$(AIR_SDK_HOME)/lib/adt.jar" -package -target
+ADT_FLAGS :=-storetype pkcs12 -storepass pears0n
+
+ADT_TARGET_IosShell_Release=ipa-app-store
+ADT_TARGET_IosShell_Debug=ipa-debug -sampler
+ADT_TARGET_IosShell_Smoketest=ipa-test-interpreter
+ADT_TARGET_IosShell_Test=ipa-test-interpreter
+ADT_TARGET_AndroidShell_Release=apk-captive-runtime
+ADT_TARGET_AndroidShell_Debug=apk-debug
+ADT_TARGET_AndroidShell_Smoketest=apk-debug
+ADT_TARGET_AndroidShell_Test=apk-debug
+
+PKG_ASSET_DIR :=pkg/bin
+
+ifeq ($(ASSETS),All)
+	ASSET_DIR :=bin
+else
+	ASSET_DIR :=$(PKG_ASSET_DIR)
+endif
+
+BIN_DIR :=$(PROJECT_ROOT)/bld/$(PLATFORM)/$(BLD_TYPE)/bin
+GEN_DIR :=$(PROJECT_ROOT)/bld/$(PLATFORM)/$(BLD_TYPE)/gen
+RUNDIR :=$(shell cygpath -m $(GEN_DIR))
+ERR_DIR :=$(PROJECT_ROOT)/bld/$(PLATFORM)/$(BLD_TYPE)/err
+VPATH :=$(BIN_DIR);.
+
+#############################################################################
+# Targets required for all Makefiles
+#############################################################################
+
+export_swf :
+	@echo ""
+	@echo ""$(FLASH) $(RUNDIR)/build.jsfl""
+	@if [ -f $(GEN_DIR)/build.jsfl ]; then \
+		echo "fl.quit(true);" >> $(GEN_DIR)/build.jsfl; \
+		chmod 775 $(GEN_DIR)/build.jsfl; \
+		echo ""; \
+		$(FLASH) $(RUNDIR)/build.jsfl; \
+		echo ""; \
+		mv $(GEN_DIR)/build.jsfl $(GEN_DIR)/build.jsfl.prev; \
+	else \
+		echo ""; \
+		echo "Build is up to date..."; \
+		echo ""; \
+	fi

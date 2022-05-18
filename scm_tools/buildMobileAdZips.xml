@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+	<target name="build-mobile-ad-zips" depends="prepare">
+		
+		<create-ad-zip campaign="CliffordQuest"/>
+		
+		<create-ad-zip campaign="CliffordMMSQ"/>
+		
+		<create-ad-zip campaign="CliffordMMSQ2"/>
+		
+		<create-ad-zip campaign="CliffordMapDriver"/>
+	
+		<create-ad-zip campaign="CliffordIslandBooth"/>
+		
+		<create-ad-zip campaign="EncantoVBB"/>
+		
+		<create-ad-zip campaign="EncantoMapDriver"/>
+		
+		<create-ad-zip campaign="ChristmasAgainVBB"/>
+		
+		<create-ad-zip campaign="ChristmasAgainMapDriver"/>
+		
+	</target>
+
+</project>

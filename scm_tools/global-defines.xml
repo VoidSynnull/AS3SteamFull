@@ -1,0 +1,71 @@
+<flex-config>
+<compiler>
+	<!-- establish some named values to facilitate setting loglevels -->
+	<define append="true">
+		<name>LOGLEVEL::none</name>
+		<value>0</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::fatal</name>
+		<value>10</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::error</name>
+		<value>20</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::warn</name>
+		<value>30</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::info</name>
+		<value>40</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::debug</name>
+		<value>50</value>
+	</define>
+	<define append="true">
+		<name>LOGLEVEL::trace</name>
+		<value>60</value>
+	</define>
+
+	<!-- define some global constants, to be consumed by PopAppBase -->
+	<define append="true">
+		<name>CONFIG::allowOverwrite</name>
+		<value>true</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::appVersionNumber</name>
+		<value>''</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::kernelVersionNumber</name>
+		<value>''</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::appBuildInfo</name>
+		<value>''</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::isProductionBuild</name>
+		<value>false</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::isDebugBuild</name>
+		<value>true</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::iapOn</name>
+		<value>false</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::isAdsActive</name>
+		<value>true</value>
+	</define>
+	<define append="true">
+		<name>CONFIG::logLevel</name>
+		<value>LOGLEVEL::trace</value>
+	</define>
+</compiler>
+</flex-config>

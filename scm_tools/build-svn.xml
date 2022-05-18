@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "project.dtd" >
+<project>
+	<scriptdef language="javascript" name="ucfirst">
+		<attribute name="string" />
+		<attribute name="to" />
+		var string = attributes.get("string");
+		var to = string.substr(0,1).toUpperCase() +
+		string.substr(1).toLowerCase();
+		project.setProperty(attributes.get("to"), to);
+	</scriptdef>
+
+	<scriptdef language="javascript" name="lower">
+		<attribute name="string" />
+		<attribute name="to" />
+		var string = attributes.get("string");
+		project.setProperty(attributes.get("to"), string.toLowerCase());
+	</scriptdef>
+
+	<scriptdef language="javascript" name="upper">
+		<attribute name="string" />
+		<attribute name="to" />
+		var string = attributes.get("string");
+		project.setProperty(attributes.get("to"), string.toUpperCase());
+	</scriptdef>
+
+	<property name="svnant.install.dir" location="${basedir}" />
+	<lower string="${build.user.id}" to="username" />
+
+	<path id="path.svnant">
+		<fileset dir="${svnant.install.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<!-- http://subclipse.tigris.org/svnant/svntask.html -->
+	<typedef resource="org/tigris/subversion/svnant/svnantlib.xml"
+		classpathref="path.svnant" />
+
+	<svnSetting id="svn.settings" javahl="false" svnkit="true" />
+	<svnSetting id="svn.settings.authenticated" javahl="false"
+		svnkit="true" username="${username}" password="${password}"
+		failonerror="true" />
+
+	<target name="svn-info" depends="-check-if-svn-values-are-set, -get-svn-info" description="show svn info">
+		<echo message="svn.info.path: ${svn.info.path}" />
+		<echo message="svn.info.name: ${svn.info.name}" />
+		<echo message="svn.info.url: ${svn.info.url}" />
+		<echo message="svn.info.repourl: ${svn.info.repourl}" />
+		<echo message="svn.info.repouuid: ${svn.info.repouuid}" />
+		<echo message="svn.info.rev: ${svn.info.rev}" />
+		<echo message="svn.info.nodekind: ${svn.info.nodekind}" />
+		<echo message="svn.info.schedule: ${svn.info.schedule}" />
+		<echo message="svn.info.author: ${svn.info.author}" />
+		<echo message="svn.repository.name: ${svn.repository.name}" />
+		<echo message="svn.project: ${svn.project}" />
+		<echo message="svn.master.url: ${svn.master.url}" />
+		<echo message="MOBIILE_RELEASE: ${MOBILE_RELEASE}" />
+	</target>
+
+	<!-- enumerate any values you may want to get from working copy info, checking
+		to see if they are defined -->
+	<target name="-check-if-svn-values-are-set">
+		<condition property="svn.values.set.by.jenkins">
+			<and>
+				<isset property="svn.info.url" />
+				<isset property="svn.info.rev" />
+			</and>
+		</condition>
+	</target>
+
+	<!-- run 'svn info' if there are undefined values that can be determined
+		from working copy info -->
+	<target name="-svn-info" depends="-check-if-svn-values-are-set"
+		unless="svn.values.set.by.jenkins">
+		<svn refid="svn.settings">
+			<info target="." />
+		</svn>
+	</target>
+
+	<!-- transform basic SVN info into the properties we use if not already
+		set in svn.info.* -->
+	<target name="-get-svn-info" depends="-svn-info">
+		<property name="SVN_URL" value="svn.info.url" />
+		<property name="SVN_REVISION" value="svn.info.rev" />
+		<loadresource property="svn.master.url">
+			<propertyresource name="svn.info.url" />
+			<filterchain>
+				<replaceregex pattern="/[^/]+/(trunk|tags|branches)/.*$"
+					replace="" />
+			</filterchain>
+		</loadresource>
+		<loadresource property="svn.project">
+			<propertyresource name="svn.info.url" />
+			<filterchain>
+				<replaceregex pattern=".*?/([^/]+)/(trunk|tags|branches)/.*$"
+					replace="\1" />
+			</filterchain>
+		</loadresource>
+		<loadresource property="svn.project.url">
+			<propertyresource name="svn.info.url" />
+			<filterchain>
+				<replaceregex pattern="/(trunk|tags|branches)/.*"
+					replace="" />
+			</filterchain>
+		</loadresource>
+		<loadresource property="svn.info.repourl">
+			<propertyresource name="svn.info.url" />
+			<filterchain>
+				<replaceregex pattern="^(.*?/[^/]+)/(trunk|tags|branches)/.*$"
+					replace="\1" />
+				<replaceregex pattern="^/[^/]+/[^/]+/?$.*$" replace="" />
+			</filterchain>
+		</loadresource>
+		<loadresource property="svn.repository.name">
+			<propertyresource name="svn.info.repourl" />
+			<filterchain>
+				<replaceregex pattern=".*?/([^/]+)$" replace="\1" />
+			</filterchain>
+		</loadresource>
+		<loadresource property="MOBILE_RELEASE">
+			<propertyresource name="svn.info.url" />
+			<filterchain>
+				<replaceregex pattern="^.*/(tags|branches)/poptropica2" replace="" />
+				<replaceregex pattern="^[^_-]*[_-]?([.0-9]+)" replace="\1" />
+				<replaceregex pattern="([-0-9]+)[_-].*$" replace="\1" />
+				<replaceregex pattern="-" replace="." />
+				<replaceregex pattern="([0-9][0-9])([0-9][0-9])" replace="\1.\2" />
+				<replaceregex pattern="^0([0-9])" replace="\1" />
+				<replaceregex pattern="[.]0([0-9])" replace=".\1" />
+				<replaceregex pattern="$" replace=".0" />
+			</filterchain>
+		</loadresource>
+        <loadresource property="config.kernelVersionNumber">
+            <propertyresource name="svn.info.url" />
+            <filterchain>
+                <replaceregex pattern="^.*/(tags|branches)/poptropica2[-_]" replace="" />
+                <replaceregex pattern="^([0-9]+)-.*$" replace="\1" />
+            </filterchain>
+        </loadresource>
+    </target>
+
+	<target name="increment-tag" description="Increment an existing SVN tag"
+		depends="-get-svn-info">
+
+		<!-- add one to the existing tag -->
+		<loadresource property="revision.subminor">
+			<string value="${Tag}" />
+			<filterchain>
+				<replaceregex pattern=".*?\.([0-9]*)$" replace="\1" />
+			</filterchain>
+		</loadresource>
+		<increment from="${revision.subminor}" to="revision.subminor.next" />
+		<loadresource property="revision.next">
+			<string value="${Tag}" />
+			<filterchain>
+				<replaceregex pattern="\.([0-9]*)$" replace=".${revision.subminor.next}" />
+			</filterchain>
+		</loadresource>
+		<property name="svn.dest.tag.url"
+			value="${svn.master.url}/${svn.project}/tags/${revision.next}" />
+		<fail message="${svn.dest.tag.url} already exists">
+			<condition>
+				<svnExists refid="svn.settings" target="${svn.dest.tag.url}" />
+			</condition>
+		</fail>
+
+		<!-- find the branch that we will tag -->
+		<lower string="${Tag}" to="svn.tag.lowercase" />
+		<loadresource property="svn.tagged.branch">
+			<string value="${svn.tag.lowercase}" />
+			<filterchain>
+				<replaceregex pattern="(_[0-9]+)[.]([0-9]+)[.][0-9]+[.][0-9]+$"
+					replace="\1-\2_dev" />
+				<replaceregex pattern="(_[0-9]+)[.]([0-9]+)[.][0-9]+$"
+					replace="\1-\2_maint" />
+			</filterchain>
+		</loadresource>
+		<property name="svn.source.branch.url"
+			value="${svn.master.url}/${svn.project}/branches/${svn.tagged.branch}" />
+
+		<svn refid="svn.settings.authenticated">
+			<copy
+				message="increment tag on ${svn.source.branch.url} to ${svn.dest.tag.url}"
+				srcUrl="${svn.source.branch.url}" destUrl="${svn.dest.tag.url}" />
+		</svn>
+	</target>
+
+	<!-- * start with current dev branch * verify that it is a public dev branch
+		and not a personal or project branch * determine what the next branch will
+		be * ensure that the new branch does not already exists * determine the tag
+		to use for atarting the next dev branch * verify the tag does not exist *
+		copy the current dev branch to the new tag * copy the new tag to the current
+		dev branch -->
+	<target name="make-new-development-branch" depends="-get-svn-info">
+		<fail message="${svn.current.branch} is not a development branch">
+			<condition>
+				<not>
+					<matches string="${svn.current.branch}" pattern="_dev$" />
+				</not>
+			</condition>
+		</fail>
+		<property name="svn.current.branch.url"
+			value="${svn.project.url}/branches/${svn.current.branch}" />
+
+		<decompose-branch-name />
+
+		<property name="svn.new.branch.major" value="${svn.current.branch.major}" />
+		<increment to="svn.new.branch.minor" from="${svn.current.branch.minor}" />
+
+		<property name="svn.new.tag"
+			value="${svn.tag.prefix}_${svn.new.branch.major}.${svn.new.branch.minor}.0.0" />
+		<property name="svn.new.tag.url" value="${svn.project.url}/tags/${svn.new.tag}" />
+
+		<fail message="${svn.new.tag} already exists">
+			<condition>
+				<svnExists refid="svn.settings" target="${svn.new.tag.url}" />
+			</condition>
+		</fail>
+
+		<property name="svn.new.branch"
+			value="${svn.project.name}_${svn.new.branch.major}-${svn.new.branch.minor}_${svn.branch.type}" />
+		<property name="svn.new.branch.url"
+			value="${svn.project.url}/branches/${svn.new.branch}" />
+
+		<fail message="${svn.new.branch} already exists">
+			<condition>
+				<svnExists refid="svn.settings" target="${svn.new.branch.url}" />
+			</condition>
+		</fail>
+
+		<svn refid="svn.settings.authenticated">
+			<copy
+				message="Create tag ${svn.new.tag} on ${svn.current.branch} to start ${svn.new.branch}"
+				srcUrl="${svn.current.branch.url}" destUrl="${svn.new.tag.url}" />
+		</svn>
+		<svn refid="svn.settings.authenticated">
+			<copy
+				message="increment tag on ${svn.source.branch.url} to ${svn.dest.tag.url}"
+				srcUrl="${svn.new.tag.url}" destUrl="${svn.new.branch.url}" />
+		</svn>
+	</target>
+
+	<target name="make-new-maintenance-branch" depends="-get-svn-info">
+		<fail message="${svn.current.branch} is not a development branch">
+			<condition>
+				<not>
+					<matches string="${svn.current.branch}" pattern="_dev$" />
+				</not>
+			</condition>
+		</fail>
+		<property name="svn.current.branch.url"
+			value="${svn.project.url}/branches/${svn.current.branch}" />
+
+		<decompose-branch-name />
+		<property name="svn.new.branch.major" value="${svn.current.branch.major}" />
+		<property name="svn.new.branch.minor" value="${svn.current.branch.minor}" />
+
+		<property name="svn.new.tag"
+			value="${svn.tag.prefix}_${svn.new.branch.major}.${svn.new.branch.minor}.0" />
+		<property name="svn.new.tag.url" value="${svn.project.url}/tags/${svn.new.tag}" />
+
+		<fail message="${svn.new.tag} already exists">
+			<condition>
+				<svnExists refid="svn.settings" target="${svn.new.tag.url}" />
+			</condition>
+		</fail>
+
+		<property name="svn.new.branch"
+			value="${svn.project.name}_${svn.new.branch.major}-${svn.new.branch.minor}_maint" />
+		<property name="svn.new.branch.url"
+			value="${svn.project.url}/branches/${svn.new.branch}" />
+
+		<fail message="${svn.new.branch} already exists">
+			<condition>
+				<svnExists refid="svn.settings" target="${svn.new.branch.url}" />
+			</condition>
+		</fail>
+
+		<svn refid="svn.settings.authenticated">
+			<copy
+				message="Create tag ${svn.new.tag} on ${svn.current.branch} to start ${svn.new.branch}"
+				srcUrl="${svn.current.branch.url}" destUrl="${svn.new.tag.url}" />
+		</svn>
+		<svn refid="svn.settings.authenticated">
+			<copy
+				message="increment tag on ${svn.source.branch.url} to ${svn.dest.tag.url}"
+				srcUrl="${svn.new.tag.url}" destUrl="${svn.new.branch.url}" />
+		</svn>
+	</target>
+
+	<macrodef name="decompose-branch-name">
+		<sequential>
+			<loadresource property="svn.current.branch.major">
+				<string value="${svn.current.branch}" />
+				<filterchain>
+					<replaceregex pattern="^[^_]+_([0-9]+)[-]([0-9]+)_dev$"
+						replace="\1" />
+				</filterchain>
+			</loadresource>
+
+			<loadresource property="svn.current.branch.minor">
+				<string value="${svn.current.branch}" />
+				<filterchain>
+					<replaceregex pattern="^[^_]+_([0-9]+)[-]([0-9]+)_dev$"
+						replace="\2" />
+				</filterchain>
+			</loadresource>
+
+			<loadresource property="svn.project.name">
+				<string value="${svn.current.branch}" />
+				<filterchain>
+					<replaceregex pattern="^([^_]+).*$" replace="\1" />
+				</filterchain>
+			</loadresource>
+			<upper string="${svn.project.name}" to="svn.tag.prefix" />
+
+			<loadresource property="svn.branch.type">
+				<string value="${svn.current.branch}" />
+				<filterchain>
+					<replaceregex pattern="^.*_([^_]+)$" replace="\1" />
+				</filterchain>
+			</loadresource>
+		</sequential>
+	</macrodef>
+
+	<scriptdef language="javascript" name="increment">
+		<attribute name="from" />
+		<attribute name="to" />
+		var from = parseInt(attributes.get("from"));
+		project.setProperty(attributes.get("to"), 1 + from);
+	</scriptdef>
+
+</project>

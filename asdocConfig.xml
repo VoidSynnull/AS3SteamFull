@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+
+		<warnings>false</warnings>
+    <compiler>
+		<strict>false</strict>
+		<library-path append="true">
+			<path-element>lib</path-element>
+	 		<path-element>/Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/libs/air</path-element>
+		</library-path>
+    </compiler>
+
+    <doc-sources>
+		<path-element>src/Shell.as</path-element>
+		<path-element>src/ShellState.as</path-element>
+		<path-element>src/ShellStep.as</path-element>
+		<path-element>src/com/poptropica</path-element>
+		<path-element>src/engine</path-element>
+ 		<path-element>src/game</path-element>
+   </doc-sources>
+
+	<exclude-sources>
+		<!-- there are some obsolete, unused (broken) classes loose in the codebase -->
+		<!-- 
+<path-element>src/game/scenes/carrot/_template/Template.as</path-element>
+		<path-element>src/game/scenes/testIsland/gabrielTest/JetpackEmitter.as</path-element>
+		<path-element>src/game/scenes/testIsland/particleTest/particles/ParticleExample1.as</path-element>
+		<path-element>src/game/scenes/testIsland/specialAbilities/components/SpecialAbility.as</path-element>
+		<path-element>src/game/scenes/testIsland/specialAbilities/components/SnowAbility.as</path-element>
+		<path-element>src/game/scenes/testIsland/specialAbilities/nodes/SpecialAbilityNode.as</path-element>
+		<path-element>src/game/scenes/testIsland/specialAbilities/systems/SpecialAbilitySystem.as</path-element>
+		<path-element>src/game/scenes/testIsland/tileTest/components/LayerTiling.as</path-element>
+		<path-element>src/game/scenes/testIsland/tileTest/nodes/LayerTilingNode.as</path-element>
+		<path-element>src/game/scenes/testIsland/tileTest/systems/LayerTilingSystem.as</path-element>
+		<path-element>src/game/scenes/testIsland/tileTest/utils/TileUtils.as</path-element>
+		<path-element>src/game/scenes/testIsland/tonyTest/TonyAirClass.as</path-element>
+ -->
+		<!-- there are some attempts at nice asdoc comments which are not yet nice enough -->
+		<path-element>src/engine/creators/ObjectCreator.as</path-element>
+		<path-element>src/game/util/Alignment.as</path-element>
+
+		<!-- there are some wonky library classes out there -->
+		<!-- 
+<path-element>src/ash/integration/robotlegs/AshExtension.as</path-element>
+		<path-element>src/ash/integration/starling/StarlingFrameTickProvider.as</path-element>
+		<path-element>src/ash/integration/starling/StarlingFixedTickProvider.as</path-element>
+ -->
+
+	</exclude-sources>
+
+<!-- 
+	<exclude-sources>
+    	<path-element>src/game/scenes/virusHunter/shared/DualScene.as</path-element>
+    	<path-element>src/game/scenes/examples/cardEditor/NewCardPopup.as</path-element>
+    	<path-element>src/game/scenes/mocktropica/poptropicaHQ/PoptropicaHQ.as</path-element>
+    	<path-element>src/game/scenes/shrink/bathroomShrunk01/BathroomShrunk01.as</path-element>
+    	<path-element>src/game/scenes/testIsland/shipSceneTest/ShipSceneTest.as</path-element>
+    	<path-element>src/com/quantcast/as3/VideoTracker.as</path-element>
+    	<path-element>src/ash/integration/robotlegs/AshExtension.as</path-element>
+    	<path-element>src/ash/integration/swiftsuspenders/NodeListProvider.as</path-element>
+    	<path-element>src/game/scenes/lands/shared/tileLib/renderers/BuildingOutliner.as</path-element>
+    	<path-element>src/game/scenes/lands/shared/tileLib/renderers/TerrainOutliner.as</path-element>
+    	<path-element>src/game/data/animation/entity/character/Hammer.as</path-element>
+    	<path-element>src/ash/integration/starling/StarlingFrameTickProvider.as</path-element>
+    	<path-element>src/ash/integration/starling/StarlingFixedTickProvider.as</path-element>
+    	<path-element>src/game/scenes/mocktropica/shared/AchievementGroup.as</path-element>
+    	<path-element>src/game/data/specialAbility/character/CarnivalHammer.as</path-element>
+    	<path-element>src/game/systems/entity/AnimationStateSystem.as</path-element>
+    	<path-element>src/game/systems/entity/ColorDisplaySystem.as</path-element>
+    	<path-element>src/game/scenes/testIsland/specialAbilities/components/SpecialAbility.as</path-element>
+    	<path-element>src/engine/systems/SpatialWrapSystem.as</path-element>
+    	<path-element>src/game/systems/entity/EyeSystem.as</path-element>
+    	<path-element>src/game/scenes/backlot/cityDestroy/systems/JetSystem.as</path-element>
+    	<path-element>src/game/scenes/testIsland/specialAbilities/components/SnowAbility.as</path-element>
+    	<path-element>src/game/systems/entity/character/states/touch/DiveState.as</path-element>
+    	<path-element>src/game/scenes/carrot/_template/Template.as</path-element>
+    	<path-element>src/game/scenes/deepDive2/alienDoor/AlienDoor.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/ledge/Ledge.as</path-element>
+    	<path-element>src/game/scenes/deepDive2/predatorArea/PredatorArea.as</path-element>
+    	<path-element>src/game/scenes/deepDive3/laboratory/Laboratory.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/reef/Reef.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/deepestOcean/DeepestOcean.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/maze/Maze.as</path-element>
+    	<path-element>src/game/scenes/deepDive2/medusaArea/MedusaArea.as</path-element>
+    	<path-element>src/game/scenes/testIsland/particleTest/particles/ParticleExample1.as</path-element>
+    	<path-element>src/game/scenes/custom/questInterior/QuestInterior.as</path-element>
+    	<path-element>src/game/scenes/myth/mountOlympus2/MountOlympus2.as</path-element>
+    	<path-element>src/game/scenes/survival4/guestRoom/GuestRoom.as</path-element>
+    	<path-element>src/game/scenes/survival4/banquetRoom/BanquetRoom.as</path-element>
+    	<path-element>src/game/data/animation/entity/PartAnimationData.as</path-element>
+    	<path-element>src/game/scenes/testIsland/tonyPhysicsTest/creators/NapeCreator.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/IChem.as</path-element>
+    	<path-element>src/game/util/TweenUtils.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/classes/WindLine.as</path-element>
+    	<path-element>src/game/scenes/lands/shared/tileLib/parsers/LandParser.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Bubble.as</path-element>
+    	<path-element>src/engine/managers/GroupManager.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Chemical.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Compound.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/classes/LightningBolt.as</path-element>
+    	<path-element>src/game/creators/motion/NapeCreator.as</path-element>
+    	<path-element>src/game/systems/entity/character/actionChain/actions/TweenAction.as</path-element>
+    	<path-element>src/com/poptropica/platformSpecific/ios/IosProductStore.as</path-element>
+    	<path-element>src/ash/integration/swiftsuspenders/SwiftSuspendersEngine.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/maze/systems/UrchinHazardsSystem.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/maze/systems/MazeFishSystem.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/systems/MoleculesSystem.as</path-element>
+    	<path-element>src/game/scenes/deepDive1/shared/systems/BubblesSystem.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/components/Wind.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/components/FloodWater.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/components/Molecules.as</path-element>
+    	<path-element>src/game/components/motion/NapeSyncToPosition.as</path-element>
+    	<path-element>src/game/components/motion/NapeMagneticBodies.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/components/PerlinNoise.as</path-element>
+    	<path-element>src/game/components/motion/NapeSpace.as</path-element>
+    	<path-element>src/game/scenes/virusHunter/shared/components/Tentacle.as</path-element>
+    	<path-element>src/game/components/motion/NapeInputConstraint.as</path-element>
+    	<path-element>src/game/scenes/testIsland/tonyPhysicsTest/components/NapeMotionComponent.as</path-element>
+    	<path-element>src/game/scenes/testIsland/tonyPhysicsTest/components/NapeSpaceComponent.as</path-element>
+    	<path-element>src/game/components/motion/PositionSyncToNape.as</path-element>
+    	<path-element>src/game/scenes/mocktropica/poptropicaHQ/components/Elevator.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/components/Lightning.as</path-element>
+    	<path-element>src/engine/components/Tween.as</path-element>
+    	<path-element>src/game/scenes/testIsland/tonyPhysicsTest/components/NapeInputConstraint.as</path-element>
+    	<path-element>src/game/scenes/testIsland/disasterScene/components/Tornado.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/P3.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/X3.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Br.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Na.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Gl.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/H.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Fr.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/Cl.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/X1.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/X2.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/P1.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/P2.as</path-element>
+    	<path-element>src/game/scenes/carnival/apothecary/chemicals/OH.as</path-element>
+    	<path-element>src/game/data/animation/entity/RigAnimationData.as</path-element>
+    	<path-element>src/game/managers/ScreenManager.as</path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+    	<path-element></path-element>
+	</exclude-sources>
+	-->
+
+	<package-description-file>packageDescriptions.xml</package-description-file>
+	<window-title>Poptropica 2 AS3 API Docs</window-title>
+	<main-title>Poptropica 2 AS3 API Docs</main-title>
+	<footer>All rights reversed.</footer>
+
+</flex-config>
+<!--       [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/(25): col: 33 Error: Type was not found or was not a compile-time constant: PartAnimationData.
+     [exec] 		public function addPart( part:PartAnimationData ):void
+     [exec] 		                              ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/data/animation/entity/RigAnimationData.as(30): col: 49 Error: Type was not found or was not a compile-time constant: PartAnimationData.
+     [exec] 		public function getPart( partName :String ) : PartAnimationData
+     [exec] 		                                              ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/(22): col: 78 Error: Type was not found or was not a compile-time constant: GroupManager.
+     [exec] 		public function ScreenManager(stage:Stage, shellApi:ShellApi, groupManager:GroupManager)
+     [exec] 		                                                                           ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/lungs/systems/BossSystem.as(296): col: 40 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function fadeFromWhite(tween:Tween, explosion:Sprite):void
+     [exec] 		                                     ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/systems/entity/AnimationLoaderSystem.as(204): col: 104 Error: Type was not found or was not a compile-time constant: PartAnimationData.
+     [exec] 		private function resetJoint( node:AnimationLoaderNode, jointEntity:Entity, joint:Joint, partAnimData:PartAnimationData ):void
+     [exec] 		                                                                                                     ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Heart/systems/WormBossSystem.as(135): col: 40 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function fadeFromWhite(tween:Tween, explosion:Sprite):void
+     [exec] 		                                     ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/deepDive1/shared/components/Bubbles.as(93): col: 46 Error: Type was not found or was not a compile-time constant: InteractionCallback.
+     [exec] 		private function handleTeleport($collision:InteractionCallback):void
+     [exec] 		                                           ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/WindSystem.as(69): col: 44 Error: Type was not found or was not a compile-time constant: WindLine.
+     [exec] 		private function initializeWindLine(line:WindLine, node:WindNode):void
+     [exec] 		                                         ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/WindSystem.as(99): col: 44 Error: Type was not found or was not a compile-time constant: WindLine.
+     [exec] 		private function updateWindLineMove(line:WindLine, time:Number, node:WindNode):void
+     [exec] 		                                         ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/WindSystem.as(130): col: 44 Error: Type was not found or was not a compile-time constant: WindLine.
+     [exec] 		private function updateWindLineSpin(line:WindLine, time:Number, node:WindNode):void
+     [exec] 		                                         ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/WindSystem.as(135): col: 55 Error: Type was not found or was not a compile-time constant: WindLine.
+     [exec] 		private function createWindLine(node:WindNode, line:WindLine):void
+     [exec] 		                                                    ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Intestine/systems/Day2IntestineTargetSystem.as(105): col: 92 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function handleNerve(node:SceneWeaponTargetNode, groups:Array, axes:Array, tween:Tween):void
+     [exec] 		                                                                                         ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Intestine/systems/Day2IntestineTargetSystem.as(125): col: 90 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function moveMuscle(node:SceneWeaponTargetNode, group:uint, axis:String, tween:Tween, size:Number):void
+     [exec] 		                                                                                       ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(72): col: 42 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function updateBoltStrike(bolt:LightningBolt, time:Number):void
+     [exec] 		                                       ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(92): col: 41 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function updateBoltFlash(bolt:LightningBolt, time:Number, node:LightningNode):void
+     [exec] 		                                      ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(152): col: 56 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function createBolt(node:LightningNode, bolt:LightningBolt):void
+     [exec] 		                                                     ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(160): col: 41 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function resetBoltPoints(bolt:LightningBolt, node:LightningNode):void
+     [exec] 		                                      ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(179): col: 34 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function drawBolt(bolt:LightningBolt):void
+     [exec] 		                               ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/testIsland/disasterScene/systems/LightningSystem.as(186): col: 38 Error: Type was not found or was not a compile-time constant: LightningBolt.
+     [exec] 		private function drawBoltLine(bolt:LightningBolt, thickness:Number, color:uint, alpha:Number):void
+     [exec] 		                                   ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Mouth/Day2Mouth.as(337): col: 51 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function scaleIn(spatial:Spatial, tween:Tween):void
+     [exec] 		                                                ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Mouth/Day2Mouth.as(342): col: 52 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function scaleOut(spatial:Spatial, tween:Tween):void
+     [exec] 		                                                 ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Heart/Day2Heart.as(282): col: 50 Error: Type was not found or was not a compile-time constant: Tween.
+     [exec] 		private function scaleIn(clip:MovieClip, tween:Tween):void
+     [exec] 		                                               ^
+     [exec] /Users/umartr6/Documents/FEN/pop/devel/dev1-11/src/game/scenes/virusHunter/day2Heart/Day2Heart.as(287): col: 51 Error: Type was not found or was not a compile-time constant: Tween.
+-->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest
+        xmlns="http://schemas.android.com/apk/res/manifest"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:installLocation="auto">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="30" /> <!-- Android versions 4.1, 8.0 -->
+
+    <supports-screens
+            android:smallScreens="false"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:xlargeScreens="true"
+            android:anyDensity="true"
+            android:requiresSmallestWidthDp="320"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="com.android.vending.BILLING" />
+    
+    <application android:hardwareAccelerated="true">
+        <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background dispatching on non-Google Play devices
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+
+        <service  android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <receiver android:name="com.milkmangames.extensions.android.ganalytics.CampaignTrackingReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>-->
+        
+        <activity android:excludeFromRecents="false">
+            <intent-filter>
+                <action   android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action   android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data     android:scheme="poptropica"/>
+            </intent-filter>
+        </activity>
+		</application>
+</manifest>

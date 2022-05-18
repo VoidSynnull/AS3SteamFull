@@ -1,0 +1,1 @@
+builder\steamcmd.exe +login PoptropicaOfficial St0ry@rc +run_app_build ..\scripts\simple_app_build.vdf

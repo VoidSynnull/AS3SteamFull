@@ -1,0 +1,71 @@
+<item id="2923"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Cereal Rain Card</name> <!-- *** Change this card name -->
+  	<campaignID>FrostedFlakes2Quest</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="true"/> 
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Frosted Flakes</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Cereal Rain</value> <!-- Change this title -->
+		</text>
+		<text>
+			<value>Hey kids, this is advertising</value>
+			<size>18</size>
+			<y>-126</y>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<web>Spacebar tap to rain</web>
+			<mobile>Press action button to rain</mobile>
+			<y>66</y>
+		</text>
+ 	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.swf -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<item>limited_frosted_flakes_spoon</item>
+		</look>
+	</looks> 
+</item>

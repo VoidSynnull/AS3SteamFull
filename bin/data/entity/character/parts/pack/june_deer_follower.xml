@@ -1,0 +1,13 @@
+<part>
+	<id>june_deer_follower</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="mittens">
+	<save>true</save>
+	<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+	<parameters>
+		<param id="front">hoof_deer_foot</param>
+		<param id="back">hoof_deer_foot</param>
+	</parameters>
+</specialAbility>
+</part>

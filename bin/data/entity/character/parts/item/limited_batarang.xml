@@ -1,0 +1,17 @@
+<part>
+	<id>limited_batarang</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2855</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="speedX">600</param>
+			<param id="speedY">-1</param>
+			<param id="boomerang">true</param>
+			<param id="knock">true</param>
+			<param id="tracking">LegoBatmanQuest,batarang</param>
+		</parameters>
+	</specialAbility>
+</part>

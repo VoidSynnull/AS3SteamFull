@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorMainStreet1">
+		<scene>game.scenes.spy.mainStreet.MainStreet</scene>
+		<x>4168</x>
+		<y>1850</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorMainStreet2">
+		<scene>game.scenes.spy.mainStreet.MainStreet</scene>
+		<x>4605</x>
+		<y>2268</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

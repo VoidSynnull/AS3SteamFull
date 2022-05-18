@@ -1,0 +1,22 @@
+<part>
+	<id>sponsorshrinkray</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.TimelineGun</className>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="now_actions" startDelay="0.5">
+				<action class="SetScaleAction">
+					<parameters>
+						<param id="object" type="string">FACING</param>
+						<param id="scale" type="number">0.18</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

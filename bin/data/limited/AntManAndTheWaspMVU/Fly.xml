@@ -1,0 +1,39 @@
+<game>
+	<scale>0.18</scale><!-- how big the char should be -->
+	<looks>
+		<skin id="antman">
+			<gender>male</gender>
+			<skinColor>0x353535</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>p_WaffleGirl</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_ant_man</facial>
+			<overshirt>limited_ant_man</overshirt>
+			<pants>limited_ant_man_suit</pants>
+		</skin>
+		<skin id="wasp">
+			<gender>female</gender>
+			<skinColor>0x343440</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>p_WaffleGirl</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_wasp</facial>
+			<overshirt>limited_wasp</overshirt>
+			<pants>limited_wasp_suit</pants>
+		</skin>
+	</looks>
+	<animations>
+		<animation id="waspidle">game.data.animation.entity.character.custom.WaspFly</animation>
+		<animation id="antmanidle">game.data.animation.entity.character.Stand</animation>
+	</animations>
+	<sounds>
+		<sound id="banana">flesh_impact_02.mp3</sound>
+		<sound id="salt">glass_break_02.mp3</sound>
+		<sound id="glass">glass_break_02.mp3</sound>
+		<sound id="sponge">flesh_impact_02.mp3</sound>
+		<sound id="lemon">flesh_impact_01.mp3</sound>
+		<sound id="apple">flesh_impact_01.mp3</sound>
+		<sound id="whisk">can_impact_01.mp3</sound>
+		<sound id="pan">metal_impact_12.mp3</sound>
+	</sounds>
+</game>

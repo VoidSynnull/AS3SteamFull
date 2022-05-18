@@ -1,0 +1,38 @@
+<item id="3305">
+		<type>store</type>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		<buttons>
+			<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+		</buttons>
+	<textfields>
+			<text id="storeSubTitle">
+					<value>Mythology</value>
+			</text>
+			<text id="storeTitle">
+					<value>Medusa Surfer</value>
+			</text>
+ 	</textfields>
+ 	
+ 	<looks>
+			<look>
+			<mouth>9</mouth>
+			<marks>medusa</marks>
+			<facial>pmythsurfermedusa</facial>
+			<shirt>pmythsurfermedusa</shirt>
+			<pants>pmythsurfermedusa</pants>
+			<item>pmythsurfermedusa</item>
+		</look>
+	</looks> 
+</item>

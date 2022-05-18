@@ -1,0 +1,13 @@
+<part>
+	<id>elephant_follower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="front">llama_foot</param>
+			<param id="back">llama_foot</param>
+		</parameters>
+	</specialAbility>
+</part>

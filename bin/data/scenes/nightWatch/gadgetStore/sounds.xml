@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="cardboard">ls_cardboard_01.mp3,ls_cardboard_02.mp3</asset>
+		<asset id="cloth">ls_cloth_01.mp3,ls_cloth_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="cardboard">fs_cardboard_01.mp3,fs_cardboard_02.mp3,fs_cardboard_03.mp3,fs_cardboard_04.mp3</asset>
+		<asset id="cloth">fs_cloth_01.mp3,fs_cloth_02.mp3,fs_cloth_03.mp3,fs_cloth_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset event="shower">helicopter_shower.mp3</asset>
+		<asset event="shock_pillow">electrocuted_02.mp3</asset>
+		<asset event="Toilet_Paper_dispenser">print_paper_02.mp3</asset>
+		<asset event="Vibrating_Chair">massage_chair_01_L.mp3</asset>
+		<asset event="Phone_drops_floor">phone_drop_01.mp3</asset>
+		<asset event="Muffled_Phone">cell_phone_01_muffled.mp3</asset>
+		<asset event="potty_shaking">basket_wobble_03.mp3</asset>
+		<asset event="potty_bursts">blunt_hit_03.mp3</asset>
+		<asset event="snake_hiss">snake_hiss_02.mp3</asset>
+		<asset event="shock">event_07.mp3</asset>
+		<asset event="key_Jingle">key_jingle_01.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,52 @@
+<item id="3486">
+		<type>store</type>
+		<subType>general</subType>
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>FOLLOW</label>
+				<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Winter Bundle</value>
+			</text>
+		<text id="storeTitle">
+			<value>Holiday Pet Follower</value>
+			 </text>
+	</textfields>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+
+		</assets>
+	
+		 <specials>
+		<specialAbility>pop_follower_winter_dog</specialAbility>
+	</specials>
+
+
+</item>

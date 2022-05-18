@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="Catty">
+		<statement event="hasAdItem_2710">Watch my freaky fabulous video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see my video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch my freaky fabulous video!</statement> <!-- if video playing -->
+		<statement>Watch my freaky fabulous video and get a fangtastic prize!</statement> <!-- default if above not true -->
+	</character>
+	<character id="Luna">
+		<statement event="hasAdItem_2710">Watch my fangtastic video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see my video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch my fangtastic video!</statement> <!-- if video playing -->
+		<statement>Watch my fangtastic video and get a scary cute outfit!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

@@ -1,0 +1,97 @@
+<part>
+	<id>limited_captainjack</id>
+	<type>facial</type>
+	<!-- <campaignID>2837</campaignID> -->
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">PirateBlimp,transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">skinColor</param>
+						<param id="partID" type="string">M:0xEAB69D,0xE4E1DE,0xfae0c9|F:0xd2aa72,0xfae0c9,0xfee0d8</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">eyeState</param>
+						<param id="partID" type="string">M:open,open,open|F:open,open,open</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">M:limited_montgomery,limited_astroking,limited_pdisco_king|F:limited_poutlaw_girls,limited_skullpirate5,limited_wafflegirl</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">M:limited_barbossa,limited_salazar,empty|F:empty,empty,limited_carina</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">M:limited_barbossa,limited_salazar,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">M:limited_barbossa,limited_salazar,limited_henry|F:limited_pirategirl1,limited_pirategirl2,limited_carina</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">M:limited_barbossa,limited_salazar,limited_henry|F:limited_pirategirl1,limited_pirategirl2,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">M:limited_duke,limited_duke,limited_skylanders_flynn|F:limited_loveworker,limited_wghtgsr,limited_carina</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">M:limited_barbossa,limited_salazar,limited_henry|F:empty,limited_bag,limited_carina</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

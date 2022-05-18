@@ -1,0 +1,45 @@
+<item id="5252"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+  	<campaignID>MemberGift</campaignID>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+	 	<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeTitle">
+			<value>Stylin' Outfit</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<mouth>skullnavigator</mouth>
+			<facial>jan_member_girl</facial>
+			<hair>jan_member_girl</hair>
+			<shirt>jan_member_girl</shirt>
+			<pants>jan_member_girl</pants>
+			<item>jan_member_latte</item>
+		</look>
+	</looks>
+
+</item>

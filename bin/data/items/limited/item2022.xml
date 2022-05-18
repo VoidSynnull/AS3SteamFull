@@ -1,0 +1,88 @@
+<item id="2022"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>80sOutfit</name> <!-- *** Change this card name -->
+  	<campaignID>AmericanGirlQuest</campaignID> <!-- *** Change this CMS name -->
+	
+   <contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+		<y>-20</y>
+  	</contentClass>
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0x8d4ea9</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x3ad0b1</color>
+			<val>1</val>
+		</btn>
+	</radiobuttons>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="true"/>
+			</actions>
+  		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>American Girl</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>80s Outfits</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+				<text id="memberinstructions">
+				<web>Choose your 80s style with these rad accessories!</web>
+				<mobile>Choose your 80s style with these rad accessories!</mobile>
+				<y>50</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundPink.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<!-- <asset id="cardContent" />  -->
+  	</assets>
+  	
+  	<looks>
+	    <look>
+			  	<hair>limited_courtneyoutfit</hair>
+				<facial>limited_courtneyprize</facial>
+				<shirt>limited_courtneyprize</shirt>
+				<pants>limited_courtneyprize</pants>
+				<overshirt>limited_courtneyprize</overshirt>
+				<overpants>limited_courtneyprize</overpants>
+
+		</look>
+		<look>
+			<hair>limited_courtneyoutfit</hair>
+			<shirt>limited_courtneyoutfit</shirt>
+			<pants>limited_courtneyoutfit</pants>
+			<overshirt>empty</overshirt>
+			<overpants>empty</overpants>
+			<facial>empty</facial>
+
+		</look>
+	</looks> 
+    
+</item>

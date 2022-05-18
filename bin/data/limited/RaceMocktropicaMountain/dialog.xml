@@ -1,0 +1,41 @@
+<dialogs>
+    <character id="racer">
+    	<statement link="race_first">I race all around Poptropica trying to beat world records! Think you're faster than me?</statement>
+    	<conversation id="race_first">
+    		<exchange>
+    			<question>Heck yes, I do!</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="agreed_race, true">Try to beat my time on the Mocktropica Mountain!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Nah, maybe later.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="declined_race, true">I'll be here.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement event="npcRaceMocktropicaMountain" link="world_record">Wow! You're fast!</statement>
+    	<statement id="world_record" link="record_race_answer">Want to try beating the world record?</statement>
+    	<conversation id="record_race_answer">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="agreed_record_race, true">Let's go!</question>
+    		</exchange>
+    		<exchange>
+    			<question>No thanks.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="declined_record_race, true">I'll be here.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement event="recordRaceMocktropicaMountain" triggerEvent="giveItem" triggerEventArgs="3499" link="racer_next_mocktropica">You beat the world record! You deserve a prize!</statement>
+    	<statement event="racer_next_mocktropica" triggerEvent="triggerEvent" triggerEventArgs="racer_next_mocktropica, true" link="beat_best_time">Come back next week for a new race!</statement>
+    	
+    	<statement id="beat_best_time" link="best_answer">Would you like to go back and beat your best time?</statement>
+    	<conversation id="best_answer">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="agreed_more_race">Yes please!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Nope.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="declined_more_race, true">I'll be here.</answer>
+    		</exchange>
+    	</conversation>
+    </character>
+</dialogs>

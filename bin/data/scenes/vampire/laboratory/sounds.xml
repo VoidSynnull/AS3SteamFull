@@ -1,0 +1,32 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">wind_through_window_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="walkwayDoor">door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="spray_concuction">squishy_spray_01.mp3</asset>
+		<asset triggeredByEvent="transform">pop_03.mp3</asset>
+		<asset triggeredByEvent="dumbwaiter_up">metal_impact_14.mp3</asset>
+		<asset triggeredByEvent="draw_extract">extract_with_dropper.mp3</asset>
+		<asset triggeredByEvent="squirt_dish">drop_on_cell.mp3</asset>
+		<asset triggeredByEvent="cells_not_cured">squish_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3 </asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3 </asset>
+		<asset id="desk">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="shelf">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="desk">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="shelf">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

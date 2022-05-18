@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="charon">
+		<conversation>
+			<exchange>
+				<question>shared.text24</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="load_river_styx">text4</question>
+				<answer>text5</answer>
+				<!--  load cerberus scene -->
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

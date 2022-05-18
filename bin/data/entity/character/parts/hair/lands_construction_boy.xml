@@ -1,0 +1,25 @@
+<part>
+	<id>lands_construction_boy</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<gender>male</gender>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="color1">0x204a80</color>
+		<color id="color2">0x204a80</color>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

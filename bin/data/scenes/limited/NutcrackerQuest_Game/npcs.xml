@@ -1,0 +1,44 @@
+<npcs>
+	<npc id="clara">
+    	<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<hair>limited_nutcracker_clara</hair>
+			<shirt>limited_nutcracker_clara</shirt>
+			<pants>limited_nutcracker_clara</pants>
+			<mouth>ppromqueen1</mouth>
+    	</skin>
+		<position>
+			<x>50</x>
+			<y>575</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="mouse" variant="creature">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0xf8290A1</skinColor>
+			<marks>limited_nutcracker_ginger</marks>
+			<shirt>char29</shirt>
+			<pants>eiffel</pants>
+			<facial>limited_nutcracker_mouse</facial>
+			<overshirt>limited_nutcracker_mouse</overshirt>
+    	</skin>
+		<position>
+			<x>13800</x>
+			<y>595</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.18</scale>
+		<direction>left</direction>
+	</npc>
+</npcs>

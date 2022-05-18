@@ -1,0 +1,28 @@
+<part>
+	<id>limited_smallfoot</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2916</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+		<param id="bounce">false</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+		<param id="tracking">SmallfootMVU,Snowball</param>
+		</parameters>
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_smallfoot</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

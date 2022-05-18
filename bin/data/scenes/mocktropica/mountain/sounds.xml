@@ -1,0 +1,45 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" event="set_day">MocktropicaMainThemeGlitched.mp3</asset>
+		<asset loop="true" event ="mountain_finished">MocktropicaMainTheme.mp3</asset>
+		<asset loop="true" event ="set_night">night_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" baseVolume="2">wind_through_window_01_loop.mp3</asset>
+		<asset event="set_rain" loop="true" faded="true">rain_light.mp3</asset>
+		<asset event="set_night" loop="true" faded="true">nighttime_crickets.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="ungrass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="unrock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="undirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="lift">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="ungrass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="unrock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="undirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="lift">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+	</sound>
+</sounds>

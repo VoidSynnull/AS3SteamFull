@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="helpMonsters" link="getChemical" linkEntityId="edgar">What should we do?</statement>
+	</character>
+	<character id="edgar">
+		<statement>He's too fast! We need to find a way to knock him down.</statement>
+		<statement id="slowedDown">He's too fast! We need to find a way to knock him down.</statement>
+		<statement id="ducks">The ducks are painted with a special paint that will show up under a black light. We can find one in the haunted lab!</statement>
+		<statement id="getToLab">Find a way into the lab to make that formula!</statement>
+		<statement id="friendsMonsters" link="helpMonsters" linkEntityId="player">We've got to do something! All my friends have turned into monsters!</statement>
+		<statement id="getChemical" triggerEvent="triggerEvent" triggerEventArgs="doneChemical">Ringmaster Raven will know what to do. Let's go ask him for help!</statement>
+	</character>
+</dialogs>

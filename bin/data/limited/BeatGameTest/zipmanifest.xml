@@ -1,0 +1,62 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/BeatGameTest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+		<asset>BeatMusicGame</asset>
+	</data>
+
+	<!-- ad xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/BeatGameTest/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/BeatGameTest/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2779</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGrape</asset>
+	</assets>
+	
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml" keep="true">
+		<asset>guitar</asset>
+		<asset>guitarLoop</asset>
+	</data>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/BeatGameTest/" ext="swf">
+		<asset>BeatMusicGame</asset>
+		<asset>StartBeatMusicGame</asset>
+		<asset>WinBeatMusicGame</asset>
+		<asset>LoseBeatMusicGame</asset>
+	</assets>
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>PrisonRadio3x</asset>
+	</assets>
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>cowbell_01</asset>
+		<asset>dissonant_guitar_03</asset>
+	</assets>
+	
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_yellow_guitar</asset>
+		<asset>limited_yellow_guitar_play</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_yellow_guitar</asset>
+		<asset>limited_yellow_guitar_play</asset>
+	</assets>
+	
+</manifest>

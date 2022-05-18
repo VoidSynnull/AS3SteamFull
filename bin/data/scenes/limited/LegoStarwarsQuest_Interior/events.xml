@@ -1,0 +1,46 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">facial</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overshirt</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overpants</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">facial</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overshirt</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overpants</param2>
+			<param3 id="value">limited_legostarwars_starfighter</param3>
+		</event>
+	</group>
+</events>

@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="got_shrunken" triggerEvent="triggerEvent" triggerEventArgs="look_at_blimp">What happened? And why is everything so huge!?</statement>
+		<statement id="vent_clicked">There's a heat vent here, but it doesn't seem to be on right now.</statement>
+		<statement triggeredByEvent="got_cjs_message_02" link="message_2_pt2">C.J. said that Mr. Silva is the thief! I've got to get to the school and save her!</statement>
+		<statement id="message_2_pt2">That remote-controlled car might be able to get me there, if I can just find a way to get it outside.</statement>
+		<statement triggeredByEvent="got_cjs_message_01">She wants me to flush the thumb drive. The thief must be coming for it!</statement>
+		<statement id="message_1_pt2">But where is the thumb drive?</statement>
+		<statement id="cantDecipher">I see someone sending Morse code signals. If only I had a way to decipher the message...</statement>
+		<statement id="cantReach">I can't reach it from here.</statement>
+		<statement id="thatsHerSchool">PS 101... I think that's the name of the school.</statement>
+		<statement id="scienceRoom">That looked like the school's science classroom.</statement>
+		<statement id="wrongCoordinates">I don't see C.J. I must not have the right coordinates.</statement>
+	</character>
+</dialogs>

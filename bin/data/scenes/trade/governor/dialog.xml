@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="char1">
+		<statement>If I had a treasure map, I wouldn't have to work in this dingy pub day and night!</statement>
+	</character>
+	<character id="char2">
+		<statement>If ye come across an ugly cur named Scurvy Sam, let me know</statement>
+	</character>
+	<character id="char3">
+		<statement>This cracker be hard as rock! How am I supposed to eat it with no teeth?</statement>
+	</character>
+	<character id="char4">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm a Navigator. I can increase your ship's speed.</answer>
+			</exchange>
+			<exchange>
+				<question>How much would it cost to hire you?</question>
+				<answer>Fork over 12,000 Doubloons and I'll join your crew.</answer>
+			</exchange>
+			<exchange>
+				<question>You're hired!</question>
+				<answer></answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

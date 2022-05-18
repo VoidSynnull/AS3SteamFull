@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="player">
+		<statement id="snoozeville">He took the express train to snoozeville.</statement>
+		<statement id="scary">He looks dangerous! I better keep my distance.</statement>
+    </character>
+	<character id="embed">
+		<statement id="whosThere" triggerEvent="triggerEvent" triggerEventArgs="lose_mind">Who's there?</statement>
+		<statement id="foolMind" triggerEvent="triggerEvent" triggerEventArgs="return_pan">I'm losing my fool mind out here.</statement>
+    </character>
+</dialogs>

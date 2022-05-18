@@ -1,0 +1,25 @@
+<npcs>
+	<npc id="photobooth_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x999999</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>eatSalad</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>pr_warden</facial>
+			<hair>pr_warden</hair>
+			<shirt>pr_warden</shirt>
+			<pants>astrofarmer</pants>
+			<item>clipboard</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-100</x>
+			<y>0</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

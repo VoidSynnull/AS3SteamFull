@@ -1,0 +1,20 @@
+<part>
+	<id>an_genie</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+<!-- 	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors> -->
+	<hide>
+		<part>leg1</part>
+		<part>foot1</part>
+		<part>leg2</part>
+		<part>foot2</part>
+	</hide>
+	<colors>
+		<color id="pantsColor">0xB68B52</color>
+	</colors>
+</part>

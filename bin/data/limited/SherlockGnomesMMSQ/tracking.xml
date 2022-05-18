@@ -1,0 +1,19 @@
+<tracking>
+	<track id="Sherlock">
+		<event>EngagedOutsideNPC</event>
+		<choice>Sherlock</choice> <!-- *** npc name -->
+	</track>
+	<track id="Gnomeo">
+		<event>EngagedOutsideNPC</event>
+		<choice>Gnomeo</choice> <!-- *** npc name -->
+	</track>
+	<track id="Juliet">
+		<event>EngagedOutsideNPC</event>
+		<choice>Juliet</choice> <!-- *** npc name -->
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

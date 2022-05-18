@@ -1,0 +1,34 @@
+<part>
+	<id>limited_milk_white</id>
+	<type>item</type>
+	<campaignID>2965</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">MilkPepMMSQ,Regular Milk Mustache Power</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Drink</param>
+						<param id="waitLabel" type="string">setColor</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">marks</param>
+						<param id="partId" type="string">limited_milk_mustache_white</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

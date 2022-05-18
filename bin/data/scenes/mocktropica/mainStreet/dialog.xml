@@ -1,0 +1,196 @@
+<dialogs>
+	<character id="player">
+		<statement id="doorBroken">Where is the rest of this Island?!</statement>
+		<statement id="noPopCoins" link="sorry" linkEntityId="focusTester">But I don't have any Pop Coins!</statement>
+		<statement id="ludicrous">This is ludicrous.</statement>
+		<statement id="thats_it" link="twist" linkEntityId="projectManager">So that's it? I saved the day!?</statement>
+		<statement id="plan_b" link="summon" linkEntityId="focusTester">What is Plan B?</statement>
+		<statement triggeredByEvent="boss_transformed" triggerEvent="triggerEvent" triggerEventArgs="enter_developer">I think this is above my pay grade... any idea how to fight this thing?</statement>
+		<statement id="whatNow" link="noRest" linkEntityId="projectManager">What now? Do we celebrate?</statement>
+		<statement id="where_my_cake_at" link="give" linkEntityId="projectManager">All that work and we don't even get cake?</statement>
+		<!-- day2 -->
+		<statement id="onePiece" link="maybe" linkEntityId="leadDeveloper">Go to MegaFightingBots? Nobody has ever made it out of that game in one piece. It's impossible.</statement>
+	</character>
+    
+    <character id="incompleteMan">
+    	<statement event="developer_returned">They fixed the bug with my speech! If only I had something worthwhile to say...</statement>
+		<statement>1101010</statement>
+    </character>
+    
+	<character id="boy">
+		<statement>The Poptropica creators are so slow! I need to play the next island! I can't breathe without it!</statement>
+    	<statement event="spoke_with_focus_tester" link="feedingtime">Poptropica has pets! Finally! This is just what I always wanted!</statement>
+<!--      	<statement event="mainstreet_rearranged">What's happening!? The world is changing and transforming! Have we angered the Gods!?</statement> -->
+		<statement id="first_curd">All they do is eat! Whose horrible idea was this?</statement>
+    	<statement event="boy_left_cheese_exterior">These pets are driving me insane!</statement>
+    	<statement event="spoke_with_focus_tester" triggerEvent="triggerEvent" triggerEventArgs="feedingTime">Poptropica has pets! Finally! This is just what I always wanted!</statement>
+   		<statement triggeredByEvent="petHungry" triggerEvent="triggerEvent" triggerEventArgs="boy_left_main_street_cheese, true">Looks like this little guy is hungry again. C'mon, boy, let's go to the old cheese factory. We'll find some food there.</statement>
+    </character>
+    
+    <character id="pet">
+    	<statement triggeredByEvent="feedingTime" triggerEvent="triggerEvent" triggerEventArgs="petHungry">Narf, narf!</statement>
+    </character>
+    
+    <character id="projectManager">
+		<conversation>
+			<exchange>
+				<question>You look frazzled. What's wrong?</question>
+				<answer>We're so behind! The new Poptropica managers slashed the budgets and fired almost everyone!</answer>
+			</exchange>
+			<exchange>
+				<question>Can I help?</question>
+				<answer >Usually some random Poptropican comes along and tells you what's wrong on the island, but we can't even afford that anymore!</answer>
+			</exchange>
+			<exchange>
+				<question>Maybe you're the random Poptropican and you just don't realize it?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="spoke_with_project_manager, true">Y'know, I never thought of that...</answer>
+			</exchange>
+		</conversation>
+		<statement event="spoke_with_project_manager">We're never going to get this island out on time!</statement>
+		<statement event="server_repaired" link="thats_it" linkEntityId="player">I don't believe it! All of the problems are fixed and the island is ready to launch. Poptropica is back!</statement>
+		<statement id="twist" triggerEvent="triggerEvent" triggerEventArgs="show_evil_managers">The only thing missing is a final Poptropica-style twist. There should be an enemy who's been hiding in plain sight, but who could it be?</statement>
+		<statement event="boss_escaped" link="whatNow" linkEntityId="player">Good riddance!</statement>
+		<statement id="noRest" link="where_my_cake_at" linkEntityId="player">Are you kidding? We need to get started on the next island. We're already behind schedule!</statement>
+		<statement id="give" link="figures" linkEntityId="leadDeveloper" triggerEvent="triggerEvent" triggerEventArgs="giveMedal">I guess it wouldn't be a proper island if we didn't give you a glitzy, but ultimately worthless tchotchke at the end.</statement>
+		<statement event="gotItem_medal_mocktropica">We need to get started on the next island. We're already behind schedule!</statement>
+    	<!-- day2 -->
+    	<statement id="rehire" link="strange" linkEntityId="leadDeveloper">Maybe we can re-hire him now that MegaFightingBots is kaput.</statement>
+    	<statement id="cuckoo" link="worried" linkEntityId="leadDeveloper">Sounds like he's gone cuckoo bananas.</statement>
+    	<statement id="secret" triggerEvent="triggerEvent" triggerEventArgs="bonusGoInside, true">Sure, we didn't need to get the next island out on schedule anyway.</statement>
+    </character>
+    
+    <character id="focusTester">    
+    	<statement event="gotItem_axe" triggerEvent="triggerEvent" triggerEventArgs="focus_pop_coins, true">I've got it! My best idea yet!</statement>
+		<conversation triggeredByEvent="focus_pop_coins">
+			<exchange>
+				<question>What is it?</question>
+				<answer>Poptropica Coins! Everything will cost Poptropica Coins.</answer>
+			</exchange>
+			<exchange>
+				<question>What do players spend coins on?</question>
+				<answer>Literally everything! Want to feed your pet? 1 Pop Coin. Want to get on the blimp? 1 Pop Coin.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="focus_pop_coins2, true">That sounds terrible. The whole idea -- just terrible.</question>
+				<answer>When you say terrible, do you mean terrific? If so, I agree!</answer>
+			</exchange>
+		</conversation>
+		<statement event="focus_pop_coins2">I should come up with a clever name for these coins.... Maybe Pop Bucks! Or Pop-Sheckles? Poptropi-Currency?</statement>
+		<statement event="payed_coin, false" id="coinsPlease" link="noPopCoins" linkEntityId="player">One Pop Coin to leave Main Street, please.</statement>
+		<statement id="sorry">Sorry! Not my problem!</statement>
+		<conversation event="usedCoin">
+			<exchange>
+				<question>Here's your Pop Coin, you thieving cheapskate.</question>
+<!-- 				<answer triggerEvent="triggerEvent" triggerEventArgs="payed_coin, true"> -->
+				<answer>Pleasure doing business with you. Come back soon now, y'hear?</answer>
+			</exchange>
+		</conversation>
+		<statement event="start_collectibles" link="sure" triggerEvent="triggerEvent" triggerEventArgs="focus_collectibles, true">Okay, this is it – this is my best idea yet!</statement>
+		<statement event="focus_collectibles2">Get moving! You need to find 1,000 Soda Pop Bottles. The first one is atop Poptropica Worldwide HQ.</statement>
+		<conversation id="sure" event="focus_collectibles">
+			<exchange>
+				<question>What's your brilliant idea now?</question>
+				<answer>Collectibles! Only for truly obsessed gamers.</answer>
+			</exchange>
+			<exchange>
+				<question>What does that mean?</question>
+				<answer>We'll make players jump through hoops to track down and collect random useless stuff. Great, right?</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="focus_collectibles2, true">Not great. Tedious.</question>
+				<answer>Try it before you judge! First assignment: pick up 1,000 Soda Pop Bottles. Here's a hint to get started: the first one is atop Poptropica Worldwide HQ.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="focus_collectibles">
+			<exchange>
+				<question>What's your brilliant idea now?</question>
+				<answer>Collectibles! Only for truly obsessed gamers.</answer>
+			</exchange>
+			<exchange>
+				<question>What does that mean?</question>
+				<answer>We'll make players jump through hoops to track down and collect random useless stuff. Great, right?</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="focus_collectibles2, true">Not great. Tedious.</question>
+				<answer>Try it before you judge! First assignment: pick up 1,000 Soda Pop Bottles. Here's a hint to get started: the first one is atop Poptropica Worldwide HQ.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="start_crate">
+			<exchange>
+				<question>What's the matter?</question>
+				<answer>This blasted crate is too big. I can't get past.</answer>
+			</exchange>
+			<exchange>
+				<question>What's in the box?</question>
+				<answer>The rest of the soda bottles! You can't collect them if I don't hide them in illogical, out-of-the-way places!</answer>
+			</exchange>
+			<exchange>
+				<question>Can I help?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="focus_has_crate, true">Just do something, anything, to get this crate open!</answer>
+			</exchange>
+		</conversation>
+		<statement event="focus_has_crate">Figure out a way to get this crate open!</statement>
+		<statement event="smashed_crate">Maybe collectibles weren't such a great idea...</statement>
+		
+		<!-- boss fight -->
+		<statement id="begin" link="drive" linkEntityId="salesManager">We are the enemies who have been hiding in plain sight! Surprise: we own both Poptropica and MegaFightingBots.com!</statement>
+    	<statement id="onlyOne" link="twist" linkEntityId="costCutter">Only one can survive!</statement>
+    	<statement id="summon" triggerEvent="triggerEvent" triggerEventArgs="boss_summon">We must summon...</statement>
+    	<statement triggeredByEvent="boss_summon" triggerEvent="triggerEvent" triggerEventArgs="boss_transform">The real life Mega Fighting Bots!</statement>
+    	
+    	<statement id="escape" link="where" linkEntityId="costCutter">You haven't seen the last of us! We'll build a new game!</statement>
+    </character>
+    
+    <character id="salesManager">
+    	<statement id="drive" link="onlyOne" linkEntityId="focusTester">We were trying to drive Poptropica out of business, but you fixed all the problems we worked so hard to create!</statement>
+    	<statement id="plan_b" link="plan_b" linkEntityId="player">It's time for Plan B.</statement>
+    	
+    	<statement triggeredByEvent="boss_summon">The real life Mega Fighting Bots!</statement>
+    	
+    	<statement id="mobile" link="cloud" linkEntityId="safetyInspector">We'll go mobile!</statement>
+    </character>
+    
+    <character id="costCutter">
+    	<statement id="twist" link="What_to_do" linkEntityId="safetyInspector">What a twist, right?</statement>
+    	<statement triggeredByEvent="boss_summon" >The real life Mega Fighting Bots!</statement>
+    	
+    	<statement id="where" link="mobile" linkEntityId="salesManager">But where?</statement>
+    </character>
+    
+    <character id="safetyInspector">
+    	<statement event="hasItem_pop" link="ludicrous" linkEntityId="player" triggerEvent="giveItem" triggerEventArgs="helmet">Stop! Jumping off of a building is dangerous without the right equipment. Take this!</statement> 
+    	<statement event="hasItem_helmet">No jumping off anything without the proper headgear!</statement> 
+    	<statement id="What_to_do" link="plan_b" linkEntityId="salesManager">You know what we must do, business associates.</statement>
+    	<statement triggeredByEvent="boss_summon">The real life Mega Fighting Bots!</statement>
+    	<statement id="cloud">To the cloud! </statement>
+    </character>
+    
+    <character id="leadDeveloper">
+    	<statement id="use_fps_engine" triggerEvent="triggerEvent" triggerEventArgs="boss_fight_start">Nope. And there's only one thing to do when we're out of ideas: a gratuitous action sequence!</statement>
+    	<!-- day2 -->
+    	<statement id="figures" link="rehire" linkEntityId="projectManager">MegaFightingBots... Figures. They poached my best coder months ago!</statement>
+    	<statement event="defeated_boss" link="rehire" linkEntityId="projectManager">MegaFightingBots... Figures. They poached my best coder months ago!</statement>
+        <statement id="strange" triggerEvent="triggerEvent" triggerEventArgs="showPda, false">I don't know. He started acting strange shortly after he began working there. This was the last email I got from him.</statement>
+    	<statement id="pda" link="cuckoo" linkEntityId="projectManager">I haven't heard from him since.</statement>
+    	<statement id="worried" link="onePiece" linkEntityId="player">I'm worried. Somebody should go after him.</statement>
+    	<statement id="maybe" link="secret" linkEntityId="projectManager">Maybe not. Meet me by the development computer and I'll show you a secret project I've been working on.</statement>
+    </character>
+  
+    <character id="laidOffDeveloper">
+    	<statement event="hasItem_coins">Enjoy those coins... there's always more where that came from!</statement>
+    	<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I was a Poptropica developer, but those heartless new managers fired me!</answer>
+			</exchange>
+			<exchange>
+				<question>So now you slink around in the dark like a creeper?</question>
+				<answer>No, now I'm handing out counterfeit Pop Coins. It's my revenge!</answer>
+			</exchange>
+			<exchange>
+				<question>Can I have some Pop Coins?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="coins">Here, take as many as you want!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

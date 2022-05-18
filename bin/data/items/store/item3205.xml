@@ -1,0 +1,33 @@
+<item id="3205">
+		<type>store</type>
+		<subType>general</subType>
+		
+	<buttons>
+			<btn>
+					<label>TOSS A FISH</label>
+					<actions>
+						<action type="applyLook"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+					<value>Jump The Shark</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Shark Tooth Island</value>
+			</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+
+	 	<looks>
+			<look>
+			<item>ptossfish</item>
+			</look>
+		</looks>
+</item>

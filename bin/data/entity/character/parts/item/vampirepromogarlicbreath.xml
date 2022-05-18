@@ -1,0 +1,41 @@
+<part>
+	<id>vampirepromogarlicbreath</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>false</triggerable>
+		<useButton>false</useButton>
+		
+	<actions>
+			<actionChain id="before_actions">
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.GarlicBreath</param>
+						<param id="part" type="string">hair</param> 
+						<param id="startColor" type="number">0xDFDA0B</param> 
+						<param id="endColor" type="number">0xDFDA0B</param> 
+						<param id="offsetX" type="number">0</param> 
+						<param id="offsetY" type="number">20</param>
+						<param id="filePath" type="string">none</param>
+						<param id="scale" type="number">0</param>
+						<param id="inBack" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="AddGlowFilterAction" startDelay="0.5">
+					<parameters>
+						<param id="display" type="string">FACING</param>
+						<param id="color" type="uint">0xDFDA0B</param> 
+						<param id="alpha" type="number">0.8</param> 
+						<param id="blur" type="point">100,100</param> 
+						<param id="strength" type="number">100</param> 
+						<param id="innerglow" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+		</specialAbility>
+</part>

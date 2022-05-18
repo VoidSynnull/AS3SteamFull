@@ -1,0 +1,48 @@
+<part>
+	<id>limited_beast_prince</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<gender>male</gender>
+	<campaignID>2832</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<forceTracking>true</forceTracking>
+		<parameters>
+			<param id="tracking">BeautyBeastMVU3,transform beast</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">limited_beast</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">limited_salerno</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_beast</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">limited_beast</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

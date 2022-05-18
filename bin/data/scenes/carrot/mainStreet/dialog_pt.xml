@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>O que h� de errado?</question>
+				<answer>Nossa cidade amada est� em ru�nas!</answer>
+			</exchange>
+			<exchange>
+				<question>O que aconteceu?</question>
+				<answer>Todos os nossos cenouras desapareceram! Nossa economia est� caindo aos peda�os!</answer>
+			</exchange>
+			<exchange>
+				<question>O que posso fazer para ajudar?</question>
+				<answer>Descubra o que aconteceu com nossos cenouras!</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="destroyed_rabbot" link="getMedal">As cenouras pararam de desaparecer!</statement>
+		<statement id="getMedal" triggerEvent="triggerEvent" triggerEventArgs="award_medal">Voc� salvou nossa cidade! Como prefeito, eu apresent�-lo com este medalh�o!</statement>
+		
+		<statement event="gotItem_medalCarrot">Obrigado! Agora podemos come�ar a fazer esta cidade grande novamente</statement>
+	</character>
+	<character id="char2">
+		<statement>eu n�o tenho sido capaz de encontrar trabalho desde que a f�brica fechou.</statement>
+		<statement event="destroyed_rabbot">H� muito trabalho a ser feito!</statement>
+	</character>
+	<character id="char3">
+		<statement>Desculpe, mas estamos completamente fora do g�s.</statement>
+		<statement event="destroyed_rabbot" link="reopen">As coisas est�o melhorando por aqui.</statement>
+		<statement id="reopen">eu deveria ser capaz de reabrir o posto em breve!</statement>
+	</character>
+	<character id="char5">
+		<statement>� bom estar de volta em casa! Thanks!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,18 @@
+<campaign>
+  	<campaignId>StrangeMagicMVU</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Strange Magic</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">http://ad.doubleclick.net/ddm/clk/287185886;114155867;a</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2630</card>
+		<card>2631</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2631</card>
+	</boycards>
+	<girlcards>
+		<card>2630</card>
+	</girlcards>
+</campaign>

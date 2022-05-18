@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">reign_of_omegon.mp3</asset>
+		<asset loop="true" triggeredByEvent="portal_opening" fade="true" exclusiveType="true">mighty_action_force_omegon.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" baseVolume="0.7">air_ducts_2.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="table">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="microwave">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="thin_metal">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="bed">ls_spring_01.mp3, ls_spring_misc_furniture_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="table">fs_plastic_01.mp3, fs_plastic_02.mp3,fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="microwave">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="thin_metal">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="bed">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,38 @@
+<game>
+	<className>RaceGame</className>
+	<clearParts>true</clearParts>
+	<partType>facial</partType>
+	<partValue>limited_spiesdisguise_car</partValue>
+	<winDistance>29000</winDistance>
+	<!-- Optional -->
+	<!-- Optional -->
+	<winDelay>1</winDelay>
+	<returnX>3600</returnX>
+	<returnY>1335</returnY>
+	<bikeSpeed>8</bikeSpeed>
+	<numHits>8</numHits>
+	<multiJump>true</multiJump>
+	<forceWinThreshold>true</forceWinThreshold>
+	<choosePopup>limited/SpiesInDisguiseQuest/Choose.swf</choosePopup>
+	<lockCameraNPC>true</lockCameraNPC>
+	<looks>
+		<skin id="antman">
+			<gender>male</gender>
+			<skinColor>0x353535</skinColor>
+			<facial>limited_spiesdisguise_car</facial>
+			<hairColor>0xf5c455</hairColor>
+		</skin>
+		<skin id="wasp">
+			<gender>female</gender>
+			<skinColor>0x343440</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<facial>limited_spiesdisguise_car2</facial>
+
+		</skin>
+	</looks>
+	<obstacleWrap>3000</obstacleWrap>
+	<obstacleY>790</obstacleY>
+	<obstacleStartY>1100</obstacleStartY>
+	<obstacleSpaceY>100</obstacleSpaceY>
+	<choose>true</choose>
+</game>

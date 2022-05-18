@@ -1,0 +1,209 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="swfPath">limited/PoptropicaComicsQuest/Wormhole.swf</param2>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="coords">340,470</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="coords">440,470</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="coords">585,470</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="target">340,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="target">440,962</param3>
+		</event>
+		<event> 
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeyone</param2>
+			<param3 id="target">250,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeytwo</param2>
+			<param3 id="target">177,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeythree</param2>
+			<param3 id="target">700,962</param3>
+			<param3 id="wait">true</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeytwo</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeythree</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeyone</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="sayID">startRunAway</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">1780,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="target">1670,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="target">1730,962</param3>
+			<param3 id="wait">true</param3>
+		</event>
+		<event>
+			<param1 id="action">stopFollow</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+	</group> 
+	<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="swfPath">limited/PoptropicaComicsQuest/Wormhole.swf</param2>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="coords">340,470</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="coords">440,470</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="coords">595,470</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="target">340,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="target">440,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeyone</param2>
+			<param3 id="target">250,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeytwo</param2>
+			<param3 id="target">177,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">monkeythree</param2>
+			<param3 id="target">700,962</param3>
+			<param3 id="wait">true</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">0.5</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeytwo</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeythree</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">monkeyone</param2>
+			<param3 id="sayID">startDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="sayID">returnDialog</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="sayID">returnRunAway</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">1780,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jorge</param2>
+			<param3 id="target">1670,962</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">oliver</param2>
+			<param3 id="target">1730,962</param3>
+			<param3 id="wait">true</param3>
+		</event>
+		<event>
+			<param1 id="action">stopFollow</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+	</group> 
+</events>

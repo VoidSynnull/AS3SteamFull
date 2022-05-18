@@ -1,0 +1,132 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/Croods2AutoCard/" type="campaign" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data path="data/scenes/limited/Croods2Quest_Game/" type="game" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets path="assets/scenes/limited/Croods2Quest_Game/" type="game" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+		<asset>foreground1</asset>
+		<asset>foreground2</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets path="assets/limited/Croods2Quest/" type="support" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Belt</asset>
+		<asset>Dawn</asset>
+		<asset>Eep</asset>
+		<asset>Gran</asset>
+		<asset>Grug</asset>
+		<asset>Guy</asset>
+		<asset>Hope</asset>
+		<asset>Phil</asset>
+		<asset>Sandy</asset>
+		<asset>Sash</asset>
+		<asset>Thunk</asset>
+		<asset>Ugga</asset>
+	</assets>
+
+	<!-- followers -->
+
+	<assets path="assets/entity/character/hand/" type="foot" ext="swf">
+		<asset>limited_chunky_foot</asset>
+	</assets>
+	
+	<data path="data/entity/character/abilities/limited/" type="ability" ext="xml">
+		<asset>pop_follower_chunky</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data path="data/items/limited/" type="card" ext="xml" prefix="item">
+		<asset>2034</asset>
+		<asset>2035</asset>
+	</data>
+	<assets path="assets/items/limited/" type="card" ext="swf" prefix="item">
+		<asset>2034</asset>
+	</assets>
+	<assets path="assets/items/limited/backs/" type="cardBack" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets path="sound/music/" type="sounds" ext="mp3" keep="true">
+		<asset>mfb_battle_variation</asset>
+		<asset>coco_interiormusic</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets path="sound/effects/" type="sounds" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>small_pow_05</asset>
+		<asset>sand_bag_01</asset>
+		<asset>ping_08</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data path="data/entity/character/parts/mouth/" type="mouth" ext="xml" keep="true">
+		<asset>plawman</asset>
+	</data>
+	<assets path="assets/entity/character/mouth/" type="mouth" ext="swf" keep="true">
+		<asset>plawman</asset>
+	</assets>
+	<data path="data/entity/character/parts/hand/" type="item" ext="xml">
+		<asset>limited_chunky_foot</asset>
+	</data>
+	<assets path="assets/entity/character/hand/" type="item" ext="swf">
+		<asset>limited_chunky_foot</asset>
+	</assets>
+	<data path="data/entity/character/parts/pack/" type="pack" ext="xml">
+		<asset>limited_chunky_tail</asset>
+	</data>
+	<assets path="assets/entity/character/pack/" type="pack" ext="swf">
+		<asset>limited_chunky_tail</asset>
+	</assets>
+	<data path="data/entity/character/parts/facial/" type="facial" ext="xml">
+		<asset>limited_chunky_head</asset>
+	</data>
+	<assets path="assets/entity/character/facial/" type="facial" ext="swf">
+		<asset>limited_chunky_head</asset>
+	</assets>
+	<data path="data/entity/character/parts/overshirt/" type="overshirt" ext="xml">
+		<asset>limited_chunky_torso</asset>
+	</data>
+	<assets path="assets/entity/character/overshirt/" type="overshirt" ext="swf">
+		<asset>limited_chunky_torso</asset>
+	</assets>
+	<data path="data/entity/character/parts/overpants/" type="overpants" ext="xml">
+		<asset>limited_belt_sloth</asset>
+		<asset>limited_sash_sloth</asset>
+	</data>
+	<assets path="assets/entity/character/overpants/" type="overpants" ext="swf">
+		<asset>limited_belt_sloth</asset>
+		<asset>limited_sash_sloth</asset>
+	</assets>
+		<data type="support" path="data/map/" ext="xml">
+		<asset>mobile_americangirlkira</asset>
+		<asset>mobile_americangirl</asset>
+	</data>
+</manifest>

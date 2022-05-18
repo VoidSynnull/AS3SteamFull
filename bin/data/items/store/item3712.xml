@@ -1,0 +1,40 @@
+<item id="3712">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Boss Babe</value>
+			 </text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<mouth>p_seacaptain_girl</mouth>
+			<hair>july_g1</hair>
+			<pants>jefferson</pants>
+			<overshirt>leather_jacket3</overshirt>
+			<shirt>1</shirt>
+
+		</look>
+	</looks> 
+</item>

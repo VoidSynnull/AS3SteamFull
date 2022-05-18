@@ -1,0 +1,34 @@
+<item id="3348">
+		<type>store</type>
+		<subType>general</subType>
+
+		<buttons>
+			<btn>
+ 			<label>USE</label>
+				<actions>
+				<action type="activatePower" tracking="Use Wind Power">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Survival - Episode 1</value>
+			</text>
+		<text id="storeTitle">
+			<value>Wind Power</value>
+			</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+
+		<specials>
+		<specialAbility>cold_wind</specialAbility>	
+	</specials>
+
+	
+</item>

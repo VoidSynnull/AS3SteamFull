@@ -1,0 +1,24 @@
+<doors>
+	<door id="customDoor">
+		<scene>previousScene</scene>
+		<label>
+			<text>EXIT</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="gameDoor">
+		<scene>game.scenes.custom.questGame.QuestGame|campaignScene=FruitLoopsQuest_Game</scene>
+		<label>
+			<text>ENTER</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

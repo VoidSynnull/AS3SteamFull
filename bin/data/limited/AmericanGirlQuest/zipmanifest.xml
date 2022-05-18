@@ -1,0 +1,396 @@
+<manifest>
+	<!-- AmericanGirl xml files -->
+	<data type="campaign" path="data/limited/AmericanGirlQuest/" ext="xml">
+		<asset>MusicGame</asset>
+		<asset>zipmanifest</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="support" path="data/languages/en/islands/americanGirl/" ext="xml">
+		<asset>language</asset>
+	</data>
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/americanGirl/mainStreet/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+		<data type="interior" path="data/scenes/americanGirl/mainStreetKira/" ext="xml">
+		<asset>hotspots</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/ArcadeBotBreakerQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>obstacles</asset>
+	</data>	
+		<data type="interior" path="data/scenes/limited/ArcadeStarShooterQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>encounters</asset>
+	</data>	
+	<assets type="interior" path="assets/scenes/limited/ArcadeBotBreakerQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/ArcadeStarShooterQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/limited/ArcadeStarShooterQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Lose</asset>
+		<asset>Win</asset>
+		<asset>amo1</asset>
+	</assets>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/americanGirl/mainStreet/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>backdrop</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/americanGirl/mainStreetKira/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyTheater/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyShop/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyElectronics/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyArcade/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+		<data type="game" path="data/scenes/limited/AmericanGirlQuest_GameSurf/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyTheater/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyShop/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+		<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_GameCollection/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_GameMemory/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyElectronics/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyArcade/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		<assets type="game" path="assets/scenes/limited/AmericanGirlQuest_GameSurf/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorKiraShop/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorKiraTent/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorKiraTheater/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorKiraVet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		<data type="interior" path="data/scenes/limited/AmericanGirlQuest_GameCollection/" ext="xml">
+		<asset>dialog</asset>
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+		<data type="interior" path="data/scenes/limited/AmericanGirlQuest_GameMemory/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<data type="support" path="data/map/" ext="xml">
+		<asset>mobile_americangirlkira</asset>
+	</data>
+		<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorKiraShop/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorKiraTent/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorKiraTheater/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorKiraVet/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/AmericanGirlVBB/" ext="swf">
+		<asset>Brooklyn</asset>
+		<asset>Joss</asset>
+		<asset>Lauren</asset>
+		<asset>Mila</asset>
+		<asset>Reina</asset>
+		<asset>Sophia</asset>
+		<asset>interactive</asset>
+		<asset>background</asset>
+	</assets>
+	<assets type="support" path="assets/limited/AmericanGirlQuest/" ext="swf">
+		<asset>Kip</asset>
+		<asset>Rafi</asset>
+		<asset>Sarah</asset>
+		<asset>Tina</asset>
+		<asset>Courtney</asset>
+		<asset>p6</asset>
+		<asset>p5</asset>
+		<asset>p4</asset>
+		<asset>p3</asset>
+		<asset>p2</asset>
+		<asset>p1</asset>
+		<asset>Info</asset>
+		<asset>Alexis_NPC</asset>
+		<asset>Kira_Casual_NPC</asset>
+		<asset>LoseCollection</asset>
+		<asset>StartMemory</asset>
+		<asset>WinMemory</asset>
+		<asset>WinCollection</asset>
+		<asset>StartCollection</asset>
+		<asset>LoseMemory</asset>
+		<asset>Kira_Vet_NPC</asset>
+		<asset>Aunt_Mamie_NPC</asset>
+		<asset>BirdPower</asset>
+		<asset>follower_dodger</asset>
+		<asset>Info2</asset>
+		<asset>Info3</asset>
+		<asset>Info4</asset>
+	</assets>
+		<assets type="support" path="assets/limited/ArcadeBotBreakerQuest/" ext="swf">
+		<asset>Choose</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Start</asset>
+	</assets>
+		<assets type="support" path="assets/scavengerHuntItems/" ext="swf">
+		<asset>americangirl_comic</asset>
+		<asset>americangirl_walkman</asset>
+		<asset>americangirl_carebear</asset>
+		<asset>americangirl_parsley</asset>
+		<asset>americangirl_80outfit</asset>
+		<asset>americangirl_cootie</asset>
+	</assets>
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>follower_ag_dodger</asset>
+	</data>
+	<data type="special" path="data/entity/character/abilities/" ext="xml">
+		<asset>shoes_ag_boots</asset>
+	</data>
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<card>2019</card>
+		<card>2020</card>
+		<card>2021</card>
+		<card>2022</card>
+		<card>2023</card>
+		<card>2024</card>
+		<card>2025</card>
+		<card>2026</card>
+		<card>2017</card>
+		<card>2028</card>
+		<card>2029</card>
+		<card>2030</card>
+		<card>2031</card>
+		<card>2032</card>
+		<card>2033</card>
+		<card>2036</card>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2032</asset>
+		<asset>2030</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>AmericanGirl_Fun_Games</asset>
+		<asset>galactic_hot_dogs_main_theme</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>points_ping_01b</asset>
+		<asset>clap2</asset>
+		<asset>laser_lsw</asset>
+	</assets>
+
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_americangirl_surfprize</asset>
+		<asset>limited_ag_blossom</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_americangirl_surfprize</asset>
+		<asset>limited_ag_blossom</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_americangirl_hoodie</asset>
+		<asset>limited_americangirl_shirt</asset>
+		<asset>limited_americangirl_jacket</asset>
+		<asset>limited_kira_outfit</asset>
+
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_americangirl_hoodie</asset>
+		<asset>limited_americangirl_shirt</asset>
+		<asset>limited_americangirl_jacket</asset>
+		<asset>limited_kira_outfit</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_americangirl_bag</asset>
+		<asset>limited_wombat_daisy</asset>
+		<asset>limited_wombat_boomer</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_americangirl_bag</asset>
+		<asset>limited_wombat_daisy</asset>
+		<asset>limited_wombat_boomer</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_sealpup</asset>
+		<asset>limited_kira_outfit</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_sealpup</asset>
+		<asset>limited_kira_outfit</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+		<asset>limited_ag_bean</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+		<asset>limited_ag_bean</asset>
+	</assets>
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>steamsully</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>steamsully</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_kira_outfit</asset>
+		<asset>limited_ag_earrings</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_kira_outfit</asset>
+		<asset>limited_ag_earrings</asset>
+	</assets>
+		<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>limited_ag_earrings</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>limited_ag_earrings</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_kira_outfit</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_kira_outfit</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="Cricket">
+		<statement>Help me find my things.</statement>
+		<statement id="start">Oh no, I lost some of my favorite things! Would you please help me find them? I'll reward ya, kindly stranger!</statement>
+		<statement id="wingame" triggerEvent="triggerEvent" triggerEventArgs="win">Bingo-Bango! If you want to play another game, come back over and talk to me!</statement>
+	</character>
+	<character id="Cricket2">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="restartGame">Wanna help me find my things again?</statement>
+	</character>
+	<character id="Tilly">
+		<statement>This movin' picture is mighty funny. Can't stop watchin'.</statement>
+	</character>
+	<character id="Bill">
+		<statement>Help Cricket find his stuff.</statement>
+		<statement id="init">Ya'll will have a great time running around Poptropica with my boy, Cricket. Play the game, get your prize then try it out.</statement>
+	</character>
+	<character id="Gramma">
+		<statement>Good thing I have a sword! The subway is no good and full of hidden dangers.</statement>
+		<statement id="goodthing">Good thing I have a sword! The subway is no good and full of hidden dangers.</statement>
+	</character>
+</dialogs>

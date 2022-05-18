@@ -1,0 +1,35 @@
+<item id="3557"> <!-- Spray Tan -->
+	<type>store</type>
+	<subType>general</subType>
+	
+	<buttons>
+		<btn>
+				<label>USE</label>
+				<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Spray Tan!</value>
+			</text>
+		<text id="storeInstructions">
+			<value>Apply liberally to any Poptropican!</value>
+			
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<specials>
+			<specialAbility>spray_tan_all_npcs</specialAbility>
+	</specials>
+</item>

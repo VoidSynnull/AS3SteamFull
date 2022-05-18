@@ -1,0 +1,18 @@
+<specialAbility id="limited/pop_follower_baymax">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2901</param>
+		<param id="skinColor">0xffffff</param>
+		<param id="creature">true</param>
+		<param id="scaleSize">1.2</param>
+		<param id="facialFrame">limited_bh6_baymax</param>
+		<param id="hairFrame">limited_bh6_baymax</param>
+		<param id="pantsFrame">limited_lightgray</param>
+		<param id="packFrame">limited_bh6_baymax</param>
+		<param id="overpantsFrame">limited_bh6_baymax</param>
+		<param id="campaignName">BH6MVU</param>
+		<param id="audioFile1">externalAssets/audio/BH6Baymax.mp3</param>
+	 </parameters>
+</specialAbility>

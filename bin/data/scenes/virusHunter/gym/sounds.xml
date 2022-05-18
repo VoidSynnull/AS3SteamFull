@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="general_metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="treadmill">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="cloth">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3, ls_water_splash_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="general_metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="treadmill">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="cloth">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="water">fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+	</sound>
+</sounds>

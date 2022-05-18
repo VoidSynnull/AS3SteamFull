@@ -1,0 +1,26 @@
+<item id="3209">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3209.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>ACTIVATE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>24 Carrot Island</value>
+		</text>
+			<text id="storeTitle">
+			<value>Hare Club</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Put the Poptropicans&#10;under Your Spell!</value>
+		</text>
+	</textfields>
+</item>

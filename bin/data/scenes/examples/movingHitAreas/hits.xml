@@ -1,0 +1,113 @@
+<hits>
+	<!-- this id should match the name of the hit area movieclip in the hits.fla -->
+	<hit id="sideways">
+		<component type="movingPlatform">
+			<!-- this id should match the name of the art for the hit area movieclip in the hits.fla -->
+			<visible>sidewaysArt</visible>
+			<!-- set the velocity (distance over one second) -->
+			<velocity>120</velocity>
+			<!-- add as many points as needed -->
+			<points>
+				<point>
+					<x>605</x>
+					<y>633</y>
+				</point>
+				<point>
+					<x>1162</x>
+					<y>633</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	
+	<!-- A vertical moving platform -->
+	<hit id="elevator">
+		<component type="movingPlatform">
+			<visible>elevatorArt</visible>
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>1800</x>
+					<y>550</y>
+				</point>
+				<point>
+					<x>1800</x>
+					<y>330</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<!-- The movingHit component can be added to any hit area to make it support a character and move through points. -->
+	<hit id="movingLiquid">
+		<component type="movingHit">
+			<visible>movingLiquidArt</visible>
+			<velocity>60</velocity>
+			<points>
+				<point>
+					<x>2140</x>
+					<y>939</y>
+				</point>
+				<point>
+					<x>2140</x>
+					<y>339</y>
+				</point>
+			</points>
+		</component>
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFFff0000</splashColor1>
+			<splashColor2>0x33330000</splashColor2>
+		</component>
+		<!-- Define the physics of the water. -->
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3000</y>
+			</friction>
+			<!-- IF true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+
+	<!-- This moving hit is given a bouncy force.  'platform=true' ensures that this uses the hit vector at the bottom of the entity. -->
+	<hit id="movingBouncer" platform="true">
+		<component type="movingHit">
+			<visible>movingBouncerArt</visible>
+			<velocity>60</velocity>
+			<points>
+				<point>
+					<x>730</x>
+					<y>430</y>
+				</point>
+				<point>
+					<x>1174</x>
+					<y>638</y>
+				</point>
+				<point>
+					<x>174</x>
+					<y>478</y>
+				</point>
+			</points>
+		</component>
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+
+	<hit id="platforms" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+</hits>

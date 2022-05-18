@@ -1,0 +1,51 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">reign_of_omegon.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="idle">
+		<asset id="laserhit_1_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_1_2" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_1_3" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_2_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_2_2" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_3_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		
+		<asset id="cageBeam0" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam1" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam2" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam3" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">	
+		<asset id="cageBeam0" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam1" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam2" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam3" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="laserhit_1_1">electric_zap_03.mp3</asset>
+		<asset id="laserhit_1_2">electric_zap_03.mp3</asset>
+		<asset id="laserhit_1_3">electric_zap_03.mp3</asset>
+		<asset id="laserhit_2_1">electric_zap_03.mp3</asset>
+		<asset id="laserhit_2_2">electric_zap_03.mp3</asset>
+		<asset id="laserhit_3_1">electric_zap_03.mp3</asset>
+		
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metal">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="metal">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+	</sound>
+</sounds>

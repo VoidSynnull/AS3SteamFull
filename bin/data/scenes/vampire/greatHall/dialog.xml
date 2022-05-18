@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="player">
+		<statement id="great_hall_door">There must be a way to pry the chains off this door.</statement>
+		<statement id="dumbwaiter_lever">It must move up from somewhere else.</statement>
+		<statement id="cannon_dumbwaiter">I need to move the dumbwaiter.</statement>
+		<statement id="cannonball_too_hot">It's too hot to touch.</statement>
+		<statement id="medallion">Looks like the count left something behind.</statement>
+		<statement id="end_kiss">Sheesh.</statement>
+		<statement id="log_wrong">The log doesn't go here.</statement>
+		<statement id="eye_wrong">I need to find what this eye belongs in.</statement>
+		<statement id="armory_key_wrong">This key opens the Armory.</statement>
+		<statement id="crowbar_wrong">There is nothing to use it on.</statement>
+		<statement id="crowbar_too_far">I can use this to break the chains on the door.</statement>
+		<statement id="novel_no_log">I'll need something more substantial to keep the fire going.</statement>
+		<statement id="novel_too_far">Maybe I can use on of these pages in the fire.</statement>
+		<statement id="air_blow_empty">There's nothing left but ash and a few coals.</statement>
+		<statement id="air_blow_log">Some paper would help get the fire going.</statement>
+		<statement id="air_blow1">That's a good start, but it is still really dark.</statement>
+		<statement id="air_blow2">Maybe one more time...</statement>
+    </character>
+    <character id="chris">
+    	<statment event="chris_run">Katya, sweetheart, I've come back to save you!</statment>
+    	<statement event="chris_end">Thanks for helping Katya!</statement>
+    	<statement event="bonus_quest" link="chris_vampire">My darling Katya, I have a surprise for you.</statement>
+    	<statement id="chris_vampire">When the Count sent me away from his castle, he gave me a special gift. He made me on of his creatures of the night!</statement>
+    </character>
+    <character id="katya2">
+    	<statement event="chris_run">Oh, Christopher! My prince!</statement>
+    	<statment event="katya_end">I am glad it is over!</statment>
+    </character>
+    <character id="char3">
+    	<statement event="curse_lifted" link="thanks">At last the curse has been lifted. Young lady, please forgive my troubled mind.</statement>
+    	<statement id="thanks">And to you, dear stranger, I offer my thanks. Once again I am mortal and can join my darling Annabelle.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,31 @@
+<npcs>
+	<npc id="rollo" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/rollo.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+		<!-- 	<x>955</x> -->
+			<x>720</x>
+			<y>690</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="molly" event="got_detective_log_page_5" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/molly.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>-100</x><!-- 630</x> -->
+			<y>690</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="total" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/total.swf</movieClip>
+		<position>
+			<x>-100</x>
+			<y>695</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+</npcs>

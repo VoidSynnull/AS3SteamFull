@@ -1,0 +1,59 @@
+<item id="3142">
+		<type>store</type>
+		<subType>general</subType>
+		
+		<contentClass>
+			<className>game.ui.card.MovieClipContentView</className>
+		<parameters>
+			<param>specialAbility/objects/smileyPotion/potionHappy.swf</param>
+			<param>specialAbility/objects/smileyPotion/potionAngry.swf</param>
+			<param>specialAbility/objects/smileyPotion/potionCrazy.swf</param>
+		</parameters>
+		</contentClass>
+		
+		<buttons>
+			<btn>
+				<label>SELECT CHARACTER</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<radiobuttons>
+		<btn>
+			<color>0xF1DF01</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFF4E2F</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x79FFFF</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+		
+		<textfields>
+			<text id="storeTitle">
+					<value>Smiley Potion</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<value>Share your feelings with&#10;this Smiley Potion.</value>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+ 	<specials>
+			<specialAbility>potion_happy</specialAbility>
+			<specialAbility>potion_angry</specialAbility>
+			<specialAbility>potion_crazy</specialAbility>
+	</specials>
+</item>

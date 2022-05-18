@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

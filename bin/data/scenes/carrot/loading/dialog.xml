@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="drone1">
+		<conversation>
+			<exchange>
+				<question>shared.text41</question>
+				<answer>text46</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text42</question>
+				<answer>text46</answer>
+			</exchange>
+			<exchange>
+				<question>text47</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_1">shared.text43</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="drone_denial">text48</statement>
+		<statement triggeredByEvent="drone_free">text49</statement>
+		<statement event="drone_freed_1">text50</statement>
+	</character>
+</dialogs>

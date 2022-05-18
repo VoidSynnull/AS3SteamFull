@@ -1,0 +1,118 @@
+<groups>
+	<group event="set_day" triggerAndSave="true">
+		<and>
+			<event type="set_night" not="true"/>
+		</and>
+	</group>
+	
+	<group event="mountain_unfinished" triggerAndSave="true">
+		<and>
+			<event type="mountain_finished" not="true"/>
+		</and>
+	</group>
+	
+	<group event="mainstreet_unfinished" triggerAndSave="true">
+		<and>
+			<event type="mainstreet_finished" not="true"/>
+		</and>
+	</group>
+	
+	<group event="set_clear" triggerAndSave="true">
+		<and>
+			<event type="set_rain" not="true" />
+		</and>
+	</group>
+	
+	<group event="show_coin_dealer" triggerAndSave="true">
+		<and>
+			<event type="set_night"/>
+			<event type="focus_pop_coins"/>
+		</and>
+	</group>
+		<group event="safety_appears_roof" triggerAndSave="false" onlyTrigger="true">
+		<and>
+			<event type="gotItem_pop"/>
+			<event type="server_repaired" not="true"/>
+			<event type="defeated_boss" not="true"/>
+		</and>
+	</group>
+		
+	<group event="classroom_hideWriter" triggerAndSave="true">
+		<and>			
+			<event type="writer_left_classroom" not="true"/>
+		</and>
+	</group>
+	<group event="basement_closed" triggerAndSave="true">
+		<and>
+			<event type="basement_open" not="true"/>
+		</and>
+	</group>
+	<group event="used_computers" triggerAndSave="true">
+		<or>
+			<event type="used_dev_computer"/>
+			<event type="used_des_computer"/>
+		</or>
+	</group>
+	
+	<group event="university_hidenpc" triggerAndSave="true">
+		<and>			
+			<event type="writer_left_classroom"/>
+			<event type="spoke_sales_manager_ad" not="true" />			
+		</and>
+	</group>
+	
+	<group event="start_collectibles" triggerAndSave="true">
+		<and>			
+			<event type="inventory_fixed"/>
+			<event type="payed_coin"/>	
+			<event type="writer_asked_soda"/>		
+			<event type="focus_collectibles" not="true"/>				
+		</and>
+	</group>
+	
+	<group event="start_pop_coins">
+		<and>			
+			<event type="gotItem_axe"/>
+			<event type="focus_pop_coins" not="true"/>	
+			<event type="payed_coin" not="true"/>					
+		</and>
+	</group>
+	
+	<group event="show_focus_coins">
+		<and>			
+			<event type="focus_pop_coins"/>	
+			<event type="payed_coin" not="true"/>					
+		</and>
+	</group>
+	
+	<group event="start_crate" triggerAndSave="true">
+		<and>			
+			<event type="gotItem_pop"/>
+			<event type="smashed_crate" not="true"/>					
+		</and>
+	</group>
+	
+	<group event="crate_dazed">
+		<and>
+			<event type="smashed_crate"/>
+			<event type="hasItem_pop"/>
+			<event type="server_repaired" not="true"/>
+			<event type="defeated_boss" not="true"/>
+		</and>
+	</group>
+	
+	<group event="staff_members_returned" triggerAndSave="true">
+		<and>			
+			<event type="rescued_designer"/>
+			<event type="developer_returned"/>
+			<event type="writer_returned"/>	
+		</and>
+	</group>
+	
+	<group event="wrong_coin_use">
+		<and>
+			<event type="usedCoin"/>
+			<event type="payed_coin"/>
+		</and>
+	</group>
+</groups>

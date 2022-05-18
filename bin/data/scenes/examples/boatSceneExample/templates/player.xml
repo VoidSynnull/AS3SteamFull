@@ -1,0 +1,24 @@
+<components>
+<system class="game.scene.template.topDown.boatScene.WaterWaveSystem"/>
+<component class="engine.components.Id">
+	<constructor>
+		<id>player</id>
+	</constructor>
+</component>
+<component class="engine.components.Spatial">
+	<constructor>
+		<x>500</x>
+		<y>500</y>
+	</constructor>
+</component>
+<component class="game.components.motion.MotionControl">
+	<properties>
+		<forceTarget>false</forceTarget>
+	</properties>
+</component>
+<component class="game.components.motion.TargetEntity">
+	<properties>
+		<applyCameraOffset>true</applyCameraOffset>
+	</properties>
+</component>
+</components>

@@ -1,0 +1,44 @@
+<item id="3687">
+	<type>store</type>
+	<subType>general</subType>
+
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	 <buttons>
+  		<btn>
+  			<index>0</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	<textfields>
+		<text id="subtitle">
+			<value>COSTUME CONTEST WINNER</value> <!-- Change this subtitle -->
+		</text>
+		<text id="storeTitle">
+			<value>Lightning Wielder</value>
+			 </text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<looks>
+		<look>
+			<skinColor>0x67A6C4</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>farmerboy</mouth>
+			<facial>lightning_wielder</facial>
+			<hair>lightning_wielder</hair>
+			<pants>lawyer</pants>
+			<pack>lightning_wielder</pack>
+			<overshirt>lightning_wielder</overshirt>
+
+		</look>
+	</looks> 
+</item>

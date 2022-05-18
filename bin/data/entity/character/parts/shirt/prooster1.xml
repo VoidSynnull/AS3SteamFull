@@ -1,0 +1,17 @@
+<part>
+	<id>prooster1</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0x528622</color>
+		<color id="color2">0xC99534</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

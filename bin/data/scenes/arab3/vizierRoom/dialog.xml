@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="player">
+		<statement id="didIt">I did it!</statement>
+		<statement id="whoops" triggerEvent="triggerEvent" triggerEventArgs="runBack">Whoops!</statement>
+		<statement id="noBook">I'll need a recipe if i want to craft anything.</statement>
+		<statement id="fail">Well, That didn't work...</statement>
+		<statement id="magicCarpet" triggerEvent="triggerEvent" triggerEventArgs="magicCarpet">Hey, a magic carpet! Now I'm in a whole new world.</statement>
+		<statement id="noUse">No one will be crafting on this table for a while.</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,75 @@
+<npcs>
+	<npc id="man">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFC4A8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>2</mouth>
+			<marks>is_wom</marks>
+			<hair>is_wom</hair>
+			<shirt>is_wom</shirt>
+			<pants>jefferson</pants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1100</x>
+			<y>521</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="woman">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Run</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<hair>is_wow</hair>
+			<shirt>is_wow</shirt>
+			<pants>jefferson</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<position>
+			<x>595</x>
+			<y>490</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="employee">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf9aa18</hairColor>
+			<mouth>pcowgirl1</mouth>
+			<hair>is_gym</hair>
+			<shirt>is_gym</shirt>
+			<pants>hero1</pants>
+			<overshirt>is_gym</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2300</x>
+			<y>521</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

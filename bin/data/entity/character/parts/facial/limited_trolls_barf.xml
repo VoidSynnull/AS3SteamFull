@@ -1,0 +1,44 @@
+<part>
+	<id>limited_trolls_barf</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">TrollsWorldTourMMSQ,Barf Power</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction" lockInput="true" startDelay="1" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+				<action class="AnimationAction" lockInput="true" startDelay="1">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.KissStart</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

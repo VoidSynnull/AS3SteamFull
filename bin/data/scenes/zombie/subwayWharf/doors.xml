@@ -1,0 +1,28 @@
+<doors>
+	<door id="wharfExit">
+		<scene>game.scenes.zombie.wharf.Wharf</scene>
+		<x>318</x>
+		<y>1557</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="subwayExit">
+		<scene>game.scenes.zombie.subway.Subway</scene>
+		<x>120</x>
+		<y>569</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

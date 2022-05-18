@@ -1,0 +1,42 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>AntManAndTheWaspMVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<musicFile>mfb_battle_variation.mp3</musicFile>
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/clk/420170566;221390228;v</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/clk/420170566;221568165;c</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+	</clickUrls>
+	
+	<!-- impressions when clicking (ClickToSponsor event) by category or id (usually only posters and popups) -->
+	<impressionOnClicks>
+		<impressions id="Card">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221390228;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionOnClicks>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221568165;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="Start"> <!-- For winning game -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221391638;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="ObjectCollected">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221390228;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<boycards>
+		<card>2906Fly</card>
+		<card>2902Fly</card>
+	</boycards>
+	<girlcards>
+		<card>2902Fly</card>
+		<card>2906Fly</card>
+	</girlcards>
+</campaign>

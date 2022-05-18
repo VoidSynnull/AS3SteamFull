@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Come inside and see if you can top my driving and track-building skills!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

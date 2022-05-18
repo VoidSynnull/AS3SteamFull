@@ -1,0 +1,9 @@
+<part>
+	<id>an_magic_sand</id>
+	<type>item</type>
+	<specialAbility id="throwMagicSand">
+		<className>game.data.specialAbility.islands.arab.ThrowMagicSand</className>
+		<useButton>true</useButton>
+		<validIslands>arab2</validIslands>
+	</specialAbility>
+</part>

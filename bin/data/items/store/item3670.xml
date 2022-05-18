@@ -1,0 +1,78 @@
+<item id="3670">
+	<type>store</type>
+	<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<radiobuttons>
+		<btn>
+			<color>0x123286</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x009334</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xF4D625</color>
+			<val>2</val>
+		</btn>
+		<btn>
+			<color>0x890000</color>
+			<val>3</val>
+		</btn>
+	</radiobuttons>
+	
+	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+		
+		<textfields>
+			<text id="storeTitle">
+				<value>Autumn Scarves</value>
+			</text>
+	</textfields>
+	
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<looks>
+		<look>
+			<overshirt>scarf1</overshirt>
+		</look>
+		<look>
+			<overshirt>scarf2</overshirt>
+		</look>
+		<look>
+			<overshirt>scarf3</overshirt>
+		</look>
+		<look>
+			<overshirt>scarf4</overshirt>
+		</look>
+	</looks> 
+
+	
+</item>

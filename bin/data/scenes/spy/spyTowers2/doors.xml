@@ -1,0 +1,43 @@
+<doors>
+	<door id="doorSpyTowers1A">
+		<scene>game.scenes.spy.spyTowers1.SpyTowers1</scene>
+		<x>500</x>
+		<y>-100</y>
+		<label>
+			<text>Go Down</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorSpyTowers1B">
+		<scene>game.scenes.spy.spyTowers1.SpyTowers1</scene>
+		<x>4305</x>
+		<y>50</y>
+		<label>
+			<text>Go Down</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorGreenhouse">
+		<scene>game.scenes.spy.greenhouse.Greenhouse</scene>
+		<x>302</x>
+		<y>1446</y>
+		<label>
+			<text>Enter</text>
+			<type>exitRight</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

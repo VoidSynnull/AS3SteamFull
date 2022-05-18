@@ -1,0 +1,231 @@
+<npcs>
+	<npc id="worker1" event="pre_cosplay">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>19</mouth>
+			<facial>bl_drem</facial>
+			<hair>poptropicon_worker1</hair>
+			<shirt>poptropicon_worker</shirt>
+			<pants>securityguard1</pants>
+			<overshirt>poptropicon_worker1</overshirt>
+			<overpants>farmerboy</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2194</x>
+			<y>940</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="worker1" event="cosplay_on">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>19</mouth>
+			<facial>bl_drem</facial>
+			<hair>poptropicon_worker1</hair>
+			<shirt>poptropicon_worker</shirt>
+			<pants>securityguard1</pants>
+			<overshirt>poptropicon_worker1</overshirt>
+			<overpants>farmerboy</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1810</x>
+			<y>940</y>
+		</position>
+	</npc>
+	
+	<npc id="worker2" event="pre_cosplay">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x6e3e23</hairColor>
+			<mouth>ballonpilate2</mouth>
+			<facial>poptropicon_worker01</facial>
+			<hair>ginnk</hair>
+			<shirt>poptropicon_worker</shirt>
+			<pants>wwworker</pants>
+			<overpants>conworker1</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2330</x>
+			<y>940</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="worker2" event="cosplay_on">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x6e3e23</hairColor>
+			<mouth>ballonpilate2</mouth>
+			<facial>poptropicon_worker01</facial>
+			<hair>ginnk</hair>
+			<shirt>poptropicon_worker</shirt>
+			<pants>wwworker</pants>
+			<overpants>conworker1</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1620</x>
+			<y>940</y>
+		</position>
+	</npc>
+	
+	<!--  MANNEQUINs  -->
+	<npc id="fashionNinja">
+		<skin>
+			<gender>female</gender>`
+			<skinColor>0xddc497</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<marks>poptropicon_fashionninja</marks>
+			<facial>poptropicon_fashionninja</facial>
+			<hair>poptropicon_fashionninja</hair>
+			<shirt>poptropicon_fashionninja</shirt>
+			<pants>poptropicon_fashionninja</pants>
+			<item>poptropicon_fashionninja</item>
+			<item2>poptropicon_fashionninja</item2>
+			<overpants>poptropicon_fashionninja</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>382</x>
+			<y>890</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="teenageArachnid">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xe4c596</skinColor>
+			<hairColor>0xa85b30</hairColor>
+			<mouth>teethgrin1</mouth>
+			<marks>poptropicon_arachnid</marks>
+			<hair>poptropicon_arachnid</hair>
+			<shirt>poptropicon_arachnid</shirt>
+			<pants>mk_cheeseguard</pants>
+			<overpants>poptropicon_arachnid</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>566</x>
+			<y>890</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="muttonChops">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xdb6640</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>flpirate3</mouth>
+			<marks>poptropicon_chops</marks>
+			<hair>poptropicon_chops</hair>
+			<shirt>bare</shirt>
+			<pants>poptropicon_chops</pants>
+			<item>poptropicon_chops</item>
+			<overshirt>poptropicon_chops</overshirt>
+			<overpants>tt_elf1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>747</x>
+			<y>890</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="goldFace">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xecd14a</skinColor>
+			<hairColor>0xa85b30</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_sagoldface</facial>
+			<hair>35</hair>
+			<shirt>1</shirt>
+			<pants>miner1</pants>
+			<pack>poptropicon_sagoldface</pack>
+			<overshirt>poptropicon_sagoldface</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1665</x>
+			<y>874</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="worldGuy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x936043</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>sponsorec2</mouth>
+			<facial>poptropicon_saworldguy</facial>
+			<hair>1</hair>
+			<shirt>poptropicon_saworldguy</shirt>
+			<pants>poptropicon_saworldguy</pants>
+			<overpants>poptropicon_saworldguy</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1490</x>
+			<y>890</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="kMan">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xe3c276</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>montgomery</mouth>
+			<marks>poptropicon_kman</marks>
+			<hair>poptropicon_kman</hair>
+			<shirt>poptropicon_kman</shirt>
+			<pants>conworker1</pants>
+			<pack>poptropicon_kman</pack>
+			<overshirt>poptropicon_kman</overshirt>
+			<overpants>ubelt4</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2213</x>
+			<y>792</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="clear">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x7dbcb6</skinColor>
+			<hairColor>0x7166cc</hairColor>
+			<mouth>magician</mouth>
+			<marks>poptropicon_clear</marks>
+			<hair>poptropicon_clear</hair>
+			<shirt>poptropicon_clear</shirt>
+			<pants>poptropicon_clear</pants>
+			<item>poptropicon_clear</item>
+			<overshirt>poptropicon_clear</overshirt>
+			<overpants>realitywoman</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2821</x>
+			<y>915</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+</npcs>

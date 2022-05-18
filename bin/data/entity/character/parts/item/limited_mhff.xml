@@ -1,0 +1,15 @@
+<part>
+	<id>limited_mhff</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2601</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/MonsterHighFreakyFusionEC/fusion.swf</param>
+			<param id="tracking">MonsterHighFreakyFusionEC,Fusion Power</param>
+		</parameters>
+	</specialAbility>
+</part>

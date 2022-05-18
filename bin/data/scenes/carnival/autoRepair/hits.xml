@@ -1,0 +1,31 @@
+<hits>
+	<hit id="solidMetal" color="0x576657" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="concrete" color="0x8e9484" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tile" color="0xccede0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hollowMetal" color="0x5A7C87" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,42 @@
+<npcs>
+	<npc id="spongebob">
+		<bitmap>limited/SpongeBobMovieQuest/spongebob.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>836</x>
+			<y>1494</y>
+		</position>
+		<faceSpeaker>true</faceSpeaker>
+		<proximity>100</proximity>
+	</npc>
+	<npc id="patrick">
+		<bitmap>limited/SpongeBobMovieQuest/patrick.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>1042</x>
+			<y>1054</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+		<proximity>100</proximity>
+	</npc>
+	<npc id="mrkrabs">
+		<bitmap>limited/SpongeBobMovieQuest/krabbs.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>1782</x>
+			<y>1506</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+		<proximity>100</proximity>
+	</npc>
+	<npc id="sandy">
+		<bitmap>limited/SpongeBobMovieQuest/sandy.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>2823</x>
+			<y>1523</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

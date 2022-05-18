@@ -1,0 +1,17 @@
+<part>
+	<id>limited_marypoppins_npcballoon</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2945</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddBalloon</className>
+		<triggerable>false</triggerable>
+		<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/marypoppins_balloon.swf</param>
+		<param id="knotX">2</param>
+		<param id="knotY">2</param>
+		<param id="randomFrame">true</param>
+		</parameters>
+	</specialAbility>
+</part>

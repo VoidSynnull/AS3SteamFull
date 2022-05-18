@@ -1,0 +1,21 @@
+<sounds>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="generalMetal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="generalRubbish">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3,</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="generalMetal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="generalRubbish">fs_general_rubbish_01.mp3, fs_general_rubbish_02.mp3, fs_general_rubbish_03.mp3, fs_general_rubbish_04.mp3</asset>
+	</sound>
+</sounds>

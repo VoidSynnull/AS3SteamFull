@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="bad_agent">
+		<statement>You're not the chef. Don't bother me.</statement>
+		<statement event="gotItem_chefHat">Ah, chef. Please fill up my glass.</statement>
+		<statement event="gotItem_fingerPrint">I'm fine. Go away.</statement>
+    </character>
+    
+    <character id="bad_friend">
+    	<statement>Excuse me, I'm busy right now.</statement>
+    	<statement event="gotItem_chefHat">I don't need anything. Thank you.</statement>
+    </character>
+    
+    <character id="waiter">
+    	<statement>Welcome to the Bistro.</statement>
+    	<statement event="gotItem_chefHat">You must be the new chef.</statement>
+    </character>
+    
+    <character id="cook">
+    	<statement>A good chef must have a good memory.</statement>
+    	<statement event="loseCook">Sorry, I don't think you've got what it takes.</statement>
+    	<statement event="winCook" link="congrats">Very good! You're hired!</statement>
+    	<statement id="congrats">Congratulations! You're now a chef.</statement>  <!--  give bad chef hat  -->
+    	<statement event="gotItem_chefHat">Congratulations! You're now a chef.</statement>
+    </character>
+    
+    <character id="bad_guard_1">
+    	<statement>Boss will only be served by the chef.</statement>
+    	<statement event="gotItem_chefHat">Boss won't let me order anything.</statement>
+    </character>
+
+	<character id="bad_guard_2">
+		<statement>Boss only trusts the chef.</statement>
+    	<statement event="gotItem_chefHat">I'm not hear to eat.</statement>
+    </character>
+</dialogs>

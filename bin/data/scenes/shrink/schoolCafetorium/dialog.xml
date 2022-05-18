@@ -1,0 +1,87 @@
+<dialogs>
+	<!-- Calimari Kid -->
+	<character id="char1">
+		<statement>If C.J. doesn't show up, I finally have a chance to win first prize!</statement>
+		<statement event="gotItem_medal_shrink">I got it right five times in a row!</statement>
+	</character>
+	
+	<!-- Balloon Kid -->
+	<character id="char2">
+		<statement>It's amazing, but true: if you rub a balloon on your hair, it'll stick to your head!</statement>
+		<statement event="gotItem_medal_shrink">I wonder what else I could get to stick on my head?</statement>
+	</character>
+	
+	<!-- Chocolate Kid -->
+	<character id="char3">
+		<statement>C.J. told me she was going to do something really BIG for this year's science fair! But she wouldn'tt tell me WHAT!</statement>
+		<statement event="gotItem_medal_shrink">I'm going to do the same project next year!</statement>
+	</character>
+	
+	<!-- Propulsion Kid -->
+	<character id="char4">
+		<statement>I hate how C.J. wins every year, but I always love seeing her science projects!</statement>
+		<statement event="gotItem_medal_shrink">Next stop: The Moon!</statement>
+	</character>
+	
+	<!-- Belly Button Kid -->
+	<character id="char5">
+		<statement>My project would have been much better if we'd been given more time to work on it.</statement>
+		<statement event="gotItem_medal_shrink">Now I've got a whole year to think of something even better!</statement>
+	</character>
+	
+	<!-- Mr Silva -->
+	<character id="char6">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm Mr. Silva, the science teacher.</answer>
+			</exchange>
+			<exchange>
+				<question>Is everything all right?</question>
+				<answer>The science fair is about to start and my star pupil hasn't arrived!</answer>
+			</exchange>
+			<exchange>
+				<question>Do you think she's just running late?</question>
+				<answer>She's won the science fair three years in a row. She wouldn't miss it for the world!</answer>
+			</exchange>
+		</conversation>
+		<statement event="gotItem_medal_shrink">I couldn't have done it without your help.</statement>
+    </character>
+    
+    <!-- CJs Mother -->
+    <character id="char7">
+		<statement>C.J. must be on her way. She plans her whole year around the science fair!</statement>
+		<statement event="gotItem_medal_shrink">Thank you so much for helping our daughter.</statement>
+	</character>
+    
+    <!-- CJs Father -->
+    <character id="char8">
+		<conversation>
+			<exchange>
+				<question>Where is C.J.?</question>
+				<answer>I'm not sure, but she should be here soon.</answer>
+			</exchange>
+			<exchange>
+				<question>What kind of project is she bringing?</question>
+				<answer>C.J. said she had an amazing project this year. She never let us in her room to see what she was working on!</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="got_address,true">Can I help with anything?</question>
+				<answer>Why don't you run over to our apartment and check on C.J. We live on Avenue A.</answer>
+			</exchange>
+		</conversation>
+		<statement event="gotItem_medal_shrink">We're so proud!</statement>
+    </character>
+    
+    <!-- Tiny Mr Silva -->
+    <character id="char9">
+		<statement id="famous" triggerEvent="triggerEvent" triggerEventArgs="give_medallion">I'm finally famous! Yahoo!</statement>
+		<statement event="gotItem_medal_shrink">I'm finally famous! Yahoo!</statement>
+    </character>
+    
+    <!-- CJ -->
+    <character id="cj">
+		<statement id="thanks" link="famous" linkEntityId="char9">I couldn't have done it with out you!</statement>
+		<statement event="gotItem_medal_shrink">I couldn't have done it with out you!</statement>
+    </character>
+</dialogs>

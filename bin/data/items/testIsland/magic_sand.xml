@@ -1,0 +1,46 @@
+<item id="magic_sand">
+	<type>island</type>
+	<subType>testIsland</subType>
+	<textfields>
+ 		<text>
+      		<value>Magic Sand</value>
+    	</text>
+    	<text id="islandgray">
+  			<value>Press SPACEBAR to throw a Magic Sand!</value>
+  			<width>190</width>
+  			<y>90</y>
+  		</text>
+  	</textfields>
+
+	<assets>
+  		<asset id="cardBack"/>
+    	<asset id="cardContent"/>
+    </assets>
+    
+    <buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"></conditional>
+    		<label>EQUIP</label>
+    		<actions>
+	    		<action type="applyLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+			<conditional id="hasLook" isTrue="true"></conditional>
+    		<label>REMOVE</label>
+    		<actions>
+	    		<action type="removeLook"/>
+			</actions>
+  		</btn>
+	</buttons>
+	
+	<looks>
+		<look>
+			<item>an_magic_sand</item>
+		</look>
+	</looks>
+	
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+</item>

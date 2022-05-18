@@ -1,0 +1,28 @@
+<doors>
+	<door id="cliffExit">
+		<scene>game.scenes.vampire.adGroundH20.AdGroundH20</scene>
+		<x>30</x>
+		<y>474</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="commonDoor">
+		<scene>game.scenes.vampire.common.Common</scene>
+		<x>576</x>
+		<y>808</y>
+		<label>
+			<text>COMMON ROOM</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

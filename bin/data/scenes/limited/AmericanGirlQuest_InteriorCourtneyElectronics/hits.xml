@@ -1,0 +1,15 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit id="water" color="0x0000ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0x4B8E8D</splashColor1>
+			<splashColor2>0x4B8E8D</splashColor2>
+		</component>
+	</hit>
+</hits>

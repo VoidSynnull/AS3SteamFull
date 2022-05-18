@@ -1,0 +1,15 @@
+<specialAbility id="limited/pop_follower_spongebob">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="campaignId">2012</param>
+		<param id="campaignName">SpongeBobMovieQuest</param>
+		<param id="skinColor">0xFFE271</param>
+		<param id="facialFrame">limited_spongebob_arm</param>
+		<param id="hairFrame">limited_spongebob_arm</param>
+		<param id="overshirtFrame">limited_spongebob_follower</param>
+		<param id="audioFile1">game/sound/limited/SpongeBobMovie/spongeLaugh.mp3</param>
+		<param id="useSpecialActionBtn">true</param>
+	</parameters>
+</specialAbility>

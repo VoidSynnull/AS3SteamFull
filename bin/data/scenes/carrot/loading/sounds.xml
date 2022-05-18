@@ -1,0 +1,49 @@
+<sounds>	
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">production_factory_muffled.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset triggeredByEvent="printing_paper">print_paper_01.mp3</asset>
+		<!-- <asset triggeredByEvent="gotItem_systemPassword">card_get.mp3</asset> -->
+		<asset id="crate1" modifiers="position">chute_01.mp3</asset>
+		<asset id="crate2" modifiers="position">chute_02.mp3</asset>
+		<asset id="crate3" modifiers="position">chute_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="chute">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="metalPlatform">ls_general_metal_verb_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="crates">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="piping">ls_metal_verb_01.mp3, ls_metal_verb_02.mp3</asset>
+		<asset id="machine">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="brackets">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="vent">ls_metal_shelf_verb_01.mp3, ls_metal_shelf_verb_02.mp3</asset>
+		<asset id="smallPipe">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		
+		<asset id="crateHit1">whack_03.mp3</asset>
+		<asset id="crateHit2">whack_03.mp3</asset>
+		<asset id="crateHit3">whack_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="chute">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="metalPlatform">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="crates">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="piping">fs_metal_verb_01.mp3, fs_metal_verb_02.mp3, fs_metal_verb_03.mp3, fs_metal_verb_04.mp3</asset>
+		<asset id="machine">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="brackets">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="vent">fs_metal_shelf_verb_01.mp3, fs_metal_shelf_verb_02.mp3, fs_metal_shelf_verb_03.mp3, fs_metal_shelf_verb_04.mp3</asset>
+		<asset id="smallPipe">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

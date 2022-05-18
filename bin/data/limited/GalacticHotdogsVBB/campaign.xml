@@ -1,0 +1,9 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>GalacticHotdogsVBB</campaignId> <!-- *** Must match campaign folder name -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+   	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.amazon.com/Galactic-Hot-Dogs-Collection-Cosmoes/dp/1534478124/familyeducom-20</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+</campaign>

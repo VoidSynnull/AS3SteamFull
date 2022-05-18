@@ -1,0 +1,50 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="value">limited_lego_pickax2</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">facial</param2>
+			<param3 id="value">limited_lego_helmet2</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">Creeper1</param2>
+			<param3 id="target">400,1160</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">Creeper2</param2>
+			<param3 id="target">500,1160</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">Creeper3</param2>
+			<param3 id="target">300,1160</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">1.5</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">creeper</param3>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="value">limited_lego_pickax2</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">facial</param2>
+			<param3 id="value">limited_lego_helmet2</param3>
+		</event>
+	</group>
+</events>

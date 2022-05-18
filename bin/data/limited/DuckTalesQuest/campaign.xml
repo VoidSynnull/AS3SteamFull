@@ -1,0 +1,64 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>DuckTalesQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B20998433.219039813;dc_trk_aid=418058271;dc_trk_cid=100591786;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B20998433.218896786;dc_trk_aid=418058271;dc_trk_cid=100591786;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B20998433.219039630;dc_trk_aid=418058271;dc_trk_cid=100591786;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Poster">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B20998433.219039633;dc_trk_aid=418058271;dc_trk_cid=100591786;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+	</clickUrls>
+	
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+		<impressions id="Poster">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.219039633;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+	</impressionOnClicks>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.219039813;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="DuckTalesQuest_Game">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.218890286;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="EngagedInsideNPC">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.218896783;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="EngagedOutsideNPC">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.218896783;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="ObjectCollected">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.218896786;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="VideoClicked">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.219039630;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="VideoReplayed">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B20998433.219039630;dc_trk_aid=418058271;dc_trk_cid=100591786;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2889</card>
+		<card>2890</card>
+		<card>2891</card>
+		<card>2892</card>
+		<card>2893</card>
+	</boycards>
+	<girlcards>
+		<card>2889</card>
+		<card>2890</card>
+		<card>2891</card>
+		<card>2892</card>
+		<card>2893</card>
+	</girlcards>
+</campaign>

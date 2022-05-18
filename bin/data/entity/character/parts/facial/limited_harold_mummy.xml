@@ -1,0 +1,39 @@
+<part>
+	<id>limited_harold_mummy</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2936</campaignID>
+	<hide>
+	    <part>hair</part>
+		<part>mouth</part>
+		<part>head</part>
+		<part>eyes</part>
+		<part>marks</part>
+	</hide>
+
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">UnderwrapsVBB,costumeDance</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Disco</param>
+						<param id="waitLabel" type="string">none</param>
+						<param id="maxFrames" type="int">248</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" startDelay=".1">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/Underwraps/underwraps_track.mp3</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

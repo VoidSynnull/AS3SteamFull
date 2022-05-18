@@ -1,0 +1,20 @@
+<npcs>
+  <npc id="elsa">
+		<bitmap>limited/Frozen2VBB/Elsa.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>485</x> <!-- from left edge of ad unit -->
+			<y>1130</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	<npc id="anna">
+		<bitmap>limited/Frozen2VBB/Anna.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>579</x> <!-- from left edge of ad unit -->
+			<y>1120</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

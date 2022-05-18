@@ -1,0 +1,16 @@
+<game>
+	<className>game.scene.template.ads.BotBreakerGame</className>
+	<returnX>2640</returnX>
+	<returnY>803</returnY>
+	<choosePopup>limited/ArcadeBotBreakerQuest/BotBreakerChoose.swf</choosePopup>
+	<speed>300</speed>
+	<bounceFactor>5</bounceFactor>
+	<multiplierTime>10</multiplierTime>
+	<brickSound>effects/break_block_02.mp3</brickSound>
+	<bounceSound>effects/ball_bounce_01.mp3</bounceSound>
+	<loseSound>effects/game_over.mp3</loseSound>
+	<gameOverSound>effects/points_ping_01d.mp3</gameOverSound>
+	<multiplierPowerChance>25</multiplierPowerChance>
+	<playerSpeed>30</playerSpeed>
+	<popupScene>true</popupScene>
+</game>

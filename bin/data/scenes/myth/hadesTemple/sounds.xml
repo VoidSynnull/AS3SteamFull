@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".5">hades_realm.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="gate" triggeredByEvent="hades_temple_open">myth_hades_door_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="torches">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="statues">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="torches">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="statues">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

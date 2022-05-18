@@ -1,0 +1,17 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>GHDTestBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://www.amazon.com/Galactic-Hot-Dogs-Collection-Cosmoes/dp/1534478124/familyeducom-20</clickUrl>
+	</clickUrls>
+	
+	<boycards>
+		<card>2018</card>
+	</boycards>
+	<girlcards>
+		<card>2018</card>
+	</girlcards>
+</campaign>

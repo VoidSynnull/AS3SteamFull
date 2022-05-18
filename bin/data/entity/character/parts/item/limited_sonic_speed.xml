@@ -1,0 +1,34 @@
+<part>
+	<id>limited_sonic_speed</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/SonicVBB/speed.swf</param>
+			<param id="tracking">SonicVBB,speed</param>
+			<param id="alignToPlayer">true</param>
+			
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetAlphaAction" startDelay="0">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="alpha" type="number">0</param>
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetAlphaAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="alpha" type="number">1</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,174 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/ZootopiaQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/ZootopiaQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/ZootopiaQuest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/ZootopiaQuest_GameChase/">
+		<asset>game.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<data type="game" path="data/scenes/limited/ZootopiaQuest_GameTopDown/">
+		<asset>game.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>motionMaster.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>segmentPatterns.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/ZootopiaQuest_GameChase/">
+		<asset>interactive.swf</asset>
+		<asset>background.swf</asset>
+		<asset>background2.swf</asset>
+	</assets>
+	<assets type="game" path="assets/scenes/limited/ZootopiaQuest_GameTopDown/">
+		<asset>interactive.swf</asset>
+	</assets>
+
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/ZootopiaQuest/" ext="swf">
+		<asset>StartChase</asset>
+		<asset>WinChase</asset>
+		<asset>LoseChase</asset>
+		<asset>StartTopDown</asset>
+		<asset>WinTopDown</asset>
+		<asset>LoseTopDown</asset>
+	</assets>
+	
+	<assets type="support" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>zootopia_judy_car</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2761</asset>
+		<asset>2762</asset>
+		<asset>2768</asset>
+	</data>
+	
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml" keep="true">
+		<asset>standNinja</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>chase_game</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>air_shot_03</asset>
+		<asset>explosion_02</asset>
+		<asset>explosion_04</asset>
+		<asset>big_pop_01</asset>
+		<asset>big_pow_05</asset>
+		<asset>door_hatch_01</asset>
+		<asset>whoosh_05</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>explosion_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>pcowgirl1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>pcowgirl1</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>ppeacekeeper</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>ppeacekeeper</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+		<asset>nick</asset>
+		<asset>flash</asset>
+		<asset>duke</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+		<asset>flash</asset>
+		<asset>duke</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>duke</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>duke</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>duke</asset>
+		<asset>judy</asset>
+		<asset>nick</asset>
+		<asset>flash</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+		<asset>flash</asset>
+		<asset>duke</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</assets>
+
+</manifest>

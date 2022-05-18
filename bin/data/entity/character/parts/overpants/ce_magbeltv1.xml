@@ -1,0 +1,13 @@
+<part>
+	<id>ce_magbeltv1</id>
+	<type>overpants</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="mag_belt">
+		<triggerable>false</triggerable>
+		<className>game.data.specialAbility.islands.cavern.MagBelt</className>
+		<parameters>
+			<param id="radius">200</param>
+			<param id="canRepel">false</param>
+		</parameters>
+	</specialAbility>
+</part>

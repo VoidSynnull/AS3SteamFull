@@ -1,0 +1,40 @@
+<part>
+	<id>limited_vivo_headrider</id>
+	<type>marks</type>
+<!--	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>-->
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">VivoQuest,dance</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class" maxFrames="30">game.data.animation.entity.character.Disco</param>
+						<param id="waitLabel" type="string">none</param>
+						<param id="maxFrames" type="int">60</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" startDelay=".1">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/Vivo/limited_vivo_win.mp3</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">marks</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

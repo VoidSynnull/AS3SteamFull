@@ -1,0 +1,21 @@
+<part>
+	<id>lands_animal01</id>
+	<type>hair</type>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+			<clip instanceName="hairShape"/>
+		</colorable>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

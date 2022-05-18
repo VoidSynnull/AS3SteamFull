@@ -1,0 +1,45 @@
+<hotspots>
+	<hotspot id="info" type="poster">
+		<action type="openUrlOnClick">https://ad.doubleclick.net/ddm/clk/312350439;138892828;o</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<!--<hotspot id="surfGame" type="poster">
+		<action type="enterQuest" folder="AmericanGirlQuest">Surf</action> 
+	</hotspot>-->
+	<hotspot id="poster3" type="poster">
+		<action type="className">game.scenes.custom.AdInfoPopup</action>
+        <action type="popup">Info.swf</action>
+	</hotspot>
+	<hotspot id="skateBoard" type="poster">
+		<action type="gotoAndPlay">skateBoard,skPlay</action> 
+	</hotspot>
+	<hotspot id="vanDoor" type="poster">
+		<action type="gotoAndPlay">vanDoor,doPlay</action> 
+	</hotspot>
+	<hotspot id="mel" type="poster">
+		<action type="gotoAndPlay">mel,mePlay</action> 
+	</hotspot>
+	<hotspot id="cake" type="poster">
+		<action type="gotoAndPlay">cake,caPlay</action> 
+	</hotspot>
+	<hotspot id="bread" type="poster">
+		<action type="gotoAndPlay">bread,brPlay</action> 
+	</hotspot>
+	<hotspot id="cupcake" type="poster">
+		<action type="gotoAndPlay">cupcake,ccPlay</action> 
+	</hotspot>
+	<hotspot id="ball" type="poster">
+		<action type="gotoAndPlay">ball,baPlay</action> 
+	</hotspot>
+	<hotspot id="post" type="poster">
+		<action type="gotoAndPlay">post,poPlay</action> 
+	</hotspot>
+	<hotspot id="cottonCandy" type="poster">
+		<action type="gotoAndPlay">cottonCandy,coPlay</action> 
+	</hotspot>
+	<hotspot id="crab" type="poster">
+		<action type="gotoAndPlay">crab,crPlay</action> 
+	</hotspot>
+</hotspots>

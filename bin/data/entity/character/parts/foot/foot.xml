@@ -1,0 +1,14 @@
+<part id="foot">
+  <type>foot</type>
+  <retrieveColors>
+	<part id="skinColor"/>
+  </retrieveColors>
+  <colors>
+	<color id="skinColor"/>
+  </colors>
+  <colorables>
+	<colorable id="skinColor">
+		<clip instanceName="colorFill"/>
+	</colorable>
+  </colorables>
+</part>

@@ -1,0 +1,25 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>FastFuriousMMSQ</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5242383836&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2987</card>
+		<card>2988</card>
+	</boycards>
+	<girlcards>
+		<card>2987</card>
+		<card>2988</card>
+	</girlcards>
+</campaign>

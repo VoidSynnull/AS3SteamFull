@@ -1,0 +1,15 @@
+<doors>
+	<door id="doorPark">
+		<scene>game.scenes.superPower.park.Park</scene>
+		<x>2720</x>
+		<y>900</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>200</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

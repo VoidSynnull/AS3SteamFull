@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="npc1">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Do want to fly one of these ships? Go ahead.</statement>
+	</character>
+	<character id="npc2">
+		<statement link="trigger" linkEntityId="player">Boop bip bip blip!</statement>
+	</character>
+	<character id="npc3">
+		<statement link="ok" linkEntityId="player">Bip bop bip bip bloop!</statement>
+	</character>
+	<character id="npc4">
+		<statement link="trigger">I've got two starships for you to fly.</statement>
+		<statement id="trigger" triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Take them both for a spin through an asteroid belt and see which you like the most.</statement>
+	</character>
+	<character id="player">
+		<statement id="ok">Oh you want me to watch this video? Ok.</statement>
+		<statement id="trigger" triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Ok, R2, I'll pilot your ships.</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,52 @@
+<item id="3555"> <!-- Tabby Cat Follower -->
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>40</x>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>FOLLOW</label>
+				<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+ 			<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Tabby Cat</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Kitty follower!</value>
+			
+		</text>
+	</textfields>
+	
+		<assets>			
+			<asset id="cardBack" />
+		</assets>
+		
+		<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+		
+		<specials>
+			<specialAbility>pop_follower_tabby_cat</specialAbility>
+	</specials>
+</item>

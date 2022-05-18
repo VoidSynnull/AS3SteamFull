@@ -1,0 +1,27 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset>
+			<assetPath>items/store/item3318.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Back Lot Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Director Costume</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to use your megaphone!</web>
+			<mobile>Tap ACTION to use your megaphone!</mobile>
+		</text>
+	</textfields>
+</item>

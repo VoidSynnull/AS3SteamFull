@@ -1,0 +1,39 @@
+<dialogs>
+	<character id="dirtmonger">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text6</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>text3</question>
+				<answer>text4</answer>
+			</exchange>
+		</conversation>
+		<statement event="returned_saltRocks">text5</statement>
+		<conversation event="hasItem_saltRocks">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text6</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text6</question>
+				<answer  triggerEvent = "takeItem" triggerEventArgs="saltRocks, dirtmonger">text7</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char2">
+		<statement>text8</statement>
+    </character>
+    <character id="char3">
+		<statement>text9</statement>
+    </character>
+</dialogs>

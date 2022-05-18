@@ -1,0 +1,70 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">reign_of_omegon.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" baseVolume="0.6">tech_lab.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="key">keypad_01.mp3</asset>
+		
+	</sound>
+	
+	<sound type="effects" action="idle">
+		<asset id="laserhit_4_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_4_2" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+	
+		<asset id="cageBeam0" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam1" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam2" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam3" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		
+		<asset id="barrier0" loop="true" modifiers="position">alien_module.mp3</asset>
+		<asset id="barrier1" loop="true" modifiers="position">alien_module.mp3</asset>
+		<asset id="barrier2" loop="true" modifiers="position">alien_module.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="cageBeam0" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam1" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam2" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam3" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		
+		<asset id="fuse0">glass_break_03.mp3</asset>
+		<asset id="fuse1">glass_break_03.mp3</asset>
+		<asset id="fuse2">glass_break_03.mp3</asset>
+		
+		<asset id="barrier0" modifiers="position" exclusiveType="true">power_down_05.mp3</asset>
+		<asset id="barrier1" modifiers="position" exclusiveType="true">power_down_05.mp3</asset>
+		<asset id="barrier2" modifiers="position" exclusiveType="true">power_down_05.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="laserhit_4_1">electric_zap_03.mp3</asset>
+		<asset id="laserhit_4_2">electric_zap_03.mp3</asset>
+		
+		<asset id="floor">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="vent">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="box">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="vent">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="box">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="push">
+		<asset id="box" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_drag_01_L.mp3</asset>
+	</sound>
+</sounds>

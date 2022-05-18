@@ -1,0 +1,12 @@
+<part>
+	<id>poptropicon_mjolnir</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	<specialAbility id="Mjolnir">
+		<className>game.data.specialAbility.islands.poptropicon.Mjolnir</className>
+		<useButton>true</useButton>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

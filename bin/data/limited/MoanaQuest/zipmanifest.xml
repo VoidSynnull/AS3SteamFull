@@ -1,0 +1,235 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MoanaQuest/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/MoanaQuest_Interior/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/MoanaQuest_InteriorFabled/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/MoanaQuest_InteriorPacifica/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/MoanaQuest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+		<assets type="interior" path="assets/scenes/limited/MoanaQuest_InteriorPacifica/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/MoanaQuest_InteriorFabled/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/MoanaQuest_GameKakamora/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>game.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/MoanaQuest_GameKakamora/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>foreground.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	<data type="game" path="data/scenes/limited/MoanaQuest_GameWayfinder/">
+		<asset>dialog.xml</asset>
+		<asset>motionMaster.xml</asset>
+		<asset>segmentPatterns.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>game.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/MoanaQuest_GameWayfinder/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/MoanaQuest/" ext="swf">
+		<asset>StartKakamora</asset>
+		<asset>WinKakamora</asset>
+		<asset>LoseKakamora</asset>
+		<asset>StartWayfinder</asset>
+		<asset>WinWayfinder</asset>
+		<asset>LoseWayfinder</asset>
+		<asset>wave_power</asset>
+		<asset>waterspout</asset>
+	</assets>
+	
+	<assets type="support" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_moana_pua</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>collection_game</asset>
+		<asset>chase_game</asset>
+		<asset>chase_game_percussion</asset>
+	</assets>
+	
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2817</asset>
+		<asset>2818</asset>
+		<asset>2819</asset>
+		<asset>2820</asset>
+	</data>
+	
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2817</asset>
+		<asset>2818</asset>
+		<asset>2819</asset>
+		<asset>2820</asset>
+	</assets>
+	
+		<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml" keep="true">
+		<asset>standNinja</asset>
+		<asset>salute</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+	
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>air_shot_03</asset>
+		<asset>explosion_02</asset>
+		<asset>explosion_04</asset>
+		<asset>big_pop_01</asset>
+		<asset>big_pow_05</asset>
+		<asset>door_hatch_01</asset>
+		<asset>whoosh_05</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>explosion_01</asset>
+		<asset>points_ping_02e</asset>
+	</assets>
+
+			 
+	
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+	<asset>limited_roosterhat</asset>
+	<asset>limited_pua</asset>
+	<asset>prockergirl3</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+	<asset>limited_roosterhat</asset>
+	<asset>limited_pua</asset>
+	<asset>prockergirl3</asset>
+	</assets>
+	
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+	<asset>limited_moana_conch</asset>
+	<asset>limited_magicfishhook</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+	<asset>limited_moana_conch</asset>
+	<asset>limited_magicfishhook</asset>
+	</assets>
+	
+	
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+	<asset>limited_pua</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+	<asset>limited_pua</asset>
+	</assets>
+	
+		
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+	<asset>limited_pua</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+	<asset>limited_pua</asset>
+	</assets>
+	
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+	<asset>liv</asset>
+	<asset>spiritanimals_boy2</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+	<asset>liv</asset>
+	<asset>spiritanimals_boy2</asset>
+	</assets>
+	
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+	<asset>rick</asset>
+	<asset>smurfs2_badgirl</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+	<asset>rick</asset>
+	<asset>smurfs2_badgirl</asset>
+	</assets>
+	
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+	<asset>pkarateboy3</asset>
+	<asset>wkviolet01</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+	<asset>pkarateboy3</asset>
+	<asset>wkviolet01</asset>
+	</assets>
+	
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+	<asset>pcowgirl1</asset>
+	<asset>alphaomega</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+	<asset>pcowgirl1</asset>
+	<asset>alphaomega</asset>
+	</assets>
+
+</manifest>

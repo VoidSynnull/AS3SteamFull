@@ -1,0 +1,18 @@
+<tracking>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="bitmap_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice></choice>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+	</track>
+</tracking>

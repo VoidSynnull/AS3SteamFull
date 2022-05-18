@@ -1,0 +1,20 @@
+<specialAbility id="pop_follower_reality_monkey">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">reality_monkey</param>
+		<param id="variant">ape</param>
+		<param id="skinColor">0xDA7A8F</param>
+		<param id="hairColor">0xDBC9BD</param>		
+		<param id="mouthFrame">8</param>
+		<param id="marksFrame">ftue_monkey2</param>
+		<param id="hairFrame">ftue_monkey2</param>
+		<param id="shirtFrame">ftue_monkey</param>
+		<param id="pantsFrame">1</param>
+		<param id="packFrame">ftue_monkey</param>
+		<param id="overshirtFrame">ftue_monkeyapron</param>
+		<param id="overpantsFrame">ftue_monkey1</param>
+		<param id="eyeState">squint</param>
+	 </parameters>
+</specialAbility>

@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="player">
+		<statement id="something" link="ifOnly" linkEntityId="cam" >Something out of this world.</statement>
+    </character>
+	<character id="cam">
+		<statement id="whatOnEarth" link="something" linkEntityId="player">What on earth was that?</statement>
+		<statement id="ifOnly" triggerEvent="triggerEvent" triggerEventArgs="getMedallion">If only we'd gotten it on film. No one will ever believe us.</statement>
+		<statement>No one will ever believe us.</statement>
+	</character>
+	<character id="sailor1">
+		<statement>Maybe Cam wasn't crazy after all.</statement>
+    </character>
+    <character id="sailor2">
+		<statement>No one will ever believe what we just saw!</statement>
+    </character>
+	<character id="sailor3">
+		<statement>We're glad you're safe!</statement>
+    </character>
+</dialogs>

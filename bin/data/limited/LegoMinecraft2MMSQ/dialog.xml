@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="Alex">
+		<statement link="start" linkEntityId="player"></statement>
+    </character>
+    <character id="player">
+		<statement id="start">You want me to come inside?</statement>
+    </character>
+</dialogs>

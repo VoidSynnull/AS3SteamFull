@@ -1,0 +1,112 @@
+<dialogs>
+	<character id="player">
+		<statement id="compass">If you use this, you can cross the desert and finally see the world.</statement>
+		<statement id="spyglass">There's the genie -- but how am I supposed to reach him all the way up there?</statement>
+		<statement id="spyglass2">The desert looks peaceful once again.</statement>
+		<statement id="beholder" link="hide">Beauty is in the eye of the beholder, I guess.</statement>
+		<statement id="hide">Now where is that genie hiding?</statement>
+		<statement id="click_barrel">He's burrowed in like a tick. I've got to find a way to get him out of there.</statement>
+		<statement id="where">Where is she running off to?</statement>
+		<statement id="camel">Good camel.</statement>
+		<statement id="ewww">Ewww.</statement>
+		<statement id="compassBazaar">This compass is pretty nice, i wonder if anyone wants to trade for it.</statement>
+	</character>
+	
+	<character id="genie">
+		<statement id="run">Can't catch me!</statement>
+	</character>
+	
+	<character id="sultan">
+		<statement id="blind">I had all the treasure I ever needed right here, and I was too blind to see it.</statement>
+		<statement>I had all the treasure I ever needed right here, and I was too blind to see it.</statement>
+		<statement id="giveMedal" triggerEvent="giveItem" triggerEventArgs="medal_arabian3">For all your help, take this. Free of charge!</statement>
+	</character>
+	
+	<character id="thief">
+		<statement id="thanks">Thank you for giving us another chance.</statement>
+		<statement>Thank you for giving us another chance.</statement>
+	</character>
+	
+	<character id="vizier">
+		<statement>I had the strangest dream! I was in a cave, in great danger, and -- you know, there was someone there who looked exactly like you.</statement>
+	</character>
+	
+	<character id="trader1">
+		<statement id="comment">This is the wishbone from an enchanted dodo bird!</statement>
+		<statement id="no_items">Come back when you have something to trade.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader1">Let's trade!</statement>
+		<statement event="sultan_made_wish">This is the last time i stay open all night selling junk!</statement>
+	</character>
+	
+	<character id="trader2">
+		<statement id="comment">This rare moonstone is said to disrupt magical energy!</statement>
+		<statement id="no_items">Come back when you have something to trade.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader2">Let's trade!</statement>
+		<statement event="sultan_made_wish">Sorry, no refunds.</statement>
+	</character>
+	
+	<character id="trader3">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader3">Let's trade!</statement>
+		<statement id="no_items">Come back when you have something to trade.</statement>
+		<statement id="comment">This sesame oil is a great ingredient for potions!</statement>
+		<statement id="returned">My camel has returned to me! She's a resourceful one to have escaped from the thieves' lair.</statement>
+		<statement id="camel_run">My camel! come back!</statement>
+		<statement id="sultan_made_wish">Isn't she just the finest camel in the land?</statement>
+	</character>
+	
+	<character id="woman">
+		<statement event="sultan_made_wish">Just a normal day at the bazaar, i should purchase more beauty products!</statement>
+		<statement>If I find that genie, I'll wish to be the most beautiful person in the world!</statement>
+		<conversation event="genie_in_bazaar">
+			<exchange>
+				<question>What happened to you?</question>
+				<answer link="beholder" linkEntityId="player">That genie tricked me! I wished to be the most beautiful woman in the world, and he made me look just... like... him!</answer>
+			</exchange>
+		</conversation>
+	</character>
+	
+	<character id="aladine">
+		<statement>Can't wait to make my wish!</statement>
+		<statement event="genie_in_bazaar">That genie must be around here somewhere.</statement>
+		<statement event="sultan_made_wish">Thievery rates are at an all time low!</statement>
+	</character>
+	
+	<character id="townie">
+		<statement>All the traders are selling exotic items to would-be genie hunters.</statement>
+		<statement event="genie_in_bazaar">The genie just flew by!</statement>
+		<statement event="sultan_made_wish">These lamp prices are great!</statement>
+	</character>
+	
+	<character id="jailer">
+		<conversation>
+			<exchange>
+				<question>What are you doing up here?</question>
+				<answer>I'm looking at all the amazing sights on the horizon.</answer>
+			</exchange>
+			<exchange>
+				<question>Looks like a lot of sand to me. </question>
+				<answer>I've spent so much of my life in prisons. I'd like to see the world, but I'm afraid I'd get lost in the desert.</answer>
+			</exchange>
+			<exchange>
+				<question>Could I look through the telescope?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="turn">This view is the only adventure I get in my life -- so beat it!</answer>
+			</exchange>
+		</conversation>
+		<conversation id="use_spyglass">
+			<exchange>
+				<question>Could I look through the telescope?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="turn">This view is the only adventure I get in my life -- so beat it!</answer>
+			</exchange>
+		</conversation>
+		<statement id="twist">You've made my wish come true, and without even a cruel twist! Thanks!</statement>
+		<statement id="give_key">Won't be needing this anymore.</statement>		
+	</character>
+	
+	<character id="guard1">
+		<statement>Guarding the city is so boring...</statement>		
+	</character>
+	
+	<character id="guard2">
+		<statement>Nothing ever happens around here...</statement>		
+	</character>
+</dialogs>

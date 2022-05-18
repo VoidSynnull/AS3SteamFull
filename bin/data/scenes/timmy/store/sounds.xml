@@ -1,0 +1,24 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">sneaky_shop_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="spider" modifiers="position">grab_rope_01.mp3</asset>
+		<asset id="groundhog" modifiers="position">dirt_break_05.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="steps">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="steps">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

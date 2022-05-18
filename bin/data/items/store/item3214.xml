@@ -1,0 +1,25 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3214.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Shrink Ray Island</value>
+		</text>
+			<text id="storeTitle">
+			<value>Bounce Ball</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Bounce more in the Shrink Shot mini game!</value>
+		</text>
+	</textfields>
+</item>

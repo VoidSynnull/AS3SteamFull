@@ -1,0 +1,30 @@
+<specialAbility id="pets/pop_follower_bunny">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">6003</param>
+		<param id="eyeState">open</param>
+		<param id="skinColor">0xF7B0CD</param>
+		<param id="headFrame">bunny</param>
+		<param id="mouthFrame">bunny</param>
+		<param id="bodyFrame">bunny</param>
+		<param id="marksFrame">bunny_ears</param>
+		<param id="tailFrame">bunny</param>
+		<param id="paw1Frame">bunny</param>
+		<param id="paw2Frame">bunny</param>
+		<param id="paw3Frame">bunny</param>
+		<param id="paw4Frame">bunny</param>
+		<param id="calf1Frame">bunny_front</param>
+		<param id="calf2Frame">bunny_front</param>
+		<param id="calf3Frame">bunny_back</param>
+		<param id="calf4Frame">bunny_back</param>
+		<param id="thigh1Frame">bunny_front</param>
+		<param id="thigh2Frame">bunny_front</param>
+		<param id="thigh3Frame">bunny_back</param>
+		<param id="thigh4Frame">bunny_back</param>
+		<param id="variant">pet_babyquad</param> <!-- for AS3 -->
+		<param id="pet">babyquad</param> <!-- for AS2 -->
+		<param id="isStore">true</param> <!-- for AS2 -->
+	</parameters>
+</specialAbility>

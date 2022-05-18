@@ -1,0 +1,43 @@
+<item id="3310">
+	<type>store</type>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		<buttons>
+			<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+	<textfields>
+			<text id="storeTitle">
+					<value>Skull Pirate</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Skullduggery Island</value>
+			</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+ 	</textfields>
+ 	
+ 	<looks>
+			<look>
+			<facial>stor_skullpirate</facial>
+			<hair>stor_skullpirate</hair>
+			<shirt>stor_skullpirate</shirt>
+			<pants>stor_skullpirate</pants>
+			<item>stor_skullpirate</item>
+			<overshirt>stor_skullpirate</overshirt>
+		</look>
+	</looks> 
+</item>

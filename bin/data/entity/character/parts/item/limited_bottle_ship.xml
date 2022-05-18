@@ -1,0 +1,17 @@
+<part>
+	<id>limited_bottle_ship</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2838</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/PiratesMVU/ship.swf</param>
+			<param id="hidePlayer">false</param>
+			<param id="charScale">0.48</param>
+			<param id="tracking">PiratesMVU,Pirate Ship</param>
+		</parameters>
+	</specialAbility>
+</part>

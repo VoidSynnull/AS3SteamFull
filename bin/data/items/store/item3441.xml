@@ -1,0 +1,82 @@
+<item id="3441"> <!-- Change this card ID -->
+ 	<type>store</type>
+		<subType>general</subType>
+	<name>Poptropica App Tablet Phone Card</name> <!-- Change this card name -->
+	
+		<campaignID>PoptropicaAppMVU</campaignID> <!-- Change this CMS name -->
+		
+		<contentClass> <!-- This displays avatar -->
+			<className>game.ui.card.CharacterContentView</className>
+		</contentClass>
+		<buttons>
+ 
+			<btn>
+				<index>1</index>
+ 	
+				<label>TURN OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+				<btn>
+				<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="applyLook" tracking="Use Poptropica App Tablet & Phone Card" /> <!-- change tracking call -->
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+					<label>VISIT WEBSITE</label>
+					<actions>
+				<action type="gotoUrl" tracking="Poptropica App Tablet & Phone"> <!-- change tracking call -->
+						<parameters>
+							<param id="urlId">http://www.poptropica.com/apps/poptropica.html?source=POP_img_PopAppTablet_InventoryCard-pop&medium=Display&campaign=PopApp</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+				</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Tablet & Phone</value> <!-- Change this subtitle -->
+		</text>
+		<text id="storeTitle2">
+			<value>Poptropica App</value> <!-- Change this title -->
+		</text>
+		</textfields>
+	
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0x000001</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFFFFFF</color>
+			<val>1</val>
+		</btn>
+
+		
+	</radiobuttons>
+	
+	
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+		
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<item>ad_popapptablet</item>
+		</look>
+		 <look> <!-- Only list what you want to change -->
+			<item>ad_popappphone</item>
+		</look>
+	</looks> 
+</item>

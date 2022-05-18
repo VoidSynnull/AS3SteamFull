@@ -1,0 +1,94 @@
+<groups>
+	<group event="warrior_mask_no_goggles" triggerAndSave="true">
+		<and>
+			<event type="warriorMaskOn"/>
+			<event not="true" type="gotItem_goggles"/>
+		</and>
+	</group>
+	<group event="not_entered_lab" triggerAndSave="true">
+		<and>
+			<event type="enter_lab" not="true"/>
+		</and>
+	</group>
+	<group event="returned_sunstone" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_sunstone"/>
+			<event type="gotItem_sunstone"/>
+		</and>
+	</group>
+	<group event="returned_amulet" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_amulet"/>
+			<event type="gotItem_amulet"/>
+		</and>
+	</group>
+	<group event="returned_goggles" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_goggles"/>
+			<event type="gotItem_goggles"/>
+		</and>
+	</group>
+	<group event="returned_phonograph" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_phonograph"/>
+			<event type="gotItem_phonograph"/>
+		</and>
+	</group>
+	<group event="returned_declaration" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_declaration"/>
+			<event type="gotItem_declaration"/>
+		</and>
+	</group>
+	<group event="returned_statuette" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_statuette"/>
+			<event type="gotItem_statuette"/>
+		</and>
+	</group>
+	<group event="returned_goldenVase" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_goldenVase"/>
+			<event type="gotItem_goldenVase"/>
+		</and>
+	</group>
+	<group event="returned_saltRocks" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_saltRocks"/>
+			<event type="gotItem_saltRocks"/>
+		</and>
+	</group>
+	<group event="returned_silverMedal" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_silverMedal"/>
+			<event type="gotItem_silverMedal"/>
+		</and>
+	</group>
+	<group event="returned_stoneBowl" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_stoneBowl"/>
+			<event type="gotItem_stoneBowl"/>
+		</and>
+	</group>
+	<group event="returned_notebook" triggerAndSave="true">
+		<and>
+			<event not="true" type="hasItem_notebook"/>
+			<event type="gotItem_notebook"/>
+		</and>
+	</group>
+	<group event="time_repaired" triggerAndSave="true">
+		<and>
+			<event type="returned_sunstone"/>
+			<event type="returned_amulet"/>
+			<event type="returned_goggles"/>
+			<event type="returned_phonograph"/>
+			<event type="returned_declaration"/>
+			<event type="returned_statuette"/>
+			<event type="returned_goldenVase"/>
+			<event type="returned_saltRocks"/>
+			<event type="returned_silverMedal"/>
+			<event type="returned_stoneBowl"/>
+			<event type="returned_notebook"/>
+		</and>
+	</group>
+</groups>

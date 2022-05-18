@@ -1,0 +1,25 @@
+<part>
+	<id>pfairy3</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0xFF6699</color>
+		<color id="color2">0xFFA8C5</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="pFairyDress.colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="pFairyDress.colorShape2"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>	
+</part>

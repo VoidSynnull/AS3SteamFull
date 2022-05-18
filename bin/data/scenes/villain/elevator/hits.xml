@@ -1,0 +1,28 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="floorPlat">
+		<component type="movingPlatform">
+			<visible>elevator</visible>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>513</x>
+					<y>436</y>
+				</point>
+				<point>
+					<x>513</x>
+					<y>1770</y>
+				</point>
+			</points>
+			<loop>true</loop>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

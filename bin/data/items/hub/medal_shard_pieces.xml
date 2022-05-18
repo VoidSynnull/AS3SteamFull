@@ -1,0 +1,48 @@
+<item id="medalShards">
+	<type>island</type>
+	<subType>hub</subType>
+	
+	<contentClass>
+		<className>game.ui.card.MultiFrameContentView</className>
+		<parameters>
+			<param>items/hub/medal_shard_pieces.swf</param>
+		</parameters>
+	</contentClass>
+	
+	<textfields>
+ 		<text id="title">
+      		<value>Medallion Shards</value>
+    	</text>
+    	<text id="islandgray">
+    		<value>Find the missing shard pieces.</value>
+    		<y>120</y>
+    	</text>
+  	</textfields>
+	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/EarlyBackground.swf</assetPath>
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>36</brightness>
+     			<contrast>-17</contrast>
+     			<saturation>9</saturation>
+     			<hue>12</hue>
+    		</effect>
+	    </asset>
+    </assets>
+    
+    <value>
+    	<conditional id="checkUserField"/>
+    </value>
+    
+    <conditionals>
+    	<conditional type="checkUserField">
+    		<parameters>
+    			<param id="island">hub</param>
+				<param id="userField">shards_found</param>
+    		</parameters>
+    	</conditional>
+    </conditionals>
+</item>

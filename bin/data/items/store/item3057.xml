@@ -1,0 +1,28 @@
+<item id="3057">
+	<type>store</type>
+	<subType>general</subType>
+	<buttons>
+		<btn>
+				<label>USE</label>
+				<actions>
+				<action type="openPopup">
+						<parameters>
+							<param id="className"></param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+				<value>Costume Collector</value>
+			</text>
+			<text id="storeInstructions">
+			<value>Save up to 3 of your favorite costumes in these magic mirrors! </value>
+		</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+</item>

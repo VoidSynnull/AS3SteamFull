@@ -1,0 +1,18 @@
+<specialAbility id="phantom_power_35">
+	<type>alpha</type>
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<parameters>
+		<param id="applyToCard">true</param>
+	</parameters>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetAlphaAction">
+				<parameters>
+					<param id="char" type="entity">[entity]</param> 
+					<param id="alpha" type="number">0.35</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

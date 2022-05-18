@@ -1,0 +1,19 @@
+<part>
+	<id>limited_flask_green</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2773</campaignID>
+		<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/PowerPuffGirls2016PartyRoom/GreenLines.swf</param>
+			<param id="tracking">PowerPuffGirls2016PartyRoom,Green Speed Line Power</param>
+			<param id="npcXOffSet">0</param>
+			<param id="npcYOffSet">-180</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+		</parameters>
+	</specialAbility>
+</part>

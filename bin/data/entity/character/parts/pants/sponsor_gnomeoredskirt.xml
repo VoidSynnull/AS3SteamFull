@@ -1,0 +1,14 @@
+<part>
+	<id>sponsor_gnomeoredskirt</id>
+	<type>pants</type>
+	<gender>female</gender>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

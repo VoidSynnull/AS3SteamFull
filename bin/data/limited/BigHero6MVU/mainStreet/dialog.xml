@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="BigHero6MVU_baymax">
+		<statement event="hasAdItem_2592">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>HELLO, I AM BAYMAX. WATCHING VIDEOS will improve your mood, and you can unlock me to be your personal health care companion.</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Howdy!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

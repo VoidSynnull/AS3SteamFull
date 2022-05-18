@@ -1,0 +1,29 @@
+<item id="3285">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3285.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>ACTIVATE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Alien Archaeology</value>
+		</text>
+		<text id="storeSubTitle">
+			<value>Lunar Colony</value>
+		</text>
+	</textfields>
+</item>

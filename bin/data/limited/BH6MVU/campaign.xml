@@ -1,0 +1,45 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>BH6MVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<musicFile>Brainiacs.mp3</musicFile>
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B21195033.221754837;dc_trk_aid=420023950;dc_trk_cid=101837555;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B21195033.221571899;dc_trk_aid=420023950;dc_trk_cid=101837555;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B21195033.221754846;dc_trk_aid=420023950;dc_trk_cid=101837555;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Popup">https://ad.doubleclick.net/ddm/trackclk/N6344.927.FUNBRAIN.COM/B21195033.221754843;dc_trk_aid=420023950;dc_trk_cid=101837555;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221754837;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="EngagedOutsideNPC"> <!-- For engaging NPC in front of ad building -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221572478;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221754846;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221754846;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="Start"> <!-- For starting game -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221754843;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="ObjectCollected"> <!-- For earning prize card -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.927.FUNBRAIN.COM/B21195033.221571899;dc_trk_aid=420023950;dc_trk_cid=101837555;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2901Maze</card>
+	</boycards>
+	<girlcards>
+		<card>2901Maze</card>
+	</girlcards>
+</campaign>

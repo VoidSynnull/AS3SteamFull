@@ -1,0 +1,86 @@
+<dialogs>
+  <character id="char1">
+    <statement>To be honest, I expected a little more tinsel town glamor. But this Walk of Fame is pretty neat.</statement>
+    <statement event="complete_movie_editing">Could it be? The first Carson WIllis movie in decades?</statement>
+    <statement id = "carsons prints" link="he was" linkEntityId="char2">Those are Carson WIllis's prints! He's one of the greatest filmmakers of all time. A real visionary.</statement>
+  </character>
+  <character id="char2">
+    <statement>We're huge movie buffs, so we've been saving for years to take a trip out here.</statement>
+    <statement event="complete_movie_editing">I knew there was still some old-time magic around here!</statement>
+    <statement id="he was" triggerEvent="triggerEvent" triggerEventArgs="well_he_was" >Well, he was, until his career went off the rails. I wonder where he is now?</statement>
+  </character>
+  <character id="char3">
+    <conversation>
+      <exchange>
+        <question>How  much for a ticket?</question>
+        <answer>Only $50 for the matinee.</answer>
+      </exchange>
+      <exchange>
+        <question>Wow, pricey. Why so much?</question>
+        <answer>3D projection, smell-o-vision, extra-wide memory foam seats. That stuff doesn't come cheap, you know!</answer>
+      </exchange>
+      <exchange>
+        <question>Is there anything worth seeing?</question>
+        <answer>Oh, goodness no.</answer>
+      </exchange>
+    </conversation>
+    <statement id="saw_movie">Ticket sales are higher than ever!</statement>
+    <statement id="everyone" >Everyone is excited to see the new film by Carson Willis!</statement>
+  </character>
+  <character id="char4">
+    <conversation>
+      <exchange>
+        <question>Who are you?</question>
+        <answer>Harvey Scoops, Hollywood muckracker! I'm investigating unusual activity at the old Grand Majestic Studios.</answer>
+      </exchange>
+      <exchange>
+        <question>It doesn't look like anythings is happening.</question>
+        <answer>That's just it! It's been closed for years. But the rumors are swirling that someone's been busy there.</answer>
+      </exchange>
+      <exchange>
+        <question triggerEvent="triggerEvent" triggerEventArgs="give_camera" >Can I help?</question>
+        <answer triggerEvent="giveItem" triggerEventArgs="camera" >Say... why don't you climb this greenish-blue building and try to get a picture? If you see anything, I'll post it on my blog.</answer>
+      </exchange>
+    </conversation>
+  </character>
+  <character id="char6">
+    <conversation>
+      <exchange>
+        <question>I brought the film.</question>
+        <answer>Thanks. It's a big night. Carson's come back!</answer>
+      </exchange>
+      <exchange>
+        <question>Say, where is Carson?</question>
+        <answer>He can never watch his own movies. Makes him nervous.</answer>
+      </exchange>
+      <exchange>
+        <question>He's a strange guy. What's his deal?</question>
+        <answer triggerEvent="triggerEvent" triggerEventArgs="go_see_movie, true">Watch the movie and you may understand.</answer>
+      </exchange>
+    </conversation>
+    <statement id= "you see" link="back home" linkEntityId="player">You see? It was him. He had so much early success, but he lost his imagination and went after the money. And it turned him into a monster.</statement>
+    <statement id="swan song" triggerEvent="giveItem" triggerEventArgs="medallion" >Yes. And I think it may have been his swan song. He left for Cannes just before this screening. But he told me to give you this.</statement>
+    <statement id="shoot" triggerEvent="triggerEvent" triggerEventArgs="suggest_bonus, true">Shoot! I think we left the camera running on soundstage 1. Would you go shut it off?</statement>
+    <statement id="thanks">Thanks. Just head over to soundstage 1 and shut the camera off.</statement>
+  </character>
+  <character id="char7">
+    <statement id="genious" link="back" linkEntityId="char8">Genius. Absolutely genius!</statement>
+  </character>
+  <character id="char8">
+    <statement id="back" link="if only" linkEntityId="char9">Carson Willis is back!</statement>
+  </character>
+  <character id="char9">
+    <statement id="if only" triggerEvent="triggerEvent" triggerEventArgs="talk_to_sophia">If only I had thumbs to give to this movie!</statement>
+  </character>
+  <character id="player">
+    <statement id="looks closed">Looks like the place is closed down.</statement>
+    <statement id="fix">Maybe someone around here can help me fix this thing.</statement>
+    <statement id="took picture">There's no reason to use the camera here again.</statement>
+    <statement id="better view">I need to get a better vantage point.</statement>
+    <statement id="Earthquake">It's an earthquake!</statement>
+    <statement id="no sense" link="genious" linkEntityId="char7" triggerEvent="triggerEvent" triggerEventArgs="critics_review">That didn't make a lick of sense.</statement>
+    <statement id="back home" link="swan song" linkEntityId="char6">So this movie was his way back home, huh?</statement>
+    <statement id="nothing good">There's nothing worth watching.</statement>
+    <statement id="sidewalk" triggerEvent="triggerEvent" triggerEventArgs="look_at_sidewalk, true">There's something written on the sidewalk here.</statement>
+  </character>
+</dialogs>

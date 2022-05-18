@@ -1,0 +1,18 @@
+<game>
+	<className>game.scene.template.ads.SkyChaseGame</className>
+	<returnX>1800</returnX>
+	<returnY>1040</returnY>
+	<obstacles>book1,book2,goose,humpty</obstacles>
+	<platformOffsetY>105</platformOffsetY>
+	<platformDepth>hide</platformDepth>
+	<numHits>5</numHits>
+	<randomAnimSound1>lightning_strike_02.mp3</randomAnimSound1>
+	<randomAnimSound2>lightning_strike_02.mp3</randomAnimSound2>
+	<first></first>
+	<looks>
+		<skin id="huey"/>
+		<skin id="duey"/>
+		<skin id="louie"/>
+		<skin id="webby"/>
+	</looks>
+</game>

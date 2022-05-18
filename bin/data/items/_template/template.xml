@@ -1,0 +1,159 @@
+<item id="camera"> <!-- id = name of item -->
+	<type>store</type> <!-- if its an island use the name for the type ex. <type>mythology</type> -->
+	
+	<!-- Add the content class if there is one for your content, like an NPC -->
+	<contentClass>
+		<className>game.ui.card.CharacterContentView</className> <!-- This class is for NPC -->
+		<!-- x and y default to 0 if you do not place them in the xml -->
+		<x>10</x>
+		<y>12</y>
+	</contentClass>
+	
+	<!-- Place the asset swfs that need to be loaded in here -->
+	<assets>
+		<!-- Must have a card back, card content is optional -->
+		<asset id="cardBack">
+			<!-- This is the path of the card background, trunk/bin/assets is automatically placed in the beginning of the path -->
+			<assetPath>items/shared/template.swf</assetPath>
+			<!-- The effects applied to the background can be added here.
+				 Follow this standard for the effect and name the children after the effect's properties
+				 <name> & <enabled> are always needed
+			-->
+			<effect> 
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>0</brightness>
+     			<contrast>0</contrast>
+     			<saturation>-76</saturation>
+     			<hue>136</hue>
+    		</effect>
+		</asset>
+		
+		<!-- Two ways to load in the card content -->
+		<!-- You also might not need a content if there is an NPC since that is taken care of by <contentClass> -->
+		<!-- This has a default path of bin/assets/items/type (type is the element from the type tag)-->
+		<asset id="cardContent"/> 
+		
+		<!-- Or you can do it by manually entering the path: -->
+		<asset id="cardContent">
+			<assetPath>items/store/template.swf</assetPath>
+		</asset>
+	</assets>
+	
+	<!-- You can have as many buttons as you want
+		 Index - defaults at 0 if not entered and is the button placed at the bottom of the card
+			 the higher the index, the higher the button moves up the card. Two buttons with the same index will be layered on top of each other
+			 
+		 Label - the text that belongs in the button
+		 
+		 Action - what the button does. Can add id="" if action needs parameter with it
+		 	Examples: applyLook, removeLook, applyLookNPC, costumize, triggerEvent, gotoURL, openPopup, loadScene, replayIsland, activatePower, deactivatePower, addGroup, createClass
+		 	
+		 Conditional - Not always needed. Always has isTrue="true" or isTrue="false", turns the conditionals on or off that are located later in the XML
+		 	id examples: hasLook, hasAbility, hasPart, inScene, checkEvents
+	 -->
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions> <!-- Can have multiple actions -->
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<index>1</index>
+			<label>I'M INSIDE-OUT</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+	        <index>1</index>
+	        <label>TAKE OFF</label>
+	        <actions>
+			  	<action type="removeLook"/>
+			</actions>
+     	</btn>
+	</buttons>
+	
+	<!-- As many radio buttons as needed. Each button has two elements
+		 Color - just the color of the button using 0x format
+		 Val - the index of the look the button should apply. 0 is your first look, 1 is your second look, etc.
+	 -->
+	<radiobuttons>
+		<btn>
+			<color>0x9B6FCB</color>
+			<val>0</val>
+		</btn>
+	</radiobuttons>
+	
+	<!-- Each <text> needs an id, the id is equal to the matching style you want for the text.
+		 	 To find a style open bin/style/styles.xml and look at the styles under <style id="card">.
+		 	 If the style you want doesn't exist, make a new one following the available attributes at the top of the document
+	 	 
+	 	 Value - the text that will display
+	 	 Y - y pixel location of the textfield, x is automatically generated and not needed
+	 	 Size - can also be added to just adjust the text size
+	 -->
+	<textfields>
+		<text id="storeTitle">
+			<value>Inside-Out Power</value>
+		</text>
+		
+		<text id="storeInstructions">
+		  <value>Space bar tap to use power.</value>
+		</text>
+	</textfields>
+	
+	<!-- You can supply values, this can be something you hardcode, or it refer to a conditional.
+		In the case of a conditional, certain conditionals will return a vlaue
+	 -->
+	<value>myValue</value>
+	<!-- or -->
+	<value>
+		<conditional id="userField"/>
+	</value>
+	
+	<!-- Apply looks if the card has an NPC. 
+		 The first look is the default
+		 Look can be turned on and off with conditionals
+		 Look can be turned on and off with radio buttons
+		 For each radio button there should be a look.
+		 All the look parts are available for here but don't all have to be used
+		 2 examples are used here
+	 -->
+	<looks>
+		<look>
+			<gender>female</gender>
+			<skinColor>0x917151</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>19</mouth>
+			<facial>nw_manager</facial>
+			<hair>sears3</hair>
+			<shirt>nw_manager</shirt>
+			<pants>nw_manager</pants>
+			<eyeState>open</eyeState>
+		</look>
+		<look>
+			<marks>pgeisha1</marks>
+			<mouth>pgeisha1</mouth>
+			<facial>pgeisha2</facial>
+			<hair>1</hair>
+		</look>
+	</looks>
+	
+	<!-- Conditional - Mainly used for buttons to turn on and off looks. 
+		 	type examples: hasLook, hasAbility, hasPart, inScene, checkEvents
+	 -->
+	<conditionals>
+		<conditional type="hasLook"/>
+		<conditional type="checkUserField">
+			<parameters>
+				<param id="userField">userfieldId</param> <!-- by default it assumes the userfield is associated with the current island -->
+			</parameters>
+		</conditional>
+	</conditionals>
+</item>

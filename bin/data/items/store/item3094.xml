@@ -1,0 +1,31 @@
+<item id="3094">
+		<type>store</type>
+		<subType>general</subType>
+		<buttons>
+			<btn>
+				<label>SELECT CHARACTER</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Love Potion</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<value>Share the love with this love potion.</value>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+ 	<specials>
+			<specialAbility>potion_love</specialAbility>
+	</specials>
+</item>

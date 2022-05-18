@@ -1,0 +1,20 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x00A3DE</splashColor1>
+			<splashColor2>0x009BD2</splashColor2>
+			<viscosity>.85</viscosity>
+		</component>
+	</hit>
+</hits>

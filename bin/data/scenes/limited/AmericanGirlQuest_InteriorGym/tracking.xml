@@ -1,0 +1,14 @@
+<tracking>
+	<track id="questDoor">
+		<event>OpenedPopup</event>
+		<choice>MusicGame</choice>
+	</track>
+	<track id="board">
+		<event>ClickedTrigger</event>
+		<choice>board</choice>
+	</track>
+	<track id="joss">
+		<event>EngagedInsideNPC</event>
+		<choice>Gym Joss</choice>
+	</track>
+</tracking>

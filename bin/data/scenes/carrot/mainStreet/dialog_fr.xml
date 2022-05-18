@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>Quel est le probl�me?</question>
+				<answer>Notre ch�re ville est en ruines!</answer>
+			</exchange>
+			<exchange>
+				<question>Qu'est-il arriv�?</question>
+				<answer>Tous nos carottes ont disparu! Notre �conomie est en train de s'effondrer!</answer>
+			</exchange>
+			<exchange>
+				<question>Que puis-je faire pour aider?</question>
+				<answer>D�couvrez ce qui est arriv� � nos carottes!</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="destroyed_rabbot" link="getMedal">Les carottes ont cess� de dispara�tre!</statement>
+		<statement id="getMedal" triggerEvent="triggerEvent" triggerEventArgs="award_medal">Vous avez sauv� notre ville! En tant que maire, je vous pr�sente ce m�daillon!</statement>
+		
+		<statement event="gotItem_medalCarrot">Merci! Maintenant, nous pouvons commencer � faire de nouveau cette ville super!</statement>
+	</character>
+	<character id="char2">
+		<statement>je n'ai pas �t� en mesure de trouver du travail depuis l'usine a ferm�.</statement>
+		<statement event="destroyed_rabbot">est l� beaucoup de travail � faire!</statement>
+	</character>
+	<character id="char3">
+		<statement>D�sol�, mais nous sommes � l'aplomb de gaz.</statement>
+		<statement event="destroyed_rabbot" link="reopen">choses recherchent ici.</statement>
+		<statement id="reopen">je devrais �tre en mesure de rouvrir la station bient�t!</statement>
+	</character>
+	<character id="char5">
+		<statement>C'est bon d'�tre de retour � la maison! Merci!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,25 @@
+<part>
+	<id>limited_yellow_guitar_play</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">BeatGameTest,Strum</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="entity" type="entity">player</param> 
+						<param id="animClass" type="class">game.data.animation.entity.character.Guitar</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

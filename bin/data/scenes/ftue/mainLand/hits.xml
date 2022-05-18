@@ -1,0 +1,40 @@
+<hits>
+	<hit id="mud" color="0x666633" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x339900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="behind_desk" color="0x99CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="weak_wood" color="0xCC3300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x6600CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="strong_wood" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hole" color="0x00cc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x298BA8</splashColor1>
+			<splashColor2>0x37BCE3</splashColor2>
+			<viscosity>.95</viscosity>
+		</component>
+	</hit>
+</hits>

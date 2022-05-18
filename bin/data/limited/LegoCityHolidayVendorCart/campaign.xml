@@ -1,0 +1,20 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>LegoCityHolidayVendorCart</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+  	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.lego.com/en-us/themes/city</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+	
+	<cards>
+		<card>2943</card>
+	</cards>
+	<boycards>
+		<card>2943</card>
+	</boycards>
+	<girlcards>
+		<card>2943</card>
+	</girlcards>
+</campaign>

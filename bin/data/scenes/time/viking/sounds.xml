@@ -1,0 +1,42 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Viking_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_light.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>enter_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="gunpowder_placed" allowOverlap="true">lit_fuse_01_L.mp3</asset>
+		<asset triggeredByEvent="gunpowder_explode" allowOverlap="true">explosion_01.mp3</asset>
+		<asset triggeredByEvent="thunder_clap" allowOverlap="true">thunder_clap_01.mp3, thunder_clap_02.mp3, thunder_clap_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>enter_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="boat">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="boat">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="bomb_detonated" loop="true" faded="true" exclusiveType="true">fire_01_L.mp3</asset>
+	</sound>
+</sounds>

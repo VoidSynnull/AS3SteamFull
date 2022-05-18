@@ -1,0 +1,39 @@
+<item id="3705">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Sweater Weather</value>
+			 </text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<mouth>wwprospector</mouth>
+			<facial>headset2</facial>
+			<hair>lawyer</hair>
+			<pants>char32</pants>
+			<overshirt>oversize_hoodie1</overshirt>
+		</look>
+	</looks> 
+</item>

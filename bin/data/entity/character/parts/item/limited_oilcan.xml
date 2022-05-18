@@ -1,0 +1,33 @@
+<part>
+	<id>limited_oilcan</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2857</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<parameters>
+			<param id="swfPath">limited/Cars3DVDQuest/fritterMudSplat.swf</param>
+			<param id="tracking">Cars3DVDQuest,fritter</param>
+		</parameters>
+		<actions>
+			<actionChain id="after_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_mudsplat</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">limited_mudsplat</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

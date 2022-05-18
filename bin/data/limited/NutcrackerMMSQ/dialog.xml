@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="sugar">
+		<statement>Come inside and explore this amazing castle!</statement>
+		<statement triggeredByEvent="npcProximity">Hello</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

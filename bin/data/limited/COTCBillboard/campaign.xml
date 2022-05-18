@@ -1,0 +1,6 @@
+<!-- set "Click through URL" field in CMS to campaign.xml if billboard awards cards -->
+<campaign>
+  	<campaignId>COTCBillboard</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths (don't change) -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+</campaign>

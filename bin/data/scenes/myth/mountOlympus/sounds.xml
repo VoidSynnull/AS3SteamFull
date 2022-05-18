@@ -1,0 +1,32 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">mythology_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="medusa">medusa_head_pop_01.mp3</asset>
+		<asset id="herc">myth_herc_turn_stone_01.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">city_night_time.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="stone">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="stone">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="exhaust" loop="true" fade="true">myth_bag_of_winds_01_loop.mp3</asset>
+		<asset id="medusaSnake" loop="false" fade="true">myth_snake_hiss_loop_01.mp3</asset>
+		<asset id="medusa">myth_snake_hissing_01.mp3</asset>			
+	</sound>
+</sounds>

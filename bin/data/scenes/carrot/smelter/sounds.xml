@@ -1,0 +1,36 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">production_factory.mp3</asset>
+	</sound>
+	
+	<sounds type="effects">
+		<asset triggeredByEvent="smasher_hit">giant_crusher_01.mp3</asset>
+		<!-- <asset triggeredByEvent="gotItem_droneEars">card_get.mp3</asset> -->
+		
+		<asset id="squirter1" triggeredByEvent="drop_molten_1">steam_01.mp3</asset>
+		<asset id="squirter2" triggeredByEvent="drop_molten_2">steam_01.mp3</asset>
+		
+		<asset id="conveyorBelt" triggeredByEvent="conveyor_start" exclusiveType="true">conveyor_belt_02_L.mp3</asset>
+		<asset id="conveyorBelt" triggeredByEvent="conveyor_stop" exclusiveType="true">creaky_metal_01.mp3</asset>
+
+		<asset triggeredByEvent="molten_hit" exclusiveType="true">sizzle_01.mp3</asset>
+		<asset triggeredByEvent="squished">splat_01.mp3</asset>
+		<asset triggeredByEvent="unsquished">rubber_stretch_01.mp3</asset>
+	</sounds>
+	
+	<sound type="effects" action="impact">
+		<asset id="thinPipes">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="machinery">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="conveyerBelt">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="thinPipes">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="machinery">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="conveyerBelt">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+	</sound>
+</sounds>

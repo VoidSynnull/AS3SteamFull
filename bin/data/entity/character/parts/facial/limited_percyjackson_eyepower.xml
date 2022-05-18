@@ -1,0 +1,30 @@
+<part>
+	<id>limited_percyjackson_eyepower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2677</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/PercyJacksonJune2015EC/PercyJacksonEyePop.swf</param>
+			<param id="tracking">PercyJacksonJune2015EC,Cyclops Power</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">facial</param> 
+						<param id="partID" type="string">limited_percyjackson_cyclops</param> 
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param> 
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

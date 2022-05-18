@@ -1,0 +1,13 @@
+<specialAbility id="limited/pop_follower_gnomeo">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2880</param>
+		<param id="skinColor">0xfbdfcb</param>
+		<param id="hairColor">0x0</param>
+	    <param id="facialFrame">limited_gnomeo</param>
+		<param id="shirtFrame">limited_gnomeo</param>
+		<param id="lineThickness">15</param>
+	</parameters>
+</specialAbility>

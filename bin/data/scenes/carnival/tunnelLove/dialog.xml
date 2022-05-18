@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="player">
+		<statement id="yuck" triggerEvent="triggerEvent" triggerEventArgs="fell_in_water,true">Eww, yuck!</statement>
+		<statement id="awkward" triggerEvent="triggerEvent" triggerEventArgs="fell_in_water,true">...awkward</statement>
+	</character>
+	<character id="loverGirl">
+		<statement id="stayNight" triggerEvent="triggerEvent" triggerEventArgs="popPlayer">Maybe we can stay in here all night...</statement>
+		<statement id="girlSqueal" link="justTalking" linkEntityId="loverBoy">Eeek!</statement>
+	</character>
+	<character id="loverBoy">
+		<statement id="bestRide" link="stayNight" linkEntityId="loverGirl">This is the best ride yet!</statement>
+		<statement id="justTalking" triggerEvent="triggerEvent" triggerEventArgs="loversRun">We were just talking, I swear!</statement>
+		<statement id="busyHere" link="awkward" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="loversNotScared">Can't you see we're busy here? Scram!</statement>
+	</character>
+</dialogs>

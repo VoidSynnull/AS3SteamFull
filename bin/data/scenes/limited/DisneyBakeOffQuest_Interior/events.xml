@@ -1,0 +1,121 @@
+<events>
+<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">teammate1</param1>
+			<param1 id="coords">1485,1615</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">teammate2</param1>
+			<param1 id="coords">1368,1615</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">opponent1</param1>
+			<param1 id="coords">1998,1615</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">opponent2</param1>
+			<param1 id="coords">2104,1615</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">opponent3</param1>
+			<param1 id="coords">2213,1615</param1>
+		</event>
+		<event>
+			<param1 id="action">triggerEvent</param1>
+			<param1 id="event">setNewDialog</param1>
+		</event>
+	</group> 
+	<group type="triggered" id="releaseCamera">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param1 id="entityID">player</param1>
+		</event>
+	</group> 
+	<group type="triggered" id="initScene">
+	<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+			<event>
+			<param1 id="action">setPart</param1>
+			<param1 id="partID">overshirt</param1>
+			<param1 id="partValue">limited_disney_apron</param1>
+			<param1 id="npcID">player</param1>
+		</event>
+			<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">player</param1>
+			<param1 id="target">1640,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param1 id="delay">3</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">opponent1</param1>
+			<param1 id="target">1998,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">opponent2</param1>
+			<param1 id="target">2104,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">opponent3</param1>
+			<param1 id="target">2213,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">teammate1</param1>
+			<param1 id="target">1485,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">teammate2</param1>
+			<param1 id="target">1368,1650</param1>
+			<param1 id="wait">false</param1>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param1 id="entityID">dara</param1>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param1 id="delay">3</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param1 id="charID">dara</param1>
+			<param1 id="sayID">introDara</param1>
+		</event>
+
+
+		<!--
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param1 id="entityID">isaac</param1>
+		</event>-->
+	</group>
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>	
+</events>

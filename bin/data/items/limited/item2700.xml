@@ -1,0 +1,69 @@
+<item id="2700"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>TombQuest Scorpion Card</name> <!-- Change this card name -->
+  	<campaignID>TombQuestScorpionIC</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+		<btn>
+  			<index>1</index>
+				<conditional id="hasLook" isTrue="false"/>
+    		<label>GET SWARMED</label>
+    		<actions>
+					<action type="applyLook"  tracking="Use TombQuest Scorpion Card"> 
+				</action>
+			</actions>
+  		</btn>
+		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>TAKE OFF</label>
+    		<actions>
+					<action type="removeLook"/>
+			</actions>
+  		</btn>		
+    	<btn>
+    		<index>0</index>
+      		<label>PLAY GAME</label>
+      		<actions>
+				<action type="gotoUrl" tracking="TombQuest Scorpion Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>TombQuest</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Scorpion Swarm</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundYellow.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" />
+  	</assets>
+
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<facial>limited_tombquest_pharoh</facial>
+		</look>
+	</looks> 
+	
+</item>

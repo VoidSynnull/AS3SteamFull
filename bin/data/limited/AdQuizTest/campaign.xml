@@ -1,0 +1,9 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>AdQuizTest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.poptropica.com</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+</campaign>

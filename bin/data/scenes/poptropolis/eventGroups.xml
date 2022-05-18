@@ -1,0 +1,17 @@
+<groups>
+	<group event="all_events_completed">
+		<and>
+			<event type="archery_completed"/>
+			<event type="diving_completed"/>
+			<event type="hurdles_completed"/>
+			<event type="javelin_completed"/>
+			<event type="long_jump_completed"/>
+			<event type="pole_vault_completed"/>
+			<event type="weight_lifting_completed"/>
+			<event type="shotput_completed"/>
+			<event type="triple_jump_completed"/>
+			<event type="skiing_completed"/>
+			<event type="volleyball_completed"/>
+		</and>
+	</group>
+</groups>

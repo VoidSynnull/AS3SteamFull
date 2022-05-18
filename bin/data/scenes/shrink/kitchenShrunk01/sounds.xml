@@ -1,0 +1,56 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="sinkHandleTurn">creaky_metal_05.mp3</asset>
+		<asset triggeredByEvent="pluggedIn">plugged_in_01.mp3</asset>
+		<asset triggeredByEvent="zapped">electrocuted_01.mp3</asset>
+		<asset triggeredByEvent="toasterHandleLaunch">toaster_launch_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorTrashCan">enter_exit_trash_01.mp3</asset>
+		<asset id="doorLivingRoomNormal">none</asset>
+		<asset id="doorKitchenShrunk02A">none</asset>
+		<asset id="doorKitchenShrunk02B">none</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="fridge">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="letter">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="iceMaker">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="drawer">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="toaster">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="toasterHandle">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="shelf">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="can">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="sponge">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="cleaner">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="trash">fs_general_rubbish_01.mp3, fs_general_rubbish_02.mp3, fs_general_rubbish_03.mp3, fs_general_rubbish_04.mp3</asset>
+		<asset id="counter">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="fridge">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="magnet">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="iceMaker">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="drawer">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="toaster">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="toasterHandle">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="shelf">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="can">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="sponge">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="cleaner">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="trash">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+		<asset id="handle">toaster_handle_push_01.mp3</asset>
+		<asset id="counter">ls_tile_01.mp3,ls_tile_02.mp3</asset>
+	</sound>
+</sounds>

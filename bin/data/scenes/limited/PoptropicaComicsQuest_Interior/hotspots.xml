@@ -1,0 +1,10 @@
+<hotspots>
+	<hotspot id="customDoor" type="poster">
+		<action type="enterQuest">true</action> 
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

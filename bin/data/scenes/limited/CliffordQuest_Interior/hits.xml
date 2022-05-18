@@ -1,0 +1,58 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="coral" color="0xC2D6D6" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit id="sand" color="0xFF9933" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rope" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="glass" color="0x33FF99" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="grass" color="0x006633" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="sign" color="0x099CCC" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="wood" color="0xF4DFA3" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit color="0xFFFF00" id="climb1">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bucketHit1">
+		<component type="movingPlatform">
+			<visible>trolly1</visible>
+			<velocity>100</velocity>
+			<teleportToStart>true</teleportToStart>
+			<points>
+				<point>
+					<x>-80</x>
+					<y>398</y>
+				</point>
+				<point>
+					<x>3580</x>
+					<y>398</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,85 @@
+<dialogs>
+	<character id="spFan">
+		<statement id="no cutting">Hey! No cutting!</statement>
+		<conversation>
+			<exchange>
+				<question>Any chance I can move ahead of you?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="spFan_quest_accepted, true">If you can replace my busted jetpack, you can steam right past me.</answer>
+			</exchange>
+		</conversation>
+		<statement id="spFan_quest_complete"  event="spFan_quest_complete">To the sky!</statement>
+    </character>
+    
+    <character id="sfFan">
+    	<statement id="no cutting">Hey! No cutting!</statement>
+		<conversation>
+			<exchange>
+				<question>Excuse me, could I possibly trade your place in line?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="sfFan_quest_accepted, true">If you can trade me the Fremulon mask from the booth, i'll give up my spot.</answer>
+			</exchange>
+		</conversation>
+		<statement id="sfFan_quest_complete"  event="sfFan_quest_complete" link="idk" linkEntityId="player">May your zazzleblax be abundant.</statement>
+    </character>
+    
+    <character id="shFan">
+   		<statement id="no cutting">Hey! No cutting!</statement>
+		<conversation>
+			<exchange>
+				<question>I'm in a real hurry. Can I cut past you?</question>
+				<answer link="where" linkEntityId="player">Only the one who wields the Power Amulet can displace me!</answer>
+			</exchange>
+		</conversation>
+		<statement id="cheetah" triggerEvent="triggerEvent" triggerEventArgs="shFan_quest_accepted, true">The Cheetah Bandit has it, of course!</statement>
+		<statement id="shFan_quest_complete" event="shFan_quest_complete" triggerEvent="triggerEvent" triggerEventArgs="shFan_passed, true">You are truly powerful! I cede my spot.</statement>
+    </character>
+    
+    <character id="viking1">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="viking1_quest_accepted, true">If you can find out what time the cosplay contest is, i'll give you my spot.</statement>
+		<conversation event="viking1_quest_complete">
+			<exchange>
+				<question>The contest starts at noon.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="viking1_passed, true">Thanks!</answer>
+			</exchange>
+		</conversation>
+		<statement id="no cutting">Hey! No cutting!</statement>
+    </character>
+    
+    <character id="viking2">
+    	<statement triggerEvent="triggerEvent" triggerEventArgs="viking2_quest_accepted, true">I'm wracking my brain to remember who played Thor in that old Viking movie. Remind me, and I'll trade my spot.</statement>
+		<conversation event="viking2_quest_complete">
+			<exchange>
+				<question>Bucky Lucas played Thor.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="viking2_passed, true">That's it! I was thinking of Kirk Strayer, for some reason. Thanks.</answer>
+			</exchange>
+		</conversation>
+		<statement id="no cutting">Hey! No cutting!</statement>
+    </character>
+    
+    <character id="friend">
+    	<statement>Hey pal, don't you know it's rude to cut in line?</statement>
+		<conversation id="friend_quest_complete"  event="friend_quest_complete">
+			<exchange>
+				<question>Hey there, are you holding something for your friend?</question>
+				<answer link="in the bathroom">I had it when I went into the bathroom, but I must have left it there.</answer>
+			</exchange>
+		</conversation>
+		<conversation id="in the bathroom">
+			<exchange>
+				<question>In the bathroom, you say.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="friend_passed, true">Now the line is so long! Forget it, I'm going home. Nice costume, by the way.</answer>
+			</exchange>
+		</conversation>
+		<statement id="no cutting">Hey! Line for the bathroom is over here.</statement>
+		
+		<statement id="cutter" link="ditto" linkEntityId="player">How did you get in front of the line?</statement>
+		<statement id="enjoy"  triggerEvent="triggerEvent" triggerEventArgs="jerk_leaves_bathrooms, true">Well, enjoy yourself in there. I kept it nice and warm for you.</statement>
+    </character>
+    
+     <character id="player">
+     	<statement id="where" link="cheetah" linkEntityId="shFan">Where is the power amulet?</statement>
+    	<statement id="idk">I still have no idea what zazzleblax is.</statement>
+    	<statement id="darn">Wish I'd thought of that.</statement>
+    	<statement id="ditto" link="enjoy" linkEntityId="friend">I could ask you the same thing.</statement>
+    	<statement id="never">I never want to go in there again!</statement>
+    </character>
+</dialogs>

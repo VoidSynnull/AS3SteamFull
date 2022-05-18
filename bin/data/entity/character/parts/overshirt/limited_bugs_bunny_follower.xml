@@ -1,0 +1,36 @@
+<part>
+	<id>limited_bugs_bunny_follower</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+		<part>shirt</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>eyes</part>
+		<part>mouth</part>
+		<part>head</part>
+		<part>body</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="shoePath">entity/character/foot/limited_bugs_bunny_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

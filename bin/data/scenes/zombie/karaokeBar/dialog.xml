@@ -1,0 +1,28 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="light_switch_blocked">There's a zombie blocking the way!</statement>
+		<statement triggeredByEvent="dj_left">Looks like she left her laptop running.</statement>
+		<statement triggeredByEvent="fruit_already_collected">I already added this clue to my notebook.</statement>
+	</character>
+	
+	<character id="char1">
+		<conversation event="dance_floor_lit">
+			<exchange>
+				<question>What happend here?</question>
+				<answer>We were supposed to be partying until the break of dawn-- but all these zombies dawned instead!</answer>
+			</exchange>
+			<exchange>
+				<question>How come you're not a zombie?</question>
+				<answer>You got me! Everybody else started turning blue, but I feel fine.</answer>
+			</exchange>
+			<exchange>
+				<question>What do we do now?</question>
+				<answer>I don't know about you, but it's time for me to boogie. Peace out, zombie fighter!</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="light_switch_activated">You're a life saver!</statement>
+		<statement>Yo! I'm trapped back here. Can you clear the dance floor?</statement>
+		<statement triggeredByEvent="laptop_click">Yo! Stop messing with my stuff and help me get out of here!</statement>
+		<statement triggeredByEvent="shine_disco_light">That won't hold them off for long. See if you can light up the dancefloor.</statement>
+    </character>
+</dialogs>

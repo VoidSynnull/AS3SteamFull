@@ -1,0 +1,29 @@
+<npcs>
+	<npc id="herc" event="hercules_swimming">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Swim</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE6BC7D</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>hercules</mouth>
+			<marks>hercules</marks>
+			<hair>hercules</hair>
+			<shirt>bare</shirt>
+			<pants>1</pants>
+			<overshirt>hercules</overshirt>
+			<overpants>hercules</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1738</x>
+			<y>2081</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.5</scale>
+	</npc>
+</npcs>

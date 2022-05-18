@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorCaribbeanPort">door_light_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="floor">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_tile_01, ls_tile_02.mp3.mp3</asset>
+		<asset id="floor">ls_tile_01, ls_tile_02.mp3.mp3</asset>
+	</sound>
+</sounds>

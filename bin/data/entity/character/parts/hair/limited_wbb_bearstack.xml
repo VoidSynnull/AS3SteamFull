@@ -1,0 +1,18 @@
+<part>
+	<id>limited_wbb_bearstack</id>
+	<type>hair</type>
+	<notPrintable>true</notPrintable>
+	<costumizable>false</costumizable>
+	<campaignID>2770</campaignID>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,25 @@
+<part>
+	<id>stor_horseman</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="TwirlItemAction">
+					<parameters>
+						<param id="entity" type="entity">player</param> 
+						<param id="animClass" type="class">game.data.animation.entity.character.Twirl</param>
+						<param id="speed" type="number">19.2</param> 
+						<param id="acceleration" type="number">-0.5</param> 
+						<param id="reverseAtTrigger" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

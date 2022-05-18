@@ -1,0 +1,36 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/FartPowerTest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2781</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGrape</asset>
+	</assets>
+
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fart_01</asset>
+		<asset>fart_02</asset>
+		<asset>fart_03</asset>
+		<asset>fart_04</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml" keep="true">
+		<asset>drink</asset>
+		<asset>pop</asset>
+	</data>
+
+	<!-- avatar parts -->
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_fizzy_drink</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_fizzy_drink</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="scarecrow">
+		<statement event="PopComicsFlyGameQuestCompleted">Hey, I think I've met you before... or not... I wish I had a brain.</statement> <!-- If have item card -->
+		<statement>I'm the Scare Crow... I think... I wish I had a brain.</statement> <!-- default if above not true -->
+	</character>
+	<character id="lion">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="rain">Courage is what I...AAAAH!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="rain">Flying monkeys are dropping stuff! Jump on the broom and get out of here!</statement> <!-- default if above not true -->
+	</character>
+	<character id="tinman">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="monkeyIsland">I could use a good heart. Maybe you can find one for me on Monkey Island</statement> <!-- default if above not true -->
+	</character>
+	<character id="jorge">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup|Flying">Quick! Hop on!</statement> <!-- default if above not true -->
+	</character>
+	<character id="oliver">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup|Flying">Quick! Hop on!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

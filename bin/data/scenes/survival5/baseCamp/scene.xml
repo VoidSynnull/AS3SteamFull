@@ -1,0 +1,44 @@
+<scene>
+	<sceneType>shortmain</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2700</right>
+		<bottom>1670</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-110</left>
+		<top>0</top>
+		<right>2700</right>
+		<bottom>1800</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,hits.xml,npcs.xml,sounds.xml</data>
+	<absoluteFilePaths>scenes/survival5/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+			<elementsToBitmap>clouds1, clouds2</elementsToBitmap>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1550</x>
+			<y>1620</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

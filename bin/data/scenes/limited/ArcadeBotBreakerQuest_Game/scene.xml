@@ -1,0 +1,23 @@
+<scene>
+	<sceneType>adinterior</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>960</right>
+		<bottom>640</bottom>
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>960</right>
+		<bottom>560</bottom> <!-- position of player at bottom -->
+	</bounds>
+	<data>hits.xml,game.xml,sounds.xml,obstacles.xml</data>
+	<layers>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<saveLocation>false</saveLocation>
+</scene>

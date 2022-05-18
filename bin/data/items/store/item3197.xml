@@ -1,0 +1,69 @@
+<item id="3197">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>30</x>
+	</contentClass>
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		<btn>
+			
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<textfields>
+		<text id="storeTitle">
+			<value>Captain Cobalt</value>
+		</text>
+	</textfields>
+		
+		<specials>
+			<specialAbility>follower_parrot</specialAbility>
+		</specials>
+		
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals> 
+		
+		<looks>
+		<look>
+			<hair>tpirateblue</hair>
+			<marks>scar</marks>
+			<mouth>tpirateblue</mouth>
+			<overpants>tpirateblue</overpants>
+			<overshirt>tpirateblue</overshirt>
+			<pants>tpirateblue</pants>
+			<shirt>tpirateblue</shirt>
+			<item>ppiratesword</item>
+		</look>
+	</looks>
+</item>

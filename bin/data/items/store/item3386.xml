@@ -1,0 +1,53 @@
+<item id="3386">
+		<type>store</type>
+		<subType>general</subType>
+
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>10</x>
+	</contentClass>
+
+	<radiobuttons>
+		<btn>
+			<color>0xFF9D00</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xE851EA</color>
+			<val>1</val>
+		</btn>
+	</radiobuttons>
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropica Realms</value>
+			</text>
+		<text id="storeTitle">
+			<value>Biome Hats</value>
+			</text>
+	</textfields>
+	
+	<assets>
+			<asset id="cardBack" />
+		
+		</assets>
+
+		<looks>
+			<look>
+			<hair>biome_fire</hair>
+		</look>
+		<look>
+			<hair>biome_crystal</hair>
+		</look>
+	</looks> 
+
+</item>

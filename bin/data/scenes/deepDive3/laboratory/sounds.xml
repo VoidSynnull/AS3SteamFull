@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">atlantis_3_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+		<asset loop="true" event="stage_3_active">mid_rumble_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="metalWalls" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="d1" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="d2" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="glassWall">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset baseVolume="1.5" triggeredByEvent="revealCreature">monsters_1.mp3</asset>
+		<asset triggeredByEvent="hearMovement">distant_metal_impacts.mp3</asset>
+		<asset triggeredByEvent="hearMovement2">distant_metal_impacts2m.mp3</asset>
+		<asset triggeredByEvent="hearMovement3">metal_groan.mp3</asset>
+		<asset triggeredByEvent="creaturePopOut">metal_impact_02.mp3</asset>
+		<asset triggeredByEvent="creaturePopIn">metal_impact_03.mp3</asset>
+		<asset triggeredByEvent="creatureChomp">big_pow_04.mp3</asset>
+		<asset triggeredByEvent="crunch">chewing_2a.mp3</asset>
+		<asset triggeredByEvent="hork">hork.mp3</asset>
+		<asset triggeredByEvent="doorOpen">door_hatch_01.mp3</asset>
+		<asset triggeredByEvent="containerOn">sparks_02.mp3</asset>
+		<asset triggeredByEvent="containerFlicker" baseVolume="0.4">sparks_03.mp3</asset>
+		
+	</sound>
+</sounds>

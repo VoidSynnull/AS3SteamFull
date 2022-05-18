@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="Pooh">
+		<statement event="hasAdItem_2905">Hello. I'm Pooh. While I'm here, why don't you watch this video?</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Hello. I'm Pooh. While I'm here, why don't you watch this video?</statement> <!-- if video playing -->
+		<statement>Hello. I'm Pooh. While I'm here, why don't you watch this video for a splendid prize?</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

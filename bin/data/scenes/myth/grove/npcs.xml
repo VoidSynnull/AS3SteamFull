@@ -1,0 +1,99 @@
+<npcs>
+	<npc id="youngWoman">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>mythpes1</mouth>
+			<marks>mythpes1</marks>
+			<hair>mythpes1</hair>
+			<shirt>mythpes1</shirt>
+			<pants>mythpes1</pants>
+			<overpants>mythpes1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>600</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="youngGuy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x000000</hairColor>
+			<mouth>14</mouth>
+			<marks>scuffMarks</marks>
+			<hair>mythPes7</hair>
+			<shirt>mythPes7</shirt>
+			<pants>mythPes7</pants>
+			<item>mythBucket</item>
+			<overpants>mythPes7</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2711.5</x>
+			<y>1765</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="oldGuy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0xCCCCCC</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>fisherman2</marks>
+			<hair>mythPes5</hair>
+			<shirt>mythPes5</shirt>
+			<pants>mythPes5</pants>
+			<overpants>mythPes5</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>4777</x>
+			<y>720</y>
+		</position>
+		<range>
+			<x>50</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="satyr">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF7CD6F</skinColor>
+			<hairColor>0x7D66AE</hairColor>
+			<mouth>astroGuard1</mouth>
+			<marks>satyr</marks>
+			<hair>satyr</hair>
+			<shirt>bare</shirt>
+			<pants>satyr</pants>
+			<pack>satyr</pack>
+			<item>satyr</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1300</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

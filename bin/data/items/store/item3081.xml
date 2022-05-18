@@ -1,0 +1,27 @@
+<item id="3081">
+	<type>store</type>
+	<subType>general</subType>
+	<buttons>
+		<btn>
+				<label>VISIT</label>
+				<actions>
+					<action type="loadAS2Scene">
+						<parameters>
+							<param id="section">gameplay</param>
+							<param id="island">haunted</param>
+							<param id="scene">Haunted1</param>
+						</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+ 		<text id="storeTitle">
+					<value>Haunted House</value>
+					</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+</item>

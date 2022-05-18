@@ -1,0 +1,14 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winPhrase>I've got you now, Duke Weaselton!</winPhrase> <!-- Optional -->
+	<winNPCPhrase npc="duke" delay="5">Darn! You caught me.</winNPCPhrase> <!-- Optional -->
+	<winDelay>10</winDelay>
+	<chaserPrefix>judy</chaserPrefix>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>1320</returnX>
+	<returnY>1385</returnY>
+</game>

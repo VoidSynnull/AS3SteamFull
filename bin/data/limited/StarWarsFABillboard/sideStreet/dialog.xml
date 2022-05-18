@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Hi, I’m Rey. Watch this Star Wars video and you will meet my friend BB-8</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hi, I’m Rey. Watch this Star Wars video and you will meet my friend BB-8</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

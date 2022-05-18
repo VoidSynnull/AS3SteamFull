@@ -1,0 +1,23 @@
+<part>
+	<id>limited_belt_sloth</id>
+	<type>overpants</type>
+	<costumizable>false</costumizable>
+	<campaignID>2035</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">Croods2MMSQ,Sash</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overpants</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

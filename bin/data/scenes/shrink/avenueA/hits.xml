@@ -1,0 +1,71 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneWall" color="0xDDD9CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneWindow1" color="0xB7AFB4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneWindow2" color="0xF3E6CA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneWindow3" color="0xB8BCC0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tiledRoof" color="0xBAB0AB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="flowerBox" color="0xFEF2D4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneLedge" color="0xD8C9C3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneRoof1" color="0xC7B4AB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="steps" color="0xE5DFCE" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneRoof2" color="0xA6A8AA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoneRoof3" color="0xD5BBB3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="closedTrashCan" color="0xD6DED9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="openTrashCan" color="0xACD9BB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="awningBounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

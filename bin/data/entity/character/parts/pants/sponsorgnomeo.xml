@@ -1,0 +1,20 @@
+<part>
+	<id>sponsorgnomeo</id>
+	<type>pants</type>
+	<gender>male</gender>
+	<costumizable>false</costumizable>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x839490</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">none</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="move_garbage">pick_up_wrapper_02.mp3</asset>
+		<asset triggeredByEvent="drop_garbage">put_misc_item_down_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="kitchen">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="fridge">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="counter">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="speaker">none</asset>
+		<asset id="chair">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="kitchen">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="fridge">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="counter">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="speaker">none</asset>
+	</sound>
+</sounds>

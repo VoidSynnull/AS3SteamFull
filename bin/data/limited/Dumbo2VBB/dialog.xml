@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="ringmaster">
+		<statement event="hasAdItem_2963">Watch the video.</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to watch the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch the video.</statement> <!-- if video playing -->
+		<statement>Watch the video. You're going to love this prize.</statement> <!-- default if above not true -->
+	</character>
+	<character id="eva">
+		<statement>Dumbo is simply magnificent!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

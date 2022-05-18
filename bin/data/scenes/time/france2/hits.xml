@@ -1,0 +1,24 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="sign" color="0xCC9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="barrel" color="0x660000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="statueTops" color="0xCC0099" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="molding" color="0x00CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

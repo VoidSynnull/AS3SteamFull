@@ -1,0 +1,130 @@
+<dialogs>
+	<character id="player">
+		<statement id="locked">Locked.</statement>
+		<statement id="mom" link="help_yourself" linkEntityId="focusTester">Your mom must be very proud.</statement>
+		<statement id="rotten" link="cashBaby" linkEntityId="salesManager">That seems kind of rotten for your players.</statement>
+		<statement id="confused" link="monkeys" linkEntityId="projectManager">Hey, I'm confused. I met all those executives, but who actually makes the islands?</statement>
+		<statement id="canITalk" link="myGuest" linkEntityId="projectManager">Can I go talk to them?</statement>
+		<statement id="whyWant" link="proof" linkEntityId="focusTester">Why would I want those?</statement>
+		<statement id="goodPoint" link="surprise" linkEntityId="focusTester">Good point. I want some achievements. I need them. Now. How do I get some?</statement>
+		<statement id="noAds" link="yourMoney" linkEntityId="salesManager">No ads!</statement>
+		<statement id="reallySlow" link="technically" linkEntityId="costCutter">Won't that make the game run really slow?</statement>
+    </character>
+    
+    <character id="kid1">
+		<statement id="pets" link="hi_kids_2" linkEntityId="focusTester">PETS!</statement>
+		<statement id="yay" triggerEvent="triggerEvent" triggerEventArgs="yayOver">YAY!</statement>
+    </character>
+    
+    <character id="kid2">
+		<statement id="pets">PETS!</statement>
+		<statement id="yay">YAY!</statement>
+    </character>
+    
+    <character id="kid3">
+		<statement id="pets">PETS!</statement>
+		<statement id="yay">YAY!</statement>
+    </character>
+    
+    <character id="kid4">
+		<statement id="pets">PETS!</statement>
+		<statement id="yay">YAY!</statement>
+    </character>
+    
+    <character id="focusTester">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm the Focus Tester. It's my job to make sure players get exactly what they want and we all make as much money as possible. You know what the key is?</answer>
+			</exchange>
+			<exchange>
+				<question>What's the key?</question>
+				<answer>Focus testing! Give the people what they want and they'll beg you to take their money!</answer>
+			</exchange>
+			<exchange>
+				<question id="crazyTalk">That's crazy talk.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="showYou">No, my friend, that's business! I'll show you!</answer>
+			</exchange>
+		</conversation>
+		<statement id="hi_kids_1" triggerEvent="triggerEvent" triggerEventArgs="hiKids">Hi kids. If you could add ONE THING to Poptropica, what it would be? What would you like to see more than anything else?</statement>
+    	<statement id="hi_kids_2" triggerEvent="triggerEvent" triggerEventArgs="yay">Then it shall be done! You will all have pets!</statement>
+    	<statement id="hi_kids_3" triggerEvent="triggerEvent" triggerEventArgs="yay">As payment for your help, you all get cake!</statement>
+    	<statement id="thats_the_way" link="mom" linkEntityId="player">And that's the way you do it.</statement>
+    	<statement id="help_yourself" triggerEvent="triggerEvent" triggerEventArgs="metFocusTester">You bet -- she made the cake! Help yourself to a piece.</statement>
+    	<statement id="cash">I'm all about making games and making cash!</statement>
+    	
+    	<statement id="achievements" link="whyWant" linkEntityId="player">We've got something new and great happening. Achievements!</statement>
+    	<statement id="proof" link="goodPoint" linkEntityId="player">It's proof of what an awesome gamer you are! How would you know you had fun without achievements to prove it?</statement>
+    	<statement id="surprise" triggerEvent="triggerEvent" triggerEventArgs="achiever">Surprise! You just earned one!</statement>
+		<statement id="loveIt">Achievements! I love it!</statement>
+    </character>
+    
+    <character id="safetyInspector">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm the Safety Inspector. I make sure kids stay safe in Poptropica. No more climbing, jumping, and exploring all willy-nilly.</answer>
+			</exchange>
+			<exchange>
+				<question>You sound like a real drag.</question>
+				<answer>What if someone gets hurt? They'll sue our pants off! And we need our pants....</answer>
+			</exchange>
+			<exchange>
+				<question>What are you working on now?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="metSafetyInspector">Increasing safety, of course!</answer>
+			</exchange>
+		</conversation>
+		<statement id="velcro">What do you think about Velcro shoes? Y'know, for the players?</statement>
+    </character>
+    
+    <character id="salesManager">
+		<conversation>
+			<exchange>
+				<question>You look pretty slick.</question>
+				<answer>You bet! I'm the Ad Sales Manager! I'm tasked with increasing ad revenue.</answer>
+			</exchange>
+			<exchange>
+				<question>You're responsible for those annoying ads?! I should kick you in the shin!</question>
+				<answer>Please don't. I get that a lot. My shins are very bruised.</answer>
+			</exchange>
+			<exchange>
+				<question id="workingOn">What are you working on now?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="newAd">Check out our new ad unit. It's our most obnoxious one yet!</answer>
+			</exchange>
+		</conversation>
+		<statement id="eightCents" link="rotten" linkEntityId="player">That ad just made us eight cents! Totally worth it.</statement>
+		<statement id="cashBaby" link="moneyTalks">Forget the players -- it's all about the cash, baby!</statement>
+		<statement id="moneyTalks" triggerEvent="triggerEvent" triggerEventArgs="metSalesManager">Hey, if you ever have anything you want to advertise – come see me! Money talks!</statement>
+		<statement id="advertiseSomething">Let me know when you want to advertise something. Just bring me the cash and the ad space is yours.</statement>
+		
+		<statement id="enoughMoney" link="noAds" linkEntityId="player">This is enough money to buy up all the ad inventory! What sort of ad would you like to run?</statement>
+		<statement id="yourMoney" triggerEvent="triggerEvent" triggerEventArgs="boughtAds">I don't understand. Why would anyone want to rob the players of wonderful ads? Well, it's your money. You can do what you want.</statement>
+		<statement id="breaksMyHeart">All this ad-space, sitting unused. It breaks my heart...</statement>
+	</character>
+	
+	<character id="costCutter">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm the Cost-cutter, but my friends call me Slash. Actually I don't have friends, but if I did, they'd call me Slash!</answer>
+			</exchange>
+			<exchange>
+				<question>Why do they call you Slash? Do you play the guitar?</question>
+				<answer>No, I slash, slash, slash expenses! I just got rid of our entire writing staff! Ka-ching!</answer>
+			</exchange>
+			<exchange>
+				<question>No writers? How will you keep the islands so fresh and original and brilliant?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="generator">With the new Story Generator 2000, Poptropica islands will practically create themselves!</answer>
+			</exchange>
+		</conversation>
+		<statement id="sweet">My bank account is suh-weet.</statement>
+		
+		<statement id="finestHour" link="reallySlow" linkEntityId="player">This is my finest hour! I've eliminated almost all of Poptropica's servers.</statement>
+		<statement id="technically" triggerEvent="triggerEvent" triggerEventArgs="eliminatedServers">Technically yes, but I dare you to notice the difference!</statement>
+	</character>
+	
+	<character id="projectManager">
+		<statement id="monkeys" link="canITalk" linkEntityId="player">Ohh... You mean the development monkeys? They've been sent to the dungeon – I mean – basement.</statement>
+		<statement id="myGuest" triggerEvent="triggerEvent" triggerEventArgs="basementOpen">Be my guest. I can't take another minute here. I'm gonna go work from home.</statement>
+	</character>
+</dialogs>

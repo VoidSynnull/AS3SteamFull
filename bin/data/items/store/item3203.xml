@@ -1,0 +1,78 @@
+<item id="3203">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<radiobuttons>
+		<btn>
+			<color>0xFFB700</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x990062</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xFF6200</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<textfields>
+			<text id="storeTitle">
+			<value>Rockstar</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+	</textfields>
+	<looks>
+		<look>
+			<mouth>14</mouth>
+			<facial>prockerguy1</facial>
+			<hair>trockstar</hair>
+			<shirt>trockstar</shirt>
+			<pants>prockerguy1</pants>
+			<item>tguitarv</item>
+			<overshirt>prockerguy1</overshirt>
+			<overpants>prockerguy1</overpants>
+		</look>
+		<look>
+			<mouth>14</mouth>
+			<facial>prockerguy1</facial>
+			<hair>trockstar</hair>
+			<shirt>trockstar</shirt>
+			<pants>prockerguy1</pants>
+			<item>tguitarr</item>
+			<overshirt>prockerguy1</overshirt>
+			<overpants>prockerguy1</overpants>
+		</look>
+		<look>
+			<mouth>14</mouth>
+			<facial>prockerguy1</facial>
+			<hair>trockstar</hair>
+			<shirt>trockstar</shirt>
+			<pants>prockerguy1</pants>
+			<item>tguitarw</item>
+			<overshirt>prockerguy1</overshirt>
+			<overpants>prockerguy1</overpants>
+		</look>
+	</looks>
+</item>

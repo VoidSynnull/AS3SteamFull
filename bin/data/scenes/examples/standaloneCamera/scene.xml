@@ -1,0 +1,42 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2000</right>
+		<bottom>1000</bottom>	
+	</cameraLimits>
+	<data></data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.25</rate>
+		</layer>
+		<layer>
+			<asset>mountains.swf</asset>
+			<rate>.8</rate>
+		</layer>
+		<layer>
+			<asset>foothills.swf</asset>
+			<rate>.9</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>hits.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>plants.swf</asset>
+			<rate>1.2</rate>
+			<offsetY>100</offsetY>
+		</layer>
+	</layers>
+</scene>

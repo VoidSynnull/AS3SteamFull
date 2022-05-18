@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poseidon_realm.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">beach_waves.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorOcean">myth_dive_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="fountain1" loop="true" modifier="position">water_fountain_large_01_loop.mp3</asset>
+		<asset id="flag" loop="true" modifiers="position">myth_flag_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id = "sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id = "rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id = "water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id= "wood">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="bounce">ls_spring_01.mp3,ls_spring_02.mp3,ls_spring_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id = "sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id = "rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id = "water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id= "wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

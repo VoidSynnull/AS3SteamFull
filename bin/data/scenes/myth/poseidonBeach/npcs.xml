@@ -1,0 +1,118 @@
+<npcs>
+	<npc id="char1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB8EDE8</skinColor>
+			<hairColor>0x216778</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>teethGrin1</mouth>
+			<marks>sponsorTinkerbell</marks>
+			<facial>triton</facial>
+			<hair>realityTeen</hair>
+			<shirt>bare</shirt>
+			<pants>triton</pants>
+			<item>triton</item>
+			<overshirt>triton</overshirt>
+			<overpants>triton</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<faceSpeaker>false</faceSpeaker>
+		<position>
+			<x>1989</x>
+			<y>633</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.5</scale>
+	</npc>
+	
+	<npc id="char2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf9aa17</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>mythBeach1</mouth>
+			<marks>sponsorCWMB2</marks>
+			<facial>mythBeach1</facial>
+			<hair>mythBeach1</hair>
+			<shirt>mythBeach1</shirt>
+			<pants>mythBeach1</pants>
+			<overpants>mythBeach1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2382</x>
+			<y>810</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="char3">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xE6BC7D</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>mythBeach2</mouth>
+			<marks>bangs4</marks>
+			<facial>mythBeach2</facial>
+			<hair>mythBeach2</hair>
+			<shirt>mythBeach2</shirt>
+			<pants>mythBeach2</pants>
+			<overpants>mythBeach2</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2702</x>
+			<y>792</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>	
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="aphrodite">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xFDD124</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>aphrodite</mouth>
+			<marks>aphrodite</marks>
+			<hair>aphrodite</hair>
+			<shirt>aphrodite</shirt>
+			<pants>aphrodite</pants>
+			<pack>aphrodite</pack>
+			<item>aphroMirror</item>
+			<overshirt>aphrodite</overshirt>
+			<overpants>aphrodite</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1670</x>
+			<y>823</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.5</scale>
+	</npc>
+	
+	<npc id="aphrodite" event="gotItem_aphroditeMirror">
+		<skin>
+			<item>empty</item>
+		</skin>
+	</npc>
+</npcs>

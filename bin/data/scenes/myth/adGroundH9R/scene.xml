@@ -1,0 +1,36 @@
+<scene>
+	<sceneType>billboard</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>960</right>
+		<bottom>640</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>1160</right>
+		<bottom>600</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml,custom.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/myth/shared/sounds.xml, scenes/myth/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>0</x>
+			<y>480</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

@@ -1,0 +1,61 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">production_factory.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="interaction" triggeredByEvent="set_to_mix" exclusiveType="true">blender_01_L.mp3</asset>
+		<asset id="interaction" triggeredByEvent="set_to_blend" exclusiveType="true">blender_02_L.mp3</asset>
+		<asset id="interaction" triggeredByEvent="set_to_liquify" exclusiveType="true">blender_03_L.mp3</asset>
+		<asset id="interaction" triggeredByEvent="set_to_vaporize" exclusiveType="true">blender_04_L.mp3</asset>
+		<asset id="interaction" fade="true" triggeredByEvent="set_off" exclusiveType="true">power_down_03.mp3</asset>
+		
+		<asset id="bunnyCam" triggeredByEvent="cam_active" loop="true">machine_alarm_01_L.mp3</asset>
+		<asset id="zap" triggeredByEvent="player_caught">event_06.mp3</asset>
+		<asset id="zoneLight" triggeredByEvent="player_surrender">event_06.mp3</asset>
+		<asset id="doorTrap" triggeredByEvent="fell_in_trap">trap_door_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorSecurity">door_metal_lab_01.mp3</asset>
+		<asset id="door1">door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="crates">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="colorTower">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="blender">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="lights">ls_metal_verb_01.mp3, ls_metal_verb_02.mp3</asset>
+		<asset id="platform">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="pillars">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="thinPipes">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		
+		<asset id="bucketHit1" event="bucket_full_1">ls_crunchy_verb_01.mp3, ls_crunchy_verb_02.mp3</asset>
+		<asset id="bucketHit1" event="bucket_empty_1">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		
+		<asset id="bucketHit2" event="bucket_full_2">ls_crunchy_verb_01.mp3, ls_crunchy_verb_02.mp3</asset>
+		<asset id="bucketHit2" event="bucket_empty_2">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="crates">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="colorTower">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="blender">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="lights">fs_metal_verb_01.mp3, fs_metal_verb_02.mp3, fs_metal_verb_03.mp3, fs_metal_verb_04.mp3</asset>
+		<asset id="platform">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="pillars">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="thinPipes">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		
+		<asset id="bucketHit1" event="bucket_full_1">fs_crunchy_verb_01.mp3, fs_crunchy_verb_02.mp3, fs_crunchy_verb_03.mp3, fs_crunchy_verb_04.mp3</asset>
+		<asset id="bucketHit1" event="bucket_empty_1">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+	
+		<asset id="bucketHit2" event="bucket_full_2">fs_crunchy_verb_01.mp3, fs_crunchy_verb_02.mp3, fs_crunchy_verb_03.mp3, fs_crunchy_verb_04.mp3</asset>
+		<asset id="bucketHit2" event="bucket_empty_2">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+	</sound>
+</sounds>

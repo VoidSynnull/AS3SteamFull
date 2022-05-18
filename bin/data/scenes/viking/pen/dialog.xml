@@ -1,0 +1,49 @@
+<dialogs>
+	<character id="octavian">
+		<statement id="letMeSee" link="cantFoolUs" linkEntityId="oliver">Let me see the map, to be sure it's intact, and then I'll let you out.</statement>
+		<statement id="finally" link="unlockCage" linkEntityId="jorge">Yes, yes, this is it! Finally, I will know the secrets of Poptropica!</statement>
+		<statement id="niceLife">What for? I've already gotten what I need from you. Now to slip on a disguise and sneak out of here.</statement>
+<!-- 		<statement id="alreadyHave">Oh, my dear Mya... I already have!</statement> -->
+    </character>
+	<character id="oliver">
+		<statement link="liedToMe" linkEntityId="player">That jerk, Octavian. Hey, can you help us out?</statement>
+		<statement event="gotItem_candybar">A good costume and we'll slip right by.</statement>
+		<statement id="cantFoolUs" link="giveIt" linkEntityId="jorge">You can't fool us, Octavian!</statement>
+		<statement id="youHadFood" link="getOut" linkEntityId="player">You had food, Jorge?</statement>
+		<statement id="wait" link="disguise" linkEntityId="mya">Wait! We can't just walk past the Vikings. They'll throw us back in this cage.</statement>
+<!-- 		<statement id="kids_freed">Wait! We can't just walk past the Vikings. They'll throw us back in this cage.</statement> -->
+		<statement id="gave_helmet">This is a really well made helmet.</statement>
+    </character>
+	<character id="jorge">
+		<statement link="liedToMe" linkEntityId="player">Hey, can you help us? I'm hungry.</statement>
+		<statement event="gotItem_candybar">Will this really work?</statement>
+		<statement id="giveIt" triggerEvent="triggerEvent" triggerEventArgs="hand_map">Just give it to him! Why would he lie?</statement>
+		<statement id="unlockCage" link="niceLife" linkEntityId="octavian">Well, if you'll just unlock this cage, we'll be on our way.</statement>
+		<statement id="thankYou" triggerEvent="giveItem" triggerEventArgs="candybar" link="youHadFood" linkEntityId="oliver">Oh thank you, thank you! I was saving this, but you can have it.</statement>
+<!-- 		<statement id="kids_freed">I wish I still had some candy.</statement>    -->
+		<statement id="gave_furs">Wow, whoever these belong to must have a huge appetite.</statement>
+	</character>
+	<character id="mya">
+		<statement link="liedToMe" linkEntityId="player">Excuse me, we need to catch up to Octavian! Can you help us?</statement>
+		<statement event="gotItem_candybar">We need a disguise to get past those vikings.</statement>
+<!-- 		<statement id="getAway" link="alreadyHave" linkEntityId="octavian">You won't get away with this!</statement> -->
+		<statement id="disguise" triggerEvent="triggerEvent" triggerEventArgs="vikingClothes">Oliver's right. We need some kind of a disguise. Can you get your hands on any Viking clothes?</statement>
+		<statement id="gave_furs">Now is our chance. We'll follow you.</statement>
+   </character>
+	<character id="guard">
+		<statement id="heeHee">Hee hee... stupid pigs!</statement>
+		<statement id="cantPass">Hey, scram! No one is allowed to see the prisoners.</statement>
+		<statement id="whatTheDuece">Ack! What in the name of Odin?!</statement>
+		<statement id="notGood">I have a bad feeling about this...</statement>
+    </character>
+	<character id="player">
+		<statement id="notHim">Him again. I'll hide and see how this plays out for now.</statement>
+		<statement id="guard">I'll have to do something about that guard.</statement>
+		<statement id="gate">I should focus on that cage door.</statement>
+		<statement id="emptyBucket">This bucket is empty.</statement>
+		<statement id="nothingToChop">The axe has served it's purpose here.</statement>
+		<statement id="liedToMe">That Octavian guy lied to me, too. I can get you out of there.</statement>
+		<statement id="suchDoor">I need to break this lock somehow.</statement>
+		<statement id="getOut" link="wait" linkEntityId="oliver">Let's get out of here!</statement>
+    </character>
+</dialogs>

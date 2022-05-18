@@ -1,0 +1,33 @@
+<sounds>
+  <sound type="music">
+    <asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>door_pushbar_open_01.mp3</asset>
+    <asset id="doorQueequegs2">door_knob_turn_open_01.mp3</asset>
+    <asset id="doorQueequegs1">door_knob_turn_open_01.mp3</asset>
+    <asset id="adExit">none</asset>
+  </sound>
+  <sound type="effects">
+    <!-- <asset triggeredByEvent="light_change" >ping_10.mp3</asset>  -->
+    <asset triggeredByEvent="photo_shoot" >photo_shoot_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+    <asset id="brickRoof">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+    <asset id="concreteRoof">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+    <asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+    <asset id="climb">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+    <asset id="post">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+    <asset id="sign">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+    <asset id="carHit">whack_01.mp3, whack_02.mp3, whack_03.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="brickRoof">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+    <asset id="concreteRoof">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+    <asset id="bounce">fs_bounce_01.mp3, fs_bounce_02.mp3, fs_bounce_03.mp3, fs_bounce_04.mp3</asset>
+    <asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+    <asset id="sign">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+    <asset id="post">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+  </sound>
+</sounds>

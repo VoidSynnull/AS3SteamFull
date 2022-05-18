@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sponsorarthurchristmas</marks>
+			<facial></facial>
+			<hair>sponsorwalmartelfm</hair>
+			<shirt></shirt>
+			<pants>p_elf_boy</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt>sponsorsbsanta3</overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>377.55</x>
+			<y>469.4</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

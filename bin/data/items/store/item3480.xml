@@ -1,0 +1,44 @@
+<item id="3480">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Winter Bundle</value>
+			</text>
+		<text id="storeTitle">
+			<value>Jill Frost</value>
+			 </text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+	
+		<looks>
+			<look>
+			<skinColor>0xcadaf1</skinColor>
+			 <mouth>astroroyal1</mouth>
+			 <marks>stor_winter_jill</marks>
+			 <hair>stor_winter_jill</hair>
+			 <pants>stor_winter_jill</pants>
+			 <item>stor_winter_jill</item>
+			 <overshirt>stor_winter_jill</overshirt>
+		</look>
+	</looks> 
+
+</item>

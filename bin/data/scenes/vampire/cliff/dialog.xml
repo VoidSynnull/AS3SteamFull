@@ -1,0 +1,23 @@
+<dialogs>
+	<character id="player">
+		<statement id="tiny_door">I'd have to be tiny to go through there.</statement>
+		<statement id="hideout">Maybe I could use one of these branches as a weapon...</statement>
+		<statement id="cut_rope">Maybe I can even the odds by breaking this rope...</statement>
+	</character>
+	<character id="christopher">
+		<conversation>
+			<exchange>
+				<question>You look upset, what's wrong?</question>
+				<answer>It's all Katya's fault! I knew going to that castle was a bad idea!</answer>
+			</exchange>
+			<exchange>
+				<question>Where is she?</question>
+				<answer>Count Bram came out of nowhere! I mean, I tried to fight him, but he took Katya away.</answer>
+			</exchange>
+			<exchange>
+				<question>Are you going back to rescue her?</question>
+				<answer>Are you kidding? There are plenty of other cute girls in the village. I'm going home!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

@@ -1,0 +1,15 @@
+<doors>
+	<door id="customDoor">
+		<scene>GlobalPlanesFireAndRescue_Interior</scene> <!-- AS2 destination scene name -->
+		<x>465</x> <!-- destination x pos in interior scene -->
+		<y>757</y> <!-- destination y pos in interior scene -->
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

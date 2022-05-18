@@ -1,0 +1,55 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>WrinkleQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/clk/411126797;211403516;w</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/clk/411126797;211463178;g</clickUrl>
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/clk/411126797;211445191;b</clickUrl>
+		<clickUrl id="Poster">https://ad.doubleclick.net/ddm/clk/411126797;211463175;d</clickUrl>
+		<clickUrl id="Info">https://www.factmonster.com/science-behind-wrinkle-time</clickUrl>
+	</clickUrls>
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+		<impressions id="Poster">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20552466.211463175;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211463175&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211463175&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Video">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20552466.211445191;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211445191&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211445191&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Card">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20552466.211463178;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211463178&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211463178&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+	</impressionOnClicks>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20552466.211403516;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211403516&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20552466&amp;moatClientLevel2=1411495&amp;moatClientLevel3=211403516&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Mobile Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20552466.211403516;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="standard">https://z.moatads.com</impression>
+		</impressions>
+	</impressionUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2877</card>
+		<card>2878</card>
+	</boycards>
+	<girlcards>
+		<card>2877</card>
+		<card>2878</card>
+	</girlcards>
+</campaign>

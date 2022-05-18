@@ -1,0 +1,15 @@
+<part>
+	<id>fishing_pole</id>
+	<type>item</type>
+	<specialAbility id="fishing_pole">
+		<className>game.data.specialAbility.islands.survival.Survival2Fishing</className>
+		<useButton>true</useButton>
+		<validIslands>survival2</validIslands>
+		<parameters>
+			<param id="defaultLineLength">100</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,35 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2700</right>
+		<bottom>1085</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>2800</right>
+		<bottom>1080</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,items.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/timmy/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>2562</x>
+			<y>1080</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

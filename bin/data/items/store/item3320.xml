@@ -1,0 +1,48 @@
+<item id="3320">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>PUT ON</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Back Lot Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Clapboard</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to clap it!</web>
+			<mobile>Tap ACTION to clap it!</mobile>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<item>stor_clapboard</item>
+		</look>
+	</looks>
+	
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+</item>

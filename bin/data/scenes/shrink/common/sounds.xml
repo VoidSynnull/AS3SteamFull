@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="music">
+		<asset>Avenue_A.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorMainStreet">door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">Landing_Snow.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">Landing_AluminamSurface_02.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,152 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x00FF00" id="wood" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x660000" id="rock" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x66FFFF" id="sand" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0xFFFFCC" id="rubber" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x6666FF" id="pool" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit color="0xFF33FF" id="bounce1" platform="true">
+		<component type="bounce">
+					<velocity>
+						<x>0</x>
+						<y>-400</y>
+					</velocity>
+				</component>
+	</hit>
+	
+	<hit color="0xFF0000" id="bounce2" platform="true">
+			<component type="bounce">
+						<velocity>
+							<x>0</x>
+							<y>-1000</y>
+						</velocity>
+					</component>
+		</hit>
+	<hit color="0x9900FF" id="bounce3" platform="true">
+			<component type="bounce">
+						<velocity>
+							<x>0</x>
+							<y>-1600</y>
+						</velocity>
+					</component>
+		</hit>
+	<hit color="0x6699FF" id="bounce4" platform="true">
+			<component type="bounce">
+						<velocity>
+							<x>0</x>
+							<y>-1200</y>
+						</velocity>
+					</component>
+		</hit>
+	
+	<hit color="0xFF6600" id="wall">
+		<component type="wall"/>
+	</hit>
+	<hit color="0xFFFF00" id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0x41B6E1</splashColor1>
+			<splashColor2>0x4DCBDE</splashColor2>
+			<density>1</density>
+			<viscosity>.96</viscosity>
+		</component>
+	</hit>
+	
+	<hit id="croc1Hazard">
+		<component type="hazard">
+ 			<visible>croc1</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc2Hazard">
+		<component type="hazard">
+ 			<visible>croc2</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc3Hazard">
+		<component type="hazard">
+ 			<visible>croc3</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc4Hazard">
+		<component type="hazard">
+ 			<visible>croc4</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc5Hazard">
+		<component type="hazard">
+ 			<visible>croc5</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<!--<hit id="croc6Hazard">
+		<component type="hazard">
+ 			<visible>croc6</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>-->
+	<hit id="croc7Hazard">
+		<component type="hazard">
+ 			<visible>croc7</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc8Hazard">
+		<component type="hazard">
+ 			<visible>croc8</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc9Hazard">
+		<component type="hazard">
+ 			<visible>croc9</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

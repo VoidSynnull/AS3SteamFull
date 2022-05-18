@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" fade="true">Twisted_Old_Forest.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="leaves">ls_leaves_01.mp3,ls_leaves_02.mp3</asset>
+		<asset id="metal">ls_heavy_metal_01.mp3,ls_heavy_metal_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="leaves">fs_leaves_01.mp3,fs_leaves_02.mp3,fs_leaves_03.mp3,fs_leaves_04.mp3</asset>
+		<asset id="metal">fs_heavy_metal_01.mp3,fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3,fs_heavy_metal_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="pick_shroom" exlusiveType="true">squish_09.mp3</asset>
+		<asset triggeredByEvent="dan_show_tail" exlusiveType="true">poof_01.mp3</asset>
+		<asset triggeredByEvent="dan_show_horns" exlusiveType="true">poof_01.mp3</asset>
+		<asset triggeredByEvent="dan_drink_potion" exlusiveType="true">drink_soda_01.mp3</asset>
+	</sound>
+</sounds>

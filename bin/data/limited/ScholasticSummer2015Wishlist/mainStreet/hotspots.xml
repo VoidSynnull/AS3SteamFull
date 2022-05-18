@@ -1,0 +1,16 @@
+<hotspots>
+	<hotspot id="btnGetCards" type="poster">
+		<action type="giveItemMale">2675,2674</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">2675,2674</action> <!-- To award an item card to a girl -->
+		<action type="suppressSponsorClick">true</action> <!-- Prevent awarding of card to end with sponsor link click -->
+		<action type="autoOpenPopupClass">game.scenes.custom.WishlistPopup</action>
+		<action type="autoOpenPopupFile">ScholasticSummer2015Wishlist/wishlist.swf</action>
+		<action type="autoOpenPopupClickURL">http://tombquest.scholastic.com/?eml=TRADE/eb/20150602/Poptropica/banner/MultiplatformSummerReading/Wishlist/PlayGames/////</action>
+		<action type="autoOpenPopupSaveToggleButtons">true</action>
+		<action type="autoOpenPopupTrackToggleButtons">true</action>
+		
+	</hotspot>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+</hotspots>

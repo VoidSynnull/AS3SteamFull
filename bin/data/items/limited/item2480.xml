@@ -1,0 +1,67 @@
+<item id="2480"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Girl Wrestler Costume Card</name> <!-- Change this card name -->
+  	<campaignID>CapriSunQ4Quest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Girl Wrestler Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Girl Wrestler Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="adtitle">
+			<value>Gymnast Outfit</value> <!-- Change this title -->
+			<y>-193</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="copyright">
+			<value></value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundCapriSun.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+    	<asset id="cardContent" /><!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+	    	<skinColor>0xD2AA72</skinColor>
+			<hairColor>0x72472B</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>ad_caprisun2013_wrest</marks>
+			<hair>skullchinamerch</hair>
+			<overshirt>ad_caprisun2013_wrest</overshirt>
+		</look>
+	</looks> 
+    
+</item>

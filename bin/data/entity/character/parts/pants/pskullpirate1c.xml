@@ -1,0 +1,24 @@
+<part>
+	<id>pskullpirate1c</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>leg1</part>
+		<part>foot1</part>
+	</hide>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x42498A</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+			<clip instanceName="pegLeg.colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

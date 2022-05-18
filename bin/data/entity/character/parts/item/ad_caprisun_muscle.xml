@@ -1,0 +1,24 @@
+<part>
+	<id>ad_caprisun2013_flip</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2483</campaignID>
+	<retrieveColors>
+		<part id="skinColor"/>
+  	</retrieveColors>
+  	<colors>
+	  	<color id="skinColor"/>
+  	</colors>
+  	<colorables>
+		<colorable id="skinColor" darken=".15">
+		 	<clip instanceName="muscleAnim.muscle.colorFill"/>
+		</colorable>
+  	</colorables>
+  	<!--
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	-->
+  	
+</part>

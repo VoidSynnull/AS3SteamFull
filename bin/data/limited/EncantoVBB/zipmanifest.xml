@@ -1,0 +1,60 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/EncantoVBB/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/EncantoVBB/" ext="xml">
+		<asset>custom</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>npcs</asset>
+		<asset>dialog</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/EncantoVBB/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_capybara</asset>
+	</data>
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2084</asset>
+		<asset>2085</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2084</asset>
+		<asset>2085</asset>
+	</assets>
+	<assets type="support" path="assets/limited/EncantoVBB/" ext="swf">
+		<asset>Antonio</asset>
+		<asset>flowers</asset>
+		<asset>flowers_thrown</asset>
+		<asset>Mirabel</asset>
+	</assets>
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>magic_chimes_1_second</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_capybara</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_capybara</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_encanto_flower</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_encanto_flower</asset>
+	</assets>
+</manifest>

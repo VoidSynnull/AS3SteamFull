@@ -1,0 +1,115 @@
+<dialogs>
+	<character id="npc">
+		<statement link="intro">Hi there!</statement>
+		<statement id="intro" link="poseQuestion">Do you like my shirt?</statement>
+		<conversation id="poseQuestion">
+			<exchange>
+				<!-- this question triggers the 'angryNpc' event AND saves it -->
+				<question triggerEvent="triggerEvent" triggerEventArgs="angryNpc,true">I find it pretentious</question>
+				<answer>I hate you!</answer>
+			</exchange>
+			<exchange>
+				<!-- this question triggers the 'happyNpc' event but does NOT save it. -->
+				<question triggerEvent="triggerEvent" triggerEventArgs="happyNpc">Why yes, it's quite fetching.</question>
+				<answer>Thanks!</answer>
+			</exchange>
+		</conversation>
+		
+		<!-- these statements are activated by events triggered by the answers above -->
+		<statement event="happyNpc">I'm so happy I could scream!</statement>
+		<statement event="angryNpc">You really ruined my day.</statement>
+    </character>
+	
+	<character id="npc2">
+		<!-- this statement does a triggerEvent which gives the user the crowbar. -->
+		<statement triggerEvent="giveItem" triggerEventArgs="crowbar" link="giveFollowup">Take this!</statement>
+		<statement id="giveFollowup">I'm sure it will come in handy!</statement>
+		
+		<!-- this statement is triggered by having the crowbar -->
+		<statement event="hasItem_crowbar">Hey, that crowbar looks awesome!</statement>
+    </character>
+    
+    <character id="npc3">
+		<!-- this statement does a triggerEvent which takes the crowbar from the user IF they have it.  NOTE - there is no animation for giving an item yet. -->
+		<statement event="hasItem_crowbar" triggerEvent="takeItem" triggerEventArgs="crowbar, npc3">Let me take that crowbar off your hands.</statement>
+		
+		<!-- this statement occurs if they've gotten the crowbar but don't have it in their inventory right now. -->
+		<statement event="gotItem_crowbar">I wish I had another crowbar.  You can never have enough!</statement>
+		
+		<!-- this is the default state of this npc. -->
+		<statement>I wish I had a crowbar... they're so cool!</statement>
+		<statement triggeredByEvent="wizTest">This is a test....</statement>
+    </character>
+    
+    <!-- this example triggers events that are then handled in the scene. -->
+    <character id="wizard">
+		<statement link="chooseWisely">Hi there!  I can change your size!</statement>
+		<statement id="wizardReply" linkEntityId="onlooker" link="replyToWizard">Indeed I can, my friend.</statement>
+		<conversation id="chooseWisely">
+			<exchange>
+				<question>I want to be big!</question>
+				<!-- this answer triggers the 'playerBig' event that is handled in the ComplexDialog scene. -->
+				<answer id="aBigAnswer" triggerEvent="triggerEvent" triggerEventArgs="playerBig">Prepare thyself!</answer>
+			</exchange>
+			<exchange>
+				<question>I want to be small!</question>
+				<!-- this answer triggers the 'playerSmall' event that is handled in the ComplexDialog scene. -->
+				<answer triggerEvent="triggerEvent" triggerEventArgs="playerSmall">If you say so.</answer>
+			</exchange>
+			<exchange>
+				<question>I want to be normal!</question>
+				<!-- this answer triggers the 'playerNormal' event that is handled in the ComplexDialog scene. -->
+				<answer triggerEvent="triggerEvent" triggerEventArgs="playerNormal">Suit yourself.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <!-- this characters dialog changes based on events triggered by the wizard above. -->
+    <character id="onlooker">
+    	<statement event="playerBig">Akkk!  Don't hurt me you giant lummox!</statement>
+    	<statement event="playerSmall">Hah!  I could crush you if I so choose!</statement>
+		<statement event="playerNormal">I see you dabble in the dark art of size-changing.</statement>
+		<statement link="wizardReply" linkEntityId="wizard">I've heard tell that handsome blue-haired fellow over there can change your size!</statement>
+		<statement id="replyToWizard">He's also quite nosy.</statement>
+    </character>
+    
+    <character id="customDialog">
+    	<statement triggeredByEvent="customDialogEvent">Hello friends!</statement>
+		<statement>Don't hate me because I'm beautiful.</statement>
+    </character>
+    
+    <character id="highGuy">
+		<conversation>
+			<exchange>
+				<question>How did you get up here?</question>
+				<answer>It took some careful jumps and daring do, but nothing I can't handle.</answer>
+			</exchange>
+			<exchange>
+				<question>Wow, I wish I was more like you...living on the edge like that sounds awesome.</question>
+				<answer>It is, bro.</answer>
+			</exchange>
+			<exchange>
+				<question>Any advice for a super-hero in training?</question>
+				<answer link="highguyResponse" linkEntityId="player">Just remember this : 'The obstacle is the path.'</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="player">
+    	<statement id="highguyResponse">Whoa...dude.</statement>
+    </character>
+    
+    <!-- This character will pick a random statement from the list when clicked. -->
+    <character id="randomDude">
+    	<randomSet>
+	    	<statement>Beautiful day, isn't it?</statement>
+	    	<statement>Not a cloud in the sky.</statement>
+	    	<statement>Yep, doesn't get much better than this.</statement>
+    	</randomSet>
+    	<randomSet event="randomSad">
+	    	<statement>Ugh, I hate the fog.</statement>
+	    	<statement>What's the point?</statement>
+	    	<statement>I can't go on like this...</statement>
+    	</randomSet>
+    </character>
+</dialogs>

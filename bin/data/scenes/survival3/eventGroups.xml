@@ -1,0 +1,15 @@
+<groups>
+	<group event="seesaw_1_loose" triggerAndSave="true">
+		<and>
+			<event type="removed_bracket_1"/>
+			<event type="removed_bracket_2"/>
+		</and>
+	</group>
+	
+	<group event="seesaw_2_loose" triggerAndSave="true">
+		<and>
+			<event type="removed_bracket_3"/>
+			<event type="removed_bracket_4"/>
+		</and>
+	</group>
+</groups>

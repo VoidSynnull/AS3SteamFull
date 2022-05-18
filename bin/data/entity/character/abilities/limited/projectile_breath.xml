@@ -1,0 +1,14 @@
+<specialAbility id="limited/projectile_breath">
+	<className>game.data.specialAbility.character.ProjectileBreath</className>
+	<parameters>
+		<param id="xOffset">18</param>
+		<param id="yOffset">-22</param>
+		<param id="startColor1">0xFFFF9900</param>
+		<param id="endColor1">0x00330000</param>
+		<param id="charredColor1">0x00000000</param>
+		<param id="startColor2">0xFF00FFFF</param>
+		<param id="endColor2">0x00000033</param>
+		<param id="charredColor2">0xFF00CCFF</param>
+	</parameters>
+	<triggerable>true</triggerable>
+</specialAbility>

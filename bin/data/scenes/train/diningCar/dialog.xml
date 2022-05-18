@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="porter">
+		<conversation>
+			<exchange>
+				<question>Are you the porter?</question>
+				<answer>Yes. Let me know if I can do anything for you.</answer>
+			</exchange>
+		</conversation>
+	</character>
+
+	<character id="anthony" event="setAnthonyInDiningCar">
+		<!--  clue logic  -->
+	</character>
+</dialogs>

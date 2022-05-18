@@ -1,0 +1,16 @@
+<doors>
+	<door id="exit">
+		<scene>game.scenes.tutorial.tutorial2.Tutorial2</scene>
+		<x>212</x>
+		<y>538</y>
+		<direction>right</direction>
+		<label>
+			<text>Exit</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

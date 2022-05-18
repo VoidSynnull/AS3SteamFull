@@ -1,0 +1,36 @@
+<item id="3026">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+		<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+					<action type="costumize"/>
+				</actions>
+			</btn>
+		</buttons>
+		
+	<textfields>
+			<text id="storeTitle">
+					<value>Large Fry</value>
+	 	 	</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+ 	</assets>
+		
+	<looks>
+		<look>
+			<marks>pFries</marks>
+			<pants>1</pants>
+		</look>
+	</looks>
+</item>

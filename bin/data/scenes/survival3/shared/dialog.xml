@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="player">
+		<statement id="get_hat">There must be a way to get that out of there.</statement>
+		<statement id="clickradio">A radio! That could be my ticket out of here!</statement>
+		<statement id="get_radio">I need to find a way to get that radio!</statement>
+		<statement id="gotradio">The radio looks intact, but there's no power source.</statement>
+		<statement triggeredByEvent="use_cork">This isn't the right tool for the job.</statement>
+		<statement id="no_use">This isn't the right tool for the job.</statement>
+		<statement id="not_here">I should wait until the crate is higher.</statement>
+		<statement id="on_tight">It's screwed on tight.</statement>
+		<statement id="crate_sealed">It's sealed tight!</statement>
+		<statement id="mayday">Mayday! Mayday! I need rescue!</statement>
+		<statement id="thanks">Thank you! Who is this?</statement>
+		<statement id="mvb">Myron Van Buren... MVB?</statement>
+		<statement id="radio_wrong">I'm not getting a strong enough signal here!</statement>
+		<statement id="cut_tree">This looks like it could be cut with the right tool.</statement>
+	</character>
+</dialogs>

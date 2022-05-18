@@ -1,0 +1,17 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13000</winDistance>
+	<chaseDistance>400</chaseDistance>
+	<npcSpeed>300</npcSpeed>
+	<winNPCPhrase npc="lancelot" delay="0">I'll get the beast!</winNPCPhrase> <!-- Optional -->
+	<winNPCAction npc="lancelot" delay="0" param="12500,660">run</winNPCAction> <!-- Optional -->
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms> <!-- Optional -->
+	<npcIgnorePlatforms>lancelot</npcIgnorePlatforms> <!-- Optional -->
+	<chaserIgnoreWalls>true</chaserIgnoreWalls> <!-- Optional -->
+	<npcIgnoreWalls>lancelot</npcIgnoreWalls> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>dino</chaserPrefix>
+	<returnX>3100</returnX>
+	<returnY>1110</returnY>
+	<item>limited_natm3_tablet</item>
+</game>

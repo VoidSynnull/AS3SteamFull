@@ -1,0 +1,15 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" baseVolume="0.8">arab1_main_theme_b.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

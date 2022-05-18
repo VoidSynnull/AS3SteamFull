@@ -1,0 +1,119 @@
+<obstacles>
+	<!-- list obstacles types here: moving, static, boost, slick, or placement -->
+	<!-- each must have baseName and type -->
+	<!-- obstacles are grouped with attributes for all enclosed items -->	
+	<!-- attributes for individual items will override group attributes -->	
+	<!-- all item names must end with integer and match instance names in the FLA file -->
+	<obstacle baseName="power" type="boost" boostSpeed="500" boostTime="2.0" >
+		<item name="power1" points="200"/>
+	</obstacle>
+	<obstacle baseName="asteroid" type="obstacle" hitSpeed="-300" hitTime="2" hp="1">
+		<item name="asteroid1" points="100"/>
+		<item name="asteroid2" points="150"/>
+		<item name="asteroid3" points="150"/>
+		<item name="asteroid4" points="150"/>
+	</obstacle>
+
+	<!-- list obstacles positions here in any order -->
+	<!-- each must have name, x, and y -->
+	<!-- names without numbers will sequentially pull from matching names above -->
+	
+	<position name="asteroid" x="200" y="25000"/>
+	<position name="asteroid" x="650" y="24750"/>
+	<position name="asteroid" x="500" y="24500"/>
+	<position name="asteroid" x="350" y="24250"/>
+	<position name="asteroid" x="500" y="24000"/>
+	<position name="asteroid" x="650" y="23750"/>
+	<position name="asteroid" x="200" y="23500"/>
+	<position name="asteroid" x="800" y="23250"/>
+	<position name="asteroid" x="350" y="23000"/>
+	<position name="asteroid" x="500" y="22750"/>
+	<position name="asteroid" x="350" y="22500"/>
+	<position name="asteroid" x="800" y="22250"/>
+	<position name="asteroid" x="200" y="22000"/>
+	<position name="asteroid" x="350" y="21750"/>
+	<position name="asteroid" x="500" y="21500"/>
+	<position name="asteroid" x="800" y="21250"/>
+	<position name="asteroid" x="200" y="21000"/>
+	<position name="asteroid" x="650" y="20750"/>
+	<position name="asteroid" x="350" y="20500"/>
+	<position name="asteroid" x="800" y="20250"/>
+	<position name="asteroid" x="500" y="20000"/>
+	<position name="asteroid" x="200" y="19750"/>
+	<position name="asteroid" x="350" y="19500"/>
+	<position name="asteroid" x="500" y="19250"/>
+	<position name="asteroid" x="350" y="19000"/>
+	<position name="asteroid" x="800" y="18750"/>
+	<position name="asteroid" x="650" y="18500"/>
+	<position name="asteroid" x="350" y="18250"/>
+	<position name="asteroid" x="800" y="18000"/>
+	<position name="asteroid" x="200" y="17750"/>
+	<position name="asteroid" x="350" y="17500"/>
+	<position name="asteroid" x="500" y="17250"/>
+	<position name="power1" x="650" y="17000"/>
+	<position name="asteroid" x="800" y="16750"/>
+	<position name="asteroid" x="650" y="16500"/>
+	<position name="asteroid" x="350" y="16250"/>
+	<position name="asteroid" x="500" y="16000"/>
+	<position name="asteroid" x="200" y="15750"/>
+	<position name="asteroid" x="650" y="15500"/>
+	<position name="asteroid" x="200" y="15250"/>
+	<position name="asteroid" x="350" y="15000"/>
+	<position name="asteroid" x="500" y="14750"/>
+	<position name="asteroid" x="350" y="14500"/>
+	<position name="asteroid" x="800" y="14250"/>
+	<position name="asteroid" x="200" y="14000"/>
+	<position name="asteroid" x="350" y="13750"/>
+	<position name="asteroid" x="500" y="13500"/>
+	<position name="asteroid" x="800" y="13250"/>
+	<position name="asteroid" x="200" y="13000"/>
+	<position name="asteroid" x="350" y="12750"/>
+	<position name="asteroid" x="350" y="12500"/>
+	<position name="asteroid" x="800" y="12250"/>
+	<position name="asteroid" x="200" y="12000"/>
+	<position name="asteroid" x="500" y="11750"/>
+	<position name="asteroid" x="350" y="11500"/>
+	<position name="asteroid" x="800" y="11250"/>
+	<position name="asteroid" x="350" y="11000"/>
+	<position name="asteroid" x="650" y="10750"/>
+	<position name="asteroid" x="350" y="10500"/>
+	<position name="asteroid" x="200" y="10250"/>
+	<position name="power1" x="500" y="10000"/>
+	<position name="asteroid" x="650" y="9750"/>
+	<position name="asteroid" x="350" y="9500"/>
+	<position name="asteroid" x="500" y="9250"/>
+	<position name="asteroid" x="200" y="9000"/>
+	<position name="asteroid" x="800" y="8750"/>
+	<position name="asteroid" x="650" y="8500"/>
+	<position name="asteroid" x="350" y="8250"/>
+	<position name="asteroid" x="500" y="8000"/>
+	<position name="asteroid" x="200" y="7750"/>
+	<position name="asteroid" x="650" y="7500"/>
+	<position name="asteroid" x="200" y="7250"/>
+	<position name="asteroid" x="350" y="7000"/>
+	<position name="asteroid" x="500" y="6750"/>
+	<position name="asteroid" x="350" y="6500"/>
+	<position name="asteroid" x="800" y="6250"/>
+	<position name="asteroid" x="200" y="6000"/>
+	<position name="asteroid" x="350" y="5750"/>
+	<position name="asteroid" x="500" y="5500"/>
+	<position name="asteroid" x="800" y="5250"/>
+	<position name="asteroid" x="200" y="5000"/>
+	<position name="asteroid" x="350" y="4750"/>
+	<position name="asteroid" x="350" y="4500"/>
+	<position name="asteroid" x="800" y="4250"/>
+	<position name="asteroid" x="500" y="4000"/>
+	<position name="asteroid" x="200" y="3750"/>
+	<position name="asteroid" x="350" y="3500"/>
+	<position name="asteroid" x="500" y="3250"/>
+	<position name="asteroid" x="350" y="3000"/>
+	<position name="asteroid" x="650" y="2750"/>
+	<position name="asteroid" x="350" y="2500"/>
+	<position name="asteroid" x="200" y="2250"/>
+	<position name="asteroid" x="800" y="2000"/>
+	<position name="asteroid" x="650" y="1750"/>
+	<position name="asteroid" x="350" y="1500"/>
+	<position name="asteroid" x="500" y="1250"/>
+	<position name="asteroid" x="200" y="750"/>
+	<position name="asteroid" x="800" y="250"/>
+</obstacles>

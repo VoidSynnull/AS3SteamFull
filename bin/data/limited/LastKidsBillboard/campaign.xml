@@ -1,0 +1,9 @@
+<!-- set "Click through URL" field in CMS to campaign.xml if billboard awards cards -->
+<campaign>
+  	<campaignId>LastKidsBillboard</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths (don't change) -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.penguinrandomhouse.com/books/548123/the-last-kids-on-earth-and-the-nightmare-king-by-max-brallier-illustrated-by-douglas-holgate/9780425288719/?ref=PRHB0C9735396&aid=randohouseinc49200-20&linkid=PRHB0C9735396</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+</campaign>

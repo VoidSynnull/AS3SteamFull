@@ -1,0 +1,13 @@
+<tracking>
+	<track id="npcLegoCityVC">
+		<event>EngagedOutsideNPC</event>
+		<choice>Lego NPC</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="posterLegoCityVC">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

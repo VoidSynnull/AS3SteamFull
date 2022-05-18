@@ -1,0 +1,20 @@
+<part>
+	<id>lands_construction_vest</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>shirt</part>
+	</hide>
+	<colors>
+		<color id="color1">0x204a80</color>
+		<color id="color2">0x204a80</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

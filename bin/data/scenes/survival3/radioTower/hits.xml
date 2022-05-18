@@ -1,0 +1,99 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="snow" color="0xDCF7F5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0xC1B7A2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="towerPlatforms" color="0xD29D9D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concrete" color="0xBFC1B7" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="machinery" color="0xBACBB7" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xD2CFBE" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ladder" color="0xC2BAB1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="breakLadder2" color="0x990000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="breakLadder1" color="0xCC0000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pipes" color="0xE2DBC5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dropLadder" color="0xB8B3B1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce0" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce1" color="0xff0033" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0xff0066" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+
+	<hit id="seesaw1">
+		<component type="movingPlatform">
+			<visible>tiltFloor1</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+	<hit id="seesaw2">
+		<component type="movingPlatform">
+			<visible>tiltFloor2</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+	<hit id="leftPlatform">
+		<component type="movingPlatform">
+			<visible>pulleyFloorLeft</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+	<hit id="rightPlatform">
+		<component type="movingPlatform">
+			<visible>pulleyFloorRight</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+</hits>

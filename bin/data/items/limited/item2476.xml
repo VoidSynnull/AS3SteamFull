@@ -1,0 +1,75 @@
+﻿<item id="2476"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Steven Universe Outfit Card</name> <!-- Change this card name -->
+  	<campaignID>StevenUniverseQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Steven Universe Outfit Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Steven Universe Outfit Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Steven Universe</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Steven Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="copyright">
+			<value></value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundStevenUniverse.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /><!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xffb2a2</skinColor>
+			<hairColor>0x260f08</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsor_stevuni</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sponsor_stevuni</marks>
+			<facial>sponsor_stevuni</facial>
+			<hair>sponsor_stevuni</hair>
+			<shirt>sponsor_stevunib</shirt>
+			<pants>sponsor_stevuni</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</look>
+	</looks> 
+    
+</item>

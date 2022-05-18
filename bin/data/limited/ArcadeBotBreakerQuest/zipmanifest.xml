@@ -1,0 +1,283 @@
+<manifest>
+	<!-- AmericanGirl xml files -->
+	<data type="campaign" path="data/limited/AmericanGirlQuest/" ext="xml">
+		<asset>MusicGame</asset>
+		<asset>zipmanifest</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="support" path="data/languages/en/islands/americanGirl/" ext="xml">
+		<asset>language</asset>
+	</data>
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/americanGirl/mainStreet/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/ArcadeBotBreakerQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>obstacles</asset>
+	</data>	
+		<data type="interior" path="data/scenes/limited/ArcadeStarShooterQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>encounters</asset>
+	</data>	
+	<assets type="interior" path="assets/scenes/limited/ArcadeBotBreakerQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/ArcadeStarShooterQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/limited/ArcadeStarShooterQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Lose</asset>
+		<asset>Win</asset>
+		<asset>amo1</asset>
+	</assets>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/americanGirl/mainStreet/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>backdrop</asset>
+	</assets>
+		
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyTheater/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyShop/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyElectronics/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/AmericanGirlQuest_InteriorCourtneyArcade/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+		<data type="game" path="data/scenes/limited/AmericanGirlQuest_GameSurf/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyTheater/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyShop/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyElectronics/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="interior" path="assets/scenes/limited/AmericanGirlQuest_InteriorCourtneyArcade/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		<assets type="game" path="assets/scenes/limited/AmericanGirlQuest_GameSurf/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/AmericanGirlVBB/" ext="swf">
+		<asset>Brooklyn</asset>
+		<asset>Joss</asset>
+		<asset>Lauren</asset>
+		<asset>Mila</asset>
+		<asset>Reina</asset>
+		<asset>Sophia</asset>
+		<asset>interactive</asset>
+		<asset>background</asset>
+	</assets>
+	<assets type="support" path="assets/limited/AmericanGirlQuest/" ext="swf">
+		<asset>Kip</asset>
+		<asset>Rafi</asset>
+		<asset>Sarah</asset>
+		<asset>Tina</asset>
+		<asset>Courtney</asset>
+		<asset>p6</asset>
+		<asset>p5</asset>
+		<asset>p4</asset>
+		<asset>p3</asset>
+		<asset>p2</asset>
+		<asset>p1</asset>
+		<asset>Info</asset>
+		<asset>Info2</asset>
+	</assets>
+		<assets type="support" path="assets/limited/ArcadeBotBreakerQuest/" ext="swf">
+		<asset>Choose</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Start</asset>
+	</assets>
+		<assets type="support" path="assets/scavengerHuntItems/" ext="swf">
+		<asset>americangirl_comic</asset>
+		<asset>americangirl_walkman</asset>
+		<asset>americangirl_carebear</asset>
+		<asset>americangirl_parsley</asset>
+		<asset>americangirl_80soutfit</asset>
+		<asset>americangirl_cootie</asset>
+	</assets>
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<card>2019</card>
+		<card>2020</card>
+		<card>2021</card>
+		<card>2022</card>
+		<card>2023</card>
+		<card>2024</card>
+		<card>2025</card>
+		<card>2026</card>
+		<card>2017</card>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>AmericanGirl_Fun_Games</asset>
+		<asset>galactic_hot_dogs_main_theme</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>points_ping_01b</asset>
+		<asset>clap2</asset>
+		<asset>laser_lsw</asset>
+	</assets>
+
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_americangirl_surfprize</asset>
+		<asset>limited_courtneyprize</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_americangirl_surfprize</asset>
+		<asset>limited_courtneyprize</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_americangirl_hoodie</asset>
+		<asset>limited_americangirl_shirt</asset>
+		<asset>limited_americangirl_jacket</asset>
+		<asset>limited_courtneyoutfit</asset>
+		<asset>sponsor_rick</asset>
+		<asset>limited_courtneyprize</asset>
+		<asset>gtent</asset>
+
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_americangirl_hoodie</asset>
+		<asset>limited_americangirl_shirt</asset>
+		<asset>limited_americangirl_jacket</asset>
+		<asset>limited_courtneyoutfit</asset>
+		<asset>sponsor_rick</asset>
+		<asset>limited_courtneyprize</asset>
+		<asset>gtent</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_americangirl_bag</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_americangirl_bag</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_milkpep_kid2</asset>
+		<asset>limited_sealpup</asset>
+		<asset>bl_critic02</asset>
+		<asset>bopbop</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_milkpep_kid2</asset>
+		<asset>limited_sealpup</asset>
+		<asset>bl_critic02</asset>
+		<asset>bopbop</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</assets>
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>sponsorheatherg</asset>
+		<asset>hashimoto</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>sponsorheatherg</asset>
+		<asset>hashimoto</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_courtneyoutfit</asset>
+		<asset>limited_courtneyprize</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_courtneyoutfit</asset>
+		<asset>limited_courtneyprize</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>prockerguy2</asset>
+		<asset>limited_courtneyprize</asset>
+		<asset>limited_walkman</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>prockerguy2</asset>
+		<asset>limited_courtneyprize</asset>
+		<asset>limited_walkman</asset>
+	</assets>
+		<data type="overpants" path="data/entity/character/parts/overpants/" ext="xml">
+		<asset>limited_courtneyprize</asset>
+		<asset>limited_walkman</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" ext="swf">
+		<asset>limited_courtneyprize</asset>
+		<asset>limited_walkman</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="Sherlock">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="start">Hello, Watson.</statement>
+		<statement id="init" triggerEvent="triggerEvent" triggerEventArgs="start">Hello Watson.</statement>
+		<statement id="quest">That's entirely beside the point, Watson. We have a mystery to solve. Lots of gnomes have turned up missing. Don't dilly dally! Go find them!</statement>
+	</character>
+	<character id="player">
+		<statement id="init">My name's not Watson.</statement>
+	</character>
+	<character id="Gnomeo">
+		<statement>Help Sherlock to solve the mystery of the missing gnomes.</statement>
+	</character>
+	<character id="Juliet">
+		<statement>Watch our video trailer. It's perfect.</statement>
+	</character>
+</dialogs>

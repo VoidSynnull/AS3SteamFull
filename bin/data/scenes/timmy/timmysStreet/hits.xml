@@ -1,0 +1,34 @@
+<hits>
+	<hit id="roof" color="0xFFCC66" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ground" color="0xFF3366" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lightPole" color="0x669966" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x993333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="broke_window" color="0xcc9966" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="car" color="0xcc3366" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="chimney" color="0x666666" platform="true">
+		<component type="platform"/>		
+	</hit>
+	<hit id="trashBounce" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

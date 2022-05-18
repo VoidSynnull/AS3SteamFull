@@ -1,0 +1,75 @@
+<dialogs>
+	<character id="sasha">
+		<conversation>
+			<exchange>
+				<question>Excuse me, are you Sasha Capone?</question>
+				<answer>I may be. Who's asking?</answer>
+			</exchange>
+			<exchange>
+				<question>Someone in the market for a picture of Omegon. I heard you have one.</question>
+				<answer>You heard right, kemosabe. What will you give me for it?</answer>
+			</exchange>
+			<exchange>
+				<question>I could maybe scrounge up some loose change...</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="sasha_card, sasha">When you've got a real offer, call me. Here's my card.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="preview" triggerEvent="triggerEvent" triggerEventArgs="sasha_left_lobby, true">The closed-door preview is starting now? I'll be there!</statement>
+		<statement id="okay" triggerEvent="triggerEvent" triggerEventArgs="phone_in_box, true">Okay, here you go.</statement>
+    </character>
+    
+    <character id="player">
+   		<statement id="noSignal">No signal!</statement>
+   		<statement id="noPhone">Can't call someone without a phone!</statement>
+   		<statement id="gotPhoto">Got it! I'll just text myself this photo.</statement>
+   		<statement id="noTouch">I don't know which phone is sasha's.</statement>
+   		<statement id="noTouch2">I already have the photo from her phone.</statement>
+   		<statement id="noTouch3">Full of cell phones, who would have guessed?</statement>
+   		<statement id="okaythen">Wow, some people really get into their characters...</statement>
+   	</character>
+   	
+    <character id="guard">
+   		<statement id="phonePlease" link="okay" linkEntityId="sasha">Place your phone in the bin before you go in.</statement>
+   		<statement id="noEntry">Hey! Press members only, move along.</statement>
+   		<statement id="guardNoSignal">I get no service. No service, I tell you. Lousy network!</statement>
+   		<statement id="whatSignal">Hey, someone's network is getting service here, amazing!</statement>
+   		<statement>Brand new Tech Lounge down the hall, but i'm stuck here by this bin with no service!</statement>
+    </character>
+    
+    <character id="wizard">
+   		<statement >My drink got stuck! I hate these machines!</statement>
+   		<statement id="soda">That's not my soda!</statement>
+   		<statement event="tipped_soda_machine">The machine's still not working!</statement>
+   	</character>
+   	
+   	<character id="computer">
+   		<statement >This is the only place in this whole building I get a connection!</statement>
+   	</character>
+   	
+   	<character id="pinataMan">
+   		<statement id="pin0" link="okaythen" linkEntityId="player">Pinata-Man is ever vigilant!</statement>
+   		<statement id="pin1" link="okaythen" linkEntityId="player">Nothing escapes Pinata-Man's gaze.</statement>
+   		<statement id="pin2" link="okaythen" linkEntityId="player">Worry not citizen, Pinata-man is here!</statement>
+   	</character>
+   	
+   	<character id="card2">
+
+   		<statement event="starter_deck" link="question">A fellow Mighty Action Force fan? Want to play?</statement>
+   		<statement link="action">Have you heard about the Mighty Action Force Trading Card Game? its great!</statement>
+   		<statement id="action">They are giving out free starter decks in the demo hall, you should try it!</statement>
+   		
+   		<statement triggeredByEvent="lose">Better luck next time.</statement>
+   		<statement triggeredByEvent="win">I can't believe I lost!</statement>
+
+   		<conversation id="question">
+			<exchange>
+				<question>Sure.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="play_card2">Lets play!</answer>
+			</exchange>
+			<exchange>
+				<question>No thanks.</question>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

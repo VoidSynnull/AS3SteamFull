@@ -1,0 +1,16 @@
+<events>
+<group type="triggered" id="loadPacifica">
+	<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadScene</param2>
+			<param3 id="target">MoanaQuest_InteriorPacifica</param3>
+		</event>
+	</group>	
+	<group type="triggered" id="loadFabled">
+	<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadScene</param2>
+			<param3 id="target">MoanaQuest_InteriorFabled</param3>
+		</event>
+	</group>
+</events>

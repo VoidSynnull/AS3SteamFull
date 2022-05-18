@@ -1,0 +1,29 @@
+<part>
+	<id>limited_benfranklin_sammich</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2707</campaignID>
+	<specialAbility>
+		<triggerable>false</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.DropExternalAsset</param> 
+						<param id="part" type="string">item</param>
+						<param id="startColor" type="number">-1</param> 
+						<param id="endColor" type="number">-1</param> 
+						<param id="offsetX" type="number">-10</param>
+						<param id="offsetY" type="number">40</param>
+						<param id="filePath" type="string">assets/particles/jelly.swf</param>
+						<param id="scale" type="number">0.5</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

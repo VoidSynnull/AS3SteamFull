@@ -1,0 +1,23 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="computer" color="0xB4D2CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	
+	<hit id="hazHit">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>400</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

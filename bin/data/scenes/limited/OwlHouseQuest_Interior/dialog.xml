@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="luz">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="jerkrun">A big, ugly demon just flew off with my friend, King!</statement>
+	</character>
+	<character id="eda">
+		<statement id="doneJerkRun" triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Quick! Take my staff and fly fast!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Quick! Take my staff and fly fast!</statement>
+	</character>
+	
+</dialogs>

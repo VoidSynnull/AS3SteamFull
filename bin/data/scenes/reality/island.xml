@@ -1,0 +1,33 @@
+<island>
+	<name>Reality TV</name>
+	<eventsClass></eventsClass>
+	<gameVersion>AS2</gameVersion>
+	<island>reality</island>
+	
+	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+		<item id="medal_reality">1011</item>
+	</itemIdMap>
+	
+	<firstScene>
+		<scene>game.scenes.reality.mainStreet.MainStreet</scene>
+		<x>300</x>
+		<y>900</y>
+		<direction>right</direction>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</firstScene>
+	
+	<playerMap></playerMap>
+	<medallion>medal_reality</medallion>
+</island>

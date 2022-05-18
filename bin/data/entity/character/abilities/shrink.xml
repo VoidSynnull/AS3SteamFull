@@ -1,0 +1,15 @@
+<specialAbility id="shrink">
+	<type>scale</type>
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetScaleAction">
+				<parameters>
+					<param id="char" type="entity">[entity]</param> 
+					<param id="scale" type="number">0.15</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

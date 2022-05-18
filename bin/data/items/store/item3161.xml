@@ -1,0 +1,66 @@
+<item id="3161">
+	<type>store</type>
+	<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+		
+	<radiobuttons>
+		<btn>
+			<color>0xFF0000</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x009900</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x0066FF</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+ 	
+	<textfields>
+		<text id="storeTitle">
+				<value>Tangled in Lights</value>
+ 	 	</text>
+		<text id="storeInstructions">
+			<value>Plug yourself in and&#10;share some holiday cheer.</value>
+		</text>
+	</textfields>
+		
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<hair>ptanglednlights_boy</hair>
+			<shirt>ptangled_n_lights</shirt>
+			<pants>ptangled_n_lights</pants>
+			<overshirt>ptangled_n_lights</overshirt>
+		</look>
+		<look>
+			<hair>ptanglednlights_boy</hair>
+			<shirt>ptangled_n_lights</shirt>
+			<pants>ptangled_n_lights</pants>
+			<overshirt>ptangled_n_lights</overshirt>
+		</look>
+		<look>
+			<hair>ptanglednlights_boy</hair>
+			<shirt>ptangled_n_lights</shirt>
+			<pants>ptangled_n_lights</pants>
+			<overshirt>ptangled_n_lights</overshirt>
+		</look>
+	</looks> 
+</item>

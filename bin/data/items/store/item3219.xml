@@ -1,0 +1,29 @@
+<item id="3219">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3219.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Behold your sparkly powers!</value>
+		</text>
+		<text id="storeTitle">
+			<value>Sparkle Power</value>
+		</text>
+	</textfields>
+</item>

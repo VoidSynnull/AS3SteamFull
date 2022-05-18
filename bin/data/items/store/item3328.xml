@@ -1,0 +1,28 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3328.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>INFLATE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Dr. Hare's Lair</value>
+		</text>
+		<text id="storeTitle">
+			<value>Insignia Deluxe Balloon</value>
+		</text>
+	</textfields>
+</item>

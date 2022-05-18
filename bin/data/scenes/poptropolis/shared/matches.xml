@@ -1,0 +1,102 @@
+<matches>
+
+<matchType id="0">
+<eventString>archery</eventString>
+<nameString>Archer</nameString>
+<minScore>0</minScore>
+<maxScore>100</maxScore>
+<unitType>pts</unitType>
+</matchType>
+
+<matchType id="1">
+<eventString>diving</eventString>
+<nameString>Diving</nameString>
+<minScore>0</minScore>
+<maxScore>45</maxScore>
+<unitType>pts</unitType>
+<rounding>5</rounding>
+</matchType>
+
+<matchType id="2">
+<eventString>hurdles</eventString>
+<nameString>Hurdles</nameString>
+<minScore>29</minScore>
+<maxScore>36</maxScore>
+<unitType>sec</unitType>
+<invertScore>true</invertScore>
+<rounding>0.1</rounding>
+</matchType>
+
+<matchType id="3">
+<eventString>javelin</eventString>
+<nameString>Javelin</nameString>
+<minScore>0</minScore>
+<maxScore>180</maxScore>
+</matchType>
+
+<matchType id="4">
+<eventString>long_jump</eventString>
+<nameString>Long Jump</nameString>
+<minScore>0</minScore>
+<maxScore>115</maxScore>
+<rounding>0.1</rounding>
+</matchType>
+
+<matchType id="5">
+<eventString>pole_vault</eventString>
+<nameString>Pole Vault</nameString>
+<minScore>18</minScore>
+<maxScore>41</maxScore>
+<rounding>0.1</rounding>
+</matchType>
+
+<matchType id="6">
+<eventString>weight_lifting</eventString>
+<nameString>Power Lifting</nameString>
+<minScore>0</minScore>
+<maxScore>530</maxScore>
+<unitType>kg</unitType>
+</matchType>
+
+<matchType id="7">
+<eventString>shotput</eventString>
+<nameString>Shot Put</nameString>
+<minScore>0</minScore>
+<maxScore>126</maxScore>
+</matchType>
+
+<matchType id="8">
+<eventString>triple_jump</eventString>
+<nameString>Triple Jump</nameString>
+<minScore>30</minScore>
+<maxScore>105</maxScore>
+<rounding>0.1</rounding>
+</matchType>
+
+<matchType id="9">
+<eventString>skiing</eventString>
+<nameString>Volcano Race</nameString>
+<minScore>20</minScore>
+<maxScore>34</maxScore>
+<unitType>sec</unitType>
+<rounding>0.1</rounding>
+<invertScore>true</invertScore>
+</matchType>
+
+<matchType id="10">
+<eventString>volleyball</eventString>
+<nameString>Volleyball</nameString>
+<minScore>1</minScore>
+<maxScore>6</maxScore>
+<unitType>pts</unitType>
+</matchType>
+
+<matchType id="11">
+<eventString>wrestling</eventString>
+<nameString>Wrestling</nameString>
+<minScore>0</minScore>
+<maxScore>4</maxScore>
+<unitType>pts</unitType>
+</matchType>
+
+</matches>

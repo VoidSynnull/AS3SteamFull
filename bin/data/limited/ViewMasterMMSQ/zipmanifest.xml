@@ -1,0 +1,27 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/ViewMasterMMSQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/ViewMasterMMSQ/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/ViewMasterMMSQ/mainStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+</manifest>

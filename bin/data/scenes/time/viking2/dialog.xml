@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="player">
+		<statement id="wetTorch" triggerEvent="triggerEvent"  triggerEventArgs="killedTorch">text1</statement>
+		<statement id="burnout" triggerEvent="triggerEvent"  triggerEventArgs="killedTorch">text2</statement>
+    </character>
+</dialogs>

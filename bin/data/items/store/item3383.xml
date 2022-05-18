@@ -1,0 +1,37 @@
+<item id="3383">
+	<type>store</type>
+	<subType>general</subType>
+	<campaignID>PrintPoster</campaignID>
+	<buttons>
+		<btn>
+		<label>PRINT</label>
+		<actions>
+			<action type="printPoster" tracking="Use Galactic Hot Dogs Poster Card"> <!-- change tracking call -->
+				<parameters>
+					<param id="path">posters/GHDPoster.swf</param>
+					<param id="xpos">817</param>
+					<param id="ypos">735</param>
+					<param id="xscale">-4.0</param>
+					<param id="yscale">4.0</param>
+					<param id="rotation">-20</param>
+					<param id="pose">FlyDownPan</param>
+					<param id="frame">0</param>
+					<param id="eyestate">open</param>
+					<param id="eyesrotation">-45</param>
+				</parameters>
+			</action>
+		</actions>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Galactic Hot Dogs Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Poster</value>
+			</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" />	<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.swf -->
+	</assets>
+</item>

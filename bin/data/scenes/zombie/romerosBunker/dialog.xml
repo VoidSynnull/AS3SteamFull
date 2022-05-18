@@ -1,0 +1,88 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="high_tech_click">This is some high-tech equipment.</statement>
+		<statement triggeredByEvent="whiteboard_first_click">I know the outbreak started on October 22. Now, which food did only zombies ingest?</statement>
+    	<statement triggeredByEvent="closed_whiteboard">I must be missing something...</statement>
+    	<statement triggeredByEvent="coffee_click">Nothing happened. Looks like it's on a timer.</statement>
+    	<statement triggeredByEvent="solved_whiteboard">Now I just need to get my hands on some so I can run the tests...</statement>
+    	<statement triggeredByEvent="busy_signal">Busy Signal.</statement>
+    	<statement triggeredByEvent="ringing">It's ringing!</statement>
+    	<statement triggeredByEvent="phone_found">I already have doctor Romero's cell phone.</statement>
+    	<statement triggeredByEvent="need_light">I need some light to work.</statement>
+    	<statement triggeredByEvent="done_hammering">I sure hope that's sturdy enough.</statement>
+    	<statement triggeredByEvent="boards_ready">That should hold them... for a while.</statement>
+    	<statement triggeredByEvent="what_sound">Did you hear that!?</statement>
+    	<statement triggeredByEvent="meet_brains" link="bootleg">Hey, this is all your fault!</statement>
+    	<statement id="bootleg" triggerEvent="triggerEvent" triggerEventArgs="brains_fault">Your bootleg blueberries caused this zombie outbreak!</statement>
+    </character>
+    
+    <character id="char2">
+    	<statement triggeredByEvent="zombies_coming">They're coming! Quick! Board up that doorway!</statement>
+    	<statement triggeredByEvent="zombies_close">They are almost through! Repair the doors!</statement>
+    	<statement>Quick! Board up that doorway!</statement>
+    	<statement triggeredByEvent="beat_zombieFPS">Brilliant Work!</statement>
+    	<statement event="hasItem_medal" triggeredByEvent="day2_start">Well done! Now we should see about cleaning up that mess!</statement>
+    	<statement event="bonus_quest_completed">Great Work! Now I have to find something new to work on to keep me busy!</statement>
+    	<statement id="sludge" link="go_outside">If that sludge gets into the water supply, it'll cause a zombie outbreak ten times bigger than the last!</statement>
+    	<statenent id="go_outside">Head outside and find an entrance to the sewers and add it to each of the three pumps feeding the city's water supply!</statenent>
+    	<statement triggeredByEvent="used_energy_boost" triggerEvent="triggerEvent" triggerEventArgs="what_sound">Let's get to work!</statement>
+    	<statement triggeredByEvent="antidote_ready">Great, the antidote is ready for processing!</statement>
+    	<statement triggeredByEvent="almost_through" triggerEvent="triggerEvent" triggerEventArgs="crank_quicker">They're trying to break through!</statement>
+    	<statement triggeredByEvent="crank_quicker">Hurry! Turn the crank as quick as you can!</statement>
+    	<statement triggeredByEvent="crank_close">We're almost there!</statement>
+    	<statement triggeredByEvent="">Hurry! They're almost through!</statement>
+    	<statement triggeredByEvent="blaster_ready">Great! It's ready!</statement>
+    	<statement triggeredByEvent="zombies_broken_through" link="hit_them">The zombies have broken through!</statement>
+    	<statement id="hit_them">Quick, hit them with the antidote!</statement>
+    	<statement triggeredByEvent="back_in_cage">I'm just going to hang out in here. You can handle it!</statement>
+    	<statement triggeredByEvent="made_cure" link="not_enough">You did it!</statement>
+    	<statement id="not_enough">But to make a big enough dose to cure the entire population, we need to make more.</statement>
+    	<statement triggeredByEvent="unknown_person" triggerEvent="triggerEvent" triggerEventArgs="samuel_brains">Who are you?</statement>
+    	<statement triggeredByEvent="brains_drop_medal">Hey, look, that Brains guy dropped something.</statement>
+    	
+    	<statement link="enigma" triggeredByEvent="bonus_quest_started">It'll take a while to get back to normal, but at least the worst has passed.</statement>
+    	<statement id="enigma" link="13_years">And now I have a new enigma to crack...</statement>
+    	<statement id="13_years" triggerEvent="triggerEvent" triggerEventArgs="survive_13_year">How our friend here was able to survive for over 13 years in a shipping crate with no outside water!</statement>
+    	<statement triggeredByEvent="char8_rats" triggerEvent="triggerEvent" triggerEventArgs="drank_rats">You... drank rats?</statement>
+    	
+    	<conversation event="bonus_quest">
+    		<exchange>
+    			<question>What was that?</question>
+    			<answer>We've got to go help him!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>What's the plan?</question>
+    			<answer>Rats... zombified rats! When we dumped the blueberry juice into the sewers, they must have gotten to it.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I'm afraid we may have bigger problems.</question>
+    			<answer link="sludge">Take this extra concentrated zombie antidote.</answer>
+    		</exchange>
+    	</conversation>
+    </character>
+    
+    <character id="char3">
+    	<statement triggeredByEvent="char3_reached_target" link="starving">What happened? I feel like I just woke from the longest nap in history.</statement>
+   		<statement id="starving" triggerEvent="triggerEvent" triggerEventArgs="gamer_speak">And I'm starving!</statement>
+   		<statement triggeredByEvent="free_smoothies" triggerEvent="triggerEvent" triggerEventArgs="angry_char3">Why I ought to...</statement>
+    </character>
+    
+    <character id="char4">
+    	<statement triggeredByEvent="gamer_speak" triggerEvent="triggerEvent" triggerEventArgs="apocalypse_over">Aww, man! The zombie apocalypse is over? Bummer...</statement>
+    	<statement triggeredByEvent="angry_char3">Brains!</statement>
+    </character>
+    
+    <character id="char5">
+    	<statement triggeredByEvent="apocalypse_over" triggerEvent="triggerEvent" triggerEventArgs="unknown_person">Excellent work, you two. Thank you!</statement>
+    	<statement triggeredByEvent="samuel_brains" triggerEvent="triggerEvent" triggerEventArgs="meet_brains">Samuel Brains, the owner of Berry Delicious Smoothies.</statement>
+    	<statement triggeredByEvent="brains_fault" id="free">And as an apology, I'd like to give you all these gift certificates for free smoothies!</statement>
+    	<statement id="free" triggerEvent="triggerEvent" triggerEventArgs="free_smoothies">On the house!</statement>
+    </character>
+    
+    <character id="char8">
+    	<statement triggeredByEvent="survive_13_years" triggerEvent="triggerEvent" triggerEventArgs="char8_rats">Rats!</statement>
+    	<statement triggeredByEvent="drank_rats">No, RATS!</statement>
+    	<statement triggeredByEvent="char8_hurt">See what happens when you let your guard down for one second?</statement>
+    </character>
+    
+</dialogs>

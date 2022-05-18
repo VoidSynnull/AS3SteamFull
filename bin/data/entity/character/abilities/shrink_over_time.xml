@@ -1,0 +1,14 @@
+<specialAbility id="shrink_over_time">
+	<type>scale</type>
+	<triggerable>false</triggerable>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetScaleTargetAction">
+				<parameters>
+					<param id="object" type="entity">player</param> 
+					<param id="scaleTarget" type="number">0.15</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

@@ -1,0 +1,13 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">dark_atmosphere.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset fade="true" baseVolume=".1" loop="true">cricket_chirp_loop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="triggerDoor">door_car_open_verb_01.mp3</asset>
+	</sound>
+</sounds>

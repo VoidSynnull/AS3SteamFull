@@ -1,0 +1,41 @@
+<item id="3140">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Vampire Girl 2</value>
+	 	 	</text>
+		<text id="storeSubTitle">
+					<value>Being scary never looked so good</value>
+			</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<hair>pvampire_girl02</hair>
+			<marks>pvampire_girl</marks>
+			<mouth>pvampire_girl</mouth>
+			<shirt>pvampire_girl02</shirt>
+			<pants>pvampire_girl02</pants>
+			<overshirt>pvampire_girl02</overshirt>
+			<facial>pvampire_girl02</facial>
+		 	</look> 
+	</looks> 
+	
+</item>

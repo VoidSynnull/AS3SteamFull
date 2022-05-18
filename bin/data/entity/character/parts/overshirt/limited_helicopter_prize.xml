@@ -1,0 +1,47 @@
+<part>
+	<id>limited_helicopter_prize</id>
+	<type>overshirt</type>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>helicopter_skye.SpeechBubble</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+	</hide>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility id="plankton_jetpack">
+		<save>true</save>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.islands.arab.MagicCarpet</className>
+		<parameters>
+			<param id="tracking">PawPatrolQuest,helicopterPupJump</param>
+			<param id="noCarpet">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="startFrame" type="int">10</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+						<param id="endLabel" type="string">ending</param>
+						<param id="childName" type="string">helicopter_skye</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

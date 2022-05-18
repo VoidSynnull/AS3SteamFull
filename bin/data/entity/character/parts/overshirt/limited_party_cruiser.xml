@@ -1,0 +1,43 @@
+<part>
+	<id>limited_party_cruiser</id>
+	<type>overshirt</type>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+		
+		<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<sfPauseTimer>10</sfPauseTimer>
+		<parameters>
+			<param id="tracking">LOLQuest,Party Cruiser</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AudioAction" >
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/LOLQuest/im_a_queen_short.mp3</param> 
+					</parameters>
+				</action>
+			
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

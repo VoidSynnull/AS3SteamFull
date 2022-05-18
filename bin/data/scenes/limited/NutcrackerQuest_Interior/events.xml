@@ -1,0 +1,65 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">setZoneTrigger</param1>
+			<param2 id="clip">zoneDoor</param2>
+			<param3 id="event">animatedoor</param3>
+			<param3 id="listenOnce">false</param3>
+			<param3 id="exitEvent">closeDoor</param3>
+		</event>
+	</group>
+	<group type="triggered" id="animatedoor">
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">AnimatingDoor</param2>
+			<param3 id="startLabelName">openstart</param3>
+			<param4 id="endLabelName">openend</param4>
+		</event>
+	</group>
+	<group type="triggered" id="closeDoor">
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">AnimatingDoor</param2>
+			<param3 id="startLabelName">closestart</param3>
+			<param4 id="endLabelName">closeend</param4>
+		</event>
+	</group>
+	
+	<group type="dialogStart" id="clara">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="mouserun">
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">mouse</param2>
+			<param3 id="coords">0,1180</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">mouse</param2>
+			<param3 id="target">3400,1180</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">clara</param2>
+			<param3 id="sayID">mouse</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">mouse</param2>
+			<param3 id="coords">3600,0</param3>
+		</event>
+	</group>
+	<group type="triggered" id="endmouse">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

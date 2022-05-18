@@ -1,0 +1,28 @@
+<doors>
+	<door id="doorMainStreetTop">
+		<scene>game.scenes.trade.mainStreet.MainStreet</scene>
+		<x>6730</x>
+		<y>1300</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorMainStreetBottom">
+		<scene>game.scenes.trade.mainStreet.MainStreet</scene>
+		<x>6730</x>
+		<y>1640</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

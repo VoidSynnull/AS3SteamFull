@@ -1,0 +1,37 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-750</y>
+			</velocity>
+		</component>
+	</hit>
+
+	<hit id="lift2" platform="true">
+		<component type="movingPlatform">
+		 <visible>lift_base2</visible>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>1957</x>
+					<y>481</y>
+				</point>
+				<point>
+					<x>1957</x>
+					<y>-30</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+</hits>

@@ -1,0 +1,11 @@
+<hotspots>
+	<hotspot id="itemClick" type="poster">
+		<action type="giveItemMale">2777</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">2777</action> <!-- To award an item card to a girl -->
+		<action type="suppressSponsorClick">true</action> <!-- Prevent awarding of card to end with sponsor link click -->
+		
+	</hotspot>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+</hotspots>

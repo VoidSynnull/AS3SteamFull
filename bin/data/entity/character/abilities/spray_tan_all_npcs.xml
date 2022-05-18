@@ -1,0 +1,15 @@
+<specialAbility id="spray_tan_all_npcs">
+	<type>transform_npcs</type>
+	<triggerable>false</triggerable>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="string">NPCS</param> 
+					<param id="partType" type="string">skinColor</param> 
+					<param id="partID" type="string">0xf08128</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

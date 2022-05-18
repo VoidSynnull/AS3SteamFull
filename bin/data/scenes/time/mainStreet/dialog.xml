@@ -1,0 +1,10 @@
+<dialogs>
+    <character id="char1">
+		<statement>text1</statement>
+		<statement event="island_cleared">text2</statement>
+    </character>
+	<character id="labGirl">
+		<statement link="docTalk2">text3</statement>
+		<statement id="docTalk2" triggerEvent="completeEvent" triggerEventArgs="enter_lab">text4</statement>
+    </character>
+</dialogs>

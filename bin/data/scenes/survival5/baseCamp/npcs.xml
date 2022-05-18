@@ -1,0 +1,53 @@
+<npcs>
+	<npc id="buren" event="island_incomplete">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<item>vccrossbow</item>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>10</x>
+			<y>1120</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="dog" variant="creature" event="island_incomplete">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x47494f</skinColor>
+			<hairColor>0x47494f</hairColor>
+			<mouth>dog</mouth>
+			<facial>dog2</facial>
+			<hair>dog</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>dog</pack>
+			<overshirt>dog</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2680</x>
+			<y>1150</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.4</scale>
+		<direction>right</direction>
+	</npc>
+</npcs>

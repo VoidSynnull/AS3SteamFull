@@ -1,0 +1,36 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>CampaignNameVC</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.google.com</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">http://www.amazon.com</clickUrl> <!-- if needing different clickURL for cards -->
+	</clickUrls>
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+		<impressions id="Poster">
+			<impression type="standard">https://ad.doubleclick.net</impression>
+			<impression type="moat">https://z.moatads.com</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536</impression>
+		</impressions>
+	</impressionOnClicks>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net</impression>
+			<impression type="moat">https://z.moatads.com</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<cards>
+		<card>9999</card>
+	</cards>
+	<boycards>
+		<card>9999</card>
+	</boycards>
+	<girlcards>
+		<card>9999</card>
+	</girlcards>
+</campaign>

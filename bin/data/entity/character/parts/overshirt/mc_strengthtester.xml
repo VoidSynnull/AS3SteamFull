@@ -1,0 +1,20 @@
+<part>
+	<id>mc_strengthtester</id>
+	<type>overshirt</type>
+	<gender>female</gender>
+	<costumizable>false</costumizable>
+  <retrieveColors>
+	<part id="skinColor"/>
+  </retrieveColors>
+  <colors>
+	<color id="skinColor"/>
+  </colors>
+  <colorables>
+	<colorable id="skinColor">
+		<clip instanceName="colorFill"/>
+	</colorable>
+  </colorables>
+  <hide>
+	<part>shirt</part>
+  </hide>
+</part>

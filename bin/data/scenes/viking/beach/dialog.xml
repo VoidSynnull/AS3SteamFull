@@ -1,0 +1,43 @@
+<dialogs>
+	<character id="player">
+		<statement id="bareHands">There's too much sand to dig out with my bare hands.</statement>
+		<statement id="whatsThis" triggerEvent="triggerEvent" triggerEventArgs="get_axe">What's this?</statement>
+		<statement id="farEnough" link="thinkNot" linkEntityId="octavian">That's far enough, Octavian!</statement>
+		<statement id="ownAdventures" link="takeThis" linkEntityId="mya">I've got my own adventures in store.</statement>
+		<statement id="catch">Here, catch!</statement>
+		<statement id="stopOctavian">I need to find a way to stop Octavian!</statement>
+		<statement id="hungry">They look hungry again!</statement>
+		<statement id="block_map">Not the best time to look at this.</statement>
+    </character>
+	<character id="octavian">
+		<statement id="thinkNot" link="trapped" linkEntityId="mya">I think not. I'm sailing off this backwater island, and none of you can stop me!</statement>
+		<statement id="myConcern" triggerEvent="triggerEvent" triggerEventArgs="inconvenient">Not my concern. Oh look... all your shouting has attracted the locals.</statement>
+		<statement id="inconvenient" link="distractDodos" linkEntityId="oliver">Well... this is inconvenient.</statement>
+		<statement id="aiee" link="lastBit" linkEntityId="jorge">AIEEEE!</statement>
+		<statement>These birds are everywhere!</statement>
+		<statement id="gross" link="getAway">Gross... someone's already taken a bite out of it.</statement>
+		<statement id="getAway" triggerEvent="triggerEvent" triggerEventArgs="get_away">Get away! Shoo!</statement>
+    </character>
+	<character id="mya">
+		<statement id="trapped" triggerEvent="triggerEvent" triggerEventArgs="octavian_laugh">We'll be trapped here forever!</statement>
+		<statement id="droppedMap" link="backHome" linkEntityId="oliver" triggerEvent="triggerEvent" triggerEventArgs="pick_up_map">Look! He dropped the map!</statement>
+		<statement id="takeThis" triggerEvent="triggerEvent" triggerEventArgs="give_medal">In case we never see you again, take this.</statement>
+		<statement id="postMedal">Thanks for all your help!</statement>
+		<statement>There must be a way to stop Octavian.</statement>
+		<statement id="tryAgain">Can you check again? There's got to be something we could use!</statement>
+    </character>
+	<character id="oliver">
+		<statement id="distractDodos" triggerEvent="triggerEvent" triggerEventArgs="let_player_use_candy">Find a way to stop Octavian!</statement>
+		<statement id="backHome" triggerEvent="triggerEvent" triggerEventArgs="player_turn">Maybe now we can find our way back home.</statement>
+		<statement id="postMedal">Maybe now we can find our way back home.</statement>
+		<statement>Find a way to stop Octavian!</statement>
+		<statement id="wrongItem">I don't think that's going to stop Octavian.</statement>
+    </character>
+	<character id="jorge">
+		<statement id="lastBit" link="droppedMap" linkEntityId="mya">That was our last bit of food...</statement>
+		<statement id="comeWithUs" link="ownAdventures" linkEntityId="player">Will you come with us?</statement>
+		<statement id="postMedal">You sure you won't come with us?</statement>
+		<statement>We've got to stop him!</statement>
+		<statement id="noItem">We're doomed! Nothing can save us now!</statement>
+    </character>
+</dialogs>

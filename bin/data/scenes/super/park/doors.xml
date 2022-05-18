@@ -1,0 +1,55 @@
+<doors>
+	<door id="doorDowntown">
+		<scene>game.scenes.superPower.downtown.Downtown</scene>
+		<x>3450</x>
+		<y>2160</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>200</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorJunkyard">
+		<scene>game.scenes.superPower.junkyard.Junkyard</scene>
+		<x>62</x>
+		<y>2050</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-200</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorBoys">
+		<scene>game.scenes.superPower.bathroomBoys.BathroomBoys</scene>
+		<x>540</x>
+		<y>380</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorGirls">
+		<scene>game.scenes.superPower.bathroomGirls.BathroomGirls</scene>
+		<x>96</x>
+		<y>380</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>
+

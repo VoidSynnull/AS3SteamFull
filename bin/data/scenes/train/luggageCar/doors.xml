@@ -1,0 +1,57 @@
+<doors>
+	<door id="doorVip2">
+		<scene>game.scenes.train.vipCar2.VipCar2</scene>
+		<x>1674</x>
+		<y>492</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorRoof">
+		<scene>game.scenes.train.rooftops.Rooftops</scene>
+		<x>4500</x>
+		<y>280</y>
+		<label>
+			<text>Go Up</text>
+			<type>exitUp</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorPorter">
+		<scene>game.scenes.train.portersCloset.PortersCloset</scene>
+		<x>582</x>
+		<y>438</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorVip1">
+		<scene>game.scenes.train.vipCar1.VipCar1</scene>
+		<x>50</x>
+		<y>492</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

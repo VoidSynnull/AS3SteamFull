@@ -1,0 +1,28 @@
+<npcs>
+	
+	<!-- use this for Poptropican NPC -->
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x6c221e</hairColor>
+			<eyeState>open</eyeState>
+			<eyes>eyes</eyes>
+			<marks>bl_promqueenc6</marks>
+			<mouth>sponsor_selenag</mouth>
+			<hair>limited_ro_npc</hair>
+			<pants>limited_ro_npc</pants>
+			<shirt>limited_ro_npc</shirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>110</x> <!-- position based on FLA rulers -->
+			<y>403</y> <!-- position based on FLA rulers -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

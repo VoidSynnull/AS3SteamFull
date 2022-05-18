@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="anna">
+		<bitmap>limited/Frozen2VBB/Anna.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>400</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<!-- use this for Poptropican NPC -->
+	<npc id="elsa">
+		<bitmap>limited/Frozen2VBB/Elsa.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>0</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

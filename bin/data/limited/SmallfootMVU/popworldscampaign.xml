@@ -1,0 +1,19 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>AntManAndWasp_MVU</campaignId> <!-- *** Must match campaign folder name -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/clk/420170566;221390234;s</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221390234;sz=1x1;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="ObjectCollected">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20398431.221567655;sz=1x1;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

@@ -1,0 +1,19 @@
+<part convertAllTimelines="true">
+  <id>monster</id>
+  <asset>monster</asset>
+  <type>eyes</type>
+  <retrieveColors>
+	<part id="skinColor"/>
+  </retrieveColors>
+  <colors>
+	  <color id="skinColor"/>
+  </colors>
+  <colorables>
+	  <colorable id="skinColor">
+		  <clip instanceName="content.lidFill"/>
+	  </colorable>
+	  <colorable id="skinColor" darken=".5">
+		  <clip instanceName="content.outlines"/>
+	  </colorable>
+  </colorables>
+</part>

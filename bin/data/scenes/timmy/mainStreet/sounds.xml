@@ -1,0 +1,62 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">timmy_failure_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset id="doorCommon">openDoor_pushBar.mp3</asset>
+		<asset id="doorAlley">openDoor_pushBar.mp3</asset>
+		<asset id="doorStore">openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="car">turn_engine_on_01.mp3</asset>
+		<asset id="trashInteraction" loop="true" modifiers="position">insect_flies_01_loop.mp3</asset>
+		<asset id="bush" modifiers="position">leaves_rustle_01.mp3, leaves_rustle_02.mp3</asset>
+		<asset id="bankEnt">door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger_out">
+		<asset id="bankEnt">door_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="drive">
+		<asset id="car">car_drive_away_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="trashBounce">rubber_stretch_01.mp3</asset>
+		<asset id="basket">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="bankFloor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="scutaroPath">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="shingles">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+		<asset id="concreteBag">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="ladder">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="roof">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="stones">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="basket">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+		<asset id="bankFloor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="scutaroPath">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="shingles">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+		<asset id="concreteBag">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="ladder">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="roof">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="stones">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="climbDown">
+		<asset id="climb" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,28 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PopFoodCravingWishlist/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+	</data>
+
+	<!-- side street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/PopFoodCravingWishlist/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/PopFoodCravingWishlist/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/PopFoodCravingWishlist/" ext="swf">
+		<asset>wishlist</asset>
+	</assets>
+
+</manifest>

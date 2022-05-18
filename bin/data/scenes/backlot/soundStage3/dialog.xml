@@ -1,0 +1,28 @@
+<dialogs>
+  <character id="char1">
+    <statement id="grab hats" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Grab the hats from upstairs and try to find the right actors for the parts. There are plenty of actors milling around Sunrise Street.</statement>
+    <statement id="noshow">The set builder's a no-show. Sift through that pile of old props over there and try to get a prop train together.</statement>
+    <statement id="fresh paint" triggerEvent="triggerEvent" triggerEventArgs="paint_train">Nothing a fresh coat of paint can't fix.</statement>
+    <statement id="see" link="grab hats">See? Movie magic! But we're not done yet.</statement>
+  </character>
+  <character id="char2">
+    <statement id="finally">Finally, a heroic role!</statement>
+    <statement id="whew">Whew! Real acting is harder than I remember.</statement>
+  </character>
+  <character id="char3">
+    <statement id="at last">At last, a chance to show my dark side!</statement>
+    <statement id="connected">I really connected with my inner bad guy.</statement>
+  </character>
+  <character id="char4">
+    <statement id="great work">Great work! Thanks for your help.</statement>
+    <statement id="need" triggerEvent="triggerEvent" triggerEventArgs="start_western_film">We need you to be the stunt coordinator. When we call for an effect, you set it off!</statement>
+  </character>
+  <character id="char5">
+    <statement event="complete_all_stages">Great! All the scenes are shot! Now meet me over at post-production!</statement>
+    <statement event="go_to_stage4">Almost Done! Head on over to sound stage 4 to shoot the last scene!</statement>
+    <statement event="go_to_stage2">Almost Done! Head on over to sound stage 2 to shoot the last scene!</statement>
+  </character>
+  <character id="player">
+    <statement id="dont look like train"  triggerEvent="triggerEvent" triggerEventArgs="thats_a_train">This doesn't look like a train at all!</statement>
+  </character>
+</dialogs>

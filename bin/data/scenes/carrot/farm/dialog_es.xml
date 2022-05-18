@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="char1">
+		<statement>Esto solía ser la mayor granja de zanahoria en el mundo. Pero todas las zanahorias desaparecieron, y ahora nos quedamos sin nada.</statement>
+		<statement event="destroyed_rabbot">Ahora que las zanahorias no están desapareciendo, no puedo hacer esto en un gran parque, una vez más!</statement>
+	</character>
+	<!--
+	<character id="char2">
+		<statement>Esto solía ser la mayor granja de zanahoria en el mundo. Pero todas las zanahorias desaparecieron, y ahora nos quedamos sin nada.</statement>
+	</character>
+	-->
+	<character id="char3">
+		<statement>Home, sweet home! Tengo mucho trabajo que hacer ahora!</statement>
+	</character>	
+</dialogs>

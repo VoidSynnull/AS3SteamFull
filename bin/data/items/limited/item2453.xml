@@ -1,0 +1,60 @@
+<item id="2453">
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Desmond Pucket Costume Card</name>
+  	<campaignID>DesmondPucketQuest</campaignID>
+  	<contentClass>
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Desmond Pucket Costume Card"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Desmond Pucket Costume Card">
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+  	<textfields>
+		<text id="limited">
+		  <value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+		  <value>Desmond Pucket</value>
+		</text>
+		<text id="adtitle">
+		  <value>Desmond Costume</value>
+		</text>
+		<text id="ad">
+		  <value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<looks>
+	    <look>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<hair>ad_desmond_hair</hair>
+			<shirt>ad_desmond_shirt</shirt>
+			<pants>ad_desmond_pants</pants>
+			<pack>ad_desmond_cape</pack>
+		</look>
+	</looks> 
+    
+</item>

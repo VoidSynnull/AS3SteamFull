@@ -1,0 +1,55 @@
+<part>
+	<id>limited_marypoppins_balloon</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2945</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddBalloon</className>
+		<useButton>true</useButton>
+		<triggerable>false</triggerable>
+		<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/marypoppins_balloon.swf</param>
+		<param id="knotX">2</param>
+		<param id="knotY">2</param>
+		<param id="tracking">MaryPoppinsVBB,Balloon Power</param>
+		<param id="triggerable">true</param>
+		<param id="randomFrame">true</param>
+		
+	</parameters>
+		<actions>
+			<actionChain id="setballoon_actions">
+				<action class="SetSkinAction" >
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">limited_marypoppins_npcballoon</param>
+
+					</parameters>
+				</action>
+				
+				<action class="TweenNPCSAction">
+					<parameters>
+						<param id="duration" type="Number">4</param>
+						<param id="height" type="Number">100</param>
+						<!-- <param id="includePlayer" type="boolean">true</param> -->
+					</parameters>
+				</action>
+			
+			<action class="SetAbilityActiveAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="setActive" type="boolean">false</param>
+						<param id="resetActive" type="boolean">true</param>
+						<param id="time" type="Number">9</param>
+
+					</parameters>
+				</action>
+				
+			
+				
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

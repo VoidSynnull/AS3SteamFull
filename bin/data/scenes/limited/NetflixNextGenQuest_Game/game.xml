@@ -1,0 +1,17 @@
+<game>
+	<className>RaceGame</className>
+	<clearParts>true</clearParts>
+	<partType>facial</partType>
+	<partValue>limited_nextgen_7723</partValue>
+	<winDistance>27200</winDistance>
+	<winNPCPhrase npc="molly" delay="1">You made it!</winNPCPhrase> <!-- Optional -->
+	<winNPCPhrase2 npc="rice" delay="1">Great job in saving Grainland!</winNPCPhrase2> <!-- Optional -->
+	<winNPCPhrase3 npc="momo" delay="1">Not bad.</winNPCPhrase3> <!-- Optional -->
+	<winDelay>8</winDelay>
+	<returnX>3600</returnX>
+	<returnY>1335</returnY>
+	<bikeSpeed>8</bikeSpeed>
+	<numHits>8</numHits>
+	<multiJump>true</multiJump>
+	<stopPlayer>true</stopPlayer>
+</game>

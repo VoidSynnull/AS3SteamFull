@@ -1,0 +1,42 @@
+<item id="3284">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<buttons>
+				<btn>
+					<conditional id="hasAbility" isTrue="false"/>
+						<label>ACTIVATE</label>
+						<actions>
+						<action type="activatePower"/>
+					</actions>
+				</btn>
+				<btn>
+					<conditional id="hasAbility" isTrue="true"/>
+						<label>TURN OFF</label>
+						<actions>
+						<action type="deactivatePower"/>
+					</actions>
+				</btn>
+		</buttons>
+		
+		<textfields>
+			<text id="storeSubTitle">
+				<value>Wimpy Boardwalk</value>
+				</text>
+		<text id="storeTitle">
+			<value>Heat Wave</value>
+			</text>
+	</textfields>
+	
+	<specials>
+		<specialAbility>heat_wave</specialAbility>
+	</specials>
+	
+	<conditionals>
+		<conditional type="hasAbility"/>
+	</conditionals>
+</item>

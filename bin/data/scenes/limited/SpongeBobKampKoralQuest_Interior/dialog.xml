@@ -1,0 +1,26 @@
+<dialogs>
+	<character id="patrick">
+		<statement>It took me all day to blow up the balloons.</statement>
+		<statement triggeredByEvent="npcProximity_patrick">So tired.</statement>
+	</character>
+	<character id="spongebob">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startGameObstacle">Test your agility on the obstacle course!</statement>
+		<statement triggeredByEvent="npcProximity_spongebob">Wanna try the obstacle course?</statement>
+	</character>
+	<character id="sandy">
+		<statement>Yee-haw! Think you got what it takes to play these?</statement>
+		<statement triggeredByEvent="npcProximity_sandy">Yee-haw! Think you got what it takes to play these?</statement>
+	</character>
+	<character id="mrkrabs">
+		<statement>This holiday is to celebrate my favorite little buddy, SpongeBob, who discovered a chest full of money.</statement>
+		<statement triggeredByEvent="npcProximity_mrkrabs">I love me money!</statement>
+	</character>
+	<character id="squidward">
+		<statement>I strongly advise you not to pull this shiny lever.</statement>
+		<statement triggeredByEvent="npcProximity_mrkrabs">I strongly advise you not to pull this shiny lever.</statement>
+	</character>
+	<character id="plankton">
+		<statement>SpongeBob made a delicious Krabby Patty, the first ever created, and I’ve lost it. Where could it be!</statement>
+		<statement triggeredByEvent="npcProximity_plankton">Curses!</statement>
+	</character>
+</dialogs>

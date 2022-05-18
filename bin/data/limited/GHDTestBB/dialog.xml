@@ -1,0 +1,7 @@
+<dialogs>
+	<character id="cosmoe">
+		<statement event="hasAdItem_2018">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement>Hi, I'm Cosmoe. Check out this video for a cool prize!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

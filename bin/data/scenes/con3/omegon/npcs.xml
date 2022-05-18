@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="omegon">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Float</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xffc215</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>19</mouth>
+			<marks>poptropicon_omegon</marks>
+			<facial>poptropicon_omegon</facial>
+			<hair>poptropicon_omegon</hair>
+			<shirt>1</shirt>
+			<pants>miner2</pants>
+			<pack>poptropicon_omegon</pack>
+			<overshirt>poptropicon_omegon</overshirt>
+			<eyeState>squint</eyeState>
+			<eyes>eyes_omegon</eyes>
+		</skin>
+		<position>
+			<x>630</x>
+			<y>946</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+</npcs>

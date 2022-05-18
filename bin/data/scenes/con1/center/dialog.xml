@@ -1,0 +1,167 @@
+<dialogs>
+	<character id="costume">
+		<statement id="ask_tutorial" link="tutorial">You'll be changing costumes a lot in Poptropicon. Do you want to learn how to costumize?</statement>
+		<conversation id="tutorial">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="start_tutorial">Yes.</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="no_tutorial">No thanks.</question>
+				<answer>Make sure you save your current look if you don't want to lose any of the parts.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement>You can costumize yourself with any characters you see here at the convention!</statement>
+		<statement id="tutorial_done">Make sure you save your current look if you don't want to lose any of the parts.</statement>
+    </character>
+    
+    <character id="fantasy">
+    	<conversation>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer link="first_link">I'm holding one for a friend, but I have no idea where he is.</answer>
+			</exchange>
+			<exchange>
+				<question>What does he look like?</question>
+				<answer link="friend_quest_accepted" triggerEvent="triggerEvent" triggerEventArgs="friend_quest_accepted,true">He's dressed as a wizard. You can't miss him: pointed dark hat, robe with a moon amulet, white beard, wooden staff.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation id="first_link">
+			<exchange>
+				<question>What does he look like?</question>
+				<answer link="friend_quest_accepted" triggerEvent="triggerEvent" triggerEventArgs="friend_quest_accepted,true">He's dressed as a wizard. You can't miss him: pointed dark hat, robe with a moon amulet, white beard, wooden staff.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="deal_off">Deal's off!</statement>
+		
+		<conversation event="some_wizard_parts">
+			<exchange>
+				<question>Here I am! I'll take my ticket now.</question>
+				<answer id="show_selfie">You're not my friend. He looks like this.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="friend_quest_accepted">Here's a selfie we took earlier.</statement>
+		
+		<conversation event="take_ticket">
+			<exchange>
+				<question>Here I am! I'll take my ticket now.</question>
+				<answer link="ticket_link">You're finally back from the bathroom. Okay, where is it?</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation id="ticket_link">
+			<exchange>
+				<question>Where is what?</question>
+				<answer link="promise_reply" linkEntityId="player">You know the deal. I give you a ticket and you give me what you promised.</answer>
+			</exchange>
+		</conversation>			
+		
+		<conversation event="gotItem_mjolnir">
+			<exchange>
+				<question>I found what you were looking for!</question>
+				<answer link="outdoor_toilet">You surely deserve my extra ticket now! Where did you find it?</answer>
+			</exchange>
+		</conversation>		
+		
+		<conversation id="outdoor_toilet">
+			<exchange>
+				<question>In an outdoor toilet.</question>
+				<answer link="deal_off" linkEntityId="player" >Uh... deal's off.</answer>
+			</exchange>
+		</conversation>	
+    </character>
+    
+    <character id="racer">
+    	<statement event="racer_not_beat" link="race">The Power Amulet cannot be given. It can only be earned. Beat me to the top of the water tower and it shall be yours!</statement>
+    	<statement event="racer_beat" link="race">Wow you are quick! Want to see if you can beat me again?</statement>
+    	<conversation id="race">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="play_race">You're on!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Maybe later.</question>
+    		</exchange>
+    	</conversation>
+    </character>
+    
+    <character id="player">
+    	<statement id="promise_reply" triggerEvent="triggerEvent" triggerEventArgs="friend_quest_complete,true">Of course, I'll, er, be right back.</statement>
+    	<statement id="noon">Costume contest at noon, eh?</statement>
+    	<statement id="deal_off" triggerEvent="triggerEvent" triggerEventArgs="deal_off">Rats. I need to find another way inside.</statement>
+    </character>
+    
+    <character id="line1">
+    	<conversation>
+			<exchange>
+				<question>What are you waiting for?</question>
+				<answer link="extra_ticket">The Mighty Action Force Trailer!</answer>
+			</exchange>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>Nay. It's been sold out for months.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation id="extra_ticket">
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>Nay. It's been sold out for months.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="line2">
+    	<conversation>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>Are you kidding?</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="line3">
+    	<conversation>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>Scram, earthling!</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="line4">
+    	<conversation>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>No way!</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="wizard_line">
+    	<conversation>
+			<exchange>
+				<question>Do you have an extra ticket?</question>
+				<answer>I'm no magician, I'm a wizard. I can't magically pull tickets out of my hat.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="witch">
+    	<statement>Don't tell anyone I'm up here!</statement>
+    </character>
+    
+    <character id="wizard_soda">
+    	<statement>Machine stole my money!</statement>
+    </character>
+    
+    <character id="soda">
+    	<statement>This soda is delicious!</statement>
+    </character>
+    
+    <character id="eater">
+    	<statement>Nom Nom Nom!</statement>
+    </character>
+</dialogs>

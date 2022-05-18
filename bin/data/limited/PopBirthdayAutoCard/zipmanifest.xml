@@ -1,0 +1,24 @@
+<manifest>
+	<!-- Onward xml files -->
+	<data type="campaign" path="data/limited/PopBirthdayAutoCard/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+	<!-- card xml files, swfs, backs -->
+	<assets type="support" path="assets/specialAbility/objects/" ext="swf">
+		<asset>birthday13</asset>
+	</assets>
+	
+		<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2027</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2027</asset>
+	</assets>
+		<assets type="cardBack" path="assets/items/shared/" ext="swf">
+		<asset>BirthdayLimitedBackground</asset>
+	</assets>
+		<data type="follower" path="data/entity/character/abilities/" ext="xml">
+		<asset>flying_birthday_rocket</asset>
+	</data>
+</manifest>

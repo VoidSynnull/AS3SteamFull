@@ -1,0 +1,79 @@
+<sounds>
+
+	<sound type="music" action="level_up">
+		<asset id="landEditor">MiniGameWin.mp3</asset>
+	</sound>
+	
+	<sound type="music" action="lose">
+		<asset id="landEditor">caught.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="player_hurt">
+		<asset id="gameAudio" exclusive="true">heart_beat_01_L.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="monster_attack">
+		<asset id="gameAudio" exclusive="true">chomp_01.mp3, dog_chomp_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="build">
+		<asset id="landEditor" exclusive="false" allowOverlap="false">blunt_hit_01.mp3, blunt_hit_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="erase">
+		<asset id="landEditor" exclusive="false" allowOverlap="false">whoosh_05.mp3, whoosh_06.mp3, whoosh_08.mp3, whoosh_09.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="destroy">
+		<asset id="landEditor" fade="false" allowOverlap="false">break_block_01.mp3, break_block_02.mp3, break_block_03.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="strike">
+		<asset id="lightningStrike" loop="true" fade="false" allowOverlap="false">electric_field_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="magic">
+		<asset id="landEditor" loop="true" fade="false" exclusive="false" allowOverlap="false">futuristic_drone_01_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="collect">
+		<asset id="gameAudio">points_ping_03a.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="spawn_poptanium">
+		<asset id="gameAudio">coin_toss_01.mp3,coin_toss_03.mp3,coin_toss_04.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="ice">ls_ice_01.mp3, ls_ice_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="waterDive">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce_small">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="shock">electric_zap_01.mp3, electric_zap_03.mp3, electric_zap_04.mp3</asset>
+		<asset id="lava">burn_flesh_01.mp3, burn_flesh_02.mp3</asset>
+		<asset id="cactus">enemy_hit_01.mp3</asset>
+		<asset id="directionright">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="directionleft">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="crystal">crystal_tone_01.mp3, crystal_tone_02.mp3, crystal_tone_03.mp3, crystal_tone_04.mp3, crystal_tone_05.mp3, crystal_tone_06.mp3, crystal_tone_07.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="ice">fs_ice_01.mp3, fs_ice_02.mp3, fs_ice_03.mp3, fs_ice_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="waterDive">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="directionright">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="directionleft">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="crystal">crystal_tone_01.mp3, crystal_tone_02.mp3, crystal_tone_03.mp3, crystal_tone_04.mp3, crystal_tone_05.mp3, crystal_tone_06.mp3, crystal_tone_07.mp3</asset>
+	</sound>
+</sounds>

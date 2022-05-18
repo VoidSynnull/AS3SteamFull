@@ -1,0 +1,21 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="spy">
+		<bitmap>limited/SpiesInDisguiseQuest/spy.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>450</x> <!-- from left edge of ad unit -->
+			<y>762</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="kid">
+		<bitmap>limited/SpiesInDisguiseQuest/kid.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>600</x> <!-- from left edge of ad unit -->
+			<y>762</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

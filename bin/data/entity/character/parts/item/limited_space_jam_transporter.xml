@@ -1,0 +1,17 @@
+<part>
+	<id>limited_space_jam_transporter</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.IslandTransport</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">overlays/SpaceJam_animated_orb.swf</param>
+			<param id="tracking">SpaceJamAutoCard,Transporter</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,53 @@
+<npcs>
+	<npc id="Tony">
+		<bitmap>limited/FrostedFlakes1Quest/Tony.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>610</x>
+			<y>635</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="Girl">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xf9aa18</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>ppromqueen1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char32</hair>
+			<shirt>mthannie</shirt>
+			<pants>sponsorfloct2</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1430</x>
+			<y>635</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Boy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>youngsherpa</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char13</hair>
+			<shirt>limited_kyle</shirt>
+			<pants>sponsornm2guard</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1720</x>
+			<y>635</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

@@ -1,0 +1,19 @@
+<part>
+	<id>ad_frootloops_toucanhat</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.store.EarthKnight</className>
+		<save>true</save>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="rate">8</param>
+			<param id="swfPath">limited/FrootLoops819Quest/loop1.swf,limited/FrootLoops819Quest/loop2.swf,limited/FrootLoops819Quest/loop3.swf</param>
+			<param id="scaleMin">.5</param>
+			<param id="scaleMax">.75</param>
+		</parameters>
+	</specialAbility>	
+</part>

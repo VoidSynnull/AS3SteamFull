@@ -1,0 +1,33 @@
+<part>
+	<id>spark_shooting_wand</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">StoreItem,Spark Shooting Wand</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.PointItem</param> 
+						<param id="waitLabel" type="String">pointing</param> 
+						<param id="maxFrames" type="int">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

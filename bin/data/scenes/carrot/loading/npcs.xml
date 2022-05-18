@@ -1,0 +1,32 @@
+<npcs>
+	<npc id="drone1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState>
+			<mouth>rabbitcon</mouth>
+			<facial>rabbitcon</facial>
+			<hair>29</hair>
+			<shirt>19</shirt>
+			<pants>14</pants>
+			<eyes>drone</eyes>
+		</skin>
+		<position>
+			<x>285.3</x>
+			<y>1643</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="drone1" event="drone_freed_1">
+		<skin>
+			<eyeState>open</eyeState>
+			<mouth>9</mouth>
+			<facial>rabbitcon2</facial>
+			<eyes>eyes</eyes> 
+		</skin>
+	</npc>
+</npcs>

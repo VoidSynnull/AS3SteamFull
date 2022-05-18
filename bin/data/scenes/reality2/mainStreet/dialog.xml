@@ -1,0 +1,62 @@
+<dialogs>
+	<character id="probably">
+		<statement id="welcome" link="hi" linkEntityId="player">Welcome! Welcome! My name is Jim Probably and it's time to make your dreams a reality!</statement>
+		<statement id="haha" link="intro" linkEntityId="probably" triggerEvent="triggerEvent" triggerEventArgs="returnControl">Hahaha! Yes, I can!  Let's meet our challengers!</statement>
+		<statement id="returnToGame" link="yes" linkEntityId="player">Would you like to get back to your game?</statement>
+		<conversation id="intro">
+			<exchange>
+				<question>Sure! Where are they?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="gotoVillage">We'll find them in the heart of a snake infested jungle, Let's go!</answer>
+			</exchange>
+			<exchange>
+				<question>Naw, I'll just explore instead.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="afterIntro">Explore if you must, then come back and talk to me when you're ready.</answer>
+			</exchange>
+		</conversation>
+		<conversation id="afterIntro">
+			<exchange>
+				<question forceOnScreen="true">I'm ready to meet the challengers!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="gotoVillage">We'll find them in the heart of a snake infested jungle, Let's go!</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">I'll keep exploring.</question>
+				<answer>Explore if you must, then come back and talk to me when you're ready.</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">I want to travel Poptropica.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="leave">Of course, come back whenever you like. We'll be awaiting your return.</answer>
+			</exchange>
+		</conversation>
+		<conversation id="replay">
+			<exchange>
+				<question forceOnScreen="true">Hi there. Can I play again?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="gotoVillage">Absolutely!  Let's meet our challengers!</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">Are you sure you can breathe fine?</question>
+				<answer>Hahaha! Yes, I can!</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">I want to travel Poptropica.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="leave">Of course, come back whenever you like. We'll be awaiting your return.</answer>
+			</exchange>
+		</conversation>
+		<statement id="medallion" link="what" linkEntityId="player">Don't leave without your medallion!</statement>
+		<statement id="take it" triggerEvent="triggerEvent" triggerEventArgs="getMedallion">Just take it. It's a Poptropica thing.</statement>
+    </character>
+    <character id="player">
+    	<statement id="hi" link="haha" linkEntityId="probably">Hi there. Are you ok? Can you breathe?</statement>
+		<statement id="what" link="take it" linkEntityId="probably">What for?</statement>
+		<statement id="yes" triggerEvent="triggerEvent" triggerEventArgs="gotoVillage">Yes.</statement>
+    </character>
+    <character id="cameraguy1">
+    	<statement id="have seen" link="sorry" linkEntityId="cameraguy2">Dwane, have you seen my extra camera?</statement>
+    	<statement id="little brains" link="totally" linkEntityId="cameraguy2">That's cool. Monkeys have little brains.</statement>
+    	<statement id="hah">Hah... little brains.</statement>
+    </character>
+    <character id="cameraguy2">
+    	<statement id="sorry" link="little brains" linkEntityId="cameraguy1">Sorry, Wayne. I let the monkeys have it.</statement>
+    	<statement id="totally" triggerEvent="triggerEvent" triggerEventArgs="setCameramenDialog">Heh heh. Yeah, man... Totally.</statement>
+    	<statement id="yeah">Yeah... monkeys.</statement>
+    </character>
+</dialogs>

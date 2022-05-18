@@ -1,0 +1,41 @@
+<npcs>
+	<npc id="agent-tux">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>15</mouth>
+			<marks/>
+			<facial>tied</facial>
+			<hair>34</hair>
+			<shirt>tux</shirt>
+			<pants>SS</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt>tied</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>176.9</x>
+			<y>462.7</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>
+
+
+<!--  //Agent-Tux
+	char1.createNPC(0, 0, 0, 0, "specific", 1, null, 0xFFE271, 0x000000, "squint", 15, 1, "tied", "34", "tux", "SS", 1, 1, "tied", 1);
+	char1.avatar.nextFrame();
+	char1._xscale *= -1;
+	char1.avatar.arm1._visible = char1.avatar.arm2._visible = char1.avatar.hand1._visible = char1.avatar.hand2._visible = false;
+	char1._rotation = -90;
+	char1.interaction = "none";
+	 -->

@@ -1,0 +1,20 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">ToucanSam</param2>
+			<param3 id="sayID">init</param3>
+		</event>
+	</group>
+	<group type="triggered" id="toucanDone">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+	</group>
+</events>

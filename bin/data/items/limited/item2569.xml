@@ -1,0 +1,94 @@
+<item id="2569"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Poptropica App Tablet and Phone</name> <!-- Change this card name -->
+  	<campaignID>Atlantis2VendorCart</campaignID> <!-- Change this CMS name -->
+	
+		<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  		
+  	</contentClass>
+  	<buttons>
+ 
+  		<btn>
+  			<index>1</index>
+ 	
+    		<label>TURN OFF</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+				<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Poptropica App Tablet and Phone Card" /> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Poptropica App Tablet and Phone"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url2</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="adtitle">
+			<value>Tablet and Phone</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Poptropica App</value> <!-- Change this title -->
+			<y>-210</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0x000001</color>
+			<y>10</y>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFFFFFF</color>
+				<y>10</y>
+			<val>1</val>
+		</btn>
+
+		
+	</radiobuttons>
+	
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundYellow.swf</assetPath> <!-- Change this background swf -->
+		</asset>
+		
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<item>limited_popapptablet</item>
+		</look>
+		 <look> <!-- Only list what you want to change -->
+			<item>limited_popappphone</item>
+		</look>
+	</looks> 
+</item>

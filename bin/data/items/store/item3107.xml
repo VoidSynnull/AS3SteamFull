@@ -1,0 +1,39 @@
+<item id="3107">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Dark Astro Knight</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+	</textfields>
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	<looks>
+		<look>
+			<facial>pDarkKnight_girl</facial>
+			<hair>bald</hair>
+			<pants>pDarkKnigt_girl</pants>
+			<shirt>pDarkKnight_girl</shirt>
+			<item>pDarkKnight_girl</item>
+			<pack>pDarkKnight_girl</pack>
+		</look>
+	</looks>
+</item>

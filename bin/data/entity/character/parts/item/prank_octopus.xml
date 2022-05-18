@@ -1,0 +1,18 @@
+<part>
+	<id>prank_octopus</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">specialAbility/objects/ray.swf</param>
+			<param id="targetPrefix">shoot</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="offsetX">40</param>
+			<param id="offsetY">25</param>
+			<param id="inset">80</param>
+		</parameters>
+	</specialAbility>
+</part>

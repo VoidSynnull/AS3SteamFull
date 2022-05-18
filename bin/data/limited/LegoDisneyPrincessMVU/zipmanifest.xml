@@ -1,0 +1,52 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoDisneyPrincessMVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/LegoDisneyPrincessMVU/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>dialog.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/LegoDisneyPrincessMVU/" ext="swf">
+		<asset>moana</asset>
+		<asset>kakamora_animation</asset>
+	</assets>
+	
+		<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2821</asset>
+	</data>
+	
+	<data type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2821</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPurple</asset>
+	</assets>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/LegoDisneyPrincessMVU/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+		<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>kakamora</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>kakamora</asset>
+	</assets>
+	
+</manifest>

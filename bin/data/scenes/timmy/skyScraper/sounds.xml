@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">timmy_failure_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">winter_wind_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="roof">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="pie">ls_squishy_muck_01.mp3, ls_squishy_muck_02.mp3</asset>
+		<asset id="wood">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="billboard">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="concreteBag">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="roof">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="pie">fs_squishy_muck_01.mp3, fs_squishy_muck_02.mp3, fs_squishy_muck_03.mp3, fs_squishy_muck_04.mp3</asset>
+		<asset id="wood">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="billboard">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="concreteBag">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		<asset id="climb2" allowOverlap="false">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="climb2" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+</sounds>

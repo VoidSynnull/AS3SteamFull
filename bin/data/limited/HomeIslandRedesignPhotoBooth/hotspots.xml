@@ -1,0 +1,8 @@
+<hotspots>
+	<hotspot id="outsidePoster" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="photoBoothDoor" type="poster">
+		<action type="enterPhotoBooth">true</action>
+	</hotspot>
+</hotspots>

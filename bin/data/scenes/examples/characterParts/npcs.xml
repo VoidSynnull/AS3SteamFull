@@ -1,0 +1,89 @@
+<npcs>
+	<npc id="redHead">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xFF0303</hairColor>
+		</skin>
+		<position>
+			<x>800</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="orangeHead">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xFF9E03</hairColor>
+		</skin>
+		<position>
+			<x>1000</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="greenHead" dynamicParts="true">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x35FF03</hairColor>
+		</skin>
+		<position>
+			<x>1200</x>
+			<y>920</y>
+		</position>
+		<scale>.6</scale>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="blueHead">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x30FFF5</hairColor>
+			<hair>dinerwaitress</hair>
+		</skin>
+		<position>
+			<x>1400</x>
+			<y>920</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="purpleHead" dynamicParts="true">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xA53BCC</hairColor>
+			<shirt>2</shirt>
+			<hair>1</hair>
+			<item>empty</item>
+		</skin>
+		<position>
+			<x>1600</x>
+			<y>920</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="purpleHead" event="change_purple_look">
+		<skin>
+			<shirt>3</shirt>
+			<hair>2</hair>
+			<item>spear</item>
+		</skin>
+	</npc>
+</npcs>

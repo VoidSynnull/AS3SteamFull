@@ -1,0 +1,13 @@
+<part>
+	<id>mc_hammer</id>
+	<type>item</type>
+	<specialAbility id="hammer">
+		<className>game.data.specialAbility.islands.carnival.CarnivalHammer</className>
+		<parameters>
+			<param id="color">0xFDFD64</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

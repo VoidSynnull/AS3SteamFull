@@ -1,0 +1,18 @@
+<tracking>
+	<track id="poppy">
+		<event>EngagedInsideNPC</event>
+		<choice>Poppy</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="branch">
+		<event>EngagedInsideNPC</event>
+		<choice>Branch</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>false</triggerImpression>
+	</track>
+</tracking>

@@ -1,0 +1,68 @@
+<item id="2018"> <!-- Change this card ID -->
+	<type>custom</type>
+	<subType>general</subType>
+	<name>GHD Test Fred Follower</name> <!-- *** Change this card name -->
+  	<campaignID>GHDTestBB</campaignID> <!-- *** Change this CMS name -->
+	
+		
+		<buttons>
+			<btn>
+				<index>1</index>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+			<btn>
+				<index>1</index>
+				<conditional id="hasAbility" isTrue="false"/>
+				<label>FOLLOW</label>
+				<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			
+			<btn>
+				<index>0</index>
+				<label>VISIT WEBSITE</label>
+				<actions>
+					<action type="gotoUrl" tracking="true" />
+				</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="limited">
+				<value>FOR A LIMITED TIME ONLY</value>
+			</text>
+			<text id="subtitle">
+				<value>Galactic Hot Dogs</value> <!-- Change this subtitle -->
+			</text>
+			<text id="adtitle">
+				<value>F.R.E.D. Follower</value> <!-- Change this title -->
+			</text>
+			<text id="ad">
+				<value>ADVERTISEMENT</value>
+			</text>
+		</textfields>
+	
+		<assets>
+			<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+			<asset id="cardContent"/>
+		</assets>
+		
+	<specials>
+		<specialAbility>follower_fred</specialAbility>
+	</specials>
+	
+	<conditionals>
+		<conditional type="hasAbility" />
+	</conditionals>
+</item>

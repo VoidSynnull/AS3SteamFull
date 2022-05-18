@@ -1,0 +1,33 @@
+<hits>
+	<hit id="concrete" color="0x00CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sign" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plank" color="0xFF66FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sandBag" color="0x6633CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pipe" color="0xCCFF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+</hits>

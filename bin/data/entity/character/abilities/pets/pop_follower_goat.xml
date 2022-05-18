@@ -1,0 +1,30 @@
+<specialAbility id="pets/pop_follower_goat">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">6002</param>
+		<param id="eyeState">open</param>
+		<param id="skinColor">0xFCF2D9</param>
+		<param id="headFrame">goat</param>
+		<param id="mouthFrame">goat</param>
+		<param id="bodyFrame">goat</param>
+		<param id="marksFrame">goat_ears</param>
+		<param id="tailFrame">goat</param>
+		<param id="paw1Frame">goat</param>
+		<param id="paw2Frame">goat</param>
+		<param id="paw3Frame">goat</param>
+		<param id="paw4Frame">goat</param>
+		<param id="calf1Frame">goat_front</param>
+		<param id="calf2Frame">goat_front</param>
+		<param id="calf3Frame">goat_back</param>
+		<param id="calf4Frame">goat_back</param>
+		<param id="thigh1Frame">goat_front</param>
+		<param id="thigh2Frame">goat_front</param>
+		<param id="thigh3Frame">goat_back</param>
+		<param id="thigh4Frame">goat_back</param>
+		<param id="variant">pet_babyquad</param> <!-- for AS3 -->
+		<param id="pet">babyquad</param> <!-- for AS2 -->
+		<param id="isStore">true</param> <!-- for AS2 -->
+	</parameters>
+</specialAbility>

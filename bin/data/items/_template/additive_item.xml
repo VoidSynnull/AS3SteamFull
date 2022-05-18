@@ -1,0 +1,71 @@
+<item id="additive_item">
+	<type>island</type>
+	<subType>example</subType>
+	
+	<contentClass>
+		<className>game.ui.card.MultiFrameContentView</className>
+		<parameters>
+			<param>items/con3/soda.swf</param>
+		</parameters>
+	</contentClass>
+	
+	<textfields>
+ 		<text id="title">
+ 			<conditional id="one_soda" isTrue="true"/>
+      		<value>Energy Drink</value>
+    	</text>
+ 		<text id="title">
+ 			<conditional id="one_soda" isTrue="false"/>
+      		<value>Energy Drinks</value>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>0</brightness>
+     			<contrast>0</contrast>
+     			<saturation>0</saturation>
+     			<hue>-67</hue>
+    		</effect>
+    	</asset>
+    </assets>
+    
+    <buttons>
+  		<btn>
+    		<label>USE</label>
+    		<actions>
+	    		<action type="triggerEvent">
+		  			<parameters>
+		  				<param id="event">use_soda</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+	</buttons>
+
+    <conditionals>
+    	<conditional type="checkEvents" id="one_soda">
+    		<parameters>
+		  		<param id="event">one_soda</param>
+		  		<param id="true">one</param>
+			</parameters>
+    	</conditional>
+    	
+    	<conditional type="checkEvents" id="two_soda">
+    		<parameters>
+		  		<param id="event">two_soda</param>
+		  		<param id="true">two</param>
+			</parameters>
+    	</conditional>
+    	
+    	<conditional type="checkEvents" id="three_soda">
+    		<parameters>
+		  		<param id="event">three_soda</param>
+		  		<param id="true">three</param>
+			</parameters>
+    	</conditional>
+    </conditionals>
+    
+</item>

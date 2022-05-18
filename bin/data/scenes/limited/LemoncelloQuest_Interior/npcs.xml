@@ -1,0 +1,45 @@
+<npcs>
+	<npc id="Kyle">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xBFA66A</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>vendor</mouth>
+			<hair>hades2</hair>
+		  	<shirt>limited_kyle</shirt>
+		  	<pants>limited_kyle</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>960</x>
+			<y>1035</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Akimi">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xECCDAA</skinColor>
+			<hairColor>0x32281F</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullnavigator</mouth>
+			<hair>pgamergirl</hair>
+		  	<pants>ad_marshall</pants>
+			<shirt>limited_akimi</shirt>
+		  	<overpants>astrogossip3</overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1700</x>
+			<y>1035</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

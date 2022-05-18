@@ -1,0 +1,20 @@
+<part>
+	<id>pmthsumo4</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.BigStomp</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+  	</specialAbility>
+</part>

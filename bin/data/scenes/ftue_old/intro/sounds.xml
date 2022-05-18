@@ -1,0 +1,12 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Drive.mp3</asset>
+		<asset exclusiveType="true" triggeredByEvent="raceMusic">adventure_race_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true">winter_wind_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="airplane_prop" loop="true" fade="true">Plane_L_loop_01_loop.mp3</asset>
+	</sound>
+</sounds>

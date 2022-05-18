@@ -1,0 +1,89 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tub" color="0xF4F4E7" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="faucet" color="0xC7DCD1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="paperRoll" color="0xEBE8DC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="plunger" color="0xD8CDA2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="toilet" color="0xEFE7CB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="magazineHolder" color="0xBBA895" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="toiletPaper" color="0xE7E7DD" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="soapHolder" color="0xEAEAD5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cork" color="0xBBAD9E" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="duckPlatHit" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="soapPlatHit" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="handleCollider" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="water">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

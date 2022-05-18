@@ -1,0 +1,70 @@
+<part>
+	<id>store_xray</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">facial</param> 
+						<param id="partId" type="string">skeleton</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">overshirt</param> 
+						<param id="partId" type="string">skeleton</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">hair</param> 
+						<param id="partId" type="string">empty</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">overpants</param> 
+						<param id="partId" type="string">empty</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">marks</param> 
+						<param id="partId" type="string">empty</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">pack</param> 
+						<param id="partId" type="string">empty</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" endDelay="2">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+						<param id="partType" type="string">pants</param> 
+						<param id="partId" type="string">empty</param> 
+					</parameters>
+				</action>
+				<action class="RevertSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">NPCS</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

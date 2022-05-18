@@ -1,0 +1,42 @@
+<part>
+	<id>limited_sparkle_power</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"/>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/JTeamVBB/spotlights_with_sparkles.swf</param>
+			<param id="tracking">JTeamVBB,Sparkle Power</param>
+
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param> 
+					</parameters>
+				</action>
+			<action class="AudioAction" >
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/JTeamVBB/uni_10.mp3</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="part" type="string">item</param> 
+						<param id="start" type="string">sparkle</param> 
+						<param id="mode" type="string">gotoAndPlay</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,30 @@
+<dialogs>
+	<character id="scientist">
+	<statement>You're a hero!</statement>
+	 <statement id="sayDelivery">Chinese food delivery for Joe Stockman.</statement>
+ 	<statement id="sayItsFree">It says your name right here. It also says 'paid in full.'</statement>
+	 <statement id="sayHereYouGo">Here you go.</statement>
+    </character>
+	<character id="joe">
+		<statement link="pilot" linkEntityId="player">Uh... who are you again?</statement>
+		<statement id="sayDidntOrder">I didn't order Chinese food.</statement>
+		<statement id="sayThatsMyOrder">That's my order, all right!</statement>
+		<statement id="sayDinnerTime">Mmmm... Dinner time.</statement>
+		<statement id="sneeze">A-CHOO</statement>
+		<statement id="endConvo2">Hey, what's - OW! - what's going on?</statement>
+		<statement id="endConvo4">Say what?</statement>
+		<statement id="endConvo6">Woo-hoo! My mom always said I'd do great things.</statement>
+	</character>
+	<character id="player">
+		<statement id="endConvo7">Hey, don't I get any credit?</statement>
+		<statement id="pilot">Just a pilot.</statement>
+	</character>
+<character id="drlange">
+<statement>Thanks for your help.</statement>
+<statement id="endConvo1">Take a blood sample! We need to get the vaccine into production as soon as possible.</statement>
+	<statement id="endConvo3">Your body has manufactured a cure for the most dangerous virus we've ever seen!</statement>
+	<statement id="endConvo5">You're a hero, Joe! You've just saved the world!</statement>
+	<statement id="endConvo8">This was a black op. No one must ever know of your involvement. The best we can do is give you this.</statement>
+    </character>
+
+</dialogs>

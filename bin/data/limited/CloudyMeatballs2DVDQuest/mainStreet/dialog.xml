@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Join me on a wild river adventure inside</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

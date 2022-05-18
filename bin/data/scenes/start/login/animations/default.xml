@@ -1,0 +1,53 @@
+<animations>
+<!-- type: bottom, left, right, top (side the animation comes from) -->
+<!-- prefix: url prefix for finding the asset -->
+<!-- time: time it takes animation to cross the screen -->
+<!-- ease: in, out, inout, none -->
+	<group type="bottom" prefix="scenes/start/login/animations/bottom/">
+		<animation time="10" ease="in">balloon_boy.swf</animation>
+		<animation time="10" ease="in">girl_with_balloons.swf</animation>
+		<animation time="10" ease="in">super_hero.swf</animation>
+		<animation time="10" ease="none">biarnary_bard_hovercraft.swf</animation>
+		<animation time="10" ease="in">flying_saucer1.swf</animation>
+		<animation time="10" ease="in">flying_saucer2.swf</animation>
+		<animation time="10" ease="in">hot_air_balloon.swf</animation>
+		<animation time="10" ease="in">spaceshuttle1.swf</animation>
+		<animation time="10" ease="in">spaceshuttle2.swf</animation>
+	</group>
+	<group type="left" prefix="scenes/start/login/animations/left/">
+		<animation time="10" ease="none">blue_plane.swf</animation>
+		<animation time="10" ease="in">GHD_spaceship.swf</animation>
+		<animation time="10" ease="none">jet.swf</animation>
+		<animation time="10" ease="none">pirate_blimp.swf</animation>
+		<animation time="10" ease="none">poptropica_blimp.swf</animation>
+		<animation time="10" ease="none">red_baron_plane.swf</animation>
+		<animation time="10" ease="in">rocket.swf</animation>
+		<animation time="10" ease="none">tan_plane.swf</animation>
+	</group>
+	<group type="right" prefix="scenes/start/login/animations/right/">
+		<animation time="10" ease="inout">alien_drone.swf</animation>
+		<animation time="10" ease="none">baby_green_dragon.swf</animation>
+		<animation time="10" ease="none">balloon_animal.swf</animation>
+		<animation time="10" ease="inout">bee.swf</animation>
+		<animation time="10" ease="none">blue_bat.swf</animation>
+		<animation time="10" ease="none">blue_dragon.swf</animation>
+		<animation time="10" ease="none">canary.swf</animation>
+		<animation time="10" ease="in">dark_knight_jet.swf</animation>
+		<animation time="10" ease="none">dryad.swf</animation>
+		<animation time="10" ease="inout">flying_carpet.swf</animation>
+		<animation time="10" ease="none">gameshow_robot.swf</animation>
+		<animation time="10" ease="none">green_parrot.swf</animation>
+		<animation time="10" ease="none">red_dragon.swf</animation>
+		<animation time="10" ease="none">seagull.swf</animation>
+		<animation time="10" ease="none">sprocket.swf</animation>
+		<animation time="10" ease="none">underworld_brown_bat.swf</animation>
+		<animation time="10" ease="none">vampire_bat.swf</animation>
+		<animation time="10" ease="in">witch_on_broom.swf</animation>
+		<animation time="10" ease="none">yellow_dragon.swf</animation>
+	</group>
+	<group type="top" prefix="scenes/start/login/animations/top/">
+		<animation time="3" ease="in">anvil.swf</animation>
+		<animation time="3" ease="in">safe.swf</animation>
+		<animation time="10" ease="in">giant_bird_feather.swf</animation>
+	</group>
+</animations>

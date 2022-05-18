@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="move_trash">drag_trash_01.mp3,drag_trash_02.mp3,drag_trash_03.mp3</asset>
+		<asset triggeredByEvent="trash_land">ls_general_rubbish_01.mp3,ls_general_rubbish_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="door01">enter_exit_trash_01.mp3</asset>
+		<asset id="door02">enter_exit_trash_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="popsicle">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="straw">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="generalTrash">fs_general_rubbish_01.mp3, fs_general_rubbish_02.mp3, fs_general_rubbish_03.mp3, fs_general_rubbish_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="popsicle">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="straw">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="generalTrash">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+	</sound>
+</sounds>

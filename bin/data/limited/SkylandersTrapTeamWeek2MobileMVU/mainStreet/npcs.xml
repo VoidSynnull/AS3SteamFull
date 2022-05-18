@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x00aab1</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>limited_skylandertwo</facial>
+			<shirt>limited_skylandertwo</shirt>
+			<pack>limited_skylandertwo</pack>
+			<item>limited_skylandertwo</item>
+			<overshirt>limited_skylandertwo</overshirt>
+			<pants>1</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-50</x>
+			<y>467</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="player">
+		<statement id="ferrisWheelWrong" link="ferrisAnswerWrong" linkEntityId="ferrisWheelWorker">What's wrong?</statement>
+		<statement id="ferrisWheelFix" link="ferrisAnswerFix" linkEntityId="ferrisWheelWorker">Can you fix it?</statement>
+		<statement id="doorClosed">This ride isn't open.</statement>
+	</character>
+    
+    <character id="ferrisWheelWorker">
+		<statement id="wheelTooFast" link="ferrisWheelWrong" linkEntityId="player">These people sure are going to be disappointed, but I can't let them ride this thing.</statement>
+		<statement id="findLever">This thing needs a new lever!</statement>
+		<statement id="ferrisAnswerWrong" link="ferrisWheelFix" linkEntityId="player">I can't get this wheel to slow down, not as long as this lever is broken!</statement>
+		<statement id="ferrisAnswerFix" triggerEvent="triggerEvent" triggerEventArgs="closeOpeningDialog">Naw, it's beyond repair. I need a new one.</statement>
+		<statement id="fixedFerrisWheel" triggerEvent="triggerEvent" triggerEventArgs="wheelFixed">You've saved the day!</statement>
+    </character>
+  
+	<character id="edgar">
+		<statement id="weCanOpen" triggerEvent="triggerEvent" triggerEventArgs="openCarnival">You did it! We can open the carnival!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,55 @@
+<tracking>
+	<track id="game">
+		<event>OpenedPopup</event>
+		<choice>Entered</choice>
+		<subchoice>Game</subchoice>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Left</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Middle</subchoice>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Right</subchoice>
+	</track>
+		<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="kiki">
+		<event>EngagedInsideNPC</event>
+		<choice>Kiki</choice>
+	</track>
+		<track id="rosie">
+		<event>EngagedInsideNPC</event>
+		<choice>Rosie</choice>
+	</track>
+		<track id="pango">
+		<event>EngagedInsideNPC</event>
+		<choice>Pango</choice>
+	</track>
+		<track id="carmello">
+		<event>EngagedInsideNPC</event>
+		<choice>Carmello</choice>
+	</track>
+		<track id="epi">
+		<event>EngagedInsideNPC</event>
+		<choice>Epi</choice>
+	</track>
+	
+		<track id="scrubby">
+		<event>EngagedInsideNPC</event>
+		<choice>Scrubby</choice>
+	</track>
+		<track id="robinson">
+		<event>EngagedInsideNPC</event>
+		<choice>Robinson</choice>
+	</track>
+</tracking>

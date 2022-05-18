@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="polly">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="start">Let's go tiny and find the lost compacts!</statement>
+    </character>
+	<character id="brunette">
+		<statement>Watch this awesome video!</statement>
+		<statement event="setWinDialog">I would usually caution shrinking to a tiny size. You can trust Polly. Have fun with the Polly Shrink Power!</statement>
+    </character>
+	<character id="boy">
+		<statement>Did you go tiny?</statement>
+		<statement event="setWinDialog">I'm extremely observant. You went tiny didn't you? Nothing slips by me.</statement>
+    </character>
+	<character id="redhead">
+		<statement event="setWinDialog">I just love new outfits! You can dress up to look like me, Polly, and Shani. Try on the Polly Pocket Outfits.</statement>
+		<statement>Please help Polly find the missing compacts.</statement>
+		
+    </character>
+</dialogs>

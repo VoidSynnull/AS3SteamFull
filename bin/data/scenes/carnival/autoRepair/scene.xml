@@ -1,0 +1,50 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>10</left>
+		<top>0</top>
+		<right>1905</right>
+		<bottom>1035</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>30</left>
+		<top>0</top>
+		<right>1890</right>
+		<bottom>978</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,items.xml</data>
+	<assets></assets>
+	<layers>
+		<layer id="backdrop">
+			<asset>backdrop.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="backdrop_evening" event="set_evening">
+			<asset>backdrop_evening.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="backdrop_night" event="set_night">
+			<asset>backdrop_night.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>450</x>
+			<y>978</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

@@ -1,0 +1,23 @@
+<npcs>
+  <npc id="rebecca">
+    <skin>
+		<gender>female</gender>
+		<skinColor>0xFBDFCB</skinColor>
+		<hairColor>0x513B2B</hairColor>
+		<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+		<mouth>limited_tsbrjess</mouth> <!-- use frame label for numbers after 60 -->
+		<hair>43</hair>
+		<shirt>limited_rebecca</shirt>
+		<pants>limited_rebecca</pants>
+    </skin>
+		<direction>left</direction>
+		<position>
+			<x>690</x>
+			<y>575</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

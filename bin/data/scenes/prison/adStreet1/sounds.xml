@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset baseVolume="0.5">free_poptropican.mp3</asset>
+	</sound>
+	
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="pipe">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="clip_pipe">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="corridor_concrete">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="cell_concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="cell_bed">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="pipe">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="clip_pipe">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="corridor_concrete">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="cell_concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="cell_bed">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+	</sound>
+</sounds>

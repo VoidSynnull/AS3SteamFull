@@ -1,0 +1,35 @@
+<part>
+	<id>limited_poptastic</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2637</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">PoptasticGame,Transformation Power</param>
+			<param id="hideDress">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">limited_balloondog,limited_balloonrabbit,limited_balloonfrog</param>
+					</parameters>
+				</action>
+				<action class="HideSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pants</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

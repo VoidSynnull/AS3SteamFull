@@ -1,0 +1,80 @@
+<dialogs>
+
+	<character id="coalMan">
+		<statement>Welcome aboard!</statement>
+	</character>
+		
+	<character id="tesla">
+		<conversation event="teslaBeforeSendsYouToRoom">
+			<exchange>
+				<question>I'm sorry. The evidence was all pointing at you.</question>
+				<answer>I have no idea how that device ended up in my trunk. But we've got bigger problems now!</answer>
+			</exchange>
+			<exchange>
+				<question>What's the matter?</question>
+				<answer>I left something very important in my cabin when I was arrested. Now it's sitting there unprotected!</answer>
+			</exchange>
+			<exchange>
+				<question>Can I help?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="askedForPencil,true">Yes - do you have something I can write with?</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="teslaGivesYouSketch" triggerEvent="giveItem" triggerEventArgs="sketchOfTeslasCabin">Here is a sketch of what my cabin looked like when they locked me up. Go to my cabin and see if you can find anything different.</statement>
+		
+		<statement event="teslaSendsYouToRoom">Go to my cabin and see if you can find anything different.</statement>
+		
+		<statement event="teslaAfterSendsYouToRoom">Show me on the sketch what is different.</statement>
+		
+		<conversation event="teslaOpenBriefcase">
+			<exchange>
+				<question>The briefcase was open.</question>
+				<answer>Oh no!</answer>
+			</exchange>
+			<exchange>
+				<question>What's the matter?</question>
+				<answer>That briefcase contained my most important invention! The Fair can’t go on without it!</answer>
+			</exchange>
+			<exchange>
+				<question>How did somebody open it?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="briefcaseChat,true">I... I don’t know. The key is still around my neck!</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation event="houdiniSaved">
+			<exchange>
+				<question>All right, Tesla, come clean. What were you hiding?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="teslaReleaseChat,true">Let me out of here and I'll talk.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="gotItem_sketchOfTeslasCabin">Find my transformer!</statement>
+		
+		<statement event="releasedTesla" link="releasedTesla2">I was carrying a small transformer capable of powering the Ferris Wheel.</statement>
+		<statement id="releasedTesla2" triggerEvent="triggerEvent" triggerEventArgs="releasedTesla2,true">Only this device would provide enough electricity to power the Ferris Wheel.</statement>
+		
+		<statement triggeredByEvent="releasedTesla3" event="getItem_transformerSketch">Egotistic fools – nobody wants to be upstaged by the Wheel!</statement>
+			
+		<statement event="releasedTesla4">I was carrying a small transformer capable of powering the Ferris Wheel.</statement>
+	</character>
+
+	<character id="conductor">
+		<statement event="trainStarted">Full steam ahead!</statement>
+		
+		<statement link="leaveTrainResponse">Want to get off the train and visit another Island?</statement>
+		<conversation id="leaveTrainResponse">
+			<exchange>
+				<question>Yes, please let me off at the next stop.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="ask_to_disembark">Sure thing.</answer>
+			</exchange>
+			<exchange>
+				<question>No, I'll stay on the train.</question>
+				<answer>Then move to the passenger cars, please.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="player">
+    	<statement triggeredByEvent="releasedTeslaResponse" triggerEvent="triggerEvent" triggerEventArgs="releasedTeslaReply,true">Why would somebody steal that?</statement>
+    </character>
+</dialogs>

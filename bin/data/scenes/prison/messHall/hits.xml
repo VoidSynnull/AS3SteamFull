@@ -1,0 +1,57 @@
+<hits>
+	<hit id="table" color="0x33CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="concrete" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="pipe" color="0x9966FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xFF0099" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="kitchenBlocker" color="0x996666">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="foodfightwall" color="0xcc6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="escapeWall" color="0x003300">
+		<component type="wall"/>
+	</hit>
+	<hit id="escapeFloor" color="0x006666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="escapeAir" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-3000</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

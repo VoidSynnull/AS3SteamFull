@@ -1,0 +1,13 @@
+<part>
+	<id>limited_blazy</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<save>true</save>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<parameters>
+			<param id="front">limited_blazey_foot</param>
+			<param id="back">limited_blazey_foot</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,32 @@
+<dialogs>
+	<character id="vanBuren">
+		<statement id="lucky" link="go_home" linkEntityId="player">You're lucky we found you! And just in time for tomorrow's big hunt.</statement>
+		<statement id="nonsense" link="trophy_room">Nonsense. You shan't pass up an opportunity to hunt with the greatest big game hunter in the world!</statement>
+		<statement id="trophy_room" triggerEvent="triggerEvent" triggerEventArgs="to_the_trophies">Come to my trophy room if you're not convinced.</statement>
+    </character>
+    
+    <character id="winston">
+    	<statement id="startled">Who's there?</statement>
+    	<statement id="dinner">The master will receive you in the Banquet Room.</statement>
+    	<statement id="caught">You must be lost. Back to the room you go.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="go_home" triggerEvent="triggerEvent" triggerEventArgs="nonsense_boy">I'd really rather go home.</statement>
+    	<statement id="need_trophy_room_key">There must be a key to this door somewhere...</statement>
+    	<statement id="fragile">That seems fragile. I should leave it alone for now.</statement>
+    	<statement id="too_hot">Wow, it's hot!</statement>
+    	<statement id="get_on_with_it">I should go to the Trophy Room so I can get out of here.</statement>
+    	<statement id="must_escape">This door won't budge.  There must be a way to disable the security lock.</statement>
+    	<statement id="nom_noms">Van Buren wants me in the Banquet Room... I guess a quick bite couldn't hurt.</statement>
+    	<statement id="no_recording">Drat, it must be keyed to Van Buren's voice!</statement>
+    	<statement id="tally_ho">I should try that voice recording I found.</statement>
+    </character>
+    
+    <character id="securityInteraction">
+    	<statement id="keycode">Please enter keycode.</statement>
+    	<statement id="authorization" triggerEvent="triggerEvent" triggerEventArgs="voice_authorization">Please enter voice authorization.</statement>
+		<statement id="acceptedKey">Security code accepted.</statement>
+		<statement id="acceptedVoice">Voice password accepted.</statement>
+    </character>
+</dialogs>

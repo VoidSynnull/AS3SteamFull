@@ -1,0 +1,48 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+		<asset id="rightExit">n</asset>
+		<asset id="leftExit">n</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="floor">ls_linoleum _01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="plastic">ls_hollow_plastic_01.mp3,ls_hollow_plastic_02.mp3</asset>
+		<asset id="vent">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3,ls_bounce_02.mp3</asset>
+		<asset id="escalator">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+		<asset id="bamboo">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="plastic">fs_hollow_plastic_01.mp3,fs_hollow_plastic_02.mp3,fs_hollow_plastic_03.mp3,fs_hollow_plastic_04.mp3</asset>
+		<asset id="vent">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+		<asset id="escalator">fs_general_metal_01.mp3,fs_general_metal_02.mp3,fs_general_metal_03.mp3,fs_general_metal_04.mp3</asset>
+		<asset id="bamboo">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>	
+	</sound>
+	<sound type="effects" >
+		<asset event="waterfoutain">water_fountain_large_01_loop.mp3</asset>
+		<asset event="escHum">conveyor_belt_01_L.mp3</asset>
+		<asset event="elavator_buttonPressed">switch_02.mp3</asset>
+		<asset event="elavator_ping">elevator_ping_02.mp3</asset>
+		<asset event="snakeHiss">snake_hiss_02.mp3</asset>
+		<asset event="toyBird">toy_bird.mp3</asset>
+		<asset event="robotSparks">electric_zap_02.mp3</asset>
+		<asset event="gulp">drink_soda_01.mp3</asset>
+		<asset event="elevator_door_open">elevator_door_open_01.mp3</asset>
+		<asset event="elevator_door_close">elevator_door_close_01.mp3</asset>	
+		<asset event="cutLock">cut_lock_01.mp3</asset>
+		<asset event="pizza_dough_bounce">fs_squishy_muck_01.mp3</asset>
+		<asset event="pizza_dough_lands">squish_01.mp3</asset>
+		<asset event="drink_dispense">drink_dispensor_01_L.mp3</asset>
+	</sound>
+</sounds>

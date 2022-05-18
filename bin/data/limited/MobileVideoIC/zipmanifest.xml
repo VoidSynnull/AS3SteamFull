@@ -1,0 +1,27 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MobileVideoIC/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/PeanutsMovieVideoIC/" ext="swf">
+		<asset>PeanutsMovie_VideoCard</asset>
+	</assets>
+	
+
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2738</asset>
+	</data>
+	
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2738</asset>
+	</assets>
+	
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+	
+	
+</manifest>

@@ -1,0 +1,14 @@
+<specialAbility id="pop_follower_spring_chicken">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">spring_chicken</param>
+		<param id="variant">creature</param>
+		<param id="skinColor">0xFF6A17</param>
+		<param id="hairColor">0xFF6A17</param>
+		<param id="facialFrame">spring_chick_follower</param>
+		<param id="eyeState">open</param>
+		<param id="scaleSize">.4</param>
+	 </parameters>
+</specialAbility>

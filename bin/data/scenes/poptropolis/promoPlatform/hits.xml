@@ -1,0 +1,32 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="chamber" color="0x33CC00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="floaty" color="0x339900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="boat" color="0x336600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="basket" color="0x66FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF5CBFE9</splashColor1>
+			<splashColor2>0x3326A9E0</splashColor2>26A9E0
+		</component>
+	</hit>
+</hits>

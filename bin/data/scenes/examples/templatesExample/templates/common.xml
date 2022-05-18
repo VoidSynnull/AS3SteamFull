@@ -1,0 +1,10 @@
+<components>
+<system class="game.systems.motion.SceneObjectMotionSystem"/>
+<component class="game.components.entity.collider.BitmapCollider"/>
+<component class="game.components.motion.SceneObjectMotion">
+	<properties>
+		<rotateByVelocity>true</rotateByVelocity>
+	</properties>
+</component>
+<component class="game.components.hit.CurrentHit"/>
+</components>

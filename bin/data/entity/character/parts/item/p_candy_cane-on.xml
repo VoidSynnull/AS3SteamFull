@@ -1,0 +1,21 @@
+<part>
+	<id>p_candy_cane-on</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+
+	<specialAbility>
+	<className>game.data.specialAbility.character.ThrowItem</className>
+	<parameters>
+	  	<param id="swfPath">particles/snowball.swf</param>
+	  	<param id="offsetX">40</param>
+	  	<param id="offsetY">5</param>
+	  	<param id="speedX">1500</param>
+	  	<param id="speedY">-100</param>
+	  	<param id="gravity">500</param>
+	  	<param id="friction">0</param>
+	  	<param id="hideInHand">false</param>
+		<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+		<param id="triggerLabel">pointing</param>
+	</parameters>
+	</specialAbility>
+</part>

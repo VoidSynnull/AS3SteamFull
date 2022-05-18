@@ -1,0 +1,38 @@
+<item id="3527"> <!-- Fall 1 Male -->
+	<type>store</type>
+	<subType>general</subType>
+	
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+			<text id="storeTitle">
+			<value>Fall Fashion 1</value>
+		</text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<hair>stor_fall_top_hat</hair>
+				<shirt>stor_fall_stripes</shirt>
+				<pants>stor_fall_belt_white</pants>
+		 	<overshirt>stor_fall_sweater_blue</overshirt>
+		 	<pack>stor_fall_bookbag_green</pack>
+		 	</look> 
+	</looks>
+</item>

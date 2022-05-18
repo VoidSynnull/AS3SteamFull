@@ -1,0 +1,128 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/TrollsWorldTourQuest/" ext="xml">
+		<asset>MusicGame</asset>
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/TrollsWorldTourQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/TrollsWorldTourQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>message1</asset>
+		<asset>message2</asset>
+		<asset>message3</asset>
+		<asset>foreground</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/TrollsWorldTourQuest/" ext="swf">
+		<asset>StartMusicGame</asset>
+		<asset>WinMusicGame</asset>
+		<asset>LoseMusicGame</asset>
+		<asset>MusicGame</asset>
+		<asset>barb</asset>
+		<asset>biggie</asset>
+		<asset>branch</asset>
+		<asset>poppy</asset>
+		<asset>tinydiamond</asset>
+		<asset>glitter_spray_lighter</asset>
+	</assets>
+
+	<!-- followers -->
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_tiny_diamond</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2002</asset>
+		<asset>2001</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2002</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>kissStart</asset>
+		<asset>guitarLoop</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>crusoes_castaway</asset>
+		<asset>mfb_battle_intro_loud</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>fs_plastic_01</asset>
+		<asset>fs_plastic_02</asset>
+		<asset>fs_plastic_03</asset>
+		<asset>fs_plastic_04</asset>
+		<asset>ls_plastic_01</asset>
+		<asset>ls_plastic_02</asset>
+		<asset>fs_grass_01</asset>
+		<asset>fs_grass_02</asset>
+		<asset>fs_grass_03</asset>
+		<asset>fs_grass_04</asset>
+		<asset>ls_grass_01</asset>
+		<asset>ls_grass_02</asset>
+		<asset>fs_general_metal_01</asset>
+		<asset>fs_general_metal_02</asset>
+		<asset>fs_general_metal_03</asset>
+		<asset>fs_general_metal_04</asset>
+		<asset>ls_general_metal_01</asset>
+		<asset>ls_general_metal_02</asset>
+		<asset>electric_strum_01</asset>
+		<asset>dissonant_guitar_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>trolls_barf</asset>
+		<asset>trolls_diamond</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>trolls_barf</asset>
+		<asset>trolls_diamond</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>ppunkgirl1</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>ppunkgirl1</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>trolls_diamond</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>trolls_diamond</asset>
+	</assets>
+</manifest>

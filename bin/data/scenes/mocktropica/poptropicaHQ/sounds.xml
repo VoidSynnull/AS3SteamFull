@@ -1,0 +1,34 @@
+<sounds>
+
+	<sound type="music">
+		<asset loop="true" fade="true">PoptropicaHQ.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_01.mp3</asset>
+		<asset id="doorBasement">door_heavy_wood_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>	
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>	
+		<asset id="elevatorFloor">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>	
+		<asset id="metalDesk">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>	
+		<asset id="cabinet">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>	
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>	
+		<asset id="elevatorFloor">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="metalDesk">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="cabinet">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	
+</sounds>

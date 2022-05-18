@@ -1,0 +1,69 @@
+<character variant="mannequin" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<parts>
+		<part id="pack" optional="true">
+			<joint>pack</joint>
+			<partType>pack</partType>
+			<springTo>body</springTo>
+		</part>
+		<part id="hair" optional="true">
+			<joint>hair</joint>
+			<partType>hair</partType>
+			<springTo>head</springTo>
+		</part>
+		<part id="bodySkin">
+			<joint animDriven="true">body</joint>
+			<partType>bodySkin</partType>
+		</part>
+		<part id="pants" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>pants</partType>
+		</part>
+		<part id="shirt" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>shirt</partType>
+		</part>
+		<part id="overpants" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>overpants</partType>
+		</part>
+		<part id="overshirt" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>overshirt</partType>
+		</part>
+		<part id="neck">
+			<joint animDriven="true" ignoreRotation="true">neck</joint>
+		</part>
+		<part id="headSkin">
+			<joint>head</joint>
+			<partType>headSkin</partType>
+			<springTo>neck</springTo>
+		</part>
+		<part id="marks" optional="true">
+			<joint>head</joint>
+			<partType>marks</partType>
+			<springTo>neck</springTo>
+		</part>
+		<part id="eyes" optional="true">
+			<joint>head</joint>
+			<partType>eyes</partType>
+			<springTo>neck</springTo>
+		</part>
+		<part id="mouth" optional="true">
+			<joint>head</joint>
+			<partType>mouth</partType>
+			<springTo>neck</springTo>
+		</part>
+		<part id="facial" optional="true">
+			<joint>head</joint>
+			<partType>facial</partType>
+			<springTo>neck</springTo>
+		</part>
+		<part id="item" optional="true">
+			<joint>item</joint>
+			<partType>item</partType>
+			<springTo>hand1</springTo>
+		</part>
+	</parts>
+</character>
+
+

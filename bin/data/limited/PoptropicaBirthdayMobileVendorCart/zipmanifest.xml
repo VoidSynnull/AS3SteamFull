@@ -1,0 +1,39 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PoptropicaBirthdayMobileVendorCart/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<data type="game" path="data/limited/PoptropicaBirthdayMobileVendorCart/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/PoptropicaBirthdayMobileVendorCart/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<assets type="support" path="assets/specialAbility/objects/balloons/" ext="swf">
+		<asset>birthday8</asset>
+	</assets>
+	
+		<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2713</asset>
+	</data>
+	
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2713</asset>
+	</assets>
+
+	<assets type="cardBack" path="assets/items/shared/" ext="swf">
+		<asset>PaidLimitedBackground</asset>
+	</assets>
+	
+	
+</manifest>

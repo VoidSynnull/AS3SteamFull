@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement>Click to get the prize if you must, foolish mortal.</statement>
+		<statement triggeredByEvent="npcProximity">Hello</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

@@ -1,0 +1,80 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoBatmanPuzzleQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+		<asset>Puzzle</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoBatmanPuzzleQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoBatmanPuzzleQuest_Interior/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/LegoBatmanPuzzleQuest/" ext="swf">
+		<asset>batman</asset>
+		<asset>robin</asset>
+		<asset>batgirl</asset>
+		<asset>StartPuzzle</asset>
+		<asset>WinPuzzle</asset>
+		<asset>LosePuzzle</asset>
+		<asset>Puzzle</asset>
+		<asset>batmobilePrize</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2861</asset>
+		<asset>2862</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2861</asset>
+		<asset>2862</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundLegoBatman</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>epic_boss_battle</asset>
+		<asset>mighty_action_force</asset>
+	</assets>
+	
+	<!-- avatar parts -->
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>batarang</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>batarang</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+		<asset>legobatman_belt</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+		<asset>legobatman_belt</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE photos SYSTEM 'photos.dtd'>
+<photos>
+	<photo id="11714" trigger="event">
+		<!-- this one is tricky because the photo is not awarded
+		in the same scene as the event is triggered -->
+		<param id="eventName">destroyed_rabbot</param>
+	</photo>
+</photos>

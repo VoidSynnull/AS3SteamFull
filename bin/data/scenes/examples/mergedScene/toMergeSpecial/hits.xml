@@ -1,0 +1,10 @@
+<hits>
+	<hit id="bloodWater" color="0xffffff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFFff0000</splashColor1>
+			<splashColor2>0x33ff0000</splashColor2>
+			<density>1</density>
+		</component>
+	</hit>
+</hits>

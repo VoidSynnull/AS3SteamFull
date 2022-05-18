@@ -1,0 +1,69 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/Pebbles2019MVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/Pebbles2019MVU/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/Pebbles2019MVU/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- bitmap npcs -->
+	<assets type="game" path="assets/limited/Pebbles2019MVU/" ext="swf">
+		<asset>npc</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2948</asset>
+		<asset>2949</asset>
+
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2948</asset>
+		<asset>2949</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>guitar</asset>
+	</data>
+
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>pebbles</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>pebbles</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>pebbles</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>pebbles</asset>
+	</assets>
+
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>post_guitar</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>post_guitar</asset>
+	</assets>
+
+</manifest>

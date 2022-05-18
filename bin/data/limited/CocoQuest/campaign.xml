@@ -1,0 +1,38 @@
+<campaign>
+  	<campaignId>CocoQuest</campaignId> <!-- Must match CMS name in CMS -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.google.com</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">http://www.amazon.com</clickUrl> <!-- if needing different clickURL for cards -->
+	</clickUrls>
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+		<impressions id="Poster">
+			<impression type="standard">https://ad.doubleclick.net</impression>
+			<impression type="moat">https://z.moatads.com</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536</impression>
+		</impressions>
+	</impressionOnClicks>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net</impression>
+			<impression type="moat">https://z.moatads.com</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536</impression>
+		</impressions>
+	</impressionUrls>
+	<cards>
+		<card>2859</card>
+		<card>2860</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2859</card>
+		<card>2860</card>
+	</boycards>
+	<girlcards>
+		<card>2859</card>
+		<card>2860</card>
+	</girlcards>
+</campaign>

@@ -1,0 +1,43 @@
+<npcs>
+<npc id="liongirl">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>steamsully</mouth>
+			<facial>limited_lionmane</facial>
+			<shirt>spring_outfit_g1</shirt>
+			<pants>pinkskirt</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>0</x>
+			<y>585</y>
+		</position>
+		<proximity>100</proximity>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="lionboy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>barpatron1</mouth>
+			<facial>limited_lionmane</facial>
+			<shirt>may_outfit_b1</shirt>
+			<pants>may_outfit_b1</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>800</x>
+			<y>585</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

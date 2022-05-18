@@ -1,0 +1,22 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/InvisibleAutoCard/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2894</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRed</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>lightning</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>lightning</asset>
+	</assets>
+</manifest>

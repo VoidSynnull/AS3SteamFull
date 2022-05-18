@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="player">
+		<statement id="zombies_near_sewer">I'll need to find a way to drive those zombies away first.</statement>
+		<statement id="reach_lantern">One bulb is missing, and the whole string's blown out!</statement>
+		<statement id="locked">That's a big padlock, and I don't have a key.</statement>
+		<statement id="cutters_lock_broken">I already used the bolt cutters to open the gate.</statement>
+		<statement triggeredByEvent="cutters_wrong">There's no point in using the bolt cutters right here.</statement>
+		<statement triggeredByEvent="bulb_wrong">I can't use the light bulb right here.</statement>
+    </character>
+    
+    <character id="char1">
+    	<statement event="hasItem_medal">Thank goodness the zombie outbreak is over!</statement>
+    </character>
+    
+    <character id="char2">
+    	<statement event="hasItem_medal">Just to be safe, I'm only eating candy from now on.</statement>
+    </character>
+    
+    <character id="char5">
+    	<statement event="hasItem_medal">It's going to take awhile to fix all this mess.</statement>
+    </character>
+</dialogs>

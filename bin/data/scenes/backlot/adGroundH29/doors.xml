@@ -1,0 +1,30 @@
+<doors>
+  <door id="rightExit">
+    <scene>game.scenes.backlot.sunriseStreet.SunriseStreet</scene>
+    <x>40</x>
+    <y>1112</y>
+    <direction>right</direction>
+	<label>
+		<text>Exit</text>
+		<type>exitRight</type>
+		<offset>
+			<x>-150</x>
+			<y>0</y>
+		</offset>
+	</label>
+  </door>
+  <doorExit id="leftExit">
+    <scene>game.scenes.backlot.mainStreet.MainStreet</scene>
+    <x>5400</x>
+    <y>1192</y>
+    <direction>left</direction>
+	<label>
+		<text>Exit</text>
+		<type>exitLeft</type>
+		<offset>
+			<x>150</x>
+			<y>0</y>
+		</offset>
+	</label>
+  </doorExit>
+</doors>

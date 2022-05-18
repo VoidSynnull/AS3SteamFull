@@ -1,0 +1,22 @@
+<part>
+	<id>limited_avengers_repulsor</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2716</campaignID>
+	<hide>
+		<part>arm1</part>
+		<part>hand1</part>
+	</hide>
+	<specialAbility id="TimelineGun">
+		<className>game.data.specialAbility.character.TimelineGun</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="toggleClipName">light</param>
+			<param id="tracking">DisneyPlaymationMVU,Repulsor</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

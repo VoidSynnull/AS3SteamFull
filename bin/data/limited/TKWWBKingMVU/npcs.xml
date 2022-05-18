@@ -1,0 +1,34 @@
+<npcs>
+	<!-- use this for Poptropican NPC -->
+	<npc id="kwwbking">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>barPatron1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_kwwbk</hair>
+			<pants>limited_kwwbk</pants>
+			<item>limited_kwwbk</item>
+			<overshirt>limited_kwwbk</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>100</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="limited_owl">
+		<bitmap>limited/TKWWBKingMVU/npc_owl.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>right</direction>
+		<position>
+			<x>765</x> <!-- from left edge of ad unit -->
+			<y>404</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>	
+</npcs>

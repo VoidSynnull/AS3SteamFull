@@ -1,0 +1,18 @@
+<island>
+	<name>Early Poptropica</name>
+	<island>early</island>
+	<gameVersion>AS2</gameVersion>
+	<islandFolder>scenes/map/map/islands/early/</islandFolder>
+	<numEpisodes>0</numEpisodes>
+	<showProgress>false</showProgress>
+	<!-- uncomment when its ready to go live-->
+	<membersOnly>true</membersOnly>
+	<notification>For members only!</notification>
+	<pages>
+		<page class="game.scenes.map.map.groups.GenericPage">
+			<properties>
+				<pageFolder>island/</pageFolder>
+			</properties>
+		</page>
+	</pages>
+</island>

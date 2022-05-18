@@ -1,0 +1,47 @@
+<item id="3363">
+		<type>store</type>
+		<subType>general</subType>
+
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Lunar Colony Fan Costume"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropicon Island Costume</value>
+			</text>
+		<text id="storeTitle">
+			<value>Lunar Colony</value>
+		 </text>
+		
+	</textfields>
+		<assets>			
+		<asset id="cardBack" />
+		</assets>
+	
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+	
+			<marks>poptropicon_astro</marks>
+			<pants>astroguard1</pants>
+			<pack>poptropicon_astro</pack>
+			<overshirt>poptropicon_astro</overshirt>
+			<mouth>6</mouth>
+			
+		</look>
+	</looks> 
+
+	
+</item>

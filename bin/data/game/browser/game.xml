@@ -1,0 +1,10 @@
+<game>
+	<islands>zomberry2,reality2,arab1,arab2,arab3,astro,backlot,bigNate,boardwalk,carnival,carrot,charlie,con1,con2,con3,counter,cryptid,deepDive1,deepDive2,deepDive3,early,examples,ftue,gameShow,ghd,ghost,hub,japan,lands,mocktropica,moon,myth,nabooti,nightWatch,peanuts,photoBoothIsland,poptropolis,prison,reality,shark,shipwreck,shrink,spy,start,steam,super,survival1,survival2,survival3,survival4,survival5,testIsland,time,timmy,trade,train,vampire,viking,villain,virusHunter,west,wimpy,woodland,zombie,legendarySwords,clubhouse,tutorial</islands>
+	<firstScene>game.scenes.carrot.mainStreet.MainStreet</firstScene>
+	<defaultScene>game.scenes.hub.town.Town</defaultScene>
+	<overrideScene></overrideScene>
+	<sceneClass id="home">game.scenes.hub.town.Town</sceneClass>
+	<sceneClass id="map">game.scenes.map.map.Map</sceneClass>
+	<sceneClass id="store">game.scenes.hub.store.Store</sceneClass>
+	<autoLoadFirstScene>true</autoLoadFirstScene>
+</game>

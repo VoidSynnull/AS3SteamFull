@@ -1,0 +1,219 @@
+<map>
+	<!-- 
+		Page Location Groups ::: uhendba : 0229
+		groups of coordinates used to arrange islands on page
+		- @size - max islands per page (referenced by defaults by the number of islands in a partition)
+		- @name - OPTIONAL: named group for custom location groups (referenced in partitions)
+		- @scale - OPTIONAL: custom scale for islands
+	-->
+	<locations>
+	
+		<!-- DEFAULT LOCATION GROUPS -->
+		<group size="2" scale="1.3">
+			<!-- Smallest Grouping of 2 islands
+				2 Islands are side by side on an even line
+			-->
+			<location>
+				<x>0.3</x>
+				<y>0.5</y>
+			</location>
+			<location>
+				<x>0.7</x>
+				<y>0.5</y>
+			</location>
+		</group>
+		<group size="3" scale="1.2">
+			<!-- Small Grouping of 3 islands
+				3 Islands are in a zigzag pattern from left to right
+			 -->
+			<location>
+				<x>0.27</x>
+				<y>0.45</y>
+			</location>
+			<location>
+				<x>0.50</x>
+				<y>0.67</y>
+			</location>
+			<location>
+				<x>0.73</x>
+				<y>0.45</y>
+			</location>
+		</group>
+		<group name="four_islands" size="4" scale="1.1">
+			<!-- Medium Grouping of 4 islands
+				4 Islands are in a zigzag pattern from left to right
+			-->
+			<location>
+				<x>0.23</x>
+				<y>0.67</y>
+			</location>
+			<location>
+				<x>0.41</x>
+				<y>0.45</y>
+			</location>
+			<location>
+				<x>0.59</x>
+				<y>0.67</y>
+			</location>
+			<location>
+				<x>0.77</x>
+				<y>0.45</y>
+			</location>
+		</group>
+		<group name="five_islands" size="5" scale="1.0">
+			<!-- Medium Grouping of 5 islands
+				5 Islands are in a zigzag pattern from left to right
+			-->
+			<location>
+				<x>0.16</x>
+				<y>0.45</y>
+			</location>
+			<location>
+				<x>0.33</x>
+				<y>0.67</y>
+			</location>
+			<location>
+				<x>0.50</x>
+				<y>0.45</y>
+			</location>
+			<location>
+				<x>0.67</x>
+				<y>0.67</y>
+			</location>
+			<location>
+				<x>0.84</x>
+				<y>0.45</y>
+			</location>
+		</group>
+		<group size="7" scale="0.95">
+			<!-- Default Grouping of 5 - 7 islands 
+				5-7 Islands are shown in rows 4 top, 3 bottom
+			-->
+			<location>
+				<x>0.15</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.38</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.62</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.85</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.27</x>
+				<y>0.68</y>
+			</location>
+			<location>
+				<x>0.5</x>
+				<y>0.68</y>
+			</location>
+			<location>
+				<x>0.73</x>
+				<y>0.68</y>
+			</location>
+		</group>
+	</locations>
+	
+	<!-- 
+		::: Island Partitions ::: uhendba : 0229
+		partitions added to separate islands into their own "groups" e.g. "Starter Islands", "Easy Islands" etc.
+		- islands within partitions will be shown in their own "page(s)"
+		- @name - partitions with name attribute assigned will have a banner with the name appear below the islands
+		- @group - OPTIONAL: @name of custom location group to use 
+	-->
+	<islands>
+	<partition name="The Adventures Begin">
+		<partition name="The Adventures Begin">
+			<island>prison</island>
+			<island>myth</island>
+			<island>carrot</island>
+		</partition>
+		<partition name="Adventures of Destiny" location_group="four_islands">
+			<island>time</island>
+			<island>reality2</island>
+			<island>viking</island>
+			<island>shrink</island>
+		</partition>
+		<partition name="Adventures of Atlantis">
+			<island>deepDive1</island>
+			<island>deepDive2</island>
+			<island>deepDive3</island>
+		</partition>
+		<partition name="Adventures of Survival" location_group="five_islands">
+			<island>survival1</island>
+			<island>survival2</island>
+			<island>survival3</island>
+			<island>survival4</island>
+			<island>survival5</island>
+		</partition>
+		<partition name="Adventures of the Mighty">
+			<island>virusHunter</island>
+			<island>poptropolis</island>
+			<island>carnival</island>
+		</partition>
+		<partition name="Adventures of Heroes">
+			<island>con1</island>
+			<island>con2</island>
+			<island>con3</island>
+		</partition>
+		<partition name="Adventures of the Strange">
+			<island>timmy</island>
+			<island>ghd</island>
+			<island>mocktropica</island>
+		</partition>
+		<partition name="Adventures of Nights">
+			<island>arab1</island>
+			<island>arab2</island>
+			<island>arab3</island>
+		</partition>
+	</islands>
+	
+	<adIslands>
+		<island>
+			<page>1</page>
+			<x>0.15</x>
+			<y>0.75</y>
+		</island>
+		<island>
+			<page>1</page>
+			<x>0.9</x>
+			<y>0.75</y>
+		</island>
+		<island>
+			<page>2</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>2</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>3</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>3</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>4</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>1</page>
+			<x>0.5</x>
+			<y>0.6</y>
+		</island>
+	</adIslands>
+</map>

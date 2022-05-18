@@ -1,0 +1,37 @@
+<part>
+	<id>limited_mixels_niksputbrick</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2647</campaignID>
+		<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/Mixels2015EC/NikSputPrize.swf</param>
+			<param id="tracking">Mixels2015EC,Niksput Power</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="visibility" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,21 @@
+<part>
+	<id>ad_monsterhighscf_skirt3</id>
+	<type>pants</type>
+	<campaignID>2428</campaignID>
+	<gender>female</gender>
+	<notPrintable>true</notPrintable>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x000000</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

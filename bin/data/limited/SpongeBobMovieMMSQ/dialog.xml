@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Come inside and play!</statement>
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

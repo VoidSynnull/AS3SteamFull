@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="gotItem_white_robe">These look just like the thieves' clothes, except they're not black.</statement>
+		<statement triggeredByEvent="use_robe_wrong">These look just like the thieves' clothes, except they're not black.</statement>
+		<statement triggeredByEvent="gotItem_thieves_garb">Looks just like the thieves' clothes.</statement>
+		<statement triggeredByEvent="player_disguised">I can fool the guards with this black outfit.</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,62 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="branch" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plane" color="0x6600FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crate" color="0xCC66CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="breakBranch" color="0x00FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xFF6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="bounce0" color="0xDD0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="bounce1" color="0xFF0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	
+	<hit id="boxPlatform">
+		<component type="movingPlatform">
+			<visible>lemonBox</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+	<hit id="branchPlatform">
+		<component type="movingPlatform">
+			<visible>pulleyBranch</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+</hits>

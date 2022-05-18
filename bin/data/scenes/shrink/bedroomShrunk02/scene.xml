@@ -1,0 +1,41 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3625</right>
+		<bottom>1900</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>3724.85</right>
+		<bottom>1865</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths>scenes/shrink/shared/dialog.xml</absoluteFilePaths>
+	<assets>fan_blade.swf</assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>825.6</x>
+			<y>1865</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<suppressFollower>true</suppressFollower>
+	<suppressAbility>true</suppressAbility>
+</scene>

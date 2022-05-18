@@ -1,0 +1,49 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="brick" color="0x663399" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hayRoof" color="0xCC9999" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pot" color="0x0099FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="greatWall" color="0xFF0066" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb" color="0xFFFF00">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="woodTip1">
+		<component type="movingPlatform">
+			<visible>wood1</visible>
+		</component>
+	</hit>
+	
+	<hit id="brickHit">
+		<component type="hazard">
+			<visible followProperties="x,y,rotation">fallingBrick</visible>
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

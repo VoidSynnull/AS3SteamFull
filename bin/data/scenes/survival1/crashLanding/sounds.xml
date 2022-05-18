@@ -1,0 +1,15 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">crash_landing.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">strong_winds_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="lightning">thunder_clap_01.mp3, thunder_clap_02.mp3, thunder_clap_03.mp3</asset>
+		
+		<asset triggeredByEvent="surge">lightning_strike_02.mp3</asset>
+	</sound>
+</sounds>

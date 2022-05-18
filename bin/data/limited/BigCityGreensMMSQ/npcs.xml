@@ -1,0 +1,36 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="Cricket">
+		<bitmap>limited/BigCityGreensQuest/Cricket.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>30</x> <!-- from left edge of ad unit -->
+			<y>668</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	<npc id="Tilly">
+		<bitmap>limited/BigCityGreensQuest/Tilly.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>130</x> <!-- from left edge of ad unit -->
+			<y>668</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="Bill">
+		<bitmap>limited/BigCityGreensQuest/Bill.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>430</x> <!-- from left edge of ad unit -->
+			<y>668</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="Gramma">
+		<bitmap>limited/BigCityGreensQuest/Gramma.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>540</x> <!-- from left edge of ad unit -->
+			<y>668</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

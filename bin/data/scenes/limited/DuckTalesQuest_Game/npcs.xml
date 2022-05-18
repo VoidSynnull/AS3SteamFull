@@ -1,0 +1,22 @@
+<npcs>
+	<npc id="scrooge">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_scrooge</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>limited_ducktales</pants>
+			<overpants>limited_scrooge</overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>13800</x>
+			<y>595</y>
+		</position>
+		<scale>0.54</scale>
+	</npc>
+</npcs>

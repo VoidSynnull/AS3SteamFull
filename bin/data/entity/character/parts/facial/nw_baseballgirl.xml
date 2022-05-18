@@ -1,0 +1,23 @@
+<part ignoreTimelines="true" >
+	<id>nw_baseballgirl</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	
+	<components>
+		<component class="game.components.entity.character.part.TribePart"></component>
+  	</components>
+</part>

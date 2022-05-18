@@ -1,0 +1,13 @@
+<part>
+	<id>limited_sonic_follower</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">entity/character/foot/limited_sonic_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

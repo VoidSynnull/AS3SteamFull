@@ -1,0 +1,46 @@
+
+<springSet beingType="creature">
+	
+	<springData>
+		<part>head</part>
+		<leader>neck</leader>
+		<spring>0.5</spring>
+		<damp>0.55</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>-40</offsetX>
+		<offsetY>-55</offsetY>
+	</springData>
+	
+	<springData>
+		<part>hair</part>
+		<leader>head</leader>
+		<spring>0.4</spring>
+		<damp>0.5</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>11</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>pack</part>
+		<leader>body</leader>
+		<spring>0.3</spring>
+		<damp>0.7</damp>
+		<rotateByVelocity>true</rotateByVelocity>
+		<offsetX>15</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>item</part>
+		<leader>head</leader>
+		<spring>0.5</spring>
+		<damp>0.5</damp>
+		<rotateByVelocity>true</rotateByVelocity>
+		<offsetX>-10</offsetX>
+		<offsetY>50</offsetY>
+	</springData>
+
+</springSet>
+
+

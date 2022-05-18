@@ -1,0 +1,32 @@
+<doors>
+
+	<!--  if (!char.avatar.checkEvent("train_enteredTrain") || char.avatar.checkItem(medalNum)) { 
+	<door id="doorExterior">
+		<scene>game.scenes.train.mainStreet.MainStreet</scene>
+		<x>760</x>
+		<y>1600</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+-->	
+	<!--  if (!char.avatar.checkEvent("train_enteredTrain") || char.avatar.checkItem(medalNum)) { -->
+	<door id="doorExterior">
+		<scene>game.scenes.train.clubExterior.ClubExterior</scene>
+		<x>983</x>
+		<y>630</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

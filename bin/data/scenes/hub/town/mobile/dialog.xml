@@ -1,0 +1,19 @@
+<dialogs> <!-- MOBILE SPECIFIC -->
+
+    <character id="amelia">
+    	<statement id="poptropica_is_new" link="poptropica_is_new2">To the left is the New You where you can customize your look!</statement>
+		<statement id="poptropica_is_new2" link="questions_incomplete">To the right there is a store to buy cool costumes and prizes!</statement>
+		
+		<statement id="what_else" link="what_else2">To the far left, there is a movie theater where you can watch cool videos!</statement>
+		<statement id="what_else2" link="what_else3">To the far right, you can play games in the Star Arcade!</statement>
+		<statement id="what_else3" link="are_you_ready">Last but not least, you can jump in your trusty blimp and go on epic adventures!</statement>
+	</character>
+	
+	<character id="merchant_wizard">
+ 		<statement id="use">Tap the action button to try em out.</statement>
+    </character>
+    
+    <character id="snowball">
+ 		<statement triggeredByEvent="instructions">Tap the action button to try em out.</statement>
+    </character>
+</dialogs>

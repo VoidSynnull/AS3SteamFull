@@ -1,0 +1,57 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0xD1D3D4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="generalMetal" color="0xC9D1D4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="concrete" color="0xE7F0EC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cloth" color="0xD59E9E" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="linoleum" color="0xD8CFA5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="generalRubbish" color="0xABC2A6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="grass" color="0xE3D4CB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wicker" color="0x92A2A7" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="plastic" color="0xCCBCA8" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

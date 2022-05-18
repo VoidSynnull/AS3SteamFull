@@ -1,0 +1,104 @@
+<dialogs>
+	<character id="dealer">
+		<statement id="start">Welcome to the Mighty Action Force Card Game!  To win you need to collect exactly 13 gems.</statement> 
+		<statement id="firstTurn">At the start of the game you usually want to collect as many gems as you can.</statement>
+		<statement id="enemyAlmost13">Looks like I'm getting close to the goal. You might want to attack to keep me from reaching 13.</statement>  
+		<statement id="playerAlmost13">Remember, to win you need exactly 13 gems. If you go over 13 you'll lose the gems you just collected.</statement>  
+		<statement id="win">You played a great game for a beginner.</statement>  
+		<statement id="lose">Great game, you really caught on quick!</statement> 
+		<statement id="tie">Looks like we tied.  You're quite good for a beginner. </statement>
+		
+		<statement id="enemy_used_block">unless you play something stronger, this card will block your move this turn.</statement>
+		<statement id="enemy_used_skip">playing this card forces your opponent to miss their next turn.</statement>
+		<statement id="enemy_used_both">with this card, i can play a card on both slots in the same turn.</statement>
+		<statement id="enemy_used_steal">besides the normal action, this card also gives me one of your gems.</statement>
+		<statement id="enemy_used_draw">when i play this card, i get to add an extra card to my hand.</statement> 
+		<statement id="enemy_out_of_cards">I played all my cards, but the games goes on until both players are out of cards, or some one reaches 13.</statement> 
+		<statement id="player_blocked">because that card was less than or equal to my card, you were blocked.</statement>  
+   </character>
+   
+   <character id="hippie">
+		<statement id="start">The only thing that makes me happier than playing the Mighty Action Force card game is winning it.</statement>
+		<statement id="enemyAlmost13">This is so exciting! no offense.</statement>  
+		<statement id="playerAlmost13">You're doing a great job. But it's not over yet!</statement>  
+		<statement id="win">I hope I've learned something in defeat.</statement>  
+		<statement id="lose">Everyone who plays this game is a winner. I'm just more of a winner than you.</statement> 
+		<statement id="tie">I like when a game ends in a tie. Equality is groovy!</statement> 
+		
+		<statement id="enemy_blocked">trying to block me eh.</statement>
+		<statement id="player_blocked">not to be rude, but I can't let you do that.</statement>
+		<statement id="player_used_skip">grr, I'll get you for that!</statement>
+		<statement id="enemy_used_skip">hate to say it, but i'm going to be skipping your next turn.</statement>
+		<statement id="player_used_both">double bubble boiling trouble.</statement>
+		<statement id="enemy_used_both">I can't decide, so i'm going to play two cards!</statement>
+		<statement id="player_used_steal">hey! that was mine!</statement>
+		<statement id="enemy_used_steal">stealing is wrong. I prefer to think of this as sharing.</statement>
+		<statement id="player_used_draw">take a card why don't yeah.</statement>
+		<statement id="enemy_used_draw">I wish I could draw every card in the deck, but i'll settle for just one.</statement>
+		<statement id="enemy_out_of_cards">darn I'm all out of cards! my fate is out of my hands now.</statement>
+   </character>
+   
+   <character id="card2">
+		<statement id="start">I could use a good challenge. Are you up to the task?</statement>
+		<statement id="enemyAlmost13">almost there!</statement>  
+		<statement id="playerAlmost13">you're doing good, but I've come back from worse.</statement>  
+		<statement id="win">Not bad! with the right deck you could probably beat anyone.</statement>  
+		<statement id="lose">Honestly, I thought you'd put up more of a fight.</statement> 
+		<statement id="tie">well, that was anticlimactic.</statement> 
+		
+		<statement id="enemy_blocked">trying to block me eh.</statement>
+		<statement id="player_blocked">no, we shan't be doing that.</statement>
+		<statement id="player_used_skip">grr, I'll get you for that!</statement>
+		<statement id="enemy_used_skip">that turn was great. I think i'll take another!</statement>
+		<statement id="player_used_both">double bubble boiling trouble.</statement>
+		<statement id="enemy_used_both">if playing one card is good, playing two cards must be great.</statement>
+		<statement id="player_used_steal">hey! that was mine!</statement>
+		<statement id="enemy_used_steal">what's mine is mine, what's yours is also mine.</statement>
+		<statement id="player_used_draw">take a card why don't yeah.</statement>
+		<statement id="enemy_used_draw">the more the merrier, that's my motto.</statement>	
+		<statement id="enemy_out_of_cards">All out of cards. I guess this is where i play the waiting game now.</statement>	
+   </character>
+   
+   <character id="expert">
+   		<statement id="start">I've never lost a match, and I don't intend to start now.</statement>
+   		<statement id="start2">You may have won last time, but this time you won't be so lucky!</statement>
+		<statement id="enemyAlmost13">Victory is in sight. Yawn.</statement>  
+		<statement id="playerAlmost13">I'm lulling you into a false sense of security.</statement>  
+		<statement id="win">I can't believe I lost! There's only one thing to do now: return to my lucrative high-tech job.</statement>  
+		<statement id="lose">I'd tell you to keep trying, but there's really no point.</statement> 
+		<statement id="tie">I can't explain why, but this somehow feels worse than losing.</statement> 
+		
+		<statement id="player_blocked">you should know better than to come at me with that weak stuff.</statement>
+		<statement id="enemy_blocked">blocked! drat. that card was useless anyways.</statement>
+		<statement id="player_used_skip">grr, I'll get you for that!</statement>
+		<statement id="enemy_used_skip">skip your next turn. you've basically been skipping all of them.</statement>
+		<statement id="player_used_both">double bubble boiling trouble.</statement>
+		<statement id="enemy_used_both">double your pleasure!</statement>
+		<statement id="player_used_steal">hey! that was mine!</statement>
+		<statement id="enemy_used_steal">Yoink! i'll take one of those.</statement>
+		<statement id="player_used_draw">take another card why don't yeah.</statement>
+		<statement id="enemy_used_draw">Not that I need the help, but I'll take another card.</statement>
+		<statement id="enemy_out_of_cards">I already played my last card. I never would have thought it would come down to this.</statement>
+   </character>
+   
+   <character id="scott">
+   		<statement id="start">glhf lol.</statement>
+		<statement id="enemyAlmost13">GG.</statement>  
+		<statement id="playerAlmost13">>:(</statement>  
+		<statement id="win">hakz.</statement>  
+		<statement id="lose">2 ez.</statement> 
+		<statement id="tie">wat.</statement> 
+		
+		<statement id="player_blocked">whatcha gonna do now.</statement>
+		<statement id="enemy_blocked">fff.</statement>
+		<statement id="player_used_skip">skip op!</statement>
+		<statement id="enemy_used_skip">how do you like that!</statement>
+		<statement id="player_used_both">ruh roh raggy.</statement>
+		<statement id="enemy_used_both">can't deal with this!</statement>
+		<statement id="player_used_steal">hey! that was mine!</statement>
+		<statement id="enemy_used_steal">i'll take that, thank you very much!</statement>
+		<statement id="player_used_draw">take it. your gonna need it.</statement>
+		<statement id="enemy_used_draw">haha, just what i needed.</statement>
+		<statement id="enemy_out_of_cards">how you made it this far is beyond me.</statement>
+   </character>
+</dialogs>

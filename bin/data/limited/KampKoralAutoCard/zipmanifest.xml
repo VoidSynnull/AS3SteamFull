@@ -1,0 +1,49 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/KampKoralAutoCard/" type="campaign" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<assets type="sounds" path="sound/limited/SpongeBobMovie/" ext="mp3" keep="true">
+		<asset>spongeLaugh</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="ability" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+		<asset>sword</asset>
+		<asset>standNinja</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2055</asset>
+		<asset>2056</asset>
+		<asset>2057</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2055</asset>
+		<asset>2056</asset>
+		<asset>2057</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>plankton_jetpack</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>plankton_jetpack</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>pool_noodle</asset>
+		<asset>krabby_patty</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>pool_noodle</asset>
+		<asset>krabby_patty</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,110 @@
+<dialogs>
+	<character id="queen">
+		<statement id="evil"  link="but" linkEntityId="dagger">For the last time, you were born evil and I don't know what kind of a horrible mother I'd be if I didn't raise you to be evil!</statement>
+		<statement id="no" triggerEvent="triggerEvent" triggerEventArgs="see_queen">But nothing! We'll have no more of this. Now I've got to assume my queenly duties and stuff my face full of food-truck treats.</statement>
+	</character>
+	
+	<character id="dagger">
+		<conversation>
+			<exchange>
+				<question>Good day.</question>
+				<answer>What's good about it? I don't see nothin' good about it!</answer>
+			</exchange>
+			<exchange>
+				<question>The intragalactic food truck cook-off, for one thing.</question>
+				<answer>Puh-lease. Every year these foul creatures show up with their gross grub and stink up this joint. </answer>
+			</exchange>
+			<exchange>
+				<question>Not a fan?</question>
+				<answer>I'm just ready to get off this rotten rock. </answer>
+			</exchange>
+		</conversation>
+		<statement id="but" link="no" linkEntityId="queen">But mom--</statement>
+		<statement id="radio4" link="radio5" linkEntityId="jack1">NO, go away! I don't need you useless jacks watching me all the time!</statement>
+    </character>
+    
+	<character id="chef">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="chef_pose">I'm Boba Fleigh, the preeminent chef in the galaxy. The best! Second to nada!</answer>
+			</exchange>
+			<exchange>
+				<question>You sound pretty sure of yourself.</question>
+				<answer>There's nothing I can't turn into a delicious dish.</answer>
+			</exchange>
+			<exchange>
+				<question>You can cook anything?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="talked_to_chef, true">Bring me some weirdo ingredients and I'll prove it! I'll make it worth your while.</answer>
+			</exchange>
+		</conversation>
+		<statement event="talked_to_chef">Bring me weirdo ingredients and I'll make it worth your while!</statement>
+   		<statement id="fruit" triggerEvent ="exchangeItems" triggerEventArgs="fruit, egg">Incredible -- the maxbra fruit is very rare! I'll trade you an extra-jumbo egg for it!</statement>
+		<statement id="seed_pod" triggerEvent ="exchangeItems" triggerEventArgs="seed_pod, gelatin_salad">Ah, this is one of the rarest spices in the galaxy. I will trade you this bouncy gelatin salad for it!</statement>
+   </character>
+    <character id="cook0">
+    	<statement>Try our New-Old-Fashion Taco!</statement>
+   	</character>
+   	<character id="cook1">
+    	<statement>Guaranteed to be salted!</statement>
+   	</character>    
+   	<character id="cook2">
+    	<statement>Coldest ice cream you'll ever eat!</statement>
+   	</character>
+    
+    <character id="player">
+    	<statement id="nuke">It's radioactive! Can't touch it or my hands will, like, melt!</statement>
+<!--     	link="heyRadio" linkEntityId="radio" -->
+    	<statement id="loudspeaker" >A loudspeaker! I can't resist playing around with this!</statement>
+    	<statement id="noRadio">I don't need to mess with that right now.</statement>
+    	<statement id="spoon">Barrels of nuclear fuel pellets.</statement>
+    	<statement id="spoon2">I could pry this open with a long enough lever.</statement>
+    	<statement id="thereIsNoSpoon">I already got a charged fuel cell.</statement>
+    </character>
+    
+   	<character id="radio">
+   	    <statement id="comment0">Welcome to Space Port Funketoun, the shining jewel of the dark kingdom.</statement>
+   	    <statement id="comment1">For your safety, do not approach, taunt, or even look at Queen Dagger's robot soldiers.</statement>
+   	    <statement id="comment2">Visitors are responsible for cleaning up their own spills. Violators will be ejected into the vacuum of space.</statement>
+   	    <statement id="comment3">Queen Dagger reminds you to use the sanitary mats provided when genuflecting to her majesty.</statement>
+   	    <statement id="comment4">The Intragalactic Food Truck Cook-Off is sponsored by Spiffo Scouring Pads. Spiffo: for when a spit and shine just won't cut it.</statement>
+   	    
+    	<conversation id="heyRadio">
+			<exchange>
+				<question>Now batting for the River City Rodents: the left fielder, Chance Fabuloso!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="guards_distracted">Now batting for the River City Rodents: the left fielder, Chance Fabuloso!</answer>
+			</exchange>
+			<exchange>
+				<question>Rubber baby buggy bumpers! Three thick thistle sticks! Unique New York!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="guards_distracted">Rubber baby buggy bumpers! Three thick thistle sticks! Unique New York!</answer>
+			</exchange>
+			<exchange>
+				<question>Will the owner of a hot pink rebel blockade runner please move your vehicle? It is parked in a tow zone.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="guards_distracted">Will the owner of a hot pink rebel blockade runner please move your vehicle? It is parked in a tow zone.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="jack0">
+    	<statement id="back" link="back1" linkEntityId="jack1">Halt! This is a restricted area.</statement>
+<!--     	<statement>This is a restricted area. That means scram!</statement> -->
+    	<statement id="radio0" link="radio1" linkEntityId="jack1">Hey! Someone's messing with the loudspeaker!</statement>
+    	<statement id="leave" link="leave1" linkEntityId="jack1">Oh no! The fuel supply has been contaminated! Now it's only good for cooking cheap fast-food!</statement>
+    	
+    	<statement id="radio3" link="radio4" linkEntityId="dagger">Was that rebellious commoner bothering you, Princess Dagger?</statement>
+    </character>
+    
+    <character id="jack1">
+    	<statement id="back1">That means scram!</statement>
+<!--         <statement >This is a restricted area. That means scram!</statement> -->
+        <statement id="radio1">Let's put a stop to that!</statement>
+        <statement id="leave1">The Queen will disassemble us for this! let's get out of here!</statement>
+       
+        <statement id="radio2" link="radio3" linkEntityId="jack0">Don't touch the royal loudspeaker!</statement>
+        <statement id="radio5">We're just following The Queen's orders.</statement>
+    </character>
+    
+    <character id="alien3">
+    	<statement>Stay away from the Queen's robot jacks, they're mean!</statement>
+   	</character>
+</dialogs>

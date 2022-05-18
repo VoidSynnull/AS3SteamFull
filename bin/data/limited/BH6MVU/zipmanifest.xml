@@ -1,0 +1,91 @@
+<manifest>
+	<!-- BH6 xml files -->
+	<data type="BH6" path="data/limited/BH6MVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/BH6MVU/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>Maze</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/BH6MVU/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>Maze</asset>
+		<asset>StartMaze</asset>
+		<asset>WinMaze</asset>
+		<asset>LoseMaze</asset>
+		<asset>Baymax</asset>
+	</assets>
+	
+	<data type="variant" path="data/entity/character/variants/baymax/" ext="xml">
+		<asset>drawLimbConfig</asset>
+		<asset>lookDefault</asset>
+		<asset>rigDefault</asset>
+		<asset>sizeDefault</asset>
+		<asset>skinDefault</asset>
+		<asset>springConfig</asset>
+	</data>
+	
+	<!-- followers -->
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_baymax</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2901</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2901</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRed</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>Brainiacs</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>alarm_05_loop</asset>
+	</assets>
+
+		<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>bh6_baymax</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>bh6_baymax</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>bh6_baymax</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>bh6_baymax</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>bh6_baymax</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>bh6_baymax</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+		<asset>bh6_baymax</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+		<asset>bh6_baymax</asset>
+	</assets>
+</manifest>

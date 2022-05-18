@@ -1,0 +1,21 @@
+<hits>
+	<hit id="radial" color="0x9933CC">
+		<component type="radial"/>
+	</hit>
+	<hit id="fat1" color="0xfffe00">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>  
+	<hit id="fat1Target">
+		<component type="weaponTarget">
+			<maxDamage>6</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

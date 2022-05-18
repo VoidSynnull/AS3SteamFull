@@ -1,0 +1,12 @@
+<actions>
+	<actionChain id="attack">
+		<!-- As long as you place the Action class in game.systems.actionChain.actions, 
+			you don't need to add it in the class, automatically added -->
+		<action class="MoveAction">
+			<parameters>
+				<param></param>
+			</parameters>
+		</action>
+	</actionChain>
+
+</actions>

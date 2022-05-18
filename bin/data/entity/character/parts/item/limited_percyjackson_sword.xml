@@ -1,0 +1,18 @@
+<part>
+	<id>limited_percyjackson_sword</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2676</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+	<specialAbility id="open_close_example">
+		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">PercyJacksonJune2015EC,Pen Sword</param>
+			<param id="partType">item</param>			<!-- should be same part type given in type tag above -->
+		</parameters>
+	</specialAbility>
+</part>

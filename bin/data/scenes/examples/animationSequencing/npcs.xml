@@ -1,0 +1,167 @@
+<npcs>
+	<npc id="redHead">
+		<animations loop="true" random="false">
+			<animation>game.data.animation.entity.character.Cry</animation>
+			<animation>game.data.animation.entity.character.Grief</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xFF0303</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>800</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="orangeHead">
+		<animations loop="true" random="false">
+			<animation>game.data.animation.entity.character.Cry</animation>
+			<animation>game.data.animation.entity.character.Cabbage</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xFF9E03</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1000</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="greenHead">
+		<animations loop="true" random="false">
+			<animation>game.data.animation.entity.character.Cry</animation>
+			<animation duration="60">game.data.animation.entity.character.Cabbage</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x35FF03</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1200</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="blueHead">
+		<animations loop="true" random="false">
+			<animation></animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x30FFF5</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1400</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="purpleHead">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Cry</animation>
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="80"></animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0xA53BCC</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1600</x>
+			<y>920</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

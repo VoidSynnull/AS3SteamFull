@@ -1,0 +1,12 @@
+<tracking>
+	<track id="Tony">
+		<event>EngagedOutsideNPC</event>
+		<choice>NPC Name</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

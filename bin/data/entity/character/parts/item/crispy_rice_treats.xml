@@ -1,0 +1,20 @@
+<part>
+	<id>crispy_rice_treats</id>
+	<type>item</type>
+	<specialAbility id="throw_item">
+		<className>game.data.specialAbility.islands.timmy.ThrowTreat</className>
+		<useButton>true</useButton>
+		<validIslands>timmy</validIslands>
+		<parameters>
+			<param id="speedX">150</param>	
+			<param id="speedY">-280</param>	
+			<param id="rotationSpeed">30</param>
+			<param id="offsetX">25</param>	
+			<param id="offsetY">-10</param>	
+			<param id="responderClass">game.scenes.timmy.shared.TotalImpactResponse</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

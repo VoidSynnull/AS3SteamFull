@@ -1,0 +1,51 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/NineLivesMBBQ/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/NineLivesMBBQ/sideStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+
+	<data type="game" path="assets/limited/NineLivesMBBQ/sideStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</data>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>tsbrjess</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>tsbrjess</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>43</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>43</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>rebecca</asset>		
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>rebecca</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>rebecca</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>rebecca</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,15 @@
+<part>
+	<id>limited_trophy</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2856</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<parameters>
+			<param id="swfPath">limited/Cars3DVDQuest/kachow.swf</param>
+			<param id="tracking">Cars3DVDQuest,kachow</param>
+		</parameters>
+	</specialAbility>
+</part>

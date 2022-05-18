@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">wind_tunnel_01_L.mp3</asset>
+		<asset loop="true" faded="true">air_ducts_4.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="move_rocks">heavy_rock_drag_02.mp3</asset>
+		<asset triggeredByEvent="subway_screech">train_stop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="subway">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="subway">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

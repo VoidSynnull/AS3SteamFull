@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorMainStreet">door_metal_lab_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="clayPot">ls_claypot_01.mp3, ls_claypot_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="generalMetal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="bounce">ls_spring.01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="generalMetal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="bounce">ls_spring.01.mp3</asset>
+	</sound>
+</sounds>

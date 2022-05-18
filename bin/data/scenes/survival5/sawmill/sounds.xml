@@ -1,0 +1,44 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" exclusiveType="true">Survival_5_Main_Theme.mp3</asset>
+		<asset triggeredByEvent="trapped_self" exclusiveType="true">mini_game_loss.mp3</asset>
+		<asset triggeredByEvent="caught">caught.mp3</asset>
+		<asset triggeredByEvent="revenge" exclusiveType="true">van_buren_revenge.mp3</asset>
+		<asset triggeredByEvent="bear_enters" exclusiveType="true">tally_ho.mp3</asset>
+		<asset triggeredByEvent="stuck" loop="true" exclusiveType="true">around_and_around.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="hooked_crate">magnet_metal_lock_01.mp3</asset>
+		<asset triggeredByEvent="attached_gear">gears_01.mp3</asset>
+		<asset triggeredByEvent="attached_rope">rope_strain_02.mp3</asset>
+		<asset triggeredByEvent="bear_enters">bear_roar_01.mp3</asset>
+		<asset triggeredByEvent="break_crate">wood_break_01.mp3</asset>
+		<asset triggeredByEvent="gear_reattached" baseVolume="1.5">gears_20.mp3</asset>
+		<asset triggeredByEvent="buren_dunked">ls_water_splash_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="push">
+		<asset id="crate" allowOverlap="false" fade="true">heavy_wood_drag_01.mp3, heavy_wood_drag_02.mp3, heavy_wood_drag_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="plank">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="logs">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="crateFloor">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="step">gears_11.mp3</asset>
+		<asset id="wheelPlatform1">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="wheelPlatform2">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="plank">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="logs">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="crateFloor">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="wheelPlatform1">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="wheelPlatform2">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+	</sound>
+</sounds>

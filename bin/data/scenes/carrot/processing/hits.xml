@@ -1,0 +1,64 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="crates" color="0xD5C779" platform="true">
+		<component type="platform"/>
+	</hit> 
+	<hit id="colorTower" color="0xAF8DBA" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="blender" color="0xEFB894" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lights" color="0x97C0FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0xD6D1D5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="floor" color="0xDEDEDA" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pillars" color="0x72548D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinPipes" color="0xEEAD4D" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bucketHit1">
+		<component type="movingPlatform">
+			<visible>bucket1</visible>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>0</x>
+					<y>831</y>
+				</point>
+				<point>
+					<x>3411</x>
+					<y>831</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="bucketHit2">
+		<component type="movingPlatform">
+			<visible>bucket2</visible>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>0</x>
+					<y>831</y>
+				</point>
+				<point>
+					<x>3411</x>
+					<y>831</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+</hits>

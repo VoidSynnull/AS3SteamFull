@@ -1,0 +1,20 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xFF6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="bounce" color="0xFF0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+</hits>

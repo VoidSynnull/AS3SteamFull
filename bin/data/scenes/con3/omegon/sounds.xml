@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">omegon_battle.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="idle">
+		<asset id="laser_hazard_left" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laser_hazard_right" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="laser_hazard_left">electric_zap_03.mp3</asset>
+		<asset id="laser_hazard_right">electric_zap_03.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

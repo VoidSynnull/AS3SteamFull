@@ -1,0 +1,61 @@
+<item id="6104"> <!-- Change this card ID -->
+  	<type>pets</type>
+	<subType>general</subType>
+	
+   	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  		<parameters>
+			<param id="pet">true</param>
+		</parameters>
+  	</contentClass>
+	
+	<conditionals>
+    	<conditional type="hasPetLook" />
+    </conditionals>
+    
+  	<buttons>
+   		<btn>
+ 			<index>0</index>
+			<conditional id="hasPetLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook">
+					<parameters>
+						<param id="pet">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasPetLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook">
+					<parameters>
+						<param id="pet">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropica Pet</value>
+		</text>
+		<text id="storeTitle">
+			<value>Flower Headband</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack"/>
+  	</assets>
+   	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<facial>blue_flower_headband</facial>
+		</look>
+	</looks> 
+</item>

@@ -1,0 +1,35 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">outdoors_crowd_01.mp3</asset>
+		<asset triggeredByEvent="steam1">steam_01.mp3</asset>
+		<asset triggeredByEvent="steam2">steam_02.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="woodPlanks">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="woodBarrel">ls_wood_crate_01.mp3</asset>
+		<asset id="roofShingles">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="metalRoof">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="metalRail">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="windowFrame">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="waterTank">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="woodPlanks">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="woodBarrel">fs_wood_plank_01.m3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="roofShingles">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="metalRoof">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="metalRail">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="windowFrame">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="waterTank">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

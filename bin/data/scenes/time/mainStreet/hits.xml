@@ -1,0 +1,72 @@
+<hits>
+	<hit id="sand" color="0xCCCC00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="road" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windows" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x009999" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x99ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<!-- 
+	<hit id="blimpRope">
+		<component type="climb"/>
+	</hit>
+	-->
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="birds1">
+		<component type="wireBounce">
+			<hitChild>hit</hitChild>
+			<radius>297</radius>
+			<lineSize>3</lineSize>
+			<lineColor>0x000000</lineColor>
+		</component>
+	</hit>
+	<hit id="birds2">
+		<component type="wireBounce">
+			<hitChild>hit</hitChild>
+			<radius>253</radius>
+			<lineSize>3</lineSize>
+			<lineColor>0x000000</lineColor>
+		</component>
+	</hit>
+	<hit id="birds3">
+		<component type="wireBounce">
+			<hitChild>hit</hitChild>
+			<radius>175</radius>
+			<lineSize>3</lineSize>
+			<lineColor>0x000000</lineColor>
+		</component>
+	</hit>
+	<hit id="birds4">
+		<component type="wireBounce">
+			<hitChild>hit</hitChild>
+			<radius>218</radius>
+			<lineSize>3</lineSize>
+			<lineColor>0x000000</lineColor>
+		</component>
+	</hit>
+	
+</hits>

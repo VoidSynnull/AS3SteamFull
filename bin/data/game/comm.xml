@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE communicationConfig SYSTEM 'communicationConfig.dtd'>
+<communicationConfig>
+	<testHost>xpop.poptropica.com</testHost> <!-- Host used for testing, when testing all calls will go here -->
+	<host>www.poptropica.com</host> 		<!-- Use DataStoreProxy.gameHost to accurately get www or ext depending on production flag -->
+	<staticHost>static.poptropica.com</staticHost>
+	<sfs>sfs.poptropica.com</sfs>		<!-- smartfox production server -->
+	<sfsTest>sfs-dev.poptropica.com</sfsTest>   <!-- smartfox development server -->
+	<url id="base">/base.php</url>
+	<url id="tracker">/brain/track.php</url>
+	<url id="amfphp">/AMFPHP/callRouter.php</url>
+	<url id="started_islands">/started_islands.php</url>
+	<url id="getCampaigns">/get_campaign_list.php</url>
+	<url id="getWebCampaignsHaveXML">/get_campaigns_have_xml.php</url>
+	<url id="getMobileCampaignsHaveXML">/get_mobile_campaigns_have_xml.php</url>
+	<url id="getMemberStatus">/get_mem_status.php</url>
+	<url id="getEmbedInfo">/get_embedInfo.php</url>
+	<url id="grantMeAccess">/grant-me-access.php</url>
+	<url id="changeLook">/change_look.php</url>
+	<url id="visitScene">/visit_scene.php</url>
+	<url id="takePhoto">/photos/take_photo.php</url>
+	<url id="saveFeedItem">/feed/save_feed_item.php</url>
+	<url id="partialRegistration">/part-register.php</url>
+	<url id="getClosetLooks">/lookCloset/get_look_closet.php</url>
+	<url id="saveLookToCloset">/lookCloset/save_user_look.php</url>
+	<url id="deleteLookFromCloset">/lookCloset/delete_user_look.php</url>
+	<url id="saveBinaryFile">/save_binary_file.php</url>
+	<url id="login">/login.php</url>
+	<url id="changePassword">/change_password.php</url>
+	<url id="parentalEmail">/store/password_recovery.php</url>
+	<url id="getCredits">/get_credits.php</url>
+	<url id="highScore">/save_highscore.php</url>
+	<url id="getQuidgets">/quidgets/get_quidgets.php</url>
+	<url id="getCompletions">/list_finished_islands.php</url>
+	<url id="cancelMembership">/store/cancel.php</url>
+</communicationConfig>

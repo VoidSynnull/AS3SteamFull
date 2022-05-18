@@ -1,0 +1,57 @@
+<dialogs>
+  <character id="char1">
+    <statement id="arf1" triggerEvent="triggerEvent" triggerEventArgs="arf1">Arf! Arf!</statement>
+    <statement id="arf2" link="not in pop" linkEntityId="player">Arf! Arf!</statement>
+  </character>
+  <character id="char2">
+    <statement id="rudacops" link="chat">Uh oh! Are you from studio security!</statement>
+    <conversation id="chat">
+      <exchange>
+        <question>Me? No.</question>
+        <answer>Thank goodness! We're so close to finishing our movie. It would be a tragedy to get caught now.</answer>
+      </exchange>
+      <exchange>
+        <question>Who's making a movie?</question>
+        <answer>Carson Willis, the greatest filmmaker of all time! And I'm his assistant director, Sofia May.</answer>
+      </exchange>
+      <exchange>
+        <question>Nice to meet you.</question>
+        <answer>Listen, feel free to head inside and check things out. Just stay out of the way, okay?</answer>
+      </exchange>
+    </conversation>
+    <conversation>
+      <exchange>
+        <question>Me? No.</question>
+        <answer>Thank goodness! We're so close to finishing our movie. It would be a tragedy to get caught now.</answer>
+      </exchange>
+      <exchange>
+        <question>Who's making a movie?</question>
+        <answer>Carson Willis, the greatest filmmaker of all time! And I'm his assistant director, Sofia May.</answer>
+      </exchange>
+      <exchange>
+        <question>Nice to meet you.</question>
+        <answer>Listen, feel free to head inside and check things out. Just stay out of the way, okay?</answer>
+      </exchange>
+    </conversation>
+    <statement event="disrupted_kirk" link="use_cart">We're going to blow our schedule if we can't get Kirk back in here.</statement>
+    <statement triggerEvent="triggerEvent" triggerEventArgs="can_use_cart, true" id="use_cart">I've got a ton to do here -- can you go try to get him out of his trailer? You can take that cart.</statement>
+  </character>
+  <character id="char3">
+    <statement>I like to do all my writing up here where I have a view of the hills.</statement>
+    <statement link="uh oh" event="get_the_script" triggerEvent="triggerEvent" triggerEventArgs="blow_away_pages">This is it! It's genius! My best work ever!</statement>
+    <statement triggeredByEvent="pages_blew_away" link="just great">Uh oh. This is not good.</statement>
+    <statement id="just great">Now my script is scattered across Sunrise Street!</statement>
+    <statement event="found_pages">I'm glad you were able to find all those pages. Now if I could just figure out how to get down...</statement>
+  </character>
+  <character id="char4">
+    <statement id="how" link="stunt driver" linkEntityId="char5">How...? You've completely foiled our security!</statement>
+    <statement id="tell you what" triggerEvent="triggerEvent" triggerEventArgs="day_2_completed, true">Tell you what: leave here now, and we'll let you keep anything you've taken.</statement>
+  </character>
+  <character id="char5">
+    <statement id="stunt driver" link="tell you what" linkEntityId="char4">You may have a future as a stunt driver.</statement>
+  </character>
+  <character id="player">
+    <statement id="not in pop" triggerEvent="triggerEvent" triggerEventArgs="arf2">I don't think we're in Poptropica anymore!</statement>
+    <statement id="official">The sign says, ''For official back lot business only!''</statement>
+  </character>
+</dialogs>

@@ -1,0 +1,12 @@
+<hotspots>
+	<hotspot type="poster" id="poster1">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot type="poster" id="poster2">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot height="266" locked="true" type="video" id="videoContainer" width="470">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+</hotspots>

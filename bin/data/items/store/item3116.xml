@@ -1,0 +1,86 @@
+<item id="3116">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<radiobuttons>
+		<btn>
+			<color>0xFEA1A2</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x5EAEFE</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xBB77FD</color>
+			<val>2</val>
+		</btn>
+		<btn>
+			<color>0x8DCD49</color>
+			<val>3</val>
+		</btn>
+		<btn>
+			<color>0xFFFFFF</color>
+			<val>4</val>
+		</btn>
+		</radiobuttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Prom Queen</value>
+	 	 	</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+		
+		<looks>
+			<look>
+				<pants>ppromqueen1a</pants>
+				<facial>ppromqueen1</facial>
+				<shirt>ppromqueen1a</shirt>
+			<marks>ppromqueen1</marks>
+			<hair>ppromqueen1</hair>	
+		</look>
+		<look>
+				<pants>ppromqueen1b</pants>
+				<facial>ppromqueen1</facial>
+				<shirt>ppromqueen1b</shirt>
+			<marks>ppromqueen1</marks>
+			<hair>ppromqueen1</hair>	
+		</look>
+		<look>
+				<pants>ppromqueen1c</pants>
+				<facial>ppromqueen1</facial>
+				<shirt>ppromqueen1c</shirt>
+			<marks>ppromqueen1</marks>
+			<hair>ppromqueen1</hair>	
+		</look>
+		<look>
+				<pants>ppromqueen1d</pants>
+				<facial>ppromqueen1</facial>
+				<shirt>ppromqueen1d</shirt>
+			<marks>ppromqueen1</marks>
+			<hair>ppromqueen1</hair>	
+		</look>
+		<look>
+				<pants>ppromqueen1e</pants>
+				<facial>ppromqueen1</facial>
+				<shirt>ppromqueen1e</shirt>
+			<marks>ppromqueen1</marks>
+			<hair>ppromqueen1</hair>	
+		</look>
+	</looks> 
+</item>

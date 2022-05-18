@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="vanBurenTalker">
+		<statement id="start" forceOnScreen="true">Excellent! Run fast, my good lad! A hunt is only as good as the chase it gives!</statement>
+		<statement id="start_lass" forceOnScreen="true">Excellent! Run fast, my good lass! A hunt is only as good as the chase it gives!</statement>
+		<statement id="chase" triggerEvent="triggerEvent" triggerEventArgs="tally-ho" forceOnScreen="true">Winston, my dear man. If you would be so kind as to release the hounds, I do believe we can get started.</statement>
+		<statement triggeredByEvent="tally-ho" forceOnScreen="true">TALLY-HO!</statement>
+    </character>
+    
+    <character id="buren">
+    	<statement id="lost_him">Looks like we've lost the trail.</statement>
+    	<statement id="setup_camp"> No matter, we'll set up camp here and resume the hunt presently!</statement>
+    </character>
+</dialogs>

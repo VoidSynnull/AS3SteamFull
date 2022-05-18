@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="drLang">
+		<statement id="intro">Welcome to the tutorial!  I'll take your through the various functions of your ship as we proceed.</statement>
+		<!-- 
+		<statement id="intro2" link="intro3">Click on your ship to access its tools and weapons.</statement>
+		<statement id="intro3" link="intro4">The top weapon is your basic gun capable of damaging enemies.</statement>
+		<statement id="intro4" link="intro5">The left tool fires a coagulent useful for healing cuts.</statement>
+		<statement id="intro5" link="intro6">The right tool is a shock tool that can be used to trigger nerve endings.</statement>
+		<statement id="intro6">The bottom weapon is your laser scalpel which can cut through obstacles and cause massive damage to enemies.</statement>
+		-->
+		<statement id="fatZone" link="fatZone2">You'll need something sharp to cut through this fat.  Click on your ship now to select a new weapon.</statement>
+		<statement id="fatZone2" link="fatZone3">Click on the red laser scalpel to select it.</statement>
+		<statement id="fatZone3">Use the laser scalpel to cut through the three fatty barriers.</statement>
+		<statement id="muscleZone" link="muscleZone2">Nice work!  Next, select the ElectroVolt tool on the right side of your ship.</statement>
+		<statement id="muscleZone2">Press space bar to fire a charge.  Use it to electrocute the blue nerve endings to make the muscles contract.</statement>
+		<statement id="nerveZone">Excellent!  Use the same tool again to make the blue nerves move out of the way.</statement>
+		<statement id="bloodZone" link="bloodZone2">Now select the Coagulent tool on the left side of your ship.</statement>
+		<statement id="bloodZone2">You need to use coagulent to seal up these cuts and stop the blood flow.</statement>
+		<statement id="fanZone">Your ship has a powerful engine that can move through a strong current like the one caused by this fan.</statement>
+		<statement id="virusZone" link="virusZone2">Warning!  Incoming virus attack!</statement>
+		<statement id="virusZone2" link="virusZone3">Your ship's shield will protect you from enemy attacks, but keep an eye on the energy bar!</statement>
+		<statement id="virusZone3">Switch to your gun to destroy the enemy virus.</statement>
+		<statement id="end">Well done!  You're a natural!</statement>
+    </character>
+</dialogs>

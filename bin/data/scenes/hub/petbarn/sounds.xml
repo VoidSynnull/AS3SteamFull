@@ -1,0 +1,15 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">wild_west_main_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="bounce1">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+		<asset id="bounce3">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+		<asset id="bounce4">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

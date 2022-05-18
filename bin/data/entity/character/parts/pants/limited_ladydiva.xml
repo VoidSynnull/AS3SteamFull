@@ -1,0 +1,16 @@
+<part>
+	<id>limited_ladydiva</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

@@ -1,0 +1,23 @@
+<part>
+	<id>limited_fastfurious_keys</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<disableBroadcast>true</disableBroadcast>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/FastFuriousQuest/carPower.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">true</param>
+			<param id="npcOnTop">false</param>
+			<param id="swapForeground">true</param>
+			<param id="tracking">FastFuriousQuest,CarPower</param>
+		</parameters>
+	</specialAbility>
+</part>

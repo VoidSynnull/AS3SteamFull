@@ -1,0 +1,17 @@
+<part>
+	<id>valentine_bow</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TimelineGun</className>
+  		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+ 		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+			<param id="triggerFrame">raised</param>
+  		</parameters>
+  	</specialAbility>
+</part>

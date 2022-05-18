@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poptropolis_games_main_theme_2nd_half.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">dripping_scenery_01_L.mp3</asset>
+		<asset loop="true" fade="true">arena_crowd_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="rope">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="rope">fs_rope_01.mp3, fs_rope_02.mp3, fs_rope_03.mp3, fs_rope_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

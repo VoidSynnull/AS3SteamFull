@@ -1,0 +1,24 @@
+<dialogs>
+	<character id="player">
+		<statement id="robot_following">text1</statement>
+	</character>
+	
+    <character id="char1">
+    	<statement link="medallion">text2</statement>
+    	<statement id="medallion" triggerEvent="giveItem" triggerEventArgs="medalTime">text3</statement>
+    	<conversation event="gotItem_medalTime">
+    		<exchange>
+ 				<question>shared.text1</question>
+ 				<answer>text4</answer>
+ 			</exchange>
+ 			<exchange>
+ 				<question>text5</question>
+ 				<answer>text6</answer>
+ 			</exchange>
+ 			<exchange>
+ 				<question>text7</question>
+ 				<answer>text8</answer>
+ 			</exchange>
+    	</conversation>
+    </character>
+</dialogs>

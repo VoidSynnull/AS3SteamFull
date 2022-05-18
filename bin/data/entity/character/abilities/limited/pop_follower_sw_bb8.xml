@@ -1,0 +1,51 @@
+<specialAbility id="limited/pop_follower_sw_bb8">
+	<type>follower</type>
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2863</param>
+		<param id="campaignId">2863</param>
+		<param id="campaignName">StarWarsLastJediMVU1</param>
+		<param id="replaceWithClip">limited/StarWarsLastJediMVU1/bb8.swf</param>
+		<param id="animated">true</param>
+		<param id="flippablePart">true</param>
+		<param id="clickable">true</param>
+	</parameters>
+	<actions>
+		<actionChain id="click_actions">
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">overshirt</param>
+					<param id="partID" type="string">M:limited_jedigood|F:limited_jedigood</param>
+					<param id="permanent" type="boolean">true</param>
+				</parameters>
+			</action>
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">item</param>
+					<param id="partID" type="string">M:limited_rey2|F:limited_rey2</param>
+					<param id="permanent" type="boolean">true</param>
+				</parameters>
+			</action>
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">pack</param>
+					<param id="partID" type="string">M:limited_rey2|F:limited_rey2</param>
+					<param id="permanent" type="boolean">true</param>
+				</parameters>
+			</action>
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">pants</param>
+					<param id="partID" type="string">M:sponsorctcguy|F:limited_jedigood</param>
+					<param id="permanent" type="boolean">true</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

@@ -1,0 +1,33 @@
+<hits>
+	<hit id="coral" color="0x00ff00" platform="true">
+		<component type="platform">
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="oceanFloor" color="0x666600" platform="true">
+		<component type="platform">
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="waterDive" color="0x0000bb">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+			<density>.78</density>	<!-- low density causes more WaterColliders to sink. -->
+			<sceneWide>true</sceneWide>	<!-- low density causes more WaterColliders to sink. -->
+		</component>
+	</hit>
+	<!--<hit id="fish1">
+		<component type="hazard">
+			<visible>fish1</visible>
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>250</y>
+			</knockBackVelocity>
+		</component>
+	</hit>-->
+</hits>

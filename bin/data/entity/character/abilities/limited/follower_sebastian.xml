@@ -1,0 +1,13 @@
+<specialAbility id="limited/follower_sebastian">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2450</param>
+		<param id="swfPath">limited/DisneyMermaidQuest/sebastianfollower.swf</param> <!-- path to follower swf -->
+		<param id="clickableText1">Life is the bubbles Under the sea!</param>
+		<param id="clickableText2">That's why it's hotter Under the water!</param>
+		<param id="clickableText3">Each little clam here know how to jam here!</param>
+		<param id="clickableText4">Darling it's better Down where it's wetter!</param>
+	</parameters>
+</specialAbility>

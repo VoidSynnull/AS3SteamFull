@@ -1,0 +1,36 @@
+<dialogs>
+	<character id="player">
+		<statement id="clickShockAbsorber">Something under the machine is absorbing the force of the hammer. I need to replace it with something bouncy!</statement>
+		<statement id="takeLook" triggerEvent="triggerEvent" triggerEventArgs="takeLookOver">I'll take a look.</statement>
+	</character>
+	
+	<character id="strengthWorker">
+		<statement id="letsSee" triggerEvent="triggerEvent" triggerEventArgs="tryStrengthGame">Let's see if you've got anything in those skinny arms!</statement>
+		<statement id="cantWinStrength" triggerEvent="triggerEvent" triggerEventArgs="turnAround" link="clickShockAbsorber" linkEntityId="player">Ha ha! I guess you need to hit the gym and grow some muscles.</statement>
+		<statement id="wonStrength" triggerEvent="triggerEvent" triggerEventArgs="giveHammer">Such strength! We should pump iron together some time. Until then, keep this hammer as a token of my admiration.</statement>
+		<statement id="suchStrength" >Such strength! We should pump iron together some time.</statement>
+	</character>
+    
+    <character id="ferrisWheelWorker">
+		<statement>The ferris wheel doesn't stop for anyone.</statement>
+		<statement id="fixedFerrisWheel">You've done saved the day!</statement>
+		<statement id="greaseGears" triggerEvent="triggerEvent" triggerEventArgs="needGrease">Just where did you find that lever, a heap of junk? We've got to grease these gears or those kids will be stuck up there all night!</statement>
+    </character>
+    <character id="loverGirl">
+		<statement id="getOffFerrisWheel" triggerEvent="triggerEvent" triggerEventArgs="loversToTunnel">That's the last time I let my boyfriend pick the ride! Now we're going on the Tunnel of Love. </statement>
+	</character>
+	<character id="tunnelLoveWorker">
+		<statement>This is usually a two person ride, but be my guest.</statement>
+		<statement id="giveHand">Hey, can you give me a hand?</statement>
+		<statement id="annoyedAtTeens" triggerEvent="triggerEvent" triggerEventArgs="giveFlashlight">We have a strict "hands-to-yourself" policy that these teens need to obey. We'll teach them a lesson. Go to the Haunted Lab and get yourself a mask. You'll need this.</statement>
+		<statment id="haveFlyMask">Terrific! Sneak up on them and surprise them with it. I'll stop the ride.</statment>
+	</character>
+	<character id="man">
+		<statement>Where did all the carnies go? </statement>
+		<statement id="carniesGo" link="ranWoods" linkEntityId="woman">Where did all the carnies go? </statement>
+	</character>
+	<character id="woman">
+		<statement>They all ran into the woods! Something weird is going on!</statement>
+		<statement id="ranWoods" link="takeLook" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="intoWoods">They all ran into the woods! Something weird is going on!</statement>
+	</character>
+</dialogs>

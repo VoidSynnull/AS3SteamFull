@@ -1,0 +1,37 @@
+<hits>
+	<hit id="ship" color="0xcccc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dactyl1">
+		<component type="movingPlatform"/>
+		<stickToPlatform>false</stickToPlatform>
+	</hit>
+	<hit id="dactyl2">
+		<component type="movingPlatform"/>
+		<stickToPlatform>false</stickToPlatform>
+	</hit>
+	
+	<hit id="waspHazard" color="0x286780">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>800</x>
+				<y>400</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	v<hit id="waspHazard2" color="0x286785">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>800</x>
+				<y>400</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,15 @@
+<part>
+	<id>limited_sauce</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2659</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/ScholasticAwesomeSauceIC/ThoughtBubble.swf</param>
+			<param id="tracking">ScholasticAwesomeSauceIC,Awesome Sauce</param>
+		</parameters>
+	</specialAbility>	
+</part>

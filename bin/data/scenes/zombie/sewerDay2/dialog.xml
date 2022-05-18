@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="completed_pump_1">1 down. 2 to go...</statement>
+		<statement triggeredByEvent="completed_pump_2">2 down. 1 to go...</statement>
+		<statement triggeredByEvent="completed_pump_3">That's all of them...</statement>
+		<statement id="beter">That's better...</statement>
+		<statement id="yikes">Yikes!</statement>
+		<statement triggeredByEvent="use_antidote_pump_done">I've already added the antidote to this water supply pump.</statement>
+		<statement triggeredByEvent="use_antidote_wrong">I need to find the main water supply pumps.</statement>
+	</character>
+	
+	<character id="char2">
+		<statement>I owe you one, partner. You just let me know when you need a wingman.</statement>
+    </character>
+</dialogs>

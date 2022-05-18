@@ -1,0 +1,33 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Coloring Page</subchoice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="Sherlock">
+		<event>EngagedInsideNPC</event>
+		<choice>Sherlock</choice>
+	</track>
+	<track id="Juliet">
+		<event>EngagedInsideNPC</event>
+		<choice>Juliet</choice>
+	</track>
+	<track id="Gnomeo">
+		<event>EngagedInsideNPC</event>
+		<choice>Gnomeo</choice>
+	</track>
+</tracking>

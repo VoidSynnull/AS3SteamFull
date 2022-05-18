@@ -1,0 +1,131 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">epic_boss_battle.mp3</asset>
+	</sound>
+	<!-- <sound type="effects" action="shoot_bolt">
+		<asset id="player" exclusiveType="true">electric_zap_05.mp3</asset>
+		<asset id="zeus">electric_zap_06.mp3</asset>
+	</sound>
+	<sound type="effects" action="shoot_wind">
+		<asset id="zeus">myth_zues_shoot_wind_01.mp3</asset>
+	</sound>-->
+	
+	<sound type="effects">
+		<asset triggeredByEvent="boss_win_get_items">myth_get_items_back_01.mp3</asset>		
+	</sound>
+	
+	<sound type="effects" action="hit">
+		<asset id="boss_bolt_0" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_1" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_2" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_3" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_4" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_5" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_6" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_7" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_8" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_9" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_10" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="boss_bolt_11" exclusiveType="true">electric_zap_04.mp3</asset>
+		
+		<asset id="gust" exclusiveType="true" baseVolume=".5">myth_zues_shoot_wind_01.mp3</asset>
+		
+		<asset id="orb_0" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		<asset id="orb_1" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		<asset id="orb_2" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		<asset id="orb_3" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		<asset id="orb_4" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		<asset id="orb_5" exclusiveType="true">myth_orbs_hit_player_01.mp3</asset>
+		
+		<asset id="player_bolt_0" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_1" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_2" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_3" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_4" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_5" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_6" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_7" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_8" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_9" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_10" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_11" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_12" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_13" exclusiveType="true">electric_zap_04.mp3</asset>
+		<asset id="player_bolt_14" exclusiveType="true">electric_zap_04.mp3</asset>
+		
+		<asset id="zeus">electrical_impact_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="glow">
+		<asset id="zeus" loop="true" fade="true" baseVolume="2">electric_buzz_03_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="reflect">
+		<asset id="player_bolt_0">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_1">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_2">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_3">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_4">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_5">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_6">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_7">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_8">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_9">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_10">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_11">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_12">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_13">myth_zues_reflect_01.mp3</asset>
+		<asset id="player_bolt_14">myth_zues_reflect_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="shoot">
+		<asset id="orb_0">myth_zues_shoot_orbs_01.mp3</asset>	
+		<asset id="orb_1">myth_zues_shoot_orbs_01.mp3</asset>	
+		<asset id="orb_2">myth_zues_shoot_orbs_01.mp3</asset>	
+		<asset id="orb_3">myth_zues_shoot_orbs_01.mp3</asset>	
+		<asset id="orb_4">myth_zues_shoot_orbs_01.mp3</asset>	
+		<asset id="orb_5">myth_zues_shoot_orbs_01.mp3</asset>	
+	</sound>
+	
+	<sound type="effects" action="spawn">
+		<asset id="boss_bolt_0">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_1">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_2">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_3">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_4">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_5">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_6">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_7">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_8">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_9">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_10">electric_zap_05.mp3</asset>
+		<asset id="boss_bolt_11">electric_zap_05.mp3</asset>
+		
+		<asset id="gust">myth_zues_shoot_wind_01.mp3</asset>
+		
+		<asset id="orb_0">myth_zues_creatre_orbs_01.mp3</asset>	
+		<asset id="orb_1">myth_zues_creatre_orbs_01.mp3</asset>	
+		<asset id="orb_2">myth_zues_creatre_orbs_01.mp3</asset>	
+		<asset id="orb_3">myth_zues_creatre_orbs_01.mp3</asset>	
+		<asset id="orb_4">myth_zues_creatre_orbs_01.mp3</asset>	
+		<asset id="orb_5">myth_zues_creatre_orbs_01.mp3</asset>	
+		
+		<asset id="player_bolt_0">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_1">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_2">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_3">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_4">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_5">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_6">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_7">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_8">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_9">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_10">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_11">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_12">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_13">electric_zap_05.mp3</asset>
+		<asset id="player_bolt_14">electric_zap_05.mp3</asset>
+		
+		<asset id="items">myth_get_items_back_01.mp3</asset>		
+	</sound>
+</sounds>

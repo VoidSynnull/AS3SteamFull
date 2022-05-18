@@ -1,0 +1,12 @@
+<specialAbility id="gum_winter">
+	<save>true</save>
+	<className>game.data.specialAbility.store.AddGum</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/gum/wintergum.swf</param>
+		<param id="particleClass">game.particles.emitter.specialAbility.WinterGum</param>
+		<param id="particleSwfPath">particles/wintergum.swf</param>
+		<param id="trailsClass">game.particles.emitter.specialAbility.WinterGumTrail</param>
+ 	</parameters>
+</specialAbility>

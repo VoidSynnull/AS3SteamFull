@@ -1,0 +1,28 @@
+<tracking>
+	<track id="videoContainer">
+		<choice>Video</choice> <!-- game code forces this to Video -->
+		<subchoice>videoContainer</subchoice> <!-- game code will supply video container name as subchoice -->
+	</track>
+	<track id="mirabel">
+		<event>EngagedOutsideNPC</event>
+		<choice>Mirabel</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="antonio">
+		<event>EngagedOutsideNPC</event>
+		<choice>Antonio</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+		<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>false</triggerImpression>
+	</track>
+</tracking>

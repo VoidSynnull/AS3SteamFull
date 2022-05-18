@@ -1,0 +1,15 @@
+<part>
+	<id>limited_forky</id>
+	<type>overpants</type>
+	<costumizable>false</costumizable>
+	<campaignID>2966</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.GooglyEyes">
+			<properties >
+				<speed>20</speed>	<!-- base speed  -->
+				<timeFactor>8</timeFactor>	<!-- mutiplier for time; affects how often eyes swing back and forth -->
+				<moveFactor>0.1</moveFactor>	<!-- velocity x multiplier for swing radius; affects maximum swing radius -->
+			</properties>
+		</component>
+  	</components>
+</part>

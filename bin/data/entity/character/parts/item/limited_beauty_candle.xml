@@ -1,0 +1,15 @@
+<part>
+	<id>limited_beauty_candle</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2829</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="partType">item</param>
+			<param id="tracking">BeautyBeastMVU1,glow</param>
+		</parameters>
+	</specialAbility>
+</part>

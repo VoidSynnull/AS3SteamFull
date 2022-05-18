@@ -1,0 +1,20 @@
+<part>
+	<id>sponsor_smurfs</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<campaignID>2486</campaignID>
+	<notPrintable>true</notPrintable>
+	<hide>
+		<part>shirt</part>
+		<part>pants</part>
+	</hide>
+	<colors>
+		<color id="smurfColor">0x59B1D8</color>
+	</colors>
+	<applyColors>
+		<applyColor id="smurfColor">
+			<part id="skinColor">skinColor</part>
+		</applyColor>
+	</applyColors>	
+</part>

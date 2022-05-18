@@ -1,0 +1,34 @@
+<item id="3317">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3317.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>1</index>
+			<label>TAKE OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>1</index>
+			<label>MAKE ME CRISPY</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>MAKE OTHERS CRISPY</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Night Watch Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Burnt Tan Power</value>
+		</text>
+	</textfields>
+</item>

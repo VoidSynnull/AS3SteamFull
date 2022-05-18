@@ -1,0 +1,10 @@
+<specialAbility id="limited/follower_oh_pig">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2652</param>
+		<param id="swfPath">limited/HomeMarch2015MVU/Follower.swf</param> <!-- path to follower swf -->
+		<param id="disableFlip">true</param>
+	</parameters>
+</specialAbility>

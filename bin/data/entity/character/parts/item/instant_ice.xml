@@ -1,0 +1,18 @@
+<part>
+	<id>instant_ice</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="WhoopeeCushion">
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="swfPath">specialAbility/objects/instant_ice.swf</param>
+			<param id="slip">true</param>
+			<param id="vSpeed">-400</param>
+			<param id="hSpeed">1000</param>
+			<param id="spin">700</param>
+			<param id="vAccel">600</param>
+		</parameters>
+	</specialAbility>
+</part>

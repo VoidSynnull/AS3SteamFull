@@ -1,0 +1,20 @@
+<campaign>
+  	<campaignId>PopComicsFlyGameMMSQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Poptropica Comics</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">http://www.funbrain.com/comics/poptropica/</clickUrl>
+	</clickUrls>
+	<cards>
+		<card>2692</card>
+		<card>2693</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2692</card>
+		<card>2693</card>
+	</boycards>
+	<girlcards>
+		<card>2692</card>
+		<card>2693</card>
+	</girlcards>
+</campaign>

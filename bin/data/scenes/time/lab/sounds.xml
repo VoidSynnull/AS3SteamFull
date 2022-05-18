@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">tech_lab.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_metal_lab_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="floor">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="machinery">fs_heavy_metal_01.mp3,fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3,fs_heavy_metal_04.mp3</asset>
+		<asset id="plugPlat">fs_heavy_metal_01.mp3,fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3,fs_heavy_metal_04.mp3</asset>
+		<asset id="platform">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="floor">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="machinery">ls_heavy_metal_01.mp3,ls_heavy_metal_02.mp3</asset>
+		<asset id="plugPlat">ls_heavy_metal_01.mp3,ls_heavy_metal_02.mp3</asset>
+		<asset id="platform">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="powerPlugDrag" exclusiveType="true">metal_drag_01_L.mp3</asset>
+		<asset triggeredByEvent="timeMachine_poweredUp">power_on_02.mp3</asset>
+		<asset triggeredByEvent="timeMachine_beeps" loop="true">machine_status_01_L.mp3</asset>
+		<asset triggeredByEvent="timeMachine_beeps" loop="true" absoluteUrl="true">ambient/futuristic_drone_01_loop.mp3</asset>
+	</sound>
+</sounds>

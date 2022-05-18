@@ -1,0 +1,21 @@
+<part>
+	<id>poptropicon_eahero01</id>
+	<type>pants</type>
+	<gender>female</gender>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<colors>
+		<color id="pantsColor">0x607840</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="dressBase.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

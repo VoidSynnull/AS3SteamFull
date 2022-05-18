@@ -1,0 +1,34 @@
+<hits>
+	<hit id="kitchen" color="0x6600CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="carpet" color="0x33FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="table" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="fridge" color="0xCC00CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="counter" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="chair" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

@@ -1,0 +1,32 @@
+<dialogs>
+	<character id="player">
+		<statement id="questionMaster">"Master?"</statement>
+		<statement id="whyHypnotize">But why?</statement>
+		<statement id="yourWrong">This isn't right!</statement>
+		<statement id="screamNo">No!</statement>
+		<statement id="edgarApproach">Edgar, it's me! Don't you remember me? Oh, what can I do to make him remember?</statement>
+		<statement id="whatHappened">You were hypnotized!</statement>
+		<statement id="whatShow" link="magicalShow" linkEntityId="ringmaster">What sort of show is it?</statement>
+		<statement id="whereFormula">Where is the formula?</statement>
+	</character>
+	<character id="edgar">
+		<statement id="broughtCompound">I have brought you what you wanted… master.</statement>
+		<statement id="gotFriedDough">Mmm, fried dough… huh? What happened? Where am I?</statement>
+		<statement id="edgarHypnotized">The Ringmaster can hypnotize anyone with that compound.  We've got to stop him!</statement>
+		<statement id="turnedMonsters">Ringmaster, it's terrible! They've all turned into monsters!</statement>
+		<statement id="toWheel">To the Ferris Wheel!</statement>
+	</character>
+	<character id="ringmaster">
+		<statement id="seizeHim">Edgar, seize this miscreant!</statement>
+		<statement id="confirmMaster">You've brought me enough sodium thiopental to hypnotize everyone! Soon I'll control this town!</statement>
+		<statement id="forRevenge">All I wanted was to live among these people, and they drove me out. The boy nobody wanted… I'll never be alone again!</statement>
+		<statement id="takeOver">I'll decide what's right! I'll turn them all into my monstrous pets, starting with... you! </statement>
+		<statement id="letsBegin">Edgar, let's begin!</statement>
+		<statement id="stopRingmaster">You have to catch me first!</statement>
+		<statement link="whatShow" linkEntityId="player">Ah! You're early. The show won't begin until midnight.</statement>
+		<statement id="magicalShow">A magical performance like you've never seen! Come back later. I'll be sure you get a front-row seat.</statement>
+		<statement id="knowNeed">I know exactly what to do. There's a chemical formula that I can use to reverse the transformation.</statement>
+		<statement id="ferrisMonster">It's in the pocket of the man who runs the ferris wheel. Hurry! There's no time to lose.</statement>
+		<statement id="hurryFerris">Hurry to the ferris wheel, there's no time to lose!</statement>
+	</character>
+</dialogs>

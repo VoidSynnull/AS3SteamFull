@@ -1,0 +1,16 @@
+<part>
+	<id>limited_viewmaster_teleporter</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2723</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/ViewMasterEC/Teleporter.swf</param>
+			<param id="tracking">ViewMasterEC,Teleporter</param>
+			<param id="moveToBack">true</param>
+		</parameters>
+	</specialAbility>
+</part>

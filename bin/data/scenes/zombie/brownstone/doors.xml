@@ -1,0 +1,54 @@
+<doors>
+	<door id="exitDoor">
+		<scene>game.scenes.zombie.shadySide.ShadySide</scene>
+		<x>2174</x>
+		<y>569</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="romeroDoor">
+		<scene>game.scenes.zombie.romeroApartment.RomeroApartment</scene>
+		<x>1532</x>
+		<y>540</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="puddyDoor">
+		<scene>game.scenes.zombie.puddyApartment.PuddyApartment</scene>
+		<x>1518</x>
+		<y>540</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="gamerDoor">
+		<scene>game.scenes.zombie.gamerApartment.GamerApartment</scene>
+		<x>588</x>
+		<y>540</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

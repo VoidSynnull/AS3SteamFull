@@ -1,0 +1,14 @@
+<campaign>
+  	<campaignId>CliffordAutocards</campaignId> <!-- *** Must match campaign folder name -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.cliffordmovie.com/</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2065</card>
+	</boycards>
+	<girlcards>
+		<card>2065</card>
+	</girlcards>
+</campaign>

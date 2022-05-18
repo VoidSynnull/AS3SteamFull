@@ -1,0 +1,54 @@
+<doors>
+	<door id="windowExit">
+		<scene>game.scenes.vampire.castle.Castle</scene>
+		<x>1354</x>
+		<y>2050</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="armoryExit">
+		<scene>game.scenes.vampire.armory.Armory</scene>
+		<x>1590</x>
+		<y>1755</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="castleExit">
+		<scene>game.scenes.vampire.castle.Castle</scene>
+		<x>1568</x>
+		<y>2431</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="atticExit">
+		<scene>game.scenes.vampire.attic.Attic</scene>
+		<x>816</x>
+		<y>460</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

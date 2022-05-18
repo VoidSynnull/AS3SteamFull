@@ -1,0 +1,104 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MoanaMBBQ/" ext="xml">
+		<asset>campaign</asset>
+		<asset>version</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/MoanaMBBQ/sideStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+
+	<data type="game" path="assets/limited/MoanaMBBQ/mainStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</data>
+
+	<assets type="support" path="assets/limited/MoanaQuest/" ext="swf">
+		<asset>Moana_NPC</asset>
+	</assets>
+	
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+	<asset>limited_roosterhat</asset>
+	<asset>limited_pua</asset>
+	<asset>prockergirl3</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+	<asset>limited_roosterhat</asset>
+	<asset>limited_pua</asset>
+	<asset>prockergirl3</asset>
+	</assets>
+	
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+	<asset>limited_moana_conch</asset>
+	<asset>limited_magicfishhook</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+	<asset>limited_moana_conch</asset>
+	<asset>limited_magicfishhook</asset>
+	</assets>
+	
+	
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+	<asset>limited_pua</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+	<asset>limited_pua</asset>
+	</assets>
+	
+		
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+	<asset>limited_pua</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+	<asset>limited_pua</asset>
+	</assets>
+	
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+	<asset>liv</asset>
+	<asset>spiritanimals_boy2</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+	<asset>liv</asset>
+	<asset>spiritanimals_boy2</asset>
+	</assets>
+	
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+	<asset>rick</asset>
+	<asset>smurfs2_badgirl</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+	<asset>rick</asset>
+	<asset>smurfs2_badgirl</asset>
+	</assets>
+	
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+	<asset>pkarateboy3</asset>
+	<asset>wkviolet01</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+	<asset>pkarateboy3</asset>
+	<asset>wkviolet01</asset>
+	</assets>
+	
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+	<asset>pcowgirl1</asset>
+	<asset>alphaomega</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+	<asset>pcowgirl1</asset>
+	<asset>alphaomega</asset>
+	</assets>
+
+	
+</manifest>

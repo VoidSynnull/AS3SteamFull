@@ -1,0 +1,10 @@
+<specialAbility id="gum_psychadelic">
+	<save>true</save>
+	<className>game.data.specialAbility.store.AddGum</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/gum/spookgum.swf</param>
+		<param id="particleClass">game.particles.emitter.specialAbility.PsychadelicGum</param>
+	</parameters>
+</specialAbility>

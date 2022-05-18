@@ -1,0 +1,29 @@
+<part>
+	<id>limited_incredible</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2894</campaignID>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.character.InvisiblePower</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">Incredibles2Quest,invisible</param>
+			<param id="startle">true</param>
+		</parameters>
+	</specialAbility>
+
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

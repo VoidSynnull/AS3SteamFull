@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="crack_dirt">dirt_break_01.mp3,dirt_break_02.mp3,dirt_break_03.mp3,dirt_break_04.mp3</asset>
+		<asset id="pickax_hit">metal_impact_12.mp3</asset>
+		<asset id="diamond_drill">drill_burst_01.mp3,drill_burst_02.mp3</asset>
+		<asset id="break_dirt">dirt_broke_05.mp3</asset>
+		<asset id="break_dirt">metal_impact_11.mp3</asset>
+		<asset id="crack_rock">stone_impact_01.mp3,stone_impact_02.mp3,stone_impact_03.mp3,stone_impact_04.mp3</asset>
+		<asset id="ants_take_hare">ants_take_hare.mp3</asset>
+		<asset id="antHill_shot">cannon_shot_02.mp3</asset>
+		<asset id="wakeUp">wake_up.mp3</asset>
+	</sound>
+</sounds>

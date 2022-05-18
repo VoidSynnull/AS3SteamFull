@@ -1,0 +1,20 @@
+<game>
+	<className>ObstacleGame</className>
+	<returnX>2994</returnX>
+	<returnY>790</returnY>
+	<timeout>120</timeout>
+	<winNPC>player</winNPC>
+	<hazards>croc1|croc2|croc3|croc4|croc5</hazards>
+	<movingHazards>bugsHazard1|bugsHazard2</movingHazards>
+	<toggleHazards type="array">snake</toggleHazards>
+	<waveMotionMagnitude>2</waveMotionMagnitude>
+	<waveMotionRate>0.03</waveMotionRate>
+	<hitScaleTarget>1.5</hitScaleTarget>
+	<hitScaleTimer>0.4</hitScaleTimer>
+	<looks>
+		<skin>
+			<pack>limited_vivo</pack>
+			<marks>empty</marks>
+		</skin>
+	</looks>
+</game>

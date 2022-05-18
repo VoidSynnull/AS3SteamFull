@@ -1,0 +1,71 @@
+<item id="3345">
+		<type>store</type>
+		<subType>general</subType>
+
+		<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Ringmaster Costume"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0xB83A37</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFFFFFF</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x9266C6</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Monster Carnival Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Ringmaster</value>
+			</text>
+	</textfields>
+		<assets>
+					<asset id="cardBack" />
+		</assets>
+
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+			<hair>mc_ringmaster1</hair>
+			<shirt>mc_ringmaster1</shirt>
+			<pants>mc_ringmaster1</pants>
+			<pack>mc_ringmaster1</pack>
+			<overshirt>mc_ringmaster1</overshirt>
+		</look>
+		<look>
+			<hair>mc_ringmaster2</hair>
+			<shirt>mc_ringmaster2</shirt>
+			<pants>mc_ringmaster1</pants>
+			<pack>mc_ringmaster2</pack>
+			<overshirt>mc_ringmaster1</overshirt>
+		</look>
+		<look>
+			<hair>mc_ringmaster3</hair>
+			<shirt>mc_ringmaster3</shirt>
+			<pants>mc_ringmaster1</pants>
+			<pack>mc_ringmaster3</pack>
+			<overshirt>mc_ringmaster1</overshirt>
+			<overpants></overpants>
+		</look>
+	</looks> 
+
+</item>

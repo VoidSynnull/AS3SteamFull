@@ -1,0 +1,54 @@
+<doors>
+	<door id="exitClick">
+		<scene>game.scenes.villain.prisonLab.PrisonLab</scene>
+		<x>1304</x>
+		<y>930</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="picassoExit">
+		<scene>game.scenes.villain.picasso.Picasso</scene>
+		<x>942</x>
+		<y>451</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="vanGoghExit">
+		<scene>game.scenes.villain.vanGogh.VanGogh</scene>
+		<x>194</x>
+		<y>528</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="monetExit">
+		<scene>game.scenes.villain.monet.Monet</scene>
+		<x>1602</x>
+		<y>388</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

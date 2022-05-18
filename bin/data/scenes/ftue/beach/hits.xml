@@ -1,0 +1,29 @@
+<hits>
+	<hit id="sand" color="0xEDEBD3" platform="true">
+		<component type="platform">
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>		
+	</hit>
+	<hit id="grass" color="0xAFCCAA" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0xC1CCC1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tiltPlatformLeft" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tiltPlatformRight" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x298BA8</splashColor1>
+			<splashColor2>0x37BCE3</splashColor2>
+			<viscosity>.95</viscosity>
+		</component>
+	</hit>
+</hits>

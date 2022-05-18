@@ -1,0 +1,10 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">dark_atmosphere.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- scene sounds -->
+		<asset triggeredByEvent="reveal" absoluteUrl="true">music/danger.mp3</asset>
+		<asset triggeredByEvent="hitbottom" baseVolume="0.5">rock_hit_03.mp3</asset>
+	</sound>
+</sounds>

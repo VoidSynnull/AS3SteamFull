@@ -1,0 +1,30 @@
+<dialogs>
+	<character id="falafelGuy">
+		<statement>We're not open yet. Come back at lunchtime!</statement>
+		<statement event="searched_mail" triggerEvent="triggerEvent" triggerEventArgs="falafelGuyLeaves">Sorry, gotta close for five minutes. I'm bringing a big lunch order to the GloboChem offices.</statement>
+		<statement event="delivered_falafel">Sorry, I had a big lunch order from GloboChem. I won't have any extra falafel for a while.</statement>
+    	
+    	<conversation event="talked_to_lange_d2">
+    		<exchange>
+    			<question>Got any extra falafel?</question>
+    			<answer triggerEvent="giveItem" triggerEventArgs="falafel">You're in luck. I was just about to throw this out. Too much tahini!</answer>
+    		</exchange>
+    	</conversation>
+		
+		<statement event="gotItem_falafel">I already gave you my extra falafel.</statement>
+    </character>
+    
+	<character id="hungryWoman">
+		<statement link="questionWoman">This is the best falafel in town!</statement>		
+		<conversation id="questionWoman">
+			<exchange>
+				<question>Isn't this the only falafel in town?</question>
+				<answer>I say chickpeas, you say garbanzo beans. The important thing is I was here first.</answer>
+			</exchange>
+		</conversation>
+		<statement id="womanComplains">That's not fair! I've been waiting here since 6 AM!</statement>
+    </character>
+	<character id="loiteringGuy">
+		<statement>I don't know what's weirder: that this video store is still open, or that I've started seeing people going in and out of it!</statement>
+    </character>
+</dialogs>

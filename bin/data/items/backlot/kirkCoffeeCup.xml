@@ -1,0 +1,40 @@
+<item id="kirkCoffeeCup">
+	<type>island</type>
+	<subType>backlot</subType>
+	<textfields>
+ 		<text>
+      		<value>Kirk's Half-Calf Leviathan Latte-Espresso Coffee Cup</value>
+    	</text>
+    	<text>
+    		<conditional type="checkEvents" isTrue="false"/>
+    		<value>EMPTY</value>
+    		<y>125</y>
+  		</text>
+  		<text>
+    		<conditional type="checkEvents" isTrue="true"/>
+    		<value>FULL</value>
+    		<y>125</y>
+  		</text>
+  	</textfields>
+  	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/BacklotBackground.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent">
+    		<conditional type="checkEvents" isTrue="true"/>
+    		<assetPath>items/backlot/cup_large_filled.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent">
+    		<conditional type="checkEvents" isTrue="false"/>
+    		<assetPath>items/backlot/cup_large_empty.swf</assetPath>
+    	</asset>
+    </assets>
+    <conditionals>
+    	<conditional type="checkEvents">
+    		<parameters>
+		  		<param id="event">kirk_cup_filled</param>
+			</parameters>
+    	</conditional>
+    </conditionals>
+</item>

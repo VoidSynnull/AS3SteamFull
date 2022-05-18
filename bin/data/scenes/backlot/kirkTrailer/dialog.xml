@@ -1,0 +1,22 @@
+<dialogs>
+  <character id="char1">
+    <statement link="what_do" linkEntityId="player">He's the star of the movie. You understand? There's no movie without the star.</statement>
+    <statement id="gave star coffee" triggerEvent="triggerEvent" triggerEventArgs="carson_returns_stage_1, true">You've saved my production! I might have a few more tasks for you. Meet me on the soundstage when you're ready.</statement>
+    <statement id= "ruined" link="save">You ruined my picture. Now, you'd better figure out how to save it!</statement>
+    <statement id="save">Save my picture!</statement>
+  </character>
+  <character id="char2">
+    <statement id="go_away" link="come_out" linkEntityId="player">Go away!</statement>
+    <statement id="refill">Refill my half-caf leviathan latte-espresso, on the double!</statement>
+    <statement id="nope">That doesn't smell like a half-caf leviathan latte-espresso!</statement>
+    <statement id="you_can_refill" triggerEvent="triggerEvent" triggerEventArgs="kirk_threw_cup">You can refill my half-caf leviathan latte-espresso, on the double!</statement>
+    <statement id="courtesy" triggerEvent="triggerEvent" triggerEventArgs="kirk_returns_stage_1, true">A little common courtesy, that's all I ask. I shall be back on set momentarily.</statement>
+  </character>
+  <character id="player">
+    <statement id="what_do" link="ruined" linkEntityId="char1">What do we do?</statement>
+    <statement id = "no_one_home">No one is there</statement>
+    <statement id="right" triggerEvent="triggerEvent" triggerEventArgs="gave_kirk_coffee">I've got your coffee, sir.</statement>
+    <statement id="wrong" link="nope" linkEntityId="char2">I've got your coffee, sir.</statement>
+    <statement id="come_out" link="you_can_refill" linkEntityId="char2">What can I do to make you come out of there?</statement>
+  </character>
+</dialogs>

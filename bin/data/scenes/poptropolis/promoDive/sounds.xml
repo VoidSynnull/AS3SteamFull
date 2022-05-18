@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">under_water.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="startPick">pick_axe_impact_01.mp3,pick_axe_impact_02.mp3,pick_axe_impact_03.mp3</asset>	
+		<asset triggeredByEvent="sharkBite">dog_chomp_01.mp3</asset>	
+	</sound>
+	<sound type="effects" action="impact">
+		<!--<asset id="coral">ls_sand_underwater_01.mp3,ls_sand_underwater_02.mp3</asset>-->
+		<asset id="oceanFloor">fs_cobble_underwater_01.mp3,fs_cobble_underwater_02.mp3</asset>
+		<asset id="fish1">fish_hit_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="coral" allowOverlap="false">fs_sand_underwater_01.mp3,fs_sand_underwater_02.mp3,fs_sand_underwater_03.mp3,fs_sand_underwater_04.mp3</asset>
+		<asset id="oceanFloor" allowOverlap="false">fs_cobble_underwater_01.mp3,fs_cobble_underwater_02.mp3</asset>
+	</sound>
+</sounds>

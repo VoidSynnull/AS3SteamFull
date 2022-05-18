@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="captain">
+		<statement id="rage" link="what" linkEntityId="player">There is no treasure! There is only evil!</statement>
+    </character>
+    <character id="player">
+    	<statement id="gotPiece">This looks like a piece of a map-o-sphere, I bet there are more hidden around here.</statement>
+		<statement id="what">What did he mean by evil?</statement>
+		<!--  triggerEvent="triggerEvent" triggerEventArgs="leave_check" -->
+<!-- 	<statement id="leave" triggerEvent="triggerEvent" triggerEventArgs="leave_scene">I found all the pieces, I should get back to the ship.</statement> -->
+		<statement id="leave">I found all the pieces, I should get back to the ship.</statement>
+		<statement id="needPieces">I can't go back empty handed.</statement>
+    </character>
+</dialogs>

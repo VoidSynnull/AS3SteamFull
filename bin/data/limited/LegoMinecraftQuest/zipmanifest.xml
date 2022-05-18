@@ -1,0 +1,85 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoMinecraftQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>Puzzle</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoMinecraftQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoMinecraftQuest_Interior/">
+		<asset>background.swf</asset>
+		<asset>backdrop.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/LegoMinecraftQuest/" ext="swf">
+		<asset>Alex</asset>
+		<asset>Steve</asset>
+		<asset>StartPuzzle</asset>
+		<asset>WinPuzzle</asset>
+		<asset>LosePuzzle</asset>
+		<asset>Puzzle</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>pickaxe</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2875</asset>
+		<asset>2876</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2876</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>mfb_battle_variation</asset>
+	</assets>
+	
+	<!-- avatar parts -->
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>lego_pickax</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>lego_pickax</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>lego_helmet</asset>
+		<asset>lego_zombie</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>lego_helmet</asset>
+		<asset>lego_zombie</asset>
+	</assets>
+</manifest>

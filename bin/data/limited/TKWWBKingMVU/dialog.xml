@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="kwwbking">
+		<statement event="hasAdItem_2946">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Hi, I'm Alex. Watch this cool video to win the prize!</statement> <!-- default if above not true -->
+	</character>
+	<character id="limited_owl">
+		<statement>Hoo Hoo.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

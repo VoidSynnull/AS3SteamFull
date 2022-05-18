@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_heavy_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset event="camera_turn" loop="true">robot_move_01_L.mp3</asset>
+		<asset event="wall_open">wall_opens_03.mp3</asset>
+		<asset event="wall_opened">wall_opens_01.mp3</asset>
+		<asset event="thunder_clap">thunder_clap_01.mp3, thunder_clap_02.mp3, thunder_clap_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

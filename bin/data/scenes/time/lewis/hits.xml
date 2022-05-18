@@ -1,0 +1,36 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xFFFF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rope" color="0x6600CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="beaverHit">
+		<component type="zone">		
+		</component>
+	</hit>
+
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-900</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+</hits>

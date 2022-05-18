@@ -1,0 +1,89 @@
+<manifest>
+	<!-- OwlHouse xml files -->
+	<data type="campaign" path="data/limited/OwlHouseQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/OwlHouseQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="game" path="data/scenes/limited/OwlHouseQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>motionMaster</asset>
+		<asset>scene</asset>
+		<asset>segmentPatterns</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/OwlHouseQuest_Interior/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		
+	<assets type="game" path="assets/scenes/limited/OwlHouseQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/OwlHouseQuest/" ext="swf">
+		<asset>Eda</asset>
+		<asset>Luz</asset>
+		<asset>Lose</asset>
+		<asset>staff</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2991</asset>
+		<asset>2992</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2991</asset>
+		<asset>2992</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_owlhouse_king</asset>
+		<asset>owlhouse_flyingStaff</asset>
+	</data>
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ActionAdventure</asset>
+		<asset>MysteryTrainMainThemeB</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>crunch_01</asset>
+		<asset>dirt_break_03</asset>
+	</assets>
+
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_king_follower</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_king_follower</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" ext="xml">
+		<asset>limited_king_follower</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" ext="swf">
+		<asset>limited_king_follower</asset>
+	</assets>
+</manifest>

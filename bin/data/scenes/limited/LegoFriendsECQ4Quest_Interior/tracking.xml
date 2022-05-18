@@ -1,0 +1,37 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster</subchoice>
+	</track>
+	<track id="poster2">
+		<event>OpenedPopup</event>
+		<choice>synopsis1</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="poster3">
+		<event>OpenedPopup</event>
+		<choice>synopsis2</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="videoContainer1">
+		<choice>Summer Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="videoContainer2">
+		<choice>Winter Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="SummerGirl1">
+		<event>EngagedInsideNPC</event>
+		<choice>Summer Girl 1</choice>
+	</track>
+	<track id="SummerGirl2">
+		<event>EngagedInsideNPC</event>
+		<choice>Summer Girl 2</choice>
+	</track>
+	<track id="WinterGirl1">
+		<event>EngagedInsideNPC</event>
+		<choice>Winter Girl</choice>
+	</track>
+</tracking>

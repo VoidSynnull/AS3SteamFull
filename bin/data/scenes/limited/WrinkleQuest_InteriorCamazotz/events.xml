@@ -1,0 +1,110 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">followPlayer</param1>
+			<param2 id="npcID">Meg</param2>
+		</event>
+		<event>
+			<param1 id="action">setZoneTrigger</param1>
+			<param2 id="clip">zoneburst</param2>
+			<param3 id="event">warrior</param3>
+		</event>
+		<event>
+			<param1 id="action">setZoneTrigger</param1>
+			<param2 id="clip">zoneMessage</param2>
+			<param3 id="event">message</param3>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">MrsWhich</param2>
+		</event>
+		<event>
+			<param1 id="action">makeInactive</param1>
+			<param2 id="npcs">creepyboy1,creepyboy2,creepygirl1,creepygirl2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Meg</param2>
+			<param3 id="sayID">init</param3>
+		</event>
+	</group>
+	<group type="triggered" id="message">
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Meg</param2>
+			<param3 id="sayID">message</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">message</param3>
+		</event>
+	</group>
+	<group type="triggered" id="response">
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">response</param3>
+		</event>
+	</group>
+	<group type="triggered" id="warrior">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">warrior</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Meg</param2>
+			<param3 id="sayID">warrior</param3>
+		</event>
+		<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="path">limited/WrinkleQuest/burst.swf</param2>
+			<param3 id="scaleMode">scaleToFill</param3>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param2 id="npcID">MrsWhich</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">MrsWhich</param2>
+			<param3 id="sayID">warrior</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Meg</param2>
+			<param3 id="sayID">done</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="partValue">empty</param3>
+			<param3 id="charID">MrsWhich</param3>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">facial</param2>
+			<param3 id="partValue">limited_wrinkle_orb_glasses</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">1</param2>
+		</event>
+		<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="path">limited/WrinkleQuest/tesser.swf</param2>
+			<param3 id="scaleMode">scaleToFill</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadWinPopup</param2>
+			<param3 id="returnX">3200</param3>
+			<param4 id="returnY">785</param4>
+		</event>
+	</group>
+</events>

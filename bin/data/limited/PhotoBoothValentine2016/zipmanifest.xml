@@ -1,0 +1,61 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PhotoBoothValentine2016/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>dialog</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- from scene.xml in ad scene -->
+	<assets type="building" path="assets/limited/PhotoBoothValentine2016/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- avatar parts -->	
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>nessie_tourist</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>nessie_tourist</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>bl_promqueenc3</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>bl_promqueenc3</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>tdreadrocker</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>tdreadrocker</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>wkveruca01</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>wkveruca01</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>hero3</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>hero3</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>pinkskirt</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>pinkskirt</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>rose</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>rose</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,37 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MobileVideoCardCart/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml -->
+	<data type="interior" path="data/limited/MobileVideoCardCart/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml -->
+	<assets type="interior" path="assets/limited/MobileVideoCardCart/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<assets type="support" path="assets/limited/TreasureHuntersVideoCard/" ext="swf">
+		<asset>TreasureHunters_VideoCard</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2767</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlueGreenBorder</asset>
+	</assets>
+
+	
+</manifest>

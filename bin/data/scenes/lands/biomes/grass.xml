@@ -1,0 +1,152 @@
+<biome>
+
+<weather>
+	<rain rarity="200" />
+</weather>
+
+<sky>
+<top>0x1C6093, 0x2685B4, 0x31AAD5, 0x287D9E, 0x20526A, 0x112537, 0x0A0C1B, 0x0C192E, 0x1C6093</top>
+<bottom>0xECE3AA, 0x9EDDE1, 0x83DCF5, 0xA3C2B7, 0xEC872B, 0x1E526A, 0x0E1B2C, 0x194056, 0xECE3AA</bottom>
+</sky>
+	<tileLayer name="foreground">
+
+		<tileMap name="decal" tileSet="decal" drawOrder="1" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+				<decalHitRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="building" tileSet="building" drawOrder="2" tileSize="32" drawHits="true">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="12" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="terrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="true">
+
+			<renderers>
+				<terrainOutliner strokeSize="5" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<terrainGenerator />
+				<caveGenerator perlinBase="8" cutThreshold="0xEEEEEE" />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="trees" tileSet="trees" drawOrder="20" tileSize="32" drawHits="true">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+			<generators>
+
+				<forestGenerator pass="2" rootLandMap="terrain">
+
+					<treeType trunkTile="0x000800" leafTile="0x004000" />
+					<treeType trunkTile="0x001000" leafTile="0x008000" type="pine" />
+					<treeType leafTile="0x010000" type="bush" />
+	
+				</forestGenerator>
+			
+				<flatGenerator tileType="0x000200" height="20" pass="2" />
+				<!--<flatGenerator tileType="0x000400" height="7" pass="2" />-->
+			</generators>
+
+		</tileMap>
+
+	</tileLayer >
+
+	<tileLayer name="background">
+
+		<tileMap name="bgdecal" tileSet="decal" drawOrder="200" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgbuilding" tileSet="building" drawOrder="100" tileSize="32" drawHits="false">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="8" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgterrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="false">
+
+			<renderers>
+				<terrainOutliner strokeSize="2" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<terrainGenerator />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="bgtrees" tileSet="trees" drawOrder="1" tileSize="32" drawHits="false">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+			<generators>
+
+				<forestGenerator pass="2" rootLandMap="bgterrain">
+
+					<treeType trunkTile="0x000800" leafTile="0x004000" />
+					<treeType trunkTile="0x001000" leafTile="0x008000" type="pine" />
+					<treeType leafTile="0x010000" type="bush" />
+	
+				</forestGenerator>
+			</generators>
+
+		</tileMap>
+
+	</tileLayer>
+	
+	<tileSet name="terrain">
+	
+		<terrain name="grass" type="4" drawOrder="3" level="2">
+
+			<hitCeilingColor>0xFFCC00</hitCeilingColor>
+			<hitGroundColor>0x006600</hitGroundColor>
+			<hitWallColor>0xFF6600</hitWallColor>
+
+			<viewFillColor>0x759236</viewFillColor>
+			<viewLineColor>0x455821</viewLineColor>
+			<viewLineSize fg="7" bg="2">7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.09</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>grass_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="ceiling_details.swf" sides="bottom" />
+				<detail url="ground_details.swf" sides="top" />
+			</details>
+
+		</terrain>
+
+	</tileSet>
+
+</biome>

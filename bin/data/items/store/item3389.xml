@@ -1,0 +1,47 @@
+﻿<item id="3389"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="applyLook" /> <!-- change tracking call -->
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+				<label>PUT AWAY</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="subtitle">
+			<value>Galactic Hot Dogs™</value> <!-- Change this subtitle -->
+		</text>
+		<text id="storeTitle">
+			<value>Ice Blaster Pistol</value> <!-- Change this title -->
+		</text>
+		</textfields>
+	
+		<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+		
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<item>ad_gh_iceblaster</item>
+		</look>
+	</looks> 
+</item>

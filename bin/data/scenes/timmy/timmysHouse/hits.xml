@@ -1,0 +1,53 @@
+<hits>
+	<hit id="carpet" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="floor_carpet" color="0x66FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="counter" color="0x009900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="fridge" color="0x0099cc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="floor" color="0x00cc33" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="roombaPlat" platform="true">
+		<component type="movingPlatform">
+<!-- 			<visible>roomba</visible> -->
+			<velocity>210</velocity>
+			<points>
+				<point>
+					<x>1808</x>
+					<y>773</y>
+				</point>
+				<point>
+					<x>145</x>
+					<y>773</y>
+				</point>
+				<point>
+					<x>1808</x>
+					<y>773</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

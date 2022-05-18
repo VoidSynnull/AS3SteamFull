@@ -1,0 +1,40 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Great_Wall_of_China.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="brick_falls">brick_fall_01.mp3</asset>
+		<asset triggeredByEvent="majong_all_flip">majong_flip_game_start_01.mp3</asset>
+		<asset triggeredByEvent="majong_slide">majong_slide_01.mp3</asset>
+		<asset triggeredByEvent="majong_swap">majong_swap_01.mp3</asset>
+		<asset triggeredByEvent="majong_single_flip">majong_single_flip_01.mp3</asset>
+		<asset triggeredByEvent="majong_won">event_04.mp3</asset>
+		<asset triggeredByEvent="move_wood_tipper" exclusiveType="true">wood_plank_creak_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="brick">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="pot">ls_claypot_01.mp3, ls_claypot_02.mp3</asset>
+		<asset id="hayRoof">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="greatWall">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="brickHit">rock_hit_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="brick">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="pot">none</asset>
+		<asset id="hayRoof">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="greatWall">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

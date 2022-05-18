@@ -1,0 +1,42 @@
+<item id="3367">
+		<type>store</type>
+		<subType>general</subType>
+
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Egyptian Mummy Costume"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Egyptian Mummy</value>
+		 </text>
+	</textfields>
+	<assets>
+			<asset id="cardBack" />		
+		</assets>
+	
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+	
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyeState>squint</eyeState>
+			<facial>sponsorgbmummy</facial>
+			<overshirt>sponsorgbmummy</overshirt>
+			
+		</look>
+	</looks> 
+
+</item>

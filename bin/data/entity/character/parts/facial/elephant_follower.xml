@@ -1,0 +1,21 @@
+<part>
+	<id>elephant_follower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="front">elephant_foot</param>
+			<param id="back">elephant_foot</param>
+		</parameters>
+	</specialAbility>
+		<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/elephant_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

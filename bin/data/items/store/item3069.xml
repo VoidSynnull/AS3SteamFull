@@ -1,0 +1,40 @@
+<item id="3069">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+		<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+					<action type="costumize"/>
+				</actions>
+			</btn>
+		</buttons>
+		
+		<textfields>
+	 	 	<text id="storeTitle">
+					<value>Dare Devil</value>
+	 	 	</text>
+		</textfields>
+		
+		<assets>
+			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<mouth>5</mouth>
+			<facial>pDareD1</facial>
+			<pants>pDareD1</pants>
+			<shirt>pDareD1</shirt>
+			<overpants>pDareD1</overpants>
+			<pack>pDareD1</pack>
+		</look>
+	</looks> 
+</item>

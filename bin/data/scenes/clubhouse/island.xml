@@ -1,0 +1,26 @@
+<island>
+	<name>Clubhouse</name>
+	<eventsClass>game.scenes.clubhouse.ClubhouseEvents</eventsClass>
+	<gameVersion>AS3</gameVersion>
+	<island>clubhouse</island>
+	
+	<!-- This is the scene that will be loaded on island reset or when accessing this island from the map. -->
+	<firstScene>
+		<scene>game.scenes.clubhouse.clubhouse.Clubhouse</scene>
+		<x>795</x>
+		<y>1002</y>
+		<direction>right</direction>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</firstScene>
+    <!-- Invalidating island for 1.10 -->
+    
+    <playerMap></playerMap>
+	<medallion></medallion>
+</island>

@@ -1,0 +1,18 @@
+<dialogs>
+	<!--  >character id="player">
+		<statement id="helpMonsters" link="getChemical" linkEntityId="edgar">What should we do?</statement>
+    </character -->
+    <character id="edgar">
+		<!-- >statement id="friendsMonsters" link="helpMonsters" linkEntityId="player">We've got to do something! All my friends have turned into monsters!</statement>
+		<statement id="getChemical" triggerEvent="triggerEvent" triggerEventArgs="doneChemical">Ringmaster Raven said there's a chemical mixture to turn them back into humans. Unfortunately the Ferris Wheel Worker was carrying a scrap of paper with the formula, and he's a monster!</statement-->
+		<statement id="giveCompound">You did it! The Ringmaster needs to see this!</statement>		
+    </character>
+    <character id="guesser">
+		<statement id="secretMessage">I'll tell you what grinds my gears: too much sticky candy. </statement>
+		<statement id="ferrisWheelStopped">Not to hammer the point, but the Ferris Wheel is a big hit. </statement>
+		<statement id="haveSecretMessage">When a monster darkens your path, just show him the light.</statement>
+		<statement id="haveBlacklight">Find a new way of illuminating things, and everything will be just ducky.</statement>	
+		<statement id="hypnotizeFormula">When one door is locked, you may have to in-vent another.</statement>
+		<statement id="hypnotizePowder">The truth will set you free.</statement>
+    </character>
+</dialogs>

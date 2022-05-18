@@ -1,0 +1,28 @@
+<part>
+	<id>pdragon2</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colors>
+		<color id="color1">0x789B26</color>
+		<color id="color2">0xA8D147</color>
+		<color id="color3">0xA8D147</color>
+		<color id="color4">0xFFCC00</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+		<colorable id="color3">
+			<clip instanceName="colorShape3"/>
+		</colorable>
+		<colorable id="color4">
+			<clip instanceName="colorShape4"/>
+		</colorable>
+	</colorables>
+</part>

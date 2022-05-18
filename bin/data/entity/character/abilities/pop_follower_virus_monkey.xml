@@ -1,0 +1,21 @@
+<specialAbility id="pop_follower_virus_monkey">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">virus_monkey</param>
+		<param id="variant">ape</param>
+		<param id="skinColor">0x937045</param>
+		<param id="hairColor">0x57482D</param>		
+		<param id="mouthFrame">gardener</param>
+		<param id="marksFrame">ftue_monkey5</param>
+		<param id="facialFrame">ftue_monkeymonoc</param>
+		<param id="hairFrame">empty</param>
+		<param id="shirtFrame">ftue_monkey</param>
+		<param id="pantsFrame">1</param>
+		<param id="packFrame">ftue_monkey</param>
+		<param id="overshirtFrame">ftue_monkeytie</param>
+		<param id="overpantsFrame">ftue_monkey2</param>
+		<param id="eyeState">squint</param>
+	 </parameters>
+</specialAbility>

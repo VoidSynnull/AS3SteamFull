@@ -1,0 +1,27 @@
+<dialogs>
+  <character id="char3">
+    <statement id="nvm" link="how" linkEntityId="char1" >Wait a minute, you aren't famous.</statement>
+  </character>
+  <character id="char2">
+    <statement id="look" triggerEvent="triggerEvent" triggerEventArgs="move_over_there">Hey, look over there! Isn't that former child star Willy Bingleman going into Queequeg's?</statement>
+  </character>
+  <character id="char1">
+    <statement id="celeb" triggerEvent="triggerEvent" triggerEventArgs="your_not_famous">Look, a celebrity!</statement>
+    <statement id="how" link="look" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="look_over_there">How could somebody traveling in a golden blimp not be a star?</statement>
+  </character>
+  <character id="photographer">
+    <statement>Lighting... Composition... F-stops... Photography is such a lost art!</statement>
+    <statement id="nice camera" link = "what is film" linkEntityId= "player">Ah, a fine piece of equipment! You just need the right film.</statement>
+    <statement id="sigh" triggerEvent="giveItem" triggerEventArgs="film">*sigh* Just put this in the camera. It'll work... I promise.</statement>
+  </character>
+  <character id="player">
+    <statement id="its all been done">Uh... I think that's already been done.</statement>
+    <statement id="what is film" link="sigh" linkEntityId="photographer">What the heck is "film"?</statement>
+    <statement id="not now">There's no reason to use the camera here.</statement>
+    <statement id="need to fix">Maybe someone around here can help me fix this thing.</statement>
+  </character>
+  <character id="alan">
+    <statement link="its all been done" linkEntityId="player">I've got a great idea for a script. Imagine astronauts mixed with medieval knights and robots!</statement>
+    
+  </character>
+</dialogs>

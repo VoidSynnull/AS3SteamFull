@@ -1,0 +1,20 @@
+<part>
+	<id>stor_trucker_boy1</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<gender>male</gender>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

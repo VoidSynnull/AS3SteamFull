@@ -1,0 +1,27 @@
+<dialogs>
+    <character id="player">
+        <statement id="got_lazybear">I have all the pieces of the LazyBear 2000, I should go set it up in Timmy's house.</statement>
+        <statement id="got_totalmobile">I have all the pieces of the TotalMobile, I should go meet up with Timmy.</statement>
+		<statement id="free_total">I have to get Total out of that slide somehow.</statement>
+		<statement id="wheres_total">I bet Total would be thrilled by whatever is in there.</statement>
+		
+		<statement id="save_treats">I should save these for when Total is around.</statement>
+    	<statement id="cant_use_trash">Nothing worth my time in here.</statement>
+		<statement id="cant_use_treats">I have no use for treats right now.</statement>
+		<statement id="cant_use_bonbons">I bet Total would love these.</statement>
+    	<statement triggeredByEvent="cant_use_screwdriver">No screws anywhere in sight.</statement>
+    	<statement id="cant_use_camera" triggeredByEvent="cant_use_camera">I don't need to film anything here..</statement>
+    	<statement id="cant_use_marker" triggeredByEvent="cant_use_marker">I don't need to write anything here.</statement>
+		<statement id="cant_use_box" triggeredByEvent="cant_use_box">I have no use for a box right now.</statement>
+		<statement triggeredByEvent="cant_use_gardening_shears">Bingo probably doesn't want me trimming any shrubs. I could use these somewhere else.</statement>
+		<statement triggeredByEvent="cant_use_money">This is just enough to buy the food cart's special.</statement>
+		<statement triggeredByEvent="cant_use_pole">I have no use for a pole right now.</statement>
+		<statement triggeredByEvent="cant_use_change">Exact change for the vending machine!</statement>
+		<statement id="cant_use_shoes" triggeredByEvent="cant_use_shoes">Stylish, but not my size. Molly might like them.</statement>
+		<statement id="cant_use_cat" triggeredByEvent="cant_use_cat">Molly's cat, Senor Burrito. But she's a girl cat!</statement>
+		<statement triggeredByEvent="cant_use_beach_ball">This beach ball is very bouncy.</statement>
+		<statement triggeredByEvent="cant_use_office_key">This must open a door in Timmy's house.</statement>
+		<statement triggeredByEvent="cant_use_car_keys">I need to find Crispin's car.</statement>
+		<statement id="cant_use_car_keys">Already tried the car... I don't think I'll get another shot with that.</statement>
+   	</character>
+</dialogs>

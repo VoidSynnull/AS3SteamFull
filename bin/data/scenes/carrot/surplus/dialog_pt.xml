@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="owner">
+		<conversation>
+			<exchange>
+				<question>Quem é você?</question>
+				<answer>eu sou Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>Sentindo-se para baixo?</question>
+				<answer>eu perdi meu gato, Whiskers. Se você pode encontrá-la, eu vou te dar um pé de cabra para livre!</answer>
+			</exchange>
+			<exchange>
+				<question>onde viu pela última vez o seu gato?</question>
+				<answer>Bem, ela costumava sair pela velha casa de fazenda.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="cat_returned">
+			<exchange>
+				<question>Whiskers parece feliz por estar em casa.</question>
+				<answer>Sim, muito obrigado por encontrá-lo!</answer>
+			</exchange>
+			<exchange>
+				<question>Existe alguma coisa que você precisa?</question>
+				<answer>Eu estou bem, mas esta cidade certeza poderia usar alguma ajuda!</answer>
+			</exchange>	
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>Whiskers parece feliz por estar em casa.</question>
+				<answer>Sim, muito obrigado por encontrá-lo!</answer>
+			</exchange>
+			<exchange>
+				<question>Existe alguma coisa que você precisa?</question>
+				<answer>Não.. Você me ajudou e toda a cidade já!</answer>
+			</exchange>						
+		</conversation>		
+		<conversation event="cat_following">
+			<exchange>
+				<question>Quem é você?</question>
+				<answer>eu sou Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>Sentindo-se para baixo?</question>
+				<answer>eu perdi meu gato, Whiskers. Se você pode encontrá-la, eu vou te dar um pé de cabra para livre!</answer>
+			</exchange>
+			<exchange>
+				<question>eu encontrei o seu gato!</question>
+				<answer link="crowbar_give" triggerEvent="completeEvent" triggerEventArgs="cat_returned">Whiskers!!! Venha aqui, seu pequeno patife!</answer>
+			</exchange>
+		</conversation>
+		<statement id="crowbar_give" triggerEvent="giveItem" triggerEventArgs="crowbar">Obrigado! Eu não posso dar ao luxo de dar-lhe muito, mas talvez você poderia usar este pé de cabra</statement>
+	</character>
+	<character id="char3">
+		<statement>Estou curtindo minha liberdade. Thanks!</statement>
+	</character>
+</dialogs>

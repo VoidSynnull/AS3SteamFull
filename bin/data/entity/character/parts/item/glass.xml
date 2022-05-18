@@ -1,0 +1,12 @@
+<part>
+	<id>glass</id>
+	<type>item</type>
+	<colorables>
+		<colorable>
+			<clip instanceName="drinkColor"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,30 @@
+<part>
+	<id>ad_caprisun_high_kicker</id>
+	<asset>none</asset>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2567</campaignID>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/CapriSunVendorCart/caprisun_logo.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="triggerable">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="after_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.NinjaKick</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+	
+</part>

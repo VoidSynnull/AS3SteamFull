@@ -1,0 +1,22 @@
+<part>
+	<id>september_b1</id>
+	<type>hair</type>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x79A5AF</color>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

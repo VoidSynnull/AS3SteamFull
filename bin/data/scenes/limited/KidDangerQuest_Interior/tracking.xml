@@ -1,0 +1,34 @@
+<tracking>
+	<track id="CaptainMan">
+		<event>EngagedInsideNPC</event>
+		<choice>Captain Man</choice>
+	</track>
+	<track id="KidDanger">
+		<event>EngagedInsideNPC</event>
+		<choice>Kid Danger</choice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Billboard</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Center Billboard</subchoice>
+	</track>
+		<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Billboard</subchoice>
+	</track>
+		<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Logo Above Door</subchoice>
+	</track>
+		<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

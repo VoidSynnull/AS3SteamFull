@@ -1,0 +1,60 @@
+<hits>
+	<hit id="concrete" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="handrail" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="container" color="0x00FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="barrel" color="0xCC9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ship" color="0xFFFF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xFF99FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="truckRoof" color="0x330099" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="truckBase" color="0xCC0066" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rowBoat" color="0x669933" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dock" color="0xFF9966" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalPlatform" color="0xFFFFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crate" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x004554</splashColor1>
+			<splashColor2>0x0052AA</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3100</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

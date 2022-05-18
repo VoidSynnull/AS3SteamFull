@@ -1,0 +1,120 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PoptasticGame/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<!-- ad xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/PoptasticGame/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/PoptasticGame/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2637</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2637</asset>
+	</assets>
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_poptastic</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_poptastic</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+		<asset>limited_cinderella2</asset>
+		<asset>mthoudini</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+		<asset>limited_cinderella2</asset>
+		<asset>mthoudini</asset>		
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_cinderella2</asset>
+		<asset>limited_cinderella6</asset>
+		
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_cinderella2</asset>
+		<asset>limited_cinderella6</asset>
+		
+	</assets>
+		<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_cinderella1</asset>		
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_cinderella1</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>bblue</asset>
+		<asset>red</asset>
+		<asset>green</asset>
+		<asset>limited_cinderella2</asset>
+		<asset>ppromking1e</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>bblue</asset>
+		<asset>red</asset>
+		<asset>green</asset>
+		<asset>limited_cinderella2</asset>
+		<asset>ppromking1e</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+		<asset>limited_balloonrabbit</asset>
+		<asset>limited_balloondog</asset>
+		<asset>limited_balloonfrog</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/PoptasticGame/" ext="swf">
+		<asset>TwitchTest</asset>
+		<asset>Follower</asset>
+	</assets>
+	<data type="support" path="data/limited/PoptasticGame/" ext="xml">
+		<asset>TwitchTest</asset>
+	</data>
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>pop_04</asset>
+		<asset>mini_game_loss</asset>
+		<asset>achievement_01</asset>
+	</assets>
+		<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>twitch_game</asset>
+	</assets>
+</manifest>

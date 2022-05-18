@@ -1,0 +1,15 @@
+<part>
+	<id>limited_viewmaster_p</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2721</campaignID>
+	<specialAbility id="PlayPopup">
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/ViewMasterQuest/power.swf</param>
+			<param id="tracking">ViewMasterQuest,View Master Power</param>
+		</parameters>
+	</specialAbility>
+</part>

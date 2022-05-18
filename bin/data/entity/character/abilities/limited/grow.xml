@@ -1,0 +1,20 @@
+<specialAbility id="limited/grow">
+	<save>true</save>
+	<className>game.data.specialAbility.SpecialAbility</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="tracking">Clifford Quest,Grow Power</param>
+	</parameters>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetScaleAction">
+				<parameters>
+					<param id="object" type="entity">player</param>
+					<param id="scaleTarget" type="number">0.63</param>
+					<param id="toggle" type="bool">true</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

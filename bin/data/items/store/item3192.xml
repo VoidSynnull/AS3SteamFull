@@ -1,0 +1,44 @@
+<item id="3192">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+					<value>Stealth Agent</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Spy Island - The Ultimate Agent!</value>
+ 		</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<mouth>15</mouth>
+					<marks>tcamoguy</marks>
+			<facial>tcamoguy</facial>
+			<hair>tcamoguy</hair>
+			<shirt>tcamoguy</shirt>
+			<pants>tcamoguy</pants>
+			<overpants>tcamoguy</overpants>
+			</look>
+		</looks>
+</item>

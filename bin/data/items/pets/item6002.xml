@@ -1,0 +1,94 @@
+<item id="6002"> <!-- Change this card ID -->
+  	<type>pets</type>
+	<subType>general</subType>
+	
+     <contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  		<parameters>
+			<param id="pet">true</param>
+		</parameters>
+  	</contentClass>
+	
+ 	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE PET</label>
+    		<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">EquipPet</param>
+				  		<param id="choice">Goat</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY PET</label>
+    		<actions>
+				<action type="deactivatePower"/>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">UnEquipPet</param>
+				  		<param id="choice">Goat</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Members-Only Pet</value>
+		</text>
+		<text id="storeTitle">
+			<value>Goat</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack"/>
+  	</assets>
+   	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+    	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xFCF2D9</skinColor>
+			<mouth>goat</mouth>
+			<head>goat</head>
+			<body>goat</body>
+			<marks>goat_ears</marks>
+			<tail>goat</tail>
+			<paw1>goat</paw1>
+			<paw2>goat</paw2>
+			<paw3>goat</paw3>
+			<paw4>goat</paw4>
+			<calf1>goat_front</calf1>
+			<calf2>goat_front</calf2>
+			<calf3>goat_back</calf3>
+			<calf4>goat_back</calf4>
+			<thigh1>goat_front</thigh1>
+			<thigh2>goat_front</thigh2>
+			<thigh3>goat_back</thigh3>
+			<thigh4>goat_back</thigh4>
+			<facial>empty</facial>
+			<hair>empty</hair>
+			<eyes>eyes</eyes>
+			<overbody>empty</overbody>
+		</look>
+	</looks> 
+
+   <specials>
+		<specialAbility>pets/pop_follower_goat</specialAbility>
+	</specials>
+</item>

@@ -1,0 +1,737 @@
+<npcs>
+<!-- NOTE :: don't include items, mouths, and eye states to avoid overriding expressions and items -->
+	
+	<!-- STANDARDS -->
+	<group title="Construction Worker">
+		<npc id="constructionWorker">
+			<skin>
+				<gender>1</gender>
+				<skinColor>0xd2aa72</skinColor>
+				<hairColor>0x513b2b</hairColor>
+				<marks>goat7</marks>
+				<facial>mk_inspector</facial>
+				<hair>frenchman</hair>
+				<shirt>mikesmarket</shirt>
+				<pants>mordred</pants>
+				<overshirt>mk_inspector</overshirt>
+			</skin>
+		</npc>
+	</group>
+	<group title="Ninja">
+		<npc id="ninja">
+			<skin>
+				<!-- <gender>male</gender> -->
+				<facial>pNinja1</facial>
+				<pants>pNinja</pants>
+				<shirt>pNinja1</shirt>
+				<overpants>pNinja1</overpants>
+				<!-- <item>pNinja1</item> -->
+				<pack>pNinja1</pack>
+			</skin>
+		</npc>
+	</group>
+	<group title="Renegade Robot">
+		<npc id="robot">
+			<skin>
+				<facial>pRobot</facial>
+				<shirt>pRobot</shirt>
+				<overshirt>pRobot</overshirt>
+				<!-- <item>pRobot</item> -->
+				<pack>pRobot</pack>
+			</skin>
+		</npc>
+	</group>
+	<group title="Space Sentry">
+		<npc id="spaceSentry">
+			<skin>
+				<facial>pRobot2</facial>
+				<pants>pRobot2</pants>
+				<shirt>pRobot2</shirt>
+				<overpants>pRobot2</overpants>
+				<overshirt>pRobot2</overshirt>
+				<item>pRobot2</item>
+				<pack>pRobot2</pack>
+			</skin>
+		</npc>
+	</group>
+	<group title="Zombie Example">
+		<npc id="zombie">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>z_zombie</marks>
+				<hair>1</hair>
+				<shirt>z_dancer1</shirt>
+				<pants>z_dancer1</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Zombie Dancer1">
+		<npc id="zombieDancer1">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>freckles</marks>
+				<hair>prisoner1</hair>
+				<shirt>z_dancer1</shirt>
+				<pants>z_dancer1</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Zombie Dancer2">
+		<npc id="zombieDancer2">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>sideburns</marks>
+				<hair>z_disco2</hair>
+				<shirt>z_disco2</shirt>
+				<pants>wwannouncer</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Zombie Dancer3">
+		<npc id="zombieDancer3">
+			<skin>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>mythpes1</marks>
+				<hair>z_disco3</hair>
+				<shirt>z_disco3</shirt>
+				<pants>1</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Zombie Dancer4">
+		<npc id="zombieDancer4">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>z_zombie</marks>
+				<hair>z_disco4</hair>
+				<shirt>z_disco4</shirt>
+				<pants>1</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Big Zombie">
+		<npc id="zombieBig">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<marks>z_zombie</marks>>
+				<hair>wwslouch01</hair>
+				<shirt>z_mass</shirt>
+				<pants>gsrathlet02</pants>
+				<eyes>zombie</eyes>
+			</skin>
+		</npc>
+	</group>
+	
+	<!-- SPOOKY/HALLOWEEN -->
+	
+	<group title="Skeleton">
+		<npc id="skeleton">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0xccff32</hairColor>
+				<mouth>1</mouth>
+				<facial>skeleton1</facial>
+				<hair>bald</hair>
+				<shirt>1</shirt>
+				<pants>1</pants>
+				<item>pumpkin</item>
+				<overshirt>skeleton1</overshirt>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Dracula">
+		<npc id="dracula">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0x000000</hairColor>
+				<mouth>vampire</mouth>
+				<marks>vampire</marks>
+				<hair>vampire</hair>
+				<shirt>vampire</shirt>
+				<pants>vampire</pants>
+				<pack>vampire</pack>
+				<overshirt>vampire</overshirt>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Dracula's Bride">
+		<npc id="draculaBride">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0x000000</hairColor>
+				<mouth>vampire</mouth>
+				<marks>vampire2</marks>
+				<hair>vampire2</hair>
+				<shirt>vampire2</shirt>
+				<pants>vampire2</pants>
+				<pack>grimreaper</pack>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Hyde">
+		<npc id="hyde">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xa7d78a</skinColor>
+				<hairColor>0x222916</hairColor>
+				<mouth>hyde</mouth>
+				<marks>hyde</marks>
+				<facial>hyde</facial>
+				<hair>1</hair>
+				<shirt>hyde</shirt>
+				<pants>hyde</pants>
+				<item>cane</item>
+				<overshirt>hyde</overshirt>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Frankenstein's Bride">
+		<npc id="FrankensteinBride">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0x0</hairColor>
+				<mouth>frankbride</mouth>
+				<marks>frankenstein</marks>
+				<hair>frankbride</hair>
+				<shirt>frankbride</shirt>
+				<pants>frankbride</pants>
+				<pack>frankbride</pack>
+				<overpants>astrogossip5</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Frankenstein">
+		<npc id="frankenstein">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x6ebe45</skinColor>
+				<hairColor>0x0</hairColor>
+				<mouth>flpirate3</mouth>
+				<marks>frankenstein</marks>
+				<hair>frankenstein</hair>
+				<shirt>frankenstein</shirt>
+				<pants>frankenstein</pants>
+				<overshirt>frankenstein</overshirt>
+				<eyeState>casual</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Grim Reaper">
+		<npc id="grimReaper">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0x0</hairColor>
+				<mouth>1</mouth>
+				<facial>grimreaper</facial>
+				<hair>1</hair>
+				<shirt>grimreaper</shirt>
+				<pants>grimreaper</pants>
+				<pack>grimreaper</pack>
+				<item>grimreaper</item>
+				<overpants>grimreaper</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Pumpkin Headed">
+		<npc id="pumpkinHead">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffffff</skinColor>
+				<hairColor>0x000000</hairColor>
+				<mouth>1</mouth>
+				<facial>pumpkinhead</facial>
+				<hair>1</hair>
+				<shirt>pumpkin</shirt>
+				<pants>pumpkin</pants>
+				<overshirt>pumpkin</overshirt>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Mummy Girl">
+		<npc id="mummyGirl">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xffe271</skinColor>
+				<hairColor>0xeabb00</hairColor>
+				<mouth>1</mouth>
+				<facial>mummy</facial>
+				<hair>bald</hair>
+				<shirt>1</shirt>
+				<pants>1</pants>
+				<overshirt>mummy</overshirt>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Mummy Guy">
+		<npc id="mummyGuy">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffe271</skinColor>
+				<hairColor>0xeabb00</hairColor>
+				<mouth>1</mouth>
+				<facial>sponsorgbmummy</facial>
+				<hair>1</hair>
+				<shirt>1</shirt>
+				<pants>1</pants>
+				<overshirt>sponsorgbmummy</overshirt>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Witch1">
+		<npc id="witch1">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xffe271</skinColor>
+				<hairColor>0xe08430</hairColor>
+				<mouth>witch</mouth>
+				<marks>beautymark</marks>
+				<hair>witch</hair>
+				<shirt>witch</shirt>
+				<pants>1</pants>
+				<pack>witch</pack>
+				<item>broom1</item>
+				<overpants>witch</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Witch2">
+		<npc id="witch2">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0x87b630</skinColor>
+				<hairColor>0x2b360e</hairColor>
+				<mouth>fm2</mouth>
+				<marks>gothgirl</marks>
+				<facial>witch2</facial>
+				<hair>witch2</hair>
+				<shirt>witch2</shirt>
+				<pants>1</pants>
+				<pack>grimreaper</pack>
+				<item>broom2</item>
+				<overpants>witch2</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Scarecrow">
+		<npc id="scarecrow">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xd8b856</skinColor>
+				<hairColor>0xf5cd70</hairColor>
+				<mouth>1</mouth>
+				<facial>sponsorgbcrow</facial>
+				<hair>sponsorgbcrow</hair>
+				<shirt>sponsorgbcrow</shirt>
+				<pants>1</pants>
+				<item>pitchfork</item>
+				<overshirt>sponsorgbcrow</overshirt>
+				<overpants>sponsorgbcrow</overpants>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+
+	<group title="Example Title">
+		<npc id="exampleId">
+			<skin>
+			</skin>
+		</npc>
+	</group>
+	
+	<group title="Minotaur">
+		<npc id="minotaur">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x7b5c3e</skinColor>
+				<hairColor>0xffffff</hairColor>
+				<mouth>prisoner3</mouth>
+				<marks>minotaur</marks>
+				<facial>minotaur</facial>
+				<hair>minotaur</hair>
+				<shirt>minotaur</shirt>
+				<pants>1</pants>
+				<item>minotaur</item>
+				<overshirt>minotaur</overshirt>
+				<overpants>minotaur</overpants>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	
+	<group title="Vampire Hunter">
+		<npc id="vampireHunter">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xfde6b6</skinColor>
+				<hairColor>0x0</hairColor>
+				<mouth>astroguard1</mouth>
+				<marks>vchunter</marks>
+				<facial>vchunter</facial>
+				<hair>1</hair>
+				<shirt>mtedison</shirt>
+				<pants>mtedison</pants>
+				<pack>vchunter</pack>
+				<overshirt>vchunter</overshirt>
+				<overpants>montgomery</overpants>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	
+	<group title="Cloaked">
+		<npc id="cloaked">
+			<skin>
+				<gender>male</gender>
+					<skinColor>0x5e5e80</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>gboater</mouth>
+					<facial>gcloaked</facial>
+					<hair>gboater</hair>
+					<shirt>gcloaked</shirt>
+					<pants>gcloaked</pants>
+					<pack>gcloaked</pack>
+					<item>rose</item>
+					<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	
+	<group title="Bonsai Woman">
+		<npc id="exampleId">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfae0c9</skinColor>
+				<hairColor>0x3c3c3c</hairColor>
+				<mouth>mthbonsaiwoman</mouth>
+				<marks>mthbonsaiwoman</marks>
+				<hair>mthbonsaiwoman</hair>
+				<shirt>mthbonsaiwoman</shirt>
+				<pants>mthbonsaiwoman</pants>
+				<pack>mthbonsaiwoman</pack>
+				<overshirt>mthbonsaiwoman</overshirt>
+				<eyeState>laugh</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Female Warrior">
+		<npc id="femaleWarrior">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfde6b6</skinColor>
+				<hairColor>0x000000</hairColor>
+				<mouth>mthfemwar</mouth>
+				<marks>mthfemwar</marks>
+				<hair>mthfemwar</hair>
+				<shirt>mthfemwar</shirt>
+				<pants>mthfemwar</pants>
+				<pack>mthfemwar</pack>
+				<item>mthfemwar</item>
+				<overshirt>mthfemwar</overshirt>
+				<overpants>mthfemwar</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Albert Einstein">
+		<npc id="einstein">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xf9e4ce</skinColor>
+				<mouth>14</mouth>
+				<facial>pEinstein</facial>
+				<hair>pEinstein</hair>
+				<pants>pEinstein</pants>
+				<shirt>pEinstein</shirt>
+			</skin>
+		</npc>
+	</group>
+
+	
+
+	<!-- ISLAND NPCS -->
+	<group title="Dr. Lange">
+		<npc id="drLange">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xf9e4ce</skinColor>
+				<hairColor>0x5e0d11</hairColor>
+				<mouth>15</mouth>
+				<hair>is_scien</hair>
+				<shirt>is_scien</shirt>
+				<pants>is_scien</pants>
+				<overshirt>labcoat</overshirt>
+				<eyeState>open</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Pilot">
+		<npc id="pilot">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xCFA771</skinColor>
+				<hairColor>0x999999</hairColor>
+				<mouth>15</mouth>
+				<facial>oldPilot</facial>
+				<shirt>oldPilot</shirt>
+				<pants>oldPilot</pants>
+				<overshirt>oldPilot</overshirt>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Amelia">
+		<npc id="amelia">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfdd9c8</skinColor>
+				<hairColor>0xf5894e</hairColor>
+				<!-- <mouth>mthfishmonger</mouth> -->
+				<hair>home_crash</hair>
+				<shirt>home_crash</shirt>
+				<pants>peinstein</pants>
+				<pack>home_crash</pack>
+				<overshirt>home_crash</overshirt>
+				<!-- <eyeState>open</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Myron Van Buren">
+		<npc id="vanBuren">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xcf936a</skinColor>
+				<hairColor>0x999999</hairColor>
+				<marks>survival_vanburen</marks>
+				<facial>survival_vanburen</facial>
+				<hair>survival_vanburen</hair>
+				<shirt>survival_vanburen</shirt>
+				<pants>camopants</pants>
+				<overshirt>survival_vanburen</overshirt>
+			</skin>
+		</npc>
+	</group>
+	<group title="DJ Saturday Nite">
+		<npc id="djSaturdayNite">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0x754a2f</skinColor>
+				<hairColor>0x3d221a</hairColor>
+				<!-- <mouth>sponsorLM_Stella</mouth> -->
+				<facial>z_djnite</facial>
+				<hair>z_djnite</hair>
+				<shirt>z_djnite</shirt>
+				<pants>astrochance</pants>
+				<overpants>z_djnite</overpants>
+				<!-- <eyeState>casual</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Zeus">
+		<npc id="zeus">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xfde6b6</skinColor>
+				<hairColor>0xffffff</hairColor>
+				<!-- <mouth>shadycop</mouth> -->
+				<marks>zeus</marks>
+				<hair>zeus</hair>
+				<shirt>zeus</shirt>
+				<pants>zeus</pants>
+				<pack>zeus</pack>
+				<!-- <item>zeus</item> -->
+				<overshirt>zeus</overshirt>
+				<overpants>zeus</overpants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Aphrodite">
+		<npc id="aphrodite">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfee0d8</skinColor>
+				<hairColor>0xfdd124</hairColor>
+				<!-- <mouth>aphrodite</mouth> -->
+				<marks>aphrodite</marks>
+				<hair>aphrodite</hair>
+				<shirt>aphrodite</shirt>
+				<pants>aphrodite</pants>
+				<pack>aphrodite</pack>
+				<!-- <item>aphromirror</item> -->
+				<overshirt>aphrodite</overshirt>
+				<overpants>aphrodite</overpants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Dr. Hare">
+		<npc id="drHare">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffe271</skinColor>
+				<hairColor>0x4a2c17</hairColor>
+				<!-- <mouth>drhare</mouth> -->
+				<facial>drhare</facial>
+				<hair>31</hair>
+				<shirt>drhare</shirt>
+				<pants>1</pants>
+				<pack>drhare</pack>
+				<overpants>drhare</overpants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Omegon">
+		<npc id="omegon">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xffc215</skinColor>
+				<hairColor>0x0</hairColor>
+				<mouth>19</mouth>
+				<marks>poptropicon_omegon</marks>
+				<facial>poptropicon_omegon</facial>
+				<hair>poptropicon_omegon</hair>
+				<shirt>1</shirt>
+				<pants>miner2</pants>
+				<pack>poptropicon_omegon</pack>
+				<overshirt>poptropicon_omegon</overshirt>
+				<eyeState>squint</eyeState>
+				<eyes>eyes_omegon</eyes>
+			</skin>
+		</npc>
+	</group>
+	<group title="Black Widow">
+		<npc id="blackWidow">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfbdfc7</skinColor>
+				<hairColor>0x0</hairColor>
+				<!-- <mouth>blackwidow</mouth> -->
+				<marks>blackwidow2</marks>
+				<hair>blackwidow2</hair>
+				<shirt>blackwidow2</shirt>
+				<pants>ss</pants>
+				<overpants>blackwidow2</overpants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Sherazade">
+		<npc id="scherazade">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0x6bdbb6</skinColor>
+				<hairColor>0x1b362d</hairColor>
+				<!-- <mouth>teethgrin2</mouth> -->
+				<marks>an_genie2</marks>
+				<facial>an2_master2</facial>
+				<hair>an_genie2</hair>
+				<shirt>an_genie2</shirt>
+				<pants>an_genie2</pants>
+				<overpants>an_princess</overpants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Genie">
+		<npc id="genie">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0x6bdbb6</skinColor>
+				<hairColor>0x1b362d</hairColor>
+				<mouth>teethgrin2</mouth>
+				<marks>an_genie</marks>
+				<hair>an_genie</hair>
+				<shirt>an_genie</shirt>
+				<pants>an_genie</pants>
+				<eyeState>squint</eyeState>
+			</skin>
+		</npc>
+	</group>
+	<group title="Captain Crawfish">
+		<npc id="cptCrawfish">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xfbdfcb</skinColor>
+				<hairColor>0x999999</hairColor>
+				<!-- <mouth>captcrawfish</mouth> -->
+				<marks>captcrawfish</marks>
+				<facial>captcrawfish</facial>
+				<hair>captcrawfish</hair>
+				<shirt>captcrawfish</shirt>
+				<pants>captcrawfish</pants>
+				<!-- <item>captcrawfish</item> -->
+				<overshirt>captcrawfish</overshirt>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Gretchen Grimlock">
+		<npc id="cptCrawfish">
+			<skin>
+				<gender>female</gender>
+				<skinColor>0xfbdfcb</skinColor>
+				<hairColor>0xd27590</hairColor>
+				<!-- <mouth>gretchen</mouth> -->
+				<marks>gretchen</marks>
+				<facial>gretchen_glasses</facial>
+				<hair>gretchen</hair>
+				<shirt>gretchen</shirt>
+				<pants>1</pants>
+				<!-- <eyeState>casual</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+	<group title="Director D">
+		<npc id="directorD">
+			<skin>
+				<gender>male</gender>
+				<skinColor>0xffe271</skinColor>
+				<hairColor>0x5b5b5b</hairColor>
+				<mouth>14</mouth>
+				<hair>tailor</hair>
+				<shirt>directord</shirt>
+				<pants>ss</pants>
+				<!-- <eyeState>squint</eyeState> -->
+			</skin>
+		</npc>
+	</group>
+</npcs>

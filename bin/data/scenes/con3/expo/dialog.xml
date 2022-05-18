@@ -1,0 +1,20 @@
+<dialogs>
+	<character id="player">
+		<statement id="gotIt">Got it!</statement>
+	</character>
+	<character id="wizard">
+		<statement id="best">Best con ever!</statement>
+		<statement >Best con ever!</statement>
+	</character>
+	<character id="fan">
+		<statement id="top">No way they top that next year.</statement>
+		<statement>No way they top that next year.</statement>
+	</character>
+	<character id="leader">
+		<statement id="sorry" triggerEvent="giveItem" triggerEventArgs="medal_con3, leader">So, can we just forget about that whole thing where I sold out humankind? Maybe if I give you this?</statement>
+		<statement>So, can we just forget about that whole thing where I sold out humankind?</statement>
+    </character>
+    <character id="stan">
+    	<statment>What an exciting storyline that was. They ought to make a movie!</statment>
+    </character>
+</dialogs>

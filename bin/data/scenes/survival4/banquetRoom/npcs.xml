@@ -1,0 +1,85 @@
+<npcs>
+	<npc id="cook" event="ate_meat">
+		<animations>
+			<animation>game.data.animation.entity.character.SitSleepLoop</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfcdfd6</skinColor>
+			<hairColor>0x6b8694</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_isabella</marks>
+			<facial>nateg</facial>
+			<hair>survival_isabella</hair>
+			<shirt>survival_isabella</shirt>
+			<pants>chef2</pants>
+			<item>survival_isabella</item>
+			<overshirt>survival_isabella</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>395</x>
+			<y>627</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="cook" event="open_kitchen">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfcdfd6</skinColor>
+			<hairColor>0x6b8694</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_isabella</marks>
+			<facial>nateg</facial>
+			<hair>survival_isabella</hair>
+			<shirt>survival_isabella</shirt>
+			<pants>chef2</pants>
+			<item>survival_isabella</item>
+			<overshirt>survival_isabella</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>120</x>
+			<y>660</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="vanburen" event="dinner_sequence">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1945</x>
+			<y>627</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

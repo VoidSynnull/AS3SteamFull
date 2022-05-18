@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="tony">
+		<statement>Come join my crew for today's race!</statement>
+		<statement triggeredByEvent="npcProximity">Hey there!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

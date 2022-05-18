@@ -1,0 +1,17 @@
+<part>
+	<id>limited_branch</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<campaignID>2826</campaignID>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

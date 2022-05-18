@@ -1,0 +1,42 @@
+<item id="3267">
+	<type>store</type>
+	<subType>general</subType>
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<textfields>
+			<text id="storeTitle">
+			<value>Leprechaun</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Put on the hat and tap space bar&#10;to dance a lively jig.</web>
+			<mobile>Put on the hat and tap ACTION&#10;to dance a lively jig.</mobile>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<mouth>pleprechaun</mouth>
+			<hair>pleprecaun</hair>
+			<shirt>pleprechaun</shirt>
+			<pants>pleprechaun</pants>
+			<overshirt>pleprechaun</overshirt>
+		</look>
+	</looks>
+</item>

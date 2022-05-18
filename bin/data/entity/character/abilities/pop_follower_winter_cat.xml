@@ -1,0 +1,19 @@
+<specialAbility id="pop_follower_winter_cat">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">3</param>
+		<param id="skinColor">0xff9933</param>
+		<param id="variant">creature</param>
+		<param id="scaleSize">.75</param>
+		<param id="haircolor">0xff9933</param>
+		<param id="mouthFrame">cat</param>
+		<param id="marksFrame">stor_winter_petantlers</param>
+		<param id="facialFrame">cat</param>
+		<param id="hairFrame">cat</param>
+		<param id="shirtFrame">stor_winter_petsweater</param>
+		<param id="pantsFrame">bare</param>
+		<param id="packFrame">cat</param>
+	 </parameters>
+</specialAbility>

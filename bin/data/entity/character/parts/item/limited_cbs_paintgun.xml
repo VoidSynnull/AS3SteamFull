@@ -1,0 +1,35 @@
+<part>
+	<id>limited_cbs_paintgun</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2815</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/CBSMiddleSchoolQuest/Balloon.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+	  		<param id="colors">0x3CDCDC,0xF80511,0xFFCC00</param>
+			<param id="tracking">CBSMiddleSchoolQuest,Paint Gun</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="ColorizeNPCAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="number">[color]</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

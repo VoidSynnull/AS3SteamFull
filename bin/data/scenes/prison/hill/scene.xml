@@ -1,0 +1,47 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1851</right>
+		<bottom>2986</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>-100</top>
+		<right>1890</right>
+		<bottom>2969</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,photos.xml</data>
+	<absoluteFilePaths>scenes/prison/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer id="background" event="player_escaped">
+			<asset>background2.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="interactive" event="player_escaped" hit="true">
+			<asset>interactive2.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>45</x>
+			<y>2969</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

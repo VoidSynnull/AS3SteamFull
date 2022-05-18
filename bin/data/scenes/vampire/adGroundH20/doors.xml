@@ -1,0 +1,28 @@
+<doors>
+	<door id="leftExit">
+		<scene>game.scenes.vampire.mainStreet.MainStreet</scene>
+		<x>4120</x>
+		<y>1230</y>
+		<label>
+			<text>Go Left</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.vampire.cliff.Cliff</scene>
+		<x>30</x>
+		<y>1650</y>
+		<label>
+			<text>Go Right</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

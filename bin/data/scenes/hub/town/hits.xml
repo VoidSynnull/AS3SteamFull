@@ -1,0 +1,181 @@
+<hits>
+	<hit id="hay" color="0xAEB0A1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="linoleum" color="0x996666" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cobble" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="blimpPlatform" color="0x330099" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rope" color="0xBA1FE0" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="wood_plank" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0x80C8F1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="grass" color="0x0033FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit id="t_sm_hit" color="0xF6C7A6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="t_leaves1_hit" color="0x996611" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="t_leaves2_hit" color="0x996622" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="t_leaves3_hit" color="0x996633" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="t_leaves4_hit" color="0x996644" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="t_jackolantern1_hit" color="0xeebb00" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="t_jackolantern2_hit" color="0xeebb11" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="t_jackolantern3_hit" color="0xeebb22" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="t_jackolantern4_hit" color="0xeebb33" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="t_jackolantern5_hit" color="0xeebb44" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="t_jackolantern6_hit" color="0xeebb55" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_rama_hit" color="0xff0011" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_tree_hit" color="0xff0022" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_pig_hit" color="0xff0033" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_swing_hit" color="0xff0044" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_tire_hit" color="0xff0055" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_frog_hit" color="0xff0066" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_xmas1_hit" color="0xff0088" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_xmas2_hit" color="0xff0077" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="pulleyPlatform">
+		<component type="movingPlatform">
+			<visible>pulleyFloor</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+</hits>

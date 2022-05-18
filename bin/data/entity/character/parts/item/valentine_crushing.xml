@@ -1,0 +1,14 @@
+<part>
+	<id>valentine_crushing</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">overlays/crushing.swf</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+	</specialAbility>
+</part>

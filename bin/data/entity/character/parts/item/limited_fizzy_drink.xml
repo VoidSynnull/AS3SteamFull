@@ -1,0 +1,37 @@
+<part>
+	<id>limited_fizzy_drink</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">FartPowerTest,Fart</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animation" type="class">game.data.animation.entity.character.Drink</param> 
+					</parameters>
+				</action>
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animation" type="class">game.data.animation.entity.character.Pop</param> 
+					</parameters>
+				</action>
+				<action class="AudioAction">
+					<parameters>
+						<param id="target" type="entity">null</param>
+						<param id="url" type="string">effects/fart_01.mp3,effects/fart_02.mp3,effects/fart_03.mp3,effects/fart_04.mp3</param> 
+						<param id="radius" type="number">0</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

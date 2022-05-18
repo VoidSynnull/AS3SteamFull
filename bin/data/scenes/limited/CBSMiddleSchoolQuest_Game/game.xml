@@ -1,0 +1,13 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13000</winDistance>
+	<chaseDistance>400</chaseDistance>
+	<npcSpeed>300</npcSpeed>
+	<winNPCPhrase npc="rafe" delay="0">Nice, you outran the principal!</winNPCPhrase> <!-- Optional -->
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms> <!-- Optional -->
+	<chaserIgnoreWalls>true</chaserIgnoreWalls> <!-- Optional -->
+	<winDelay>4</winDelay>
+	<chaserPrefix>dwight</chaserPrefix>
+	<returnX>2130</returnX>
+	<returnY>810</returnY>
+</game>

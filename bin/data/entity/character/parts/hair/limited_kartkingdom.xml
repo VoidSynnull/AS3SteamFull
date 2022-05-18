@@ -1,0 +1,37 @@
+<part>
+	<id>limited_kartkingdom</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<campaignID>2670</campaignID>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+					
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/KartKingdomMVU/jetpack.swf</param>
+			<param id="tracking">KartKingdomMVU,Hat Power</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,26 @@
+<island>
+	<name>Examples</name>
+  	<eventsClass>game.scenes.examples.ExamplesEvents</eventsClass>
+  	<gameVersion>AS3</gameVersion>
+  	<island>examples</island>
+  	
+  	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+		<event>started</event>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+		<item id="standard_island_card">0</item>
+		<item id="trigger_event_card">0</item>
+		<item id="apply_part_card">0</item>
+	  	<item id="costume_card">0</item>
+	  	<item id="ability_card">0</item>
+	  	<item id="open_popup_card">0</item>
+	  	<item id="load_scene_card">0</item>
+	  	<item id="url_card">0</item>
+	  	<item id="tribe_specific_card">0</item>
+	  	<item id="standard_card">0</item>
+	  	<item id="crowbar">0</item>
+	</itemIdMap>
+</island>

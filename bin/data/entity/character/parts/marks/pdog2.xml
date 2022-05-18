@@ -1,0 +1,20 @@
+<part>
+	<id>pdog2</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colors>
+		<color id="color1">0xEFCB3A</color>
+		<color id="color2">0xEFCB3A</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,48 @@
+<item id="3343">
+		<type>store</type>
+		<subType>general</subType>
+
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>EQUIP</label>
+				<actions>
+				<action type="applyLook"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasLook" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Monster Carnival Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Hypno-Powder</value>
+			</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to use the powder!</web>
+			<mobile>Tap ACTION to use the powder!</mobile>
+		</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+
+		<looks>
+			<look>
+		 	<item>store_hypno_powder</item>
+		 	</look> 
+	</looks>
+	
+		<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+
+</item>

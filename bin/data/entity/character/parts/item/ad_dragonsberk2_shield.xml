@@ -1,0 +1,49 @@
+<part>
+	<id>ad_dragonsberk2_shield</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2531</campaignID>
+	<hide>
+		<part>arm1</part>
+		<part>hand1</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/DragonDefendersofBerk2MVU/ShieldPower.swf</param>
+			<param id="alignToPart">hand1</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Push</param> 
+						<param id="waitLabel" type="string">startParticles</param> 
+						<param id="masFrames" type="number">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Pop</param> 
+					</parameters>
+				</action>
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Stand</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,21 @@
+<part>
+	<id>an_divination_sand</id>
+	<type>item</type>
+	<specialAbility>
+	<useButton>true</useButton>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<parameters>
+			<param id="swfPath">scenes/arab3/shared/divination_bomb_projectile.swf</param>
+			<param id="hideInHand">false</param>	
+			<param id="speedX">150</param>	
+			<param id="speedY">-280</param>	
+			<param id="rotationSpeed">30</param>
+			<param id="offsetX">25</param>	
+			<param id="offsetY">-10</param>						
+			<param id="responderClass">game.scenes.arab3.shared.DivinationImpactResponse</param>
+			<param id="launchSound">lit_fuse_01_L.mp3</param>
+			<param id="applyCollision">true</param>
+		</parameters>
+		<validIslands>arab3</validIslands>
+	</specialAbility>
+</part>

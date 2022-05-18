@@ -1,0 +1,34 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="boat" color="0xA3A8E5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xA3853C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bones" color="0x33CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sign" color="0x006699" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hercsBoulder" color="0x9933FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

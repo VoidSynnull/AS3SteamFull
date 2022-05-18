@@ -1,0 +1,162 @@
+<dialogs>
+	<character id="player">
+		<statement id="job">How can I get a job in the kitchen?</statement>
+		<statement id="eggs" triggerEvent="triggerEvent" triggerEventArgs="need_eggs, true">Three cage-free eggs it is.</statement>
+		<statement id="give_eggs">Three free-range eggs, just like you asked.</statement>
+		
+		<statement id="yuck">Yuck, this food is gross.</statement>
+		
+		<statement id="spoon">Can't eat this without a spoon.</statement>
+		
+		<statement id="gum">Here's three sticks of gum, now how do i get a spoon?</statement>
+		
+		<statement id="block">These Potatoes are as hard as plaster, maybe i can carve them into something useful.</statement>
+		
+		<statement id="pasta">This kind of Pasta looks like drill bits.</statement>
+		
+		<statement id="stealMixer">How can I get Flambe to drop that mixer?</statement>
+		
+		<statement id="mishap">I probably shouldn't touch the potatoes again, after that last mishap.</statement>
+		<statement id="no_taters">Can't stir an empty pot.</statement>
+		<statement id="blockPlaster">I don't think Flambe will let me get away with ruining the potatoes a second time!</statement>
+		
+		<statement id="plate">This looks like it leads to the roof! I wonder if I can drill out these rusty screws.</statement>
+       	<statement id="what">What are you doing here?</statement>
+        <statement id="mean">What do you mean?</statement>
+        <statement id="escape">Then we escape tomorrow night!</statement>
+        
+        <statement id="okay">Okay!</statement>
+        <statement id="stuck">The pipe exploded, I can't go that way!</statement>
+        
+        <statement id="vents1">The vents are open above table One.</statement>
+        <statement id="vents2">The vents are open above table Two.</statement>
+        <statement id="vents3">The vents are open above table Three, Florian's favorite spot.</statement>
+	</character>
+	
+	<character id="nightingale">
+		<conversation event="mess_day_1_complete">
+			<exchange>
+				<question>Never mind.</question>
+			</exchange>
+			<exchange>
+				<question>I'm done eating.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="done_for_day">Okay, return your spoon.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="spoon_distraction">
+			<exchange>
+				<question>Can I have my spoon now?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="second_spoon">Sure, here's a spoon. Bring it back when you're done.</answer>
+			</exchange>
+		</conversation>	
+		<statement>Enjoy your meal-time, there will be no seconds.</statement>
+    </character>
+    
+    <character id="ratchet">
+        <statement id="take_over">We got a disturbance over there. Nightingale, take over for me.</statement>
+        <statement id="what">What's the problem you old coot?</statement>
+        <statement id="return">You aren't sick! Another outburst like this and you'll spend the night in solitary.</statement>
+        <statement event="spoon_distraction">Not now.</statement>
+    	<statement id="spoon">Here's your spoon. Bring it back when you're done eating.</statement>
+    	<statement event="hasItem_cafe_spoon">Only one spoon allowed per inmate. Go eat your Gruel.</statement>
+    	<statement triggerEvent="giveItem" triggerEventArgs="cafe_spoon">Here's your spoon. Bring it back when you're done eating.</statement>
+    	
+    	<statement id="sit">Sit down, narcissus!</statement>
+    	<statement id="cage">That's it. Lockdown for everyone!</statement>
+    </character>
+    
+    <character id="florian">
+    	<statement>This is the best seat in the house. Everyone can see me here!</statement>
+    	<statement id="reject">We're not friends Booted Bandit, go sit somewhere else.</statement>
+    	<statement id="dead">My beautiful hair! Someone's going to pay for this!</statement>
+    	<statement id="make">Make me!</statement>
+    	<statement id="hole">I know you set me up, Booted Bandit! When I get out of the hole, you're done for!</statement>
+    </character>
+    
+    <character id="flambe">
+    	<statement id="back_off">Back off! Trained chefs only.</statement>    	
+<!--     	<statement link="job" linkEntityId="player">I said trained chefs only!</statement> -->
+    	<statement id="back_off2">I said trained chefs only!</statement>
+    	<statement id="two_ways">One of two ways: you can either get trained at Le Cordon Bleu in Paris...</statement>
+    	<statement id="omelette">...or you can find me three eggs to make my signature omelette. This farm-raised stuff isn't cutting it.</statement>
+    	    	
+    	<conversation event="traded_eggs">
+    		<exchange>
+	    		<question>How do I mix the mashed Potatoes?</question>
+	    		<answer link="mixer">Justaket Stir that big pot over there, and don't add anything weird to them.</answer>
+	    	</exchange>
+	    	<exchange>
+	    		<question>Say, could I borrow that mixer?</question>
+	    		<answer link="stealMixer" linkEntityId="player">The mixer doesn't leave my side. I'd take this thing into battle!</answer>
+    		</exchange>
+    	</conversation>
+
+		<statement id="take_eggs">Did you find me three free-range eggs yet?</statement>
+    	
+    	<statement id="take_eggs2">Finally, I can make a decent omelette! All right, you can be my sous chef.</statement>
+    	
+    	<statement id="start_work">You're still new at this, so the only thing I'll trust you to do is stir the mashed potatoes.</statement>
+    	<statement id="mixer">Remember, good mashed potatoes are smooth and creamy. All potatoes, no filler!</statement>
+    	<statement id="rock">This is inedible! It's like a block of marble! I'll never get that Michelin star now.</statement>
+    	<statement id="good">Smooth and creamy, fit for human consumption. Good work.</statement>
+    	<statement id="waste">Its against prison policy to give out seconds! Yo`u trying to set the Warden after us?</statement>
+    	   
+   		<statement id="sweat">How can they treat my cuisine like that? I put my blood, sweat, and tears into my food!</statement>
+  		<statement id="literally">Well, not literally.</statement>
+  		<statement id="stop">I've got to stop them!</statement>
+  		<statement id="save">Please... save my mixer...</statement>
+  		<statement event="started_food_fight">Please... save my mixer...</statement>
+  		<statement id="prize">I've never had a sous chef with such dedication. You may keep my prized possession.</statement>
+  		<statement id="child">Treat it as you would your own child!</statement>
+  		<statement event="gotItem_mixer">Take care of my precious mixer.</statement>
+  		
+  		<statement event="drilled_plate">My sentence is almost up. Every day I dream of opening a French restaurant up in Napa.</statement>
+    </character>    
+    
+    <character id="patches">
+        <statement id="seconds">Hey! a second helping!</statement>
+    	<statement id="metal">You just need something metal. I'll help you get "seconds" if you give me Three sticks of gum.</statement>
+    	<statement>Meal-time is the best time of the day!</statement>
+    	<statement event="mess_day_1_complete">I'll help you get 'seconds' if you give me Three sticks of gum.</statement>
+    	<statement id="help2">Got some gum for me yet?</statement>
+    	    	
+    	<statement id="help">I'll make a distraction, go do what you need to do!</statement>
+    	<statement id="fake">Oh noooo, my stomach hurts! guard come help!</statement>
+    	<statement id="fake2">The pain!</statement>
+    	
+    	<statement event="smuggled_spoon">This food all looks the same, been that way for years!</statement>
+    </character>
+    
+    <character id="marion">
+      	<statement event="started_food_fight">It's chaos over there!</statement>
+    	<statement>I don't think Flambe ever actually trained at Le Cordon Bleu in Paris. This food is terrible.</statement>
+    </character>
+    
+    <character id="les">
+    	<statement id="walls">These walls are crumbling, you know.</statement>
+     	<statement>More cleverly disguised potatoes for dinner...</statement>
+     	<statement id="seconds">look, table service!</statement>
+     	
+     	<statement id="foodfight">FOOD FIGHT!!!</statement>
+     	
+     	<statement id="swing">You're not the only one who can swing a spoon.</statement>
+     	<statement id="raft">We've been making a raft and lifejackets.</statement>
+     	
+     	<statement id="bust">It's time to bust out of this joint!</statement>
+    </character>
+
+    <character id="sal">
+    	<statement id="crumbling">Crumbling down! Someone could chisel their way out if they weren't careful.</statement>
+    	<statement>What am I even eating today?</statement>
+    	<statement id="seconds">Is this a one star restuarant now?</statement>
+    	
+    	<statement id="foodfight">FOOD FIGHT!!!</statement>
+    
+    	<statement id="outside">But you'll need more than that on the outside. And we can help.</statement>
+    	<statement id="night">But we need one more night to finish them.</statement>
+    	
+    	<statement id="first">We'll go first and set up the rafts.</statement>
+    	
+    	<statement id="toobad">You'll have to find another way, we'll meet you at the water.</statement>
+    </character>
+</dialogs>

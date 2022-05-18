@@ -1,0 +1,24 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">jungle_beach_atmosphere.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">beach_waves.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="fine_sand">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tiltPlatformLeft">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tiltPlatformRight">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="fine_sand">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3,fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3,fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="tiltPlatformLeft">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="tiltPlatformRight">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

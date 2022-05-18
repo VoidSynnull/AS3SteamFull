@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">around_and_around.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="platform">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+
+	</sound>
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="platform">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="pullLever">ratchet_crank_short_01.mp3</asset>
+	</sound>
+</sounds>

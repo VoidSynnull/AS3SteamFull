@@ -1,0 +1,37 @@
+<item id="3330">
+	<type>island</type>
+	<subType>store</subType>
+	
+	<buttons>
+		<btn>
+			<label>USE</label>
+			<actions>
+				<action type="applyLookNPC"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+			<text id="storeSubTitle">
+			<value>Dr. Hare's Lair</value>
+		</text>
+		<text id="storeTitle">
+			<value>Dr.Hare Ears Power</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Give everyone Dr. Hare ears!</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent"/>
+	</assets>
+		
+	<looks>
+		<look>
+		 	<facial>cuusoo_ears</facial>
+	 	</look> 
+	</looks> 
+
+</item>

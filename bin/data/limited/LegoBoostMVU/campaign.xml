@@ -1,0 +1,17 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>LegoBoostMVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://www.lego.com/en-us/kids/videos/boost/meet-vernie-ad2ec39644fa43d1a4375a19b658bc51?cmp=%ebuy!;%25esid!;%25epid!;%ecid</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	
+	<boycards>
+		<card>2919</card>
+	</boycards>
+	<girlcards>
+		<card>2919</card>
+	</girlcards>
+</campaign>

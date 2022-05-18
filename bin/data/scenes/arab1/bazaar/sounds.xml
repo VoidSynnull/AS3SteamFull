@@ -1,0 +1,21 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume="0.8">arab1_main_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="basket">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="minaret">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="basket">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="minaret">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

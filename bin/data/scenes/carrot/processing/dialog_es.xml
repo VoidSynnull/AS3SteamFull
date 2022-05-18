@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="drone2">
+		<conversation>
+			<exchange>
+				<question>Quién es usted?</question>
+				<answer>No se puede hablar. Debe procesar zanahorias.</answer>
+			</exchange>
+			<exchange>
+				<question>¿Qué estás haciendo?</question>
+				<answer>No se puede hablar. Debe procesar zanahorias.</answer>
+			</exchange>
+			<exchange>
+				<question>Mira detrás de ti!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_2">Dónde?</answer> 
+			</exchange>
+		</conversation>
+		
+		<statement triggeredByEvent="drone_freed_2">Gracias! Ahora, tenga cuidado. Si te ven sin rabbot oídos Dr. Hare te atrapará!</statement>
+	</character>
+	
+	<character id="drone3">
+		<conversation>
+			<exchange>
+				<question>Quién es usted?</question>
+				<answer>No se puede hablar. Debe procesar zanahorias.</answer>
+			</exchange>
+			<exchange>
+				<question>¿Qué estás haciendo?</question>
+				<answer>No se puede hablar. Debe procesar zanahorias.</answer>
+			</exchange>
+			<exchange>
+				<question>Look! Un búfalo de vuelo!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_3">Dónde?</answer>
+			</exchange>
+		</conversation>
+
+		<statement triggeredByEvent="drone_freed_3">soy libre! Probablemente se debe encontrar algunos oídos Rabbot o Dr. Hare encontrará usted!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,97 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="blimp" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="concreteRoof" color="0xC0AB72" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinRoof" color="0x57AEA8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="birdNest" color="0xD6BC58" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="busStop" color="0x65A774" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="busSign" color="0xA9C6E2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="globoSign" color="0xCB6D45" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="powerPole" color="0xB5997D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="steps" color="0x797979" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="shingles" color="0x5E7DFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowSill" color="0x44937D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="brickWindowSill" color="0xFF6C6C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalSeat" color="0x00FF99" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trash" color="0x003333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="newsBox" color="0xDF5B44" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodenSign" color="0x76721F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="globoDoorFrame" color="0xA4B6BD" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="townHallWindow" color="0xD9DBBF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="radioTower" color="0xDE9A1E" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="radioTop" color="0x007E51" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="umbrella" color="0xFF4FD4" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="falafelSign" color="0x" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hook" color="0x00CBD4" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

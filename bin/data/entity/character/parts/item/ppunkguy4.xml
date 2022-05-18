@@ -1,0 +1,31 @@
+<part>
+	<id>ppunkguy4</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0x8228BD</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="active_obj.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Guitar</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

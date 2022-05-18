@@ -1,0 +1,41 @@
+<doors>
+	<door id="mainExit">
+		<scene>game.scenes.vampire.adGroundH20.AdGroundH20</scene>
+		<x>720</x>
+		<y>474</y>
+		<label>
+			<text>GO LEFT</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="castleExit">
+		<scene>game.scenes.vampire.castleGrounds.CastleGrounds</scene>
+		<x>80</x>
+		<y>1900</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="caveExit" event="bonus_quest">
+		<scene>game.scenes.vampire.cave.Cave</scene>
+		<x>90</x>
+		<y>602</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset event="elevator_click">elevator_ping_01.mp3</asset>
+		<asset event="elevator_open">door_elevator_open_close_02.mp3</asset>
+		<asset event="elevator_close">door_elevator_close_01.mp3</asset>
+		<asset event="elevator_moving" loop="true">conveyor_belt_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="desk">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="desk">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

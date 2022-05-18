@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_1_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" baseVolume="1.6">jungle_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorShip">door_hydrolics_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="wasp1" modifiers="position" loop="true">insect_flies_02_loop.mp3</asset>
+		<asset id="wasp2" modifiers="position" loop="true">insect_flies_02_loop.mp3</asset>
+		<asset id="dactyl1" modifiers="position">deep_flap_01.mp3</asset>
+		<asset id="dactyl2" modifiers="position">deep_flap_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="dactyl1" exclusiveType="true">seagull_squawk_01.mp3</asset>
+		<asset id="dactyl2" exclusiveType="true">seagull_squawk_01.mp3</asset>
+		<asset id="waspHazard">whack_01.mp3</asset>
+		<asset id="waspHazard2">whack_01.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="ship">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="dactyl1">ls_leather_01.mp3</asset>
+		<asset id="dactyl2">ls_leather_01.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="ship">fs_general_metal_01.mp3, fs_general_metal_02.mp3,fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

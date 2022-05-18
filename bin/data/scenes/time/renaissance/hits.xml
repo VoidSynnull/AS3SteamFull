@@ -1,0 +1,81 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>		
+	<hit id="rock" color="0x0099CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="pulleyHit1">
+<!-- 	flat -->
+		<component type="movingPlatform">
+			<visible>pulley1</visible>
+	 		<velocity>0</velocity>
+<!-- 			<points> -->
+<!-- 				<point> -->
+<!-- 					<x>2050</x> -->
+<!-- 					<y>1923</y> -->
+<!-- 				</point> -->
+<!-- 				<point> -->
+<!-- 					<x>1690</x> -->
+<!-- 					<y>1923</y> -->
+<!-- 				</point> -->
+<!-- 			</points> -->
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="pulleyHit2">
+<!-- 		right -->
+		<component type="movingPlatform">
+			<visible>pulley2</visible>
+			<velocity>0</velocity>
+<!-- 			<points> -->
+<!-- 				<point> -->
+<!-- 					<x>2296</x> -->
+<!-- 					<y>1230</y> -->
+<!-- 				</point> -->
+<!-- 				<point> -->
+<!-- 					<x>2396</x> -->
+<!-- 					<y>1624</y> -->
+<!-- 				</point> -->
+<!-- 			</points> -->
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="pulleyHit3">
+<!-- 		left -->
+		<component type="movingPlatform">
+			<visible>pulley3</visible>
+			<velocity>0</velocity>
+<!-- 			<points> -->
+<!-- 				<point> -->
+<!-- 					<x>1976</x> -->
+<!-- 					<y>1502</y> -->
+<!-- 				</point> -->
+<!-- 				<point> -->
+<!-- 					<x>2226</x> -->
+<!-- 					<y>1218</y> -->
+<!-- 				</point> -->
+<!-- 			</points> -->
+			<loop>false</loop>
+		</component>
+	</hit>
+</hits>
+
+
+
+
+
+
+
+
+

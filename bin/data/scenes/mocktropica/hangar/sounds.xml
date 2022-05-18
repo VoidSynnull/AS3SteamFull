@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" baseVolume=".4">megaFightingBots-FightTheme-loop96.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">tech_lab.mp3</asset>
+	</sound>
+	
+	<sount type="effects" action="trigger">
+		<asset id="console">countdown_01.mp3</asset>
+		<asset id="debris1">metal_impact_01.mp3</asset>
+		<asset id="debris2">metal_impact_02.mp3</asset>
+		<asset id="debris3">metal_impact_05.mp3</asset>
+		<asset id="debris4">metal_impact_06.mp3</asset>
+		<asset id="window">glass_break_01.mp3</asset>
+		<asset id="bucketBot">metal_impact_01.mp3, metal_impact_02.mp3</asset>
+	</sount>
+	
+	<sound type="effects" action="impact">
+		<asset id="hazHit">electrical_impact_02.mp3</asset>
+		<asset id="baseGround">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="computer">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="computer">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+	</sound>
+</sounds>

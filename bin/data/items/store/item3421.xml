@@ -1,0 +1,40 @@
+<item id="3421">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Secret Agent</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <mouth>steamzach</mouth>
+			 <facial>sponsor_bouncer</facial>
+			 <hair>wwpospector</hair>
+			 <shirt>ss</shirt>
+			 <pants>wwprospector</pants>
+		</look>
+	</looks> 
+
+</item>

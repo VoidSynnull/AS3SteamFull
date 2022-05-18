@@ -1,0 +1,39 @@
+<hits>
+	<hit id="cave" color="0x999999">
+		<component type="radial"/>
+	</hit>
+	<!-- you ball-blockin' sob -->
+	<hit id="ballBlocker" color="0xffff00">
+		<component type="radial"/>
+	</hit>
+	<hit id="shipBlocker" color="0xff00ff">
+		<component type="radial"/>
+	</hit>
+	<hit id="airUp" color="0x00eeff">
+		<component type="mover">
+			<velocity>
+				<x>0</x>
+				<y>-300</y>
+			</velocity>
+			<overrideVelocity>true</overrideVelocity>
+		</component>
+	</hit>
+	<hit id="airRight" color="0x00ff00">
+		<component type="mover">
+			<velocity>
+				<x>300</x>
+				<y>0</y>
+			</velocity>
+			<overrideVelocity>true</overrideVelocity>
+		</component>
+	</hit>
+	<hit id="airDown" color="0x0000ff">
+		<component type="mover">
+			<velocity>
+				<x>0</x>
+				<y>300</y>
+			</velocity>
+			<overrideVelocity>true</overrideVelocity>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,20 @@
+<part>
+	<id>limited_in2_helmet</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2896</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">limited/Incredibles2Quest/ray.swf</param>
+			<param id="targetPrefix">shoot</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>`
+		</parameters>
+	</specialAbility>
+</part>

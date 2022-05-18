@@ -1,0 +1,138 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/ShaunTheSheepQuest/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/ShaunTheSheepQuest_Interior/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/ShaunTheSheepQuest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/ShaunTheSheepQuest_Game/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>game.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/ShaunTheSheepQuest_Game/" ext="swf">
+		<asset>background</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/ShaunTheSheepQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>TimmyFollower</asset>
+		<asset>Shaun</asset>
+		<asset>Shaun2</asset>
+		<asset>Bitzer</asset>
+		<asset>Timmy</asset>
+		<asset>Shirley</asset>
+		<asset>Twins</asset>
+		<asset>TruckAnim</asset>
+	</assets>
+	
+	<assets type="support" path="data/limited/ShaunTheSheepQuest/" ext="xml">
+		<asset>TruckAnim</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2686</asset>
+		<asset>2687</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2686</asset>
+		<asset>2687</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>chase_game</asset>
+	</assets>
+	
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>shaun_pack</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>shaun_pack</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+	</assets>
+</manifest>

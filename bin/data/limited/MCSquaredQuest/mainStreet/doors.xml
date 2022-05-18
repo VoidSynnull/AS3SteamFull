@@ -1,0 +1,28 @@
+<doors>
+	<door id="customDoor">
+		<scene>GlobalMCSquaredQuest_Interior</scene> <!-- AS2 destination scene name -->
+		<x>860</x> <!-- destination x pos in interior scene -->
+		<y>655</y> <!-- destination y pos in interior scene -->
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="customDoor2">
+		<scene>GlobalMCSquaredQuest_Interior</scene> <!-- AS2 destination scene name -->
+		<x>860</x> <!-- destination x pos in interior scene -->
+		<y>655</y> <!-- destination y pos in interior scene -->
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

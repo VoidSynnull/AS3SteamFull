@@ -1,0 +1,55 @@
+<dialogs>
+	<character id="player">
+		<statement id="yipes">Yipes! Are you the genie?</statement>
+		<statement id="getLamp">Now, this... This is an enchanted vessel.</statement>
+		<statement id="click_barrel">I've got to find a way to get up there if I'm going to get him out.</statement>
+		<statement id="no_use_key">Nothing to unlock here.</statement>
+	</character>
+	<character id="guard1">
+		<statement>No point in guarding the palace anymore.</statement>
+		<statement id="funny">Irresistable to camels... you have to admit, that's pretty funny.</statement>
+    </character>
+	<character id="guard2">
+		<statement>There's a genie to catch! I'll wish to be irresistible to all the ladies!</statement>
+		<conversation id="disaster">
+			<exchange>
+				<question>What's going on?</question>
+				<answer>This is a disaster! This camel is all over me.</answer>
+			</exchange>
+			<exchange>
+				<question>What happened?</question>
+				<answer>I blew it. I found the genie and wished to be irresistible to all the ladies.</answer>
+			</exchange>
+			<exchange>
+				<question>That seems like a normal enough wish.</question>
+				<answer link="getAway" triggerEvent="triggerEvent" triggerEventArgs="faceCamel">That's what I thought -- but I guess I should have specified the species!</answer>
+			</exchange>
+		</conversation>
+		<statement id="getAway" triggerEvent="triggerEvent" triggerEventArgs="runFromCamel">Get away from me, you amorous camel!</statement>
+		<statement id="running">Get away from me, you amorous camel!</statement>
+    </character>
+	<character id="chestTalk">
+		<statement id="letMeOut" link="yipes" linkEntityId="player">Let me *mumble* of here!</statement>
+		<statement id="iWish">I wish! Once I *mumble* out, that genie will wish he *mumble* back in his lamp!</statement>
+		<statement id="not_muffled">Oh, thank you!</statement>
+		
+		<conversation id="masterOfCoin">
+			<exchange>
+				<question>There's no one in here!</question>
+				<answer triggerFirst="true" triggerEvent="triggerEvent" triggerEventArgs="chest_animate">It's me -- the master of coin for the 40 thieves. The genie turned me into a treasure chest!</answer>
+			</exchange>
+			<exchange>
+				<question>I don't understand. How did that happen?</question>
+				<answer triggerFirst="true" triggerEvent="triggerEvent" triggerEventArgs="chest_animate">I found the genie and wished to hold infinite wealth -- but I didn't mean it literally!</answer>
+			</exchange>
+			<exchange>
+				<question>Well then, mind if I ransack you a bit?</question>
+				<answer triggerFirst="true" triggerEvent="triggerEvent" triggerEventArgs="getLamp">Take what you want. What good are riches to me now?</answer>
+			</exchange>
+		</conversation>
+		<statement id="gotLamp">I should have never made that wish!</statement>
+    </character>
+	<character id="genie">
+		<statement id="royalPain">This palace is the right place for you, because you're a royal pain!</statement>
+    </character>
+</dialogs>

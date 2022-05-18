@@ -1,0 +1,28 @@
+<doors>
+	<door id="doorPark">
+		<scene>game.scenes.superPower.park.Park</scene>
+		<x>2205</x>
+		<y>900</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorSewer">
+		<scene>game.scenes.superPower.sewerEntrance.SewerEntrance</scene>
+		<x>2614</x>
+		<y>160</y>
+		<label>
+			<text>Go Down</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>-150</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,22 @@
+<events>
+<group type="triggered" id="initScene">
+		<event>
+			<param1>moveToTarget</param1>
+			<param2>explorer</param2>
+			<param3>525</param3>
+			<param4>810</param4>
+			<param5>startDialog</param5>
+		</event>
+		<event>
+			<param1>lockInput</param1>
+		</event>
+	</group> 
+	<group type="triggered" id="startgame">
+		<event>
+			<param1>loadStartPopup</param1>
+		</event>
+		<event>
+			<param1>unlockInput</param1>
+		</event>
+	</group> 
+</events>

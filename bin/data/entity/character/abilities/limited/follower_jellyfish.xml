@@ -1,0 +1,13 @@
+<specialAbility id="limited/follower_jellyfish">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<useButton>true</useButton>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2045</param>
+		<param id="swfPath">limited/SpongeBobKampKoralQuest/jellyfish_follower.swf</param>
+		<param id="clickableAnimation">true</param>
+		<param id="clickableAudioPath">effects/electric_zap_04.mp3</param>
+		<param id="tracking">SpongeBobKampKoralMMSQ,JellyfishFollower</param>
+	</parameters>
+</specialAbility>

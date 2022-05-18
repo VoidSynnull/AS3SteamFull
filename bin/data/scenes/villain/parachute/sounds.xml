@@ -1,0 +1,14 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_heavy_01.mp3</asset>
+		<asset loop="true" faded="true" exclusiveType="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset event="open_chute">cloth_flap_02.mp3</asset>
+		<asset event="thunder">thunder_big_clap_01.mp3</asset>
+		<asset event="new_fire" loop="true">torch_fire_01_L.mp3</asset>
+		<asset event="land_in_water">ls_water_splash_01.mp3</asset>
+		<asset event="fire_sizzle">torchFire_extinguish_02.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="poppy">
+		<statement link="no worries" linkEntityId="player">Help us get these Rock Trolls outta here.</statement>
+		<statement id="horray" link="start">Hooray! I like it. Let's get ready to jam!</statement>
+		<statement id="start" triggerEvent="triggerEvent" triggerEventArgs="loadStartGamePopup|MusicGame|game.scenes.custom.BeatGamePower">I'll turn up the bass.</statement>
+	</character>
+	<character id="barb">
+		<statement>I'm going to destroy all music except for rock!</statement>
+	</character>
+	<character id="branch">
+		<statement link="no worries" linkEntityId="player">These Rock Trolls are blasting us with heavy metal rock ballads and extremely long guitar solos.</statement>
+	</character>
+	<character id="biggie">
+		<statement>It's going to be ok, Mr. Dinkles.</statement>
+	</character>
+	<character id="tinydiamond">
+		<statement>Check out the cool video.</statement>
+	</character>
+	<character id="player">
+		<statement id="no worries" link="horray" linkEntityId="poppy">No worries! I can defeat them with my epic electric guitar skills.</statement>
+	</character>
+</dialogs>

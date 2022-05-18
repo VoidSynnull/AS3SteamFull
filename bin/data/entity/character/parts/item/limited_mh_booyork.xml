@@ -1,0 +1,16 @@
+<part>
+	<id>limited_mh_booyork</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2710</campaignID>
+	<specialAbility id="PlayPopupAnimSound">
+		<className>game.data.specialAbility.character.PlayPopupAnimSound</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/MonsterHighBooYorkMVU/Stage.swf</param>
+			<param id="soundPath">limited/MonsterHighBooYorkMVU/MH_Song.mp3</param>
+			<param id="tracking">MonsterHighBooYorkMVU,Catty Microphone</param>
+		</parameters>
+	</specialAbility>
+</part>

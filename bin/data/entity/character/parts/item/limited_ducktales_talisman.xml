@@ -1,0 +1,55 @@
+<part>
+	<id>limited_ducktales_talisman</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2889</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">DuckTalesQuest,transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+						<param id="waitlabel" type="string">raised</param> 
+						<param id="maxframes" type="int">0</param> 
+						<param id="stoponlabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">M:limited_scrooge,limited_launchpad|F:limited_mrsbeakly,limited_donaldduck</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overpants</param>
+						<param id="partID" type="string">M:limited_scrooge,limited_launchpad|F:limited_mrsbeakly,limited_donaldduck</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">scale</param>
+						<param id="partID" type="string">M:1.1,1.1|F:1.1,1.1</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

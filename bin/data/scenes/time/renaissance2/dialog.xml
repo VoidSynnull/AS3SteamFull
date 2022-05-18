@@ -1,0 +1,50 @@
+<dialogs>
+	<character id="leo">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+		</conversation>
+		<conversation event="returned_notebook">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text6</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text7</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_notebook">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text8</question>
+				<answer triggerEvent ="exchangeItems" triggerEventArgs="notebook, ability_glider">text9</answer>
+			</exchange>
+		</conversation>
+		
+	</character>
+    <character id="char2">
+    	<statement>text10</statement>
+    </character>
+</dialogs>

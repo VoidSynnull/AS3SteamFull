@@ -1,0 +1,20 @@
+<sounds>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="tiledRoof">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="woodPlank">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="barrel">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="baseGround">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="tiledRoof">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="woodPlank">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="barrel">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="baseGround">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+	</sound>
+</sounds>

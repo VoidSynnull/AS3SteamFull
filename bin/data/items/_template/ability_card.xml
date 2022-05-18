@@ -1,0 +1,57 @@
+<item id="ability_card"> <!-- Make sure the id name is the same as your .xml and the .swf art you want to load on the card -->
+  	<type>island</type>
+  	<subType>examples</subType> <!-- Set subType to the location of card .swf art - bin/assets/items/"folder" -->
+
+  	<textfields>
+   	 	<text>
+      		<value>Ability Item</value>
+   	 	</text>
+  	</textfields>
+		
+	<assets>
+  		<asset id="cardBack">
+		<!-- Instead of the "shared" folder, you can also put the island card "background.swf" art inside the island folder you are using for all the other cards. EX - "items/"island_name"/background.swf" -->
+			<assetPath>items/shared/PaidBackground.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>36</brightness>
+     			<contrast>-17</contrast>
+     			<saturation>9</saturation>
+     			<hue>12</hue>
+    		</effect>
+	    	</asset>
+	    	<asset id="cardContent"/>
+    </assets>
+  	
+	<buttons>
+  		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+	    		<label>USE</label>
+	    		<actions>
+				<action type="activatePower">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<conditional id="hasAbility" isTrue="true"/>
+	    		<label>TURN OFF</label>
+	    		<actions>
+					<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+ 	<specials>
+	    <specialAbility>stars_circles</specialAbility>
+	</specials>
+	
+	<conditionals>
+    		<conditional type="hasAbility" />
+    </conditionals>
+    
+</item>

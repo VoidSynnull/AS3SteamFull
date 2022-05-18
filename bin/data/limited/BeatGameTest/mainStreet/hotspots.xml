@@ -1,0 +1,10 @@
+<hotspots>
+	<hotspot id="popupGame" type="poster">
+		<action type="className">game.scenes.custom.AdStartGamePopup</action> <!-- popup class -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+		<action type="suppressSponsorClick">true</action>
+		<action type="gameClass">game.scenes.custom.BeatGamePower</action> <!-- game class -->
+		<action type="gameID">BeatMusicGame</action> <!-- game id -->
+	</hotspot>
+</hotspots>
+

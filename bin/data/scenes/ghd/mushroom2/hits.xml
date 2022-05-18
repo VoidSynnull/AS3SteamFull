@@ -1,0 +1,132 @@
+<hits>
+	<hit id="grass" color="0x0066FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="roots1" color="0xcc66cc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roots2" color="0x99cc33" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roots3" color="0xcc9966" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roots4" color="0x00ffff" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roots5" color="0x99FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="mushroomBounce1Left" color="0x000033">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="mushroomBounce1Right" color="0x990000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>1000</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce2Left" color="0x003300" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>-400</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="mushroomBounce2Right" color="0x990033" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>200</x>
+				<y>-1300</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce3Right" color="0x003333" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>1000</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce3Left" color="0x990066" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>-100</x>
+				<y>-1400</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce4Left" color="0x006600" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>-600</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="mushroomBounce4Right" color="0x993333" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>100</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce5Right" color="0x006633" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>800</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="mushroomBounce5Left" color="0x996600" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>-800</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce6Left" color="0x333300" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>-1000</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="mushroomBounce7Right" color="0x336600" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>1000</x>
+				<y>-1300</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

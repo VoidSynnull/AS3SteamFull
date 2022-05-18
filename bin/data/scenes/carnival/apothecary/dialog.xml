@@ -1,0 +1,83 @@
+<dialogs>
+	
+	<character id="player">
+	
+		<statement id="helpFillOrder" triggerEvent="triggerEvent" triggerEventArgs="receiveSaltFormula">Sure.</statement>
+		<statement id="needWeight" link="takeWeight" linkEntityId="drdan">Something's not on the level at that carnival. I need something small but heavy to fool the weight guesser.</statement>
+		<statement id="noThanks">Not now, thank you.</statement>
+		
+		<statement id="noSoda">I don't need a soda right now.</statement>
+		
+		<statement id="gotOsmium" triggerEvent="triggerEvent" triggerEventArgs="receiveOsmium">Wow, this IS dense! I feel heavier already.</statement>
+		
+		<statement id="newspapers" triggerEvent="triggerEvent" triggerEventArgs="removePapers">These old newspapers are in the way.</statement>
+		
+		<statement id="blueChem1" triggerEvent="triggerEvent" triggerEventArgs="saltReagent">Sodium Hydroxide...</statement>
+		<statement id="yellowChem1" triggerEvent="triggerEvent" triggerEventArgs="saltReagent">Hydrochloric Acid...</statement>
+		<statement id="blueChem2" triggerEvent="triggerEvent" triggerEventArgs="sugarReagent">Fructose...</statement>
+		<statement id="purpleChem1" triggerEvent="triggerEvent" triggerEventArgs="sugarReagent">Glucose...</statement>
+		<statement id="yellowChem2" triggerEvent="triggerEvent" triggerEventArgs="truthReagent">Bromopentane...</statement>
+		<statement id="blueChem3" triggerEvent="triggerEvent" triggerEventArgs="truthReagent">Ethylmalonic Ester...</statement>
+		<statement id="redChem1" triggerEvent="triggerEvent" triggerEventArgs="truthReagent">Sodium Sulfidosodium...</statement>
+		
+		<statement id="error1">I don't think I should touch that right now.</statement>
+		<statement id="error2">Huh, trying saying that 5 times really fast.</statement>
+		<statement id="error3">Sounds dangerous... maybe later.</statement>
+		<statement id="error4">Not what I need right now.</statement>
+		<statement id="error5">Hmm, chemistry sure sounds complicated.</statement>
+		
+		<statement id="dontHave">Not yet, I need more reagents.</statement>
+		<statement id="alreadyHave">I already have that, maybe I need something else?</statement>
+		<statement id="haveAll">That should do it.</statement>
+		<statement id="getIt">I'll need this and something else...</statement>
+		<statement id="useReactor">I don't need any more reagents. I should use the reactor.</statement>
+		<statement id="reactorNotReady1">I need a formula and some reagents to work this.</statement>
+		<statement id="reactorNotReady2">I need something else in my formula.</statement>
+		
+		<statement id="chemXReactor" triggerEvent="triggerEvent" triggerEventArgs="enteredChemX">Cola, mushrooms and pickle juice... Here goes nothing!</statement>
+		<statement id="chemXFinish">I did it! Dr. Dan is as good as cured.</statement>
+		
+	</character>
+	
+	<character id="drdan">
+		<conversation event="hasItem_salt">
+			<exchange>
+				<question id="saltWater" linkEntityId="drdan">'Sodium Chloride?' This is nothing but table salt!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="gave_salt,true">It's true, but you can charge a lot more for a fancy name!</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="ask_for_order">Say, can you fill that order I gave you?</statement>
+		
+		<statement event="thanks_for_salt">Thanks for your help. Feel free to come back any time.</statement>
+	
+		<statement event="after_sugar" link="noThanks" linkEntityId="player">Would you be needing anything else today?</statement>
+		
+		<statement event="need_weight" link="needWeight" linkEntityId="player">Back so soon?</statement>
+		<statement id="takeWeight" triggerEvent="triggerEvent" triggerEventArgs="allowedOsmium">You're welcome to whatever you can find.</statement>
+		
+		<conversation event="ask_to_use_lab">
+			<exchange>
+				<question id="askLab" linkEntityId="drdan">Can I use your lab again? I need to make something for the carnival.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="makeSugar">The carnival...? You can use my lab, but be careful. That caravan has traveled through some dark destinations.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation>
+			<exchange>
+				<question>What do you sell here?</question>
+				<answer>Chemicals and molecules to restore the elan vital!</answer>
+			</exchange>
+			<exchange>
+				<question>The what for the what?</question>
+				<answer>You know --  cures for diseases.</answer>
+			</exchange>
+			<exchange>
+				<question id="helpWithOrder">You could have just said that.</question>
+				<answer link="helpFillOrder" linkEntityId="player">Moot point. I can't see well enough to make them anymore. Say, could you help me fill this order?</answer>
+			</exchange>
+		</conversation>
+		
+    </character>
+
+</dialogs>

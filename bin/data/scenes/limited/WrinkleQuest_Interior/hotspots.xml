@@ -1,0 +1,26 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster4" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="book" type="poster">
+		<action type="className">game.scenes.custom.AdInfoPopup</action>
+		<action type="popup">StartBook.swf</action>
+	</hotspot>
+	<hotspot id="quest" type="poster">
+		<action type="trigger">Who</action> 
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

@@ -1,0 +1,20 @@
+<campaign>
+  	<campaignId>WildLifeMMQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name></name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">http://www.TheWildLife.movie</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2808</card>
+		<card>2809</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2808</card>
+		<card>2809</card>
+	</boycards>
+	<girlcards>
+		<card>2808</card>
+		<card>2809</card>
+	</girlcards>
+</campaign>

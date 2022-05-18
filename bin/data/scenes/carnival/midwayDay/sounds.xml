@@ -1,0 +1,29 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">carnival_day.mp3</asset>
+	</sound>
+	<sound type="ambient">
+    	<asset loop="true">sunny_clear_day.mp3</asset>
+    </sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>		
+		<asset id="sand">fs_dirt_01.mp3,fs_dirt_02.mp3,fs_dirt_03.mp3,fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="metal">fs_metal_shelf_01.mp3,fs_metal_shelf_02.mp3,fs_metal_shelf_03.mp3,fs_metal_shelf_04.mp3</asset>
+		<asset id="bounce">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="sand">ls_dirt_01.mp3,ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="metal">ls_metal_shelf_01.mp3,ls_metal_shelf_02.mp3</asset>
+		<asset id="bounce">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="waterClickSFX">water_fountain_01_loop.mp3</asset>
+		<asset triggeredByEvent="cat">cat_in_trash_daytime.mp3</asset>
+		<asset triggeredByEvent="faucet">creaky_metal_05.mp3</asset>
+	</sound>
+</sounds>

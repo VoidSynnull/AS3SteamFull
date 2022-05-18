@@ -1,0 +1,18 @@
+<part>
+	<id>limited_mixels_booglybrick</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2646</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/Mixels2015EC/BooglyPrize.swf</param>
+			<param id="tracking">Mixels2015EC,Boogly Power</param>
+		</parameters>
+	</specialAbility>
+</part>

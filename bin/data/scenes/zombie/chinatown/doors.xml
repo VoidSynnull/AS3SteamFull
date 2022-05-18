@@ -1,0 +1,54 @@
+<doors>
+	<door id="sewerExit">
+		<scene>game.scenes.zombie.subway.Subway</scene>
+		<x>2100</x>
+		<y>-100</y>
+		<label>
+			<text>GO DOWN</text>
+			<asset>exitDown</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="karaokeDoor">
+		<scene>game.scenes.zombie.karaokeBar.KaraokeBar</scene>
+		<x>135</x>
+		<y>546</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.zombie.shadySide.ShadySide</scene>
+		<x>40</x>
+		<y>1860</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="wharfExit">
+		<scene>game.scenes.zombie.wharf.Wharf</scene>
+		<x>558</x>
+		<y>1558</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

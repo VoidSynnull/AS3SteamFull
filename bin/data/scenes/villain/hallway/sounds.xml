@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="baseGround">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="xray">xray_section.mp3</asset>
+		<asset id="scan">light_scan.mp3</asset>
+		<asset id="disinfect">shower_section.mp3</asset>
+		<asset id="dry">dryer_section.mp3</asset>
+		<asset id="photo">camera_01.mp3</asset>
+		<asset id="next_step_ping">green_light_01.mp3</asset>
+		<asset id="barrier_open">metal_bar_slide_open_01.mp3</asset>
+		<asset id="barrier_close">metal_bar_slide_close_01.mp3</asset>
+	</sound>
+</sounds>

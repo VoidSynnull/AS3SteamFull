@@ -1,0 +1,14 @@
+<game>
+	<className>RaceGame</className>
+	<item>limited_9lives_pinkphone</item>
+	<winDistance>13500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winNPCPhrase npc="felix">Let me take care of Mr. FuzzyPants.</winNPCPhrase> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>cat</chaserPrefix>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>1700</returnX>
+	<returnY>880</returnY>
+</game>

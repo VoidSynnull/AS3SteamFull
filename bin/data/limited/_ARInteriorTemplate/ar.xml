@@ -1,0 +1,21 @@
+<ar theme="limited/_photobooth/bgs/heart.png" instructionsColor="0x0000cc">
+	<music>ad_interior_scene.mp3</music>
+	
+	<!-- types: contest(submit to server), ad(go to ads web site), dev(allows devs to create templates) -->
+	<header type="ad">
+		<asset>limited/_photobooth/headers/pop_header.swf</asset>
+		<popup></popup>
+	</header>
+	
+	<adCardEntered>2780</adCardEntered>
+	<adCardSaved>2775</adCardSaved>
+	
+	<masks>
+		<mask id="zing">
+			<asset>limited/_photobooth/stickers/words1/word34.swf</asset>
+		</mask>
+		<mask id="test">
+			<asset>scenes/arab1/shared/camel.swf</asset>
+		</mask>
+	</masks>
+</ar>

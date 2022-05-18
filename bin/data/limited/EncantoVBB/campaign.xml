@@ -1,0 +1,15 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>EncantoVBB</campaignId> <!-- *** MUST match campaign folder name -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<version>2</version> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<!-- if only one click URL is provided, then you only need Default -->
+	<clickUrls>
+		<clickUrl id="Default">https://movies.disney.com/encanto</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<!-- <clickUrl id="Video">http://www.google.com</clickUrl> -->  <!-- for clicking on visit sponsor button on video end screen -->
+		<!-- <clickUrl id="Poster">http://www.google.com</clickUrl> --> <!-- for clicking on posters that take user to sponsor site -->
+		<!-- <clickUrl id="Card">http://www.google.com</clickUrl> -->   <!-- for clicking on visit sponsor button on cards -->
+	</clickUrls>
+	
+</campaign>

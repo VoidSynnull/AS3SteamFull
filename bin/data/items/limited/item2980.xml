@@ -1,0 +1,99 @@
+<item id="2980"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Polly Pocket Outfit Card</name> <!-- *** Change this card name -->
+  	<campaignID>PollyPocketQuest</campaignID> <!-- *** Change this CMS name -->
+	
+	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0x8d4ea9</color>
+			<val>0</val>
+			<y>15</y>
+		</btn>
+		<btn>
+			<color>0x3ad0b1</color>
+			<val>1</val>
+			<y>15</y>
+		</btn>
+		<btn>
+			<color>0x42bdde</color>
+			<val>2</val>
+			<y>15</y>
+		</btn>
+	</radiobuttons>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="true"/>
+			</actions>
+  		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Polly Pocket</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Polly Pocket Outfits</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundPink.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<!-- <asset id="cardContent" />  -->
+  	</assets>
+  	
+  	<looks>
+	    <look>
+			  <mouth>ppopgirlle</mouth>
+			  <hair>limited_pollypocket_polly</hair>
+			  <facial>none</facial>
+			  <shirt>limited_pollypocket_polly</shirt>
+			  <pants>char25</pants>
+			  <overshirt>none</overshirt>
+			  <overpants>none</overpants>
+		</look>
+		<look>
+			  <mouth>sponsorheatherg</mouth>
+			  <hair>limited_pollypocket_red</hair>
+			  <facial>none</facial>
+			  <shirt>limited_pollypocket_red</shirt>
+			  <pants>limited_pollypocket_red</pants>
+			  <overshirt>limited_pollypocket_red</overshirt>
+			  <overpants>none</overpants>
+			  
+		</look>
+		<look>
+			  <mouth>skullnavigator</mouth>
+			  <facial>limited_pollypocket_brunette</facial>
+			  <hair>limited_pollypocket_brunette</hair>
+			  <shirt>limited_pollypocket_brunette</shirt>
+			  <overpants>limited_pollypocket_brunette</overpants>
+			  <overshirt>none</overshirt>
+			  <pants>char10</pants>
+		</look>
+	</looks> 
+    
+</item>

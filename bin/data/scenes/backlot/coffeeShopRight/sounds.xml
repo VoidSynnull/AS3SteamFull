@@ -1,0 +1,29 @@
+<sounds>
+  <sound type="music">
+    <asset>Carrot_ShopTheme.mp3</asset>
+  </sound>
+  <sound type="ambient" >
+    <asset loop="true">room_tone.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>door_knob_turn_open_01.mp3</asset>
+  </sound>
+  <sound type="effects">
+    <asset triggeredByEvent="pour" >pour_drink_01.mp3</asset>
+    <asset triggeredByEvent="press_buy_button" >button_01.mp3</asset>
+    <asset triggeredByEvent="press_option_button" >button_02.mp3</asset>
+    <asset triggeredByEvent="machine_working" >drink_dispensor_01_L.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="counter">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+    <asset id="shelves">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+    <asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+    <asset id="tables">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="counter">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+    <asset id="shelves">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+    <asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+    <asset id="tables">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+  </sound>
+</sounds>

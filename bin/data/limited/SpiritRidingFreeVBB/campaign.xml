@@ -1,0 +1,19 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>SpiritRidingFreeVBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://www.dreamworks.com/shows/spirit-riding-free</clickUrl>
+	</clickUrls>
+	
+	<boycards>
+		<card>2041</card>
+		<card>2042</card>
+	</boycards>
+	<girlcards>
+		<card>2041</card>
+		<card>2042</card>
+	</girlcards>
+</campaign>

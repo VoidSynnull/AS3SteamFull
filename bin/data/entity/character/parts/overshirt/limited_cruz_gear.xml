@@ -1,0 +1,22 @@
+<part>
+	<id>limited_cruz_gear</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2841</campaignID>
+	<hide>
+		<part>shirt</part>
+	</hide>
+
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>flipClip</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

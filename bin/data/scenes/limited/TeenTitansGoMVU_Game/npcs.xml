@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="robin">
+		<bitmap>limited/TeenTitansGoMVU/npc.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>27650</x>
+			<y>595</y>
+		</position>
+	</npc>
+	<npc id="cy">
+    	<skin>
+			<gender>male</gender>
+			<facial>limited_teentitans_cyborg</facial>
+			<pants>limited_cyborg</pants>
+    	</skin>
+		<position>
+			<x>-700</x>
+			<y>575</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

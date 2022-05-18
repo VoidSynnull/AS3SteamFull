@@ -1,0 +1,54 @@
+<part>
+	<id>limited_kp_hookshot</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2955</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">KimPossibleVBB,Hookshot</param>
+		</parameters>
+		
+		<actions>
+		
+			<actionChain id="before_actions">
+			<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/KimPossibleVBB/kp_hookshot.mp3</param> 
+					</parameters>
+				
+				</action>
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.PointItem</param> 
+						<param id="waitLabel" type="string">pointing</param>
+						<param id="maxFrames" type="int">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+					
+					</parameters>
+				</action>
+
+				<action class="SkinFrameHitBoxAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="part" type="string">item</param>
+						<param id="frame" type="string">starthook</param>
+						<param id="action" type="string">flip</param>
+						<param id="knockBack">0</param>
+						<param id="hSpeed">50</param>
+						<param id="spin">-980</param>
+						<param id="spinFriction">500</param>
+						<param id="delay">1</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+		<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

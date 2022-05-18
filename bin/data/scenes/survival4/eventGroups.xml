@@ -1,0 +1,20 @@
+<groups>
+	<group event="winston_in_hall" triggerAndSave="true">
+		<and>
+			<event type="tour_complete_3"/>
+			<event not="true" type="gotItem_armoryKey"/>
+		</and>
+	</group>
+	<group event="dinner_sequence" triggerAndSave="false">
+		<and>
+			<event type="tour_complete_3"/>
+			<event not="true" type="ate_meat"/>
+		</and>
+	</group>
+	<group event="open_kitchen" triggerAndSave="false">
+		<and>
+			<event not="true" type="tour_complete_3"/>
+			<event not="true" type="ate_meat"/>
+		</and>
+	</group>
+</groups>

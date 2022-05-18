@@ -1,0 +1,41 @@
+<doors>
+	<door id="wharfExit">
+		<scene>game.scenes.zombie.subwayWharf.SubwayWharf</scene>
+		<x>1458</x>
+		<y>504</y>
+		<label>
+			<text>GO LEFT</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.zombie.subwayBunker.SubwayBunker</scene>
+		<x>40</x>
+		<y>1155</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="trainExit" event="train_moved">
+		<scene>game.scenes.zombie.subwayInterior.SubwayInterior</scene>
+		<x>516</x>
+		<y>69</y>
+		<label>
+			<text>GO DOWN</text>
+			<asset>exitDown</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

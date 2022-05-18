@@ -1,0 +1,22 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x0A6535" id="grass" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x333333" id="stair" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x1D9DCA" id="ladder" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0xFC0D1B" id="bounce" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

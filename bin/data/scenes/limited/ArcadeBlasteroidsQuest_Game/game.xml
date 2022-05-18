@@ -1,0 +1,71 @@
+<game>
+	<className>game.scene.template.ads.TopDownBitmapGame</className>
+	<returnX>3300</returnX>
+	<returnY>575</returnY>
+	<speed>400</speed>
+	<targetDistance>25000</targetDistance>
+	<progressAlignment>horizontal</progressAlignment>
+	<maxHits>8</maxHits>
+	<tileHeight>720</tileHeight>
+	<animFrameRate>8</animFrameRate>
+	<boostFrameRate>32</boostFrameRate>
+	<sideSpeed>400</sideSpeed>
+	<hitRotation>20</hitRotation>
+	<hitRotationTime>1.0</hitRotationTime>
+	<choosePopup>limited/ArcadeBlasteroidsQuest/Choose.swf</choosePopup>
+	<leftEdgeBounds>200</leftEdgeBounds>
+	<rightEdgeBounds>600</rightEdgeBounds> <!-- added to left edge bounds -->
+	<shooters>
+		<shooter id="starwars_shooter1">
+			<!-- bullet asset is the only required field -->
+			<className>game.data.specialAbility.character.TopDownShooter</className>
+			<triggerable>true</triggerable>
+			<useButton>true</useButton>
+			<sfPauseTimer>.5</sfPauseTimer>
+			<overrideSuppression>true</overrideSuppression>
+			<parameters>
+				<param id="bulletAsset">limited/ArcadeBlasteroidsQuest/amo1.swf</param>
+				<param id="axis">y</param>
+				<param id="targetPrefix">asteroid</param>
+				<param id="shootSound">laser_lsw.mp3</param>
+				<param id="fireRate">.1</param>
+				<param id="offsetY">-50</param>
+				<param id="followMultiply">0.3</param>
+			</parameters>
+		</shooter>
+		<shooter id="starwars_shooter2">
+			<!-- bullet asset is the only required field -->
+			<className>game.data.specialAbility.character.TopDownShooter</className>
+			<triggerable>true</triggerable>
+			<useButton>true</useButton>
+			<sfPauseTimer>.5</sfPauseTimer>
+			<overrideSuppression>true</overrideSuppression>
+			<parameters>
+				<param id="bulletAsset">limited/ArcadeBlasteroidsQuest/amo3.swf</param>
+				<param id="axis">y</param>
+				<param id="targetPrefix">asteroid</param>
+				<param id="shootSound">laser_lsw.mp3</param>
+				<param id="fireRate">.2</param>
+				<param id="offsetY">-50</param>
+				<param id="followMultiply">0.3</param>
+			</parameters>
+		</shooter>
+		<shooter id="starwars_shooter3">
+			<!-- bullet asset is the only required field -->
+			<className>game.data.specialAbility.character.TopDownShooter</className>
+			<triggerable>true</triggerable>
+			<useButton>true</useButton>
+			<sfPauseTimer>.5</sfPauseTimer>
+			<overrideSuppression>true</overrideSuppression>
+			<parameters>
+				<param id="bulletAsset">limited/ArcadeBlasteroidsQuest/amo2.swf</param>
+				<param id="axis">y</param>
+				<param id="targetPrefix">asteroid</param>
+				<param id="shootSound">laser_lsw.mp3</param>
+				<param id="fireRate">.2</param>
+				<param id="offsetY">-50</param>
+				<param id="followMultiply">0.3</param>
+			</parameters>
+		</shooter>
+	</shooters>
+</game>

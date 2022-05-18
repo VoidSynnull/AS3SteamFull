@@ -1,0 +1,25 @@
+<part>
+	<id>bow</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+<!-- 	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components> -->
+	<specialAbility id="shoot_bow">
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.islands.poptropicon.ShootBow</className>
+			<parameters>
+				<param id="arrowPath">scenes/con3/shared/arrow.swf</param>
+				<param id="targetId">target</param>
+				<param id="speed">900</param>
+				<param id="offsetX">1</param>
+				<param id="offsetY">1</param>
+				<param id="lifetime">3.0</param>
+			</parameters>
+			<validIslands>con3</validIslands>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

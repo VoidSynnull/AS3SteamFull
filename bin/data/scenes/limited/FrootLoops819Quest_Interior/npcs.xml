@@ -1,0 +1,74 @@
+<npcs>
+	<npc id="Sam">
+		<bitmap>limited/FrootLoops819Quest/Sam.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>635</x>
+			<y>625</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="Girl1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xf9aa18</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>ppromqueen1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char32</hair>
+			<shirt>mthannie</shirt>
+			<pants>sponsorfloct2</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1090</x>
+			<y>625</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Boy1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>wwannie</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char27</hair>
+			<shirt>char29</shirt>
+			<pants>char3</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>1610</x>
+			<y>625</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Girl2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pnerd</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char30</hair>
+			<shirt>mthjack</shirt>
+			<pants>sponsorastro1</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1690</x>
+			<y>625</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="player">
+		<statement event="dialog2">Where are we going?</statement>
+		<statement event="dialog3">Jump?!</statement>
+		<statement event="dialog5">Are you crazy?!</statement>
+    </character>
+    <character id="pilot">
+		<statement event="dialog2">I'm not authorized to answer any questions.</statement>
+		<statement event="dialog3">It’s too windy! I can’t land! You’ll have to jump!</statement>
+		<statement link="dialog4A" event="dialog4">You’ll be fine!</statement>
+		<statement id="dialog4A" triggerEvent="giveItem" triggerEventArgs="walkie_talkie">When the weather clears, call me on this walkie-talkie and I’ll pick you up!</statement>
+    	<statement event="dialog5">Go!!!</statement>
+    </character>
+</dialogs>

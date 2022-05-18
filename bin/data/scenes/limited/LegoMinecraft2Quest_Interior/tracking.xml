@@ -1,0 +1,38 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="Alex">
+		<event>EngagedInsideNPC</event>
+		<choice>Alex</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Creeper1">
+		<event>EngagedInsideNPC</event>
+		<choice>Creeper1</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Creeper2">
+		<event>EngagedInsideNPC</event>
+		<choice>Creeper2</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Creeper3">
+		<event>EngagedInsideNPC</event>
+		<choice>Creeper3</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

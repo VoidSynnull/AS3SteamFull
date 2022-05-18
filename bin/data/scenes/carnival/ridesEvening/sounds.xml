@@ -1,0 +1,35 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">carnival_dusk.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorHauntedLab">door_heavy_open_creak_01.mp3</asset>
+		<asset id="doorTunnelLove">bead_curtain_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>		
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="woodPlatform">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+		<asset id="straw">fs_hard_grass_01.mp3, fs_hard_grass_02.mp3, fs_hard_grass_03.mp3, fs_hard_grass_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="woodPlatform">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+		<asset id="straw">ls_hard_grass_01.mp3, ls_hard_grass_02.mp3</asset>
+		<asset id="bounce">cart_bump_03.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- scene sounds -->
+		<asset triggeredByEvent="dingSound">hit_punch_bag_01.mp3</asset>
+		<asset triggeredByEvent="hammerSound">cart_bump_03.mp3</asset>
+	</sound>
+</sounds>

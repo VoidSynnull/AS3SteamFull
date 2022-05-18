@@ -1,0 +1,77 @@
+<npcs>
+	<npc id="herc" event="hercules_alive">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE6BC7D</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>hercules</mouth>
+			<marks>hercules</marks>
+			<hair>hercules</hair>
+			<shirt>bare</shirt>
+			<pants>1</pants>
+			<overshirt>hercules</overshirt>
+			<overpants>hercules</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2055</x>
+			<y>480</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.5</scale>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="teen1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xE6BC7D</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>mythTeen1</mouth>
+			<marks>mythTeen1</marks>
+			<hair>mythTeen1</hair>
+			<shirt>mythTeen1</shirt>
+			<pants>mythTeen1</pants>
+			<pack>mythTeen1</pack>
+			<overpants>mythTeen1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1094</x>
+			<y>480</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="teen2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf08b2b</hairColor>
+			<mouth>mythTeen2</mouth>
+			<marks>mythTeen2</marks>
+			<hair>mythTeen2</hair>
+			<shirt>mythTeen2</shirt>
+			<pants>mythTeen2</pants>
+			<pack>mythTeen2</pack>
+			<overpants>mythTeen2</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>814</x>
+			<y>480</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

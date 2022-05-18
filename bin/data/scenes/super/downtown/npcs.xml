@@ -1,0 +1,227 @@
+<npcs>
+
+	<!--  character 1  -->
+	<npc id="policeman">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x49321D</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>2</mouth>
+			<marks/>
+			<facial>policeman</facial>
+			<hair>9</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item>pretzel</item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>370.4</x>
+			<y>2218</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 2  -->
+	<npc id="banker">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x574020</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>2</mouth>
+			<marks/>
+			<facial>8</facial>
+			<hair>9</hair>
+			<shirt>15</shirt>
+			<pants>1</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>548.4</x>
+			<y>2218</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 3  -->
+	<npc id="policewoman">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xA76A10</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>10</mouth>
+			<marks/>
+			<facial>policeman</facial>
+			<hair>40</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item>pretzel</item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>931.3</x>
+			<y>2218</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 4  -->
+	<npc id="pretzelVendor">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>1</mouth>
+			<marks>shadow1</marks>
+			<facial>1</facial>
+			<hair>pretzelvendor</hair>
+			<shirt>pretzelvendor</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item>tongs</item>
+			<overshirt>pretzelvendor</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1527.4</x>
+			<y>2218</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 5  -->
+	<npc id="policeman2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xCD9836</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>14</mouth>
+			<marks>mustache1</marks>
+			<facial>policeman</facial>
+			<hair>9</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item>pretzel</item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2129.1</x>
+			<y>2218</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 6 
+	char6.createNPC(0, 0, 0, 0, "random");
+	
+	<npc id="random1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair></hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2568.2</x>
+			<y>1507.8</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range> -->
+
+	<!--  character 7 
+	char7.createNPC(0, 0, 0, 0, "random");
+	
+	<npc id="random2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<eyes></eyes>
+			<mouth></mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair></hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2165.3</x>
+			<y>547.3</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>-->
+	
+</npcs>

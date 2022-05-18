@@ -1,0 +1,41 @@
+<dialogs>
+    <character id="player">
+    	<statement>Looks like I'm being watched.</statement>
+    </character>
+    
+    <character id="char1">
+		<conversation>
+			<exchange>
+				<question>What else can you tell me?</question>
+				<answer>One of the missing spies was last seen on the docks.</answer>
+			</exchange>
+		</conversation>
+		<statement>Well done, but B.A.D. still has two of our spies.</statement>
+		<statement>There's still one more spy to rescue.</statement>
+		<statement>Excellent work. Now find a way into the B.A.D. control center and stop that satellite!</statement>
+    </character>
+    
+    <character id="char2">
+		<statement>We're going to need a new director. I think you're the agent for the job.</statement>
+		<statement>We're counting on you, Agent [last name].</statement>
+		<statement>You've put an end to Director D. and his evil plans. Our hair is safe, thanks to you.</statement>
+    </character>
+    
+    <character id="char3">
+		<statement>Well done, Director [last name].</statement>
+		<statement>Welcome to the team, Agent [last name].</statement>
+		<statement>Welcome to the team, Agent [last name]. Director D. is waiting for you.</statement>
+    </character>
+    
+    <character id="char6">
+		<statement>That was a hair raising adventure!</statement>
+    </character>
+    
+    <character id="char7">
+		<statement>That was a close shave.</statement>
+    </character>
+    
+    <character id="char8">
+		<statement>I had a feeling that Director D. was losing it.</statement>
+    </character>
+</dialogs>

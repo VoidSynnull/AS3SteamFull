@@ -1,0 +1,35 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>5000</right>
+		<bottom>5000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>5000</right>
+		<bottom>5000</bottom>	
+	</bounds>
+	<data>sounds.xml,hits.xml,gridElements.xml,boatLayers.xml</data>
+	<assets></assets>
+	<layers>
+		<layer matchViewportSize="true">
+			<asset>water.swf</asset>
+			<rate>0</rate>
+		</layer>
+		<layer id="interactive" bitmap="false">
+			<asset/>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>600</x>
+			<y>400</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<noCharacters>true</noCharacters>
+</scene>

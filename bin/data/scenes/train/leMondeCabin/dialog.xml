@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="leMonde">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metLeMonde,true">The fair sounds like a great time!</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="leMondePaper">Perhaps, but it surely cannot compare to the Paris World's Fair - the greatest ever held!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

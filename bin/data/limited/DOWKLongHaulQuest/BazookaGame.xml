@@ -1,0 +1,23 @@
+<game>
+	<campaign>DOWKLongHaulQuest</campaign>
+	<clickURL>http://www.wimpykid.com/book9</clickURL>
+	<scoreThreshold>500</scoreThreshold>
+	<cardID>2600</cardID>
+	<frameRate>31</frameRate>
+	<timeout>30</timeout>
+	<targetSpeed>8</targetSpeed>
+	<shootDelay>15</shootDelay>
+	<projectileName>pumpkin</projectileName>
+	<projectileTotal>3</projectileTotal>
+	<projectileFrames>22</projectileFrames>
+	<distractorPoints>25</distractorPoints>
+	<distractorDist>6</distractorDist>
+	<leftDistractor>crowleft</leftDistractor>
+	<rightDistractor>crowright</rightDistractor>
+	<targets>pig1,sheep1,rod1,corn1,pig2,sheep2,rod2,corn2,pig3,sheep3,rod3,corn3</targets>
+	<weights>0.0033,0.0067,0.0133,0.0267,0.0033,0.0067,0.0133,0.0267,0.0033,0.0067,0.0133,0.0267</weights>
+	<scores>10,25,100,50,10,25,100,50,10,25,100,50</scores>
+	<delays>50,40,20,30,50,40,20,30,50,40,20,30</delays>
+	<drops>180,180,180,180,180,180,180,180,180,180,180,180</drops>
+	<distances>8,8,8,8,10,10,10,10,12,12,12,12</distances>
+</game>

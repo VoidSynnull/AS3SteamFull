@@ -1,0 +1,85 @@
+<item id="2987"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>CoolCarFollower</name> <!-- *** Change this card name -->
+  	<campaignID>FastFuriousQuest</campaignID> <!-- *** Change this CMS name -->
+	
+	<radiobuttons>
+		<btn>
+			<y>15</y>
+			<x>-60</x>
+			<color>0x434062</color>
+			<val>limited/pop_follower_fastfurious_car1</val>
+		</btn>
+		<btn>
+			<y>15</y>
+			<x>0</x>
+			<color>0xA4A3A3</color>
+			<val>limited/pop_follower_fastfurious_car2</val>
+		</btn>
+		<btn>
+			<y>15</y>
+			<x>60</x>
+			<color>0xE2454A</color>
+			<val>limited/pop_follower_fastfurious_car3</val>
+		</btn>
+	</radiobuttons>
+	
+	
+  	<buttons>
+		<btn>
+  			<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>FOLLOW</label>
+    		<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Cool Car Follower</value> <!-- Change this subtitle -->
+			<y>-210</y>
+		</text>
+		<text id="adtitle">
+			<value>Fast & Furious: Spy Racers</value> <!-- Change this title -->
+			<size>23</size>
+			<y>-180</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-155</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+    	<asset id="cardContent" />
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+    <specials>
+		<specialAbility>limited/pop_follower_fastfurious_car1</specialAbility>
+	</specials>
+</item>

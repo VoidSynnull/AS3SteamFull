@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="player">
+		<statement event="watch_examineBoxes">This looks out of place. I should call the store owner.</statement>
+    </character>
+    	<character id="char1">
+		<statement event="watch_bonus_complete">That's twice tonight you've saved my bacon! I want you to have this.</statement>
+    	<statement event="watch_bonusCardsInProgress">There are still {X} cards missing. Come back when you have the rest.</statement>
+   		<statement event="gotItem_bonusCard_NightWatch">Thanks again, pal!</statement>
+    </character>
+</dialogs>

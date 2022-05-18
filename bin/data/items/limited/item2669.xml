@@ -1,0 +1,74 @@
+﻿<item id="2669"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Jet Pack Card</name> <!-- Change this card name -->
+  	<campaignID>DisneyTomorrowlandMVU</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+				<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+					<action type="applyLook"  tracking="Use Jet Pack Card"> 
+				</action>
+			</actions>
+  		</btn>
+		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>TAKE OFF</label>
+    		<actions>
+					<action type="removeLook"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Jet Pack Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="adtitle">
+			<value>Tomorrowland</value> <!-- Change this subtitle -->
+			<y>-210</y>
+		</text>
+		<text id="adtitle">
+			<value>Jet Pack</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<value>Press SPACEBAR to fly!</value>
+			<y>66</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2504.swf -->
+  	</assets>
+	
+		  <conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<pack>limited_tomorrowland_jetpack</pack>
+		</look>
+	</looks> 
+  	
+</item>

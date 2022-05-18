@@ -1,0 +1,41 @@
+<tracking>
+	<track id="oliver">
+		<event>EngagedOutsideNPC</event>
+		<choice>Oliver</choice>
+	</track>
+	<track id="jorge">
+		<event>EngagedOutsideNPC</event>
+		<choice>Jorge</choice>
+	</track>
+		<track id="monkeyone">
+		<event>EngagedOutsideNPC</event>
+		<choice>Monkey 1</choice>
+	</track>
+		<track id="monkeytwo">
+		<event>EngagedOutsideNPC</event>
+		<choice>Monkey 2</choice>
+	</track>		
+	<track id="monkeythree">
+		<event>EngagedOutsideNPC</event>
+		<choice>Monkey 3</choice>
+	</track>
+	<track id="posterLeft">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Left</subchoice>
+	</track>
+	<track id="posterCenter">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Center</subchoice>
+	</track>
+	<track id="posterRight">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Right</subchoice>
+	</track>
+		<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

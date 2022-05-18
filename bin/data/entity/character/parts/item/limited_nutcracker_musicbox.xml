@@ -1,0 +1,45 @@
+<part>
+	<id>limited_nutcracker_musicbox</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2930</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.store.AddSnow</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rate">250</param>
+			<param id="tracking">NutcrackerQuest,snow_power</param>
+  		</parameters>
+		<actions>
+		
+			<actionChain id="before_actions">
+			<action class="StopAudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/NutcrackerQuest/snow.mp3</param> 
+						<param id="audioId" type="string">nutcracker</param> 
+						<param id="sceneMusic" type="boolean">true</param> 
+						<param id="resumeMusicDelay" type="number">17</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/NutcrackerQuest/snow.mp3</param> 
+						<param id="radius" type="number">500</param>
+						<param id="minVolume" type="number">0</param>
+						<param id="maxVolume" type="number">1</param>
+						<param id="ease" type="function">null</param>
+						<param id="loop" type="boolean">false</param>
+						<param id="stopMusicEffect" type="boolean">true</param>
+						<param id="audioId" type="string">nutcracker</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

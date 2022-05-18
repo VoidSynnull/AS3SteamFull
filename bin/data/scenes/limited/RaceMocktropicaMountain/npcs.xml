@@ -1,0 +1,50 @@
+<npcs>
+	<npc id="leadDeveloper">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbcea8</skinColor>
+			<hairColor>0x664532</hairColor>
+			<mouth>rat</mouth>
+			<marks>mk_lead_programmer01</marks>
+			<hair>mk_lead_programmer01</hair>
+			<shirt>mk_lead_programmer01</shirt>
+			<pants>sears5</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>950</x>
+			<y>640</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFC4A8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>15</mouth>
+			<marks>is_wom</marks>
+			<hair>racer_mountain</hair>
+			<shirt>racer_mountain</shirt>
+			<pants>racer_mountain</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1650</x>
+			<y>5423</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

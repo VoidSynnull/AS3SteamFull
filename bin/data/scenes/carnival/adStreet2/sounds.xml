@@ -1,0 +1,14 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Lewis_and_Clark_Expedition.mp3</asset>
+		<asset loop="true" event ="set_evening">Twisted_Old_Forest.mp3</asset>
+		<asset loop="true" event ="set_night">forest_night.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

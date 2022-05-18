@@ -1,0 +1,84 @@
+<npcs>
+	<npc id="hairbrush">
+		<bitmap>limited/NetflixNextGenQuest/hairbrush_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>820</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="7723">
+		<bitmap>limited/NetflixNextGenQuest/7723_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>300</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="mai">
+		<bitmap>limited/NetflixNextGenQuest/mai_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>40</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="momo">
+		<bitmap>limited/NetflixNextGenQuest/momo.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>520</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="rice">
+		<bitmap>limited/NetflixNextGenQuest/rice.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>1020</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+		<npc id="pin">
+		<bitmap>limited/NetflixNextGenQuest/pin_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>1880</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="ramen">
+		<bitmap>limited/NetflixNextGenQuest/ramen_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>1220</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="toothbrush">
+		<bitmap>limited/NetflixNextGenQuest/toothbrush_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>880</x> <!-- from left edge of ad unit -->
+			<y>830</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	
+	<npc id="test">
+		<skin>
+		
+		  <facial>limited_nextgen_7723</facial>
+	
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>-340</x>
+			<y>470</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

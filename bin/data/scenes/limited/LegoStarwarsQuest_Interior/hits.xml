@@ -1,0 +1,23 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb3">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb4">
+		<component type="climb"/>
+	</hit>
+	<hit id="bouce" color="0xFF0000" platform="true">
+		<component type="bounce"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

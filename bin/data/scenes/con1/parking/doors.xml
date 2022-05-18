@@ -1,0 +1,58 @@
+<doors>
+	<door id="door1">
+		<scene>game.scenes.con1.adStreet3.AdStreet3</scene>
+		<x>1850</x>
+		<y>1015</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>80</x>
+				<y>0</y>
+			</offset>
+		</label>
+		<connectingSceneDoors>
+			<door id="exitLeft">
+				<scene>game.scenes.con1.bathrooms.Bathrooms</scene>
+				<x>2200</x>
+				<y>1050</y>
+				<direction>left</direction>
+			</door>
+			<door id="exitRight">
+				<scene>game.scenes.con1.parking.Parking</scene>
+				<x>200</x>
+				<y>1470</y>
+				<direction>right</direction>
+			</door>
+		</connectingSceneDoors>
+	</door>	
+	
+	<door id="door2">
+		<scene>game.scenes.con1.adMixed.AdMixed</scene>
+		<x>50</x>
+		<y>1015</y>
+		<defaultDirection>right</defaultDirection>
+		<label>
+			<text>GO RIGHT</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+		<connectingSceneDoors>
+			<door id="exitLeft">
+				<scene>game.scenes.con1.parking.Parking</scene>
+				<x>2950</x>
+				<y>1470</y>
+				<direction>left</direction>
+			</door>
+			<door id="exitRight">		
+				<scene>game.scenes.con1.center.Center</scene>
+				<x>400</x>
+				<y>1850</y>
+				<direction>right</direction>
+			</door>
+		</connectingSceneDoors>
+	</door>
+</doors>

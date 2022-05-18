@@ -1,0 +1,34 @@
+<sounds>
+	<sound type="music">
+		<!-- This will cause music to play through the Scene sound entity.
+		     'loop' will cause this sound to loop until it is manually stopped on the component.
+		     'fade will cause this sound to fade in when played and fade out when another exclusive sound starts playing.
+		     'exclusiveType' will make this sound stop/fade out other sounds playing in the same component when it starts. 
+		     'baseVolume' will set the baseVolume of this sound to play at a custom level (defaults to 1).  This is NOT an override, so other volume modifiers like global 
+		                  volume and positioning can lower this volume further. -->
+		<asset triggeredByEvent="playTrack1" loop="true" fade="true" exclusiveType="true" baseVolume=".3">Carrot_ShopTheme.mp3</asset>
+		<asset triggeredByEvent="playTrack2" loop="true" fade="true" exclusiveType="true">Sneaky_Suspense.mp3</asset>
+		<asset triggeredByEvent="playTrack3" loop="true" fade="true" exclusiveType="true">for_glory.mp3</asset>
+		<asset triggeredByEvent="playTrack4" loop="true" fade="true" exclusiveType="true">poseidon_realm.mp3</asset>
+		<asset triggeredByEvent="playTrack5" loop="true" fade="true" exclusiveType="true">Techno_Jam.mp3</asset>
+	</sound>
+	<!--  This will play an ambient track through the Scene sound entity. -->
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".25">AMB_DesoluteWinds.mp3</asset>
+	</sound>
+	
+	<!--  Each sound needs either a unique action or id.  The 'id' maps it to an entity's id, and the 'action' associates it with a particular action of the entity.  The
+	         'action' name is arbitrary, it is used to differentiate multiple sounds on a single entity.  
+	         'modifiers' allows you to set the default SoundModifier(s) for a sound.  In this case giving it the 'position' modifier will make its volume adjust based on position. -->
+	<sound type="effects" action="myAction">
+		<asset id="soundEntity" modifiers="position" loop="false">big_pow_04.mp3</asset>
+	</sound>
+	
+	<!-- If you leave out the 'action' attribute it defaults to the type.  In this case, the action would become 'effects'. -->
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="startGears">gears_01.mp3</asset>
+		<!-- effects with an id will be mapped to the matching entity id if it exists with AudioGroup.addAudioToEntity. -->
+		<asset id="npc">cat_meow_01.mp3</asset>
+	</sound>
+</sounds>

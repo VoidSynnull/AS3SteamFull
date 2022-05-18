@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset event="intro_played" loop="true" fade="true" exclusiveType="true">Avenue_A.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">city_night_time.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorCommon">door_knob_turn_open_01.mp3</asset>
+		<asset id="doorSchoolInterior">openDoor_pushBar.mp3</asset>
+		<asset id="doorAvenueA">none</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="tiledRoof">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="woodenRoof">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="trashCan">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="woodenStairs">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="swingSetBar">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="slideSteps">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="woodenSign">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="slide1">slide_card_01.mp3</asset>
+		<asset id="slide2">slide_card_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tiledRoof">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="woodenRoof">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="trashCan">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="woodenStairs">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="swingSetBar">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="slideSteps">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="woodenSign">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="slide1">metal_slide_01.mp3</asset>
+		<asset id="slide2">metal_slide_01.mp3</asset>
+	</sound>
+</sounds>

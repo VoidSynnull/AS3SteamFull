@@ -1,0 +1,15 @@
+<part>
+	<id>limited_dipop</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2604</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/DisneyInfinity2VendorCart/origanim.swf</param>
+			<param id="tracking">DisneyInfinity2VendorCart,Infinity Jump In Power</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,23 @@
+<part>
+	<id>pg_divesuit</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2001</campaignID>
+	<hide>
+		<part>hair</part>
+		<part>mouth</part>
+	</hide>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>p_letter</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

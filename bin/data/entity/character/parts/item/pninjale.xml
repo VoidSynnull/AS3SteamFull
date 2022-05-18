@@ -1,0 +1,15 @@
+<part>
+	<id>pninjale</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TwirlPartOfItem</className>
+		<useButton>true</useButton>
+  		<triggerable>true</triggerable>
+  		<parameters>
+  			<param id="spinSpeed">800</param>
+  			<param id="clipName">active_obj</param>
+  		</parameters>  	
+  	</specialAbility>
+</part>

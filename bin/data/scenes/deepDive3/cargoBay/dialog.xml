@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="player">
+    </character>
+	<character id="cam">
+		<statement id="this"><![CDATA[asdfa dgaw aeer adaf<br/><br/><br/>hajnja ioweutvm skaoh]]></statement>
+		<statement id="that"><![CDATA[<br/>   ...GO HOME. THANK YOU...]]></statement>
+		<statement id="static">|</statement>
+	</character>
+	<character id="dummyPlayer">
+		<statement id="comeIn" triggerEvent="triggerEvent" triggerEventArgs="comeInOver">Cam, come in. Can you read me?</statement>
+		<statement id="guess" triggerEvent="triggerEvent" triggerEventArgs="guessOver">Guess I'm on my own...</statement>
+		<statement id="whatWasThat">What was that?</statement>
+		<statement id="wait" triggerEvent="triggerEvent" triggerEventArgs="waitOver">Wait! I need to get home, too! Please!</statement>
+	</character>
+</dialogs>

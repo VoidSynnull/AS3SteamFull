@@ -1,0 +1,26 @@
+<part>
+	<id>limited_post_guitar</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2948</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">Pebbles2019MVU,Guitar</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="entity" type="entity">player</param> 
+						<param id="animClass" type="class">game.data.animation.entity.character.Guitar</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

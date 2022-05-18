@@ -1,0 +1,168 @@
+<hits>
+	<hit id="radial" color="0x9933CC">
+		<component type="radial"/>
+	</hit>
+	
+	<hit id="blockage1" color="0xBCBF40">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>  
+	
+	<hit id="blockage2" color="0x91764E">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage3" color="0x39B0C6">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage4" color="0x55C26B">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage5" color="0xF00F9C">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage6" color="0xD95FA7">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage7" color="0x6A43BC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage8" color="0xFFCCCC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="blockage1Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage2Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage3Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage4Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="blockage5Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage6Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage7Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="blockage8Target">
+		<component type="weaponTarget">
+			<maxDamage>20</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>basicGun</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve" color="0x60D28D">
+		<component type="radial"/>
+	</hit>
+	
+	<hit id="nerveTarget">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="coin" color="0xCC6600">
+		<component type="radial"/>
+	</hit>
+</hits>

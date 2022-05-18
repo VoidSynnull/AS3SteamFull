@@ -1,0 +1,67 @@
+﻿<item id="2509"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Mixels Electroid Zap Card</name> <!-- Change this card name -->
+  	<campaignID>MixelsEC</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+ 			<label>USE</label>
+    		<actions>
+				<action type="activatePower" tracking="Use Mixels Electroid Zap Cardr">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		
+  		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Mixels Electroid Zap Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param>
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+    
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>LEGO® Mixels™</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Electroid Zap</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<value></value>
+			<y>66</y>
+		</text>
+		<text id="copyright">
+			<value></value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2508.swf -->
+  	</assets>
+  	
+  	<specials>
+		<specialAbility>limited/mixel_volectro</specialAbility>	
+	</specials>
+	
+</item>

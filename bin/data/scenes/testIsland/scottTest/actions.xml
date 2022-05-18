@@ -1,0 +1,30 @@
+<actions id="scott_actions">
+	<actionChain id="attack">
+		<action class="MoveAction" lockInput="true">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="point">800, 920</param>
+				<param type="point">40,50</param>
+			</parameters>
+		</action>
+		<action class="PanAction" lockInput="true">
+			<parameters>
+				<param type="entity">gravityWell</param>
+				<param type="number">.05</param>
+				<param type="number">50</param>
+			</parameters>
+		</action>
+		<action class="PanAction" lockInput="false">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="number">.1</param>
+				<param type="number">30</param>
+			</parameters>
+		</action>
+		<action class="CallFunctionAction">
+			<parameters>
+				<param type="function">magnetSetup</param>
+			</parameters>
+		</action>
+	</actionChain>
+</actions>

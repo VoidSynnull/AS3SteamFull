@@ -1,0 +1,46 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Bright_Future.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="entered_tube">elevator_tube_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>elevator_tube_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="airTube">elevator_tube_01.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="sidewalk">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="buildingPlatform">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="energyBuilding">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="smokeStack">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="sign">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="train1TopPlatform">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="train2TopPlatform">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="train1BottomPlatform">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="train2BottomPlatform">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="sidewalk">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="buildingPlatform">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="energyBuilding">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>
+		<asset id="smokeStack">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="sign">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="train1TopPlatform">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="train2TopPlatform">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="train1BottomPlatform">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="train2BottomPlatform">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+	</sound>
+</sounds>

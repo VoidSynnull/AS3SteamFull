@@ -1,0 +1,22 @@
+<part>
+	<id>pdrink</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+	<components>
+		<component class="game.components.entity.character.part.DripPart">
+			<properties>
+				<location class="flash.geom.Point">
+					<constructor>
+						<x>146</x>
+						<y>-135</y>
+					</constructor>
+				</location>
+				<dripColor>0x993300</dripColor>
+			</properties>
+		</component>
+	</components>
+</part>

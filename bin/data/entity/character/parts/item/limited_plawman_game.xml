@@ -1,0 +1,19 @@
+<part>
+	<id>limited_plawman_game</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootGun</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="bulletPath">limited/NightAtTheMuseum3Quest/bullet.swf</param>
+			<param id="targetPrefix">shoot</param>
+			<param id="continuous">true</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

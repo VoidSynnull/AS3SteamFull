@@ -1,0 +1,41 @@
+<item id="item2739">
+  	<type>custom</type>
+	<subType>general</subType>
+  	<name>Island Hopper Ticket Card</name> <!-- Change this card name -->
+  	<campaignID>IslandHopperPromo</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass>
+		<className>game.scenes.custom.items.TicketContentView</className>
+	</contentClass>
+  	
+	<buttons>
+  		<btn>
+  			<index>0</index>
+    		<label>OFFICIAL RULES</label>
+    		<actions>
+				<action type="gotoUrl" tracking="Use Island Hopper Ticket Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+  		<text id="subtitle">
+			<value>Island Hopper</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Sweepstakes Ticket</value> <!-- Change this title -->
+		</text>
+  	</textfields>
+  	
+  	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/limited/backs/AdBackgroundYellow.swf</assetPath>
+    	</asset>
+   		<!-- <asset id="cardContent"/> -->
+    </assets>
+	
+</item>

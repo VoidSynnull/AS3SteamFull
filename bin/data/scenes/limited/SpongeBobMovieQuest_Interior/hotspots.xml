@@ -1,0 +1,50 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+		<hotspot id="poster4" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+		<hotspot id="poster5" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+		<hotspot id="poster6" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+		<hotspot id="poster7" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+		<hotspot id="poster8" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="gameStart" type="poster">
+		<action type="trigger">startGame</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="game1" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobMovieQuest_Skydive/|game.scenes.hub.skydive.Skydive</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="game2" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobMovieQuest_Balloons/|game.scenes.hub.balloons.Balloons</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="game3" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobMovieQuest_StarLink/|game.scenes.hub.starLink.StarLink</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="roomtrigger" type="poster">
+		<action type="specialAbilityClass">game.data.specialAbility.character.RainAssets</action>
+		<action type="specialAbilityParam1">swfPaths=limited/SpongeBobMovieQuest/Patty1.swf,limited/SpongeBobMovieQuest/Patty2.swf,limited/SpongeBobMovieQuest/Patty3.swf,limited/SpongeBobMovieQuest/Patty4.swf</action>
+		<action type="specialAbilityParam2">particleClass=game.particles.emitter.specialAbility.AssetRain</action>
+		<action type="specialAbilityParam3">duration=5</action>
+		<action type="trigger">pullLever</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video" locked="true">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

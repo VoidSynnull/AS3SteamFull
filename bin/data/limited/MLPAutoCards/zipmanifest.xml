@@ -1,0 +1,47 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/MLPAutoCards/" type="campaign" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2076</asset>
+		<asset>2077</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2076</asset>
+		<asset>2077</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+<!-- from scene.xml in ad scene -->
+<!--
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>dance_through_the_day</asset>
+	</assets>
+	<assets type="sounds" path="sound/limited/JTeamVBB/" ext="mp3" keep="true">
+		<asset>change_me_10</asset>
+		<asset>uni_10</asset>
+	</assets>
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>mini_game_wrong</asset>
+	</assets>
+	-->
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_pony_hitch</asset>
+		<asset>limited_pony_zipp</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_pony_hitch</asset>
+		<asset>limited_pony_zipp</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+		<asset>limited_pony_zipp</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+		<asset>limited_pony_zipp</asset>
+	</assets>
+</manifest>

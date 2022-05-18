@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">neon_wiener.mp3</asset>
+		<asset loop="true" event="cooked_dog">wormhole.mp3</asset>
+		<asset loop="true" event="worm_hole_appeared">neon_wiener.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="doorOpened">
+		<asset>door_hydrolics_open_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="trigger">
+		<asset id="flame0" loop="true" modifiers="proximity">gas_stove_loop_01.mp3</asset>
+		<asset id="cookingGlow">power_on_02.mp3</asset>
+		<asset id="helm" exclusiveType="true">structure_shaking_loop_01.mp3</asset>
+		<asset id="wormHole">power_on_06.mp3</asset>
+		<asset id="wormHole" loop="true">energy_hum_02_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="close">
+		<asset id="redButton">machine_state_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="bounce">ls_bounce_01.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="hibachi">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="baseGround">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="step">
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="hibachi">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="baseGround">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+</sounds>

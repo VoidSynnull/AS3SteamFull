@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="owner">
+		<conversation>
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>Je suis Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>sentant vers le bas?</question>
+				<answer>J'ai perdu mon chat, Whiskers. Si vous ne pouvez la trouver, je vais vous donner un pied de biche gratuitement!</answer>
+			</exchange>
+			<exchange>
+				<question>Où avez-vous vu votre chat?</question>
+				<answer>Eh bien, elle a l'habitude de traîner par la vieille maison de ferme.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="cat_returned">
+			<exchange>
+				<question>Whiskers l'air heureux d'être à la maison.</question>
+				<answer>Oui, merci beaucoup pour le trouver!</answer>
+			</exchange>
+			<exchange>
+				<question>Y at-il autre chose dont vous avez besoin?</question>
+				<answer>je suis d'accord, mais cette ville que pourrais utiliser un peu d'aide!</answer>
+			</exchange>	
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>Whiskers l'air heureux d'être à la maison.</question>
+				<answer>Oui, merci beaucoup pour le trouver!</answer>
+			</exchange>
+			<exchange>
+				<question>Y at-il autre chose dont vous avez besoin?</question>
+				<answer>Nan. Vous m'avez aidé et toute la ville déjà!</answer>
+			</exchange>						
+		</conversation>		
+		<conversation event="cat_following">
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>Je suis Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>sentant vers le bas?</question>
+				<answer>J'ai perdu mon chat, Whiskers. Si vous ne pouvez la trouver, je vais vous donner un pied de biche gratuitement!</answer>
+			</exchange>
+			<exchange>
+				<question>J'ai trouvé votre chat!</question>
+				<answer link="crowbar_give" triggerEvent="completeEvent" triggerEventArgs="cat_returned">Whiskers!!! Viens ici, petit coquin!</answer>
+			</exchange>
+		</conversation>
+		<statement id="crowbar_give" triggerEvent="giveItem" triggerEventArgs="crowbar">Merci! Je ne peux pas vous donner beaucoup, mais peut-être que vous pourriez utiliser ce pied de biche</statement>
+	</character>
+	<character id="char3">
+		<statement>je profite de ma liberté. Merci!</statement>
+	</character>
+</dialogs>

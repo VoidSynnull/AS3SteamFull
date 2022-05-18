@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement event="hasAdItem_2499">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>You can get this cool prize after watching the video!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Pssst!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

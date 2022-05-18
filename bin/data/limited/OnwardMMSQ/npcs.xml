@@ -1,0 +1,12 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="ianbarley">
+		<bitmap>limited/OnwardQuest/IanBarely.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<position>
+			<x>235</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

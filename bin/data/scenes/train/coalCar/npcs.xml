@@ -1,0 +1,101 @@
+<npcs>
+	
+	<!--  character 1  -->
+	<npc id="coalMan">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf1c1a0</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>skiMask</mouth>
+			<marks>mtCoalMan</marks> 
+			<facial>mtCoalMan</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>butler</pants>  
+			<pack>1</pack>
+			<item></item>
+			<overshirt>mtCoalMan</overshirt>
+			<overpants>mtCoalMan</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>834.45</x>
+			<y>501</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- [1, null, 0xfee0d8, 0x6E543B, "squint", "leo", 1, "MTtesla", "MTtesla", 
+	"MTtesla", "MTtesla", 1, 1, 1, 1];
+	character 2  -->
+	<npc id="tesla" event="teslaInChains">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x6E543B</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>shadyCop</mouth>
+			<marks/>
+			<facial>MTtesla</facial>
+			<hair>MTtesla</hair>
+			<shirt>MTtesla</shirt>
+			<pants>leo</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt>MTteslaChains</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>509.45</x>
+			<y>489</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	
+	
+	<!--  [1, "undefined", 0xfee0d8, 0x503a2a, "squint", "fisherman", "gardener", "wwConductor", 1, 
+	"wwConductor", "wwConductor", 1, 1, 1, 1];
+	  character 3  -->
+	<npc id="conductor">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>gardener</marks>  
+			<facial>wwConductor</facial>  <!--    -->
+			<hair>1</hair>
+			<shirt>wwConductor</shirt>  <!--    -->
+			<pants>wwConductor</pants>  <!--  wwConductor  -->
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1441.4</x>
+			<y>488</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

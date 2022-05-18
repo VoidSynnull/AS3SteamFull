@@ -1,0 +1,23 @@
+<part>
+	<id>pdog1</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Proud</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

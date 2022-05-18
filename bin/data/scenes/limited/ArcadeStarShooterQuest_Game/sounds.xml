@@ -1,0 +1,14 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">starshooter.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="power1Hit" baseVolume="4">short_engine_burst_01.mp3</asset>
+		<asset id="asteroid1Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+		<asset id="asteroid2Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+		<asset id="asteroid3Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+		<asset id="asteroid4Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+	</sound>
+
+</sounds>

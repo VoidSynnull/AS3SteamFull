@@ -1,0 +1,31 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/NormOfTheNorthMBBQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/NormOfTheNorthMBBQ/sideStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/NormOfTheNorthQuest/" ext="swf">
+		<asset>Norm_NPC</asset>
+	</assets>
+	
+	<assets type="support" path="assets/limited/NormOfTheNorthMBBQ/sideStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+</manifest>

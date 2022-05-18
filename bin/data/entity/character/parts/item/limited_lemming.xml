@@ -1,0 +1,15 @@
+<part>
+	<id>limited_lemming</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2737</campaignID>
+	<specialAbility>
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/NormPartyRoom/NormLemmingPrize.swf</param>
+			<param id="tracking">NormPartyRoom,Tumbling Lemming Power</param>
+		</parameters>
+</specialAbility>
+</part>

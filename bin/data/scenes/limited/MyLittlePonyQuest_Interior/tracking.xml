@@ -1,0 +1,71 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Poster 1</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Poster 2</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Poster 3</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Poster 4</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster5">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Poster 5</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster6">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Interior Logo</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="questDoor">
+		<event>startGame</event>
+		<choice>Poster</choice>
+		<subchoice>Game Quest door</subchoice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+	</track>
+	<track id="Sunny">
+		<event>EngagedInsideNPC</event>
+		<choice>Interior Sunny</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Izzy">
+		<event>EngagedOutsideNPC</event>
+		<choice>Interior Izzy</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Hitch">
+		<event>EngagedOutsideNPC</event>
+		<choice>Interior Hitch</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Pipp">
+		<event>EngagedOutsideNPC</event>
+		<choice>Interior Pipp</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Zipp">
+		<event>EngagedOutsideNPC</event>
+		<choice>Interior Zipp</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

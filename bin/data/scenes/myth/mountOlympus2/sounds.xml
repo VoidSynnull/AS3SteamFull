@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	
+	<sound type="music">
+		<asset triggeredByEvent="showZeus" loop="true" fade="true" exclusiveType="true">epic_boss_battle.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3,ls_concrete_02.mp3</asset>
+		<asset id="stone">ls_concrete_01.mp3,ls_concrete_02.mp3</asset>
+		<asset id="cloth">ls_cloth_01.mp3,ls_cloth_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3,fs_concrete_02.mp3,fs_concrete_03.mp3,fs_concrete_04.mp3</asset>
+		<asset id="stone">fs_concrete_01.mp3,fs_concrete_02.mp3,fs_concrete_03.mp3,fs_concrete_04.mp3</asset>
+		<asset id="cloth">fs_cloth_01.mp3,fs_cloth_02.mp3,fs_cloth_03.mp3,fs_cloth_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="light_up_statue">myth_light_up_statue_01.mp3</asset>
+		<asset triggeredByEvent="zeus_boom">myth_enter_zues_01.mp3</asset>
+		<asset triggeredByEvent="player_transform">myth_transform_01.mp3</asset>	
+		<asset triggeredByEvent="victory">medallion_fanfare_02.mp3</asset>
+	</sound>
+</sounds>

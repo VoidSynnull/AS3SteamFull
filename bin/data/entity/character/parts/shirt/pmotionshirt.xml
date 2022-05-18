@@ -1,0 +1,31 @@
+<part>
+	<id>pmotionshirt</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.Psychodelic</className>
+		<parameters>
+			<param id="partType">shirt</param>
+			<param id="maskName">mask</param>
+			<param id="maskedName">maskedContent</param>
+			<param id="psychoName">dynamicShirt</param>
+			<param id="colors">0x990000,0x000099</param>
+			<param id="changeTime">3</param>
+		</parameters>
+		<triggerable>false</triggerable>
+		<!-- 
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+		 -->
+	</specialAbility>
+</part>

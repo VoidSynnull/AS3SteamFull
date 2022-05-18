@@ -1,0 +1,15 @@
+<part>
+	<id>vh_virus1</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>shirt</part>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.store.VirusLegs</className>
+	</specialAbility>
+</part>

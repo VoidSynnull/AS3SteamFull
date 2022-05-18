@@ -1,0 +1,31 @@
+<doors>
+	<door id="exitLeft">
+		<scene>game.scenes.tutorial.tutorial.Tutorial</scene>
+		<x>6325</x>
+		<y>520</y>
+		<direction>left</direction>
+		<label>
+			<text>Exit</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y></y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="exitRight">
+		<scene>game.scenes.hub.town.Town</scene>
+		<x>41</x>
+		<y>791</y>
+		<label>
+			<text>Exit</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-120</x>
+				<y>0</y>
+			</offset>
+		</label>
+		<direction>right</direction>
+	</door>
+</doors>

@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="char1">
+		<statement>text1</statement>
+		<statement event = "returned_goldenVase">text2</statement>
+    </character>
+	<character id="char2">
+		<conversation>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+			<exchange>
+				<question>text6</question>
+				<answer>text7</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_goldenVase">
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text8</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="goldenVase, char2">text2</answer>
+			</exchange>
+		</conversation>
+		<statement event="returned_goldenVase">text2</statement>
+    </character>
+    <character id="char3">
+		<statement>text9</statement>
+    </character>
+    <character id="char4">
+		<statement>text10</statement>
+    </character>
+    <character id="char5">
+		<statement>text11</statement>
+    </character>
+</dialogs>

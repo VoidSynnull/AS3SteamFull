@@ -1,0 +1,62 @@
+<hits>
+	<hit id="stone" color="0xB6C1B6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x41B6E1</splashColor1>
+			<splashColor2>0x4DCBDE</splashColor2>
+		</component>
+	</hit>	
+	
+	
+	<hit id="hit0">
+		<component type="hazard">
+			<visible>h0</visible>
+			<knockBackVelocity>
+				<x>2000</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="hit1">
+		<component type="hazard">
+			<visible>h1</visible>
+			<knockBackVelocity>
+				<x>2000</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="hit2">
+		<component type="hazard">
+			<visible>h2</visible>
+			<knockBackVelocity>
+				<x>2000</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="hit3">
+		<component type="hazard">
+			<visible>h3</visible>
+			<knockBackVelocity>
+				<x>2000</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="hit4">
+		<component type="hazard">
+			<visible>h4</visible>
+			<knockBackVelocity>
+				<x>2000</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

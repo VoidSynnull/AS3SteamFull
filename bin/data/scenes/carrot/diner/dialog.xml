@@ -1,0 +1,76 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text41</question>
+				<answer>text59</answer>
+			</exchange>
+			<exchange>
+				<question>text60</question>
+				<answer>text61</answer>
+			</exchange>
+			<exchange>
+				<question>text62</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="show_poster">text63</answer>
+			</exchange>
+		</conversation>
+		<statement event="destroyed_rabbot">text64</statement>
+	</character>
+	<character id="waitress">
+		<conversation>
+			<exchange>
+				<question>text69</question>
+				<answer>text65</answer>
+			</exchange>
+			<exchange>
+				<question>text71</question>
+				<answer>text66</answer>
+			</exchange>
+			<exchange>
+				<question>text67</question>
+				<answer>text68</answer>
+			</exchange>
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>text69</question>
+				<answer>text70</answer>
+			</exchange>
+			<exchange>
+				<question>text71</question>
+				<answer>text72</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_bowlOfMilk">
+			<exchange>
+				<question>text69</question>
+				<answer>text65</answer>
+			</exchange>
+			<exchange>
+				<question>text71</question>
+				<answer>text66</answer>
+			</exchange>
+			<exchange>
+				<question>text73</question>
+				<answer>text74</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_emptyBowl">
+			<exchange>
+				<question>text69</question>
+				<answer>text65</answer>
+			</exchange>
+			<exchange>
+				<question>text71</question>
+				<answer>text66</answer>
+			</exchange>
+			<exchange>
+				<question>text75</question>
+				<answer triggerEvent="exchangeItems" triggerEventArgs="emptyBowl,bowlOfMilk">text76</answer>
+			</exchange>
+		</conversation>
+	</character>
+	<character id="char3">
+		<statement>text77</statement>
+	</character>
+</dialogs>

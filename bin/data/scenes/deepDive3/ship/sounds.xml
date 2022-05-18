@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">lapping_water_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>	
+		<asset id="nest">ls_grass_01.mp3</asset>
+		<asset id="metal_container">ls_metal_01.mp3,ls_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="ship_floor">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+		<asset id="ship_rail">ls_ladder_metal_01.mp3,ls_ladder_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_general_metal_01.mp3,fs_general_metal_02.mp3,fs_general_metal_03.mp3,fs_general_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3,fs_water_02.mp3,fs_water_03.mp3,fs_water_04.mp3,fs_swim_water_01.mp3,fs_swim_water_02.mp3,fs_swim_water_03.mp3</asset>
+		<asset id="nest">fs_grass_01.mp3</asset>
+		<asset id="metal_container">fs_metal_01.mp3,fs_metal_02.mp3,fs_metal_03.mp3,fs_metal_04.mp3</asset>
+		<asset id="ship_floor">fs_general_metal_01.mp3,fs_general_metal_02.mp3,fs_general_metal_03.mp3,fs_general_metal_04.mp3</asset>
+		<asset id="ship_rail">fs_ladder_metal_01.mp3,fs_ladder_metal_02.mp3,fs_ladder_metal_03.mp3,fs_ladder_metal_04.mp3</asset>
+	</sound>
+	
+</sounds>

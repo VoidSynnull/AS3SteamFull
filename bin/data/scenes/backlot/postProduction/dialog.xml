@@ -1,0 +1,15 @@
+<dialogs>
+  <character id="char1">
+    <statement id="sound" link="didnt?" linkEntityId="player">Now to add sound.</statement>
+    <statement id="excise" triggerEvent="triggerEvent" triggerEventArgs="move_to_editing">Now to excise some of these continuity errors.</statement>
+    <statement id="filming" link="first">Filming is only the first step. We've still got work to do to finish the movie!</statement>
+    <statement id="first" triggerEvent="triggerEvent" triggerEventArgs="move_to_editing">First, we must excise some of these continuity errors.</statement>
+    <statement id="forgot" triggerEvent="triggerEvent" triggerEventArgs="move_to_foley">I forget, you are a neophyte. No, we will add most of the audio effects now, so that we can make them sound exactly as we desire.</statement>
+ 	<statement id="excise errors" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Now to excise some of these continuity errors.</statement>
+ 	<statement id="add sound" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Now to add sound.</statement> 
+ 	<statement event="complete_movie_editing" triggerEvent="giveItem" triggerEventArgs="reels">My masterpiece, finished at last. Will you take the film to the theater? I have... other business to attend to.</statement> 
+  </character>
+  <character id="player">
+    <statement id="didnt?" link="forgot" linkEntityId="char1">Didn't we record the sound when we were filming?</statement>
+  </character>
+</dialogs>

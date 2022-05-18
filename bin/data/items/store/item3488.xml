@@ -1,0 +1,67 @@
+<item id="3488">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<radiobuttons>
+		<btn>
+			<color>0x76574A</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x813C3C</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xFDFDE5</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Winter Bundle</value>
+			</text>
+		<text id="storeTitle">
+			<value>Hats</value>
+			 </text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+	
+		<looks>
+			<look>
+			 <mouth>18</mouth>
+			 <marks>stor_winter_gpoofball</marks>
+			 <hair>gpoof</hair>
+			 <pants>2</pants>
+		</look>
+		<look>
+			 <mouth>18</mouth>
+			 <marks>stor_winter_gtrapper</marks>
+			 <pants>2</pants>
+		</look>
+		<look>
+				<mouth>18</mouth>
+			 <marks>stor_winter_gflower</marks>
+			 <pants>2</pants>
+		</look>
+	</looks> 
+
+
+</item>

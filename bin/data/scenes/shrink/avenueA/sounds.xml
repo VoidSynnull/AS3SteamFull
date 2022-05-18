@@ -1,0 +1,44 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Avenue_A.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+		<asset id="doorApartmentNormal">door_knob_turn_open_01.mp3</asset>
+		<asset id="doorAdGroundH15">none</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="stoneWall">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="stoneWindow1">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="stoneWindow2">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="stoneWindow3">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="tiledRoof">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="stoneRoof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="stoneLedge">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="flowerBox">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="closedTrashCan">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="openTrashCan">fs_general_rubbish_01.mp3, fs_general_rubbish_02.mp3, fs_general_rubbish_03.mp3, fs_general_rubbish_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="stoneWall">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="stoneWindow1">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="stoneWindow2">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="stoneWindow3">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tiledRoof">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="stoneRoof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="stoneLedge">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="flowerBox">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="closedTrashCan">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="openTrashCan">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+		<asset id="awningBounce">ls_tent_bounce_01.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+</sounds>

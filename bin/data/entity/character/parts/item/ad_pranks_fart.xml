@@ -1,0 +1,18 @@
+<part>
+	<id>ad_pranks_fart</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2478</campaignID>
+	<specialAbility id="WhoopeeCushion">
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="swfPath">items/limited/pranksgivingWhoopeeCushion.swf</param>
+			<param id="sprayOffsetX">32</param>
+			<param id="sprayOffsetY">-8</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

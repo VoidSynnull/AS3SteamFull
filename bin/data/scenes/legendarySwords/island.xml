@@ -1,0 +1,50 @@
+<island>
+	<name>Legendary Swords</name>
+	<eventsClass></eventsClass>
+	<gameVersion>AS2</gameVersion>
+	<island>legendarySwords</island>
+	
+	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+		<event>started</event>	<!-- Every island should have a permanent 'started' event -->
+		<event>LSLanded</event>
+		<event>LSSword1</event>
+		<event>LSCaveEnter</event>
+		<event>LSCaveContinued</event>
+		<event>LSCrystalHit</event>
+		<event>LSOutsideCave</event>
+		<event>LSCliffs</event>
+		<event>LSCliffsBoss</event>
+		<event>LSMiniBoss</event>
+		<event>LSRockyTerrain</event>
+		<event>LSSpiderForest</event>
+		<event>LSFinalBoss</event>
+		<event>LSSword2</event>
+		<event>LSCaveCEnter</event>
+		<event>LSStoreHit</event>
+		<event>LSSkull</event>
+		<event>gotItem_medal_legendarySwords</event>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+	</itemIdMap>
+	
+	<firstScene>
+		<scene>Landing</scene>
+		<x>728</x>
+		<y>2219</y>
+		<direction>right</direction>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</firstScene>
+	
+	<playerMap></playerMap>
+	<medallion></medallion>
+</island>

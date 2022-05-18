@@ -1,0 +1,20 @@
+<dialogs>
+  <character id="player">
+    <statement id="that" link="sorry" linkEntityId="npc1">Half-caf leviathan latte-espresso.</statement>
+    <statement id="no thanks">Nothing for me thanks.</statement>
+  </character>
+  
+  <character id="npc1">
+    <statement id="sorry" triggerEvent="triggerEvent" triggerEventArgs="pour_coffee_left">Oh, sorry, we're out of espresso. You can order something else off the menu.</statement>
+    <statement event="gotItem_kirkCoffeeCup" link="that" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="stop_and_listen">What can I get you?</statement>
+    <statement link="no thanks" linkEntityId="player">Interest you in a fair trade organic coffee today?</statement>
+  </character>
+  
+  <character id="npc2">
+    <statement>My big break is coming any day now. I just missed out on a  role as "Surprised Onlooker #3"!</statement>
+  </character>
+  
+  <character id="npc3">
+    <statement>I'm working on a killer original screenplay, "The Explodo-Squad". It's like "Bomb-Bots" meets "The Robo-Bombers" but in outer space!</statement>
+  </character>
+</dialogs>

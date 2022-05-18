@@ -1,0 +1,30 @@
+<tracking>
+	<track id="bitmap_norm">
+		<event>EngagedInsideNPC</event>
+		<choice>Norm</choice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Left Billboard</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Right Billboard</subchoice>
+	</track>
+		<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Bottom Poster</subchoice>
+	</track>
+		<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Above Door</subchoice>
+	</track>
+		<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

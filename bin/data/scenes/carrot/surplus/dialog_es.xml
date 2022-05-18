@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="owner">
+		<conversation>
+			<exchange>
+				<question>Quién es usted?</question>
+				<answer>Soy Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>Se siente triste?</question>
+				<answer>Perdí mi gato Bigotes. Si puedes encontrarla, te voy a dar una palanca de forma gratuita!</answer>
+			</exchange>
+			<exchange>
+				<question>Dónde vio por última vez a su gato?</question>
+				<answer>Bueno, solía pasar el rato en la antigua casa de labranza.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="cat_returned">
+			<exchange>
+				<question>Whiskers parece feliz de estar en casa.</question>
+				<answer>Sí, muchas gracias por encontrarlo!</answer>
+			</exchange>
+			<exchange>
+				<question>¿Hay algo más que usted necesita?</question>
+				<answer>estoy bien, pero esta ciudad no le vendría mal un poco de ayuda!</answer>
+			</exchange>	
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>Whiskers parece feliz de estar en casa.</question>
+				<answer>Sí, muchas gracias por encontrarlo!</answer>
+			</exchange>
+			<exchange>
+				<question>¿Hay algo más que usted necesita?</question>
+				<answer>No. Usted ha ayudado a mí ya todo el pueblo ya!</answer>
+			</exchange>						
+		</conversation>		
+		<conversation event="cat_following">
+			<exchange>
+				<question>Quién es usted?</question>
+				<answer>Soy Charlie.</answer>
+			</exchange>
+			<exchange>
+				<question>Se siente triste?</question>
+				<answer>Perdí mi gato Bigotes. Si puedes encontrarla, te voy a dar una palanca de forma gratuita!</answer>
+			</exchange>
+			<exchange>
+				<question>Encontré su gato!</question>
+				<answer link="crowbar_give" triggerEvent="completeEvent" triggerEventArgs="cat_returned">Whiskers!!! Ven aquí, pequeño bribón!</answer>
+			</exchange>
+		</conversation>
+		<statement id="crowbar_give" triggerEvent="giveItem" triggerEventArgs="crowbar">Gracias! No puedo permitirme darte mucho, pero tal vez usted podría utilizar esta barra de hierro</statement>
+	</character>
+	<character id="char3">
+		<statement>Estoy disfrutando mi libertad. Gracias!</statement>
+	</character>
+</dialogs>

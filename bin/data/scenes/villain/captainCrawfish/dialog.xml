@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="player">
+		<statement event="click_bottle">There's a ship inside this little bottle, but I'm much too big to fit in there.</statement>
+		<statement event="cleared_bottle">I already used the shrinking potion to get the ship.</statement>
+		<statement event="shrink_disabled">There's no reason to shrink myself right here.</statement>
+		<statement event="atempt_key_failure">This key doesn't seem to fit.</statement>
+	</character>
+</dialogs>

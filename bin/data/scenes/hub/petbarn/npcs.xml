@@ -1,0 +1,275 @@
+<npcs>
+	<npc id="puppy1" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xAAB1B2</skinColor>
+			<eyeState>open</eyeState>
+			<head>puppy</head>
+			<body>puppy</body>
+			<mouth>puppy</mouth>
+			<marks>puppy_ears</marks>
+			<tail>puppy</tail>
+			<paw1>puppy</paw1>
+			<paw2>puppy</paw2>
+			<paw3>puppy</paw3>
+			<paw4>puppy</paw4>
+			<calf1>puppy_front</calf1>
+			<calf2>puppy_front</calf2>
+			<calf3>puppy_back</calf3>
+			<calf4>puppy_back</calf4>
+			<thigh1>puppy_front</thigh1>
+			<thigh2>puppy_front</thigh2>
+			<thigh3>puppy_back</thigh3>
+			<thigh4>puppy_back</thigh4>
+		</skin>
+		<position>
+			<x>527</x>
+			<y>1262</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="husky" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xAAB1B2</skinColor>
+			<eyeState>open</eyeState>
+			<head>husky</head>
+			<body>husky</body>
+			<mouth>husky</mouth>
+			<marks>husky_ears</marks>
+			<tail>husky</tail>
+			<paw1>husky</paw1>
+			<paw2>husky</paw2>
+			<paw3>husky</paw3>
+			<paw4>husky</paw4>
+			<calf1>husky_front</calf1>
+			<calf2>husky_front</calf2>
+			<calf3>husky_back</calf3>
+			<calf4>husky_back</calf4>
+			<thigh1>husky_front</thigh1>
+			<thigh2>husky_front</thigh2>
+			<thigh3>husky_back</thigh3>
+			<thigh4>husky_back</thigh4>
+		</skin>
+		<position>
+			<x>665</x>
+			<y>1134</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="kitten2" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xFF9831</skinColor>
+			<eyeState>open</eyeState>
+			<head>kitten</head>
+			<body>kitten</body>
+			<mouth>kitten</mouth>
+			<marks>kitten_ears</marks>
+			<tail>kitten</tail>
+			<paw1>kitten</paw1>
+			<paw2>kitten</paw2>
+			<paw3>kitten</paw3>
+			<paw4>kitten</paw4>
+			<calf1>kitten_front</calf1>
+			<calf2>kitten_front</calf2>
+			<calf3>kitten_back</calf3>
+			<calf4>kitten_back</calf4>
+			<thigh1>kitten_front</thigh1>
+			<thigh2>kitten_front</thigh2>
+			<thigh3>kitten_back</thigh3>
+			<thigh4>kitten_back</thigh4>
+		</skin>
+		<position>
+			<x>956</x>
+			<y>1124</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="pony1" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xffcc66</skinColor>
+			<eyeState>open</eyeState>
+			<head>pony</head>
+			<body>pony</body>
+			<mouth>pony</mouth>
+			<marks>pony_ears</marks>
+			<tail>pony</tail>
+			<paw1>pony</paw1>
+			<paw2>pony</paw2>
+			<paw3>pony</paw3>
+			<paw4>pony</paw4>
+			<calf1>pony_front</calf1>
+			<calf2>pony_front</calf2>
+			<calf3>pony_back</calf3>
+			<calf4>pony_back</calf4>
+			<thigh1>pony_front</thigh1>
+			<thigh2>pony_front</thigh2>
+			<thigh3>pony_back</thigh3>
+			<thigh4>pony_back</thigh4>
+		</skin>
+		<position>
+			<x>720</x>
+			<y>952</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="bunny1" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xF7B0CD</skinColor>
+			<eyeState>open</eyeState>
+			<head>bunny</head>
+			<body>bunny</body>
+			<mouth>bunny</mouth>
+			<marks>bunny_ears</marks>
+			<tail>bunny</tail>
+			<paw1>bunny</paw1>
+			<paw2>bunny</paw2>
+			<paw3>bunny</paw3>
+			<paw4>bunny</paw4>
+			<calf1>bunny_front</calf1>
+			<calf2>bunny_front</calf2>
+			<calf3>bunny_back</calf3>
+			<calf4>bunny_back</calf4>
+			<thigh1>bunny_front</thigh1>
+			<thigh2>bunny_front</thigh2>
+			<thigh3>bunny_back</thigh3>
+			<thigh4>bunny_back</thigh4>
+		</skin>
+		<position>
+			<x>1170</x>
+			<y>790</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="lizard3" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0x53A852</skinColor>
+			<eyeState>open</eyeState>
+			<head>lizard</head>
+			<body>lizard</body>
+			<mouth>lizard</mouth>
+			<marks>lizard_ears</marks>
+			<tail>lizard</tail>
+			<paw1>lizard</paw1>
+			<paw2>lizard</paw2>
+			<paw3>lizard</paw3>
+			<paw4>lizard</paw4>
+			<calf1>lizard_front</calf1>
+			<calf2>lizard_front</calf2>
+			<calf3>lizard_back</calf3>
+			<calf4>lizard_back</calf4>
+			<thigh1>lizard_front</thigh1>
+			<thigh2>lizard_front</thigh2>
+			<thigh3>lizard_back</thigh3>
+			<thigh4>lizard_back</thigh4>
+		</skin>
+		<position>
+			<x>282</x>
+			<y>894</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="goat1" variant="pet_babyquad">
+		<animations random="true" loop="true">
+			<animation duration="20">game.data.animation.entity.character.SmallHop2</animation>
+			<animation duration="21">game.data.animation.entity.character.Scratch</animation>
+			<animation duration="16">game.data.animation.entity.character.Wag2</animation>
+			<animation duration="60"></animation>
+			<animation duration="60"></animation>
+		</animations>
+		<skin>
+			<skinColor>0xFCF2D9</skinColor>
+			<eyeState>open</eyeState>
+			<head>goat</head>
+			<body>goat</body>
+			<mouth>goat</mouth>
+			<marks>goat_ears</marks>
+			<tail>goat</tail>
+			<paw1>goat</paw1>
+			<paw2>goat</paw2>
+			<paw3>goat</paw3>
+			<paw4>goat</paw4>
+			<calf1>goat_front</calf1>
+			<calf2>goat_front</calf2>
+			<calf3>goat_back</calf3>
+			<calf4>goat_back</calf4>
+			<thigh1>goat_front</thigh1>
+			<thigh2>goat_front</thigh2>
+			<thigh3>goat_back</thigh3>
+			<thigh4>goat_back</thigh4>
+		</skin>
+		<position>
+			<x>1266</x>
+			<y>896</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

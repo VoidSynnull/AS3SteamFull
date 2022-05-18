@@ -1,0 +1,40 @@
+<part>
+	<id>limited_ducky_bunny</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">limited/ToyStory4HEVBB/lazer.swf</param>
+			<param id="targetPrefix">shoot</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>
+			<param id="offsetX">40</param>
+			<param id="offsetY">-60</param>
+			<param id="inset">80</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AudioAction" >
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">effects/laser_lsw.mp3</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

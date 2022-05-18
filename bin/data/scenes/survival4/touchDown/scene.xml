@@ -1,0 +1,20 @@
+<scene>
+	<sceneType>cutscene</sceneType>
+	<bounds>
+		<left>-100</left>
+		<top>-100</top>
+		<right>2100</right>
+		<bottom>500</bottom>
+	</bounds>
+	<data>npcs.xml,sounds.xml</data>
+	<assets>touchDown.swf</assets>
+	<absoluteFilePaths>scenes/survival4/shared/sounds.xml</absoluteFilePaths>
+	<player>
+		<defaultPosition>
+			<x>1000</x>
+			<y>920</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

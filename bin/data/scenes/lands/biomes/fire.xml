@@ -1,0 +1,186 @@
+<biome>
+
+<weather>
+	<meteor rarity="900" />
+</weather>
+
+<sky>
+<top>0x9C1A12, 0xB92420, 0xD62E2E, 0xB92420, 0x9C1A12, 0x4A110C, 0x1C0D09, 0x2D0E0A, 0x9C1A12</top>
+<bottom>0xF9ED62, 0xF0B356, 0xED9F52, 0xED8345, 0xED4229, 0x913714, 0x32150B, 0x702B11, 0xF9ED62</bottom>
+</sky>
+
+	<tileLayer name="foreground">
+
+		<tileMap name="decal" tileSet="decal" drawOrder="1" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+				<decalHitRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="building" tileSet="building" drawOrder="2" tileSize="32" drawHits="true">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="12" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="terrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="true">
+
+			<renderers>
+				<terrainOutliner strokeSize="5" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<terrainGenerator />
+				<caveGenerator perlinBase="8" cutThreshold="0xEEEEEE" />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+				<cliffGenerator perlinBase="12" cutThreshold="0xA00000" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="trees" tileSet="trees" drawOrder="20" tileSize="32" drawHits="true">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+			<generators>
+
+				<!--<forestGenerator pass="2" rootLandMap="terrain">
+
+					<treeType trunkTile="0x002000" type="cactus" />
+					<treeType leafTile="0x010000" type="bush" />
+	
+				</forestGenerator>-->
+			
+				<flatGenerator tileType="0x000400" height="20" pass="2" />
+			</generators>
+
+		</tileMap>
+
+	</tileLayer >
+
+	<tileLayer name="background">
+	
+		<tileMap name="bgdecal" tileSet="decal" drawOrder="200" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgbuilding" tileSet="building" drawOrder="100" tileSize="32" drawHits="false">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="8" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgterrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="false">
+
+			<renderers>
+				<terrainOutliner strokeSize="2" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<flatGenerator tileType="1" height="70" />
+				<terrainGenerator />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+				<cliffGenerator perlinBase="12" cutThreshold="0xA00000" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="bgtrees" tileSet="trees" drawOrder="1" tileSize="32" drawHits="false">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+			<generators>
+
+				<!--<forestGenerator pass="2" rootLandMap="terrain">
+
+					<treeType trunkTile="0x002000" type="cactus" />
+					<treeType leafTile="0x010000" type="bush" />
+	
+				</forestGenerator>-->
+				
+			</generators>
+
+		</tileMap>
+
+	</tileLayer>
+
+	<tileSet name="terrain">
+
+		<terrain name="firestone" type="1" drawOrder="1" level="1">
+
+			<hitGroundColor>0x7EB7E4</hitGroundColor>
+
+			<viewLineColor>0x282522</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.06</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>firestone_tile.swf</viewBitmapFill>
+				
+			<details>
+				<detail url="firestone_details.swf" sides="top" minDetails="-1" maxDetails="1" />
+			</details>
+
+		</terrain>
+
+		<terrain name="firedirt" type="2" drawOrder="2" level="2">
+
+			<hitGroundColor>0x996600</hitGroundColor>
+
+			<viewLineColor>0x363230</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+				
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.06</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>firedirt_tile.swf</viewBitmapFill>
+
+		</terrain>
+
+		<terrain name="firesand" type="4" drawOrder="3" level="2">
+
+			<hitGroundColor>0x006600</hitGroundColor>
+
+			<viewLineColor>0x45413D</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.08</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>firesand_tile.swf</viewBitmapFill>
+				
+			<details>
+				<detail url="firesand_details.swf" sides="top" minDetails="-1" maxDetails="1" />
+			</details>
+
+		</terrain>
+
+	</tileSet>
+
+</biome>

@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">atlantis_2_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+		<asset id="rocks">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+		<asset id="rocks">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+</sounds>

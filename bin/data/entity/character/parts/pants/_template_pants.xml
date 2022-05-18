@@ -1,0 +1,17 @@
+<part>
+	<id>pants_placeholder</id>
+	<type>pants</type>
+	<!--v this makes sure the item can't be costumized-->
+	<costumizable>false</costumizable>
+	<!--v this colors the legs, to remove you can delete starting at applyColors.... -->
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x336699</color>
+	</colors>
+<!--	...And ending at /colors -->	
+</part>

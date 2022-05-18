@@ -1,0 +1,32 @@
+<part>
+	<id>limited_wrinkle_book</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2878</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.CreateNPC</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		
+		<parameters>
+			<param id="id">2878</param>
+			<param id="numNPCs">3</param>
+			<param id="skinColor">0xd2aa72,0xfbdfcb,0xd2aa72</param>
+			<param id="gender">female,female,female</param>
+			<param id="eyeState">open,open,open</param>
+			<param id="mouthFrame">fortunehunter,sponsor_mh,srcj</param>
+			<param id="marksFrame">sponsor_selenag,limited_mrs_whatsit,limited_mrs_which</param>
+			<param id="facialFrame">empty,limited_mrs_whatsit,empty</param>
+			<param id="hairFrame">limited_mrs_who,limited_mrs_whatsit,limited_mrs_which</param>
+			<param id="shirtFrame">limited_mrs_who,limited_mrs_whatsit,limited_mrs_which</param>
+			<param id="pantsFrame">limited_mrs_who,limited_mrs_whatsit,limited_mrs_which</param>
+			<param id="overshirtFrame">empty,empty,limited_mrs_which</param>
+			<param id="scaleSize">1.15,1.15,1.15</param>
+			<param id="randomDialog">Know that you will be tested every step of the way you are going to encounter things that you think you know| but you don't.,Be a warrior.,Don't you realize that trillions of events that had to occur since the birth of our universe to lead to the making of you exactly as you are?,Sometimes we rescue. Sometimes we guide. You might call us big-hearted.,You just have to find the right frequency and have faith in who you are.,Close your eyes| see with mine.</param>
+			<param id="tracking">WrinkleQuest,mrs</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

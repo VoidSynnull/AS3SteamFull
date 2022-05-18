@@ -1,0 +1,59 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/GalacticHotDogsMBBQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/GalacticHotDogsMBBQ/sideStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>messageChanges.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/GalacticHotDogsMBBQ/sideStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>gh_boy2</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>gh_boy2</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>gh_boy2</asset>
+		<asset>gh_humphree</asset>
+	</assets>
+</manifest>

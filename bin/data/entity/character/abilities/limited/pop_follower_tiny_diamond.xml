@@ -1,0 +1,27 @@
+<specialAbility id="limited/pop_follower_tiny_diamond">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2002</param>
+		<param id="skinColor">0x97ACC5</param>
+		<param id="overshirtFrame">limited_trolls_diamond</param>
+		<param id="facialFrame">limited_trolls_diamond</param>
+		<param id="campaignName">TrollsWorldTourQuest</param>
+		<param id="scaleSize">.5</param>
+		<param id="lineThickness">8</param>
+		<param id="noDarken">true</param>
+		<param id="hideParts">body,head</param>
+		<param id="useSpecialActionBtn">true</param>
+	 </parameters>
+	 <actions>
+	 	<actionChain id="click_actions">
+			<action class="ActivateSpecialOnPart">
+				<parameters>
+					<param id="char" type="entity">popFollower</param>
+					<param id="partType" type="string">facial</param>
+				</parameters>
+			</action>
+		</actionChain>
+	 </actions>
+</specialAbility>

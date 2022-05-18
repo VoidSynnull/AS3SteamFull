@@ -1,0 +1,57 @@
+<part>
+	<id>store_skateboard2_riding</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+		<color id="pantsColor">0x394262</color>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+		<colorable id="pantsColor">
+			<clip instanceName="pantsShape"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">store_skateboard2</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">blank</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetPlayerFrictionAction">
+					<parameters>
+						<param id="friction" type="number">1</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

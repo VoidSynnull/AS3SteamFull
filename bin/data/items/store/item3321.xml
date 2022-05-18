@@ -1,0 +1,42 @@
+<item id="3321">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<buttons>
+		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+			<label>PUT ON</label>
+			<actions>
+				<action type="activatePower"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasAbility" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="deactivatePower"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+			<text id="storeSubTitle">
+				<value>Back Lot Island</value>
+				</text>
+		<text id="storeTitle">
+			<value>Silent Treatment</value>
+			</text>
+	</textfields>
+	
+	<specials>
+		<specialAbility>silent_treatment</specialAbility>
+	</specials>
+	
+	<conditionals>
+		<conditional type="hasAbility"/>
+	</conditionals>
+</item>

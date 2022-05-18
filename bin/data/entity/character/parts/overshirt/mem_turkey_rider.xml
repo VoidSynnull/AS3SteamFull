@@ -1,0 +1,26 @@
+<part>
+	<id>mem_turkey_rider</id>
+	<type>overshirt</type>
+	<hide>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>pants</part>
+	</hide>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="arm1"/>
+			<clip instanceName="arm2"/>
+			<clip instanceName="leg"/>
+		</colorable>
+	</colorables>
+</part>

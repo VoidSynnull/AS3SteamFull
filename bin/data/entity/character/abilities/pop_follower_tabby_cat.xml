@@ -1,0 +1,20 @@
+<specialAbility id="pop_follower_tabby_cat">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">tabby_cat</param>
+		<param id="variant">creature</param>
+		<param id="skinColor">0xE08526</param>
+		<param id="hairColor">0xE08526</param>
+		<param id="mouthFrame">cat</param>
+		<param id="facialFrame">tabby_cat</param>
+		<param id="marksFrame">tabby_cat</param>
+		<param id="hairFrame">tabby_cat</param>
+		<param id="shirtFrame">tabby_cat</param>
+		<param id="pantsFrame">tabby_cat_bare</param>
+		<param id="packFrame">tabby_cat</param>
+		<param id="overshirtFrame">tabby_cat</param>
+		<param id="eyeState">squint</param>
+	 </parameters>
+</specialAbility>

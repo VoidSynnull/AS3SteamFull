@@ -1,0 +1,38 @@
+<item id="3277">
+	<type>store</type>
+	
+	<contentClass>
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropolis 2013</value>
+		</text>
+		<text id="storeTitle">
+			<value>Wrestling Gear</value>
+		</text>
+	</textfields>
+	
+	<assets>
+ 		<asset id="cardBack" />
+	</assets>
+	
+	<looks>
+		<look>
+			<mouth>p_seacaptain</mouth>
+			<hair>wrestlinggearb</hair>
+			<shirt>stor_wrestling_singlet</shirt>
+			<pants>sponsor_kk_bully01</pants>
+		</look>
+	</looks>
+</item>

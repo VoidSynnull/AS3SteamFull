@@ -1,0 +1,101 @@
+<item id="2772">
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>PowerPuff Phone Card</name> <!-- Change this card name -->
+  	<campaignID>PowerPuffGirls2016PartyRoom</campaignID> <!-- Change this CMS name -->
+	
+	<radiobuttons>
+		<btn>
+			<color>0xFFA0C0</color>
+			<alpha>100</alpha>
+			<y>25</y>
+			<x>-79</x>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xBADEFD</color>
+			<alpha>100</alpha>
+			<y>25</y>
+			<x>1</x>
+			<val>1</val>
+		</btn>
+			<btn>
+			<color>0xA0F097</color>
+			<alpha>100</alpha>
+			<y>25</y>
+			<x>79</x>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	<buttons>
+	<btn>
+  			<index>1</index>
+ 			
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>USE</label>
+			<actions>
+				<action type="applyLook" tracking="Use PowerPuff Phone Card"/>
+			</actions>
+		</btn>
+			<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="PowerPuff Phone Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value></value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value></value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+  	</textfields>
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+  	<value>anyLook</value>
+	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath>
+    	</asset>
+		<asset id="cardContent" /> 
+    </assets>
+
+  	<looks>
+		<look>
+			<item>limited_ppg_pinkphone</item>
+		</look>
+	    <look>
+			<item>limited_ppg_bluephone</item>
+		</look>
+		<look>
+			<item>limited_ppg_greenphone</item>
+		</look>
+	</looks> 
+
+</item>

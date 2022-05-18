@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="bitmap_npc2">
+		<statement>You have got to see what's going on inside!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="bitmap_npc">
+		<statement>Come on in!</statement> <!-- default statement -->
+	</character>
+</dialogs>

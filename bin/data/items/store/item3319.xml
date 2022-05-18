@@ -1,0 +1,53 @@
+<item id="3319">
+	<type>store</type>
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<parameters>
+			<param id="gender">true</param>
+		</parameters>
+	</contentClass>
+	
+ 	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			 <value>Back Lot Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Director Costume</value>
+		</text>
+	 	<text id="storeInstructions">
+			<web>Tap space bar to use your megaphone!</web>
+			<mobile>Tap ACTION to use your megaphone!</mobile>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look id="male">
+			<mouth>wwgambler</mouth>
+			<hair>stor_director</hair>
+			<shirt>stor_director</shirt>
+			<pants>badagent</pants>
+			<item>stor_director</item>
+		</look>
+		<look id="female">
+			<mouth>10</mouth>
+			<hair>stor_director</hair>
+			<shirt>stor_director</shirt>
+			<pants>badagent</pants>
+			<item>stor_director</item>
+		</look>
+	</looks>
+
+</item>

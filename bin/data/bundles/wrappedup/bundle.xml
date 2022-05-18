@@ -1,0 +1,32 @@
+<bundle>
+	<id>wrappedup</id>
+	<name>Wrapped Up Pack</name>
+	
+	<cardSets>
+		<cardSet id="shared">
+			<card>3424</card>
+			<card>3425</card>
+			<card>3426</card>
+		</cardSet>
+	</cardSets>
+	
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>0</brightness>
+	   			<contrast>0</contrast>
+	   			<saturation>12</saturation>
+	   			<hue>156</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/fairyfriends.swf</assetPath>
+	    </asset> 
+    </assets>
+    
+</bundle>

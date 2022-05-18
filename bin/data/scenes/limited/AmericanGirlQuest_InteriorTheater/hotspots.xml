@@ -1,0 +1,45 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="doorCollection" type="poster">
+		<action type="enterQuest">Collection</action> 
+	</hotspot>
+		<hotspot id="doorWayfinder" type="poster">
+		<action type="enterQuest">Wayfinder</action> 
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="videoContainer2" width="300" height="170" type="video">
+		<action type="play">videoFile2</action>
+		
+	</hotspot>
+	<hotspot id="videoContainer3" width="300" height="170" type="video">
+		<action type="play">videoFile3</action>
+	</hotspot>
+	<hotspot id="videoContainer4" width="300" height="170" type="video">
+		<action type="play">videoFile4</action>
+		
+	</hotspot>
+	<hotspot id="videoContainer5" width="300" height="170" type="video">
+		<action type="play">videoFile5</action>
+		
+	</hotspot>
+	<hotspot id="videoContainer6" width="300" height="170" type="video">
+		<action type="play">videoFile6</action>
+		
+	</hotspot>
+	<hotspot id="videoContainer7" width="300" height="170" type="video">
+		<action type="play">videoFile7</action>
+	</hotspot>
+	<hotspot id="videoContainer8" width="300" height="170" type="video">
+		<action type="play">videoFile8</action>
+		
+	</hotspot>
+</hotspots>
+

@@ -1,0 +1,42 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_1_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="branch_broken">wood_break_01.mp3</asset>
+		<asset triggeredByEvent="squirrel_warning">small_creature_squeak_02.mp3</asset>
+		<asset triggeredByEvent="squirrel_frustrated">small_creature_squeak_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">rope_strain_02.mp3</asset>
+		<asset id="climb2" allowOverlap="false">rope_strain_02.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="snow">ls_snow_01.mp3, ls_snow_02.mp3</asset>
+		<asset id="ice">ls_ice_01.mp3, ls_ice_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="rope">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		
+		<asset id="looseBranch">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="bounce0">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce1">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="snow">fs_snow_01.mp3, fs_snow_02.mp3, fs_snow_03.mp3, fs_snow_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="ice">fs_ice_01.mp3, fs_ice_02.mp3, fs_ice_03.mp3, fs_ice_04.mp3</asset>
+		<asset id="rope">fs_rope_01.mp3, fs_rope_02.mp3, fs_rope_03.mp3, fs_rope_04.mp3</asset>
+		
+		<asset id="looseBranch">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,25 @@
+<part>
+	<id>limited_goldfish_mfollower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2586</campaignID>
+	<hide>
+		<part>hair</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

@@ -1,0 +1,51 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MHGooliopeMobileMVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/MHGooliopeMobileMVU/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>dialog.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/npcs/" ext="swf">
+		<asset>MH_Gooliope_NPC</asset>
+	</assets>
+	
+		<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2696</asset>
+	</data>
+	
+	<data type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2696</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundDarkPurple</asset>
+	</assets>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/MHGooliopeMobileMVU/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+		<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>mh_mobile_gooliope</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>mh_mobile_gooliope</asset>
+	</assets>
+	
+</manifest>

@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="leMonde">
+		<conversation>
+			<exchange>
+				<question>Excuse me.</question>
+				<answer>Pardon moi! I did not realize someone was in here.</answer>
+			</exchange>
+			<exchange>
+				<question>It's all right. I'm trying to get into Tesla's trunk. He might have hidden Edison's device in there.</question>
+				<answer>Perhaps the key is in his cabin!</answer>
+			</exchange>
+			<exchange>
+				<question>That's the problem.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="getPortersOutfit,true">I have an idea. You look just like the porter. Why not put on the porter's clothes and bring Monsieur Tesla a drink?</answer>
+			</exchange>
+		</conversation>
+		
+		<!--  if char.avatar.facialFrame == "mtPorter" -->
+		<statement>You're a dead ringer for the Porter!</statement>
+
+		<statement event="gotItem_luggageKey">You have the key?</statement>
+    </character>
+    
+    <character id="player">
+    	<statement triggeredByEvent="getPortersOutfit">Ingenious! Maybe the porter keeps an extra outfit in the porter closet.</statement>
+    </character>
+</dialogs>

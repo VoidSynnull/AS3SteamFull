@@ -1,0 +1,78 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/GabbyDuranVBB/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/GabbyDuranVBB/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/GabbyDuranVBB/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- followers -->
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_slimey_alien</asset>
+	</data>
+
+	<!-- bitmap npcs -->
+	<assets type="game" path="assets/limited/GabbyDuranQuest/" ext="swf">
+		<asset>follower</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2981</asset>
+		<asset>2982</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2981</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundTeal</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>fortunehunter2</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>fortunehunter2</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>gabby_duran</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>gabby_duran</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>gabby_duran</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>gabby_duran</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>gabby_duran</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>gabby_duran</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>bubble</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>bubble</asset>
+	</assets>
+</manifest>

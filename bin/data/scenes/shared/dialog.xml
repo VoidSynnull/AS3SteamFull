@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="player" >
+		<statement triggeredByEvent="cannot_use_item_default">I can't use this here.</statement>
+		<statement triggeredByEvent="no_reason_to_use_item_default">There's no reason to use this here.</statement>
+		<statement triggeredByEvent="maybe_later_default">Maybe this will come in handy later.</statement>
+		
+		<statement triggeredByEvent="cannot_use_vh_camera">I need to find the person that matches the description in the dossier.</statement>
+		<statement triggeredByEvent="cannot_use_vh_photo">I should show this to Dr. Lange.</statement>
+		<statement triggeredByEvent="cannot_use_vh_documents">I should find someone who can make sense of this.</statement>
+	</character>
+</dialogs>

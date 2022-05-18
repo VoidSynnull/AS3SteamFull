@@ -1,0 +1,51 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">timmy_failure_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="trigger">
+		<asset id="cat">cat_purring_01_loop.mp3</asset>
+		<asset id="horse">creaky_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="trigger_out">
+		<asset id="cat">cat_purring_01_loop.mp3</asset>
+		<asset id="horse">creaky_metal_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="panic1">
+		<asset id="rollo" modifiers="position" loop="true">whack_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="panic2">
+		<asset id="rollo" modifiers="position" loop="true">whack_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="panic3">
+		<asset id="rollo" modifiers="position" loop="true">whack_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="drive">
+		<asset id="garbageTruck" modifiers="position">tractor_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="horse">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="inSlide">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="slideTop">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="swing">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="stairs">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="ground">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="horse">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="inSlide">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3</asset>
+		<asset id="slideTop">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3</asset>
+		<asset id="swing">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="stairs">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="ground">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

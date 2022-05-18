@@ -1,0 +1,17 @@
+<sounds>
+	<!--  <sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">inside_train.mp3</asset>
+	</sound>  -->
+	
+	<sound type="effects" action="doorOpened">
+		<asset>train_door_open_01.wav</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,39 @@
+<item id="3545"> <!-- Halloween Cool #2 Male-->
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Sportsball Boy</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Score big with this cool fall outfit!</value>
+			
+		</text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<facial>halloween_ski_goggles</facial>
+				<hair>halloween_cool_hat_boy</hair>
+				<shirt>halloween_hoodie</shirt>
+				<pants>halloween_athletic_shorts</pants>
+		 	</look> 
+	</looks>
+</item>

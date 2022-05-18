@@ -1,0 +1,43 @@
+<item id="3202">
+	<type>store</type>
+	<subType>general</subType>
+	
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Dr. Hare</value>
+		</text>
+		<text id="storeSubTitle">
+			<value>Welcome to the Pink Side.</value>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<facial>drhare</facial>
+			<overpants>drhare</overpants>
+			<shirt>drhare</shirt>
+			<item>tcarrot</item>
+			<pack>drhare</pack>
+			<pants>1</pants>
+		</look>
+	</looks>
+</item>

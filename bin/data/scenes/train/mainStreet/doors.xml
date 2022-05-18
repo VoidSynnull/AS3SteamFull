@@ -1,0 +1,28 @@
+<doors>
+	<door id="doorCoal">
+		<scene>game.scenes.train.coalCar.CoalCar</scene>
+		<x>1350</x>
+		<y>470</y>
+		<label>
+			<text>Ride Train</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorClub">
+		<scene>game.scenes.train.clubInterior.ClubInterior</scene>
+		<x>1350</x>
+		<y>470</y>
+		<label>
+			<text>Ride Train</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

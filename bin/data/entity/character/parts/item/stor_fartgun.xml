@@ -1,0 +1,47 @@
+<part>
+	<id>stor_fartgun</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	 <specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="charredColor">0x009900</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Sword</param> 
+						<param id="waitLabel" type="string">fire</param> 
+						<param id="maxFrame" type="number">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.ShootCloud</param>
+						<param id="part" type="string">item</param> 
+						<param id="startColor" type="number">0x006600</param> 
+						<param id="endColor" type="number">0x006600</param> 
+						<param id="offsetX" type="number">45</param> 
+					</parameters>
+				</action>
+				<action class="AddGlowFilterAction" startDelay="0.5">
+					<parameters>
+						<param id="display" type="string">FACING</param>
+						<param id="color" type="uint">0x009900</param> 
+						<param id="alpha" type="number">0.8</param> 
+						<param id="blur" type="point">100,100</param> 
+						<param id="strength" type="number">100</param> 
+						<param id="innerglow" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="bitmap_shaun">
+		<statement triggeredByEvent="initScene" triggerEvent="triggerEvent" triggerEventArgs="truck">BAAA!!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="truck">BAAA!!</statement>
+    </character>
+	<character id="bitmap_bitzer">
+		<statement>Woof!</statement>
+    </character>
+	<character id="bitmap_shirley">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="shirleymeaning">BAA BAAA!</statement>
+    </character>
+	<character id="bitmap_timmy">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="timmymeaning"> BAAA! BAA</statement>
+    </character>
+	<character id="bitmap_twins">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="twinsmeaning">BAAA?</statement>
+    </character>
+	<character id="player">
+		<statement triggeredByEvent="twinsmeaning" triggerEvent="triggerEvent">Sheep say, "Who are you?"</statement>
+		<statement triggeredByEvent="timmymeaning" triggerEvent="triggerEvent">Timmy says, "Hi there!"</statement>
+		<statement triggeredByEvent="endtruck" triggerEvent="triggerEvent" triggerEventArgs="startgame">Shaun says, "Run for it!"</statement>
+		<statement triggeredByEvent="shirleymeaning" triggerEvent="triggerEvent">Shirley says, "Trumper is coming!"</statement>
+    </character>
+	
+</dialogs>

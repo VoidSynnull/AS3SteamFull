@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">arabian_nights_3_main_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset id="doorPalace">openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="trigger">
+		<asset id="flame1" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+		<asset id="flame2" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

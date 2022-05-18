@@ -1,0 +1,28 @@
+<part>
+	<id>pfootball4</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0xA468B3</color>
+		<color id="color2">0xA468B3</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>colorShape1</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

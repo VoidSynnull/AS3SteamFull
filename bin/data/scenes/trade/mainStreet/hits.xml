@@ -1,0 +1,49 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concrete" color="0x999999" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xCBCB7C" platform="true">
+		<component type="platform"/>
+	</hit>		
+	<hit id="straw" color="0xFFCC66" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="metal" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+			<density>1</density>
+		</component>
+		<!-- Define the physics of the water.  IF you don't add this component you'll get a splash with no effect on the players movement. -->
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3000</y>
+			</friction>
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+		-->
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+</hits>

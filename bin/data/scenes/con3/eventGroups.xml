@@ -1,0 +1,68 @@
+<groups>
+	<group event="one_soda" triggerAndSave="true">
+		<or>
+			<and>
+				<event type="has_soda_1"/>
+				<event type="has_soda_2" not="true"/>
+				<event type="has_soda_3" not="true"/>
+			</and>
+			<and>
+				<event type="has_soda_1" not="true"/>
+				<event type="has_soda_2"/>
+				<event type="has_soda_3" not="true"/>
+			</and>
+			<and>
+				<event type="has_soda_1" not="true"/>
+				<event type="has_soda_2" not="true"/>
+				<event type="has_soda_3"/>
+			</and>
+		</or>
+	</group>
+	<group event="two_soda" triggerAndSave="true">
+		<or>
+			<and>
+				<event type="has_soda_1"/>
+				<event type="has_soda_2"/>
+				<event type="has_soda_3" not="true"/>
+			</and>
+			<and>
+				<event type="has_soda_1" not="true"/>
+				<event type="has_soda_2"/>
+				<event type="has_soda_3"/>
+			</and>
+			<and>
+				<event type="has_soda_1"/>
+				<event type="has_soda_2" not="true"/>
+				<event type="has_soda_3"/>
+			</and>
+		</or>
+	</group>
+	<group event="three_soda" triggerAndSave="true">
+		<or>
+			<and>
+				<event type="has_soda_1"/>
+				<event type="has_soda_2"/>
+				<event type="has_soda_3"/>
+			</and>
+		</or>
+	</group>
+	<group event="crystal_ready_to_blow" triggerAndSave="true">
+		<and>
+			<event type="soda_placed_1"/>
+			<event type="soda_placed_2"/>
+			<event type="soda_placed_3"/>
+		</and>
+	</group>
+	
+	<group event="got_all_weapons" triggerAndSave="true">
+		<and>
+			<event type="gold_face_rescued"/>
+			<event type="elf_archer_rescued"/>
+			<event type="world_guy_rescued"/>
+			
+			<event type="hasItem_gauntlets"/>
+			<event type="hasItem_bow"/>
+			<event type="hasItem_shield"/>
+		</and>
+	</group>
+</groups>

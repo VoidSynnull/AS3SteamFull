@@ -1,0 +1,39 @@
+<hits>
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0xE09C89" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x328809" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x58A795" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodPlanks" color="0xCA7D0B" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodBarrel" color="0xE7B04B" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roofShingles" color="0x9B8633" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalRoof" color="0x77746F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalRail" color="0x396462" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="windowFrame" color="0x836818" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="waterTank" color="0x1180EE" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

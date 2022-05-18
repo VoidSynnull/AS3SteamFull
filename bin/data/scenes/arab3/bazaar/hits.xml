@@ -1,0 +1,39 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="minaret" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concrete" color="0xEFE9D9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xBAAB9D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="basket" color="0xDAC4A9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1350</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0xcc0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="camelPlat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+</hits>

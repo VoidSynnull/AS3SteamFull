@@ -1,0 +1,24 @@
+<tracking>
+	<track id="bitmap_beongia">
+		<event>EngagedInsideNPC</event>
+		<choice>Begonia</choice>
+	</track>
+	<track id="bitmap_stella">
+		<event>EngagedInsideNPC</event>
+		<choice>Stella</choice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Left Billboard</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Right Billboard</subchoice>
+	</track>
+		<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

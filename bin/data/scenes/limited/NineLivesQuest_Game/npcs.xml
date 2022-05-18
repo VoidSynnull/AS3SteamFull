@@ -1,0 +1,44 @@
+<npcs>
+	<npc id="cat" variant="creature">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0x807E7F</skinColor>
+			<mouth>van</mouth>
+			<pack>limited_mrfuzzypants</pack>
+			<marks>limited_mrfuzzypants</marks>
+			<overshirt>limited_mrfuzzypants</overshirt>
+    	</skin>
+		<position>
+			<x>50</x>
+			<y>430</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.216</scale>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="felix">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfd6</skinColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsorcwmb1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>mtcleveland</marks>
+			<hair>limited_felix</hair>
+			<shirt>9</shirt>
+			<pants>astroguard1</pants>
+			<overshirt>limited_felix</overshirt>
+		</skin>
+		<position>
+			<x>13800</x>
+			<y>425</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

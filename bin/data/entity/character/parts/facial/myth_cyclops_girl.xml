@@ -1,0 +1,17 @@
+<part>
+	<id>myth_cyclops_girl</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

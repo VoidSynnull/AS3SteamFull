@@ -1,0 +1,50 @@
+<item id="3350">
+		<type>store</type>
+		<subType>general</subType>
+
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Icarus Costume (Boys) Card"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Mythology Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Icarus</value>
+			</text>
+	</textfields>
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pMagic1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair>myth_icarus_boy</hair>
+			<shirt>myth_icarus</shirt>
+			<pants>myth_icarus</pants>
+			<pack>myth_icarus</pack>
+			<item></item>
+			<overshirt>myth_icarus</overshirt>
+			<overpants></overpants>
+		</look>
+	</looks> 
+
+</item>

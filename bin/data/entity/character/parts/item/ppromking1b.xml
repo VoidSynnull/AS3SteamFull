@@ -1,0 +1,21 @@
+<part>
+	<id>ppromking1b</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="itemColor">0xEC8C2D</color>
+	</colors>
+	<colorables>
+		<colorable id="itemColor">
+			<clip instanceName="active_obj.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<className>game.data.specialAbility.character.TwirlItem</className>
+  	</specialAbility>
+</part>

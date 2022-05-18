@@ -1,0 +1,32 @@
+<part>
+	<id>snowballcanon</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">particles/thrown_snowball.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">500</param>
+	  		<param id="speedY">-300</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_smallfoot</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

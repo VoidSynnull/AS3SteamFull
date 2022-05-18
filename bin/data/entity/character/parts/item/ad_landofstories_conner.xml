@@ -1,0 +1,28 @@
+<part>
+	<id>ad_landofstories_conner</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<gender>male</gender>
+	<campaignID>2534</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThoughtBubble</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/LandOfStoriesBoysIC/LandOfStories_ThoughtBubble.swf</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animation" type="class">game.data.animation.entity.character.Twirl</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

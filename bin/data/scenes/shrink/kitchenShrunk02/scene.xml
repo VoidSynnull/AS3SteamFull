@@ -1,0 +1,35 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3330.65</right>
+		<bottom>1800</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>3330.65</right>
+		<bottom>1712</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml,items.xml</data>
+	<absoluteFilePaths>scenes/shrink/shared/dialog.xml</absoluteFilePaths>
+	<assets>o_kibble.swf,x_kibble.swf,tri_kibble.swf</assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>308.95</x>
+			<y>1179.05</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

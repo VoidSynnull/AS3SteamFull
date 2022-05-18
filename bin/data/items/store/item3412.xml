@@ -1,0 +1,40 @@
+<item id="3412">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Monkey 1</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <mouth>hashimoto</mouth>
+			 <marks>comic_monkey1</marks>
+			 <facial>comic_monkey1</facial>
+			 <pack>comic_monkey1</pack>
+			 <overshirt>comic_monkey1</overshirt>
+		</look>
+	</looks> 
+
+</item>

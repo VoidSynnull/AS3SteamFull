@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Pelican_Rock.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">nightime_crickets_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="push">
+		<asset id="box" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_drag_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="guard_floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="box">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="guard_floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="box">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

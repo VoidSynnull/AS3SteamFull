@@ -1,0 +1,21 @@
+<part>
+	<id>shrinkRay02</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+		<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>milkBox</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	
+</part>

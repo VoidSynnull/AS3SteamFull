@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">freezer_room.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+
+	<sound type="effects">
+		<asset triggeredByEvent="wire_cut_0">cut_wire_01.mp3</asset>
+		<asset triggeredByEvent="wire_cut_1">cut_wire_01.mp3</asset>
+		<asset triggeredByEvent="wire_cut_2">cut_wire_01.mp3</asset>
+		<asset triggeredByEvent="security_disabled">machine_state_01.mp3</asset>
+		<asset triggeredByEvent="security_open_close">metal_panel_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="ice">ls_crisp_snow_slide_01.mp3, ls_crisp_snow_01.mp3, ls_crisp_snow_02.mp3</asset>
+		<asset id="lamp">ls_crisp_snow_slide_01.mp3, ls_crisp_snow_01.mp3, ls_crisp_snow_02.mp3</asset>
+		<asset id="baseGround">ls_glass_01.mp3, ls_glass_02.mp3, ls_glass_slide_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="ice">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		<asset id="lamp">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		<asset id="baseGround">fs_glass_01.mp3, fs_glass_02.mp3, fs_glass_03.mp3, fs_glass_04.mp3</asset>
+	</sound>
+</sounds>

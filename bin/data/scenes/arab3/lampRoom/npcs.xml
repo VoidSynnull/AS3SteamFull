@@ -1,0 +1,86 @@
+<npcs>
+	<npc id="jinn" event="genie_in_lamp_room">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Tremble</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x6bdbb6</skinColor>
+			<hairColor>0x1b362d</hairColor>
+			<mouth>mthyokozuna</mouth>
+			<marks>an_genie</marks>
+			<hair>an_genie</hair>
+			<shirt>an_genie</shirt>
+			<pants>an_genie</pants>
+			<eyeState>squint</eyeState>
+			<item>empty</item>
+			<item2>empty</item2>
+		</skin>
+		<position>
+			<x>1095</x>
+			<y>470</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.3</scale>
+	</npc>
+	
+	<npc id="thief" event="genie_in_lamp_room">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.DuckNinja</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>fortunehunter</mouth>
+			<marks>an2_master</marks>
+			<facial>an2_master</facial>
+			<hair>an2_master</hair>
+			<shirt>an2_master</shirt>
+			<pants>an2_master</pants>
+			<pack>an2_master</pack>
+			<item>empty</item>
+			<item2>empty</item2>
+			<overshirt>an2_master</overshirt>
+			<overpants>an2_master</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1040</x>
+			<y>680</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="sultan" event="genie_in_lamp_room">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>huntergiveup</mouth>
+			<marks>an_sultan</marks>
+			<hair>an_sultan2</hair>
+			<shirt>an_sultan</shirt>
+			<pants>an_sultan</pants>
+			<overpants>an_sultan</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>180</x>
+			<y>750</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

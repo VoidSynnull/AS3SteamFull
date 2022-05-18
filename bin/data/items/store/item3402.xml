@@ -1,0 +1,45 @@
+<item id="3402">
+		<type>store</type>
+		<subType>general</subType>
+	
+		<contentClass> <!-- This displays avatar -->
+			<className>game.ui.card.CharacterContentView</className>
+		<parameters>
+			<param id="scale">0.55</param>
+			<param id="forceScale">true</param>
+		</parameters>
+		</contentClass>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Mega Dog Costume Card"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="storeTitle">
+			<value>Mega Dog Costume</value>
+</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to shoot&#10;Jupiter Jolt Sauce!</web>
+			<mobile>Tap ACTION to shoot&#10;Jupiter Jolt Sauce!</mobile>
+		</text>
+		</textfields>
+	
+		<assets>
+			<asset id="cardBack"/>
+		</assets>
+		
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<facial>limited_ghd_megadog</facial>
+			<item>limited_ghd_jupiterjolt</item>
+			<pants>1</pants>
+		</look>
+	</looks> 
+		
+</item>

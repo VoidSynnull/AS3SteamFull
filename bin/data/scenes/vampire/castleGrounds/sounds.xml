@@ -1,0 +1,34 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">medium_winds_01.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_heavy_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="rocks">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id= "sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="rocks">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>		
+		<asset id="wood">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id ="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset triggeredByEvent="pull_gutter">creaky_metal_08.mp3</asset>
+		<asset triggeredByEvent="snan_gutter">metal_snap_01.mp3</asset>
+		<asset triggeredByEvent="drop_pipe">metal_impact_15.mp3</asset>
+		<asset triggeredByEvent="pump_down">creaky_metal_09.mp3</asset>
+		<asset triggeredByEvent="pump_up">creaky_metal_10.mp3</asset>
+		<asset triggeredByEvent="water_spray">water_fountain_01_L.wav</asset>
+		<asset triggeredByEvent="water_flow">water_flow_L.mp3</asset>
+		<asset triggeredByEvent="thunder">thunder_clap_01.mp3,thunder_clap_02.mp3,thunder_clap_03.mp3</asset>
+	</sound>
+</sounds>

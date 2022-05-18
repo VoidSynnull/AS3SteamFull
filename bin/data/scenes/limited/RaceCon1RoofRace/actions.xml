@@ -1,0 +1,94 @@
+<actions id="race_actions">
+	<actionChain id="startNpc">
+		<!-- As long as you place the Action class in game.systems.actionChain.actions, 
+			you don't need to add it in the class, automatically added -->
+		<action class="TalkAction" lockInput="true" startDelay="1">
+			<parameters>
+				<param type="entity">npc</param>
+				<param type="string">first</param>
+			</parameters>
+		</action>
+		<action class="PanAction" lockInput="true" endDelay="1">
+			<parameters>
+				<param type="entity">finishZone</param>
+				<param type="number">.01</param>
+				<param type="number">50</param>
+			</parameters>
+			<endDelay>2</endDelay>
+		</action>
+		<action class="PanAction" lockInput="true" endDelay="1">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="number">.02</param>
+				<param type="number">50</param>
+			</parameters>
+		</action>
+		<action class="TalkAction" lockInput="true">
+			<parameters>
+				<param type="entity">npc</param>
+				<param type="string">go</param>
+			</parameters>
+		</action>
+		<action class="CallFunctionAction">
+			<parameters>
+				<param type="function">startCountDown</param>
+			</parameters>
+		</action>
+	</actionChain>
+	<actionChain id="start">
+		<action class="PanAction" lockInput="true" endDelay="1" startDelay="2">
+			<parameters>
+				<param type="entity">finishZone</param>
+				<param type="number">.01</param>
+				<param type="number">50</param>
+			</parameters>
+			<endDelay>2</endDelay>
+		</action>
+		<action class="PanAction" lockInput="true" endDelay="1">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="number">.02</param>
+				<param type="number">50</param>
+			</parameters>
+		</action>
+		<action class="CallFunctionAction">
+			<parameters>
+				<param type="function">startCountDown</param>
+			</parameters>
+		</action>
+	</actionChain>
+	<actionChain id="getReadyNpc">
+		<action class="PanAction" lockInput="true" endDelay="1">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="number">.02</param>
+				<param type="number">50</param>
+			</parameters>
+		</action>
+		<action class="TalkAction" lockInput="true">
+			<parameters>
+				<param type="entity">npc</param>
+				<param type="string">go</param>
+			</parameters>
+		</action>
+		<action class="CallFunctionAction">
+			<parameters>
+				<param type="function">startCountDown</param>
+			</parameters>
+		</action>
+	</actionChain>
+	<actionChain id="getReady">
+		<action class="PanAction" lockInput="true" endDelay="1">
+			<parameters>
+				<param type="entity">player</param>
+				<param type="number">.02</param>
+				<param type="number">50</param>
+			</parameters>
+		</action>
+		<action class="CallFunctionAction">
+			<parameters>
+				<param type="function">startCountDown</param>
+			</parameters>
+		</action>
+	</actionChain>
+</actions>

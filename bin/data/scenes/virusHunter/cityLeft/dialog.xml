@@ -1,0 +1,32 @@
+<dialogs>
+	<character id="player">
+		<statement id="help" link="sick_dog" linkEntityId="girl">Can I help?</statement>
+	</character>
+	
+	<character id="manWithShades">
+		<conversation>
+			<exchange>
+				<question>What are you doing back here?</question>
+				<answer>What does it look like? I'm delivering a pizza.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="driverTrembles">At breakfast time?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="vanLeaves">We're made! Cheese it!</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="girl">
+    	<statement id="come_back">Belle! Come back, Belle!</statement>
+    	
+    	<conversation>
+    		<exchange>
+    			<question>What's the matter?</question>
+    			<answer link="help" linkEntityId="player" triggerEvent="giveItem" triggerEventArgs="petriDish">It's my dog, Belle. She's been acting crazy ever since she ate this out of the dumpster.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="sick_dog" triggerEvent="triggerEvent" triggerEventArgs="talked_to_girl, true">Only if you can cure a sick dog!</statement>
+    	<statement event="talked_to_girl">Please help my dog!</statement>
+    </character>
+</dialogs>

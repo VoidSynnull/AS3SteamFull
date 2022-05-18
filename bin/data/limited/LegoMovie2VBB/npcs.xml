@@ -1,0 +1,18 @@
+<npcs>
+	<npc id="emmet">
+		<bitmap>limited/LegoMovie2Quest/emmet.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>380</x> <!-- from left edge of ad unit -->
+			<y>527</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="lucy">
+		<bitmap>limited/LegoMovie2Quest/lucy.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>460</x> <!-- from left edge of ad unit -->
+			<y>527</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

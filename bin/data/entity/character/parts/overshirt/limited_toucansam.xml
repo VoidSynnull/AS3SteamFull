@@ -1,0 +1,25 @@
+<part>
+	<id>limited_toucansam</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2908</campaignID>
+	<hide>
+		<part>hair</part>
+		<part>shirt</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>eyes</part>
+		<part>mouth</part>
+		<part>head</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/toucan_sam_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

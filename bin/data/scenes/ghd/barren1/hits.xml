@@ -1,0 +1,77 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="ship" color="0xffffff" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="jello" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-850</y>
+			</velocity>
+		</component>
+	</hit>
+
+	
+	<hit id="rockF0" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF1" color="0x009900" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF2" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF3" color="0x00cc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF4" color="0x00ff66" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF5" color="0x00cc66" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rockF6" color="0x009966" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	
+	<hit id="rockW4" >
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="rockW5" >
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="rockW6" >
+		<component type="wall"/>
+	</hit>
+	
+ 	<hit id="meteorHaz">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>800</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

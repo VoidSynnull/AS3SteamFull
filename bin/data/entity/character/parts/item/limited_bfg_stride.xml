@@ -1,0 +1,18 @@
+<part>
+	<id>limited_bfg_stride</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2801</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/BFGDMVU/strideBy.swf</param>
+			<param id="tracking">BFGDMVU,Stride By Power</param>
+		</parameters>
+	</specialAbility>	
+</part>

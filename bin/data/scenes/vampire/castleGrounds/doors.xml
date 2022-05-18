@@ -1,0 +1,54 @@
+<doors>
+	<door id="cliffExit">
+		<scene>game.scenes.vampire.cliff.Cliff</scene>
+		<x>2903</x>
+		<y>375</y>
+		<label>
+			<text>Go Left</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="mausoleumExit">
+		<scene>game.scenes.vampire.mausoleum.Mausoleum</scene>
+		<x>599</x>
+		<y>471</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="batExit">
+		<scene>game.scenes.vampire.secondMausoleum.SecondMausoleum</scene>
+		<x>263</x>
+		<y>101</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="castleExit">
+		<scene>game.scenes.vampire.castle.Castle</scene>
+			<x>787</x>
+			<y>2637</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

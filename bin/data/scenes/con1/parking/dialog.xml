@@ -1,0 +1,94 @@
+<dialogs>
+	<character id="alien_teacher">
+		<statement event="gotItem_fremulon_mask">Impressive! Your studying paid off.</statement>
+		<statement event="gotItem_pamphlet">Study up!</statement>
+		<conversation>
+			<exchange>
+				<question>Can I learn to speak Fremulon?</question>
+				<answer link="link_question">Anyone can, as long as they've got the zazzleblax for it.</answer>
+			</exchange>
+			<exchange>
+				<question>What's a zazzleblax?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="pamphlet">You'd know if you spoke Fremulon! Study up.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation id="link_question">
+			<exchange>
+				<question>What's a zazzleblax?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="pamphlet">You'd know if you spoke Fremulon! Study up.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="alien_guy">
+    	<statement>...</statement>
+    	<statement event="sfFan_quest_accepted" link="first_question">You want this mask? Let's see if you can carry on a basic conversation in our language!</statement>
+    	<statement id="first_question" link="part1">Scrash sumbellugh?</statement>
+    	    	
+    	<conversation id="part1">
+    		<exchange>
+    			<question>Scram, bleezebub!</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Crumbs bellazugh!</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Scrum bellazugh!</question>
+    			<answer link="part2">Crozzy zup bemblex?</answer>
+    		</exchange>    		
+    	</conversation>
+    	
+    	<conversation id="part2">
+    		<exchange>
+    			<question>Bumple up framozan.</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange> 
+    		<exchange>
+    			<question>Bemblex zup amfrozan.</question>
+    			<answer link="part3">Groffzellux scrumble blurge?</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Blem blox are frozen.</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange>    		  		
+    	</conversation>
+    	
+    	<conversation id="part3">
+    		<exchange>
+    			<question>Blurge scrashble bellazagur.</question>
+    			<answer triggerEvent="giveItem" triggerEventArgs="fremulon_mask">I am impressed! You are a true Fremulon. You have earned this.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Barge scrabble alligator.</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange>  
+    		<exchange>
+    			<question>Klaatu barada nikto.</question>
+    			<answer>That's not right. You should study your Fremulon.</answer>
+    		</exchange>    		  		
+    	</conversation>    	
+    	
+    	<statement event="gotItem_fremulon_mask">You earned that mask!</statement>
+    </character>
+    
+    <character id="wizard">
+    	<statement>MMMMM, these pizza puffs are delicious!</statement>
+    </character>
+    
+    <character id="pizza_girl">
+    	<statement>Blah, Blah, Pepe's!</statement>
+    </character>
+    
+    <character id="viking">
+    	<statement>If you want to make your own costume parts, this is the place to do it!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="noInstructions">I don't know what to make without any instructions.</statement>
+    	<statement id="basicFail">That's not right. I should check the instructions.</statement>
+    	<statement id="stickingFail">It's not sticking together!</statement>
+    </character>
+</dialogs>

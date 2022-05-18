@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="player">
+		<statement forceOnScreen="true" id="check">Is it this one?</statement>
+		<statement forceOnScreen="true" id="which">Which one is it?</statement>
+	</character>
+
+    <character id="vizier2">
+    	<statement forceOnScreen="true" id="intro">You said the sultan called it "a lamp like no other", give me the lamp that fits that description!</statement>
+    	<statement forceOnScreen="true" id="success">That's it! We must bring it to the Sultan immediately!</statement>
+    	<statement forceOnScreen="true" id="nope0">That can't be the right one.</statement>
+    	<statement forceOnScreen="true" id="nope1">Nope, I think i have one of these back home.</statement>
+    	<statement forceOnScreen="true" id="nope2">There's another one of these right over there, try again.</statement>
+    	<statement forceOnScreen="true" id="nope3">Not this one, it has a price tag on it! A cheap one too!</statement>
+    	<statement forceOnScreen="true" id="nope4">Shiny, but not "like no other" by the looks of it.</statement>
+    </character>
+</dialogs>

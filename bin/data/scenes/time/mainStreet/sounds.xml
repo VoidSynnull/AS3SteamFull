@@ -1,0 +1,57 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Time_Tangled_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id = "door1">door_knob_turn_open_01.mp3</asset>
+		<asset id = "door2">door_metal_lab_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="wireBounce">
+		<asset id= "birds1">wire_strain_01.mp3</asset>
+		<asset id= "birds2">wire_strain_01.mp3</asset>
+		<asset id= "birds3">wire_strain_01.mp3</asset>
+		<asset id= "birds4">wire_strain_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id= "sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id= "road">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id = "windows">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id = "roof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id = "metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id= "birds1">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+		<asset id= "birds2">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+		<asset id= "birds3">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+		<asset id= "birds4">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+		<asset id = "wood"> ls_wood_plank_01.mp3, ls_wood_plank_01.mp3</asset>
+		<asset id = "water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id = "sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id = "road">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id = "windows">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id = "roof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id = "metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id = "water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent = "openPaper">newsbox_open_01.mp3</asset>
+		<asset triggeredByEvent = "closePaper">newsbox_close_01.mp3</asset>
+		<asset triggeredByEvent = "clickCrab">click_crab_01.mp3</asset>
+		<asset triggeredByEvent = "crabExplode">crab_explode_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+</sounds>

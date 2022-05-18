@@ -1,0 +1,19 @@
+<specialAbility id="follower_classic_2">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/followers/follower_classic_2.swf</param>
+		<param id="addParticles">true</param>
+		<param id="particleColor">0x99CCFF</param>
+		<param id="particleSpeedY">250</param>
+		<param id="particleSpeedX">0</param>
+		<param id="particleRadiusX">10</param>
+		<param id="particleSize">4</param>
+		<param id="particleAlpha">.8</param>
+		<param id="particleLife">1</param>
+		<param id="particleDriftX">100</param>
+		<param id="particleDriftY">0</param>
+		<param id="particleCount">10</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

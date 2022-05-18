@@ -1,0 +1,106 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PartyRoomTest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+	
+	<data type="campaign" path="data/limited/ShaunTheSheepQuest/" ext="xml">
+		<asset>campaign</asset>
+	</data>
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/PartyRoomTest/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/PartyRoomTest/mainStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		<data type="support" path="data/entity/character/animation/human/" ext="xml">
+		<asset>grief</asset>
+	</data>
+	
+	<assets type="support" path="assets/limited/PartyRoomTest/" ext="swf">
+		<asset>infopage</asset>
+		<asset>Wormhole</asset>
+	</assets>
+	
+	<data type="support" path="data/limited/PartyRoomTest/" ext="xml">
+		<asset>Wormhole</asset>
+	</data>
+	
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2686</asset>
+	</data>
+	
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2686</asset>
+	</assets>
+	
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	
+	<data type="interior" path="data/scenes/limited/PartyRoomTest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>trigger.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/PartyRoomTest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+	
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+	</assets>
+	
+			
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>shaunmask</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>shaunmask</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>ppromking1e</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>ppromking1e</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" ext="xml">
+		<asset>limited_shaun</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" ext="swf">
+		<asset>limited_shaun</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_shaun</asset>
+		<asset>limited_gh_boy2</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_shaun</asset>
+		<asset>limited_gh_boy2</asset>
+	</assets>
+	
+</manifest>

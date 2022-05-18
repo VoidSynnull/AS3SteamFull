@@ -1,0 +1,39 @@
+<island>
+	<name>Tutorial Island</name>
+  	<eventsClass>game.scenes.tutorial.TutorialEvents</eventsClass>
+  	<gameVersion>AS3</gameVersion>
+  	<island>tutorial</island>
+  	
+  	<permanentEvents>
+		<event>found_all_coins</event>
+ 	</permanentEvents>
+  	
+	<itemIdMap>
+		<item id="all_coins">983</item>
+		<item id="shard1">984</item>
+		<item id="shard2">985</item>
+		<item id="shard3">986</item>
+		<item id="shard4">987</item>
+		<item id="shard5">988</item>
+		<item id="shard6">989</item>
+		<item id="shard7">990</item>
+		<item id="shard8">991</item>
+	</itemIdMap>
+
+	<firstScene>
+		<scene>game.scenes.tutorial.tutorial.Tutorial</scene>
+		<x>250</x>
+		<y>0</y>
+		<direction>right</direction>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</firstScene>
+	
+	<medallion>medalHub</medallion>
+</island>

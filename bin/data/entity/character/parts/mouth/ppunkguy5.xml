@@ -1,0 +1,18 @@
+<part>
+  <id>ppunkguy1</id>
+  <asset>ppunkguy</asset>
+  <type>mouth</type>
+  <gender>male</gender>
+  <costumizable>false</costumizable>
+  <retrieveColors>
+	<part id="hairColor">hairColor</part>
+  </retrieveColors>
+  <colors>
+	<color id="hairColor"/>
+  </colors>
+  <colorables>
+    <colorable id="hairColor">
+      <clip instanceName="colorShape1"/>
+    </colorable>
+  </colorables>
+</part>

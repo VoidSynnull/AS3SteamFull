@@ -1,0 +1,142 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x7EB7E4" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crystal" color="0x991155" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ice" color="0x408099" platform="true">
+		<component type="platform">
+			<friction>
+				<x>400</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="bounce_small" color="0xaa0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-700</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+		<component type="wall"/>
+	</hit>
+	<hit id="grass" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	<hit id="waterDive" color="0x0000bb">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xAAB9E1F4</splashColor1>
+			<splashColor2>0xCC9BC9EE</splashColor2>
+			<density>.78</density>	<!-- low density causes more WaterColliders to sink. -->
+		</component>
+		<component type="mover">
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+
+	</hit>
+	<hit id="air" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-2000</y>
+			</acceleration>
+			<friction>
+				<x>0</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="web" color="0x774433">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>0</y>
+			</acceleration>
+			<friction>
+				<x>4000</x>
+				<y>4000</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="shock" color="0x666000">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>200</x>
+				<y>800</y>
+				<velocityHitByAngle>true</velocityHitByAngle>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="lava" color="0x667000">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFFFFC000</splashColor1>
+			<splashColor2>0xFFFF3300</splashColor2>
+			<density>.9</density>	<!-- low density causes more WaterColliders to sink. -->
+		</component>
+		<component type="mover">
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<!-- Define the physics of the water.  IF you don't add this component you'll get a splash with no effect on the players movement. -->
+	</hit>
+	<hit id="cactus" color="0x668000">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>200</x>
+				<y>800</y>
+				<velocityHitByAngle>true</velocityHitByAngle>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="directionright" color="0x102030" platform="true">
+		<component type="platform"/>
+		<component type="mover">
+			<velocity>
+				<x>150</x>
+				<y>0</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="directionleft" color="0x302010" platform="true">
+		<component type="platform"/>
+		<component type="mover">
+			<velocity>
+				<x>-150</x>
+				<y>0</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

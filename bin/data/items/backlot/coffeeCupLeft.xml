@@ -1,0 +1,60 @@
+<item id="coffeeCupLeft">
+	<type>island</type>
+	<subType>backlot</subType>
+	<buttons>
+	
+		<btn>
+    		<label>USE</label>
+    		
+    		<actions>
+    		
+    			<action type="openPopup">
+    				<conditional id="have_both_cups" isTrue="true"/>
+		  			<parameters>
+		  				<param id="className">game.scenes.backlot.shared.popups.MixCoffeePopup</param>
+					</parameters>
+				</action>
+				
+	    		<action type="triggerEvent">
+		  			<parameters>
+		  				<param id="event">coffeeCupLeft</param>
+		  				<param id="save">true</param>
+					</parameters>
+				</action>
+				
+			</actions>
+			
+  		</btn>
+  		
+	</buttons>
+	
+	<textfields>
+	
+ 		<text>
+      		<value>Coffee Cup</value>
+    	</text>
+    	
+  	</textfields>
+  	
+	<assets>
+	
+  		<asset id="cardBack">
+  			<assetPath>items/shared/BacklotBackground.swf</assetPath>
+    	</asset>
+    	
+    	<asset id="cardContent">
+    		<assetPath>items/backlot/cup_small_filled.swf</assetPath>
+    	</asset>
+    	
+    </assets>
+    
+    <conditionals>
+    
+    	<conditional id="have_both_cups" type="checkEvents">
+    		<parameters>
+		  		<param id="event">have_both_cups</param>
+			</parameters>
+    	</conditional>
+    	
+    </conditionals>
+</item>

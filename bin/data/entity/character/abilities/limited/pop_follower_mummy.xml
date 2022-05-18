@@ -1,0 +1,39 @@
+<specialAbility id="limited/pop_follower_mummy">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2082</param>
+		<param id="gender">male</param>
+		<param id="skinColor">0x79796c</param>
+		<param id="hairColor">0xfffbd7</param>
+		<param id="mouthFrame">sponsoredith</param>
+		<param id="eyeState">squint</param>
+		<param id="facialFrame">limited_harold_mummy</param>
+		<param id="hairFrame">mc_loverboy</param>
+		<param id="shirtFrame">august_b1</param>
+		<param id="pantsFrame">char14</param>
+		<param id="overshirtFrame">limited_harold_mummy</param>
+
+		<param id="tracking">DisneyUnderwrapsVBB,Mummy Follower Dance</param>
+		<param id="useSpecialActionBtn">true</param>
+	 </parameters>
+	<actions>
+		<actionChain id="click_actions">
+			<action class="AudioAction" startDelay=".1">
+				<parameters>
+					<param id="target" type="entity">popFollower</param> 
+					<param id="soundUrl" type="string">limited/Underwraps/underwraps_track.mp3</param> 
+				</parameters>
+			</action>
+			<action class="AnimationAction" noWait="true">
+				<parameters>
+					<param id="char" type="entity">popFollower</param>
+					<param id="animationClass" type="class">game.data.animation.entity.character.Disco</param>
+					<param id="waitLabel" type="string">none</param>
+					<param id="maxFrames" type="int">248</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

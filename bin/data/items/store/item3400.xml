@@ -1,0 +1,43 @@
+<item id="3400">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+			<text id="storeTitle">
+					<value>Sausage Smasher</value>
+	 	 	</text>
+
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			<overshirt>viking_feast03</overshirt>
+			<item>viking_feast03</item>
+			<pack>viking_feast03</pack>
+			<pants>7</pants>
+			<shirt>viking_feast03</shirt>
+			<hair>viking_feast03_girl</hair>
+			<marks>viking_feast01</marks>
+		</look>
+	</looks> 
+
+</item>

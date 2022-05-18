@@ -1,0 +1,41 @@
+<components>
+<assetUrl>GROUP_PREFIX/boat.swf</assetUrl>
+<component class="game.components.motion.AccelerateToTargetRotation">
+	<properties>
+		<rotationAcceleration>250</rotationAcceleration>
+		<deadZone>10</deadZone>
+	</properties>
+</component>
+<component class="game.components.motion.Edge">
+	<constructor>
+		<x>-20</x>
+		<y>-20</y>
+		<width>40</width>
+		<height>40</height>
+	</constructor>
+</component>
+<component class="engine.components.Motion">
+	<constructor/>
+	<properties>
+		<maxVelocity class="flash.geom.Point">
+				<constructor>
+					<x>150</x>
+					<y>150</y>
+				</constructor>
+		</maxVelocity>
+		<rotationFriction>150</rotationFriction>
+		<rotationMaxVelocity>150</rotationMaxVelocity>
+	</properties>
+</component>
+<component class="game.components.motion.MotionControlBase">
+	<properties>
+		<acceleration>400</acceleration>
+		<stoppingFriction>100</stoppingFriction>
+		<accelerationFriction>200</accelerationFriction>
+		<freeMovement>true</freeMovement>
+		<rotationDeterminesAcceleration>true</rotationDeterminesAcceleration>
+		<moveFactorMultiplier>.1</moveFactorMultiplier>
+		<minDistanceMultiplier>.2</minDistanceMultiplier>
+	</properties>
+</component>
+</components>

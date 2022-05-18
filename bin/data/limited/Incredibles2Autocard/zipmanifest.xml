@@ -1,0 +1,20 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/Incredibles2Autocard/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2899</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2899</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRed</asset>
+	</assets>
+	<assets type="poster" path="assets/posters/" ext="swf">
+		<asset>Incredibles2</asset>
+	</assets>
+</manifest>

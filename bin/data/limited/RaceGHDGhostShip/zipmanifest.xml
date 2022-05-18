@@ -1,0 +1,116 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/RaceGHDGhostShip/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>scene</asset>
+		<asset>dialog</asset>
+		<asset>npcs</asset>
+	</data>
+
+	<!-- from scene.xml in town scene -->
+	<assets type="game" path="assets/limited/RaceGHDGhostShip/" ext="swf">
+		<asset>background</asset>
+	</assets>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/scenes/limited/RaceGHDGhostShip/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	
+	<data type="game" path="data/scenes/limited/RaceGHDGhostShip/" ext="xml">
+		<asset>actions</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>rewards</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	
+	<!-- card xml files, swfs, backs -->
+    <data type="card" path="data/items/store/" prefix="item" ext="xml">
+        <asset>3498</asset>
+    </data>
+    <assets type="card" path="assets/items/store/" prefix="item" ext="swf">
+        <asset>3498</asset>
+    </assets>
+    <assets type="cardBack" path="assets/items/shared/" ext="swf">
+        <asset>PaidLimitedBackground</asset>
+    </assets>
+	
+	<assets type="effects" path="sound/effects/" ext="mp3">
+		<asset>wire_strain_01</asset>
+		<asset>rubber_stretch_14</asset>
+		<asset>door_hydrolics_open_01</asset>
+		<asset>bear_growl_02</asset>
+		<asset>squish_05</asset>
+		<asset>openDoor_creakyGrill</asset>
+		<asset>creepy_monsters_2</asset>
+		<asset>machineLever</asset>
+		<asset>ls_metal_01</asset>
+		<asset>ls_metal_02</asset>
+		<asset>ls_wood_01</asset>
+		<asset>ls_wood_02</asset>
+		<asset>ls_general_metal_01</asset>
+		<asset>ls_general_metal_02</asset>
+		<asset>ls_wood_01</asset>
+		<asset>ls_wood_02</asset>
+		<asset>fs_metal_01</asset>
+		<asset>fs_metal_02</asset>
+		<asset>fs_metal_03</asset>
+		<asset>fs_metal_04</asset>
+		<asset>fs_general_metal_01</asset>
+		<asset>fs_general_metal_02</asset>
+		<asset>fs_general_metal_03</asset>
+		<asset>fs_general_metal_04</asset>
+		<asset>fs_wood_01</asset>
+		<asset>fs_wood_02</asset>
+		<asset>fs_wood_03</asset>
+		<asset>fs_wood_04</asset>
+	</assets>
+	
+	<assets type="music" path="sound/music/" ext="mp3">
+		<asset>dark_atmosphere</asset>
+	</assets>
+	
+	<!-- avatar parts -->	
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>15</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>15</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>is_wom</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>is_wom</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>racer_ghd</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>racer_ghd</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>racer_ghd</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>racer_ghd</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>racer_ghd</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>racer_ghd</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>ftue_pointer</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>ftue_pointer</asset>
+	</assets>
+</manifest>

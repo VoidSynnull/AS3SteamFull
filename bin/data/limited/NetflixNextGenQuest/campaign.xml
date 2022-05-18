@@ -1,0 +1,50 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>NetflixNextGenQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335773;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335764;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335764;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335770;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="PosterImpression"> <!-- For posters that look like posters (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335761;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.226335758;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="StartBannerImpression"> <!-- for start popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.227571169;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="WinBannerImpression"> <!-- for win popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.227482124;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="LoseBannerImpression"> <!-- for lose popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N186801.2522106PLAYWIRE/B21413104.227737947;dc_trk_aid=424484690;dc_trk_cid=104395564;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2914</card>
+		<card>2915</card>
+	</boycards>
+	<girlcards>
+		<card>2914</card>
+		<card>2915</card>
+	</girlcards>
+</campaign>

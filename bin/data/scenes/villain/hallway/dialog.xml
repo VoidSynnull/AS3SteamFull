@@ -1,0 +1,37 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>This place is amazing!</question>
+				<answer>Everything's state of the art.</answer>
+			</exchange>
+			<exchange>
+				<question>Can I go in?</question>
+				<answer>You'll have to pass through the security measures.</answer>
+			</exchange>
+			<exchange>
+				<question>Well, let's go.</question>
+				<answer>It's your life...</answer>
+			</exchange>
+		</conversation>
+		<statement event="introHall">If you know what's good for you, you'll leave as fast as you can.</statement>
+		<statement event="security_scanned">You've already passed security.</statement>
+    </character>
+    <character id="char2">
+		<conversation>
+			<exchange>
+				<question>What is this place?</question>
+				<answer>Welcome to Erewhon Prison, the world’s most advanced SuperMax facility. We’ve got the worst of the worst criminals locked up inside.</answer>
+			</exchange>
+			<exchange>
+				<question>Why did Dr. Jupiter ask me here?</question>
+				<answer>'sigh' I’ll let him explain. But if you know what’s good for you, you’ll turn around and leave right now.</answer>
+			</exchange>
+			<exchange>
+				<question>I’m not afraid.</question>
+				<answer>You should be.</answer>
+			</exchange>
+		</conversation>
+		<statement event="security_scanned">Good luck.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="violet">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startViolet">Take Jack-Jack and escape the Underminer!</statement>
+		<statement id="start" triggerEvent="triggerEvent" triggerEventArgs="startViolet">Take Jack-Jack and escape the Underminer!</statement>
+	</character>
+	<character id="dash">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startDash">Take Jack-Jack and escape the danger. Tap your space bar to blast anything that gets in your way!</statement>
+		<statement id="start">Tap your space bar to blast anything that gets in your way!</statement>
+	</character>
+	<character id="edna">
+		<statement>Watch this fabulous video, darling!</statement>
+	</character>
+	<character id="bob">
+		<statement>The city is in danger. Go speak to Violet if you think you can help.</statement>
+	</character>
+	<character id="helen">
+		<statement>Use your powerful speed to get Jack-Jack to safety.</statement>
+	</character>
+	<character id="frozone">
+		<statement>Help us save the city. Violet will tell you what to do.</statement>
+	</character>
+</dialogs>

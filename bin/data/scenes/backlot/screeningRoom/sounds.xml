@@ -1,0 +1,16 @@
+<sounds>
+  <sound type="music">
+    <asset>Carrot_ShopTheme.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>openDoor_pushBar.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="beams">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+    <asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="beams">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+    <asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+  </sound>
+</sounds>

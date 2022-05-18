@@ -1,0 +1,123 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoFriendsECQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoFriendsECQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoFriendsECQuest_Interior/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/LegoFriendsECMMSQ/" ext="swf">
+		<asset>lego</asset>
+		<asset>girl1</asset>
+		<asset>girl2</asset>
+	</assets>
+
+	<assets type="support" path="assets/limited/LegoFriendsECQuest/" ext="swf">
+		<asset>StartSynopsis1</asset>
+		<asset>StartSynopsis2</asset>
+		<asset>StartSynopsis3</asset>
+	</assets>
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2845</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundYellow</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml" keep="true">
+		<asset>pcowgirl1</asset>
+		<asset>sponsoralphaomega</asset>
+		<asset>thinking</asset>
+		<asset>sponsorpinofairy</asset>
+		<asset>ppunkgirl5</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf" keep="true">
+		<asset>pcowgirl1</asset>
+		<asset>sponsoralphaomega</asset>
+		<asset>thinking</asset>
+		<asset>sponsorpinofairy</asset>
+		<asset>ppunkgirl5</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml" keep="true">
+		<asset>prockerguy3</asset>
+		<asset>mythbeach2</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf" keep="true">
+		<asset>prockerguy3</asset>
+		<asset>mythbeach2</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>pete</asset>
+		<asset>lego_friends_g2</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>pete</asset>
+		<asset>lego_friends_g2</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml" keep="true">
+		<asset>ad_pranks_kaz</asset>
+		<asset>hiphop</asset>
+		<asset>girlhair4</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf" keep="true">
+		<asset>ad_pranks_kaz</asset>
+		<asset>hiphop</asset>
+		<asset>girlhair4</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>lego_friends_avatar_g</asset>
+		<asset>lego_friends_avatar_b</asset>
+		<asset>lego_friends_g1</asset>
+		<asset>lego_friends_g2</asset>
+		<asset>lego_friends_b1</asset>
+		<asset>lego_friends_b2</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>lego_friends_avatar_g</asset>
+		<asset>lego_friends_avatar_b</asset>
+		<asset>lego_friends_g1</asset>
+		<asset>lego_friends_g2</asset>
+		<asset>lego_friends_b1</asset>
+		<asset>lego_friends_b2</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>bblue</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>bblue</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>surfboard_g</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>surfboard_g</asset>
+	</assets>
+</manifest>

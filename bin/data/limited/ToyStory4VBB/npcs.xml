@@ -1,0 +1,19 @@
+<npcs>
+	<npc id="forky">
+		<bitmap>limited/ToyStory4VBB/forky.swf</bitmap> <!-- *** Path to NPC swf in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>26</x> <!-- from left edge of ad unit -->
+			<y>585</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity>
+	</npc>
+	<npc id="woody">
+		<bitmap>limited/ToyStory4VBB/woody.swf</bitmap> <!-- *** Path to NPC swf in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>755</x> <!-- from left edge of ad unit -->
+			<y>585</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

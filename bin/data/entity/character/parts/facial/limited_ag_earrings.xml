@@ -1,0 +1,15 @@
+<part>
+	<id>limited_ag_earrings</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/AmericanGirlQuest/BirdPower.swf</param>
+			<param id="tracking">AmericanGirlQuest,Bird Power</param>
+			
+		</parameters>
+	</specialAbility>
+</part>

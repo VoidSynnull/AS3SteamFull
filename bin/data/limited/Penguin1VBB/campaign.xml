@@ -1,0 +1,10 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>Penguin1VBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://www.klawdebooks.com/?ref=PRH37D0E0E28D</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+</campaign>

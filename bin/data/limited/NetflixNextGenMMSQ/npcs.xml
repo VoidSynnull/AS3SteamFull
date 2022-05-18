@@ -1,0 +1,19 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="7723">
+		<bitmap>limited/NetflixNextGenQuest/7723_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>200</x> <!-- from left edge of ad unit -->
+			<y>762</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="mai">
+		<bitmap>limited/NetflixNextGenQuest/mai_NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>600</x> <!-- from left edge of ad unit -->
+			<y>762</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

@@ -1,0 +1,107 @@
+<npcs>
+	<npc id="scarecrow">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF1D897</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>limited_comic_scarecrow</facial>
+			<pants>limited_comic_oliver</pants>
+			<overshirt>limited_comic_scarecrow</overshirt>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>100</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="tinman">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xD2D3D3</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>limited_comic_tinman</facial>
+			<item>limited_comic_tinman</item>
+		  	<pants>limited_comic_jorge</pants>
+			<overshirt>limited_comic_tinman</overshirt>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>200</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="lion">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFEE0D8</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_leo</mouth>
+			<marks>limited_shadow2</marks>
+			<facial>limited_comic_lion</facial>
+			<pack>limited_comic_lion</pack>
+		  	<pants>limited_comic_jorge</pants>
+			<overshirt>limited_comic_lion</overshirt>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>300</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="jorge">
+		<skin>
+		  <skinColor>0xF4DBCA</skinColor>
+		  <hairColor>0x333538</hairColor>
+		  <eyeState>open</eyeState> 
+		  <mouth>limited_comic_jorge</mouth>
+		  <shirt>limited_comic_jorge</shirt>
+		  <pants>limited_comic_jorge_broom</pants>
+		  <hair>limited_comic_jorge</hair>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>660</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="oliver">
+		<skin>
+		  <skinColor>0xf4dbca</skinColor>
+		  <hairColor>0xe9b667</hairColor>
+		  <eyeState>squint</eyeState> 
+		  <mouth>limited_comic_oliver</mouth>
+		  <shirt>limited_comic_oliver</shirt>
+		  <pants>limited_comic_oliver_broom</pants>
+    	  <marks>limited_comic_oliver</marks>
+		  <hair>limited_comic_oliver</hair>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>600</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

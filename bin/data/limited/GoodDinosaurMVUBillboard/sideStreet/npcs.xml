@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc" variant="creature">
+		<skin>
+		 <param id="look">id=2730&skinColor=0xf1aa5a&hairColor=0x5a4223&mouthFrame=limited_spot&hairFrame=limited_spot&marksFrame=ad_boxtrolls_eggs&shirtFrame=bare&pantsFrame=limited_spot&overshirtFrame=limited_spot&creature=true</param>
+			<gender>male</gender>
+			<skinColor>0xF1AA5A</skinColor>
+			<hairColor>0x5a4223</hairColor>
+			<mouth>limited_spot</mouth>
+			<hair>limited_spot</hair>
+			<marks>ad_boxtrolls_eggs</marks>
+			<shirt>bare</shirt>
+			<pants>limited_spot</pants>
+			<overshirt>limited_spot</overshirt>
+			<creature>true</creature>
+	</skin>
+		<direction>left</direction>
+		<position>
+			<x>-40</x>
+			<y>655</y>
+		</position>
+		<scale>.25</scale>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+		
+		
+	</npc>
+</npcs>

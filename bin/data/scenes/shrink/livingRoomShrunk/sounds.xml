@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorKitchenShrunk01">none</asset>
+		<asset id="doorBedroomShrunk01">none</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="press_remote">remote_click_01.mp3</asset>
+		<asset triggeredByEvent="grab_battery">put_out_battery_01.mp3</asset>
+		<asset triggeredByEvent="place_battery">put_in_battery_01.mp3</asset>
+		<asset triggeredByEvent="tv_on">power_on_03.mp3</asset>
+		<asset triggeredByEvent="tv_on" loop="true">electric_buzz_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="fishTank">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="chair">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="book">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="pictureFrame">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="tape">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="tapePlayer">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="tv">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="shelf">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="woodFurniture">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="fishTankWater">ls_water_splash_01.mp3, ls_water_splash_02.mp3, ls_water_splash_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="catHit">small_pow_01.mp3</asset>
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="fishTank">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="chair">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="book">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="pictureFrame">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="tape">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="tapePlayer">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="tv">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="shelf">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="woodFurniture">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="fishTankWater">ls_water_splash_01.mp3, ls_water_splash_02.mp3, ls_water_splash_03.mp3</asset>
+		<asset id="chairBounce">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3, ls_spring_02.mp3</asset>
+	</sound>
+</sounds>

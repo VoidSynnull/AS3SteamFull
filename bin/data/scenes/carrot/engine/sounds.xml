@@ -1,0 +1,42 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town_indoors.mp3</asset>
+		<asset loop="true" fade="true" triggeredByEvent="engine_on" exclusiveType="true">production_factory.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="lever_move">gears_03.mp3</asset>
+		<asset triggeredByEvent="lever_correct">light_on_01.mp3</asset>
+		<asset triggeredByEvent="engine_on">power_on_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="crane" triggeredByEvent="shoot_sparks">electric_zap_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="door2">door_prison_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="crane">ls_unstable_metal_01.mp3, ls_unstable_metal_02.mp3, ls_unstable_metal_03.mp3</asset>
+		<asset id="craneL">ls_unstable_metal_01.mp3, ls_unstable_metal_02.mp3, ls_unstable_metal_03.mp3</asset>
+		<asset id="metalPlatform">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="machinery">ls_metal_verb_01.mp3, ls_metal_verb_02.mp3</asset>
+		<asset id="container">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="crates">ls_wood_verb_01.mp3, ls_wood_verb_02.mp3</asset>
+		<asset id="concreteFloor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="thinPipes">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="crane">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="craneL">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="metalPlatform">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="machinery">fs_metal_verb_01.mp3, fs_metal_verb_02.mp3, fs_metal_verb_03.mp3, fs_metal_verb_04.mp3</asset>
+		<asset id="container">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="crates">fs_wood_verb_01.mp3, fs_wood_verb_02.mp3, fs_wood_verb_03.mp3, fs_wood_verb_04.mp3</asset>
+		<asset id="concreteFloor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="thinPipes">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+	</sound>
+</sounds>

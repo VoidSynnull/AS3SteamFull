@@ -1,0 +1,22 @@
+<campaign>
+	<campaignId>Incredibles2Autocard</campaignId>
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/clk/417367184;217819237;q</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20454070.217819237;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217830038&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217830038&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+	</impressionUrls>
+
+	<cards>
+		<card>2899</card>
+	</cards>
+</campaign>

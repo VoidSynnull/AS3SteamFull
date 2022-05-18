@@ -1,0 +1,36 @@
+<hits>
+	<hit id="dirt" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0x0099cc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x336600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="snakeHit1">
+		<component type="hazard">
+			<visible>snake1</visible>
+			<knockBackVelocity>
+				<x>3500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="snakeHit2">
+		<component type="hazard">
+			<visible>snake2</visible>
+			<knockBackVelocity>
+				<x>3500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

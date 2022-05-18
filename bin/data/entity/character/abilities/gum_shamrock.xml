@@ -1,0 +1,11 @@
+<specialAbility id="gum_shamrock">
+	<save>true</save>
+	<className>game.data.specialAbility.store.AddGum</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/gum/shamrockgum.swf</param>
+		<param id="particleClass">game.particles.emitter.specialAbility.ShamrockGum</param>
+		<param id="as2Mouth">pgum10</param>
+	</parameters>
+</specialAbility>

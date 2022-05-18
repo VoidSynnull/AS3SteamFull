@@ -1,0 +1,51 @@
+<item id="3034">
+		<type>store</type>
+		<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+		
+		<buttons>
+			<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>VANISH</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<textfields>
+	 	 	<text id="storeTitle">
+					<value>Phantom</value>
+	 	 	</text>
+	 	 	
+	 	 	<text id="storeSubTitle">
+	 	 		<value>Now you see me, now you don't.</value>
+	 	 	</text>
+		</textfields>
+		
+		<assets>
+			<asset id="cardBack" />
+		</assets>
+		
+ 	<specials>
+		<specialAbility>phantom_power_35</specialAbility>
+	</specials>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals> 
+</item>

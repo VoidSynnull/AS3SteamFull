@@ -1,0 +1,44 @@
+<item id="3254">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<buttons>
+		<btn>
+			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>PUT ON</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<index>0</index>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Fishing Pole</value>
+		</text>
+	</textfields>
+	
+	 <conditionals>
+		<conditional type="hasLook" />
+	 </conditionals>
+	 	
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent" />
+	</assets>
+	
+	<looks>
+		<look>
+			<item>p_fishingpole</item>
+		</look>
+	</looks>
+</item>

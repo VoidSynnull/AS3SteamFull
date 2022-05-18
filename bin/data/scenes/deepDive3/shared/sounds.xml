@@ -1,0 +1,18 @@
+<sounds>	
+
+<!-- memory module group sounds -->
+	<sound type="effects">
+		<asset triggeredByEvent="switchHit">switch_03.mp3</asset>
+		<asset triggeredByEvent="openDoor">door_hatch_01.mp3</asset>
+		<asset triggeredByEvent="launchOrb">medium_mechanical_movement_02.mp3</asset>
+		<asset triggeredByEvent="fizzleOrb">electric_zap_03.mp3</asset>
+		<asset triggeredByEvent="hitOrb" baseVolume="0.75">electric_zap_01.mp3</asset>
+		<asset triggeredByEvent="systemOn" loop="true">alien_module.mp3</asset>
+		<asset triggeredByEvent="alienMemory">alien_memory.mp3</asset>
+		<asset triggeredByEvent="alienImage">alien_image.mp3</asset>
+		<asset triggeredByEvent="alienScan">alien_scan.mp3</asset>
+		
+		<asset triggeredByEvent="shakeShip">metal_impact_02.mp3, metal_impact_03.mp3, smash_01.mp3, smash_02.mp3, smash_03.mp3</asset>
+	</sound>
+
+</sounds>

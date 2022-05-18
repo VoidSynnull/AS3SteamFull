@@ -1,0 +1,35 @@
+<sounds>
+	<sound type="music">
+		<asset>.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3 </asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3 </asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="leaves">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="leaves">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset id="jiggleArmor">metal_shake_02.mp3 </asset>
+		<asset id="jiggleDoll">rope_strain_04.mp3 </asset>
+		<asset id="mace">metal_shake_01.mp3</asset>
+		<asset id="loadCannon">load_cannon_01.mp3</asset>
+		<asset id="fireCannon">SV_cannonfire_01.mp3</asset>
+		<asset id="fuseBurn">lit_fuse_01_L.mp3</asset>
+		<asset id="cannnonToss">thick_metal_groan_01.mp3</asset>
+		<asset id="wallCollapse1">ls_Concrete_01.mp3</asset>
+		<asset id="wallCollapse2">explosion_03.mp3</asset>
+		<asset id="cannonBallBounce">metal_impact_13.mp3</asset>
+		<asset id="cannonBallRoll">heavy_gritty_roll_01_L.mp3</asset>
+		<asset id="breakWindowBoards">wood_break_02.mp3</asset>
+		<asset id="palntGrowth">vine_growth.mp3</asset>
+	</sound>
+</sounds>

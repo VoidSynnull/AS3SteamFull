@@ -1,0 +1,25 @@
+<part>
+  <id>zombie</id>
+  <type>mouth</type>
+  <costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>false</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.DripExternalAsset</param> 
+						<param id="part" type="string">head</param>
+						<param id="startColor" type="number">-1</param> 
+						<param id="endColor" type="number">-1</param> 
+						<param id="offsetX" type="number">-5</param>
+						<param id="offsetY" type="number">20</param>
+						<param id="filePath" type="string">assets/particles/drool.swf</param>
+						<param id="scale" type="number">0</param>
+						<param id="inBack" type="boolean">false</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

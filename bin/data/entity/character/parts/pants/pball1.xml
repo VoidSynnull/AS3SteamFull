@@ -1,0 +1,26 @@
+<part>
+	<id>pball1</id>
+	<asset>pball</asset>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0xDF80EA</color>
+		<color id="color2">0xBD4FD5</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="dress.colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="dress.colorShape2"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>	
+</part>

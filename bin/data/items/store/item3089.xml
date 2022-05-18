@@ -1,0 +1,33 @@
+<item id="3089">
+		<type>store</type>
+		<subType>general</subType>
+		<buttons>
+			<btn>
+			<label>USE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+	 	 	<text id="storeTitle">
+					<value>Meteor Shower</value>
+	 	 	</text>
+	 	 	<text id="storeSubTitle">
+					<value>Watch your head!</value>
+				
+	 	 	</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+		
+ 	<specials>
+		<specialAbility>meteor_shower</specialAbility>
+	</specials>
+</item>

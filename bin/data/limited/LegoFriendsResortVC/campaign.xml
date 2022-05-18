@@ -1,0 +1,19 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>LegoFriendsResortVC</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.youtube.com/watch?v=1EHc2Se6IQM</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	
+	<cards>
+		<card>2929</card>
+	</cards>
+	<boycards>
+		<card>2929</card>
+	</boycards>
+	<girlcards>
+		<card>2929</card>
+	</girlcards>
+</campaign>

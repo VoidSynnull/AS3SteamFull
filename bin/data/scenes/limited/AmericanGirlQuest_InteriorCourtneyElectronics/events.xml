@@ -1,0 +1,9 @@
+<events>
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">selectArcadeGame</param1>
+			<param1 id="game">StarShooter</param1>
+		</event>
+	</group>
+</events>

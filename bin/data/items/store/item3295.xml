@@ -1,0 +1,28 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3295.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>INFLATE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Birthday Balloon</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Celebrate Poptropica's 5th birthday with this balloon!</value>
+		</text>
+	</textfields>
+</item>

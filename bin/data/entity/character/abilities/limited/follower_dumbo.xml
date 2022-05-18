@@ -1,0 +1,11 @@
+<specialAbility id="limited/follower_dumbo">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2962</param>
+  		<param id="swfPath">limited/DumboVBB/dumbo.swf</param> <!-- path to follower swf -->
+		<param id="campaignTracking">DumboVBB,trumpet</param>
+		<param id="clickableAudioPath">limited/DumboVBB/dumbo.mp3</param>
+	</parameters>
+</specialAbility>

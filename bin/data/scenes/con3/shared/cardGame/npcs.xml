@@ -1,0 +1,94 @@
+<npcs>	
+  	<npc id="dealer" variant="head" event="dealer">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>pcowgirl1</mouth>
+			<marks>poptropicon_smudge</marks>
+			<hair>poptropicon_dealer</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc>
+	
+	<npc id="hippie" variant="head" event="hippie">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>astroprincess</mouth>
+			<marks>mtdancer_smudge</marks>
+			<facial>p_countessvampire</facial>
+			<hair>africanlady6</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc>
+	
+<!-- 	<npc id="survivor1" variant="head" event="survivor1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>sponsorEC1</mouth>
+			<marks>mtdancer</marks>
+			<facial>p_countessvampire</facial>
+			<hair>africanlady6</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc> -->
+	
+	<npc id="card2" variant="head" event="card2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>astroguard1</mouth>
+			<marks>goat6</marks>
+			<facial>3</facial>
+			<hair>agentguy</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc>
+	
+	<npc id="expert" variant="head" event="expert">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>gardener</mouth>
+			<marks>sponsor_lilly</marks>
+			<facial>lc_touristfemale</facial>
+			<hair>bl_barf</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc>
+	
+	<npc id="scott" variant="head" event="scott">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>gardener</mouth>
+			<marks>poptropicon_omegon2</marks>
+			<facial>poptropicon_omegon</facial>
+			<hair>poptropicon_omegon</hair>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>75</x>
+			<y>90</y>
+		</position>
+		<scale>.45</scale>
+		<direction>right</direction>	
+	</npc>
+</npcs>

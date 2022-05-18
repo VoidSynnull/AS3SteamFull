@@ -1,0 +1,21 @@
+<part>
+	<id>ftue_monkey4</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

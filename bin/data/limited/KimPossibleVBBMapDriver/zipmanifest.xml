@@ -1,0 +1,14 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/KimPossibleVBBMapDriver/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+		<asset>map/island</asset>
+	</data>
+
+	<!-- map swfs -->
+	<assets type="island" path="assets/limited/KimPossibleVBBMapDriver/map/" ext="swf">
+		<asset>island</asset>
+	</assets>
+
+</manifest>

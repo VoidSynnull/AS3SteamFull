@@ -1,0 +1,39 @@
+<item id="5209"> <!-- Change this card ID -->
+	<type>store</type>
+	<subType>general</subType>
+	<campaignID>MemberGift</campaignID>
+	
+<contentClass>
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>	
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize" tracking="Valentine Girl 2"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Sweet Heart Outfit</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<hair>valentine_g2_hair</hair>
+			<shirt>valentine_g2_shirt</shirt>
+			<pants>valentine_g2_skirt</pants>
+		</look>
+	</looks> 
+</item>

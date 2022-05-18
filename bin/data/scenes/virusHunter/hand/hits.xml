@@ -1,0 +1,87 @@
+<hits>
+	<hit id="radial" color="0x9933CC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow1" color="0x990000">
+		<component type="mover">
+			<acceleration>
+				<x>-840</x>
+				<y>600</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow1Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow2" color="0xCC0000">
+		<component type="mover">
+			<acceleration>
+				<x>800</x>
+				<y>700</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow2Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow3" color="0xFF0000">
+		<component type="mover">
+			<acceleration>
+				<x>-730</x>
+				<y>550</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow3Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow4" color="0x990033">
+		<component type="mover">
+			<acceleration>
+				<x>-1000</x>
+				<y>0</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow4Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

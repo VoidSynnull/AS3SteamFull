@@ -1,0 +1,41 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Bottom Left</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Middle Left</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Top Left</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Top Right</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice>Video1</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="luz">
+		<event>EngagedInsideNPC</event>
+		<choice>luz</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="eda">
+		<event>EngagedInsideNPC</event>
+		<choice>eda</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

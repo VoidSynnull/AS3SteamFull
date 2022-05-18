@@ -1,0 +1,59 @@
+<item id="2634"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>The Boxtrolls Transformer Card</name> <!-- Change this card name -->
+  	<campaignID>BoxtrollsJan2015MVU</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>TRANSFORM</label>
+    		<actions>
+				<action type="activatePower" tracking="Use The Boxtrolls Transformer Card">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+ 
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="The Boxtrolls Transformer Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>The Boxtrolls</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Boxtroll Transformer</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+    <asset id="cardContent" />  <!--	 use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+	
+	 <specials>
+		<specialAbility>limited/transform_boxtrolls</specialAbility>
+	</specials>
+
+</item>

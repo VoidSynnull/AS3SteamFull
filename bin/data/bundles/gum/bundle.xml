@@ -1,0 +1,32 @@
+<bundle>
+	<id>gum</id>
+	<name>Gum Up the Works</name>
+	
+	<cardSets>
+		<cardSet id="shared">
+			<card>3114</card>
+			<card>3115</card>
+			<card>3118</card>
+		</cardSet>
+	</cardSets>
+	
+	<bundleNum>0</bundleNum>
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>-39</brightness>
+	   			<contrast>13</contrast>
+	   			<saturation>-49</saturation>
+	   			<hue>-100</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/pie.swf</assetPath>
+	    </asset> 
+    </assets>
+</bundle>

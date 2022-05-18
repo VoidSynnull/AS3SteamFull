@@ -1,0 +1,30 @@
+<doors>
+	<door id="exitLeft">
+		<scene>game.scenes.timmy.timmysStreet.TimmysStreet</scene>
+		<x>4050</x>
+		<y>960</y>
+		<direction>left</direction>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>60</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="exitRight">
+		<scene>game.scenes.timmy.school.School</scene>
+		<x>40</x>
+		<y>675</y>
+		<direction>right</direction>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-80</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

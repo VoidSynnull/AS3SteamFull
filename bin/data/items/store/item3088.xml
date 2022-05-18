@@ -1,0 +1,44 @@
+<item id="3088">
+	<type>store</type>
+	<subType>general</subType>
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>PUT ON</label>
+				<actions>
+				<action type="applyLook"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasLook" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+		</buttons>
+	<textfields>
+	 	<text id="storeTitle">
+			<value>Little Candy Cane</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent"/>
+	</assets>
+		
+	<looks>
+		<look>
+		 	<item>candycane</item>
+		 </look> 
+	</looks> 
+
+		 <conditionals>
+			<conditional type="hasLook" />	<!-- if no lookId param is given uses first look by default -->
+		</conditionals>
+		
+</item>

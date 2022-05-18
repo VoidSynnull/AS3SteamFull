@@ -1,0 +1,18 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<!--<hotspot id="surfGame" type="poster">
+		<action type="enterQuest" folder="AmericanGirlQuest">Surf</action> 
+	</hotspot>-->
+	<hotspot id="seagull" type="poster">
+		<action type="gotoAndPlay">seagull,startAni</action> 
+	</hotspot>
+	<hotspot id="surfGame" type="poster">
+		<action type="trigger">startGame</action>
+	</hotspot>
+</hotspots>
+

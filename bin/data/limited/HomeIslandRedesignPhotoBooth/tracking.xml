@@ -1,0 +1,11 @@
+<tracking>
+	<track id="booth_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice>NPC Name</choice> <!-- *** npc name -->
+	</track>
+	<track id="outsidePoster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

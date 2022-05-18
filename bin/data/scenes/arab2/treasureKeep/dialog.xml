@@ -1,0 +1,53 @@
+<dialogs>
+	<character id="player">
+		<statement id="fallIn">Uh... just dropping in to say hi.</statement>
+		<statement id="gotLamp5">Wait! You'll be --</statement>
+		<statement id="useLamp2">You'll never get away with this!</statement>
+		<statement id="useLamp7">Here goes nothing.</statement>
+		<statement id="examineLamps">I need help to find the right lamp!</statement>
+	</character>
+	<character id="masterThief">
+		<statement id="getLamp">It's easy: just pick one lamp and place it on the altar.</statement>
+		<statement id="getLamp2">If it's the right one, you'll be set free!</statement>
+		<statement id="getLamp4">Yes, the altar will destroy anyone who places the wrong lamp on it.</statement>
+		<statement id="getLamp5">Then you'd better pick the right one!</statement>
+		<statement id="getLamp8">Not again!</statement>
+		<statement id="getLamp9">We'll run out of prisoners before we ever run out of lamps.</statement>
+		<statement id="fallIn2">Take this interloper to a cell!</statement>
+		<statement id="fallIn3">We'll deal with you later. Back to work, everyone.</statement>
+		<statement id="gotLamp2">Not so fast. The magical lamp is mine. Show it to me!</statement>
+		<statement id="getAwayM">Don't let him get away!</statement>
+		<statement id="getAwayF">Don't let her get away!</statement>
+	
+		<statement id="useLamp">Well, well, well... isn't this a familiar scene.</statement>
+		<statement id="useLamp3">Ha, if I had a gold piece for every time I heard that!</statement>
+		<statement id="useLamp5">Silence!</statement>
+		<statement id="useLamp6">Get on with it kid, or I'll have tiny here teach you how.</statement>
+    </character>
+	<character id="prisoner">
+		<statement id="getLamp3">But the... the... curse!</statement>
+		<statement id="getLamp6">Whew!</statement>
+		<statement id="getLamp7">...wait, what's happening?</statement>
+    </character>
+    <character id="masterCoin">
+    	<statement event="player_disguised">I'm quite busy here, don't you need to be somewhere?</statement>
+    	<statement id="finalyCounted">yes, Finally recounted my precious coins!</statement>
+    	<statement id="catchPlayer">Eek! Guards!</statement>
+    	<statement id="catchPlayer2">Don't touch those lamps!</statement>
+    	<statement id="chaseGold1">Oh no! The gold!</statement>
+    	<statement id="chaseGold2">I've lost count! I've lost count!</statement>
+    	<statement id="chaseGold3">Oh no! Not again!</statement>
+    	<statement id="useLamp4">Uh...</statement>
+    	<statement id="dontTouchCoins">Don't touch my coins, I'll lose count!</statement>
+    </character>
+    <character id="vizier">
+    	<statement id="follow" forceOnScreen="true">Follow me, quietly.</statement>
+    	<statement id="distract">We need to somehow distract him to get to the lamps.</statement>
+    	<statement id="fineWork">Fine work! Let's get to the lamps.</statement>
+    	<statement id="gotLamp">Let's get out of here before the thieves find us!</statement>
+    	<statement id="gotLamp3">Of course, of course. No cause for alarm.</statement>
+    	<statement id="gotLamp4">I will, indeed, show you the correct lamp.</statement>
+    	<statement id="gotLamp6">Go! Now! </statement>
+    	<statement id="stop" forceOnScreen="true">Stop, He'll see you!</statement>
+    </character>
+</dialogs>

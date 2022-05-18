@@ -1,0 +1,180 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="metal" color="0x131412" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plaster" color="0x003333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="carpet" color="0x002864" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="triggerPlat" color="0x2CF5FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="arrowSlit" color="0x99ff66">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="force_shield" color="0xff0000">
+		<component type="wall"/>
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>200</x>
+				<y>-200</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="tab_blocker1" platform="true">
+		<component type="wall"/>
+		<component type="movingPlatform">
+			<!-- <visible>tab1</visible> -->
+			<pause>true</pause>
+			<velocity>30</velocity>
+			<points>
+				<point>
+					<x>470.9</x>
+					<y>518</y>
+				</point>
+				<point>
+					<x>470.9</x>
+					<y>720</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	<hit id="tab_blocker2">
+		<component type="wall"/>
+		<component type="movingPlatform">
+			<!-- <visible>tab2</visible>  -->
+			<pause>true</pause>
+			<velocity>30</velocity>
+			<points>
+				<point>
+					<x>583.95</x>
+					<y>518</y>
+				</point>	
+				<point>
+					<x>583.95</x>
+					<y>720</y>
+				</point>		
+			</points>
+		</component>
+	</hit>
+	<hit id="tab_blocker3">
+		<component type="wall"/>
+		<component type="movingPlatform">
+		<!-- <visible>tab3</visible> -->
+			<pause>true</pause>
+			<velocity>30</velocity>
+			<points>
+				<point>
+					<x>696.95</x>
+					<y>518</y>
+				</point>
+				<point>
+					<x>696.95</x>
+					<y>720</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="lift1" platform="true">
+		<component type="movingPlatform">
+		<!-- <visible>lift_base1</visible> -->
+			<pause>true</pause>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>1482</x>
+					<y>887</y>
+				</point>
+				<point>
+					<x>1482</x>
+					<y>315</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="lift2" platform="true">
+		<component type="movingPlatform">
+		<!-- <visible>lift_base2</visible> -->
+			<pause>true</pause>
+			<velocity>100</velocity>
+			<points>
+				<point>
+					<x>2776.8</x>
+					<y>887</y>
+				</point>
+				<point>
+					<x>2776.8</x>
+					<y>315</y>
+				</point>
+			</points>
+		</component>
+	</hit> 
+	
+	
+	<!--  LASERS  -->
+	<hit id="laserhit_5_1">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="laserhit_5_2">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="laserhit_6_1">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="laserhit_6_2">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<!--  BARRIERS  -->
+	<hit id="target3" >
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="target4" >
+		<component type="wall"/>
+	</hit>
+	
+	<!--  CRYSTAL CORE  -->
+	<hit id="target_core" >
+		<component type="wall"/>
+	</hit>
+</hits>

@@ -1,0 +1,115 @@
+<npcs>
+	
+	<npc id="sugar">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>ppunkgirl5</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_nutcracker_sugarplum</hair>
+			<shirt>limited_nutcracker_plum</shirt>
+			<pants>limited_nutcracker_plum</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>861</x> <!-- from left edge of ad unit -->
+			<y>1180</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	
+	<npc id="clara">
+    	<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<hair>limited_nutcracker_clara</hair>
+			<shirt>limited_nutcracker_clara</shirt>
+			<pants>limited_nutcracker_clara</pants>
+			<mouth>ppromqueen1</mouth>
+			<item>limited_nutcracker_musicbox</item>
+    	</skin>
+		<position>
+			<x>1189</x>
+			<y>1180</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="dancer">
+    	<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<marks>limited_mrs_whatsit</marks>
+			<hair>limited_nutcracker_dancer</hair>
+			<shirt>char29</shirt>
+			<pants>chef2</pants>
+			<overshirt>limited_nutcracker_dancer</overshirt>
+    	</skin>
+		<position>
+			<x>1620</x>
+			<y>1180</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+		
+	<npc id="ginger">
+    	<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x453929</hairColor>
+			<marks>limited_nutcracker_ginger</marks>
+			<hair>limited_nutcracker_ginger</hair>
+			<shirt>char29</shirt>
+			<pants>eiffel</pants>
+			<overshirt>limited_nutcracker_ginger</overshirt>
+			<mouth>hades</mouth>
+    	</skin>
+		<position>
+			<x>1139</x>
+			<y>718</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+
+	<npc id="mouse" variant="creature">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0xf8290A1</skinColor>
+			<marks>limited_nutcracker_ginger</marks>
+			<shirt>char29</shirt>
+			<pants>eiffel</pants>
+			<facial>limited_nutcracker_mouse</facial>
+			<overshirt>limited_nutcracker_mouse</overshirt>
+    	</skin>
+		<position>
+			<x>0</x>
+			<y>1180</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.18</scale>
+		<direction>right</direction>
+	</npc>
+</npcs>
+

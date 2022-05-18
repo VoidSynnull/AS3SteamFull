@@ -1,0 +1,38 @@
+<npcs>
+	<npc id="minotaur">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7b5c3e</skinColor>
+			<hairColor>0xFFFFFF</hairColor>
+			<eyes></eyes>
+			<mouth>prisoner3</mouth>
+			<marks>minotaur</marks>
+			<facial>minotaur</facial>
+			<hair>minotaur</hair>
+			<shirt>minotaur</shirt>
+			<pants>1</pants>
+			<item>minotaur</item>
+			<overshirt>minotaur</overshirt>
+			<overpants>minotaur</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>220.3</x>
+			<y>524</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<scale>.75</scale>
+	</npc>
+	
+	<npc id="minotaur" event="hasItem_minotaurRing">
+		<skin>
+			<facial>minotaur2</facial>
+		</skin>
+	</npc>
+</npcs>

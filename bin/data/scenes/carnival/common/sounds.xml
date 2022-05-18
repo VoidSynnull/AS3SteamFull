@@ -1,0 +1,21 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">sunny_day.mp3</asset>
+	</sound>
+    <sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="floor">fs_plastic_01.mp3,fs_plastic_02.mp3,fs_plastic_03.mp3,fs_plastic_04.mp3</asset>
+		<asset id="counter">fs_metal_shelf_01.mp3,fs_metal_shelf_02.mp3,fs_metal_shelf_03.mp3,fs_metal_shelf_04.mp3</asset>
+		<asset id="tile">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="floor">ls_plastic_01.mp3,ls_plastic_02.mp3</asset>
+		<asset id="counter">ls_metal_shelf_01.mp3,ls_metal_shelf_02.mp3</asset>
+		<asset id="tile">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+	</sound>
+</sounds>

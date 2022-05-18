@@ -1,0 +1,13 @@
+<part>
+	<id>psoccerball</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	<specialAbility id="tossItem">
+  		<className>game.data.specialAbility.character.TossItem</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+ 	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

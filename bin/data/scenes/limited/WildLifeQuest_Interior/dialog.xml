@@ -1,0 +1,24 @@
+<dialogs>
+
+	<character id="kiki">
+		<statement>Hi explorer, I’m Kiki the Kingfisher!</statement>
+    </character>
+		<character id="rosie">
+		<statement>Hi, I’m Rosie the Tapir! I radiate elegance.</statement>
+    </character>
+		<character id="pango">
+		<statement>Hi, I’m Pango. It means "one who wraps himself."</statement>
+    </character>
+		<character id="carmello">
+		<statement>How are you? I’m Carmello the chameleon!</statement>
+    </character>
+		<character id="epi">
+		<statement>Hey you! My name’s Epi the Echidna.</statement>
+    </character>
+		<character id="scrubby">
+		<statement>I’m Scrubby! Is anyone there?</statement>
+    </character>
+	<character id="robinson">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startRun">Help defend this island from wild cats!</statement>
+    </character>
+</dialogs>

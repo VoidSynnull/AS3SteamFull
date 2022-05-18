@@ -1,0 +1,49 @@
+<npcs>
+	<npc id="marion">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>17</mouth>
+			<marks>mthbonsaiwoman</marks>
+			<hair>pr_marion</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1090</x>
+			<y>1240</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="guard">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>shadycop</mouth>
+			<facial>pr_near</facial>
+			<hair>1</hair>
+			<shirt>pr_guard2</shirt>
+			<pants>mtpoliceman</pants>
+			<overpants>shadycop</overpants>
+			<eyeState>squint</eyeState>
+			<item>empty</item>
+		</skin>
+		<position>
+			<x>2084</x>
+			<y>1240</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1999</right>
+		<bottom>1040</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2020</right>
+		<bottom>1040</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml</data>
+	<assets>boss_die.swf,boss_hurt.swf,boss_idle.swf,boss_idleWeakened.swf,boss_intro.swf,boss_revive.swf,boss_weakened.swf,boss_tentacle.swf</assets>
+	<absoluteFilePaths prependTypePath="true">scenes/virusHunter/shared/sounds.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>272</x>
+			<y>92</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

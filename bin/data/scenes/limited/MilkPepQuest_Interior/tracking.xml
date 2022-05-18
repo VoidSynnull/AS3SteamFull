@@ -1,0 +1,56 @@
+<tracking>
+	<track id="poster1">
+		<event>OpenedPopup</event>
+		<choice>Poster</choice>
+		<subchoice>Cosmoe_Goober</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>OpenedPopup</event>
+		<choice>Poster</choice>
+		<subchoice>AR</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>OpenedPopup</event>
+		<choice>Poster</choice>
+		<subchoice>Synopsis</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster4">
+		<event>TriggerAnimation</event>
+		<choice>Poster</choice>
+		<subchoice>Dagger_jax</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster5">
+		<event>OpenedPopup</event>
+		<choice>Poster</choice>
+		<subchoice>Queen_Krax</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster6">
+		<event>OpenedPopup</event>
+		<choice>Poster</choice>
+		<subchoice>Queen_Krax</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster7">
+		<event>startGame</event>
+		<choice>Poster</choice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="custom_npc1">
+		<event>EngagedInsideNPC</event>
+		<choice>npc name</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="custom_npc2">
+		<event>EngagedInsideNPC</event>
+		<choice>npc name</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

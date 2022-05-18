@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="buren">
+		<statement id="eager" triggerEvent="triggerEvent" triggerEventArgs="huntee">Eager to get started, eh? Have it your way. When my man here blows the horn, the hunt is on.</statement>
+		<statement triggeredByEvent="what_hunt" triggerEvent="triggerEvent" triggerEventArgs="play_horn">You have misunderstood my intentions. You, dear friend, are the quarry!</statement>
+	</character>
+	
+	<character id="player">
+		<statement id="dark">It's too dark out here. I can't see a thing!</statement>
+		<statement id="free">I'm free!</statement>
+		<statement triggeredByEvent="huntee" triggerEvent="triggerEvent" triggerEventArgs="what_hunt">What are we hunting?</statement>
+    </character>
+</dialogs>

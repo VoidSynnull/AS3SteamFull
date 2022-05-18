@@ -1,0 +1,26 @@
+<dialogs>
+	<character id="drHare">
+		<statement id="drhare_talks">text30</statement>
+		<statement id="drhare_move_it">text31</statement>
+	</character>
+	<character id="drone4">
+		<conversation>
+			<exchange>
+				<question>shared.text41</question>
+				<answer>text32</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text42</question>
+				<answer>text32</answer>
+			</exchange>
+			<exchange>
+				<question>text33</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_4">shared.text43</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="drone_denial">text34</statement>
+		<statement triggeredByEvent="drone_free">text35</statement>
+		<statement event="drone_freed_4">text35</statement>
+		<statement triggeredByEvent="carrot_drone_congrats">text36</statement>
+	</character>
+</dialogs>

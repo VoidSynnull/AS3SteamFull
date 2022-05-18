@@ -1,0 +1,78 @@
+<item id="2661">
+<type>custom</type>
+	<subType>general</subType>
+	<name>Crazy Hair Card</name> <!-- Change this card name -->
+  	<campaignID>LalaloopsyCrazyHairIC</campaignID> <!-- Change this CMS name -->
+
+    <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<y>20</y>
+		<x>35</x>
+	</contentClass>
+	<radiobuttons>
+		<btn>
+			<asset>limited/LalaloopsyCrazyHairIC/btn1.swf</asset>
+			<y>30</y>
+			<x>-80</x>
+			<val>0</val>
+		</btn>
+		<btn>
+			<asset>limited/LalaloopsyCrazyHairIC/btn2.swf</asset>
+			<y>95</y>
+			<x>-80</x>
+			<val>1</val>
+		</btn>
+			<btn>
+			<asset>limited/LalaloopsyCrazyHairIC/btn3.swf</asset>
+			<y>150</y>
+			<x>-80</x>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	<buttons>
+  		<btn>
+			<index>1</index>
+			<label>USE</label>
+			<actions>
+				<action type="applyLook" tracking="Use Crazy Hair Card"/>
+			</actions>
+		</btn>
+			<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Crazy Hair Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+
+<textfields>
+<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+	</textfields>
+
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/limited/backs/AdBackgroundPink.swf</assetPath>
+    	</asset>
+		<asset id="cardContent" /> 
+    </assets>
+
+  	<looks>
+		<look>
+			<hair>limited_lalacrazyhair_carnival</hair>
+		</look>
+	    <look>
+			<hair>limited_lalacrazyhair_scoops</hair>
+		</look>
+		<look>
+			<hair>limited_lalacrazyhair_jewel</hair>
+		</look>
+	</looks> 
+
+</item>

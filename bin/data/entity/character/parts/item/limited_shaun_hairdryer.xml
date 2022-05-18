@@ -1,0 +1,39 @@
+<part>
+	<id>limited_shaun_hairdryer</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2688</campaignID>
+	
+	<specialAbility id="shaunAvatarTransform">
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">ShaunTheSheepPartyRoom,Woolly Blow</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animation" type="class">game.data.animation.entity.character.Sword</param> 
+						<param id="waitLabel" type="string">fire</param> 
+						<param id="maxFrames" type="int">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">FACING</param> 
+						<param id="partType" type="string">hair</param> 
+						<param id="partID" type="string">limited_shaun_wooly</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+
+</part>

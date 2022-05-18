@@ -1,0 +1,40 @@
+<item id="3536"> <!-- Halloween Puppet Female-->
+	<type>store</type>
+	<subType>general</subType>
+	
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+			<text id="storeTitle">
+			<value>Creepy Puppet</value>
+		</text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<mouth>halloween_puppet_girl</mouth>
+				<hair>halloween_puppet_girl</hair>
+				<marks>halloween_puppet_girl</marks>
+				<shirt>halloween_puppet_girl</shirt>
+				<overpants>halloween_puppet_girl</overpants>
+				<pack>halloween_puppet</pack>
+				<pants>1</pants>
+		 	</look> 
+	</looks>
+</item>

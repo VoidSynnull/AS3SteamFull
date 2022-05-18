@@ -1,0 +1,41 @@
+<npcs>
+	<npc id="npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>teethGrin2</mouth>
+			<facial>poptropicon_hero2</facial>
+			<hair>poptropicon_hero2</hair>
+			<shirt>poptropicon_hero2</shirt>
+			<pants>gsrprof</pants>
+			<pack>poptropicon_hero2</pack>
+			<overshirt>poptropicon_hero2</overshirt>
+			<overpants>poptropicon_hero2</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>250</x>
+			<y>3000</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="npc" event = "won_race">
+		<skin>
+			<overshirt>empty</overshirt>
+		</skin>
+		<position>
+			<x>250</x>
+			<y>3000</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

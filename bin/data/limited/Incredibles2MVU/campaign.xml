@@ -1,0 +1,24 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>Incredibles2MVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/clk/417367184;217822642;k</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/clk/417367184;217984107;p</clickUrl> <!-- if needing different clickURL for cards -->
+	</clickUrls>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20454070.217822642;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217822642&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217822642&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="ObjectCollected"> <!-- For earning prize card -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B20454070.217984107;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/omddisneydcm415376975536/moatad.js#moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217984107&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536?moatClientLevel1=20454070&amp;moatClientLevel2=1411495&amp;moatClientLevel3=217984107&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

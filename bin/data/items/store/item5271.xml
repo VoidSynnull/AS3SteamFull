@@ -1,0 +1,38 @@
+<item id="5271"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Colorful Clothes</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<pack>aug_member_colorblock</pack>
+			<overshirt>aug_member_tiedyesweater</overshirt>
+		</look>
+	</looks>
+
+</item>

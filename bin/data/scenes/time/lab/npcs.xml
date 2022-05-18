@@ -1,0 +1,105 @@
+<npcs>
+	<npc id="char1">
+		<animations loop="true" random="true">
+			<animation duration="150">game.data.animation.entity.character.Cry</animation>
+			<animation duration="100">game.data.animation.entity.character.Grief</animation>
+			<animation duration="200">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			 <gender>female</gender> 
+			 <skinColor>0xFFE271</skinColor> 
+			 <hairColor>0xD26231</hairColor>
+			 <mouth>10</mouth> 
+			 <facial>4</facial> 
+			 <hair>42</hair> 
+			 <shirt>rat</shirt> 
+			 <pants>bartholdi</pants> 
+			 <overshirt>apron</overshirt> 
+			 <eyeState>open</eyeState> 
+		</skin>
+		<position>
+			<x>1353</x> 
+			<y>937</y> 
+		</position>
+		<ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char1" event="time_repaired">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			 <gender>female</gender> 
+			 <skinColor>0xFFE271</skinColor> 
+			 <hairColor>0xD26231</hairColor>
+			 <mouth>11</mouth> 
+			 <facial>4</facial> 
+			 <hair>42</hair> 
+			 <shirt>rat</shirt> 
+			 <pants>bartholdi</pants> 
+			 <overshirt>apron</overshirt> 
+			 <eyeState>open</eyeState> 
+		</skin>
+		<position>
+			<x>1353</x> 
+			<y>937</y> 
+		</position>
+		<ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+		<npc id="char1" event="hasItem_medalTime">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			 <gender>female</gender> 
+			 <skinColor>0xFFE271</skinColor> 
+			 <hairColor>0xD26231</hairColor>
+			 <mouth>11</mouth> 
+			 <facial>4</facial> 
+			 <hair>42</hair> 
+			 <shirt>rat</shirt> 
+			 <pants>bartholdi</pants> 
+			 <overshirt>apron</overshirt> 
+			 <eyeState>open</eyeState> 
+		</skin>
+		<position>
+			<x>1353</x> 
+			<y>937</y> 
+		</position>
+		<ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char2">
+		 <skin>
+			 <gender>male</gender> 
+			 <skinColor>0xB77E48</skinColor> 
+			 <hairColor>0x4A2C17</hairColor>
+			 <mouth>fisherman</mouth> 
+			 <facial>explorer</facial> 
+			 <hair>44</hair> 
+			 <shirt>van</shirt> 
+			 <pants>bartholdi</pants> 
+			 <overshirt>apron</overshirt> 
+			 <eyeState>open</eyeState>
+		 </skin>
+		 <position>
+			 <x>1756</x> 
+			 <y>937</y> 
+		 </position>
+		 <ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	 </npc>
+</npcs>

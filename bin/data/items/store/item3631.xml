@@ -1,0 +1,52 @@
+<item id="3631"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="Egg Launcher"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeTitle">
+			<value>Egg Launcher</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to launch</web>
+			<mobile>Tap ACTION to launch</mobile>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<item>chickenlauncher</item>
+		</look>
+	</looks>
+
+</item>

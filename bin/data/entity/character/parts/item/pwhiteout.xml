@@ -1,0 +1,11 @@
+<part>
+	<id>pwhiteout</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<className>game.data.specialAbility.store.WhiteOut</className>
+			<triggerable>true</triggerable>
+			<useButton>true</useButton>		
+	</specialAbility>
+</part>

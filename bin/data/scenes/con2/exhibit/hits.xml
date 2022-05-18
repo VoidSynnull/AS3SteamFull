@@ -1,0 +1,59 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="floor" color="0x5664F2" platform="true">
+		<component type="platform"/>
+		<depth>0</depth>
+	</hit>
+	
+	<hit id="trash" color="0x00CC33" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="crunchyTrash" color="0x00AA2A" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="glass" color="0x0BD2F2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="shelf" color="0x9A672A" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bucketHead" color="0x549A62" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0x9A785D" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cloth" color="0xF5BF94" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="balloonArm" color="0xFF8658" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

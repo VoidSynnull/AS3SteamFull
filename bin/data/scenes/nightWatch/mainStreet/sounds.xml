@@ -1,0 +1,31 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">city_night_time.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+		<asset id="rightExit">none</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="plastic">ls_hollow_plastic_01.mp3,ls_hollow_plastic_02.mp3</asset>
+		<asset id="car">ls_car_hood_01.mp3,ls_car_hood_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+		<asset id="bounce">ls_tent_bounce_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="plastic">fs_hollow_plastic_01.mp3,fs_hollow_plastic_02.mp3,fs_hollow_plastic_03.mp3,fs_hollow_plastic_04.mp3</asset>
+		<asset id="car">fs_car_hood_01.mp3,fs_car_hood_02.mp3,fs_car_hood_03.mp3,fs_car_hood_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset event="watch_lock">lock_jiggle_01.mp3</asset>
+		<asset event="watch_unlock">door_gate_open_01.mp3</asset>
+		<asset event="watch_eyeSlit_open">metal_slit_open_01.mp3</asset>
+		<asset event="watch_eyeSlit_close">metal_slit_close_01.mp3</asset>
+		<asset event="watch_buzzer">buzzer_01.mp3</asset>
+	</sound>
+</sounds>

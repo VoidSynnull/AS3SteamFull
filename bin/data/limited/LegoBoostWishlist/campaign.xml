@@ -1,0 +1,34 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>LegoBoostWishlist</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">http://www.google.com</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Poster">http://www.google.com</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">http://www.google.com</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Wishlist">http://www.google.com</clickUrl> <!-- for clicking on wishlist button -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">http://doubleclick.net?param=blank</impression>
+			<impression type="moat">https://moat.com?param=blank</impression>
+			<impression type="moatClass">MOAT-omddisneydcm415376975536</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">http://doubleclick.net?param=blank</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">http://doubleclick.net?param=blank</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<boycards>
+		<card>2919</card>
+	</boycards>
+	<girlcards>
+		<card>2919</card>
+	</girlcards>
+</campaign>

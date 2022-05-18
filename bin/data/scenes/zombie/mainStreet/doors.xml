@@ -1,0 +1,28 @@
+<doors>
+	<door id="tunnelExit">
+		<scene>game.scenes.zombie.tunnel.Tunnel</scene>
+		<x>6683</x>
+		<y>320</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="commonExit">
+		<scene>game.scenes.zombie.common.Common</scene>
+		<x>622</x>
+		<y>850</y>
+		<label>
+			<text>COMMON ROOM</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

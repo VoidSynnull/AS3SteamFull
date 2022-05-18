@@ -1,0 +1,10 @@
+<components>
+<component class="game.components.motion.Mass">
+	<properties>
+		<mass>1</mass>
+	</properties>
+</component>
+<component class="game.components.entity.collider.SceneObjectCollider"/>
+<component class="game.components.entity.collider.CircularCollider"/>
+<component class="game.components.hit.SceneObjectHit"/>
+</components>

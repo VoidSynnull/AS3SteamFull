@@ -1,0 +1,17 @@
+<part>
+  	<id>poptropicon_goldface_front</id>
+  	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="powerGlove">
+		<className>game.data.specialAbility.islands.poptropicon.PowerGlove</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<validIslands>con3</validIslands>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<hide>
+		<part>hand1</part>
+	</hide>
+</part>

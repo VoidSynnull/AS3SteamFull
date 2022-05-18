@@ -1,0 +1,35 @@
+<dialogs>
+    <character id="player">
+		<statement id="power">exposed wiring, i wouldn't touch that without hand protection.</statement>
+		<statement id="charged">I already charged the electron pulse gauntlets.</statement>
+    </character>
+
+	<character id="wizard">
+		<statement id="soda">But I finally found myself a drink!</statement>
+		<statement id="now">Oh boy, now what's happening?</statement>
+		<statement event="machine_broken">Someone help me, i'm stuck!</statement>
+		<statement id="help">Someone help me, i'm stuck!</statement>
+		<statement id="thanks">I'm free! Thanks!</statement>
+		<statement id="here" triggerEvent="triggerEvent" triggerEventArgs="got_soda_">...you know, after all that I'm not even thirsty anymore. You can have this.</statement>
+    </character>
+    <character id="pinata">
+		<statement id="tyrants">Pinata-Man will never surrender to tyrants!</statement>
+    </character>
+    
+    <character id="goldFace">
+    	<statement>Call my agent! My publicist! My stylist! Anyone! </statement>
+		<statement id="help">Call my agent! My publicist! My stylist! Anyone!</statement>
+		<statement id="freedom">Finally! This cage was harder to escape than my modeling contract!</statement>
+    </character>
+    
+    <character id="hench0">
+		<statement id="bio">Stupid machine stole our biomass!</statement>
+		<statement id="wrench">Diagnostic complete. Repair requires hypersocket wrench and competent hench-bot.</statement>
+    </character>
+    
+    <character id="hench1">
+    	<statement id="silence">Initiate transmutation process.</statement>
+		<statement id="next">Import the next willing subject.</statement>
+		<statement id="wire">Main conduit ruptured. Attempting manual repair.</statement>
+    </character>
+</dialogs>

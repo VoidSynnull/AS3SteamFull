@@ -1,0 +1,11 @@
+<sounds>
+	<sound type="music">
+		<asset>atlantis_3_ending_cutscene.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="lightning">weapon_electric_zap_01.mp3</asset>
+		<asset triggeredByEvent="shake">thunder_clap_03.mp3</asset>
+		<asset triggeredByEvent="woosh">thunder_clap_04.mp3</asset>
+		<asset triggeredByEvent="warpZap">warp_zap.mp3</asset>
+	</sound>
+</sounds>

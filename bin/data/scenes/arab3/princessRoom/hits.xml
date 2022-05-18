@@ -1,0 +1,30 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="carpet" platform="true" color="0x9798AA">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" platform="true" color="0x996600">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="window_sill" platform="true" color="0xCFA6B3">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

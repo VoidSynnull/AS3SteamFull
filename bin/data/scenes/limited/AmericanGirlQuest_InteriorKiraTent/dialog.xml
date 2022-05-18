@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="kira">
+		<statement link="kiralink">Let's go on a night hike to look for clues and find the paradise parrot.</statement>
+		<statement id="kiralink" triggerEvent="triggerEvent" triggerEventArgs="startGame">Make sure to grab my rare boots and my outdoor outfit while you're here.</statement>
+	</character>
+</dialogs>

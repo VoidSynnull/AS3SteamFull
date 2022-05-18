@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullnavigator</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_rey2</hair>
+			<shirt>limited_rey2</shirt>
+			<pants>frenchman</pants>
+			<pack>limited_rey2</pack>
+			<item>limited_rey2</item>
+			<overshirt>limited_rey2</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>140</x>
+			<y>460</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

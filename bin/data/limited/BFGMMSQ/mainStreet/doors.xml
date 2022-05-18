@@ -1,0 +1,15 @@
+<doors>
+	<door id="customDoor">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=BFGQuest_Interior</scene> <!-- AS3 destination -->
+		<x>585</x> <!-- destination x pos in interior scene -->
+		<y>470</y> <!-- destination y pos in interior scene -->
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

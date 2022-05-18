@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="custom_blimp_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>captCrawfish</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>captCrawfish</marks>
+			<facial>captCrawfish</facial>
+			<hair>captCrawfish</hair>
+			<shirt>captCrawfish</shirt>
+			<pants>captCrawfish</pants>
+			<item>captCrawfish</item>
+			<overshirt>captCrawfish</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>0</x> <!-- blimpNPC movieClip needs to exist in scene interative layer -->
+			<y>0</y> <!-- blimpNPC movieClip needs to exist in scene interative layer -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

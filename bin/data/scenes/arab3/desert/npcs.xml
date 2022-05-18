@@ -1,0 +1,218 @@
+<npcs>
+	<npc id="enforcer">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>MTHscaredSumo</mouth>
+			<marks>an2_enforcer</marks>
+			<hair>an2_enforcer</hair>
+			<shirt>1</shirt>
+			<item>empty</item>
+			<pants>an_townie3</pants>
+			<overpants>an2_enforcer</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2860</x>
+			<y>1400</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<scale>.43</scale>
+	</npc>
+	
+	<npc id="old">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>scuba</mouth>
+			<marks>an_brokemerch</marks>
+			<hair>an_brokemerch</hair>
+			<shirt>an_brokemerch</shirt>
+			<pants>an_brokemerch</pants>
+			<overshirt>an_brokemerch</overshirt>
+			<overpants>an_brokemerch</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>3460</x>
+			<y>1438</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="old" event="genie_in_desert">
+		<animations loop="true">
+			<animation duration="54">game.data.animation.entity.character.BabyCry</animation>
+			<animation duration="100">game.data.animation.entity.character.BabyIdle</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>pgum1</mouth>
+			<marks>an_brokemerch</marks>
+			<facial>an_baby</facial>
+			<hair>arab_baby</hair>
+			<shirt>1</shirt>
+			<pants>storbabyb</pants>
+			<overshirt>an_brokemerch</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<scale>0.27</scale>
+		<position>
+			<x>3460</x>
+			<y>1438</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="turban">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa71</skinColor>
+			<hairColor>0x261e15</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>an_bigturban</marks>
+			<hair>an_bigturban</hair>
+			<shirt>an_bigturban</shirt>
+			<pants>an_bigturban</pants>
+			<overpants>an_bigturban</overpants>
+			<eyeState>squint</eyeState>
+			<item>an3_compass</item>
+		</skin>
+		<position>
+			<x>620</x>
+			<y>1438</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="genie">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x6bdbb6</skinColor>
+			<hairColor>0x1b362d</hairColor>
+			<mouth>teethgrin2</mouth>
+			<marks>an_genie</marks>
+			<hair>an_genie</hair>
+			<shirt>an_genie</shirt>
+			<pants>an_genie</pants>
+			<eyeState>squint</eyeState>
+			<item>empty</item>
+			<item2>empty</item2>
+		</skin>
+		<position>
+			<x>2600</x>
+			<y>500</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>0.27</scale>
+		<costumizable>false</costumizable>
+	</npc>
+	
+	<npc id="genieHuman" event="sky_chase_complete">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xdcba71</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>an_genie3</marks>
+			<hair>an_genie3</hair>
+			<shirt>an_genie3</shirt>
+			<pants>an_genie3</pants>
+			<overpants>an_genie3</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>550</x>
+			<y>1438</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>0.30</scale>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="genieThief" event="sky_chase_complete">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x6bdbb6</skinColor>
+			<hairColor>0x1b362d</hairColor>
+			<mouth>teethgrin2</mouth>
+			<marks>an_genie2</marks>
+			<facial>an2_master2</facial>
+			<hair>an_genie2</hair>
+			<shirt>an_genie2</shirt>
+			<pants>an_genie2</pants>
+			<overpants>an_princess</overpants>
+			<item>empty</item>
+			<item2>empty</item2>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1700</x>
+			<y>1038</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+		
+	<npc id="sultan" event="sky_chase_complete">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>HunterGiveUp</mouth>
+			<marks>an_sultan</marks>
+			<hair>an_sultan2</hair>
+			<shirt>an_sultan</shirt>
+			<item>an3_lamp</item>
+			<pants>an_sultan</pants>
+			<overpants>an_sultan</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>460</x>
+			<y>1438</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

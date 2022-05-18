@@ -1,0 +1,39 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poptropolis_games_main_theme_1st_half.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">dripping_scenery_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step6">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="brick">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="rope">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step6">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="brick">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="rope">fs_rope_01.mp3, fs_rope_02.mp3, fs_rope_03.mp3, fs_rope_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

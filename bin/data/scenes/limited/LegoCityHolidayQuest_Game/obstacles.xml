@@ -1,0 +1,131 @@
+<obstacles>
+	<!-- list obstacles types here: moving, static, boost, slick, or placement -->
+	<!-- each must have baseName and type -->
+	<!-- obstacles are grouped with attributes for all enclosed items -->	
+	<!-- attributes for individual items will override group attributes -->	
+	<!-- all item names must end with integer and match instance names in the FLA file -->
+	<obstacle baseName="cloud" type="slick" slickTime="1.5">
+		<item name="cloud1" />
+		<item name="cloud2" />
+	</obstacle>
+	<obstacle baseName="power" type="boost" boostSpeed="500" boostTime="2.0" >
+		<item name="power1" />
+	</obstacle>
+	<obstacle baseName="wreck" type="obstacle" hitSpeed="-300" hitTime="2" >
+		<item name="wreck1" />
+		<item name="wreck2" />
+		<item name="wreck3" />
+		<item name="wreck4" />
+	</obstacle>
+	<obstacle baseName="finish" type="placement" >
+		<item name="finish1" />
+	</obstacle>
+
+	<!-- list obstacles positions here in any order -->
+	<!-- each must have name, x, and y -->
+	<!-- names without numbers will sequentially pull from matching names above -->
+	<!-- 
+	<position name="finish1" x="500" y="49500"/>
+	<position name="wreck" x="800" y="48200"/>
+	<position name="wreck" x="650" y="48000"/>
+	<position name="wreck" x="200" y="47500"/>
+	<position name="cloud" x="350" y="47100"/>
+	<position name="wreck" x="650" y="47000"/>
+	
+	<position name="wreck" x="800" y="46000"/>
+	<position name="wreck" x="200" y="46100"/>
+	<position name="wreck" x="350" y="45500"/>
+	<position name="wreck" x="650" y="44500"/>
+	
+	<position name="wreck" x="800" y="43000"/>
+	<position name="wreck" x="200" y="43100"/>
+	
+	<position name="wreck" x="500" y="42000"/>
+	<position name="wreck" x="650" y="41000"/>
+	<position name="cloud" x="200" y="40100"/>
+	<position name="wreck" x="800" y="40000"/>
+	
+	<position name="wreck" x="350" y="39100"/>
+	<position name="wreck" x="650" y="38500"/>
+	<position name="power1" x="500" y="38200"/>
+	<position name="wreck" x="800" y="38100"/>
+	<position name="wreck" x="200" y="38000"/>
+	<position name="wreck" x="650" y="37500"/>
+	
+	<position name="wreck" x="500" y="36000"/>
+	<position name="wreck" x="800" y="35500"/>
+	<position name="cloud" x="800" y="35100"/>
+	<position name="wreck" x="200" y="35000"/>
+	<position name="wreck" x="350" y="34600"/>
+	
+	<position name="cloud" x="800" y="34100"/>
+	<position name="wreck" x="500" y="34000"/>
+	<position name="wreck" x="350" y="33500"/>
+	<position name="wreck" x="200" y="33000"/>
+	<position name="wreck" x="800" y="33100"/>
+	<position name="cloud" x="650" y="32100"/>
+	
+	<position name="wreck" x="350" y="32000"/>
+	<position name="cloud" x="200" y="30000"/>
+	<position name="wreck" x="800" y="30100"/>
+	
+	<position name="wreck" x="650" y="29000"/>
+	<position name="wreck" x="350" y="29000"/>
+	
+	<position name="wreck" x="500" y="28000"/>
+	<position name="power1" x="200" y="28000"/>
+	<position name="wreck" x="650" y="27000"/>
+	<position name="wreck" x="350" y="26500"/>
+	
+	<position name="wreck" x="650" y="26000"/>
+	<position name="wreck" x="500" y="25000"/>
+	 -->
+	<position name="finish1" x="500" y="24500"/>
+	<position name="wreck" x="650" y="23000"/>
+	<position name="wreck" x="350" y="23100"/>
+	<position name="cloud" x="800" y="22500"/>
+	<position name="wreck" x="500" y="22000"/>
+	
+	<position name="wreck" x="200" y="21100"/>
+	<position name="wreck" x="650" y="20000"/>
+	<position name="wreck" x="200" y="19500"/>
+	<position name="wreck" x="350" y="19000"/>
+	
+	<position name="wreck" x="500" y="18000"/>
+	<position name="wreck" x="350" y="17500"/>
+	<position name="wreck" x="800" y="17000"/>
+	<position name="wreck" x="200" y="17100"/>
+	<position name="power1" x="650" y="17000"/>
+	<position name="wreck" x="350" y="16100"/>
+	
+	<position name="wreck" x="500" y="15000"/>
+	<position name="wreck" x="800" y="14100"/>
+	<position name="cloud" x="500" y="14100"/>
+	<position name="wreck" x="200" y="14000"/>
+	<position name="wreck" x="350" y="13500"/>
+	<position name="wreck" x="350" y="12000"/>
+	
+	<position name="wreck" x="800" y="11000"/>
+	<position name="wreck" x="200" y="10100"/>
+	<position name="power1" x="500" y="9900"/>
+	<position name="wreck" x="200" y="9500"/>
+	<position name="wreck" x="350" y="9000"/>
+	
+	<position name="wreck" x="500" y="8000"/>
+	<position name="wreck" x="350" y="7500"/>
+	<position name="cloud" x="800" y="7000"/>
+	<position name="wreck" x="650" y="6100"/>
+	
+	<position name="wreck" x="350" y="5500"/>
+	<position name="cloud" x="650" y="5000"/>
+	<position name="wreck" x="200" y="5000"/>
+	
+	<position name="wreck" x="800" y="4500"/>
+	<position name="wreck" x="650" y="3500"/>
+	
+	<position name="wreck" x="350" y="3000"/>
+	<position name="wreck" x="500" y="2000"/>
+	<position name="cloud" x="350" y="1500"/>
+	<position name="wreck" x="200" y="1000"/>
+	<position name="wreck" x="800" y="800"/>
+</obstacles>

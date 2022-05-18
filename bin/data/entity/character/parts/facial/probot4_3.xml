@@ -1,0 +1,24 @@
+<part>
+	<id>probot4_3</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colors>
+		<color id="color1">0x6EBE45</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+	<specialAbility>
+  		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+ 		<parameters>
+			<param id="partType">facial</param>
+  		</parameters>
+  	</specialAbility>
+</part>

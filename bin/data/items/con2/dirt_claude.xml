@@ -1,0 +1,32 @@
+<item id="dirt_claude">
+	<type>island</type>
+	<subType>con2</subType>
+	<value>2,block</value>
+	<textfields>
+ 		<text id="title">
+      		<value>Dirt Claude</value>
+      		<styleFamily>CCG</styleFamily>
+      		<y>-180</y>
+      		<x>-120</x>
+    	</text>
+    	<text id="power">
+      		<value>Thick Skin</value>
+      		<styleFamily>CCG</styleFamily>
+      		<y>40</y>
+    	</text>
+    	<text id="description">
+      		<value>Block your opponent's action if it is of equal or lesser value.</value>
+      		<styleFamily>CCG</styleFamily>
+      		<width>250</width>
+      		<y>95</y>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/con2/background2.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent">
+  			<assetPath>items/con2/dirt_claude.swf</assetPath>
+    	</asset>
+    </assets>
+</item>

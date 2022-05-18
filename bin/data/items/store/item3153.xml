@@ -1,0 +1,41 @@
+<item id="3153">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Furry Monster 1</value>
+	 	 	</text>
+		<text id="storeSubTitle">
+				<value>Monster is the new black</value>
+			</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<gender>female</gender>
+			<marks>fm2</marks>
+			<hair>fm2</hair>
+			<shirt>fm2</shirt>
+			<overshirt>pfm3</overshirt>
+			<pack>fm2</pack>
+			<mouth>fm2</mouth>
+			<pants>pfm_pants</pants>
+		</look>
+	</looks> 
+</item>

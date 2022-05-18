@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Help us get the Krabby Patty formula back!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hiya!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

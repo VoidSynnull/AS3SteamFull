@@ -1,0 +1,21 @@
+<part>
+	<id>mk_lead_programmer01</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<gender>male</gender>
+	<notPrintable>true</notPrintable>
+	<campaignID>2001</campaignID>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>p_letter</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

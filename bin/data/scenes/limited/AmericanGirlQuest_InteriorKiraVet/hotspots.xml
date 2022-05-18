@@ -1,0 +1,23 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<!--<hotspot id="surfGame" type="poster">
+		<action type="enterQuest" folder="AmericanGirlQuest">Surf</action> 
+	</hotspot>-->
+	<hotspot id="kanga" type="poster">
+		<action type="gotoAndPlay">kanga,startAni</action> 
+	</hotspot>
+	<hotspot id="memoryGame" type="poster">
+		<action type="trigger">startGame</action>
+	</hotspot>
+	<hotspot id="beanprize" type="poster">
+		<action type="giveItemMale">2033</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2033</action>
+		<action type="autoPlay">beanprizeclip</action>		
+	</hotspot>
+</hotspots>
+

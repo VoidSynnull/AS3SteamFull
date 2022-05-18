@@ -1,0 +1,32 @@
+<dialogs>
+	<character id="player">
+		<statement id="timber">Timber!</statement>
+		<statement id="wontBudge">It won't budge by just pushing on it.</statement>
+		<statement id="thick">The jungle is too thick! I'd get lost without a map.</statement>
+		<!--first conversation-->
+		<statement id="whatDoing" link="getMeDown" linkEntityId="octavian" triggerEvent="triggerEvent" triggerEventArgs="pan_octavian">What are you doing up there?</statement>
+		<statement id="howCanI" link="thisMap" linkEntityId="octavian" triggerEvent="triggerEvent" triggerEventArgs="pan_octavian">How can I do that?</statement>
+    </character>
+	<character id="octavian">
+		<statement id="getDown" triggerEvent="triggerEvent" triggerEventArgs="pan_player">Get me down from here!</statement>
+		<!--first conversation-->
+		<statement id="look" link="whatDoing" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="pan_player">You there! Look up here!</statement>
+		<statement id="getMeDown" link="howCanI" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="pan_player">Never mind why I'm up here -- just get me down!</statement>
+		<statement id="thisMap" triggerEvent="triggerEvent" triggerEventArgs="give_map" >There must be something on this island that you can use. This map will help you find it.</statement>
+		
+		<conversation id="the_beginning">
+			<exchange>
+				<question>What were you doing up there?</question>
+				<answer>The piece of map I gave you is only the beginning. It's a part of a larger map -- a map of all Poptropica!</answer>
+			</exchange>
+			<exchange>
+				<question>Where is that map now?</question>
+				<answer>I was robbed and left stranded by my traveling companions. I suspect they've taken it to the Viking fort to try to sell it.</answer>
+			</exchange>
+			<exchange>
+				<question>Dastardly! Can I help you get it back?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="octavian_run_off">I'll split any proceeds if you can find it -- but I need the rest of the map.</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

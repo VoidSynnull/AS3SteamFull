@@ -1,0 +1,14 @@
+<part id="hand">
+  <type>hand</type>
+  <retrieveColors>
+	<part id="skinColor"/>
+  </retrieveColors>
+  <colors>
+	<color id="skinColor"/>
+  </colors>
+  <colorables>
+	<colorable>	<!-- color id is not defined, so that clip will be last color applied. -->
+		<clip instanceName="colorFill"/>
+	</colorable>
+  </colorables>
+</part>

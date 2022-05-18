@@ -1,0 +1,11 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>BlimpCampaignName</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths (don't change) -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.google.com</clickUrl> <!-- Default clickURL -->
+		<clickUrl id="Card">http://www.amazon.com</clickUrl> <!-- if needing different clickURL for cards -->
+	</clickUrls>
+</campaign>

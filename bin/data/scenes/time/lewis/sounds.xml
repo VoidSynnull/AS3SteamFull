@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Lewis_and_Clark_Expedition.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+		<asset id="wood">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+		<asset id = "water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+		<asset id="wood">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3,ls_water_splash_02.mp3</asset>
+		<asset id="bounce">ls_tent_bounce_01.mp3</asset>
+		<asset id="rope">ls_rope_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="beaver" triggeredByEvent="rodent_pop">pop_02.mp3</asset>
+	</sound>
+</sounds>

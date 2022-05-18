@@ -1,0 +1,56 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="leftExit">door_metal_lab_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="phone_ring" loop="true">phone_ring_01_L.mp3</asset>
+		<asset triggeredByEvent="dial_tone" loop="true">dial_tone_01_L.mp3</asset>
+		<asset triggeredByEvent="cellphone_vibrate">cellphone_vibrate_01.mp3</asset>
+		<asset triggeredByEvent="cellphone_ring">cellphone_ring_tone_01.mp3</asset>
+		<asset triggeredByEvent="paper_flys_out">paper_flap_01.mp3</asset>
+		<asset triggeredByEvent="board_cross_out">draw_on_board_01.mp3</asset>
+		<asset triggeredByEvent="board_erase">cross_out_on_board_01.mp3</asset>
+		<asset triggeredByEvent="board_problem_solved">none</asset>
+		<asset triggeredByEvent="cup_falls_onto_holder">foam_cup_impact_01.mp3</asset>
+		<asset triggeredByEvent="cup_filled">pour_drink_01.mp3</asset>
+		<asset triggeredByEvent="machine_accept_blueberry">ping_07.mp3</asset>
+		<asset triggeredByEvent="start_cranking">gears_05.mp3</asset>
+		<asset triggeredByEvent="cranking_loop" loop="true">gears_05b_L.mp3</asset>
+		<asset triggeredByEvent="machine_bar_filling_up">progress_ping_01.mp3, progress_ping_02.mp3, progress_ping_03.mp3, progress_ping_04.mp3, progress_ping_05.mp3, progress_ping_06.mp3, progress_ping_07.mp3, progress_ping_08.mp3, progress_ping_09.mp3, progress_ping_10.mp3, progress_ping_11.mp3, progress_ping_12.mp3, progress_ping_13.mp3, progress_ping_14.mp3, progress_ping_15.mp3, progress_ping_16.mp3, progress_ping_17.mp3, progress_ping_18.mp3</asset>
+		<asset triggeredByEvent="gun_revealed">steam_01.mp3</asset>
+		<asset triggeredByEvent="machine_complete">ping_08.mp3</asset>
+		<asset triggeredByEvent="gun_shot">retor_ping_08.mp3</asset>
+		<asset triggeredByEvent="doctor_cured">cured_01.mp3</asset>
+		<asset triggeredByEvent="cage_opened">cage_open_01.mp3</asset>
+		<asset triggeredByEvent="cage_closed">cage_close_01.mp3</asset>
+		<asset triggeredByEvent="zombie_moan">none</asset>
+		<asset triggeredByEvent="hammering_doorway">board_door_01.mp3</asset>
+		<asset triggeredByEvent="zombie_attack_wood">wood_impact_01.mp3</asset>
+		<asset triggeredByEvent="zombie_broke_through">wood_impact_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="coffee">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="table">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="crate">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="cage">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="machine">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="coffee">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="table">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="crate">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="cage">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="machine">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

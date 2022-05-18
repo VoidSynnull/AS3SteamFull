@@ -1,0 +1,28 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>40000</winDistance>
+	<winDelay>0</winDelay>
+	<returnX>2900</returnX>
+	<returnY>1346</returnY>
+	<playerScale>.4</playerScale>
+
+	<bikeSpeed>8</bikeSpeed>
+	<jumpSpeed>900</jumpSpeed>
+	<runningOffset>100</runningOffset>
+	<numHits>10</numHits>
+	<lockCameraNPC>true</lockCameraNPC>
+	<multiJump>true</multiJump>
+	<numOfJumps>5</numOfJumps>
+	<looks>
+		<skin>
+			<overshirt>limited_americangirl_surfboard</overshirt>
+		</skin>
+		<skin>
+			<overshirt>limited_americangirl_surfboard</overshirt>
+		</skin>
+	</looks>
+	<obstacleWrap>3500</obstacleWrap>
+	<obstacleY>972</obstacleY>
+	<obstacleStartY>1100</obstacleStartY>
+	<obstacleSpaceY>200</obstacleSpaceY>
+</game>

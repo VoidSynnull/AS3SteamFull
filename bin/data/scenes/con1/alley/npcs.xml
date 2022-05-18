@@ -1,0 +1,108 @@
+<npcs>
+	<npc id="guard1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffd2c6</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>poptropicon_guard1</marks>
+			<facial>poptropicon_guard1</facial>
+			<hair>poptropicon_guard2</hair>
+			<shirt>poptropicon_consec</shirt>
+			<pants>peinstein2</pants>
+			<overpants>poptropicon_consec</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1200</x>
+			<y>1830</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="guard2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xe6c082</skinColor>
+			<hairColor>0xffabe7</hairColor>
+			<mouth>prisoner5</mouth>
+			<marks>bags</marks>
+			<facial>lc_tech1</facial>
+			<hair>poptropicon_guard1</hair>
+			<shirt>poptropicon_consec</shirt>
+			<pants>peinstein2</pants>
+			<overpants>poptropicon_consec</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2400</x>
+			<y>1830</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="bouncer" event="bouncer_on">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffe9e6</skinColor>
+			<hairColor>0xf9aa18</hairColor>
+			<mouth>shadyCop</mouth>
+			<marks>poptropicon_bouncer</marks>
+			<facial>lc_mic</facial>
+			<hair>poptropicon_bouncer</hair>
+			<shirt>poptropicon_consec</shirt>
+			<pants>pbiker1</pants>
+			<overshirt>mtcoalman</overshirt>
+			<overpants>poptropicon_consec</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>3220</x>
+			<y>1830</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<!-- <npc id="hero" event="gotItem_powerGem">
+		<animations loop="true" random="true">
+			<animation duration="60">game.data.animation.entity.character.Think</animation>
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="60">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>teethGrin2</mouth>
+			<facial>poptropicon_hero2</facial>
+			<hair>poptropicon_hero2</hair>
+			<shirt>poptropicon_hero2</shirt>
+			<pants>gsrprof</pants>
+			<pack>poptropicon_hero2</pack>
+			<overshirt>poptropicon_hero2</overshirt>
+			<overpants>poptropicon_hero2</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>900</x>
+			<y>566</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc> -->
+</npcs>

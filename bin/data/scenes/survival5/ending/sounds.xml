@@ -1,0 +1,14 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_5_Ending_Cutscene.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" baseVolume=".4" fade="true" triggeredByEvent="play_waterfall">waterfall_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="open_door">sliding_door_open_01.mp3</asset>
+		<asset triggeredByEvent="close_door">sliding_door_close_01.mp3</asset>
+	</sound>
+</sounds>

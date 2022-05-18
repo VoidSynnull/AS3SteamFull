@@ -1,0 +1,72 @@
+<sounds>	
+	<sound type="music">
+		<asset loop="true">Survival_4_Main_Theme.mp3</asset>
+	</sound>
+
+	<sound type="ambient">
+		<asset loop="true" fade="true" baseVolume=".5">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>unlocked_01.mp3</asset>
+		<asset id="doorGrounds">openDoor_pushBar.mp3</asset>
+		<asset id="doorTrophy">unlocked_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="pathBlock" baseVolume="4" loop="true">heavy_gritty_drag_01_L.mp3</asset>
+		<asset id="hornInteraction" baseVolume="3">horn_call_01.mp3</asset>
+		<asset id="candleInteraction">gears_16.mp3</asset>
+		<asset id="flame0" loop="true" modifiers="proximity">fire_01_L.mp3</asset>
+		<asset id="painting">gears_05.mp3</asset>
+		<asset id="doorGrounds">lock_jiggle_01.mp3</asset>
+		<asset id="doorTrophy">lock_click_01.mp3</asset>
+		<asset id="voiceLockScene">ping_03.mp3</asset>
+		<asset id="masterLockScene">ping_03.mp3</asset>
+		<asset id="keyLock">ping_03.mp3</asset>
+		<asset id="masterLock">ping_03.mp3</asset>
+		<asset id="voiceLock" fade="true" loop="true">electric_hum_01_loop.mp3</asset>
+		<asset id="bullmoose">wood_heavy_impact_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="fail">
+		<asset id="keyLock">alarm_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="sizzle">
+		<asset id="flame0" modifiers="proximity">sizzle_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="roll">
+		<asset id="bullmoose">heavy_gritty_roll_04_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="keypress1">
+		<asset id="content">keyboard_type_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="keypress2">
+		<asset id="content">keyboard_type_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="keypress3">
+		<asset id="content">keyboard_type_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="creaky0">wood_plank_creak_01.mp3</asset>
+		<asset id="creaky1">wood_creak_01.mp3</asset>
+		<asset id="creaky2">wood_creak_01.mp3</asset>
+		<asset id="creaky3">wood_break_02.mp3</asset>
+		<asset id="baseGround">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="deepWood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="creaky0">wood_plank_creak_01.mp3</asset>
+		<asset id="creaky1">wood_creak_01.mp3</asset>
+		<asset id="creaky2">wood_creak_01.mp3</asset>
+		<asset id="creaky3">wood_break_02.mp3</asset>
+		<asset id="baseGround">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="deepWood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

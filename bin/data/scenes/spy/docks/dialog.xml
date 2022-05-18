@@ -1,0 +1,18 @@
+<dialogs>
+    <character id="player">
+    	<statement>I'd have to be invisible to get past those guards!</statement>
+    </character>
+    
+    <character id="agent_trash">
+    	<statement>Come see me after you talk to Director D.</statement>
+    	<statement></statement>
+    	<conversation event="gotItem_clue3">
+    		<exchange>
+    			<question>Thanks for the message.</question>
+    			<answer>Good luck!</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	
+    </character>
+</dialogs>

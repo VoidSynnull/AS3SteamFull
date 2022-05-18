@@ -1,0 +1,51 @@
+<item id="3071">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterHeadContentView</className>
+		<y>12</y>
+	</contentClass>
+
+				<buttons>
+			<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>BOBBLE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+	 	 	<text id="storeTitle">
+					<value>Bobblehead</value>
+	 	 	</text>
+		<text id="storeSubTitle">
+					<value>Time to shake things up.</value>
+				
+	 	 	</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+ 	<specials>
+			<specialAbility>bobblehead</specialAbility>
+	</specials>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+		
+</item>

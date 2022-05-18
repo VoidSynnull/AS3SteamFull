@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset>Poptropolis_Main_Theme_Full.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">Landing_Snow.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="fillRotationSFX">fill_up_rotation.mp3</asset>
+		<asset triggeredByEvent="completeRotation1SFX">points_ping_02a.mp3</asset>
+		<asset triggeredByEvent="completeRotation2SFX">points_ping_02b.mp3</asset>
+		<asset triggeredByEvent="completeRotation3SFX">points_ping_02c.mp3</asset>
+		<asset triggeredByEvent="completeRotation4SFX">points_ping_02d.mp3</asset>
+		<asset triggeredByEvent="cannonBallSFX">water_splash_05.mp3</asset>
+		<asset triggeredByEvent="goodDiveSFX">water_splash_06.mp3</asset>
+	</sound>
+</sounds>

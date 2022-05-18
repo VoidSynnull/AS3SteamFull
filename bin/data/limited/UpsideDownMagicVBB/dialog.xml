@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="nory">
+		<statement event="hasAdItem_2997">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement>Hi, I'm Nory, I'm going to Sage Academy. If you watch this video about me you'll get a Dritten!</statement> <!-- default if above not true -->
+	</character>
+	<character id="reina">
+		<statement>I'm Reina. I can harness the power of fire.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

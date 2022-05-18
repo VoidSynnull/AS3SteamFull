@@ -1,0 +1,93 @@
+<doors>
+	<door id="labWindowExit">
+		<scene>game.scenes.vampire.laboratory.Laboratory</scene>
+		<x>77</x>
+		<y>469</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="labExit">
+		<scene>game.scenes.vampire.laboratory.Laboratory</scene>
+		<x>637</x>
+		<y>587</y>
+		<label>
+			<text>Enter</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="countsChamberExit">
+		<scene>game.scenes.vampire.countsChamber.CountsChamber</scene>
+		<x>152</x>
+		<y>990</y>
+		<label>
+			<text>Enter</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="greenhouseExit">
+		<scene>game.scenes.vampire.armory.Armory</scene>
+		<x>400</x>
+		<y>649</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="greatHallExit">
+		<scene>game.scenes.vampire.greatHall.GreatHall</scene>
+		<x>1145</x>
+		<y>947</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="knockerClick">
+		<scene>game.scenes.vampire.greatHall.GreatHall</scene>
+		<x>2495</x>
+		<y>1686</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+		<door id="groundsExit">
+		<scene>game.scenes.vampire.castleGrounds.CastleGrounds</scene>
+		<x>3541</x>
+		<y>1350</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,33 @@
+<part>
+	<id>may_item_straw</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Drink</param> 
+						<param id="waitLabel" type="String">drinking</param> 
+						<param id="maxFrames" type="int">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+
+					</parameters>
+				</action>
+					<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.ShootSpitballs</param>
+						<param id="part" type="string">item</param> 
+						<param id="startColor" type="number">0xFFFFFF</param> 
+						<param id="endColor" type="number">0xFFFFFF</param> 
+						<param id="offsetX" type="number">40</param> 
+						<param id="offsetY" type="number">-15</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

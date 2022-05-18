@@ -1,0 +1,154 @@
+<npcs>
+	<npc id="pinata">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>leo</mouth>
+			<facial>poptropicon_eahero03</facial>
+			<hair>9</hair>
+			<shirt>1</shirt>
+			<pants>astrocurrator</pants>
+			<pack>poptropicon_eahero03</pack>
+			<overshirt>poptropicon_elfarcher2</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>720</x>
+			<y>780</y>
+		</position>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="wizard" event="machine_broken">
+	 	<animations loop="true">
+			<animation duration="100">game.data.animation.entity.character.Stand</animation>
+			<animation duration="45">game.data.animation.entity.character.Grief</animation>
+		</animations>		
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>vcdraculaold</marks>
+			<facial>poptropicon_wizard</facial>
+			<hair>vcchris</hair>
+			<shirt>mthninjablue</shirt>
+			<pants>mtsusanb</pants>
+			<pack>skullmoroguy3</pack>
+			<item>sodacan2</item>
+			<overshirt>mthfishmonger</overshirt>
+			<overpants>mthreferee</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+	</npc>
+	
+	<npc id="wizard">	
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>vcdraculaold</marks>
+			<facial>poptropicon_wizard</facial>
+			<hair>vcchris</hair>
+			<shirt>mthninjablue</shirt>
+			<pants>mtsusanb</pants>
+			<pack>skullmoroguy3</pack>
+			<item>sodacan2</item>
+			<overshirt>mthfishmonger</overshirt>
+			<overpants>mthreferee</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>400</x>
+			<y>780</y>
+		</position>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="goldFace">
+	 	<animations loop="true">
+			<animation duration="50">game.data.animation.entity.character.Grief</animation>
+			<animation duration="150">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>2</mouth>
+			<marks>empty</marks>
+			<facial>poptropicon_goldface</facial>
+			<hair>mk_designer02</hair>
+			<shirt>poptropicon_goldface</shirt>
+			<pants>poptropicon_goldface</pants>
+			<pack>poptropicon_goldface</pack>
+			<overshirt>poptropicon_goldface</overshirt>
+			<eyeState>casual</eyeState>
+			<item>poptropicon_goldface_front</item>
+		</skin>
+		<position>
+			<x>1297</x>
+			<y>400</y>
+		</position>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="hench0">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x2b1e1e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_henchbot</facial>
+			<shirt>poptropicon_henchbot</shirt>
+			<pants>1</pants>
+			<overshirt>poptropicon_henchbot</overshirt>
+			<eyeState>squint</eyeState>
+			<pack>empty</pack>
+		</skin>
+		<position>
+			<x>500</x>
+			<y>930</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+		<faceSpeaker>false</faceSpeaker>
+		<costumizable>false</costumizable>
+	</npc>
+	
+	<npc id="hench1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x2b1e1e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_henchbot</facial>
+			<shirt>poptropicon_henchbot</shirt>
+			<pants>1</pants>
+			<overshirt>poptropicon_henchbot</overshirt>
+			<eyeState>squint</eyeState>
+			<pack>empty</pack>
+		</skin>
+		<position>
+			<x>670</x>
+			<y>930</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+		<costumizable>false</costumizable>
+	</npc>
+</npcs>

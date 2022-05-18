@@ -1,0 +1,46 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MilkPepPhotoBooth/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- from scene.xml in ad scene -->
+	<assets type="building" path="assets/limited/MilkPepPhotoBooth/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- avatar parts for exterior NPC only -->	
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>1</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_milkpep_npc2</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_milkpep_npc2</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>ad_pranks_kaz</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>ad_pranks_kaz</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>char6</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>char6</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,16 @@
+<part>
+	<id>limited_captain_underpants</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2704</campaignID>
+	<specialAbility id="PlayPopupAnim">
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">CaptUndTransformIC/jetpack.swf</param>
+			<param id="tracking">CaptUndTransformIC,Cape</param>
+			<param id="useNPC">true</param>
+		</parameters>
+	</specialAbility>
+</part>

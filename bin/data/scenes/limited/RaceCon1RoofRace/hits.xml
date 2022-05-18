@@ -1,0 +1,53 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stair" color="0xACB7AF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="railing" color="0xBECCC1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="flowerBed" color="0xDED1B2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="building" color="0xE1E0D5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dumpster" color="0x9BC5AD" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="shack" color="0xBFCAB3" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="waterTowerBase" color="0xC1D8D5" platform="true">
+		<component type="platform">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="waterTowerRoof" color="0xD6B1A8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="umberella" color="0xDFAEF4" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1250</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+</hits>

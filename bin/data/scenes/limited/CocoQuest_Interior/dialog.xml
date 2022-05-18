@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="miguel">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Help me return Hector's leg bone.</statement>
+	</character>
+	<character id="hector">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="dogrun">Hey, thanks for finding my leg. Watch out for Dante, the dog. He just loves my bones.</statement>
+		<statement id="dog" triggerEvent="triggerEvent" triggerEventArgs="enddog">Oh no! There he is! Yikes! Gotta go!</statement>
+	</character>
+	<character id="delacruz">
+		<statement>Watch the video.</statement>
+	</character>
+	<character id="dante">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Bark!</statement>
+	</character>
+</dialogs>

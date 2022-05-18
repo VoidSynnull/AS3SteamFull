@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town_indoors.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- <asset triggeredByEvent="gotItem_crowbar">card_get.mp3</asset> -->
+		<asset id="interaction" triggeredByEvent="bell_ring">desk_bell_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="counter">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="shelves">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="register">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="baseGround">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="counter">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="shelves">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="register">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="baseGround">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,13 @@
+<groups>
+	<group event="got_all_puzzle_pieces" triggerAndSave="true">
+		<and>
+			<event type="got_puzzle_piece_1"/>
+			<event type="got_puzzle_piece_2"/>
+			<event type="got_puzzle_piece_3"/>
+			<event type="got_puzzle_piece_4"/>
+			<event type="got_puzzle_piece_5"/>
+			<event type="got_puzzle_piece_6"/>			
+		</and>
+	</group>
+
+</groups>

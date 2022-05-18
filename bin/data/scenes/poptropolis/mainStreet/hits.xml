@@ -1,0 +1,44 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="grass" color="0xB7CCA7" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="concrete" color="0xE8E8D1" platform="true">
+		<component type="platform"/>
+		<depth>1</depth>
+	</hit>
+	
+	<hit id="step6" color="0x66FFFF" platform="true">
+		<component type="platform">
+			<depth>2</depth>
+		</component>
+	</hit>
+	
+	<hit id="brick" color="0xE2A697" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="sand" color="0x003399" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tree" color="0xB2AF9B" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rope" color="0xDFD9B9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,24 @@
+<item id="3298">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset>
+			<assetPath>items/store/item3298.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeSubTitle">
+			<value>Charlie and the Chocolate Factory</value>
+		</text>
+		<text id="storeTitle">
+			<value>Oompa-Loompa Power</value>
+			<size>26</size>
+		</text>
+	</textfields>
+</item>

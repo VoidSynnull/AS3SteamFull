@@ -1,0 +1,24 @@
+<part>
+	<id>priding3</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0xCBCE4C</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="active_obj.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+ 		<parameters>
+	  		<param id="partType">item</param>
+  		</parameters>
+  	</specialAbility>
+</part>

@@ -1,0 +1,12 @@
+<hotspots>
+	<hotspot type="poster" id="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+	<hotspot type="poster" id="startGame">
+		<action type="enterQuest">Fly|game.scene.template.ads.RaceGame|Scene</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+	<hotspot locked="false" type="video" id="videoContainer" game="||true" fullscreen="true">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+</hotspots>

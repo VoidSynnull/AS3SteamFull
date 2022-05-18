@@ -1,0 +1,15 @@
+<events>
+	<group type="triggered" id="rain">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">startRain</param2>
+		</event>
+	</group>
+	<group type="triggered" id="monkeyIsland">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+			<param1 id="param">Finding</param1>
+		</event>
+	</group>
+</events>

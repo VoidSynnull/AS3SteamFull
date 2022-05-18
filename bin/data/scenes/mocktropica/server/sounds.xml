@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Brainiacs.mp3</asset>
+	</sound>
+	<sound type="ambient">
+    	<asset loop="true">tech_lab.mp3</asset>
+    </sound>
+	<sound type="effects" action="step">
+		<asset id="platform">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="baseGround">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="platform">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="baseGround">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+	</sound>
+	  
+</sounds>

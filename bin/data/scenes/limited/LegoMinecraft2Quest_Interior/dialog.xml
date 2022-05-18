@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="Alex">
+		<statement link="start" linkEntityId="player"></statement>
+    </character>
+	<character id="Creeper1">
+		<statement link="creeper" linkEntityId="player"></statement>
+    </character>
+	<character id="Creeper2">
+		<statement link="creeper" linkEntityId="player"></statement>
+    </character>
+	<character id="Creeper3">
+		<statement link="creeper" linkEntityId="player"></statement>
+    </character>
+    <character id="player">
+		<statement id="start">You want me to explore the cave?</statement>
+		<statement id="creeper">Yikes! I'd better escape into this cave.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,44 @@
+<item id="3725"> <!-- Change this card ID -->
+	<type>custom</type>
+	<subType>general</subType>
+
+	<buttons>
+		<btn>
+			<conditional id="hasAbility" isTrue="true"/>
+			<label>PUT AWAY</label>
+			<actions>
+				<action type="deactivatePower"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+			<label>USE</label>
+			<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+						<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+		</btn>
+	</buttons>
+
+	<textfields>
+		<text id="storeTitle">
+			<value>Hover Board</value> <!-- Change this title -->
+		</text>
+	</textfields>
+
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent" />
+	</assets>
+
+	<conditionals>
+		<conditional type="hasAbility" />
+	</conditionals>
+
+	<specials>
+		<specialAbility>store_zom_hoverboard</specialAbility>
+	</specials>
+</item>

@@ -1,0 +1,19 @@
+<part>
+	<id>valentine_minefield</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="WhoopeeCushion">
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="swfPath">limited/PromoCodeMS/WhoopeeCushion.swf</param>
+			<param id="sprayOffsetX">32</param>
+			<param id="sprayOffsetY">-8</param>
+			<param id="numSounds">4</param>
+			<param id="audioPrefix">fart_0</param>
+			<param id="doAirEffect">true</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,12 @@
+<tracking>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice> <!-- game code forces this to Video -->
+		<subchoice>videoContainer</subchoice> <!-- game code will supply video container name as subchoice -->
+	</track>
+</tracking>

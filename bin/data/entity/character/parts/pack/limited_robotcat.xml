@@ -1,0 +1,14 @@
+<part>
+	<id>limited_robotcat</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<campaignID>2919</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/robotcat_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

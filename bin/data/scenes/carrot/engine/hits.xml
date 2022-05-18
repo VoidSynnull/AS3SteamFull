@@ -1,0 +1,55 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="crane">
+		<component type="movingPlatform">
+			<visible>craneArt</visible>
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>1170</x>
+					<y>617</y>
+				</point>
+				<point>
+					<x>2480</x>
+					<y>617</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	<hit id="craneL">
+		<component type="movingPlatform">
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>1170</x>
+					<y>752</y>
+				</point>
+				<point>
+					<x>2480</x>
+					<y>752</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	<hit id="metalPlatform" color="0xD176A4" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="machinery" color="0x6FCB54" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="container" color="0x9BAF5C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crates" color="0x55C691" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concreteFloor" color="0x66A4FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinPipes" color="0x9DECFF" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

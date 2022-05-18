@@ -1,0 +1,15 @@
+<part>
+	<id>limited_milkpep_basketball</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2964</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.Dribble</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="bounceTime">.5</param>
+			<param id="tracking">MilkPepMMSQ,Dribble Power</param>
+		</parameters>
+	</specialAbility>
+</part>

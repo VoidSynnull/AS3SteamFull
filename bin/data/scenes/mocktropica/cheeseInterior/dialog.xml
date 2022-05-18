@@ -1,0 +1,26 @@
+<dialogs>
+  <character id="player">
+    <statement id="machineBroke2">Maybe you should go back to your old job now. Just a thought!</statement>
+<statement id="no_use_axe">What would I use it on?</statement>
+  </character>
+  <character id="designer">
+    <conversation>
+      <exchange>
+        <question>Are you Lance Pitcher, the Poptropica Designer?</question>
+        <answer>Now that's a name I've not heard in a long time! but yes, that's me.</answer>
+      </exchange>
+      <exchange>
+        <question>You're needed back at Poptropica Worldwide HQ. They can't finish the island without you!</question>
+        <answer>No way. My new job is so much more stress-free. Plus, I get free cheese curds!</answer>
+      </exchange>
+      <exchange>
+        <question>Is there anything I could do to get you back?</question>
+        <answer triggerEvent="triggerEvent" triggerEventArgs="enableCurds">I think not. As long as cheese curds keep coming out of the tube, I've got a job I love!</answer>
+      </exchange>
+    </conversation>
+    <statement id="freecurds">I'm sorry I can't be of more help. Here, take this free box of cheese curds.</statement>
+    <statement id="dont_touch">Hey! Don't touch that! You're not properly trained in cheese curd machinery operation!</statement>
+    <statement id="machineBroke1">No! My cheese curds! Noooooo!</statement>
+    <statement id="machineBroke3">It is with much sadness that I agree to return to Poptropica Worldwide HQ. There is nothing here for me now.</statement>
+  </character>
+</dialogs>

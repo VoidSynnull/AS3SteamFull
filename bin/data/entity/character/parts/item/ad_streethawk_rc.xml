@@ -1,0 +1,29 @@
+<part>
+	<id>ad_streethawk_rc</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2602</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/HotWheelsStreetHawkMVU/CarAnim.swf</param>
+			<param id="standingOnly">true</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">true</param>
+			<param id="tracking">HotWheelsStreetHawkMVU,Remote Control</param>
+		</parameters>
+		<actions>
+			<actionChain id="after_actions">
+				<action class="TalkAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="say_id" type="string">Wow, it went 200 feet!</param> 
+						<param id="directSayText" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

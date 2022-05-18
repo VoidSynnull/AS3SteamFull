@@ -1,0 +1,31 @@
+<item id="growman">
+	<type>store</type>
+	<subType>general</subType>
+	<value>1,both</value>
+	<textfields>
+ 		<text id="title">
+      		<value>Growman</value>
+      		<styleFamily>CCG</styleFamily>
+      		<styleId>title_long</styleId>
+      		<y>-180</y>
+      		<x>-120</x>
+    	</text>
+    	<text id="power">
+      		<value>Extra Reach</value>
+      		<styleFamily>CCG</styleFamily>
+      		<y>40</y>
+    	</text>
+    	<text id="description">
+      		<value>Play another card on your remaining action slot.</value>
+      		<styleFamily>CCG</styleFamily>
+      		<width>250</width>
+      		<y>100</y>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/CCGBackground1.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent"/>
+    </assets>
+</item>

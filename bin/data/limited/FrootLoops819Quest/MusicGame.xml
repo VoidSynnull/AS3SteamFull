@@ -1,0 +1,25 @@
+<game>
+	<musicFile>ClubNouveauRiche.mp3</musicFile>
+	<musicVolume>50</musicVolume>
+	<timeout>34</timeout>
+	<numDrums>3</numDrums>
+	<numAnims>6</numAnims>
+	<speed>140</speed> <!-- pixels per second -->
+	<needleJump>4</needleJump>
+	<overlap>85</overlap>
+	<accuracy>0.75</accuracy>
+	<bpm>42.0</bpm>
+	<initialDist>460</initialDist>
+	<note0>0.5,1.5,6,9,10,14,16,20</note0>
+	<note1>0,2,4,7,12,12.5,13,18</note1>
+	<note2>2.75,5,8,11,15,17,19,21</note2>
+	<color1>0xF4E0AD,0x7CB7CA,0xF05957</color1>
+	<color2>0xF4E0AD,0x7CB7CA,0xF05957</color2>
+	<particleClassName>game.particles.emitter.specialAbility.ColoredBomb</particleClassName>
+	<particleRange>10,80</particleRange>
+	<buttonScale>1.5</buttonScale>
+	<correctSound>crunch_01.mp3</correctSound>
+	<incorrectSound>dissonant_guitar_03.mp3</incorrectSound>
+	<returnX>2950</returnX>
+	<returnY>625</returnY>
+</game>

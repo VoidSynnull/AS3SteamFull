@@ -1,0 +1,16 @@
+<part>
+	<id>limited_milkpep_kid2</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>milkpep_kid2_number</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

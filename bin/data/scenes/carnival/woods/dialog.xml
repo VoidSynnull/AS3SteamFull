@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="dan">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="lock, false">H-hello? Dr. Dan?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="dan_ran_away, true">Stay Back!</answer>
+			</exchange>
+		</conversation>
+	</character>
+	<character id="player">
+		<statement triggeredByEvent="dan_ran_away">Wait!</statement>
+	</character>
+</dialogs>

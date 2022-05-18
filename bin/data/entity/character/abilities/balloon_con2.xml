@@ -1,0 +1,16 @@
+<specialAbility id="balloon_con2">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddBalloon</className>
+	<triggerable>false</triggerable>
+	<validIslands>con2</validIslands>
+	
+	<parameters>
+		<param id="swfPath">scenes/con2/shared/balloon.swf</param>
+		<param id="stringColor">0x223D5C</param>
+		<param id="stringThickness">3</param>
+		<param id="gravity">300</param>
+		<param id="knotX">3</param>
+		<param id="rate">0.075</param>
+		<param id="clickable">true</param>
+	</parameters>
+</specialAbility>

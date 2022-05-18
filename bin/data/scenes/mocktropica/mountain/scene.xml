@@ -1,0 +1,72 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1794</right>
+		<bottom>5507</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>1894</right>
+		<bottom>5423</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,photos.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/mocktropica/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer event="set_day">
+			<asset>backdropDay.swf</asset>
+			<rate>.75</rate>
+			<zIndex>0</zIndex>
+		</layer>
+		<layer event="set_night">
+			<asset>backdropNight.swf</asset>
+			<rate>.75</rate>
+			<zIndex>1</zIndex>
+		</layer>
+	 	<layer event="mountain_unfinished">
+			<asset>unfinishedSky.swf</asset>
+			<rate>.75</rate>
+			<zIndex>2</zIndex>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+			<zIndex>4</zIndex>
+		</layer>
+	 	<layer event="mountain_unfinished">
+			<asset>unfinishedMountains.swf</asset>
+			<rate>1</rate>
+			<zIndex>5</zIndex>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+			<zIndex>6</zIndex>
+		</layer>
+		<layer event="mountain_finished">
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+			<zIndex>7</zIndex>
+		</layer>
+		<layer event="set_night">
+			<asset>overlayNight.swf</asset>
+			<rate>1</rate>
+			<zIndex>8</zIndex>
+		</layer>
+		<layer event="set_rain">
+			<asset>overlayRain.swf</asset>
+			<rate>1</rate>
+			<zIndex>9</zIndex>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1780</x>
+			<y>5423</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

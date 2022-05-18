@@ -1,0 +1,38 @@
+<scene>
+	<sceneType>nowrapper</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1022</right>
+		<bottom>680</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>1020</right>
+		<bottom>633</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>365</x>
+			<y>636</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

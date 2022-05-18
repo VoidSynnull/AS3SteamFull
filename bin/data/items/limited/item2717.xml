@@ -1,0 +1,66 @@
+<item id="2717"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Blitzen Costume Card</name> <!-- Change this card name -->
+  	<campaignID>MagnusChaseQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Blitzen Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Blitzen Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Magnus Chase</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Blitzen Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundRed.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>blitz_beard</facial>
+			<hair>blitzen</hair>
+			<shirt>blitz</shirt>
+			<pants>ghd_humphree</pants>
+		</look>
+	</looks> 
+    
+</item>

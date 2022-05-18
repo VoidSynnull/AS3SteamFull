@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="char1">
+		<statement link="bird1">Squawk!</statement>
+		<statement id="bird1" link="bird2">Not a peep out of you!</statement>
+		<statement id="bird2" link="bird3">Squawk! Back in  the cage, you stupid bird! Squawk!</statement>
+		<statement id="bird3" link="bird1">Sorry, no refunds! Squawk!</statement>		
+    </character>
+</dialogs>

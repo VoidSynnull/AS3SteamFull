@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_4_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>unlocked_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="tile">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="counter">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="tile">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="counter">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>
+	</sound>
+</sounds>

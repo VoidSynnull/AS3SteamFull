@@ -1,0 +1,37 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>-1000</left>
+		<top>-1000</top>
+		<right>2000</right>
+		<bottom>2000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-1000</left>
+		<top>-1000</top>
+		<right>2000</right>
+		<bottom>2000</bottom>
+	</bounds>
+	<data>npcs.xml,sounds.xml,hits.xml,course.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>0</rate>
+			<width>1000</width>
+			<offsetX>0</offsetX>
+		</layer>
+		<layer hit="true">
+			<asset>hits.swf</asset>
+				<elementsToBitmap></elementsToBitmap>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>-1296</x>
+			<y>442</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

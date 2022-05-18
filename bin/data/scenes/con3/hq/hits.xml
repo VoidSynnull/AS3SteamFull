@@ -1,0 +1,31 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="baseGround"platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="table" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="microwave" color="0x0000cc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thin_metal" color="0xffffff" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bed" color="0xff0000" platform="true">
+		<component type="platform"/>
+	</hit>
+<!-- 	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit> -->
+</hits>

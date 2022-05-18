@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Sneaky_Suspense.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="shownBriefing">Sneaky_Suspense.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">	
+		<asset loop="true" fade="true">tech_lab.mp3</asset>
+		<asset loop="true" fade="true" triggeredByEvent="shownBriefing">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="playButtonSound">button_01.mp3</asset>
+		<!-- effects with an id will be mapped to the matching entity id if it exists with AudioGroup.addAudioToEntity. -->
+		<asset id="elevator" loop="true">servo_large_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="door1">bead_curtain_01.mp3</asset>
+		<asset id="door2">door_airlock_close_01.mp3</asset>
+		<asset id="wallA">door_hydrolics_open_01.mp3</asset>
+		<asset id="wallB">door_hydrolics_open_01.mp3</asset>
+		<asset id="wallC">door_hydrolics_open_01.mp3</asset>
+		<asset id="gasEmitter" loop="true">gas_leak_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorDenied">
+		<asset id="sensorC">access_denied.mp3</asset>
+		<asset id="wallC">access_denied.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">Landing_AluminamSurface_02.mp3</asset>
+		
+		<asset id="elevator">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">Landing_Snow.mp3</asset>
+		
+		<asset id="elevator">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

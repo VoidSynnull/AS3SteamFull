@@ -1,0 +1,38 @@
+<groups>
+	<group event="cat_following">
+		<and>
+			<event type="milk_given"/>
+			<event not="true" type="cat_returned"/>
+		</and>
+	</group>
+	<group event="set_cat_in_farm" triggerAndSave="true">
+		<and>
+			<event not="true" type="cat_returned"/>
+		</and>
+	</group>
+	
+	<group event="drone_normal_1" triggerAndSave="true">
+		<or>
+			<event type="destroyed_rabbot"/>
+			<event type="drone_freed_1"/>
+		</or>
+	</group>
+	<group event="drone_normal_2" triggerAndSave="true">
+		<or>
+			<event type="destroyed_rabbot"/>
+			<event type="drone_freed_2"/>
+		</or>
+	</group>
+	<group event="drone_normal_3" triggerAndSave="true">
+		<or>
+			<event type="destroyed_rabbot"/>
+			<event type="drone_freed_3"/>
+		</or>
+	</group>
+	<group event="drone_normal_4" triggerAndSave="true">
+		<or>
+			<event type="destroyed_rabbot"/>
+			<event type="drone_freed_4"/>
+		</or>
+	</group>
+</groups>

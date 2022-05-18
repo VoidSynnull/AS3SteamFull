@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsorchipwrecked_alvin</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>sponsorchipwrecked_talvin</facial>
+			<shirt>limited_alvin</shirt>
+			<pants>pzorro</pants>
+			<item>limited_alvin_mic</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-100</x>
+			<y>318</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

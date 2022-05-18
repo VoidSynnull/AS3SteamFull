@@ -1,0 +1,43 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" event="set_day">MocktropicaMainThemeGlitched.mp3</asset>
+		<asset loop="true" event ="developer_returned">MocktropicaMainTheme.mp3</asset>
+		<asset loop="true" event ="set_night">night_theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset event="set_rain" loop="true" faded="true" exclusiveType="true">rain_light.mp3</asset>
+		<asset event="set_day" loop="true" faded="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+		<asset event="set_night" loop="true" faded="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="tile">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="brick">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wicker">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="plastic">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="bounce">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tile">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="brick">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wicker">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="plastic">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="bounce">ls_tent_bounce_01.mp3</asset>
+		<asset id= "clothesline">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="wireBounce">
+		<asset id= "clothesline">wire_strain_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="hornClickSFX">ping_07.mp3</asset>
+	</sound>
+</sounds>

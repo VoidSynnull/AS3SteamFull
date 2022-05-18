@@ -1,0 +1,58 @@
+<item id="3127">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0x9E2705</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x66FF00</color>
+			<val>1</val>
+		</btn>
+	</radiobuttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Tofu Dog</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to&#10;activate the Shooters.</web>
+			<mobile>Tap ACTION to&#10;activate the Shooters.</mobile>
+		</text>
+		</textfields>
+	
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<marks>ptofudog</marks>
+			<hair>34</hair>
+			<pants>nim2</pants>
+			<item>photdogshooter3</item>
+		</look>
+		<look>
+			<marks>ptofudog</marks>
+			<hair>34</hair>
+			<pants>nim2</pants>
+			<item>photdogshooter4</item>
+		</look>
+	</looks>
+
+		
+	
+</item>

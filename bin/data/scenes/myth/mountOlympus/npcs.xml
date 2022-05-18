@@ -1,0 +1,82 @@
+<npcs>
+	<npc id="aeolus">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xDFECFD</skinColor>
+			<hairColor>0x175EA4</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>sponsorEC2</mouth>
+			<marks>aeolus</marks>
+			<hair>aeolus</hair>
+			<shirt>aeolus</shirt>
+			<pants>aeolus</pants>
+			<overshirt>aeolus</overshirt>
+			<overpants>aeolus</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2318</x>
+			<y>2450</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.5</scale>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="medusa" event="pre_medusa_strike">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>medusa</mouth>
+			<marks>medusa1</marks>
+			<hair>bald</hair>
+			<shirt>medusa</shirt>
+			<pants>medusa</pants>
+			<pack>medusa</pack>
+			<overpants>medusa</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>586</x>
+			<y>2285</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.5</scale>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="herc" event="pre_medusa_strike">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE6BC7D</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>hercules</mouth>
+			<marks>hercules</marks>
+			<hair>hercules</hair>
+			<shirt>bare</shirt>
+			<pants>1</pants>
+			<overshirt>hercules</overshirt>
+			<overpants>hercules</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>240</x>
+			<y>2285</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.5</scale>
+		<direction>right</direction>
+	</npc>
+</npcs>

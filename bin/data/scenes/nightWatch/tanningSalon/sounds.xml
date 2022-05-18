@@ -1,0 +1,36 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_01.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>	
+	</sound>
+	<sound type="effects">
+		<asset id="sprayTanMachine_button">switch_02.mp3</asset>
+		<asset id="startButton">machine_shake_01.mp3</asset>
+		<asset id="tanBedShake">snake_hiss_02.mp3</asset>
+		<asset id="SnakeApears">blunt_hit_03.mp3</asset>
+		<asset id="spray">spray_tan.mp3</asset>
+		<asset id="openTanBed">door_hydrolics_open_01.mp3</asset>
+		<asset id="closeTanBed">door_hydrolics_close_01.mp3</asset>
+		<asset id="machineRun">conveyor_belt_01.mp3</asset>
+		<asset id="bottlePuff">lotion_squeeze_01.mp3,lotion_squeeze_02.mp3</asset>
+		<asset id="bottleSpill">lotion_bottle_knock_over.mp3</asset>
+		<asset id="beadWall">bead_curtain_01.mp3</asset>
+	</sound>
+</sounds>

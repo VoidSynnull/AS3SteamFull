@@ -1,0 +1,21 @@
+﻿<dialogs>
+	<character id="drone1">
+		<conversation>
+			<exchange>
+				<question>Quem é você?</question>
+				<answer>não posso falar. Deve carregar cenouras.</answer>
+			</exchange>
+			<exchange>
+				<question>O que você está fazendo?</question>
+				<answer>não posso falar. Deve carregar cenouras.</answer>
+			</exchange>
+			<exchange>
+				<question>Ei, o que é aquilo atrás de você?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_1">Onde?</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="drone_denial">Você não está autorizado a utilizar esta impressora.</statement>
+		<statement triggeredByEvent="drone_free">Obrigado por me libertar! Siga-me, há algo que você deve ver.</statement>
+		<statement event="drone_freed_1">Obrigado novamente! Agora, cuidado! Se você é visto sem orelhas Rabbot você vai ser capturado!</statement>
+	</character>
+</dialogs>

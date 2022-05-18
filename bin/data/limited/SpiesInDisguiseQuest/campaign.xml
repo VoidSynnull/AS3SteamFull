@@ -1,0 +1,69 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>SpiesInDisguiseQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721338;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721338;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Poster">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261720585;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721344;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Start">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on start popup -->
+		<clickUrl id="Win">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+		<clickUrl id="Lose">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on lose popup -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721338;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721338;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721338;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261324170;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="PosterImpression"> <!-- For posters that look like posters (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261720585;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261721344;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="StartBannerImpression"> <!-- for start popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="WinBannerImpression"> <!-- for win popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="LoseBannerImpression"> <!-- for lose popup appearing -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879038.261722781;dc_trk_aid=457238777;dc_trk_cid=99808761;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5238525278&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2989</card>
+		<card>2990</card>
+	</boycards>
+	<girlcards>
+		<card>2989</card>
+		<card>2990</card>
+	</girlcards>
+</campaign>

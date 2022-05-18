@@ -1,0 +1,1678 @@
+<photoBooth theme="0x1C2A35" submitToServer="true"><!--  theme="0x1C2A35" or theme="ui/photoBooth/templates/hauntedTemplate.png" (must be different from any assets used in rest of photobooth) -->
+
+	<header type="contest">
+		<asset>limited/_photobooth/headers/halloween_header.swf</asset>
+		<popup></popup>
+ 		<type>contest</type>
+ 	</header>
+	
+	<templates><!-- files used to pre fill scene -->
+		<!-- template id should be name of xml file, asset is just what is used to display in menu -->
+		
+		<!-- <group title="Best Halloween Party">
+			<template id="contestWinners/Halloween2015/bestHalloweenParty">
+  				<asset>limited/_photobooth/templates/contestWinners/Halloween2015/bestHalloweenParty.png</asset>
+  			</template>
+		</group>
+		<group title="Scariest Photo">
+			<template id="contestWinners/Halloween2015/scariestPhoto">
+  				<asset>limited/_photobooth/templates/contestWinners/Halloween2015/scariestPhoto.png</asset>
+  			</template>
+		</group>
+		<group title="Funniest Photo">
+			<template id="contestWinners/Halloween2015/funniestPhoto">
+  				<asset>limited/_photobooth/templates/contestWinners/Halloween2015/funniestPhoto.png</asset>
+  			</template>
+		</group>
+		<group title="Most Creative Photo">
+			<template id="contestWinners/Halloween2015/mostCreative">
+  				<asset>limited/_photobooth/templates/contestWinners/Halloween2015/mostCreative.png</asset>
+  			</template>
+		</group>
+		<group title="Best Costume">
+			<template id="contestWinners/Halloween2015/bestCostume">
+  				<asset>limited/_photobooth/templates/contestWinners/Halloween2015/bestCostume.png</asset>
+  			</template>
+		</group>-->
+		
+		<group title="Templates">
+			<template id="halloween2015/trickOrTreatTemplate">
+  				<asset>limited/_photobooth/templates/halloween2015/trickOrTreatTemplate.png</asset>
+  			</template>
+  			<template id="halloween2015/graveyardSpookTemplate">
+  				<asset>limited/_photobooth/templates/halloween2015/graveyardSpookTemplate.png</asset>
+  			</template>
+  			<template id="halloween2015/romanticCryptTemplate">
+  				<asset>limited/_photobooth/templates/halloween2015/romanticCryptTemplate.png</asset>
+  			</template>
+		</group>
+		<group title="Templates">
+			<template id="halloween2015/hauntedTemplate">
+  				<asset>limited/_photobooth/templates/halloween2015/hauntedTemplate.png</asset>
+  			</template>
+  			<template id="halloween2015/zombieDiscoTemplate">
+  				<asset>limited/_photobooth/templates/halloween2015/zombieDiscoTemplate.png</asset>
+  			</template>
+		</group>
+	</templates>
+	<bgs>
+		<group title="Backgrounds">
+			<bg id="castle">
+				<asset>limited/_photobooth/bgs/bg_castle1.swf</asset>
+			</bg>
+			<bg id="tomb">
+				<asset>limited/_photobooth/bgs/bg_tomb1.swf</asset>
+			</bg>
+			<bg id="hauntedHouse">
+				<asset>limited/_photobooth/bgs/bg_haunted1.swf</asset>
+			</bg>
+		</group>
+		<group title="Backgrounds">
+			<bg id="dance">
+				<asset>limited/_photobooth/bgs/bg_dance1.swf</asset>
+			</bg>
+			<bg id="grave">
+				<asset>limited/_photobooth/bgs/bg_grave1.swf</asset>
+			</bg>
+		</group>
+	</bgs>
+	<poses>
+		<asset>entity/character/_poses/default.swf</asset>	
+		<asset>entity/character/_poses/angry.swf</asset>
+		<asset>entity/character/_poses/dizzy.swf</asset>
+		<asset>entity/character/_poses/duck.swf</asset>
+		<asset>entity/character/_poses/fly.swf</asset>
+		<asset>entity/character/_poses/laugh.swf</asset>
+		<asset>entity/character/_poses/mario.swf</asset>
+		<asset>entity/character/_poses/run.swf</asset>
+		<asset>entity/character/_poses/sad.swf</asset>
+		<asset>entity/character/_poses/singing.swf</asset>
+		<asset>entity/character/_poses/sly.swf</asset>
+		<asset>entity/character/_poses/throw.swf</asset>
+		<asset>entity/character/_poses/zombie.swf</asset>
+		<asset>entity/character/_poses/celebrate.swf</asset>	
+		<asset>entity/character/_poses/dance.swf</asset>
+		<asset>entity/character/_poses/eating.swf</asset>
+		<asset>entity/character/_poses/guitar.swf</asset>
+		<asset>entity/character/_poses/karate.swf</asset>
+		<!-- doesnt look right <asset>entity/character/_poses/lounge.swf</asset> -->
+		<asset>entity/character/_poses/modelPose.swf</asset>
+		<asset>entity/character/_poses/scared.swf</asset>
+		<asset>entity/character/_poses/surf.swf</asset>
+	</poses>
+	<looks>
+		<facial>
+			<look><!-- recommend using all 3 for each so they don't carry over between expressions -->
+				<pupilState>front</pupilState><!-- look at eyeSystem for stateNames or just use an angle -->
+				<mouth>1</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>235</pupilState>
+				<mouth>15</mouth>
+				<eyeState>casual_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<skinColor>0xFF2C35</skinColor>
+				<pupilState>front</pupilState>
+				<mouth>angry</mouth>
+				<eyeState>angry</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>front</pupilState>
+				<mouth>22</mouth>
+				<eyeState>laugh</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>front</pupilState>
+				<mouth>breathless</mouth>
+				<eyeState>angry</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>135</pupilState>
+				<mouth>thinking</mouth>
+				<eyeState>casual_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>45</pupilState>
+				<mouth>thinking</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>45</pupilState>
+				<mouth>puertoricofarmer</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>45</pupilState>
+				<mouth>z_zombie</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		
+		<facial> <!-- zombie -->
+			<look>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<!-- <marks>z_zombie</marks> -->
+				<eyes>zombie</eyes>
+			</look>
+		</facial>
+		<facial> <!-- hypnotized -->
+			<look>
+				<mouth>ooh</mouth>
+				<eyes>hypnotized</eyes>
+			</look>
+		</facial>
+<!-- 		<facial> rabbit drone
+			<look>
+				<mouth>rabbitcon</mouth>
+				<facial>rabbitcon</facial>
+				<eyes>drone</eyes>
+			</look>
+		</facial> -->
+
+		 <!-- ITEMS -->
+		<item>
+			<look>
+				<item>empty</item>
+			</look>
+		</item>
+
+
+
+		<item>
+            <look>
+                <item>pumpkin</item>
+                <!-- pumpkin bucket -->
+            </look>
+        </item>
+        <!-- idk what it is about this item that breaks things, but it does... with out fail...
+		<item>
+            <look>
+                <item>cryptidlantern</item>
+            </look>
+        </item>
+         -->
+        <item>
+            <look>
+                <item>mc_flashlight_normal</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>grimreaper</item>
+                <!-- scythe -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>hades</item>
+                <!-- skull staff -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>broom1</item>
+                <!-- broom -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>broom2</item>
+                <!-- broom -->
+            </look>
+        </item>
+          <item>
+            <look>
+                <item>pitchfork</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>manureshovel</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>pdog1</item>
+                <!-- bone -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>brokenmirror</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>glowstick</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>gpromo_net</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>sponsorpinofairy</item>
+                <!-- fairy wand -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>an3_magichands</item>
+                <!-- magic power around hand -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>mc_dan</item>
+                <!-- glass beaker -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>psherlock</item>
+                <!-- large magnifying glass -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>rose</item>
+            </look>
+        </item>
+		<item>
+            <look>
+                <item>camera</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>fish</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>gsumbrella</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ad_popappphone</item>
+                <!-- iPhone -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>pfirefighter1</item>
+                <!-- fire extinguisher -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>procket</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>plunger</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>sponsortoiletpaper</item>
+                <!-- toliet paper -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>probot4</item>
+                <!-- lightsaber -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>spatula</item>
+                <!-- spatula -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppopcake</item>
+                <!-- cake -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>viking_feast01</item>
+                <!-- large leg of lamb -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>sponsorpinopino</item>
+                <!-- apple -->
+            </look>
+        </item>
+        <!-- MUSIC ITEMS -->
+        <item>
+            <look>
+                <item>microphone</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppunkgirl1</item>
+                <!-- V-guitar teal -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppunkguy1</item>
+                <!-- guitar yellow -->
+            </look>
+        </item>
+
+        <!-- SPORTS ITEMS -->
+        <item>
+            <look>
+                <item>skater</item>
+                <!-- skateboard -->
+            </look>
+        </item>
+
+		
+	</looks>
+	<npcs>
+		<!-- don't include items, mouths, and eye states to avoid overriding expressions and items -->
+		
+		<!-- contest winner npcs -->
+		<!--<group title="Golden Typhoon">
+			<npc id="Golden Typhoon">
+				<skin>
+		          <gender>female</gender>
+		          <skinColor>16749133</skinColor>
+		          <hairColor>15533587</hairColor>
+		          <eyeState>open_manual</eyeState>
+		          <eyes>eyes</eyes>
+		          <marks>empty</marks>
+		          <mouth>1</mouth>
+		          <facial>pwolf1</facial>
+		          <hair>srstubb</hair>
+		          <pants>mc_junior</pants>
+		          <shirt>shirtvest1</shirt>
+		          <overpants>empty</overpants>
+		          <overshirt>empty</overshirt>
+		          <item>pdog1</item>
+		          <pack>pwolf1</pack>
+		        </skin>
+			</npc>
+		</group>
+		
+		<group title="Speedy Knuckle">
+			<npc id="Speedy Knuckle">
+				<skin>
+		          <gender>male</gender>
+		          <skinColor>16764057</skinColor>
+		          <hairColor>13786114</hairColor>
+		          <eyeState>laugh</eyeState>
+		          <eyes>eyes</eyes>
+		          <marks>lc_boy</marks>
+		          <mouth>22</mouth>
+		          <facial>empty</facial>
+		          <hair>wwprisoner</hair>
+		          <pants>pmagic1</pants>
+		          <shirt>ppunkguy4</shirt>
+		          <overpants>lc_boy</overpants>
+		          <overshirt>ppunkguy1</overshirt>
+		          <item>microphone</item>
+		          <pack>empty</pack>
+		        </skin>
+			</npc>
+		</group>
+		
+		<group title="Tall Kid">
+			<npc id="Tall Kid">
+				<skin>
+		          <gender>male</gender>
+		          <skinColor>16108912</skinColor>
+		          <hairColor>5382915</hairColor>
+		          <eyeState>open_manual</eyeState>
+		          <eyes>eyes</eyes>
+		          <marks>photdog</marks>
+		          <mouth>z_zombie</mouth>
+		          <facial>empty</facial>
+		          <hair>stor_fallf_bbe</hair>
+		          <pants>prockerguy1</pants>
+		          <shirt>ad_pranks_skylar</shirt>
+		          <overpants>psingerguy1</overpants>
+		          <overshirt>is_bert</overshirt>
+		          <item>pumpkin</item>
+		          <pack>empty</pack>
+		        </skin>
+			</npc>
+		</group>
+		
+		<group title="Smart Glove">
+			<npc id="Smart Glove">
+				<skin>
+		          <gender>female</gender>
+		          <skinColor>16764057</skinColor>
+		          <hairColor>0</hairColor>
+		          <eyeState>open</eyeState>
+		          <eyes>eyes</eyes>
+		          <marks>aphrodite</marks>
+		          <mouth>pcheerleader</mouth>
+		          <facial>4</facial>
+		          <hair>mime2</hair>
+		          <pants>2</pants>
+		          <shirt>rat</shirt>
+		          <overpants>sponsorec1</overpants>
+		          <overshirt>oldpilot</overshirt>
+		          <item>wrench</item>
+		          <pack>empty</pack>
+		        </skin>
+			</npc>
+		</group>
+		
+		<group title="Maroon Bird">
+			<npc id="Maroon Bird">
+				<skin>
+		          <gender>male</gender>
+		          <skinColor>0</skinColor>
+		          <hairColor>4360252</hairColor>
+		          <eyeState>angry</eyeState>
+		          <eyes>eyes</eyes>
+		          <marks>empty</marks>
+		          <mouth>breathless</mouth>
+		          <facial>zombie</facial>
+		          <hair>fm8</hair>
+		          <pants>adams</pants>
+		          <shirt>fm6</shirt>
+		          <overpants>empty</overpants>
+		          <overshirt>empty</overshirt>
+		          <item>empty</item>
+		          <pack>empty</pack>
+		        </skin>
+			</npc>
+		</group>-->
+		
+		<!-- SPOOKY/HALLOWEEN -->
+	
+		<group title="Skeleton">
+			<npc id="skeleton">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0xccff32</hairColor>
+					<mouth>1</mouth>
+					<facial>skeleton1</facial>
+					<hair>bald</hair>
+					<shirt>1</shirt>
+					<pants>1</pants>
+					<item>pumpkin</item>
+					<overshirt>skeleton1</overshirt>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dracula">
+			<npc id="dracula">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0x000000</hairColor>
+					<mouth>vampire</mouth>
+					<marks>vampire</marks>
+					<hair>vampire</hair>
+					<shirt>vampire</shirt>
+					<pants>vampire</pants>
+					<pack>vampire</pack>
+					<overshirt>vampire</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dracula's Bride">
+			<npc id="draculaBride">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0x000000</hairColor>
+					<mouth>vampire</mouth>
+					<marks>vampire2</marks>
+					<hair>vampire2</hair>
+					<shirt>vampire2</shirt>
+					<pants>vampire2</pants>
+					<pack>grimreaper</pack>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Hyde">
+			<npc id="hyde">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xa7d78a</skinColor>
+					<hairColor>0x222916</hairColor>
+					<mouth>hyde</mouth>
+					<marks>hyde</marks>
+					<facial>hyde</facial>
+					<hair>1</hair>
+					<shirt>hyde</shirt>
+					<pants>hyde</pants>
+					<item>cane</item>
+					<overshirt>hyde</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Frankenstein's Bride">
+			<npc id="FrankensteinBride">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>frankbride</mouth>
+					<marks>frankenstein</marks>
+					<hair>frankbride</hair>
+					<shirt>frankbride</shirt>
+					<pants>frankbride</pants>
+					<pack>frankbride</pack>
+					<overpants>astrogossip5</overpants>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Frankenstein">
+			<npc id="frankenstein">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x6ebe45</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>flpirate3</mouth>
+					<marks>frankenstein</marks>
+					<hair>frankenstein</hair>
+					<shirt>frankenstein</shirt>
+					<pants>frankenstein</pants>
+					<overshirt>frankenstein</overshirt>
+					<eyeState>casual</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Grim Reaper">
+			<npc id="grimReaper">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>1</mouth>
+					<facial>grimreaper</facial>
+					<hair>1</hair>
+					<shirt>grimreaper</shirt>
+					<pants>grimreaper</pants>
+					<pack>grimreaper</pack>
+					<item>grimreaper</item>
+					<overpants>grimreaper</overpants>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Pumpkin Head">
+			<npc id="pumpkinHead">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffffff</skinColor>
+					<hairColor>0x000000</hairColor>
+					<mouth>1</mouth>
+					<facial>pumpkinhead</facial>
+					<hair>1</hair>
+					<shirt>pumpkin</shirt>
+					<pants>pumpkin</pants>
+					<overshirt>pumpkin</overshirt>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Mummy">
+			<npc id="mummy">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0xeabb00</hairColor>
+					<mouth>1</mouth>
+					<facial>sponsorgbmummy</facial>
+					<hair>1</hair>
+					<shirt>1</shirt>
+					<pants>1</pants>
+					<overshirt>sponsorgbmummy</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>zombie</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Young Witch">
+			<npc id="witchYoung">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0xe08430</hairColor>
+					<mouth>witch</mouth>
+					<marks>beautymark</marks>
+					<hair>witch</hair>
+					<shirt>witch</shirt>
+					<pants>1</pants>
+					<pack>witch</pack>
+					<item>broom1</item>
+					<overpants>witch</overpants>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Old Witch">
+			<npc id="witchOld">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x87b630</skinColor>
+					<hairColor>0x2b360e</hairColor>
+					<mouth>fm2</mouth>
+					<marks>gothgirl</marks>
+					<facial>witch2</facial>
+					<hair>witch2</hair>
+					<shirt>witch2</shirt>
+					<pants>1</pants>
+					<pack>grimreaper</pack>
+					<item>broom2</item>
+					<overpants>witch2</overpants>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Scarecrow">
+			<npc id="scarecrow">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xd8b856</skinColor>
+					<hairColor>0xf5cd70</hairColor>
+					<mouth>1</mouth>
+					<facial>sponsorgbcrow</facial>
+					<hair>sponsorgbcrow</hair>
+					<shirt>sponsorgbcrow</shirt>
+					<pants>1</pants>
+					<item>pitchfork</item>
+					<overshirt>sponsorgbcrow</overshirt>
+					<overpants>sponsorgbcrow</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Frankie Freestyle">
+			<npc id="zombieGuy">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x63679f</skinColor>
+					<hairColor>0x443a87</hairColor>
+					<mouth>z_zombie</mouth>
+					<marks>z_zombie</marks>
+					<hair>prisoner1</hair>
+					<shirt>z_dancer1</shirt>
+					<pants>z_dancer1</pants>
+					<eyes>zombie</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Donna Disco">
+			<npc id="zombieGirl">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x63679f</skinColor>
+					<hairColor>0x443a87</hairColor>
+					<mouth>z_zombie</mouth>
+					<marks>z_zombie</marks>
+					<hair>z_disco4</hair>
+					<shirt>z_disco4</shirt>
+					<pants>1</pants>
+					<eyes>zombie</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Vampire Hunter">
+			<npc id="vampireHunter">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfde6b6</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>astroguard1</mouth>
+					<marks>vchunter</marks>
+					<facial>vchunter</facial>
+					<hair>1</hair>
+					<shirt>mtedison</shirt>
+					<pants>mtedison</pants>
+					<pack>vchunter</pack>
+					<overshirt>vchunter</overshirt>
+					<overpants>montgomery</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Vampire Victor">
+			<npc id="vampireBoy">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0x443828</hairColor>
+					<mouth>pvampire_boy</mouth>
+					<marks>pvampire_boy</marks>
+					<facial>pvampire_boy</facial>
+					<hair>pvampire_boy</hair>
+					<shirt>pvampire_boy</shirt>
+					<pants>pvampire_boy</pants>
+					<overshirt>pvampire_boy</overshirt>
+					<overpants>pvampire_boy</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<!-- <group title="Vampire Girl">
+			<npc id="vampireGirl">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0x443828</hairColor>
+					<mouth>pvampire_girl</mouth>
+					<marks>pvampire_girl</marks>
+					<hair>pvampire_girl01</hair>
+					<shirt>pvampire_girl01</shirt>
+					<pants>pvampire_girl01</pants>
+					<overshirt>pvampire_girl01</overshirt>
+					<overpants>pvampire_girl01</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group> -->
+		<group title="Vampire Velma">
+			<npc id="vampireGirl2">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0xf5c454</hairColor>
+					<mouth>pvampire_girl2</mouth>
+					<marks>pvampire_girl</marks>
+					<facial>pvampire_girl02</facial>
+					<hair>pvampire_girl02</hair>
+					<shirt>pvampire_girl02</shirt>
+					<pants>pvampire_girl02</pants>
+					<overshirt>pvampire_girl02</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<!-- <group title="Vampire Girl">
+			<npc id="vampireGirl3">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>pvampire_girl3</mouth>
+					<marks>pvampire_girl</marks>
+					<facial>pvampire_girl03</facial>
+					<hair>pvampire_girl03</hair>
+					<shirt>pvampire_girl03</shirt>
+					<pants>pvampire_girl01</pants>
+					<overshirt>pvampire_girl03</overshirt>
+					<overpants>pvampire_girl03</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group> -->
+		<group title="Werewolf">
+			<npc id="werewolf">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x8a5837</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>shark</mouth>
+					<marks>pwolf1</marks>
+					<facial>pwolf1</facial>
+					<hair>pwolf1</hair>
+					<shirt>pwolf1</shirt>
+					<pants>pwolf1</pants>
+					<pack>pwolf1</pack>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<!-- <group title="Werewolf Girl">
+			<npc id="werewolfGirl">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x8a5837</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>shark</mouth>
+					<marks>pwolf1</marks>
+					<facial>pwolf1</facial>
+					<hair>pwolf1</hair>
+					<shirt>pwolf2</shirt>
+					<pants>pwolf2</pants>
+					<pack>pwolf1</pack>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group> -->
+		<group title="Swamp Monster">
+			<npc id="swampMonster">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x66cc33</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>plagoon</mouth>
+					<marks>plagoon</marks>
+					<hair>plagoon</hair>
+					<shirt>plagoon</shirt>
+					<pants>1</pants>
+					<pack>plagoon</pack>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+
+		<!-- ISLAND NPCS -->
+		
+		<group title="DJ Saturday Nite">
+			<npc id="djSaturdayNite">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x754a2f</skinColor>
+					<hairColor>0x3d221a</hairColor>
+					<mouth>sponsorLM_Stella</mouth>
+					<facial>z_djnite</facial>
+					<hair>z_djnite</hair>
+					<shirt>z_djnite</shirt>
+					<pants>astrochance</pants>
+					<overpants>z_djnite</overpants>
+					<eyeState>casual</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Zeus">
+			<npc id="zeus">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfde6b6</skinColor>
+					<hairColor>0xffffff</hairColor>
+					<mouth>shadycop</mouth>
+					<marks>zeus</marks>
+					<hair>zeus</hair>
+					<shirt>zeus</shirt>
+					<pants>zeus</pants>
+					<pack>zeus</pack>
+					<item>zeus</item>
+					<overshirt>zeus</overshirt>
+					<overpants>zeus</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Aphrodite">
+			<npc id="aphrodite">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfee0d8</skinColor>
+					<hairColor>0xfdd124</hairColor>
+					<mouth>aphrodite</mouth>
+					<marks>aphrodite</marks>
+					<hair>aphrodite</hair>
+					<shirt>aphrodite</shirt>
+					<pants>aphrodite</pants>
+					<pack>aphrodite</pack>
+					<item>aphromirror</item>
+					<overshirt>aphrodite</overshirt>
+					<overpants>aphrodite</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+
+		<group title="Dr. Hare">
+			<npc id="drHare">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0x4a2c17</hairColor>
+					<mouth>drhare</mouth>
+					<facial>drhare</facial>
+					<hair>31</hair>
+					<shirt>drhare</shirt>
+					<pants>1</pants>
+					<pack>drhare</pack>
+					<overpants>drhare</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dr. Lange">
+			<npc id="drLange">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xf9e4ce</skinColor>
+					<hairColor>0x5e0d11</hairColor>
+					<mouth>15</mouth>
+					<hair>is_scien</hair>
+					<shirt>is_scien</shirt>
+					<pants>is_scien</pants>
+					<overshirt>labcoat</overshirt>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Black Widow">
+			<npc id="blackWidow">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfbdfc7</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>blackwidow</mouth>
+					<marks>blackwidow2</marks>
+					<hair>blackwidow2</hair>
+					<shirt>blackwidow2</shirt>
+					<pants>ss</pants>
+					<overpants>blackwidow2</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Captain Crawfish">
+			<npc id="cptCrawfish">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0x999999</hairColor>
+					<mouth>captcrawfish</mouth>
+					<marks>captcrawfish</marks>
+					<facial>captcrawfish</facial>
+					<hair>captcrawfish</hair>
+					<shirt>captcrawfish</shirt>
+					<pants>captcrawfish</pants>
+					<item>captcrawfish</item>
+					<overshirt>captcrawfish</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Director D">
+			<npc id="directorD">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0x5b5b5b</hairColor>
+					<mouth>14</mouth>
+					<hair>tailor</hair>
+					<shirt>directord</shirt>
+					<pants>ss</pants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+	</npcs>
+	<stickers>
+		<group title="Spooky Exteriors" columns="2">
+			<sticker id="spooky_tree_spooky">
+				<asset>limited/_photobooth/stickers/spooky/tree_spooky.swf</asset>
+			</sticker>
+			<sticker id="spooky_crypt_open">
+				<asset>limited/_photobooth/stickers/spooky/crypt_open.swf</asset>
+			</sticker>
+			<sticker id="spooky_moon_full">
+				<asset>limited/_photobooth/stickers/spooky/moon_full.swf</asset>
+			</sticker>
+			<sticker id="spooky_wolf_standing">
+				<asset>limited/_photobooth/stickers/spooky/wolf_standing.swf</asset>
+			</sticker>
+			<sticker id="creatures_bat_flying">
+				<asset>limited/_photobooth/stickers/creatures1/bat_flying.swf</asset>
+			</sticker>
+			<sticker id="ghost">
+				<asset>limited/_photobooth/stickers/props1/prop34.swf</asset>
+			</sticker>
+			<sticker id="spooky_pumpkin_scary">
+				<asset>limited/_photobooth/stickers/spooky/pumpkin_scary.swf</asset>
+			</sticker>
+			<sticker id="spooky_pumpkin_smile">
+				<asset>limited/_photobooth/stickers/spooky/pumpkin_smile.swf</asset>
+			</sticker>
+		</group>
+		<group title="Spooky Monsters" columns="1">
+			<sticker id="spooky_tree_spooky_alive">
+				<asset>limited/_photobooth/stickers/spooky/tree_spooky_alive.swf</asset>
+			</sticker>
+			<sticker id="spooky_ape_alien">
+				<asset>limited/_photobooth/stickers/spooky/ape_alien_creature.swf</asset>
+			</sticker>
+			<sticker id="spooky_crab_monster">
+				<asset>limited/_photobooth/stickers/spooky/crab_monster.swf</asset>
+			</sticker>
+			<sticker id="spooky_fly_man">
+				<asset>limited/_photobooth/stickers/spooky/fly_man.swf</asset>
+			</sticker>
+			<sticker id="creatures_jersey_devil">
+				<asset>limited/_photobooth/stickers/spooky/jersey_devil.swf</asset>
+			</sticker>
+		</group>
+		<group title="Gravestones" columns="2">
+			<sticker id="gravestone_1">
+				<asset>limited/_photobooth/stickers/props1/prop29.swf</asset>
+			</sticker>
+			<sticker id="gravestone_2">
+				<asset>limited/_photobooth/stickers/props1/prop30.swf</asset>
+			</sticker>
+			<sticker id="gravestone_3">
+				<asset>limited/_photobooth/stickers/props1/prop31.swf</asset>
+			</sticker>
+			<sticker id="gravestone_4">
+				<asset>limited/_photobooth/stickers/props1/prop32.swf</asset>
+			</sticker>
+			<sticker id="gravestone_5">
+				<asset>limited/_photobooth/stickers/props1/prop33.swf</asset>
+			</sticker>
+			<sticker id="gravestone_vine_covered">
+				<asset>limited/_photobooth/stickers/spooky/gravestone_vine_covered.swf</asset>
+			</sticker>
+		</group>
+		<group title="Spooky Statues" columns="2">
+			<sticker id="spooky_catbat_statue">
+				<asset>limited/_photobooth/stickers/spooky/catbat_statue.swf</asset>
+			</sticker>
+			<sticker id="spooky_statue_bride">
+				<asset>limited/_photobooth/stickers/spooky/statue_bride.swf</asset>
+			</sticker>
+			<sticker id="spooky_statue_imp">
+				<asset>limited/_photobooth/stickers/spooky/statue_imp.swf</asset>
+			</sticker>
+			<sticker id="spooky_statue_bat">
+				<asset>limited/_photobooth/stickers/spooky/statue_bat.swf</asset>
+			</sticker>
+			<sticker id="spooky_gargoyle_large">
+				<asset>limited/_photobooth/stickers/spooky/gargoyle_large.swf</asset>
+			</sticker>
+			<sticker id="spooky_gargoyle_small">
+				<asset>limited/_photobooth/stickers/spooky/gargoyle_small.swf</asset>
+			</sticker>
+		</group>	
+		<group title="Spooky Props" columns="2">
+			<sticker id="spooky_candlestick">
+				<asset>limited/_photobooth/stickers/spooky/candlestick.swf</asset>
+			</sticker>
+			<sticker id="spooky_skull_candle_sconce">
+				<asset>limited/_photobooth/stickers/spooky/skull_candle_sconce.swf</asset>
+			</sticker>
+			<sticker id="spooky_skull_sconce_hades">
+				<asset>limited/_photobooth/stickers/spooky/skull_sconce_hades.swf</asset>
+			</sticker>
+			<sticker id="spooky_chandelier_medium">
+				<asset>limited/_photobooth/stickers/spooky/chandelier_medium.swf</asset>
+			</sticker>
+			<sticker id="spooky_antlers_mounted">
+				<asset>limited/_photobooth/stickers/spooky/antlers_mounted.swf</asset>
+			</sticker>
+			<sticker id="spooky_axes_crossed">
+				<asset>limited/_photobooth/stickers/spooky/axes_crossed.swf</asset>
+			</sticker>
+			<sticker id="spooky_picture_frame_gilded">
+				<asset>limited/_photobooth/stickers/spooky/picture_frame_gilded.swf</asset>
+			</sticker>
+			<sticker id="spooky_bat_framed_picture">
+				<asset>limited/_photobooth/stickers/spooky/bat_framed_picture.swf</asset>
+			</sticker>
+		</group>
+		<group title="Spooky Furniture" columns="2">
+			<sticker id="spooky_old_chest">
+				<asset>limited/_photobooth/stickers/spooky/old_chest.swf</asset>
+			</sticker>
+			<sticker id="spooky_bookcase_monstrous">
+				<asset>limited/_photobooth/stickers/spooky/bookcase_monstrous.swf</asset>
+			</sticker>
+			<sticker id="spooky_purple_bed">
+				<asset>limited/_photobooth/stickers/spooky/purple_bed.swf</asset>
+			</sticker>
+			<sticker id="spooky_cobweb">
+				<asset>limited/_photobooth/stickers/spooky/cobweb.swf</asset>
+			</sticker>
+			<sticker id="spooky_coffin_stone">
+				<asset>limited/_photobooth/stickers/spooky/coffin_stone.swf</asset>
+			</sticker>
+			<sticker id="spooky_torch_wolf">
+				<asset>limited/_photobooth/stickers/spooky/torch_wolf.swf</asset>
+			</sticker>
+			<sticker id="spooky_scary_piano">
+				<asset>limited/_photobooth/stickers/spooky/scary_piano.swf</asset>
+			</sticker>
+			<sticker id="spooky_dracula_coffin">
+				<asset>limited/_photobooth/stickers/spooky/dracula_coffin.swf</asset>
+			</sticker>
+		</group>
+		<group title="Props" columns="2">
+			<sticker id="prop19">
+				<asset>limited/_photobooth/stickers/props1/prop19.swf</asset>
+			</sticker>
+			<sticker id="prop20">
+				<asset>limited/_photobooth/stickers/props1/prop20.swf</asset>
+			</sticker>
+			<sticker id="prop21">
+				<asset>limited/_photobooth/stickers/props1/prop21.swf</asset>
+			</sticker>
+			<sticker id="prop22">
+				<asset>limited/_photobooth/stickers/props1/prop22.swf</asset>
+			</sticker>
+			<sticker id="prop24">
+				<asset>limited/_photobooth/stickers/props1/prop24.swf</asset>
+			</sticker>
+			<sticker id="prop25">
+				<asset>limited/_photobooth/stickers/props1/prop25.swf</asset>
+			</sticker>
+			<sticker id="prop26">
+				<asset>limited/_photobooth/stickers/props1/prop26.swf</asset>
+			</sticker>
+			<sticker id="prop28">
+				<asset>limited/_photobooth/stickers/props1/prop28.swf</asset>
+			</sticker>
+		</group>
+		<group title="Creatures 1" columns="2">
+			<sticker id="creature1">
+				<asset>limited/_photobooth/stickers/creatures1/creature1.swf</asset>
+			</sticker>
+			<sticker id="creature2">
+				<asset>limited/_photobooth/stickers/creatures1/creature2.swf</asset>
+			</sticker>
+			<sticker id="creature3">
+				<asset>limited/_photobooth/stickers/creatures1/creature3.swf</asset>
+			</sticker>
+			<sticker id="creature4">
+				<asset>limited/_photobooth/stickers/creatures1/creature4.swf</asset>
+			</sticker>
+			<sticker id="creature5">
+				<asset>limited/_photobooth/stickers/creatures1/creature5.swf</asset>
+			</sticker>
+			<sticker id="creature6">
+				<asset>limited/_photobooth/stickers/creatures1/creature6.swf</asset>
+			</sticker>
+			<sticker id="creature7">
+				<asset>limited/_photobooth/stickers/creatures1/creature7.swf</asset>
+			</sticker>
+			<sticker id="creature16">
+				<asset>limited/_photobooth/stickers/creatures1/creature16.swf</asset>
+			</sticker>
+		</group>
+		<group title="Creatures 2" columns="2">
+			<sticker id="creature8">
+				<asset>limited/_photobooth/stickers/creatures1/creature8.swf</asset>
+			</sticker>
+			<sticker id="creature9">
+				<asset>limited/_photobooth/stickers/creatures1/creature9.swf</asset>
+			</sticker>
+			<sticker id="creature10">
+				<asset>limited/_photobooth/stickers/creatures1/creature10.swf</asset>
+			</sticker>
+			<sticker id="creature11">
+				<asset>limited/_photobooth/stickers/creatures1/creature11.swf</asset>
+			</sticker>
+			<sticker id="creature12">
+				<asset>limited/_photobooth/stickers/creatures1/creature12.swf</asset>
+			</sticker>
+			<sticker id="creature13">
+				<asset>limited/_photobooth/stickers/creatures1/creature13.swf</asset>
+			</sticker>
+			<sticker id="creature14">
+				<asset>limited/_photobooth/stickers/creatures1/creature14.swf</asset>
+			</sticker>
+			<sticker id="creature15">
+				<asset>limited/_photobooth/stickers/creatures1/creature15.swf</asset>
+			</sticker>
+		</group>
+		<group title="Effects" columns="1">
+			<sticker id="effect1">
+				<asset>limited/_photobooth/stickers/effects1/effect1.swf</asset>
+			</sticker>
+			<sticker id="effect2">
+				<asset>limited/_photobooth/stickers/effects1/effect2.swf</asset>
+			</sticker>
+			<sticker id="effect3">
+				<asset>limited/_photobooth/stickers/effects1/effect3.swf</asset>
+			</sticker>
+			<sticker id="effect4">
+				<asset>limited/_photobooth/stickers/effects1/effect4.swf</asset>
+			</sticker>
+			<sticker id="effect5">
+				<asset>limited/_photobooth/stickers/effects1/effect5.swf</asset>
+			</sticker>
+		</group>
+		<group title="Food 1" columns="2">
+			<sticker id="food1">
+				<asset>limited/_photobooth/stickers/food1/food1.swf</asset>
+			</sticker>
+			<sticker id="food2">
+				<asset>limited/_photobooth/stickers/food1/food2.swf</asset>
+			</sticker>
+			<sticker id="food3">
+				<asset>limited/_photobooth/stickers/food1/food3.swf</asset>
+			</sticker>
+			<sticker id="food4">
+				<asset>limited/_photobooth/stickers/food1/food4.swf</asset>
+			</sticker>
+			<sticker id="food5">
+				<asset>limited/_photobooth/stickers/food1/food5.swf</asset>
+			</sticker>
+			<sticker id="food6">
+				<asset>limited/_photobooth/stickers/food1/food6.swf</asset>
+			</sticker>
+			<sticker id="food7">
+				<asset>limited/_photobooth/stickers/food1/food7.swf</asset>
+			</sticker>
+			<sticker id="food8">
+				<asset>limited/_photobooth/stickers/food1/food8.swf</asset>
+			</sticker>
+			<sticker id="food9">
+				<asset>limited/_photobooth/stickers/food1/food9.swf</asset>
+			</sticker>
+			<sticker id="food10">
+				<asset>limited/_photobooth/stickers/food1/food10.swf</asset>
+			</sticker>
+			<sticker id="food11">
+				<asset>limited/_photobooth/stickers/food1/food11.swf</asset>
+			</sticker>
+			<sticker id="food12">
+				<asset>limited/_photobooth/stickers/food1/food12.swf</asset>
+			</sticker>
+			<sticker id="food13">
+				<asset>limited/_photobooth/stickers/food1/food13.swf</asset>
+			</sticker>
+			<sticker id="food14">
+				<asset>limited/_photobooth/stickers/food1/food14.swf</asset>
+			</sticker>
+		</group>
+		<group title="Food 2" columns="2">
+			<sticker id="food15">
+				<asset>limited/_photobooth/stickers/food1/food15.swf</asset>
+			</sticker>
+			<sticker id="food16">
+				<asset>limited/_photobooth/stickers/food1/food16.swf</asset>
+			</sticker>
+			<sticker id="food17">
+				<asset>limited/_photobooth/stickers/food1/food17.swf</asset>
+			</sticker>
+			<sticker id="food18">
+				<asset>limited/_photobooth/stickers/food1/food18.swf</asset>
+			</sticker>
+			<sticker id="food19">
+				<asset>limited/_photobooth/stickers/food1/food19.swf</asset>
+			</sticker>
+			<sticker id="food20">
+				<asset>limited/_photobooth/stickers/food1/food20.swf</asset>
+			</sticker>
+			<sticker id="food21">
+				<asset>limited/_photobooth/stickers/food1/food21.swf</asset>
+			</sticker>
+			<sticker id="food22">
+				<asset>limited/_photobooth/stickers/food1/food22.swf</asset>
+			</sticker>
+			<sticker id="food23">
+				<asset>limited/_photobooth/stickers/food1/food23.swf</asset>
+			</sticker>
+			<sticker id="food24">
+				<asset>limited/_photobooth/stickers/food1/food24.swf</asset>
+			</sticker>
+			<sticker id="food25">
+				<asset>limited/_photobooth/stickers/food1/food25.swf</asset>
+			</sticker>
+			<sticker id="food26">
+				<asset>limited/_photobooth/stickers/food1/food26.swf</asset>
+			</sticker>
+			<sticker id="food27">
+				<asset>limited/_photobooth/stickers/food1/food27.swf</asset>
+			</sticker>
+			<sticker id="food28">
+				<asset>limited/_photobooth/stickers/food1/food28.swf</asset>
+			</sticker>
+		</group>
+		<group title="Splats" columns="2">
+			<sticker id="effect6">
+				<asset>limited/_photobooth/stickers/effects1/effect6.swf</asset>
+			</sticker>
+			<sticker id="effect7">
+				<asset>limited/_photobooth/stickers/effects1/effect7.swf</asset>
+			</sticker>
+			<sticker id="effect8">
+				<asset>limited/_photobooth/stickers/effects1/effect8.swf</asset>
+			</sticker>
+			<!-- <sticker id="effect9">
+				<asset>limited/_photobooth/stickers/effects1/effect9.swf</asset>
+			</sticker> -->
+			<sticker id="effect10">
+				<asset>limited/_photobooth/stickers/effects1/effect10.swf</asset>
+			</sticker>
+			<sticker id="effect16">
+				<asset>limited/_photobooth/stickers/effects1/effect16.swf</asset>
+			</sticker>
+			<sticker id="effect17">
+				<asset>limited/_photobooth/stickers/effects1/effect17.swf</asset>
+			</sticker>
+			<sticker id="effect19">
+				<asset>limited/_photobooth/stickers/effects1/effect19.swf</asset>
+			</sticker>
+			<sticker id="effect20">
+				<asset>limited/_photobooth/stickers/effects1/effect20.swf</asset>
+			</sticker>
+			<sticker id="effect26">
+				<asset>limited/_photobooth/stickers/effects1/effect26.swf</asset>
+			</sticker>
+			<sticker id="effect27">
+				<asset>limited/_photobooth/stickers/effects1/effect27.swf</asset>
+			</sticker>
+			<sticker id="effect28">
+				<asset>limited/_photobooth/stickers/effects1/effect28.swf</asset>
+			</sticker>
+			<!-- <sticker id="effect29">
+				<asset>limited/_photobooth/stickers/effects1/effect29.swf</asset>
+			</sticker> -->
+			<sticker id="effect30">
+				<asset>limited/_photobooth/stickers/effects1/effect30.swf</asset>
+			</sticker>
+		</group>
+		<group title="Signs 1" columns="2">
+			<sticker id="sign1">
+				<asset>limited/_photobooth/stickers/signs1/sign1.swf</asset>
+			</sticker>
+			<sticker id="sign2">
+				<asset>limited/_photobooth/stickers/signs1/sign2.swf</asset>
+			</sticker>
+			<sticker id="sign3">
+				<asset>limited/_photobooth/stickers/signs1/sign3.swf</asset>
+			</sticker>
+			<sticker id="sign4">
+				<asset>limited/_photobooth/stickers/signs1/sign4.swf</asset>
+			</sticker>
+			<sticker id="sign5">
+				<asset>limited/_photobooth/stickers/signs1/sign5.swf</asset>
+			</sticker>
+			<sticker id="sign6">
+				<asset>limited/_photobooth/stickers/signs1/sign6.swf</asset>
+			</sticker>
+			<sticker id="sign7">
+				<asset>limited/_photobooth/stickers/signs1/sign7.swf</asset>
+			</sticker>
+			<sticker id="sign8">
+				<asset>limited/_photobooth/stickers/signs1/sign8.swf</asset>
+			</sticker>
+		</group>
+		<group title="Posters" columns="2">
+			<sticker id="poster_anime_poster">
+				<asset>limited/_photobooth/stickers/signs1/sign11.swf</asset>
+			</sticker>
+			<sticker id="poster_running_scissors">
+				<asset>limited/_photobooth/stickers/signs1/sign12.swf</asset>
+			</sticker>
+			<sticker id="sign14">
+				<asset>limited/_photobooth/stickers/signs1/sign14.swf</asset>
+			</sticker>
+			<sticker id="sign15">
+				<asset>limited/_photobooth/stickers/signs1/sign15.swf</asset>
+			</sticker>
+			<sticker id="posters_vampire_hunter">
+				<asset>limited/_photobooth/stickers/posters/vampire_hunter.swf</asset>
+			</sticker>
+			<sticker id="posters_young_vampires">
+				<asset>limited/_photobooth/stickers/posters/young_vampires.swf</asset>
+			</sticker>
+			<sticker id="posters_pony_whisperer">
+				<asset>limited/_photobooth/stickers/posters/pony_whisperer.swf</asset>
+			</sticker>
+			<sticker id="posters_zombie_carrots">
+				<asset>limited/_photobooth/stickers/posters/zombie_carrots.swf</asset>
+			</sticker>
+		</group>
+		<group title="Speech Bubbles" columns="2">
+			<sticker id="speech1">
+				<asset>limited/_photobooth/stickers/speech1/speech1.swf</asset>
+			</sticker>
+			<sticker id="speech2">
+				<asset>limited/_photobooth/stickers/speech1/speech2.swf</asset>
+			</sticker>
+			<sticker id="speech3">
+				<asset>limited/_photobooth/stickers/speech1/speech3.swf</asset>
+			</sticker>
+			<sticker id="speech4">
+				<asset>limited/_photobooth/stickers/speech1/speech4.swf</asset>
+			</sticker>
+			<sticker id="speech5">
+				<asset>limited/_photobooth/stickers/speech1/speech5.swf</asset>
+			</sticker>
+			<sticker id="speech6">
+				<asset>limited/_photobooth/stickers/speech1/speech6.swf</asset>
+			</sticker>
+			<sticker id="speech7">
+				<asset>limited/_photobooth/stickers/speech1/speech7.swf</asset>
+			</sticker>
+			<sticker id="speech8">
+				<asset>limited/_photobooth/stickers/speech1/speech8.swf</asset>
+			</sticker>
+			<sticker id="speech9">
+				<asset>limited/_photobooth/stickers/speech1/speech9.swf</asset>
+			</sticker>
+			<sticker id="speech10">
+				<asset>limited/_photobooth/stickers/speech1/speech10.swf</asset>
+			</sticker>
+		</group>
+		<group title="Emotes" columns="2">
+			<sticker id="emote1">
+				<asset>limited/_photobooth/stickers/emotes1/emote1.swf</asset>
+			</sticker>
+			<sticker id="emote2">
+				<asset>limited/_photobooth/stickers/emotes1/emote2.swf</asset>
+			</sticker>
+			<sticker id="emote3">
+				<asset>limited/_photobooth/stickers/emotes1/emote3.swf</asset>
+			</sticker>
+			<sticker id="emote4">
+				<asset>limited/_photobooth/stickers/emotes1/emote4.swf</asset>
+			</sticker>
+			<sticker id="emote5">
+				<asset>limited/_photobooth/stickers/emotes1/emote5.swf</asset>
+			</sticker>
+			<sticker id="emote6">
+				<asset>limited/_photobooth/stickers/emotes1/emote6.swf</asset>
+			</sticker>
+			<sticker id="emote7">
+				<asset>limited/_photobooth/stickers/emotes1/emote7.swf</asset>
+			</sticker>
+			<sticker id="emote8">
+				<asset>limited/_photobooth/stickers/emotes1/emote8.swf</asset>
+			</sticker>
+			<sticker id="emote9">
+				<asset>limited/_photobooth/stickers/emotes1/emote9.swf</asset>
+			</sticker>
+			<sticker id="emote10">
+				<asset>limited/_photobooth/stickers/emotes1/emote10.swf</asset>
+			</sticker>
+			<sticker id="emote11">
+				<asset>limited/_photobooth/stickers/emotes1/emote11.swf</asset>
+			</sticker>
+			<sticker id="emote12">
+				<asset>limited/_photobooth/stickers/emotes1/emote12.swf</asset>
+			</sticker>
+		</group>
+		<group title="Words">
+			<sticker id="stamp">
+				<asset>limited/_photobooth/stickers/words1/word39.swf</asset>
+			</sticker>
+			<sticker id="greetingsfrom">
+				<asset>limited/_photobooth/stickers/words1/word9.swf</asset>
+			</sticker>
+			<sticker id="poptropica">
+				<asset>limited/_photobooth/stickers/words1/word18.swf</asset>
+			</sticker>
+			<sticker id="chillin">
+				<asset>limited/_photobooth/stickers/words1/word4.swf</asset>
+			</sticker>
+			<sticker id="bonus">
+				<asset>limited/_photobooth/stickers/words1/word2.swf</asset>
+			</sticker>
+			<sticker id="super">
+				<asset>limited/_photobooth/stickers/words1/word25.swf</asset>
+			</sticker>
+			<sticker id="cool">
+				<asset>limited/_photobooth/stickers/words1/word6.swf</asset>
+			</sticker>
+		</group>
+		<group title="Exclamations">
+			<sticker id="grr">
+				<asset>limited/_photobooth/stickers/words1/word8.swf</asset>
+			</sticker>
+			<sticker id="huh">
+				<asset>limited/_photobooth/stickers/words1/word11.swf</asset>
+			</sticker>
+			<sticker id="lol">
+				<asset>limited/_photobooth/stickers/words1/word12.swf</asset>
+			</sticker>
+			<sticker id="omnom">
+				<asset>limited/_photobooth/stickers/words1/word13.swf</asset>
+			</sticker>
+			<sticker id="ouch">
+				<asset>limited/_photobooth/stickers/words1/word14.swf</asset>
+			</sticker>
+			<sticker id="wow">
+				<asset>limited/_photobooth/stickers/words1/word31.swf</asset>
+			</sticker>
+		</group>
+		<group title="Leetspeak">
+			<sticker id="gr8!">
+				<asset>limited/_photobooth/stickers/words1/word10.swf</asset>
+			</sticker>
+			<sticker id="yaas">
+				<asset>limited/_photobooth/stickers/words1/word32.swf</asset>
+			</sticker>
+			<sticker id="tbt">
+				<asset>limited/_photobooth/stickers/words1/word35.swf</asset>
+			</sticker>
+			<sticker id="yolo">
+				<asset>limited/_photobooth/stickers/words1/word36.swf</asset>
+			</sticker>
+			<sticker id="???">
+				<asset>limited/_photobooth/stickers/words1/word37.swf</asset>
+			</sticker>
+			<sticker id="!!!">
+				<asset>limited/_photobooth/stickers/words1/word38.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 1">
+			<sticker id="belch">
+				<asset>limited/_photobooth/stickers/words1/word1.swf</asset>
+			</sticker>
+			<sticker id="boom">
+				<asset>limited/_photobooth/stickers/words1/word3.swf</asset>
+			</sticker>
+			<sticker id="chomp">
+				<asset>limited/_photobooth/stickers/words1/word5.swf</asset>
+			</sticker>
+			<sticker id="crunch">
+				<asset>limited/_photobooth/stickers/words1/word7.swf</asset>
+			</sticker>
+			<sticker id="plop">
+				<asset>limited/_photobooth/stickers/words1/word15.swf</asset>
+			</sticker>
+			<sticker id="poof">
+				<asset>limited/_photobooth/stickers/words1/word16.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 2">
+			<sticker id="pop">
+				<asset>limited/_photobooth/stickers/words1/word17.swf</asset>
+			</sticker>
+			<sticker id="pow">
+				<asset>limited/_photobooth/stickers/words1/word19.swf</asset>
+			</sticker>
+			<sticker id="ring">
+				<asset>limited/_photobooth/stickers/words1/word20.swf</asset>
+			</sticker>
+			<sticker id="shock">
+				<asset>limited/_photobooth/stickers/words1/word21.swf</asset>
+			</sticker>
+			<sticker id="splat">
+				<asset>limited/_photobooth/stickers/words1/word22.swf</asset>
+			</sticker>
+			<sticker id="squish">
+				<asset>limited/_photobooth/stickers/words1/word23.swf</asset>
+			</sticker>
+			<sticker id="sting">
+				<asset>limited/_photobooth/stickers/words1/word24.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 3">
+			<sticker id="thud">
+				<asset>limited/_photobooth/stickers/words1/word26.swf</asset>
+			</sticker>
+			<sticker id="thump">
+				<asset>limited/_photobooth/stickers/words1/word27.swf</asset>
+			</sticker>
+			<sticker id="tickle">
+				<asset>limited/_photobooth/stickers/words1/word28.swf</asset>
+			</sticker>
+			<sticker id="whack">
+				<asset>limited/_photobooth/stickers/words1/word29.swf</asset>
+			</sticker>
+			<sticker id="woosh">
+				<asset>limited/_photobooth/stickers/words1/word30.swf</asset>
+			</sticker>
+			<sticker id="zap">
+				<asset>limited/_photobooth/stickers/words1/word33.swf</asset>
+			</sticker>
+			<sticker id="zing">
+				<asset>limited/_photobooth/stickers/words1/word34.swf</asset>
+			</sticker>
+		</group>
+	</stickers>
+</photoBooth>

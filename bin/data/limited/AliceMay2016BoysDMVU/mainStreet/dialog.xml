@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_2783">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="hasAdItem_2785">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Watch both of these videos and get two prizes from Wonderland!</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch both of these videos and get two prizes from Wonderland!</statement> <!-- if video playing -->
+		<statement>Watch both of these videos and get two prizes from Wonderland!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

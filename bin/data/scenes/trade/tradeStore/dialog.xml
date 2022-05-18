@@ -1,0 +1,28 @@
+<dialogs>
+	<character id="clerk">
+		<conversation>
+			<exchange>
+				<question>Why are most of your goods out of stock?</question>
+				<answer>Without trade, we have no goods.</answer>
+			</exchange>
+			<exchange>
+				<question>Why isn't there any trade on this island?</question>
+				<answer>Because Captain Crawfish stole everything we had!</answer>
+			</exchange>
+			<exchange>
+				<question>Is there anything I can do?</question>
+				<answer>Find a way to bring merchants back to our port!</answer>
+			</exchange>
+		</conversation>	
+		<statement id="ask_for_feed">The feed costs one Doubloon.</statement>
+		<statement id="ask_for_mirror">That mirror is broken, so I guess you can have it.</statement>
+		
+		<statement id="get_feed">Nice doing business with you.</statement>
+		<statement>If I had a treasure map, I wouldn't have to work in this dingy pub day and night!</statement>
+		<statemet event="hasItem_skullduggeryMedal">Thank you for helping us! Soon this store will look like new!</statemet>
+	</character>
+	
+	<character id="player">
+		<statement id="buy_feed" link="get_feed" linkEntityId="clerk" triggerEvent="tradeItems" triggerEventArgs="doubloon, feed">I'd like to buy the feed, please.</statement>
+	</character>
+</dialogs>

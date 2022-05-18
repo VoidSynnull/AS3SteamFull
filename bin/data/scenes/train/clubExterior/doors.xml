@@ -1,0 +1,43 @@
+<doors>
+	<door id="doorFreight">
+		<scene>game.scenes.train.freightCar.FreightCar</scene>
+		<x>1960</x>
+		<y>485</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorClub">
+		<scene>game.scenes.train.clubInterior.ClubInterior</scene>
+		<x>983</x>
+		<y>632</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorDining">
+		<scene>game.scenes.train.diningCar.DiningCar</scene>
+		<x>50</x>
+		<y>470</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

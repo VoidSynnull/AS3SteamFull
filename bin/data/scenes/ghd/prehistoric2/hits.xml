@@ -1,0 +1,46 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="nest" color="0x00cc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dactyl1">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="dactyl2">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="dactyl3">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="dactyl4">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="dactyl5">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="wingSpan">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>200</x>
+				<y>300</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="waspHazard" color="0x286780">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>800</x>
+				<y>400</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,19 @@
+<specialAbility id="follower_spook_4">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/followers/follower_spook_4.swf</param>
+		<param id="addParticles">true</param>
+		<param id="particleColor">0xFF9900</param>
+		<param id="particleSpeedY">0</param>
+		<param id="particleSpeedX">0</param>
+		<param id="particleRadiusX">10</param>
+		<param id="particleSize">3</param>
+		<param id="particleAlpha">1</param>
+		<param id="particleLife">2</param>
+		<param id="particleDriftX">500</param>
+		<param id="particleDriftY">500</param>
+		<param id="particleCount">20</param>
+	</parameters>
+</specialAbility>

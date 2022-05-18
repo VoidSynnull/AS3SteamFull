@@ -1,0 +1,31 @@
+<events>
+	<group type="triggered" id="dukeRun">
+		<event>
+				<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">duke</param2>
+			<param3 id="coords">-110,1390</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">duke</param2>
+			<param3 id="target">1200,1390</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">4</param2>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">duke</param2>
+			<param3 id="coords">0,-1390</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+			<param1 id="param">Chase</param1>
+		</event>
+	</group>
+</events>

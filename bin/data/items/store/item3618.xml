@@ -1,0 +1,40 @@
+<item id="3618">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+		<buttons>
+	 		<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+				<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+ 	</buttons>
+		
+		<textfields>
+			<text id="storeTitle">
+				<value>Chomper Outfit</value>
+			</text>
+	</textfields>
+	
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+	<looks>
+		<look>
+			<mouth>sponsorec2</mouth>
+			<hair>spring_outfit_b2</hair>
+			<shirt>spring_outfit_b2</shirt>
+			<pants>spring_outfit_b2</pants>
+		</look>
+	</looks>
+	
+</item>

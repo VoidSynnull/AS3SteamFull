@@ -1,0 +1,66 @@
+<item id="2720"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>View Master Costume Card</name> <!-- Change this card name -->
+  	<campaignID>ViewMasterQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use View Master Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="View Master Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>View-Master</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Explorer Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundRed.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" />
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<facial>limited_viewmaster_face</facial>
+			 <hair>limited_viewmaster</hair>
+			 <shirt>limited_viewmaster_s</shirt>
+			 <pants>limited_explorer</pants>
+			 <pack>limited_hiker</pack>
+			 <overpants>limited_egyptarch</overpants>
+
+		</look>
+	</looks> 
+    
+</item>

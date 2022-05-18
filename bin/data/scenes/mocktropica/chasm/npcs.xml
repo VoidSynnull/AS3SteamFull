@@ -1,0 +1,50 @@
+<npcs>
+	<npc id="npc">
+		<skin>
+			<gender>1</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x513b2b</hairColor>
+			<marks>goat7</marks>
+			<facial>mk_inspector</facial>
+			<hair>frenchman</hair>
+			<shirt>mikesmarket</shirt>
+			<pants>mordred</pants>
+			<item>clipboard</item>
+			<overshirt>mk_inspector</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1608.75</x>
+     		<y>1069.7</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="boy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffb280</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>2</mouth>
+			<marks>freckles</marks>
+			<hair>mk_mainstreet_kid01</hair>
+			<shirt>mk_mainstreet_kid01</shirt>
+			<pants>finvendor</pants>
+			<overshirt>mk_mainstreet_kid01</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<ignoreDepth>true</ignoreDepth>
+		<position>
+			<x>1850</x>
+			<y>1120</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

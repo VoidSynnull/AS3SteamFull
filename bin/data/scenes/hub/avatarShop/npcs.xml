@@ -1,0 +1,77 @@
+<npcs>
+	<npc id="barber">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>leo</mouth>
+			<marks>bl_tourist02</marks>
+			<facial>nateg</facial>
+			<hair>mk_lead_programmer01</hair>
+			<shirt>nerd</shirt>
+			<pants>mc_duckworker</pants>
+			<overshirt>wkshop</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>395</x>
+			<y>600</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="tailor">
+		<skin>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>18</mouth>
+			<marks>ppopgirlle</marks>
+			<facial>5</facial>
+			<hair>30</hair>
+			<shirt>wwbanditgirl</shirt>
+			<pants>tt_mom</pants>
+			<item>scissors</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>826</x>
+			<y>600</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="mannequin1" variant="mannequin" type="portrait">
+		<skin random="true"/>
+		<position>
+			<x>816</x>
+			<y>272</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="mannequin2" variant="mannequin" type="portrait">
+		<skin random="true"/>
+		<position>
+			<x>919</x>
+			<y>272</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="mannequin3" variant="mannequin" type="portrait">
+		<skin random="true"/>
+		<position>
+			<x>1020</x>
+			<y>272</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+</npcs>

@@ -1,0 +1,21 @@
+<specialAbility id="binary_rain">
+	<className>game.data.specialAbility.character.RainAssets</className>
+	<triggerable>false</triggerable>
+	<parameters>
+		<param id="swfPaths">particles/binary1.swf,particles/binary2.swf,particles/binary3.swf</param>
+		<param id="particleClass">game.particles.emitter.specialAbility.Binary</param>
+		<param id="speed">500</param>
+		<param id="scaleMin">0.75</param>
+		<param id="scaleMax">1.5</param>
+ 	</parameters>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="ScreenTintAction">
+				<parameters>
+					<param id="color" type="uint">0x0033FF</param>
+					<param id="percent" type="number">30</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

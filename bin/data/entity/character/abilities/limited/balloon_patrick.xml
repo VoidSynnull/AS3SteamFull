@@ -1,0 +1,10 @@
+<specialAbility id="limited/balloon_patrick">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddBalloon</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/balloon_patrick.swf</param>
+		<param id="offsetY">-100</param>
+		<param id="id">2015</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

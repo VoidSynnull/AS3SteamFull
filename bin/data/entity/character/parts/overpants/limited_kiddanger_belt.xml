@@ -1,0 +1,31 @@
+<part>
+	<id>limited_kiddanger_belt</id>
+	<type>overpants</type>
+	<costumizable>false</costumizable>
+	<campaignID>2874</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/KidDangerQuest/Tube.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">false</param>
+			<param id="npcOnTop">true</param>
+			<param id="swapForeground">true</param>
+			<param id="tracking">KidDangerQuest,tube</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="TalkAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="text" type="string">Up the tube!</param>
+						<param id="direct" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

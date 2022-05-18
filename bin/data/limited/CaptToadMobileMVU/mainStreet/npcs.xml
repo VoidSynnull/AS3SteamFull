@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<hair>limited_captaintoad</hair>
+			<shirt>limited_captaintoad</shirt>
+			<pants>limited_captaintoad</pants>
+			<pack>limited_captaintoad</pack>
+			<overshirt>limited_captaintoad</overshirt>
+			<mouth>5</mouth>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>525</x>
+			<y>330</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

@@ -1,0 +1,20 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="carpet" color="0x99ccff" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="rock" color="0x009900" platform="true">
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+		<component type="platform"/>
+	</hit>
+</hits>

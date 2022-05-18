@@ -1,0 +1,39 @@
+<item id="3594"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+		<campaignID>MemberGift</campaignID>
+	
+		<contentClass> <!-- This displays avatar -->
+			<className>game.ui.card.CharacterContentView</className>
+		</contentClass>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+				<label>USE</label>
+	 			<actions>
+				<action type="costumize" tracking="Winter Boy Outfit"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Winter Outfit</value>
+		</text>
+		</textfields>
+	
+		<assets>
+		<asset id="cardBack" />	
+		</assets>
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<hair>winter_outfit_b</hair>
+			<shirt>winter_outfit_b</shirt>
+			<pants>conworker1</pants>
+		</look>
+	</looks> 
+</item>

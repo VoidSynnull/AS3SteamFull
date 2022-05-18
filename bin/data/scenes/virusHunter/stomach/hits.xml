@@ -1,0 +1,51 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="radial" color="0x9933CC">
+		<component type="radial"/>
+	</hit>
+	
+	<hit id="shieldBarrier" color="0x67DA98">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscle1" color="0xFF0080">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>0</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="muscle2" color="0x8080C0">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1500</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="ulcer" color="0x8080FF">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="ulcerTarget">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

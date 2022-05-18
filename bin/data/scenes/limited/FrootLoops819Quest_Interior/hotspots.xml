@@ -1,0 +1,17 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+	</hotspot>
+	<hotspot id="questDoor" type="poster">
+		<action type="className">game.scenes.custom.AdStartGamePopup</action>
+		<action type="gameClass">game.scenes.custom.BeatGamePower</action>
+		<action type="gameID">MusicGame</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video" locked="true" suppressSponsorButton="true">
+		<action type="play">videoFile</action>
+	</hotspot>
+</hotspots>
+

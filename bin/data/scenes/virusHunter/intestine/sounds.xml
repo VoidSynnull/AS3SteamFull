@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="blockage_shot_1">break_block_01.mp3</asset>
+		<asset triggeredByEvent="blockage_shot_2">break_block_02.mp3</asset>
+		<asset triggeredByEvent="blockage_shot_3">break_block_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="radial" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		
+		<asset id="blockage1" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage2" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage3" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage4" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage5" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage6" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage7" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="blockage8" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		
+		<asset id="nerve" allowOverlap="false">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="coin" allowOverlap="false">stone_impact_01.mp3, stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3, stone_impact_05.mp3</asset>
+	</sound>
+</sounds>

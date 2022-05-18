@@ -1,0 +1,28 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/WildLifeMMQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+		<asset>map/island</asset>
+		<asset>map/island/page</asset>
+	</data>
+
+	<!-- map swfs -->
+	<assets type="island" path="assets/limited/WildLifeMMQ/map/" ext="swf">
+		<asset>icon</asset>
+		<asset>island</asset>
+		<asset>logo</asset>
+		<asset>island/background</asset>
+		<asset>island/slides</asset>
+	</assets>
+	
+	<assets type="island" path="assets/scenes/map/map/layouts/" ext="swf">
+		<asset>advertisement</asset>
+	</assets>
+	
+	<data type="island" path="data/scenes/map/map/layouts/" ext="xml">
+		<asset>advertisement</asset>
+	</data>
+
+</manifest>

@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="oliver">
+		<statement>This is crazy! We're trapped on an island of monkeys!</statement>
+		<statement id="startDialog" timeOverride=".5">This is crazy! We're trapped on an island of monkeys!</statement>
+		<statement id="startRunAway" timeOverride=".5">Come on!</statement>
+		<statement triggeredByEvent="returnRunAway" timeOverride=".5">Run for it!</statement>
+	</character>
+	<character id="jorge">
+	<statement>I've lost all my things in that wormhole!</statement>
+	<statement id="startDialog" timeOverride=".5">I've lost all my things in that wormhole!</statement>
+	<statement id="returnDialog" timeOverride=".5">Woah! We're back again!</statement>
+	</character>
+	<character id="monkeyone">
+		<statement>Trespassers!</statement>
+		<statement id="startDialog" timeOverride=".5">Trespassers!</statement>
+	</character>
+	<character id="monkeytwo">
+		<statement>Ooh ooh eee eee ahh ahh!</statement>
+		<statement id="startDialog" timeOverride=".5">Ooh ooh eee eee ahh ahh!</statement>
+	</character>
+	<character id="monkeythree">
+		<statement>Leave!</statement>
+		<statement id="startDialog" timeOverride=".5">Leave!</statement>
+	</character>
+</dialogs>

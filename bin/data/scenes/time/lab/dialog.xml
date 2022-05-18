@@ -1,0 +1,28 @@
+<dialogs>
+	
+	<character id="char1">
+		<statement event="gotItem_printout">text1</statement>
+		<statement link="intro">text2</statement>
+		<statement id="intro" triggerEvent="giveItem" triggerEventArgs="printout">text3</statement>
+		<statement event="time_repaired" triggerEvent="triggerEvent" triggerEventArgs="pose">text4</statement>
+		<statement event="hasItem_medalTime">text5</statement>
+    </character>
+    <character id="char2">
+    	<statement id="need_power">text6</statement>
+    	<statement event="hasItem_medalTime">text7</statement>
+    	<conversation>
+			<exchange>
+				<question>text8</question>
+				<answer>text9</answer>
+			</exchange>
+			<exchange>
+				<question>text10</question>
+				<answer>text11</answer>
+			</exchange>
+			<exchange>
+				<question>text12</question>
+				<answer>text13</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

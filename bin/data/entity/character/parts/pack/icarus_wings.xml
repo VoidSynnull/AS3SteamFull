@@ -1,0 +1,13 @@
+<part>
+	<id>icarus_wings</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="ability_glider">
+		<triggerable>false</triggerable>
+		<className>game.data.specialAbility.islands.time.SlowFall</className>
+		<parameters>
+			<param id="gravityDampening">-1500</param>
+		</parameters>
+		<validIslands>time</validIslands>
+	</specialAbility>
+</part>

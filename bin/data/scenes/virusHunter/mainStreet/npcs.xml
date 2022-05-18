@@ -1,0 +1,243 @@
+<npcs>
+  <npc id="citizen1">
+    <skin>
+      <gender>female</gender>
+      <skinColor>0xd2aa72</skinColor>
+      <hairColor>0x453929</hairColor>
+      <mouth>mythbeach1</mouth>
+      <marks>freckles</marks>
+      <hair>sears3</hair>
+      <shirt>sears2</shirt>
+      <pants>girlskirt2</pants>
+      <overshirt>sears2</overshirt>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>900</x>
+      <y>1440</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="citizen2">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0x999999</hairColor>
+      <mouth>huntergiveup</mouth>
+      <marks>bl_tourist01</marks>
+      <facial>mteiffel</facial>
+      <hair>mtcleveland</hair>
+      <shirt>sponsorspynext</shirt>
+      <pants>conworker1</pants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>2100</x>
+      <y>1440</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="citizen3">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfee0d8</skinColor>
+      <hairColor>0xe75c2e</hairColor>
+      <mouth>youngsherpa</mouth>
+      <facial>sponsorspynext</facial>
+      <hair>sponsortinkbobble</hair>
+      <shirt>wkmrviolet</shirt>
+      <pants>franklin</pants>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>3000</x>
+      <y>1440</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="youngPerson">
+    <animations loop="true" random="true">
+      <animation>game.data.animation.entity.character.Guitar</animation>
+      <animation>game.data.animation.entity.character.Sing</animation>
+    </animations>
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfbdfcb</skinColor>
+      <hairColor>0x513b2b</hairColor>
+      <mouth>distressedmom</mouth>
+      <marks>freckles</marks>
+      <facial>bl_tourist01</facial>
+      <hair>astrogossip1</hair>
+      <shirt>balloonpilot02</shirt>
+      <pants>wwphoto</pants>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>1350</x>
+      <y>1440</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <faceSpeaker>false</faceSpeaker>
+  </npc>
+  <npc id="bertShell">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0x453929</hairColor>
+      <mouth>ppharaoh</mouth>
+      <marks>bags</marks>
+      <facial>is_bert</facial>
+      <hair>is_bert</hair>
+      <shirt>11</shirt>
+      <pants>mttownie02</pants>
+      <overshirt>is_bert</overshirt>
+      <overpants>astrogossip3</overpants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>600</x>
+      <y>404</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+	<faceSpeaker>false</faceSpeaker>
+  </npc>
+  <npc id="manWithShades">
+	<animations loop="false" random="false">
+		<animation>game.data.animation.entity.character.Ride</animation>
+	</animations>
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0x49321d</hairColor>
+      <mouth>17</mouth>
+      <marks>p_seacaptain</marks>
+      <facial>ss</facial>
+      <hair>tyson</hair>
+      <shirt>ss</shirt>
+      <pants>ss</pants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>955</x>
+      <y>1345</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+	<faceSpeaker>false</faceSpeaker>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+  
+	<npc id="girl" event="girl_in_main_street">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>19</mouth>
+			<hair>sacagawea</hair>
+			<shirt>nw_bshirt02</shirt>
+			<pants>africanlady3</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>2350</x>
+			<y>1440</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="dog" variant="creature" event="dog_in_main_street">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE7CF98</skinColor>
+			<hairColor>0xD2B351</hairColor>
+			<mouth>sponsorbarbieggdog3</mouth>
+			<marks>sponsorcddog</marks>
+			<facial>sponsorbarbieggdog1</facial>
+			<hair>bald</hair>
+			<shirt>sponsorbarbieggdog4</shirt>
+			<pants>1</pants>
+			<pack>sponsorcddog</pack>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>630</x>
+			<y>1440</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="dr_lange" event="worm_boss_defeated">
+    	<skin>
+      		<gender>female</gender>
+      		<skinColor>0xf9e4ce</skinColor>
+	      	<hairColor>0x5e0d11</hairColor>
+	      	<mouth>15</mouth>
+	      	<hair>is_scien</hair>
+	      	<shirt>is_scien</shirt>
+	      	<pants>is_scien</pants>
+	      	<overshirt>labcoat</overshirt>
+	      	<eyeState>open</eyeState>
+    	</skin>
+    	<direction>right</direction>
+    	<position>
+      		<x>2270</x>
+      		<y>1440</y>
+    	</position>
+    	<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+  <npc id="npc_friend">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x000000</skinColor>
+      <hairColor>0x000000</hairColor>
+    </skin>
+    <position>
+      <x>2500</x>
+      <y>1440</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="npc_friend_bitmap" >
+	<bitmap>Blank.swf</bitmap>
+    <position>
+      <x>2500</x>
+      <y>1440</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+</npcs>

@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Get your wishlist to fill out and print today! And don't forget to wear these masks!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Howdy!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

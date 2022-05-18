@@ -1,0 +1,9 @@
+<specialAbility id="limited/follower_twl_mak">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2810</param>
+		<param id="swfPath">limited/WildLifeQuest/Follower.swf</param> <!-- path to follower swf -->
+	</parameters>
+</specialAbility>

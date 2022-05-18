@@ -1,0 +1,57 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>LegoMovie2Quest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dbuilding%26campaign%3D2560019980</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dvideo%26campaign%3D2560019980</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Poster">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dposter%26campaign%3D2560019980</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dprize%26campaign%3D2560019980</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Start">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dmini_game%26campaign%3D2560019980</clickUrl> <!-- for clicking on sponsor banner on start popup -->
+		<clickUrl id="Win">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dmini_game%26campaign%3D2560019980</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+		<clickUrl id="Lose">http://pubads.g.doubleclick.net/gampad/clk?id=5097328723&amp;iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;t=type%3Dmini_game%26campaign%3D2560019980</clickUrl> <!-- for clicking on sponsor banner on lose popup -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dbuilding%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dvideo%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dvideo%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="PosterImpression"> <!-- For posters that look like posters (specify in tracking.xml) -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dposter%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="ObjectCollected"> <!-- When prize card  collected -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dprize%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="StartBannerImpression"> <!-- for start popup appearing -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dmini_game%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="WinBannerImpression"> <!-- for win popup appearing -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dmini_game%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+		<impressions id="LoseBannerImpression"> <!-- for lose popup appearing -->
+			<impression type="standard">https://pubads.g.doubleclick.net/gampad/adx?iu=/293018090/Poptropica_TEST/Poptropica.com_TEST/In-Game&amp;sz=1x1;ord=[RANDOM]&amp;t=type%3Dmini_game%26campaign%3D2560019980&amp;c=</impression>
+		</impressions>
+	</impressionUrls>
+
+		<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2952</card>
+		<card>2953</card>
+	</boycards>
+	<girlcards>
+		<card>2952</card>
+		<card>2953</card>
+	</girlcards>
+</campaign>

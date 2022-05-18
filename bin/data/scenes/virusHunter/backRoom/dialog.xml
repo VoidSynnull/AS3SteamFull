@@ -1,0 +1,23 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="talkedToLange" triggerEvent="triggerEvent" triggerEventArgs="talkedToLange2">How will you do that?</statement>
+		<statement triggeredByEvent="startSequence2" triggerEvent="triggerEvent" triggerEventArgs="startSequence3">Uh, is this thing safe?</statement>
+		<statement triggeredByEvent="startSequence5" triggerEvent="triggerEvent" triggerEventArgs="startSequence6">Still, I am not sure I like those odds.</statement>
+		<statement triggeredByEvent="beamFired" triggerEvent="triggerEvent" triggerEventArgs="beamFired2">Ooh, tingly!</statement>
+		<statement triggeredByEvent="beamFired2" triggerEvent="triggerEvent" triggerEventArgs="beamFired3">Whoa, the world seems to be getting bigger!</statement>
+		<statement triggeredByEvent="beamFired3" triggerEvent="triggerEvent" triggerEventArgs="beamFired4">...</statement>
+	</character>
+	<character id="npc">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="talkedToLange">Our only shot to make a vaccine is to isolate the virus within Joe's body without him knowing.</statement>
+		<statement triggeredByEvent="talkedToLange2" triggerEvent="triggerEvent" triggerEventArgs="talkedToLange3">By sending a nano-sized scientist into his bloodstream.</statement>
+		<statement triggeredByEvent="talkedToLange3" triggerEvent="triggerEvent" triggerEventArgs="padReady">We need you to be that scientist. Go stand on the platform.</statement>
+		
+		<statement triggeredByEvent="startSequence" triggerEvent="triggerEvent" triggerEventArgs="startSequence2">Starting up the nano-imaging sequence...</statement>
+		<statement triggeredByEvent="startSequence3" triggerEvent="triggerEvent" triggerEventArgs="startSequence4">Sure it is. We have a 99% success rate.</statement>
+		<statement triggeredByEvent="startSequence4" triggerEvent="triggerEvent" triggerEventArgs="startSequence5">Laser systems charging up...</statement>
+		<statement triggeredByEvent="startSequence6" triggerEvent="triggerEvent" triggerEventArgs="startSequence7">Relax, this won't hurt a bit...</statement>
+		
+		<statement event="completed_tutorial" link="completedTutorial">Nice work. You're a natural! But now we've got bigger fish to fry.</statement>
+		<statement id="completedTutorial" triggerEvent="triggerEvent" triggerEventArgs="loadJoesCondo">We'll wait until Joe gets home tonight to send you in. The rest is up to you!</statement>
+    </character>
+</dialogs>

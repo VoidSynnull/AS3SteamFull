@@ -1,0 +1,14 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">npc1</param2>
+			<param3 id="sayID">start</param3>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+	</group>
+</events>

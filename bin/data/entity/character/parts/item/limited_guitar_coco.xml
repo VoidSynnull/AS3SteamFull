@@ -1,0 +1,32 @@
+<part>
+	<id>limited_guitar_coco</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2859</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.VortexSwirl</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/CocoQuest/petal.swf</param>
+			<param id="tracking">CocoQuest,guitar</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.GuitarStrum</param> 
+					</parameters>
+				</action>
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">null</param>
+						<param id="url" type="string">limited/CocoQuest/coco_guitar.mp3</param> 
+						<param id="radius" type="number">0</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

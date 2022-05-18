@@ -1,0 +1,16 @@
+<specialAbility id="limited/pop_follower_moana_pua">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2820</param>
+		<param id="skinColor">0xFFFFFF</param>
+		<param id="hairColor">0x72472B</param>
+		 <param id="overshirtFrame">limited_pua</param>
+		  <param id="packFrame">limited_pua</param>
+		   <param id="facialFrame">limited_pua</param>
+		<param id="variant">creature</param>
+		<param id="creature">true</param>
+				 <param id="lineThickness">20</param>
+	</parameters>
+</specialAbility>

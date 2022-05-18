@@ -1,0 +1,20 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>AmericanGirlVBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">http://play.americangirl.com/play/joss/</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	
+	
+	<boycards>
+		<card>2997</card>
+		<card>2998</card>
+	</boycards>
+	<girlcards>
+		<card>2997</card>
+		<card>2998</card>
+	</girlcards>
+</campaign>

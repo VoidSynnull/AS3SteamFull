@@ -1,0 +1,46 @@
+<npcs>
+  <npc id="dino" variant="creature">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x5C5436</skinColor>
+      <hairColor>0x0</hairColor>
+	  <mouth>limited_15</mouth>
+	  <facial>limited_natm3_tric</facial>
+	  <pack>limited_natm3_tric</pack>
+	  <overshirt>limited_natm3_tric</overshirt>
+    </skin>
+	<direction>right</direction>
+    <position>
+      <x>100</x>
+      <y>620</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<faceSpeaker>true</faceSpeaker>
+	<scale>1.4</scale>
+  </npc>
+	<npc id="lancelot">
+		<skin>
+		  <skinColor>0xfee0d8</skinColor>
+		  <hairColor>0xD7AB51</hairColor>
+		  <mouth>limited_fire_mouth</mouth>
+	  	  <marks>limited_goat4</marks>
+		  <hair>limited_poptropicon_hero2</hair>
+		  <pants>limited_astroguard1</pants>
+		  <shirt>limited_nightmuseum3_lance</shirt>
+		  <overshirt>limited_astroguard1</overshirt>
+		  <item>limited_lancelotsword</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>13400</x>
+			<y>610</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

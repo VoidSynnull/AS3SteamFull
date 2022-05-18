@@ -1,0 +1,14 @@
+<part>
+	<id>ad_mh13wishes_lamp</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2433</campaignID>
+	
+	<specialAbility id="MH13Lamp">
+		<className>game.data.specialAbility.character.MH13WishingLamp</className>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

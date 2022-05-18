@@ -1,0 +1,29 @@
+<sounds>
+  <sound type="music">
+    <asset>Carrot_ShopTheme.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset id="door1">openDoor_pushBar.mp3</asset>
+  </sound>
+  <sound type="effects">
+    <asset triggeredByEvent="open">open_chest_01.mp3</asset>
+    <asset triggeredByEvent="cup_dropped">foam_cup_impact_01.mp3</asset>
+    <asset triggeredByEvent="knock">door_hallow_knocking_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+    <asset id="steps">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+    <asset id="roof">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+    <asset id="metal">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+    <asset id="car">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+    <asset id="ac">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+    <asset id="steps">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+    <asset id="roof">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+    <asset id="metal">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+    <asset id="car">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+    <asset id="ac">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+  </sound>
+</sounds>

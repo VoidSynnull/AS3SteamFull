@@ -1,0 +1,22 @@
+<hits>
+  <hit id="ac" color="0xDEE7E1" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="car" color="0xC8DDE4" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="concrete" color="0xDDD3B5" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="baseGround" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="bounce" color="0xff0000" platform="true">
+    <component type="bounce">
+      <velocity>
+        <x>0</x>
+        <y>-1000</y>
+      </velocity>
+    </component>
+  </hit>
+</hits>

@@ -1,0 +1,38 @@
+<item id="3702">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+	<textfields>
+		<text id="storeTitle">
+			<value>Supernova</value>
+			</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<facial>supernova</facial>
+			<overshirt>supernova</overshirt>
+			<pants>wwbanditgirl</pants>
+		</look>
+	</looks> 
+
+</item>

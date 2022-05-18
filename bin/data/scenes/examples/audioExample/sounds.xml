@@ -1,0 +1,56 @@
+<sounds>
+	<sound type="music">
+		<!-- 'loop' will cause this sound to loop until it is manually stopped on the component.
+		     'fade will cause this sound to fade in when played and fade out when another exclusive sound starts playing.
+		     'exclusiveType' will make this sound stop/fade out other sounds playing in the same component when it starts. 
+		     'baseVolume' will set the baseVolume of this sound to play at a custom level (defaults to 1).  This is NOT an override, so other volume modifiers like global 
+		                  volume and positioning can lower this volume further. -->
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".3">Carrot_ShopTheme.mp3</asset>
+		<!-- this music will play when the 'sneakySwitch' event fires. The 'exclusiveType' flag means its the only music that may play at a time.-->
+		<asset triggeredByEvent="sneakySwitch" loop="true" fade="true" exclusiveType="true">Sneaky_Suspense.mp3</asset>
+		<asset event="playTime" loop="true" fade="true" exclusiveType="true">Time_Tangled_Main_Theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".5">AMB_DesoluteWinds.mp3</asset>
+	</sound>
+	<!-- If you leave out the 'action' attribute it defaults to the type.  In this case, the action would become 'effects'. -->
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="startGears">gears_01.mp3</asset>
+		<!-- effects with an id will be mapped to the matching entity id if it exists with AudioGroup.addAudioToEntity. -->
+		<asset id="npc">cat_meow_01.mp3</asset>
+		<!-- If you want to use a url for a sound from another location outside of the default for a type, you can specify 'absoluteUrl=true'.  The path will start in 'bin/sound/' -->
+		<asset id="soundSource" absoluteUrl="true" modifiers="position">ambient/alarm_01.mp3</asset>
+	</sound>
+	<!--  Each sound needs either a unique action or id. -->
+	<sound type="effects" action="randomEvents">
+		<asset id="npc" triggeredByEvent="bigPow">big_pow_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<!--  this will be the default sound played on the 'doorOpened' action that happens after clicking a door. -->
+		<asset>openDoor_pushBar.mp3</asset>
+		<!--  for doors that need unique sfx, assign them based on the door's id.  These can change based on events as well. -->
+		<asset id="noisyDoor">medallion_fanfare_01.mp3</asset>
+		<!--  It's also possible to have a door be silent when opened by specifying 'none'. -->
+		<asset id="silentDoor">none</asset>
+	</sound>
+	<!-- if multiple sound effect files are specified the hit system will pick one at random.  Otherwise it will always place the same one if a single sfx is given-->
+	<sound type="effects" action="impact">
+		<asset id="wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3,fs_metal_02.mp3,fs_metal_03.mp3,fs_metal_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3,fs_concrete_02.mp3,fs_concrete_03.mp3,fs_concrete_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<!-- this sound will change when 'changeBaseGroundSurface' event is triggered -->
+		<asset id="baseGround" event="changeBaseGroundSurface">can_impact_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3,fs_metal_02.mp3,fs_metal_03.mp3,fs_metal_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3,fs_concrete_02.mp3,fs_concrete_03.mp3,fs_concrete_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<!-- this sound will change when 'changeBaseGroundSurface' event is triggered -->
+		<asset id="baseGround" event="changeBaseGroundSurface">can_impact_01.mp3</asset>
+	</sound>
+</sounds>

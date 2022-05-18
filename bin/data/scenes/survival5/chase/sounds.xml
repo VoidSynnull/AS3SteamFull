@@ -1,0 +1,46 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Space_Chase.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">AMB_wickedForest.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="vanBurenTalker" baseVolume="4">tally_ho_yell.mp3</asset>
+		<asset id="dog1" loop="true">dog_sniffing_01_loop.mp3</asset>
+		<asset id="dog2" loop="true">dog_sniffing_01_loop.mp3</asset>
+		<asset id="arrow">arrow_whoosh_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="land1">
+		<asset id="arrow" baseVolume="2">arrow_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="land2">
+		<asset id="arrow" baseVolume="2">arrow_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="barking">
+		<asset id="vanBurenTalker" loop="true" baseVolume=".5">dog_barking_01.mp3</asset>
+		<asset id="vanBurenTalker" loop="true" baseVolume=".5">dog_barking_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="tally-ho" baseVolume="3">horn_call_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="bush1" baseVolume="2">grass_rustle_01.mp3, bush_rustle_01.mp3</asset>
+		<asset id="bush2" baseVolume="2">grass_rustle_01.mp3, bush_rustle_01.mp3</asset>
+		<asset id="puddle1" baseVolume="2">ls_pond_water_splash_01.mp3, ls_pond_water_splash_02.mp3</asset>
+		<asset id="puddle2" baseVolume="2">ls_pond_water_splash_01.mp3, ls_pond_water_splash_02.mp3</asset>
+		<asset id="tree1" baseVolume="2">ls_leaves_01.mp3</asset>
+		<asset id="tree2" baseVolume="2">ls_leaves_01.mp3</asset>
+		<asset id="pit1" baseVolume="2">leaves_rustle_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3</asset>
+	</sound>
+</sounds>

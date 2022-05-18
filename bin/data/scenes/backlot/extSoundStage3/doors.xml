@@ -1,0 +1,28 @@
+<doors>
+  <door id="door1">
+    <scene>game.scenes.backlot.soundStage3.SoundStage3</scene>
+    <x>1793</x>
+    <y>928</y>
+    <label>
+      <text>Enter</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="cartExit">
+    <scene>game.scenes.backlot.backlotTopDown.BacklotTopDown</scene>
+    <x>620</x>
+    <y>2150</y>
+    <label>
+      <text>Ride</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+</doors>

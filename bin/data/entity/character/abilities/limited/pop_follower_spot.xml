@@ -1,0 +1,21 @@
+<specialAbility id="limited/pop_follower_spot">
+	<type>pop_follower</type>
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="campaignId">2730</param>
+		<param id="id">2730</param>
+		<param id="skinColor">0xf1aa5a</param>
+		<param id="hairColor">0x5a4223</param>
+		<param id="mouthFrame">limited_spot</param>
+		<param id="hairFrame">limited_spot</param>
+		<param id="marksFrame">ad_boxtrolls_eggs</param>
+		<param id="shirtFrame">bare</param>
+		<param id="pantsFrame">limited_spot</param>
+		<param id="overshirtFrame">limited_spot</param>
+		<param id="creature">true</param>
+		<param id="scaleSize">0.7</param>
+		<param id="campaignName">GoodDinosaurMVU</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

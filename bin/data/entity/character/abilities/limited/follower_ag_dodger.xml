@@ -1,0 +1,9 @@
+<specialAbility id="limited/follower_ag_dodger">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2032</param>
+  		<param id="swfPath">limited/AmericanGirlQuest/follower_dodger.swf</param> <!-- path to follower swf -->
+	</parameters>
+</specialAbility>

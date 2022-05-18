@@ -1,0 +1,17 @@
+<part>
+	<id>on_off_example</id>
+	<asset>dd_diver</asset>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+  	<specialAbility id="on_off_example">
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<parameters>
+			<param id="partType">facial</param>			<!-- should be same part type given in type tag above -->
+		</parameters>
+	</specialAbility>
+	
+</part>

@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="ambient" absoluteUrl="true">
+		<asset loop="true" faded="false" exclusiveType="true">effects/gears_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_heavy_metal_01.mp3,fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3,fs_heavy_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_heavy_metal_01.mp3,ls_heavy_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="bard_transform">turn_into_cyborg.mp3</asset>
+		<asset id="bard_transform">turn_into_cyborg.mp3</asset>
+		<asset id="fire_razor">power_down_04.mp3</asset>
+		<asset id="get_hit">whack_01.mp3</asset>
+		<asset id="minuteHand_move">medium_impact_01.mp3</asset>
+		<asset id="hourHand_move">medium_impact_02.mp3</asset>
+		<asset id="bell_ring">hour_dong.mp3</asset>
+		<asset id="circut_complete">event_08.mp3</asset>
+		<asset id="bard_shock">bard_shocked.mp3</asset>														
+	</sound>
+</sounds>

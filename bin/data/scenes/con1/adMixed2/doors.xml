@@ -1,0 +1,30 @@
+<doors>
+	<door id="exitLeft">
+		<scene>game.scenes.con1.center.Center</scene>
+		<x>4000</x>
+		<y>1900</y>
+		<direction>left</direction>
+		<label>
+			<text>GO LEFT</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="exitRight">
+		<scene>game.scenes.con1.alley.Alley</scene>
+		<x>500</x>
+		<y>1830</y>
+		<direction>right</direction>
+		<label>
+			<text>GO RIGHT</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

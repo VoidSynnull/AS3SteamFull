@@ -1,0 +1,13 @@
+<part>
+	<id>store_hypno_powder</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility id="hypnoPowder">
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.store.HypnoPowder</className>
+	</specialAbility>
+</part>

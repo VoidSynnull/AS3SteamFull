@@ -1,0 +1,18 @@
+<part>
+	<id>sponsortinkerbell</id>
+	<type>hair</type>
+	<campaignID>2364</campaignID>
+	<gender>female</gender>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

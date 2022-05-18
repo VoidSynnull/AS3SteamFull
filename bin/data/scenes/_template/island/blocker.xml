@@ -1,0 +1,40 @@
+<blocker>
+	<videoId>gC82-JX1yCk</videoId>
+	<queryString>?source=POP_img_GetMembership_GHDDemoBlock-pop&medium=Display&campaign=GHDIsland</queryString>
+	
+	<textfields>
+		<text id="title">
+			<styleId>titleyellow</styleId>
+      		<value>END OF DEMO</value>
+      		<size>38</size>
+      		<height>50</height>
+    	</text>
+    	<text id="description">
+    		<styleId>raisedparagraph</styleId>
+      		<value>Wait! Early Access to Shrink Ray Island is for Members only -- but C.J. is still in danger! Only you can recover the stolen Shrink Ray, find the thief, and bring everything back to normal size. Become a Member now to keep playing Shrink Ray Island!</value>
+      		<size>16</size>
+      		<height>125</height>
+    	</text>
+    	<text id="public_access">
+    		<styleId>dimfootnote</styleId>
+      		<value></value>
+      		<size>13</size>
+      		<height>20</height>
+    	</text>
+  	</textfields>
+  	
+	<buttons>
+		<btn id="membership">
+	  		<label>GET MEMBERSHIP</label>
+		</btn>
+		<btn id="buy">
+	  		<label>Buy</label>
+		</btn>
+  	</buttons>
+  	
+	<!-- <assets>
+  		<asset id="picture">
+  			<assetPath>items/shared/EarlyBackground.swf</assetPath>
+    	</asset>
+    </assets> -->
+</blocker>

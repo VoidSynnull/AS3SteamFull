@@ -1,0 +1,31 @@
+<npcs>
+	<npc id="sultan">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>HunterGiveUp</mouth>
+			<marks>an_sultan</marks>
+			<hair>an_sultan</hair>
+			<shirt>an_sultan</shirt>
+			<pants>an_sultan</pants>
+			<overpants>an_sultan</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>290</x>
+			<y>700</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	<npc id="sultan" event ="questAccepted">
+		<skin>
+			<hair>an_sultan2</hair>
+		</skin>
+		<position>
+			<x>290</x>
+			<y>700</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+</npcs>

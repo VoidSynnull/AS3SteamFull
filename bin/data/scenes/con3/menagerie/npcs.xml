@@ -1,0 +1,31 @@
+<npcs>
+	<npc id="elf_archer">
+		<animations loop="true">
+			<animation duration="50">game.data.animation.entity.character.Grief</animation>
+			<animation duration="150">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>448</mouth>
+			<marks>poptropicon_elfarcher_smudge</marks>
+			<hair>poptropicon_elfarcher</hair>
+			<shirt>poptropicon_elfarcher</shirt>
+			<pants>poptropicon_saworldguy</pants>
+			<pack>poptroicon_elfarcher</pack>
+			<item>poptropicon_elfarcher</item>
+			<overpants>poptropicon_elfarcher</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>302</x>
+			<y>422</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

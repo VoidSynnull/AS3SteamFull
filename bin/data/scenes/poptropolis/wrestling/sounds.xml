@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">for_glory.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="hex">heavy_gritty_drag_03.mp3</asset>	
+		<asset triggeredByEvent="circleWin">circle_win.mp3</asset>	
+		<asset triggeredByEvent="circleFail">circle_fail.mp3</asset>
+		<asset triggeredByEvent="squareWin">square_win.mp3</asset>
+		<asset triggeredByEvent="squareFail">square_fail.mp3</asset>
+		<asset triggeredByEvent="ping1">points_ping_01a.mp3</asset>
+		<asset triggeredByEvent="ping2">points_ping_01b.mp3</asset>
+		<asset triggeredByEvent="ping3">points_ping_01c.mp3</asset>
+		<asset triggeredByEvent="ping4">points_ping_01d.mp3</asset>
+	</sound>
+</sounds>

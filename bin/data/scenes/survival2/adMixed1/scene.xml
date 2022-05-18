@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1910</right>
+		<bottom>1075</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2010</right>
+		<bottom>1050</bottom>
+	</bounds>
+	<assets></assets>
+	<data>doors.xml,hits.xml,npcs.xml,custom.xml,sounds.xml</data>
+	<absoluteFilePaths>scenes/survival2/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>50</x>
+			<y>1050</y>
+		</defaultPosition>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

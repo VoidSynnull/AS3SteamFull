@@ -1,0 +1,19 @@
+<part>
+	<id>limited_paw_print</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+
+	<specialAbility id="WhoopeeCushion">
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="tracking">CliffordQuest,Paw Print Power</param>
+			<param id="swfPath">limited/CliffordQuest/pawprint.swf</param>
+			<param id="slip">false</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"/>
+  	</components>
+</part>

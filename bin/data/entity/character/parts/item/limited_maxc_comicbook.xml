@@ -1,0 +1,54 @@
+<part>
+	<id>limited_maxc_comicbook</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2791</campaignID>
+	<specialAbility>
+			<className>game.data.specialAbility.character.PlayPopupAnim</className>
+			<parameters>
+				<param id="swfPath">limited/KFP3PandasIC/transformation.swf</param>
+				<param id="tracking">MaxCrumblyHeroIC,Hero Power</param>
+			</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_maxc_hero_mask</param>
+					</parameters>
+				</action>	
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">limited_maxc_hero</param>
+					</parameters>
+				</action>	
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">limited_maxc_heropants</param>
+					</parameters>
+				</action>	
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pack</param>
+						<param id="partID" type="string">limited_maxc_herocape</param>
+					</parameters>
+				</action>	
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overpants</param>
+						<param id="partID" type="string">limited_maxc_herobelt</param>
+					</parameters>
+				</action>	
+		
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

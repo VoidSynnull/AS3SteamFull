@@ -1,0 +1,44 @@
+<part>
+	<id>limited_spiesdisguise</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<disableBroadcast>true</disableBroadcast>
+		<sfPauseTimer>2</sfPauseTimer>
+		<parameters>
+			<param id="swfPath">limited/KidDangerQuest/Flash.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">true</param>
+			<param id="tracking">SpiesInDisguiseQuest,disguise</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			</actionChain>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction" startDelay="0.6">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">limited_spiesdisguise</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction" startDelay="0.1">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">blinked</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

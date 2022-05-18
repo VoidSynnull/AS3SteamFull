@@ -1,0 +1,48 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>AbominableQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Poster">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Start">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on sponsor banner on start popup -->
+		<clickUrl id="Win">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+		<clickUrl id="Lose">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on sponsor banner on lose popup -->
+		<clickUrl id="Info">https://www.dreamworks.com/movies/abominable</clickUrl> <!-- for clicking on sponsor banner on info/synopsis popup -->
+	</clickUrls>
+	
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5196634791&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5196634791&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5196634791&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5196634791&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5196634791&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2976</card>
+		<card>2977</card>
+	</boycards>
+	<girlcards>
+		<card>2976</card>
+		<card>2977</card>
+	</girlcards>
+</campaign>

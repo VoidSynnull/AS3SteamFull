@@ -1,0 +1,39 @@
+<dialogs>
+	
+	<character id="barber">
+		<conversation>
+			<exchange>
+				<question>What can I do here?</question>
+				<answer>Need a touch-up? The Colorizer should still work fine.</answer>
+			</exchange>
+			<exchange>
+				<question>What's the Colorizer?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="point_to_colorizer">The Colorizer can change your hair and skin color - it's right over there.</answer>
+			</exchange>
+			<exchange>
+				<question>Know any good jokes?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="tell_joke">How 'bout this one...</answer>
+			</exchange>
+		</conversation>
+		<statement id="recognize">I can barely recognize you!</statement>
+		<statement id="bad_joke_1" link="bad_joke_punchline_1">What's the difference between an angry circus owner and a Roman barber?</statement>
+		<statement id="bad_joke_2" link="bad_joke_punchline_2">What's the surest sign that you need to find a new barber?</statement>
+		<statement id="bad_joke_3" link="bad_joke_punchline_3">A Poptropican walks into a barbershop...</statement>
+		<statement id="bad_joke_4" triggerEvent="triggerEvent" triggerEventArgs="laugh">Come to get your ears lowered?</statement>
+		<statement id="bad_joke_punchline_1" triggerEvent="triggerEvent" triggerEventArgs="laugh">One is a raving showman, and the other is a shaving Roman!</statement>
+		<statement id="bad_joke_punchline_2" triggerEvent="triggerEvent" triggerEventArgs="laugh">The pile of swept-up ears in the corner!</statement>
+		<statement id="bad_joke_punchline_3">Actually, I shouldn't tell you this one until you're older.</statement>
+    </character>
+    
+    <character id="tailor">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="combinations">Got some new ideas for outfits? Give that lever a crank and let's see!</statement>
+		<statement event="combinations">Mm? Just keep pulling the lever to see new combinations. Everything can mix and match!</statement>
+		<statement id="new_outfit">Looking for a new outfit? Plenty to choose from up on the racks.</statement>
+		<statement id="hello_again">Oh, hello again!</statement>
+		
+		<statement id="curtain1" triggerEvent="triggerEvent" triggerEventArgs="proud">These are great! Bravo!</statement>
+		<statement id="curtain2">I wouldn't have thought of those together, I like your style!</statement>
+		<statement id="curtain3" triggerEvent="triggerEvent" triggerEventArgs="think">I suppose it could work, in the right lighting...</statement>
+		<statement id="curtain4">Everything eventually comes back in fashion, I suppose.</statement>
+    </character>
+</dialogs>

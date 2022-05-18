@@ -1,0 +1,18 @@
+<part>
+	<id>limited_dc_batarang</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2960</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/DCSupergirlsVBB/batarang.swf</param>
+			<param id="speedX">600</param>
+			<param id="speedY">-100</param>
+			<param id="boomerang">true</param>
+			<param id="knock">true</param>
+			<param id="tracking">DCSupergirlsVBB,batarang</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,84 @@
+<hits>	
+	<hit id="fridge" color="0xE7DBBD" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="letter" color="0xE5DCC6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="iceMaker" color="0xF0ECD3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="sponge" color="0x9DD79D" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="drawer" color="0xF3F1DD" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="toaster" color="0xCFCFC5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="handle" platform="true">
+		<component type="platform">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="shelf" color="0xC7B0A0" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="spatulaHandle">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="spatulaHead">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="can" color="0xCCE3D8" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cleaner" color="0xD9ABA9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="trash" color="0xFCD3CE" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="trashCan" color="0xBBC0B9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="counter" color="0xE5DCC6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+</hits>

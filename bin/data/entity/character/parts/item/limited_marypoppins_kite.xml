@@ -1,0 +1,46 @@
+<part>
+	<id>limited_marypoppins_kite</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2944</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddBalloon</className>
+		<useButton>true</useButton>
+		<triggerable>false</triggerable>
+		<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/marypoppins_kite.swf</param>
+		<param id="knotX">0</param>
+		<param id="knotY">0</param>
+		<param id="tracking">MaryPoppinsVBB,Kite Power</param>
+		<param id="triggerable">true</param>
+		
+	</parameters>
+		<actions>
+			<actionChain id="setballoon_actions">
+			<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">blank</param>
+					</parameters>
+					</action>
+				<action class="ShowOverlayAnimAction">
+					<parameters>
+						<param id="swf" type="string">limited/MaryPoppinsVBB/kitepopup.swf</param>
+						<param id="scaleMode" type="string">null</param>
+						<param id="alignToPlayer" type="boolean">true</param>
+						<param id="yOffset" type="number">-570</param>
+						<param id="xOffset" type="number">550</param>
+					</parameters>
+				</action>
+				<action class="RevertSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+					</parameters>
+				</action>
+				</actionChain>
+				
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,7 @@
+<hotspots>
+	<hotspot id="videoContainer" width="300" height="172" type="video" showLikeButton="true" endScreens="Draw head,Shark toon,Drawn Life">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="giveItemMale">2552,2553,2554,2555</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2552,2553,2554,2555</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

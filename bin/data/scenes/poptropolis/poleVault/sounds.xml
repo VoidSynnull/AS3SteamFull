@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Poptropolis_Main_Theme_Full.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="hitBarSFX">whack_02.mp3</asset>
+		<asset triggeredByEvent="pickGreenSFX">ls_bounce_03.mp3</asset>
+		<asset triggeredByEvent="pickOtherSFX">ls_bounce_02.mp3</asset>
+		<asset triggeredByEvent="notPickedSFX">fall_on_ground_01.mp3</asset>
+		<asset triggeredByEvent="beatScoreSFX">achievement_01.mp3</asset>
+	</sound>
+</sounds>

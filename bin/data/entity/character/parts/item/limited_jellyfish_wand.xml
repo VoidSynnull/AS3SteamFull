@@ -1,0 +1,42 @@
+<part>
+	<id>limited_jellyfish_wand</id>
+	<type>item</type>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">SpongeBobKampKoralMMSQ,Wand</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+						<param id="waitlabel" type="string">raised</param>
+						<param id="maxframes" type="int">0</param>
+						<param id="stoponlabel" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">player</param>
+						<param type="string">mouth</param>
+						<param type="string">sneeze</param>
+					</parameters>
+				</action>
+				<action class="SkinFrameAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="part" type="string">item</param>
+						<param id="start" type="string">bubbleAction</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+</part>

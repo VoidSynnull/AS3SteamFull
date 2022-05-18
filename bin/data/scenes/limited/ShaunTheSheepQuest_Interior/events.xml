@@ -1,0 +1,25 @@
+<events>
+	<group type="dialogStart" id="bitmap_shaun">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="truck">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="swfPath">limited/ShaunTheSheepQuest/TruckAnim.swf</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="charID">player</param2>
+			<param3 id="sayID">endTruck</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

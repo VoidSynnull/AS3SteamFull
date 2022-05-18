@@ -1,0 +1,27 @@
+<part>
+	<id>limited_spongebob_hat</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2627</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<parameters>
+			<param id="tracking">SpongebobOutOfWaterQuest,Bubble Hat</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

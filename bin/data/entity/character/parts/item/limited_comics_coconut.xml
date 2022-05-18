@@ -1,0 +1,13 @@
+<part>
+	<id>limited_comics_coconut</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2552</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="bounce">true</param>
+		</parameters>
+	</specialAbility>
+</part>

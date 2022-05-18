@@ -1,0 +1,32 @@
+<npcs>
+	<npc id="humphree" event="humphree_lost">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="40">game.data.animation.entity.character.Stand</animation>
+			<animation>game.data.animation.entity.character.Stomp</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x8dc73f</skinColor>
+			<hairColor>0x000000</hairColor>
+			<head>humphree</head>
+			<mouth>humphree_sad</mouth>
+			<shirt>1</shirt>
+			<pants>ghd_humphree</pants>
+			<overshirt>ghd_humphree</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<talkMouth>humphree_talk</talkMouth>
+		<position>
+			<x>725</x>
+			<y>580</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<costumizable>false</costumizable>
+		<scale>.5</scale>
+	</npc>
+</npcs>

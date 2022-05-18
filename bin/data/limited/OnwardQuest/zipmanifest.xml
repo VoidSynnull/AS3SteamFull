@@ -1,0 +1,106 @@
+<manifest>
+	<!-- Onward xml files -->
+	<data type="campaign" path="data/limited/OnwardQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/OnwardQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="game" path="data/scenes/limited/OnwardQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/OnwardQuest_Interior/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		
+	<assets type="game" path="assets/scenes/limited/OnwardQuest_Game/" ext="swf">
+		<asset>backdrop1</asset>
+		<asset>backdrop2</asset>
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+		<asset>obstacles</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/OnwardQuest/" ext="swf">
+		<asset>Dad</asset>
+		<asset>IanBarely</asset>
+		<asset>Lose</asset>
+		<asset>projectile</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2995</asset>
+		<asset>2996</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2995</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_onward_blazey</asset>
+	</data>
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>Super_Power_Main_Theme</asset>
+		<asset>Astro_Knights_Main_Theme</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>crunch_01</asset>
+		<asset>dirt_break_03</asset>
+	</assets>
+
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_blazy</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_blazy</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_blazy</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_blazy</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_onward_staff</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_onward_staff</asset>
+	</assets>
+	<data type="hand" path="data/entity/character/parts/hand/" ext="xml">
+		<asset>limited_blazey_foot</asset>
+	</data>
+	<assets type="hand" path="assets/entity/character/hand/" ext="swf">
+		<asset>limited_blazey_foot</asset>
+	</assets>
+	<assets type="foot" path="assets/entity/character/foot/" ext="swf">
+		<asset>limited_blazey_foot</asset>
+	</assets>
+</manifest>

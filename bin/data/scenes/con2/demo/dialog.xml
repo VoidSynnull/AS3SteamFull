@@ -1,0 +1,60 @@
+<dialogs>
+	<character id="dealer">
+		<statement id="new_player" link="try_game">Want to try your hand at the Mighty Action Force trading card game?</statement>
+    
+    	<conversation id="try_game">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="check_if_played">Sure!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="give_starter" triggerEvent="triggerEvent" triggerEventArgs="give_deck">Here's a starter pack.</statement>
+    	<statement id="dealer_teach" triggerEvent="triggerEvent" triggerEventArgs="play_dealer">I'll teach you how to play.</statement>
+    	<!-- <statement event="starter_deck" link="play_again">You may be able to find more cards around the con.</statement> -->
+    	
+    	<statement event="starter_deck" link="replay">Want to play again?</statement>
+    	<conversation id="replay">
+    		<exchange>
+    			<question>Sure, why not.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="play_dealer">Great, let's get started.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="won_card" link="explain_deck">Great game! That card should help strengthen your deck.</statement>
+    	<statement id="explain_deck" triggerEvent="triggerEvent" triggerEventArgs="open_deck">You can reorganize cards with your Card Deck item. Try swapping in the card you just won.</statement>
+    	<statement id="deck_closed" link="lookout">Remember to update your deck when you get new cards</statement>
+    	<statement id="lookout">and keep a look out, you never know where cards might be hiding.</statement>
+    
+    </character>
+    
+    <character id="player">
+    	<statement id="lost_to_expert">She's right, maybe I can find more cards around the con.</statement>
+    </character>
+    
+    <character id="expert">
+    	<statement>My deck is so good I don't even need to use my new Omegon card.</statement>
+		<statement event="starter_deck" link="question">Beat my epic deck and I'll give you an unreleased Omegon card.</statement>
+		<statement event="omegon_body_photo" link="question">I can't believe I lost. Best out of 3?</statement>
+		<conversation id="question">
+			<exchange>
+				<question>You're on.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="play_expert">Prepare for a world of hurt.</answer>
+			</exchange>
+			<exchange>
+				<question>I'll pass for now.</question>
+			</exchange>
+		</conversation>
+    	<statement id="lost">How did you beat me! This is impossible!</statement>
+    	<statement id="won">You'll never beat me with cards like that in your deck.</statement>
+    </character>
+    
+    <character id="marksman">
+    	<statement>I love the Mighty Action Force! I want to get all of their cards!</statement>
+    </character>
+</dialogs>

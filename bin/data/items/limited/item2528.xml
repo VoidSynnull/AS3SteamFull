@@ -1,0 +1,76 @@
+﻿<item id="2528"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Toto Tote Card</name> <!-- Change this card name -->
+  	<campaignID>LegendsofOzApril2014MVU</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Toto Tote Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Toto Tote Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Legends Of Oz</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Toto Tote</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+		<text id="copyright">
+			<value></value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor></skinColor>
+			<hairColor></hairColor>
+			<eyeState></eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth></mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair></hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item>ad_legendsofoz_toto</item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</look>
+	</looks> 
+    
+</item>

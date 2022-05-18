@@ -1,0 +1,23 @@
+<item id="3292">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3292.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>ACTIVATE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Super Villain</value>
+		</text>
+		<text id="storeSubTitle">
+			<value>Sleeping Powder</value>
+		</text>
+	</textfields>
+</item>

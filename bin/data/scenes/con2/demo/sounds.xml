@@ -1,0 +1,31 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">poptropicon2_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="soda_fizzle">soda_can_open_01.mp3</asset>
+		<asset triggeredByEvent="grab_balloon">balloon_bounce_02.mp3</asset>
+		<asset triggeredByEvent="shake_board">shake_wood_02.mp3</asset>
+		<asset triggeredByEvent="paper_fall">falling_paper_01.mp3</asset>
+		<asset triggeredByEvent="marker_fell">plastic_impact_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="table">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="sign">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="table">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="sign">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+	</sound>
+</sounds>

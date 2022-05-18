@@ -1,0 +1,28 @@
+<hits>
+	<hit id="chimney" color="0x990000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="leaves" color="0x006633" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="house" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="carSeat" platform="true">
+		<component type="movingPlatform"/>
+	</hit>
+	
+	<hit id="carTop" platform="true">
+		<component type="movingPlatform"/>
+	</hit>
+</hits>

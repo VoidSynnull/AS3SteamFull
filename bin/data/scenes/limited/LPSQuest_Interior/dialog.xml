@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="bitmap_begonia">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startHidingGame">Help find my friends! I saw them go into the toy store and can’t find them.</statement>
+		<statement id="doneWalk">Help find my friends! I saw them go into the toy store and can’t find them.</statement>
+    </character>
+	<character id="bitmap_stella">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startCollectionGame">Come inside the pet store and find the cute, little baby pets.</statement>
+		<statement id="doneWalk">Come inside the pet store and find the cute, little baby pets.</statement>
+
+	</character>
+</dialogs>

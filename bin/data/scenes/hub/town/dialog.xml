@@ -1,0 +1,83 @@
+<dialogs>
+	<character id="tailor">
+		<statement>Step inside to change your skin and hair color! And don't run with scissors!</statement>
+    </character>
+
+    <character id="bundleNpc">
+		<statement>There are plenty of great outfits in the store!</statement>
+    </character>
+    
+     <character id="petgirl">
+    	<statement>Go inside to get your own pet.</statement>
+	</character>
+   
+	<character id="dj">
+    	<statement>Jump in the rocket to play the arcade. It's out of this world.</statement>
+	</character>
+
+	<character id="wheelGuy">
+    	<statement id="not_registered" link="show">Sorry! You need to save your game to spin the wheel.</statement>
+    	<statement id="show" link="how">Would you like me to show you how?</statement>
+		
+		<conversation id="how">
+			<exchange>
+				<question>Yes please!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="play_save_tutorial">Not a problem.</answer>
+			</exchange>
+			<exchange>
+				<question>Maybe later.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="decline_to_save">No pressure, but we can't give you prizes without an account to put them in.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement triggerEvent="triggerEvent" triggerEventArgs="open_wheel" id="spin">Spin the wheel and get some loot!</statement>
+		<statement id="nospin">Play islands and arcade games to get more loot.  Have fun!</statement>
+    </character>
+    
+    <character id="player">
+ 		<statement id="what_do_home" link="poptropica_is_new" linkEntityId="amelia">What can I do on Home Island?</statement>
+    </character>
+    
+    <character id="amelia">
+    	<!-- dialog for new player -->    	
+    	<statement event="new_user" link="what_do_home" linkEntityId="player">Welcome to Home Island</statement>
+    	<statement link="questions_incomplete">How can I help you?</statement>
+		<statement event="ftue_tutorial_completed" link="questions_completed">What can I do for you today?</statement>
+		
+		<conversation id="questions_incomplete">
+			<exchange>
+				<question>What can I do on Home Island?</question>
+				<answer link="poptropica_is_new">There are lots of things to do!</answer>
+			</exchange>
+			<exchange>
+				<question>What else can I do?</question>
+				<answer link="what_else">Lets see...</answer>
+			</exchange>
+		</conversation>
+
+				<conversation id="questions_completed">
+			<exchange>
+				<question>I'm ready for more adventures!</question>
+				<answer>Fantastic, just hop aboard the blimp to choose your next island.</answer>
+			</exchange>
+			<exchange>
+				<question>Is there more than just adventures?</question>
+				<answer link="poptropica_is_new">Of course.</answer>
+			</exchange>
+		</conversation>
+
+		<statement id="are_you_ready" link="ready_check">Are you ready to start your first adventure?</statement>
+		<conversation id="ready_check">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="start_race">Let's go!</question>
+			</exchange>
+			<exchange>
+				<question>Not yet.</question>
+			</exchange>
+		</conversation>
+	</character>
+	
+    <character id="snowball">
+    	<statement>You can pick up snowballs from the snowball hut.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,67 @@
+<groups>
+	<group event="pre_contest" triggerAndSave="true">
+		<and>
+			<event not="true" type="cooked_dog"/>
+		</and>
+	</group>
+	<group event="pre_worm_hole" triggerAndSave="true">
+		<and>
+			<event type="cooked_dog"/>
+			<event not="true" type="worm_hole_appeared"/>
+		</and>
+	</group>
+	
+	<group event="cosmoe_lost" triggerAndSave="true">
+		<and>
+			<event type="worm_hole_appeared"/>
+			<event not="true" type="recovered_cosmoe"/>
+		</and>
+	</group>
+	<group event="dagger_lost" triggerAndSave="true">
+		<and>
+			<event type="worm_hole_appeared"/>
+			<event not="true" type="recovered_dagger"/>
+		</and>
+	</group>
+	<group event="humphree_lost" triggerAndSave="true">
+		<and>
+			<event type="worm_hole_appeared"/>
+			<event not="true" type="recovered_humphree"/>
+		</and>
+	</group>
+	<group event="unfinished_crew" triggerAndSave="true">
+		<and>
+			<event type="worm_hole_appeared"/>
+			<event not="true" type="recovered_crew"/>
+		</and>
+	</group>
+	<group event="know_how_to_flip_mushrooms" triggerAndSave="true">
+		<and>
+			<event type="gotItem_guano"/>
+			<event type="used_guano"/>
+		</and>
+	</group>
+	
+	
+	<group event="recovered_crew" triggerAndSave="true">
+		<and>
+			<event type="recovered_cosmoe"/>
+			<event type="recovered_dagger"/>
+			<event type="recovered_humphree"/>
+		</and>
+	</group>
+	
+	<group event="looking_for_lost_triangle" triggerAndSave="true">
+		<and>
+			<event type="ask_fred"/>
+			<event not="true" event="found_lost_triangle"/>
+		</and>
+	</group>
+	<group event="got_all_map_pieces" triggerAndSave="true">
+		<and>
+			<event type="got_map_1"/>
+			<event type="got_map_2"/>
+			<event type="got_map_3"/>
+		</and>
+	</group>
+</groups>

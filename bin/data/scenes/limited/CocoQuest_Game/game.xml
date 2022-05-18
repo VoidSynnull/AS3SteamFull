@@ -1,0 +1,14 @@
+<game>
+	<className>RaceGame</className>
+	<item>limited_legbone</item>
+	<winDistance>13500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winNPCPhrase npc="hector">Thanks! You made it.</winNPCPhrase> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>dante</chaserPrefix>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>2100</returnX>
+	<returnY>1430</returnY>
+</game>

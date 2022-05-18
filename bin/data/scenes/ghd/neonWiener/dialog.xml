@@ -1,0 +1,93 @@
+<dialogs>
+	<character id="cosmoe">
+		<conversation>
+			<exchange>
+				<question>I heard you're having problems.</question>
+				<answer>We're entering the cook-off, and my nuclear hibachi is flat out of fuel!</answer>
+			</exchange>
+			<exchange>
+				<question>Why is the cook-off so important?</question>
+				<answer>With the prize money, we can afford to hunt for a map to the most frappin' fantastic treasure in the galaxy!</answer>
+			</exchange>
+			<exchange>
+				<question>Wow. What do you need to power the grill?</question>
+				<answer  triggerEvent="giveItem" triggerEventArgs="fuel_cell">I need a nuclear pellet for this fuel cell.</answer>
+			</exchange>
+		</conversation>
+		<statement event="hasItem_fuel_cell">Have you found a nuclear pellet yet?  We need to start cooking!</statement>
+		<statement id="you_did_it">You found one! With this we will make the best dog this contest has ever seen!</statement>
+		<statement id="good_as_ours">That prize is as good as ours! Nothing could possibly go wrong.</statement>
+		<statement id="now_we_leave">We've got to get out of here!</statement>
+		<statement id="get_out_of_here" linkEntityId="humphree" link="full_throttle">Humphree, hit the gas!</statement>
+		<statement id="not_going">What the butt?!</statement>
+		<statement event="recovered_cosmoe">We need to find the rest of our crew!</statement>
+		
+		<statement id="find_the_map" linkEntityId="humphree" link="me_too" forceOnScreen="true">We're all back together! Now we can look for that treasure map. If only we knew where it was...</statement>
+		<statement id="hot_butts" triggerEvent="triggerEvent" triggerEventArgs="stroke_of_luck" forceOnScreen="true">Hot butts, maybe being molecularly disassembled and beamed across the galaxy was the stroke of luck we needed!</statement>
+		<statement event="ask_fred" linkEntityId="player" link="red_planet" forceOnScreen="true">As my body was vaporized and beamed light-years across the galaxy, I could see it clear as day: the map is somewhere near a red star.</statement>
+		
+  		<statement id="you_made_it">I knew you could do it!</statement>
+  		<statement id="the_queen" linkEntityId="humphree" link="down_with_the_ship" forceOnScreen="true">Aw, smudge! The queen must have found us!</statement>
+  		<statement id="eat_it" forceOnScreen="true">Here we go! I hope the queen is hungry.</statement>
+  		<statement event="got_all_map_pieces" forceOnScreen="true">We can't outrun them like this!</statement>
+  		<statement id="next_adventure" forceOnScreen="true">Ready crew? Time for our next adventure.</statement>
+  		
+  		<statement id="hasItem_medal_ghd">Welcome back!</statement>
+    </character>
+    
+   <character id="player">
+   		<statement id="nice_to_meet_you">Hello, Fred. I'm not sure, but I'll let you know.</statement>
+   		<statement id="outside_space">I can't exit here. I'm in space!</statement>
+    	<statement id="not_now_button">I don't know what this does, better leave it alone for now.</statement>
+    	<statement id="worm_hole" linkEntityId="fred" link="help_find_them">Wow, that was random. FRED, what the heck happened?</statement>
+    	
+    	<statement id="red_planet">There are jillions of red planets in the galaxy!</statement>
+    	<statement id="column_e">Column E? That narrows it down... barely.</statement>
+    	<statement id="row_5">Row 5, eh? I suppose we could look there, for the next several millennia.</statement>
+    	
+    	<statement id="figure_this_out">We should figure out what these codes mean before we go anywhere.</statement>
+    	<statement id="queen_is_after_us">We have to leave here before the queen shows up!</statement>
+    </character>
+    
+    <character id="fred">
+    	<statement linkEntityId="player" link="nice_to_meet_you">Hello, human-child. They call me FRED. What can I help you with?</statement>
+    	<statement id="help_find_them">The crew has been scattered throughout the galaxy! I will help you search for them.</statement>
+    	<statement event="unfinished_crew">I will help you search for the rest of the crew.</statement>
+    	<statement event="recovered_crew">It is good to see everyone again.</statement>
+    	<statement event="ask_fred">Maybe I can help you figure this out.</statement>
+    	
+    	<statement id="incoming_ships">Warning! Numerous unidentified vehicles on intercept course!</statement>
+    	<statement event="cosmoe_at_helm">Warning! Numerous unidentified vehicles on intercept course!</statement>
+    	
+    	<statement event="hasItm_medal_ghd">Hello again, human child!</statement>
+    </character>
+    
+    <character id="humphree">
+    	<statement id="that_went_wrong">That could not have gone more wrong.</statement>
+    	<statement id="full_throttle">I'm full throttle, buddy!</statement>
+    	<statement id="warp_drive_busted">Something's wrong with the warp drive!</statement>
+		<statement event="recovered_humphree">Everything will be okay, we just need to stay calm and keep looking.</statement>
+		
+		<statement id="me_too" linkEntityId="dagger" link="no_way" triggerEvent="triggerEvent" triggerEventArgs="turn_to_princess" forceOnScreen="true">Y'know, maybe it's because the vines cut off too much oxygen to my brain, but I thought I had a bit of a vision heading through that wormhole.</statement>
+		<statement event="ask_fred" linkEntityId="player" link="column_e" forceOnScreen="true">Can't promise any more than this, but I'm sure I saw that the map was located somewhere in column E of the galactic map.</statement>
+		
+		<statement id="down_with_the_ship" linkEntityId="dagger" link="red_button" forceOnScreen="true">We're doomed! I'm going down with my ship!</statement>
+		<statement event="got_all_map_pieces" forceOnScreen="true">I won't be taken alive!</statement>
+		
+  		<statement id="hasItem_medal_ghd">Good to see you again, partner.</statement>
+    </character>
+    
+    <character id="dagger">
+    	<statement id="worm_hole">A wormhole! That's bad!</statement>
+		<statement event="recovered_dagger">I hope nothing bad happened to the others.</statement>
+		
+		<statement id="no_way" linkEntityId="cosmoe" link="hot_butts" triggerEvent="triggerEvent" triggerEventArgs="turn_to_cosmoe" forceOnScreen="true">Me too! I thought it was just the trauma of nearly being squashed by asteroids. But I could have sworn I caught a glimpse of the map's location.</statement>
+		<statement event="ask_fred" linkEntityId="player" link="row_5" forceOnScreen="true">I saw the map too. It was in a massive galactic graveyard, and it was in the fifth row of a galactic map.</statement>
+		
+		<statement id="red_button" forceOnScreen="true">Jingo! What if... you press that button?!</statement>
+    	<statement event="got_all_map_pieces" forceOnScreen="true">Hit the red button!</statement>
+    	<statement id="thats_what_it_does" forceOnScreen="true">We made it! So that's what the red button does...</statement>
+    	
+  		<statement id="hasItem_medal_ghd">That was a blast.</statement>
+    </character>
+</dialogs>

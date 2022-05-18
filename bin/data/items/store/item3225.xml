@@ -1,0 +1,50 @@
+<item id="3225">
+		<type>store</type>
+	<subType>general</subType>
+	
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3225.swf</assetPath>
+		</asset>
+	</assets>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>PUT ON</label>
+				<actions>
+				<action type="applyLook"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasLook" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Shrink Ray</value>`
+		</text>
+		
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;the Shrink Ray.</web>
+			<mobile>Tap ACTION to activate&#10;the Shrink Ray.</mobile>
+		</text>
+	</textfields>
+	
+ 	<looks>
+		<look>
+			<item>sponsorshrinkray</item>
+		</look> 
+	</looks>
+
+		<conditionals>
+			<conditional type="hasLook" />	<!-- if no lookId param is given uses first look by default -->
+		</conditionals>
+		
+</item>

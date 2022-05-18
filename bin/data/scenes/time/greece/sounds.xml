@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Ancient_Greece.mp3</asset>
+	</sound>
+
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>enter_temple_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3 </asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3 </asset>
+		<asset id="marble">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="brick">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3 </asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3 </asset>
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3 </asset>
+		<asset id="marble">ls_concrete_01.mp3, ls_concrete_02.mp3 </asset>
+		<asset id="brick">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="pottery">ls_claypot_01.mp3, ls_claypot_02.mp3</asset>
+	</sound>
+</sounds>

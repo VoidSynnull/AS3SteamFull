@@ -1,0 +1,31 @@
+<dialogs>	
+	<character id="minotaur">
+		<conversation>
+			<exchange>
+				<question>shared.text24</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation event="completed_labyrinth">
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+			<exchange>
+				<question>text6</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="minotaurRing">text7</answer>
+			</exchange>
+			<exchange>
+				<question>text8</question>
+				<answer>text9</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="hasItem_minotaurRing">text10</statement>
+    </character>
+</dialogs>

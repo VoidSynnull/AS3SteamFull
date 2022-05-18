@@ -1,0 +1,36 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+		<action type="popup">LegoFriendsEC/StartSynopsis1.swf</action>
+		<action type="gameID">Synopsis1</action>
+		<action type="openUrlOnClick">clickURL</action>
+		<action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+		<action type="popup">LegoFriendsEC/StartSynopsis2.swf</action>
+		<action type="gameID">Synopsis2</action>
+		<action type="openUrlOnClick">clickURL</action>
+		<action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="prize1" type="poster">
+		<action type="giveItemMale">2865</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2865</action> <!-- To award an item card to a girl -->
+	</hotspot>
+	<hotspot id="prize2" type="poster">
+		<action type="giveItemMale">2866</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2866</action> <!-- To award an item card to a girl -->
+	</hotspot>
+	<hotspot id="videoContainer1" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="videoContainer2" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

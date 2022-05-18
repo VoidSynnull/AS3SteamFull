@@ -1,0 +1,249 @@
+<npcs>
+	<npc id="cook">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf5d8c8</skinColor>
+			<hairColor>0x7d8494</hairColor>
+			<mouth>sponsor_kk_bully01</mouth>
+			<marks>comic_cook</marks>
+			<facial>comic_cook</facial>
+			<hair>1</hair>
+			<shirt>comic_cook</shirt>
+			<item2>hammer</item2>
+			<pants>comic_cook</pants>
+			<overshirt>comic_cook</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1020</x>
+			<y>744</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="giant">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="210">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>prisoner3</mouth>
+			<marks>bl_carson</marks>
+			<facial>viking_river</facial>
+			<hair>viking_river</hair>
+			<shirt>viking_river</shirt>
+			<item>empty</item>
+			<item2>viking_meat</item2>
+			<pants>1</pants>
+			<pack>viking_river</pack>
+			<overshirt>viking_river</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2000</x>
+			<y>730</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.5</scale>
+	</npc>
+	
+	<npc id="giant2" event="balance_game_started">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>prisoner3</mouth>
+			<marks>bl_carson</marks>
+			<facial>viking_river</facial>
+			<hair>viking_river</hair>
+			<shirt>viking_river</shirt>
+			<item>empty</item>
+			<item2>viking_meat</item2>
+			<pants>1</pants>
+			<pack>viking_river</pack>
+			<overshirt>viking_river</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>3400</x>
+			<y>730</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.5</scale>
+	</npc>
+	
+	
+	<npc id="underling_1">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>townie3</mouth>
+			<marks>vchunter</marks>
+			<facial>comic_underling</facial>
+			<hair>fm11</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<!-- <item>comic_underling</item> -->
+			<overshirt>comic_underling</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2695</x>
+			<y>705</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="underling_2">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>hercules</mouth>
+			<facial>comic_underling</facial>
+			<hair>30</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+		<!-- 	<item>comic_underling</item> -->
+			<overshirt>comic_underling</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>3005</x>
+			<y>693</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="underling_3">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>tpirateblue</mouth>
+			<marks>wwslouch01</marks>
+			<facial>comic_underling</facial>
+			<hair>fm4</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>viking_chalice</item>
+			<overshirt>comic_underling</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2825</x>
+			<y>700</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+		
+	<npc id="mya" event="balance_game_started">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xeeccb3</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>prisoner5</mouth>
+			<marks>bangs1</marks>
+			<hair>comic_mya</hair>
+			<shirt>comic_mya</shirt>
+			<pants>comic_mya</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>400</x>
+			<y>724</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="oliver" event="balance_game_started">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf4dbca</skinColor>
+			<hairColor>0xe9b667</hairColor>
+			<mouth>comic_oliver</mouth>
+			<marks>comic_oliver</marks>
+<!-- 			<hair>comic_oliver</hair> -->
+			<hair>comic_erik</hair>
+			<shirt>comic_oliver</shirt>
+			<pants>comic_oliver</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>500</x>
+			<y>724</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="jorge" event="balance_game_started">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf4dbca</skinColor>
+			<hairColor>0x333538</hairColor>
+			<mouth>comic_jorge</mouth>
+			<hair>comic_jorge</hair>
+			<shirt>comic_jorge</shirt>
+			<pants>comic_jorge2</pants>
+			<pack>comic_jorge</pack>
+			<overshirt>comic_jorge</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>600</x>
+			<y>724</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

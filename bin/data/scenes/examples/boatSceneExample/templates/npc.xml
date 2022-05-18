@@ -1,0 +1,13 @@
+<components>
+<!--  spatial and id are added in VehicleGroup -->
+<component class="game.components.motion.MotionControl">
+	<properties>
+		<forceTarget>true</forceTarget>
+	</properties>
+</component>
+<component class="game.components.motion.TargetEntity">
+	<properties>
+		<applyCameraOffset>false</applyCameraOffset>
+	</properties>
+</component>
+</components>

@@ -1,0 +1,17 @@
+<part>
+	<id>psoccer1b</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="shirtColor1">0xF09842</color>
+		<color id="shirtColor2">0x349EE4</color>
+	</colors>
+	<colorables>
+		<colorable id="shirtColor1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="shirtColor2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

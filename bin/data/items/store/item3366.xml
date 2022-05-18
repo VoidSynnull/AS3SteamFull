@@ -1,0 +1,62 @@
+<item id="item3366">
+	<type>island</type>
+	<subType>store</subType>
+	
+	<contentClass>
+		<className>game.ui.card.EpisodicIslandContentView</className>
+		<parameters>
+			<param id="asset">items/store/item3366/merit_hat.swf</param>
+			<param id="island">survival</param>
+			<param id="episodes">5</param>
+		</parameters>
+	</contentClass>
+	
+	<textfields>
+			<text id="storeTitle">
+				<value>Survival Merit Hat</value>
+			</text>
+		</textfields>
+		
+		<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>EQUIP</label>
+				<actions>
+					<action type="applyLook"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasLook" isTrue="true"/>
+				<label>REMOVE</label>
+				<actions>
+					<action type="removeLook"/>
+			</actions>
+			</btn>
+	</buttons>
+		
+	<assets>
+			<asset id="cardBack">
+				<assetPath>items/survival1/background.swf</assetPath>
+				<effect>
+						<name>adjustColorFilter</name>
+						<enabled>true</enabled>
+						<brightness>0</brightness>
+		 			<contrast>0</contrast>
+		 			<saturation>-80</saturation>
+		 			<hue>25</hue>
+				</effect>
+			</asset>
+			<asset id="cardContent"/>
+		</assets> 
+		
+		<conditionals>
+		<conditional type="hasLook"/>
+		<conditional type="checkGender"/>
+	</conditionals>
+	
+	<looks>
+		<look>
+			<marks>survival_merithat</marks>
+		</look>
+	</looks>
+</item>

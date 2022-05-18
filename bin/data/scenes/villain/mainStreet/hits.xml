@@ -1,0 +1,42 @@
+<hits>
+	<hit id="barrel" color="0xCC0000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="driller" color="0xFF33CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="submarine" color="0x663399" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="blimp" color="0x66CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x9CF0E6</splashColor1>
+			<splashColor2>0x76F1E2</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3200</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+</hits>

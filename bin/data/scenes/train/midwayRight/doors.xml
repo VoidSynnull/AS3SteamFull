@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorMidwayLeft">
+		<scene>game.scenes.train.midwayLeft.MidwayLeft</scene>
+		<x>5120</x>
+		<y>755</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>50</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+
+	<door id="doorStation">
+		<scene>game.scenes.train.wcStation.WcStation</scene>
+		<x>66</x>
+		<y>866</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-50</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement>Peabody here. Please come meet my boy Sherman inside.</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hello there.</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

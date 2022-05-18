@@ -1,0 +1,47 @@
+<npcs>
+	<npc id="vanBuren">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>250</x>
+			<y>980</y>
+		</position>
+		<direction>right</direction>
+	</npc>	
+	
+	<npc id="winston" event="winston_in_hall">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfAECC8</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>VCvillager1</mouth>
+			<facial>survival_winston</facial>
+			<hair>survival_winston</hair>
+			<shirt>1</shirt>
+			<pants>badagent</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants>survival_winston</overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2520</x>
+			<y>486</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+</npcs>

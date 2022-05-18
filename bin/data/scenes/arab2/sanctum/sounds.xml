@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="ambient">
+<!-- 		<asset loop="true" baseVolume="1.6">winter_wind_01_loop.mp3</asset> -->
+	</sound>
+	
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">thieves_lair.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="climb">ls_rope_01.mp3,ls_rope_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="magicSandPlat0">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="climb">fs_rope_01.mp3,fs_rope_02.mp3,fs_rope_03.mp3,fs_rope_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+		<asset id="magicSandPlat0">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,15 @@
+<part>
+	<id>poptropicon_hero2</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	
+    <specialAbility id="power_gem">
+		<className>game.data.specialAbility.character.AddMotionBlur</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="lifeTime">.25</param>
+			<param id="blursPerSecond">8</param>
+			<param id="quality">.5</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,32 @@
+<item id="3176">
+	<type>store</type>
+	<subType>general</subType>
+				
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<assets>
+		<asset id="cardBack" />
+		<asset>
+			<assetPath>items/store/item3176.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>1</index>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>PAPERIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle2">
+			<value>Paper Boy</value>
+		</text>
+	</textfields>
+</item>

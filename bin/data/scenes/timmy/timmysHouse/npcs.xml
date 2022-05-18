@@ -1,0 +1,21 @@
+<npcs>
+	<npc id="total" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/total.swf</movieClip>
+		<position>
+			<x>490</x>
+			<y>800</y>
+		</position>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	<npc id="timmy" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>950</x>
+			<y>800</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

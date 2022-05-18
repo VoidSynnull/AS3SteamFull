@@ -1,0 +1,126 @@
+<npcs>
+  <npc id="man">
+    <skin>
+      <gender>1</gender>
+      <skinColor>0xfee0d8</skinColor>
+      <hairColor>0xf5c455</hairColor>
+      <eyes/>
+      <mouth>montgomery</mouth>
+      <marks>sideburns2</marks>
+      <facial>bl_drem</facial>
+      <hair>bl_drem</hair>
+      <shirt>bl_drem</shirt>
+      <pants>fisherman</pants>
+      <pack/>
+      <item/>
+      <overshirt/>
+      <overpants/>
+      <lineColor/>
+      <eyeState>casual</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>197.65</x>
+      <y>455</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <direction>left</direction>
+  </npc>
+  
+  <npc id="larry">
+    <skin>
+      <gender>1</gender>
+      <skinColor>0xfae0c9</skinColor>
+      <hairColor>0x999999</hairColor>
+      <eyes/>
+      <mouth>14</mouth>
+      <marks>shadow1b</marks>
+      <facial/>
+      <hair>bl_mocap</hair>
+      <shirt>bl_mocap</shirt>
+      <pants>bl_mocap</pants>
+      <pack/>
+      <item/>
+      <overshirt/>
+      <overpants/>
+      <lineColor/>
+      <eyeState>casual</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>1136</x>
+      <y>445</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <direction>right</direction>
+    <faceSpeaker>false</faceSpeaker>
+  </npc>
+  
+  <npc id="woman">
+    <skin>
+      <gender>0</gender>
+      <skinColor>0x7c5d3e</skinColor>
+      <hairColor>0x0</hairColor>
+      <eyes/>
+      <mouth>18</mouth>
+      <marks/>
+      <facial/>
+      <hair>bl_dref</hair>
+      <shirt>bl_dref</shirt>
+      <pants>finvendor</pants>
+     <pack/>
+      <item/>
+      <overshirt/>
+      <overpants/>
+      <lineColor/>
+      <eyeState>open</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>2291</x>
+      <y>455</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  
+  <npc id="creature">
+    <skin>
+      <gender>1</gender>
+      <skinColor>0xC5B4C9</skinColor>
+      <hairColor>0x999999</hairColor>
+      <eyes/>
+      <mouth>bl_tooth</mouth>
+      <marks>bags</marks>
+      <facial>bl_smea</facial>
+      <hair>hobo</hair>
+      <shirt>bl_smea</shirt>
+      <pants>bl_smea</pants>
+      <pack/>
+      <item/>
+      <overshirt/>
+      <overpants/>
+      <lineColor/>
+      <eyeState>open</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>0</x>
+      <y>0</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <direction>right</direction>
+    <ignoreDepth>true</ignoreDepth>
+  </npc>
+</npcs>

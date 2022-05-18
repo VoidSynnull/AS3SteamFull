@@ -1,0 +1,35 @@
+<part>
+	<id>limited_bfg_stomp</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2895</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">Incredibles2Quest,stomp</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animation" type="class">game.data.animation.entity.character.BigStomp</param>
+						<param id="waitLabel" type="string">sumoStomp</param>
+						<param id="maxFrames" type="int">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="CameraShakeAction">
+					<parameters>
+						<param id="time" type="number">1.5</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

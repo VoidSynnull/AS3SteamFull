@@ -1,0 +1,43 @@
+<item id="3481">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Winter Bundle</value>
+			</text>
+		<text id="storeTitle">
+			<value>Yeti</value>
+			 </text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+	
+		<looks>
+			<look>
+			<skinColor>0xA0C4E6</skinColor>
+			 <mouth>astroguard1</mouth>
+			 <facial>stor_winter_yeti</facial>
+			 <hair>31</hair>
+			 <pants>1</pants>
+			 <overshirt>stor_winter_yeti</overshirt>
+		</look>
+	</looks> 
+
+</item>

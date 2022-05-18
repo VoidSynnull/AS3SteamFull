@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="drHare">
+		<statement id="drhare_talks">Por que você está em pé ao redor? Chegar ao computador e iniciar a seqüência de lançamento!</statement>
+		<statement id="drhare_move_it">Eu estarei esperando no cockpit. Agora, mexam-se!</statement>
+	</character>
+	<character id="drone4">
+		<conversation>
+			<exchange>
+				<question>Quem é você?</question>
+				<answer>não posso falar. Deve iniciar a seqüência de lançamento.</answer>
+			</exchange>
+			<exchange>
+				<question>O que você está fazendo?</question>
+				<answer>não posso falar. Deve iniciar a seqüência de lançamento.</answer>
+			</exchange>
+			<exchange>
+				<question>Olha, um coelho gigante!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_4">Onde?</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="drone_denial">Você não está autorizado a utilizar este computador.</statement>
+		<statement triggeredByEvent="drone_free">Dr. Hare vai usar sua rabbot gigante ao controle da mente de todo o planeta a partir do espaço!</statement>
+		<statement event="drone_freed_4">Dr. Hare vai usar sua rabbot gigante ao controle da mente de todo o planeta a partir do espaço!</statement>
+		<statement triggeredByEvent="drone_congrats">Você fez isso! Agora vamos sair daqui.</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,19 @@
+<part>
+	<id>mordred</id>
+	<asset>basic</asset>
+	<type>pants</type>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x363639</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

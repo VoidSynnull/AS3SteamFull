@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="dog" variant="creature" event="island_incomplete">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x47494f</skinColor>
+			<hairColor>0x47494f</hairColor>
+			<mouth>dog</mouth>
+			<facial>dog2</facial>
+			<hair>dog</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>dog</pack>
+			<overshirt>dog</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1500</x>
+			<y>1625</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.4</scale>
+		<direction>right</direction>
+	</npc>
+</npcs>

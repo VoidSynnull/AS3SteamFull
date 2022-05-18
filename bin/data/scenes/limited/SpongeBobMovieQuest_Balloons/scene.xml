@@ -1,0 +1,31 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3000</right>
+		<bottom>640</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>3000</right>
+		<bottom>570</bottom>
+	</bounds>
+	<data>sounds.xml</data>
+	<assets></assets>
+	<layers>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>480</x>
+			<y>1200</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+  <saveLocation>false</saveLocation>
+</scene>

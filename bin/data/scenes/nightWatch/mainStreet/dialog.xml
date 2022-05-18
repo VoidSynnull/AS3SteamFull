@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="player">
+		<statement event="can_apply">Sure, I guess so.</statement>
+		<statement event="mall_closed">The doors are locked. The mall must be closed for the night.</statement>
+	</character>
+	<character id="char1">
+		<statement>The mall doesn't open until 7:00am!</statement>
+		<statement event="can_apply">Are you here for the night watchman job?</statement>
+    	<statement event="applying_for_job">Hmm, not much enthusiasm... but I need to fill this position, so come inside.</statement>
+    </character>
+    <character id="char2">
+		<statement>Hey, no cutting in line!</statement>
+    </character>
+    <character id="char3">
+		<statement>I don’t even know what it does, but it’s gonna be so epic!</statement>
+    </character>
+    <character id="char4">
+		<statement>I can’t wait to get my hands on the new MacGuffin gadget!</statement>
+    </character>
+    <character id="char5">
+		<statement>I buy every new thing MacGuffin makes. Then I sell it on the Internet!</statement>
+    </character>
+    <character id="char6">
+		<statement>I got a great spot... but I can never get here before these old people!</statement>
+    </character>
+    <character id="char7">
+		<statement>This tent is for MacGuffin superfans only!</statement>
+    </character>
+    <character id="char8">
+		<statement>This line is nothing. I waited for three weeks when they came out with the voice-activated toilet paper.</statement>
+    </character>
+    <character id="char9">
+		<statement>Feels like I’ve been waiting here for decades!</statement>
+    </character>
+</dialogs>

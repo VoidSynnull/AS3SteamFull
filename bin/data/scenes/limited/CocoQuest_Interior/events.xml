@@ -1,0 +1,39 @@
+<events>
+	<group type="init" id="player">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="value">limited_legbone</param3>
+		</event>
+		<event>
+			<param1 id="action">multiPlayer</param1>
+		</event>
+	</group>
+	<group type="dialogStart" id="hector">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="dogrun">
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">dante</param2>
+			<param3 id="target">230,1385</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">hector</param2>
+			<param3 id="sayID">dog</param3>
+		</event>
+	</group>
+	<group type="triggered" id="enddog">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

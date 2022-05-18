@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorPresident">
+		<scene>game.scenes.train.presidentialCar.PresidentialCar</scene>
+		<x>1592</x>
+		<y>844</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorFreight">
+		<scene>game.scenes.train.freightCar.FreightCar</scene>
+		<x>60</x>
+		<y>485</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

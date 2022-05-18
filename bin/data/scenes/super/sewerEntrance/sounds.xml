@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sewer_or_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_rusty_open_01.mp3</asset>
+		<asset id="doorBathroom">none</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="concrete">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="woodenPlanks">ls_wood_crate_01.mp3, ls_barrel_in_water_01.mp3</asset>
+		<asset id="crumbledBricks">ls_brick_verb_01.mp3, ls_brick_verb_02.mp3</asset>
+<!--	<asset id="pipe"></asset>  -->
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3, fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3</asset>
+		<asset id="concrete">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="woodenPlanks">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="crumbledBricks">fs_brick_verb_01.mp3, fs_brick_verb_02.mp3, fs_brick_verb_03.mp3, fs_brick_verb_04.mp3</asset>
+<!-- 	<asset id="pipe"></asset> -->
+	</sound>
+</sounds>

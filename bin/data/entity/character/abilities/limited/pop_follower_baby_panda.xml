@@ -1,0 +1,16 @@
+<specialAbility id="limited/pop_follower_baby_panda">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2835</param>
+		<param id="skinColor">0x211F1C</param>
+		<param id="hairColor">0x0</param>
+	    <param id="facialFrame">limited_babypanda</param>
+		<param id="packFrame">limited_babypanda</param>
+		<param id="overshirtFrame">limited_babypanda</param>
+		<param id="variant">creature</param>
+		<param id="scaleSize">0.9</param>
+		<param id="lineThickness">20</param>
+	</parameters>
+</specialAbility>

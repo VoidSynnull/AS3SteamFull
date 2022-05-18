@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="useResistanceBand">No reason to use this here.</statement>
+	</character>
+	
+	<character id="employee">
+    	<statement>It's a free demo day! Go ahead and try out the equipment.</statement>
+    	<statement id="band" triggerEvent="giveItem" triggerEventArgs="resistanceBand">We let you in here for free and you start breaking stuff? Get out, and take this useless thing with you!</statement>
+    </character>
+    
+    <character id="man">
+    	<statement>This -- *gasp* -- has been the most difficult -- *oof* -- three and a half minutes of my life!</statement>
+    </character>
+    
+    <character id="woman">
+    	<statement>What a great workout. My muscles are so confused!</statement>
+    </character>
+</dialogs>

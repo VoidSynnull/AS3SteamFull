@@ -1,0 +1,86 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/TKWWBKingMVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/TKWWBKingMVU/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/TKWWBKingMVU/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- bitmap npcs -->
+	<assets type="game" path="assets/limited/TKWWBKingMVU/" ext="swf">
+		<asset>npc_owl</asset>
+		<asset>owl</asset>
+		<asset>heavenlybeams</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2946</asset>
+		<asset>2947</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2946</asset>
+		<asset>2947</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>barpatron1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>barpatron1</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>kwwbk</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>kwwbk</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>kwwbk</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>kwwbk</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>kwwbk</asset>
+		<asset>tkwwbking_owl</asset>
+		<asset>tkwwbking_sword</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>kwwbk</asset>
+		<asset>tkwwbking_owl</asset>
+		<asset>tkwwbking_sword</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>kwwbk</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>kwwbk</asset>
+	</assets>
+</manifest>

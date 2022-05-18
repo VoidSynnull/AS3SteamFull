@@ -1,0 +1,17 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="game" type="poster">
+		<action type="enterQuest">true</action> 
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">https://ad.doubleclick.net/ddm/clk/321699879;150594458;e</action>
+		<action type="impressionOnClick">https://ad.doubleclick.net/ddm/ad/N6344.150739.THEFAMILYEDUCATIONN/B10617364.150594458;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</action>
+	</hotspot>
+</hotspots>
+

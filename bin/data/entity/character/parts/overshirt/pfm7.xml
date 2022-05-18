@@ -1,0 +1,20 @@
+<part>
+	<id>pfm7</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>shirt</part>
+		<part>pants</part>
+	</hide>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

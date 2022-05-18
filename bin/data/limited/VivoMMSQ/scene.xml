@@ -1,0 +1,12 @@
+<scene>
+	<data>dialog.xml,doors.xml,hits.xml,hotspots.xml,npcs.xml,tracking.xml,version.xml</data>
+
+	<layers>
+		<layer id="custom_background">
+			<asset>background.swf</asset>
+		</layer>
+		<layer id="custom_interactive" hit="true">
+			<asset>interactive.swf</asset>
+		</layer>
+	</layers>
+</scene>

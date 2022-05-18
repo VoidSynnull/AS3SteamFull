@@ -1,0 +1,36 @@
+<ar theme="0" instructionsColor="0x0000cc">
+	<music>ad_interior_scene.mp3</music>
+	
+	<logo>
+		<asset>ar/logos/test.swf</asset>
+		<position>
+			<x>30</x>
+			<y>30</y>
+		</position>
+	</logo>
+	
+	<masks>
+		<mask id="zing">
+			<asset>limited/_photobooth/stickers/words1/word34.swf</asset>
+			<scale>2</scale>
+			<node>62</node>
+		</mask>
+		<mask id="glasses">
+			<asset>ar/brfv4_img_glasses.png</asset>
+		</mask>
+		<mask id="rightEye">
+			<asset>ar/masks/animTest.swf</asset>
+			<scale>3</scale>
+			<node>44</node>
+			<emotes>frown, click</emotes>
+		</mask>
+		<mask id="leftEye">
+			<asset>ar/masks/animTest.swf</asset>
+			<scale>3</scale>
+			<node>37</node>
+			<rotation>180</rotation>
+			<flipped>true</flipped>
+			<emotes>frown, click</emotes>
+		</mask>
+	</masks>
+</ar>

@@ -1,0 +1,42 @@
+<item id="3139">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Vampire Girl 1</value>
+	 	 	</text>
+		<text id="storeSubTitle">
+					<value>Fang-tastic style is fashionable</value>
+			</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<hair>pvampire_girl01</hair>
+			<marks>pvampire_girl</marks>
+			<mouth>pvampire_girl</mouth>
+			<shirt>pvampire_girl01</shirt>
+			<pants>pvampire_girl01</pants>
+			<overshirt>pvampire_girl01</overshirt>
+			<overpants>pvampire_girl01</overpants>
+		 	</look> 
+	</looks> 
+	
+</item>
+

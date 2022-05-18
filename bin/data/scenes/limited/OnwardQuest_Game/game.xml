@@ -1,0 +1,27 @@
+<game>
+	<className>RaceGame</className>
+	<partType>item</partType>
+	<partValue>limited_onward_wand</partValue>
+	<winDistance>29000</winDistance>
+	<!-- Optional -->
+	<!-- Optional -->
+	<returnX>3600</returnX>
+	<returnY>1335</returnY>
+	<raceSpeed>8</raceSpeed>
+	<winDelay>.1</winDelay>
+	<numHits>6</numHits>
+	<multiJump>true</multiJump>
+	<forceWinThreshold>true</forceWinThreshold>
+	<lockCameraNPC>true</lockCameraNPC>
+	<looks>
+		<skin id="antman">
+		</skin>
+		<skin id="wasp">
+		</skin>
+	</looks>
+	<obstacleWrap>3000</obstacleWrap>
+	<obstacleY>790</obstacleY>
+	<obstacleStartY>1100</obstacleStartY>
+	<obstacleSpaceY>100</obstacleSpaceY>
+	<stopPlayer>true</stopPlayer>
+</game>

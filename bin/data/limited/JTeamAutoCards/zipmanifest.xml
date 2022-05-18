@@ -1,0 +1,88 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/JTeamAutoCards/" type="campaign" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2078</asset>
+		<asset>2079</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2078</asset>
+		<asset>2079</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/JTeamVBB/" ext="swf">
+		<asset>spotlights_with_sparkles</asset>
+	</assets>
+<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>danceMoves01Loop</asset>
+	</data>
+	
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>dance_through_the_day</asset>
+	</assets>
+	<assets type="sounds" path="sound/limited/JTeamVBB/" ext="mp3" keep="true">
+		<asset>change_me_10</asset>
+		<asset>uni_10</asset>
+	</assets>
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>mini_game_wrong</asset>
+	</assets>
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>sponsorheatherg</asset>
+		<asset>limited_wafflegirl</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>sponsorheatherg</asset>
+		<asset>limited_wafflegirl</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_ruby_d</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_ruby_d</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_jojo</asset>
+		<asset>limited_ruby_d</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_jojo</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_jojo</asset>
+	</assets>
+		<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_sparkle_power</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_sparkle_power</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="dwight">
+		<statement id="startDialog" triggerEvent="triggerEvent" triggerEventArgs="rafeTalk">Who did this?</statement>
+		<statement>You're in trouble!</statement>
+    </character>
+	<character id="rafe">
+		<statement>Pretty sweet huh!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startDwight">Pretty sweet huh!</statement>
+		<statement id="runDialog" triggerEvent="triggerEvent" triggerEventArgs="startGame">Run for it!</statement>
+    </character>
+</dialogs>

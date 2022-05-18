@@ -1,0 +1,41 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2785</right>
+		<bottom>1825</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2882.25</right>
+		<bottom>1790</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths>scenes/shrink/shared/dialog.xml</absoluteFilePaths>
+	<assets>email.swf</assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>46.7</x>
+			<y>1790</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<suppressFollower>true</suppressFollower>
+	<suppressAbility>true</suppressAbility>
+</scene>

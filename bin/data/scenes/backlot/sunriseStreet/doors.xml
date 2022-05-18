@@ -1,0 +1,42 @@
+<doors>
+  <door id="door1">
+    <scene>game.scenes.backlot.screeningRoom.ScreeningRoom</scene>
+    <x>220</x>
+    <y>655</y>
+    <label>
+      <text>Enter</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="gateExit">
+    <scene>game.scenes.backlot.extSoundStage1.ExtSoundStage1</scene>
+    <x>363</x>
+    <y>1148</y>
+    <label>
+      <text>Exit</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="adExit">
+    <scene>game.scenes.backlot.adGroundH29.AdGroundH29</scene>
+    <x>740</x>
+    <y>470</y>
+    <direction>left</direction>
+	<label>
+		<text>Exit</text>
+		<type>exitLeft</type>
+		<offset>
+			<x>150</x>
+			<y>0</y>
+		</offset>
+	</label>
+  </door>
+</doors>

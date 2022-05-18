@@ -1,0 +1,165 @@
+<manifest>
+	<!-- FrostedFlakes2 xml files -->
+	<data type="FrostedFlakes2" path="data/limited/FrostedFlakes2Quest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>MusicGame</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/FrostedFlakes2Quest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/FrostedFlakes2Quest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/FrostedFlakes2Quest/" ext="swf">
+		<asset>StartMusicGame</asset>
+		<asset>WinMusicGame</asset>
+		<asset>LoseMusicGame</asset>
+		<asset>MusicGame</asset>
+		<asset>Tony</asset>
+		<asset>flake1</asset>
+		<asset>flake2</asset>
+		<asset>flake3</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2922</asset>
+		<asset>2923</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2922</asset>
+		<asset>2923</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>PrisonRadio3x</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>crunch_01</asset>
+		<asset>dissonant_guitar_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" keep="true" ext="xml">
+		<asset>ppromqueen1</asset>
+		<asset>wwannie</asset>
+		<asset>pnerd</asset>
+		<asset>pleprechaun</asset>
+		<asset>ppunkgirl5</asset>
+		<asset>youngsherpa</asset>
+		<asset>ppromqueen1</asset>
+		<asset>wwprospector</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" keep="true" ext="swf">
+		<asset>ppromqueen1</asset>
+		<asset>wwannie</asset>
+		<asset>pnerd</asset>
+		<asset>pleprechaun</asset>
+		<asset>ppunkgirl5</asset>
+		<asset>youngsherpa</asset>
+		<asset>ppromqueen1</asset>
+		<asset>wwprospector</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" keep="true" ext="xml">
+		<asset>freckles</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" keep="true" ext="swf">
+		<asset>freckles</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" keep="true" ext="xml">
+		<asset>char32</asset>
+		<asset>char27</asset>
+		<asset>char18</asset>
+		<asset>char29</asset>
+		<asset>char13</asset>
+		<asset>char23</asset>
+		<asset>char30</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" keep="true" ext="swf">
+		<asset>char32</asset>
+		<asset>char27</asset>
+		<asset>char18</asset>
+		<asset>char29</asset>
+		<asset>char13</asset>
+		<asset>char23</asset>
+		<asset>char30</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" keep="true" ext="xml">
+		<asset>mthannie</asset>
+		<asset>char29</asset>
+		<asset>mthjack</asset>
+		<asset>gtinfoil</asset>
+		<asset>ad_pranks_kim</asset>
+		<asset>limited_kyle</asset>
+		<asset>char23</asset>
+		<asset>char20</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" keep="true" ext="swf">
+		<asset>mthannie</asset>
+		<asset>char29</asset>
+		<asset>mthjack</asset>
+		<asset>gtinfoil</asset>
+		<asset>ad_pranks_kim</asset>
+		<asset>limited_kyle</asset>
+		<asset>char23</asset>
+		<asset>char20</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>sponsorfloct2</asset>
+		<asset>char3</asset>
+		<asset>sponsorastro1</asset>
+		<asset>sponsortsbrjess</asset>
+		<asset>ad_gh_boy</asset>
+		<asset>sponsornm2guard</asset>
+		<asset>ad_smurfs2_badgirl</asset>
+		<asset>char5</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>sponsorfloct2</asset>
+		<asset>char3</asset>
+		<asset>sponsorastro1</asset>
+		<asset>sponsortsbrjess</asset>
+		<asset>ad_gh_boy</asset>
+		<asset>sponsornm2guard</asset>
+		<asset>ad_smurfs2_badgirl</asset>
+		<asset>char5</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>frosted_flakes_spoon</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>frosted_flakes_spoon</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>tony_tiger2</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>tony_tiger2</asset>
+	</assets>
+</manifest>

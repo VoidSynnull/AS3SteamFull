@@ -1,0 +1,69 @@
+<groups>
+	<group event="set_day" triggerAndSave="true">
+		<and>
+			<event type="set_evening" not="true"/>
+			<event type="set_night" not="true"/>
+			<event type="set_morning" not="true"/>
+		</and>
+	</group>
+
+	<group event="mainstreet_hidenpc" triggerAndSave="true">
+		<and>			
+			<event type="set_night" not="true"/>
+			<event type="set_evening" not="true"/>	
+			<event type="set_morning" not="true"/>		
+		</and>
+	</group>
+	
+	<group event="midwayday_hideEdgar" triggerAndSave="true">
+		<and>			
+			<event type="gave_sugar" not="true"/>
+		</and>
+	</group>
+	
+	<group event="midwayevening_hideWoman" triggerAndSave="true">
+		<and>			
+			<event type="won_weight" not="true"/>
+		</and>
+	</group>
+ 
+	<group event="ask_for_order" triggerAndSave="true">
+		<and>
+			<event type="hasItem_salt_formula"/>		
+			<event not="true" type="hasItem_salt"/>
+			<event not="true" type="gave_salt"/>
+		</and>
+	</group>
+
+	<group event="ask_to_use_lab" triggerAndSave="true">
+		<and>
+			<event type="asked_sugar"/>
+			<event type="gave_salt"/>
+			<event not="true" type="hasItem_sugar"/>
+			<event not="true" type="gave_sugar"/>
+		</and>
+	</group>
+	
+	<group event="after_sugar" triggerAndSave="true">
+		<!--<or>
+			<event type="hasItem_sugar"/>
+			<event type="gave_sugar"/>
+		</or>
+		<and>
+			<event not="true" type="need_weight"/>
+		</and>-->
+		<and>
+			<event type="gotItem_sugar"/>
+			<event not="true" type="need_weight"/>
+		</and>
+	</group>
+	
+	<group event="thanks_for_salt" triggerAndSave="true">
+		<and>
+			<event type="gave_salt"/>
+			<event not="true" type="asked_sugar"/>
+		</and>
+	</group>
+	
+	
+</groups>

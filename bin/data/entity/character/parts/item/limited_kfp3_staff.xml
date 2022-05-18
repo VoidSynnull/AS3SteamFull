@@ -1,0 +1,16 @@
+<part>
+	<id>limited_kfp3_staff</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2751</campaignID>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/KungFuPanda3MVU/Smash.swf</param> <!-- location of swf in assets/limited -->
+			<param id="tracking">KungFuPanda3SmashIC,Smash Attack Power</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">true</param>
+		</parameters>
+	</specialAbility>
+</part>

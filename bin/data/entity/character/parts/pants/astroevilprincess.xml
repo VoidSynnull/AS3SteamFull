@@ -1,0 +1,22 @@
+<part>
+	<id>astroevilprincess</id>
+	<asset>basic_dress_flared</asset>
+	<type>pants</type>
+	<gender>female</gender>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<colors>
+		<color id="dressColor">0xDFB600</color>
+	</colors>
+	<colorables>
+		<colorable id="dressColor">
+			<clip instanceName="dress.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

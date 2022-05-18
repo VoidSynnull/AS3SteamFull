@@ -1,0 +1,41 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3200</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="planks" color="0x884809" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lightMetal" color="0x9ACED3" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="fullTrash" color="0x83C40B" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crateAndBarrel" color="0xBD730F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x79919F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x839FD6" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

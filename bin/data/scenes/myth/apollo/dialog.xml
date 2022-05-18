@@ -1,0 +1,170 @@
+<dialogs>
+ 	<character id="statue1">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue2">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue3">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue4">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue5">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue6">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		<statement event="gotItem_pipeTune" triggerEvent="triggerEvent" triggerEventArgs="play_music">text8</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+ 			<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="simon_start">text6</answer>
+	 		</exchange>
+ 		</conversation>	 		
+ 		
+ 		<statement event="simon_says_quit" triggerEvent="triggerEvent" triggerEventArgs="simon_start">text7</statement>
+ 		<statement triggeredByEvent="simon_says_failed" triggerEvent="triggerEvent" triggerEventArgs="simon_start">text7</statement>
+ 		<statement triggeredByEvent="simon_says_passed" triggerEvent="triggerEvent" triggerEventArgs="play_music">text8</statement>
+ 	</character>
+    
+    <character id="statue7">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue8">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+ 	<character id="statue9">
+ 		<statement link="not_sure" linkEntityId="player">text1</statement>
+ 		
+ 		<statement event="gotItem_reedPipe" link="teach_me_to_play">text1</statement>
+ 		<conversation id="teach_me_to_play">
+	 		<exchange>
+	 			<question>text2</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text3</answer>
+	 		</exchange>
+	 		<exchange>
+	 			<question>text4</question>
+	 			<answer triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text5</answer>
+	 		</exchange>
+ 		</conversation>
+ 		
+ 		<statement event="gotItem_pipeTune">text1</statement>
+ 	</character>
+ 	
+    <character id="player">
+    	<statement id="not_sure">text9</statement>
+    </character>
+</dialogs>

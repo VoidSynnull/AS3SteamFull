@@ -1,0 +1,40 @@
+<components>
+<!-- GROUP_PREFIX will automatically add the prefix of the group that loaded this asset. -->
+<assetUrl>GROUP_PREFIX/small_ball.swf</assetUrl>
+<component class="game.components.entity.collider.PlatformReboundCollider">
+	<properties>
+		<bounce>-1</bounce>
+	</properties>
+</component>
+<component class="game.components.motion.Edge">
+	<constructor>
+		<x>-15</x>
+		<y>-15</y>
+		<width>30</width>
+		<height>30</height>
+	</constructor>
+</component>
+<component class="engine.components.Motion">
+	<constructor/>
+	<properties>
+		<acceleration class="flash.geom.Point">
+				<constructor>
+					<x>0</x>
+					<y>1000</y>
+				</constructor>
+		</acceleration>
+		<velocity class="flash.geom.Point">
+				<constructor>
+					<x>0</x>
+					<y>-300</y>
+				</constructor>
+		</velocity>
+		<friction class="flash.geom.Point">
+				<constructor>
+					<x>25</x>
+					<y>0</y>
+				</constructor>
+		</friction>
+	</properties>
+</component>
+</components>

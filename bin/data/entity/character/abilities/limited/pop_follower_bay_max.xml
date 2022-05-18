@@ -1,0 +1,21 @@
+<specialAbility id="limited/pop_follower_bay_max">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2592</param>
+		<param id="skinColor">0xffffff</param>
+		<param id="creature">true</param>
+		<param id="scaleSize">0.6</param>
+		<param id="facialFrame">limited_bighero6_baymax4</param>
+		<param id="hairFrame">limited_bighero6_baymax</param>
+		<param id="pantsFrame">limited_lightgray</param>
+		<param id="packFrame">limited_bighero6_baymax3</param>
+		<param id="campaignName">BigHero6MVU</param>
+		<param id="hideNPC">BigHero6MVU_baymax</param>
+		<param id="audioFile1">externalAssets/audio/BigHero6MVU1.mp3</param>
+		<param id="audioFile2">externalAssets/audio/BigHero6MVU2.mp3</param>
+		<param id="audioFile3">externalAssets/audio/BigHero6MVU3.mp3</param>
+		<param id="audioFile4">externalAssets/audio/BigHero6MVU4.mp3</param>
+	 </parameters>
+</specialAbility>

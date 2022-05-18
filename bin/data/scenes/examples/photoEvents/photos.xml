@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE photos SYSTEM 'photos.dtd'>
+<photos>
+	<photo id="test0" trigger="item">
+		<param id="itemID">crowbar</param>
+	</photo>
+	<photo id="test1" trigger="location">
+		<param id="xpos">1037</param>
+		<param id="ypos">457</param>
+		<param id="proximity">150</param>
+	</photo>
+	<photo id="test2" trigger="event">
+		<param id="eventName">npc_photo</param>
+	</photo>
+</photos>

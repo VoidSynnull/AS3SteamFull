@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_2831">Have you put on your prize costume yet?</statement> <!-- If have item card -->
+		<statement event="hasAdItem_2832">Have you put on your prize costume yet?</statement> <!-- If have item card -->
+		<statement event="videoDone">Have you put on your prize costume yet?</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Watch this video to get a cool costume.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

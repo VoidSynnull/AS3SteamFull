@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="cant_use_compass">Looks like a normal compass to me, that guy must have been swindled.</statement>
+		<statement triggeredByEvent="cant_use_drawing">It looks like a child's drawing.</statement>
+		<statement id="drawn">It looks like a child's drawing.</statement>
+		<statement triggeredByEvent="cant_use_geode">Looks like there are crystals in there. If only I could get them out...</statement>
+		<statement triggeredByEvent="cant_use_lamp">Now, this... This is an enchanted vessel.</statement>
+		<statement triggeredByEvent="cant_use_moonstone">Such a beautiful stone.</statement>
+		<statement triggeredByEvent="cant_use_skeleton_key">I can unlock anything with this!</statement>
+		<statement triggeredByEvent="cant_use_wishbone">If I could just break this, maybe my wish will come true.</statement>
+	</character>
+</dialogs>

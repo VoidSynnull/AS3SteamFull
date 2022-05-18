@@ -1,0 +1,26 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2000</right>
+		<bottom>1000</bottom>	
+	</cameraLimits>
+	<data>sounds.xml</data>
+	<assets>coin.swf,missile.swf,missile2.swf,boulder.swf</assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>0.5</rate>
+		</layer>
+		<layer hit="true">
+			<asset>fetch_animation.swf</asset>
+			<rate>0.5</rate>
+		</layer>
+		<layer hit="true">
+			<asset>view3d.swf</asset>
+			<rate>1</rate>
+		</layer>
+
+	</layers>
+</scene>

@@ -1,0 +1,20 @@
+<part>
+	<id>ploonheadcane</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<className>game.data.specialAbility.character.TwirlItem</className>
+  		<parameters>
+  			<param id="animation">game.data.animation.entity.character.Sword</param>
+  			<param id="animationWait">fire</param>
+  			<param id="spinNum">1</param>
+  			<param id="spinSpeed">30</param>
+  			<param id="spinForward">false</param>
+  		</parameters>
+  	</specialAbility>
+</part>

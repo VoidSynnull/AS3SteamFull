@@ -1,0 +1,98 @@
+<npcs>
+	<npc id="cam">
+		<!-- <animations loop="true">
+			<animation duration="200">game.data.animation.entity.character.Stand</animation>
+			<animation duration="100">game.data.animation.entity.character.Grief</animation>
+		</animations> -->
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>17</mouth>
+			<marks>dd_film</marks>
+			<facial>dd_film</facial>
+			<hair>dd_film</hair>
+			<shirt>dd_film</shirt>
+			<pants>dd_film</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1220</x>
+			<y>1935</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="sailor1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>subGuide</mouth>
+			<marks>shadow2</marks>
+			<hair>dd_sailor</hair>
+			<shirt>1</shirt>
+			<pants>2</pants>
+			<overshirt>dd_sailor</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2200</x>
+			<y>1856</y>
+		</position>
+		<range>
+			<x>500</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="sailor2" dynamicParts="true">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>farmerBoy</mouth>
+			<marks>zeus</marks>
+			<hair>dd_sailor</hair>
+			<shirt>1</shirt>
+			<pants>2</pants>
+			<item>dd_key</item>
+			<overshirt>dd_sailor</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2200</x>
+			<y>1352</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="sailor3">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>fortuneHunter</mouth>
+			<hair>dd_sailor02</hair>
+			<shirt>1</shirt>
+			<pants>2</pants>
+			<overshirt>dd_sailor</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1930</x>
+			<y>1590</y>
+		</position>
+		<range>
+			<x>300</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

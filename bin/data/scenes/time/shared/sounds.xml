@@ -1,0 +1,13 @@
+<sounds>
+	<sound type="effects">
+		<asset triggeredByEvent="device_select" >ttDevice_select_period_01.mp3</asset>
+		<asset triggeredByEvent="device_warp" allowOverlap="false">event_02.mp3</asset>
+		<asset triggeredByEvent="device_energize" allowOverlap="false">event_01.mp3</asset>
+		<asset triggeredByEvent="device_open">ttDevice_watch_open_01.mp3</asset>	
+		<asset triggeredByEvent="phonograph_Sound" allowOverlap="false">phonographSound.mp3</asset>
+		<asset triggeredByEvent="item_returned_sound" allowOverlap="true">event_05.mp3</asset>
+	</sound>
+<!-- 	<sound type="effects" action="random">			 -->
+<!-- 		<asset id="timeButton">event_05.mp3</asset> -->
+<!-- 	</sound> -->
+</sounds>

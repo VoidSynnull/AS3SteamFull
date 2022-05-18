@@ -1,0 +1,60 @@
+<dialogs>
+	<character id="player">
+		<statement id="gotIt" triggerEvent="triggerEvent" triggerEventArgs="give_back_phone">Got it!</statement>
+		<statement id="locked">Hmm. Not open yet...</statement>
+		<statement id="need" link="we_need" linkEntityId="forrest">So what do you need?</statement>
+		<statement id="i_spy" link="def" linkEntityId="forrest">Can I be a spy?</statement>
+	</character>
+	<character id="costume">
+		<statement id="ask_tutorial" link="tutorial">Great to see you again. Do you want to learn how to costumize?</statement>
+		<conversation id="tutorial">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="start_tutorial">Yes.</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="no_tutorial">No thanks.</question>
+				<answer>Make sure you save your current look if you don't want to lose any of the parts.</answer>
+			</exchange>
+		</conversation>
+		<statement>Make sure you save your current look if you don't want to lose any of the parts.</statement>
+		<statement id="tutorial_done">Make sure you save your current look if you don't want to lose any of the parts.</statement>
+    </character>
+	<character id="forrest">
+		<statement id="comere" link="spies">hey kid, come over here for a second. I want to talk to you about an amazing opportunity!</statement>
+		<statement id="spies" link="need" linkEntityId="player">Wicked Cool News relies on spies to get us inside information -- but we know almost nothing about the Mighty Action Force movie!</statement>
+		<statement id="we_need" link="i_spy" linkEntityId="player">We need to be the first site to post what Omegon looks like before the trailer premieres. The information has to be scattered around here somewhere.</statement>
+		<statement id="def" triggerEvent="triggerEvent" triggerEventArgs="givePhone">Definitely. Here's a phone. Get photos of Omegon and I'll help you put together an amazing costume!</statement>
+		<statement id="get_photos">Get photos of Omegon and I'll help you put together an amazing costume!</statement>
+		<statement id="scoop" link="deal">What a scoop! This is going up right away -- with a spoiler alert, obviously.</statement>
+		<statement id="deal" triggerEvent="triggerEvent" triggerEventArgs="getCostume">I didn't forget our deal. Give me a minute and I'll whip up a prize-winning costume for you.</statement>
+		<statement id="here_you_go" triggerEvent="triggerEvent" triggerEventArgs="giveCostume">Here you go!</statement>
+		<statement id="nice_costume">That's a really nice costume!</statement>
+    </character>
+	<character id="stan">
+		<conversation>
+			<exchange>
+				<question>Any idea where I can find out what Omegon looks like in the Mighty Action Force movie?</question>
+				<answer>Geez, another one? Someone else was just here trying to sell me on behind-the-scenes shots of Omegon.</answer>
+			</exchange>
+			<exchange>
+				<question>Who else was looking for Omegon?</question>
+				<answer>Sasha Capone -- the webmaster of Wicked Cool News' biggest rival, Totally Rad News.</answer>
+			</exchange>
+			<exchange>
+				<question>What does she look like?</question>
+				<answer link="there" triggerEvent="triggerEvent" triggerEventArgs="turn_stan">Blond hair, glasses, ponytail, and a red leather jacket.</answer>
+			</exchange>
+		</conversation>
+		<statement id="there" triggerEvent="triggerEvent" triggerEventArgs="show_sasha">There she is over there.</statement>
+		<statement id="everyone">Everyone wants to know what Omegon looks like.</statement>
+    </character>
+	<character id="pizza">
+		<statement>This costume finally came in handy. They let me in for free!</statement>
+    </character>
+	<character id="eahero1">
+		<statement>These miniatures are amazing!</statement>
+    </character>
+	<character id="sasha">
+		<statement>This conference is just loaded with Rad News.</statement>
+    </character>
+</dialogs>

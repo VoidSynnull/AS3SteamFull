@@ -1,0 +1,28 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="gotItem_camera">The flash on this camera might come in handy.</statement>
+		<statement triggeredByEvent="milk_click">Blech, the milk's gone bad.</statement>
+		<statement triggeredByEvent="shelf_click">He's got every video game known to man!</statement>
+		<statement triggeredByEvent="cord_click">No fire hazards here!</statement>
+    </character>
+    
+    <character id="char1">
+    	<statement triggeredByEvent="first_meet_gamer">Hey neighbor! Come Chill!</statement>
+    	<conversation>
+    		<exchange>
+    			<question>Wait, you're not a zombie! Why didn't you leave during the evacuation?</question>
+    			<answer>Evacuate? No way! These zombies are the best thing that ever happend to me!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Um... Huh?</question>
+    			<answer>The zombie apocalypse has given me a chance to finally hunker down and play video games all day. I'm having the time of my life!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>How are you surviving?</question>
+    			<answer>Nothing but cheese curls and Valley Rain soda. I am rocking hard, bud!</answer>
+    		</exchange>
+    	</conversation>
+    	<statement event="had_conversation_gamer">I'm so close to beating this level! If you see any zombies out there, don't tell them I'm here, OK? Be cool.</statement>
+    	<statement triggeredByEvent="game_click">It's a really fun game. Try it.</statement>
+    </character>
+</dialogs>

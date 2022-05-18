@@ -1,0 +1,26 @@
+<npcs>
+	<npc event="guest_room_intro" id="butler">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfaecc8</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>vcvillager1</mouth>
+			<facial>survival_winston</facial>
+			<hair>survival_winston</hair>
+			<shirt>1</shirt>
+			<item>dd_key</item>
+			<pants>badagent</pants>
+			<overpants>survival_winston</overpants>
+			<eyeState>casual</eyeState>			
+		</skin>
+		<position>
+			<x>990</x>
+			<y>692</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

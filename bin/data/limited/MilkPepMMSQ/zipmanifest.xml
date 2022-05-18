@@ -1,0 +1,62 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MilkPepMMSQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/MilkPepMMSQ/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/MilkPepMMSQ/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>sponsorfuel</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>sponsorfuel</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>scuffmarks</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>scuffmarks</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>policeman</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>policeman</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>basketball</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>basketball</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>basketball</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>basketball</asset>
+	</assets>
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>teethgrin1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>teethgrin1</asset>
+	</assets>
+</manifest>

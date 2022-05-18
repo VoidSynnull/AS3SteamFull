@@ -1,0 +1,36 @@
+<vending_machine>
+	<week>4</week>
+	<campaign>VirusHunterVendingMachine</campaign>
+	<button id="card1">
+		<name>Hazmat Suit</name>
+		<card>3326</card>
+		<member>false</member>
+		<active text="">1,6</active>
+		<coming text="AVAILABLE%0D8/29"></coming>
+		<expired text="SOLD%0DOUT">2,3,4,5</expired>
+	</button>
+	<button id="card2">
+		<name>Scifi Doctor Outfit</name>
+		<card>3331</card>
+		<member>false</member>
+		<active text="">2,6</active>
+		<coming text="AVAILABLE%0D9/5">1</coming>
+		<expired text="SOLD%0DOUT">3,4,5</expired>
+	</button>
+	<button id="card3">
+		<name>X-Ray Visor</name>
+		<card>3332</card>
+		<member>true</member>
+		<active text="">3,6</active>
+		<coming text="AVAILABLE%0D9/12">1,2</coming>
+		<expired text="SOLD%0DOUT">4,5</expired>
+	</button>
+	<button id="card4">
+		<name>Ship Follower</name>
+		<card>3333</card>
+		<member>true</member>
+		<active text="Available to%0Dmembers%0Duntil 10/3">4,6</active>
+		<coming text="AVAILABLE%0D9/19">1,2,3</coming>
+		<expired text="SOLD%0DOUT">5</expired>
+	</button>
+</vending_machine>

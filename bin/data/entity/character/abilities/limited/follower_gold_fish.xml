@@ -1,0 +1,10 @@
+<specialAbility id="limited/follower_gold_fish">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2591</param>
+		<param id="swfPath">limited/Goldfish2014Q4ECWeek3/follower.swf</param> <!-- path to follower swf -->
+		<param id="flipClip">logo</param>
+	</parameters>
+</specialAbility>

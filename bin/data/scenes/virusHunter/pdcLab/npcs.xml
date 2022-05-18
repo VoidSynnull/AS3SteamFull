@@ -1,0 +1,98 @@
+<npcs>
+  <npc id="npc">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0xf08b2c</hairColor>
+      <mouth>fisherman</mouth>
+      <marks>beardshort2</marks>
+      <facial>7</facial>
+      <hair>10</hair>
+      <shirt>dadchar1</shirt>
+      <pants>wwdeputy</pants>
+      <item>paper</item>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>1030</x>
+      <y>1316</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="npc2">
+	<animations loop="true">
+      <animation>game.data.animation.entity.character.KeyboardTyping</animation>
+    </animations>
+    <skin>
+      <gender>female</gender>
+      <skinColor>0xfae0c9</skinColor>
+      <hairColor>0x513b2b</hairColor>
+      <mouth>prisoner2</mouth>
+      <marks>beautymark</marks>
+      <facial>explorer</facial>
+      <hair>27</hair>
+      <shirt>bartenderpub</shirt>
+      <pants>wwmarshal</pants>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>1230</x>
+      <y>1316</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+	<faceSpeaker>false</faceSpeaker>
+  </npc>
+  <npc id="npc3">
+    <skin>
+      <gender>female</gender>
+      <skinColor>0xf9e4ce</skinColor>
+      <hairColor>0x5e0d11</hairColor>
+      <mouth>15</mouth>
+      <hair>is_scien</hair>
+      <shirt>is_scien</shirt>
+      <pants>is_scien</pants>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>1510</x>
+      <y>1316</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+	<faceSpeaker>false</faceSpeaker>
+  </npc>
+  <npc id="npc4">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfee0d8</skinColor>
+      <hairColor>0xe0d167</hairColor>
+      <mouth>montgomery</mouth>
+      <marks>is_video</marks>
+      <hair>is_video</hair>
+      <shirt>is_video</shirt>
+      <pants>gsrprof</pants>
+      <overshirt>is_video</overshirt>
+      <overpants>barpatron1</overpants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>683</x>
+      <y>502.15</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+</npcs>

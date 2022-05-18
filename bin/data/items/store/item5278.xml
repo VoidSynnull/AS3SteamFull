@@ -1,0 +1,68 @@
+<item id="5278"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>USE</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>PUT AWAY</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+  	</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0xccc18e</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x9ae640</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xff877b</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Boba Tea</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+	
+	<looks>
+		<look>
+			<item>boba1</item>
+		</look>
+		<look>
+			<item>boba2</item>
+		</look>
+		<look>
+			<item>boba3</item>
+		</look>
+	</looks>
+
+</item>

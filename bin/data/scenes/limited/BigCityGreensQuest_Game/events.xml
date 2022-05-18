@@ -1,0 +1,84 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">Cricket2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Bill</param2>
+			<param3 id="sayID">init</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Cricket</param2>
+			<param3 id="sayID">start</param3>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="Win">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param1 id="delay">3</param1>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param2 id="npcID">Cricket</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Cricket</param2>
+			<param3 id="sayID">wingame</param3>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">Cricket</param2>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param2 id="npcID">Cricket2</param2>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>	
+	<group type="triggered" id="restartGame">
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">Cricket2</param2>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param2 id="npcID">Cricket</param2>
+		</event>
+	</group>
+	<group type="triggered" id="clickTrash">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param1 id="delay">6</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Gramma</param2>
+			<param3 id="sayID">goodthing</param3>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>
+</events>

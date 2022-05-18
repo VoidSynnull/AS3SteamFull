@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Poptropolis_Main_Theme_Full.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">Landing_AluminamSurface_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">Landing_Snow.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="angleClick1SFX">metal_ball_tap_05.mp3</asset> <!-- metal_ball_tap_05.mp3 -->
+		<asset triggeredByEvent="angleClick2SFX">metal_ball_tap_06.mp3</asset> <!-- metal_ball_tap_06.mp3 -->
+		<asset triggeredByEvent="angleClick3SFX">metal_ball_tap_07.mp3</asset> <!-- metal_ball_tap_07.mp3 -->
+		<asset triggeredByEvent="angleClick4SFX">metal_ball_tap_04.mp3</asset> <!-- metal_ball_tap_07.mp3 -->
+		<asset triggeredByEvent="throwBallSFX">whoosh_07.mp3</asset> <!-- whoosh_07.mp3 -->
+		<asset triggeredByEvent="ballLandedSFX">blunt_hit_03.mp3</asset> <!-- blunt_hit_03.mp3 -->
+		<asset triggeredByEvent="beatScoreSFX">achievement_01.mp3</asset> <!-- achievement_01.mp3 -->
+	</sound>
+</sounds>

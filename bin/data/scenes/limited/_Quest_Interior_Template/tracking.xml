@@ -1,0 +1,28 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="custom_npc1">
+		<event>EngagedInsideNPC</event>
+		<choice>npc name</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="custom_npc2">
+		<event>EngagedInsideNPC</event>
+		<choice>npc name</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

@@ -1,0 +1,27 @@
+<part>
+	<id>wwbeardlady</id>
+	<type>pants</type>
+	<gender>female</gender>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x4B9243</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="dressBase.colorShape1"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

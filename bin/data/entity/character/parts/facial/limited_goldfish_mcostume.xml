@@ -1,0 +1,21 @@
+<part>
+	<id>limited_goldfish_mcostume</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2590</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

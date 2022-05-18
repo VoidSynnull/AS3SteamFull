@@ -1,0 +1,35 @@
+<part>
+	<id>poppy_egg3</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" startDelay=".2">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">effects/pop_05_louder</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

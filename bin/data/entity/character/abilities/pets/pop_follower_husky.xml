@@ -1,0 +1,30 @@
+<specialAbility id="pets/pop_follower_husky">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">6005</param>
+		<param id="eyeState">open</param>
+		<param id="skinColor">0x38565e</param>
+		<param id="headFrame">husky</param>
+		<param id="mouthFrame">husky</param>
+		<param id="bodyFrame">husky</param>
+		<param id="marksFrame">husky_ears</param>
+		<param id="tailFrame">husky</param>
+		<param id="paw1Frame">husky</param>
+		<param id="paw2Frame">husky</param>
+		<param id="paw3Frame">husky</param>
+		<param id="paw4Frame">husky</param>
+		<param id="calf1Frame">husky_front</param>
+		<param id="calf2Frame">husky_front</param>
+		<param id="calf3Frame">husky_back</param>
+		<param id="calf4Frame">husky_back</param>
+		<param id="thigh1Frame">husky_front</param>
+		<param id="thigh2Frame">husky_front</param>
+		<param id="thigh3Frame">husky_back</param>
+		<param id="thigh4Frame">husky_back</param>
+		<param id="variant">pet_babyquad</param> <!-- for AS3 -->
+		<param id="pet">babyquad</param> <!-- for AS2 -->
+		<param id="isStore">true</param> <!-- for AS2 -->
+	</parameters>
+</specialAbility>

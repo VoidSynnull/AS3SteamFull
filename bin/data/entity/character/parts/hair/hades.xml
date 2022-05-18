@@ -1,0 +1,22 @@
+<part>
+	<id>hades</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<specialAbility id="Grow">
+		<className>game.scenes.myth.shared.abilities.Grow</className>
+		<useButton>true</useButton>
+		<validIslands>myth</validIslands>
+	</specialAbility>
+		
+</part>

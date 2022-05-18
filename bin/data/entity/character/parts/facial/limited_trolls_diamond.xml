@@ -1,0 +1,20 @@
+<part>
+	<id>limited_trolls_diamond</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+ 		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+ 		<parameters>
+			<param id="swfPath">limited/TrollsWorldTourQuest/glitter_spray_lighter.swf</param>
+			<param id="particleClass">game.particles.emitter.specialAbility.ParticleRain</param>
+			<param id="scaleToFill">true</param>
+			<param id="lockInput">true</param>
+			<param id="tracking">TrollsWorldTourMMSQ,Glitter Power</param>
+	 	</parameters>
+  	</specialAbility>
+</part>

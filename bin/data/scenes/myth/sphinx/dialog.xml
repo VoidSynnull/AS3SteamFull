@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="what">text1</statement> <!--   link="onceWet" linkEntityId="sphinx"  -->
+		<statement id="door_locked">shared.text23</statement>
+    </character>
+    <character id="sphinx">
+		<statement id="wake_sphinx">text2</statement> <!--  link="what" linkEntityId="player" -->
+		<statement id="once_wet">text3</statement>
+		<statement id="flows">text4</statement>
+		<statement id="rose">text5</statement>
+		<statement id="praise">text6</statement>
+    </character>
+</dialogs>

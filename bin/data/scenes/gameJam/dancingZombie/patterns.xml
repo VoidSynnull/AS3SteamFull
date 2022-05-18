@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+	<!-- VERTICAL PATHS -->
+	<pattern id="vertical0">
+		<color>0xff0000</color>
+		<point>
+			<x>0</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>4</y>
+		</point>		
+		<point>
+			<x>0</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>1</y>
+		</point>
+	</pattern>
+	<pattern id="vertical4">
+		<color>0xff0000</color>
+		<point>
+			<x>4</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>4</y>
+		</point>		
+		<point>
+			<x>4</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>1</y>
+		</point>
+	</pattern>
+	<!-- HORIZONTAL PATHS -->
+	<pattern id="horizontal5">
+		<color>0x0000ff</color>
+		<point>
+			<x>0</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>5</y>
+		</point>		
+		<point>
+			<x>2</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>5</y>
+		</point>
+	</pattern>
+	<!--LEFT TURN PATHS-->	
+		<pattern id="turnLeft3">
+		<color>0x00ff00</color>
+		<point>
+			<x>3</x>
+			<y>6</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>4</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>2</y>
+		</point>
+	</pattern>	
+	<!--RIGHT TURN PATHS-->	
+	<pattern id="turnRight1">
+		<color>0xff00ff</color>
+		<point>
+			<x>1</x>
+			<y>6</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>4</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>2</y>
+		</point>
+	</pattern>
+	<!--DIAGONAL PATHS-->	
+	<pattern id="diagnal">
+		<color>0xffff00</color>
+		<point>
+			<x>0</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>1</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>0</y>
+		</point>
+	</pattern>
+	<pattern id="cross5">
+		<color>0x0000ff</color>
+		<!-- HORIZONTAL -->
+		<point>
+			<x>0</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>1</x>
+			<y>5</y>
+		</point>		
+		<point>
+			<x>2</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>4</x>
+			<y>5</y>
+		</point>
+		<!-- VERTICAL -->
+		<point>
+			<x>2</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>4</y>
+		</point>		
+		<point>
+			<x>2</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>2</y>
+		</point>
+		<point>
+			<x>2</x>
+			<y>1</y>
+		</point>
+	</pattern>
+</patterns>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

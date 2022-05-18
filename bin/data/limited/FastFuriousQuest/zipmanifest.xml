@@ -1,0 +1,90 @@
+<manifest>
+	<!-- FastFurious xml files -->
+	<data type="campaign" path="data/limited/FastFuriousQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/FastFuriousQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="game" path="data/scenes/limited/FastFuriousQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>obstacles</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/FastFuriousQuest_Interior/" ext="swf">
+		<asset>backdrop</asset>
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		
+	<assets type="game" path="assets/scenes/limited/FastFuriousQuest_Game/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/FastFuriousQuest/" ext="swf">
+		<asset>boy</asset>
+		<asset>boy2</asset>
+		<asset>car1</asset>
+		<asset>car2</asset>
+		<asset>car3</asset>
+		<asset>carPower</asset>
+		<asset>Choose</asset>
+		<asset>girl</asset>
+		<asset>girl</asset>
+		<asset>Lose</asset>
+		<asset>tony</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2987</asset>
+		<asset>2988</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2987</asset>
+		<asset>2988</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>Dramatic_Chase</asset>
+		<asset>Brainiacs</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>short_engine_burst_01</asset>
+		<asset>puddle_slip_01</asset>
+		<asset>metal_crash_impact_02</asset>
+		<asset>explosion_04</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="item" path="data/entity/character/parts/item/" keep="true" ext="xml">
+		<asset>limited_fastfurious_keys</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" keep="true" ext="swf">
+		<asset>limited_fastfurious_keys</asset>
+	</assets>
+</manifest>

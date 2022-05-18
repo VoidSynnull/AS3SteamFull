@@ -1,0 +1,21 @@
+<part>
+	<id>limited_cyborg</id>
+	<type>pants</type>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x000000</color>
+	</colors>
+		<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/teentitans_cyclops_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

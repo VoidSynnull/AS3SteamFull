@@ -1,0 +1,61 @@
+<item id="2570"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Captain Underpants</name> <!-- Change this card name -->
+  	<campaignID>CaptUndAugust2014IC</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>PLAY VIDEO</label>
+    		<actions>
+				<action type="openVideoPopup" tracking="Video Popup">
+	  				<parameters>
+	  					<param id="className">game.scenes.custom.AutoCardVideo</param>
+	  					<param id="swfPath">limited/CaptUndAugust2014IC/CaptUndAugust2014IC_VideoCard.swf</param> <!-- location of swf in assets/scenes/limited -->
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>CREATE A COMIC!</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Video Card">
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Captain Underpants</value> <!-- Change this subtitle -->
+		</text>
+		<text id="subtitle">
+			<value>Captain Underpants</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Video</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+			<text id="copyright">
+			<value>CAPTAIN UNDERPANTS TM/® Dav Pilkey. Art © 2014 Dav Pilkey</value> <!-- Change or delete copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundCaptain.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+</item>

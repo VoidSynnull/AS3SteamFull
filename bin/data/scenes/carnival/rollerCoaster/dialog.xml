@@ -1,0 +1,58 @@
+<dialogs>
+	<character id="dan">
+		<statement link="why" linkEntityId="player">Don't hurt me!</statement>
+		<statement id="tail" triggerEvent="triggerEvent" triggerEventArgs="dan_show_tail">Because of this!</statement>
+		<statement id="yes" link="but" linkEntityId="player">Yes. I've been hiding my true identity from the townspeople all these years.</statement>
+		<statement id="bird" link="help" linkEntityId="player">You saw how they treated the bird boy! I couldn't let that happen to me. I've been working on a cure, but after last night, I can't go back into town.</statement>
+		<statement id="chem" triggerEvent="giveItem" triggerEventArgs="chemical_x_formula" link="hurry">You can use my shop to make the chemical agent I need. This is the recipe.</statement>    
+		<statement id="hurry">Hurry! I don't have much time.</statement>
+		<statement event="gotItem_chemical_x_formula">You can use my shop to make the chemical agent I need. Hurry!</statement>
+		
+		<statement event="hasItem_chemical_x" triggerEvent="takeItem" triggerEventArgs="chemical_x, dan" link="here">Do you have the chemical?</statement>
+		<statement id="here" triggerEvent="triggerEvent" triggerEventArgs="dan_drink_potion">Here goes nothing...</statement>
+		<statement triggeredByEvent="gave_potion" triggerEvent="triggerEvent" triggerEventArgs="dan_drink_potion">Here goes nothing...</statement>
+		<statement triggeredByEvent="dan_drank_potion">Ahh! It burns! It burns! It...</statement>
+		<statement id="dan_potion_failed" link="oops" linkEntityId="player">It made it worse! Now I have horns!</statement>
+		<statement id="diet" link="low" linkEntityId="player">Diet? No wonder it didn't work. Everybody knows diet cola is a pale imitation of the real thing!</statement>
+		<statement id="leave" triggerEvent="triggerEvent" triggerEventArgs="enter_search_party">I have no choice. I have to leave town. I can't let the townspeople know my secret.</statement>
+		
+		<statement id="there" link="think" linkEntityId="marnie">Stay back! I've seen what people in this town do to monsters.</statement>
+		<statement id="hide" link="cool" linkEntityId="bubby">You mean... I don't have to hide who I am anymore?</statement>
+		<statement id="keep" triggerEvent="giveItem" triggerEventArgs="chemical_x_award">I guess I won't need this after all. You're welcome to keep it. Maybe it'll do something for you.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="where">Why is Dr. Dan running from me?</statement>
+    
+		<statement id="why" link="tail" linkEntityId="dan">Why would i hurt you?</statement>
+		<statement triggeredByEvent="dan_show_tail" link="yes" linkEntityId="dan">A tail? You're... a monster?</statement>
+		<statement id="but" link="bird" linkEntityId="dan">But why?</statement>
+		<statement id="help" link="chem" linkEntityId="dan">Maybe I could help.</statement>
+		
+		<statement id="oops" link="diet" linkEntityId="dan">I don't understand. I followed the recipe: mushrooms, pickle juice, diet cola...</statement>
+		<statement id="low" link="leave" linkEntityId="dan">Some people prefer the low-calorie taste.</statement>
+		<statement id="givetodan">I should give this to Dr. Dan.</statement>
+    </character>
+    
+    <character id="marnie">		
+		<statement id="startEnd" link="there" linkEntityId="dan">Dr. Dan! There you are!</statement>
+		<statement id="think" link="cure" linkEntityId="man">Oh, Dr. Dan, Is that what you think? That we're here to hurt you? Everyone in this town loves you!</statement>
+		<statement id="best" link="hide" linkEntityId="dan"> And you're the best neighbor I've ever had. We came out here because we were worried about you, Dr. Dan.</statement>
+    </character>
+    
+    <character id="man">		
+		<statement id="cure" link="vital" linkEntityId="woman">You cured my athlete's foot!</statement>
+    </character>
+    
+    <character id="woman">		
+		<statement id="vital" link="best" linkEntityId="marnie">Your compounds restored my elan vital!</statement>
+    </character>
+    
+    <character id="bubby">		
+		<statement id="cool" link="chant" linkEntityId="sissy">Monsters are the coolest!</statement>
+    </character>    
+        
+    <character id="sissy">		
+		<statement id="chant" triggerEvent="triggerEvent" triggerEventArgs="exit_search_party, true">Yea, Monsters, monsters!</statement>
+    </character>
+</dialogs>

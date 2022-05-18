@@ -1,0 +1,37 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>text3</question>
+				<answer>text4</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_declaration">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text5</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="declaration, char1">text6</answer>
+			</exchange>
+		</conversation>
+		<statment event = "returned_declaration">text6</statment>
+    </character>
+    <character id="char2">
+    	<statement>text7</statement>
+    	<statement event = "returned_declaration">text8</statement>
+    </character>
+</dialogs>

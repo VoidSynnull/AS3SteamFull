@@ -1,0 +1,20 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="eda">
+		<bitmap>limited/OwlHouseQuest/Eda.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>right</direction>
+		<position>
+			<x>235</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	<npc id="luz">
+		<bitmap>limited/OwlHouseQuest/Luz.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>right</direction>
+		<position>
+			<x>530</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

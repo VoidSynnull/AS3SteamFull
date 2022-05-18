@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorTradeMain">door_light_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="floor">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="floor">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+</sounds>

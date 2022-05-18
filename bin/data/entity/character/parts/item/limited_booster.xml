@@ -1,0 +1,35 @@
+<part>
+	<id>limited_booster</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2840</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<parameters>
+			<param id="swfPath">limited/Cars3Quest/reward.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="tracking">Cars3Quest,Transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="visibility" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

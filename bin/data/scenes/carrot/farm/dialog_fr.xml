@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="char1">
+		<statement>Cette habitude d'être la plus grande ferme de carotte dans le monde. Mais les carottes ont tous disparu, et maintenant nous sommes laissés avec rien.</statement>
+		<statement event="destroyed_rabbot">Maintenant que les carottes ne sont pas en train de disparaître, je ne peux faire cela dans une grande ferme une fois de plus!</statement>
+	</character>
+	<!--
+	<character id="char2">
+		<statement>Cette habitude d'être la plus grande ferme de carotte dans le monde. Mais les carottes ont tous disparu, et maintenant nous sommes laissés avec rien.</statement>
+	</character>
+	-->
+	<character id="char3">
+		<statement>Home, sweet home! J'ai beaucoup de travail à faire maintenant!</statement>
+	</character>	
+</dialogs>

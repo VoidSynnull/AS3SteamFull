@@ -1,0 +1,11 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="boss_battle_started">Boss_Battle_Theme.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="boss_battle_ended">Quirky_Suspense.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="valve" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="radial" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,20 @@
+<events>
+<group type="dialogStart" id="pete">
+	<!--	<event>
+			<param1 id="action">lockInput</param1>
+		</event> -->
+	</group>
+	<group type="triggered" id="start">
+	
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneWin">
+	<event>
+			<param1 id="action">showOverlayAnim</param1>
+			<param2 id="swfPath">limited/PetesDragonQuest/DragonPopup.swf</param2>
+		</event>
+	</group>
+</events>

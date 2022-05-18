@@ -1,0 +1,52 @@
+<dialogs>
+	<character id="player">
+		<statement id="best">I knew I chose the best tribe.</statement>
+		<statement id="beaten">You may have beaten us at sea, but now we'll whoop you on land!</statement>
+    </character>
+
+	<character id="tribeMember">
+		<statement id="hail">Hail to the Wildfire! We raised the Poptropolis Games!</statement>
+    </character>
+    
+    <character id="master">
+    	<conversation id="games" event="games">
+			<exchange>
+				<question>Late? For what?</question>
+				<answer>For the games, of course! The Poptropolis Games occur but once every 100 years. We mustn't keep the fans waiting.</answer>
+			</exchange>
+			<exchange>
+				<question>What are the Poptropolis Games?</question>
+				<answer>You don't know? All the tribes of Poptropica send a champion to compete in a series of sporting events. Win, and you'll be a hero of your tribe for all time!</answer>
+			</exchange>
+			<exchange>
+				<question>What happens if I lose?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="talked_to_mc,true">Not much--just eternal shame and dishonor. So, are you ready?</answer>
+			</exchange>
+		</conversation>
+		<conversation triggeredByEvent="talked_to_mc">
+			<exchange>
+				<question>I'm ready!</question>
+				<answer link="meet">Splendid! Head to the Coliseum to begin.</answer>
+			</exchange>
+			<exchange>
+				<question>Not yet.</question>
+				<answer>Hmph. Well, don't dilly-dally. We've got to get going!</answer>
+			</exchange>
+		</conversation>
+		<statement id="late" triggerEvent="triggerEvent" triggerEventArgs="games">Ah, our representative from [tribe]. You're late!</statement>
+		<statement id="meet" triggerEvent="triggerEvent" triggerEventArgs="run">I'll meet you there.</statement>
+		<statement id="meet_you" triggerEvent="triggerEvent" triggerEventArgs="unlock_door">I'll meet you there.</statement>
+    </character>
+    
+    <character id="char2">
+		<statement>I couldn't believe my eyes--the city of Poptropolis rose right up from the sea!</statement>
+    </character>
+    
+    <character id="char3">
+		<statement>My parents and grandparents never got to see the Poptropolis Games, but I do!</statement>
+    </character>
+    
+    <character id="char4">
+		<statement>Once and for all, we'll find out which of the Poptropica tribes is the best!</statement>
+    </character>
+</dialogs>

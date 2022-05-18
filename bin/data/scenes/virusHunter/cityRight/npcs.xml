@@ -1,0 +1,115 @@
+<npcs>
+  <npc id="falafelGuy">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x917151</skinColor>
+      <hairColor>0x0</hairColor>
+      <mouth>thinking</mouth>
+      <hair>is_falafel</hair>
+      <shirt>nessie_tourist2</shirt>
+      <pants>bl_sofia</pants>
+      <overshirt>dinercook</overshirt>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>3000</x>
+      <y>1355</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="manWithShades">
+    <animations loop="false" random="false">
+      <animation>game.data.animation.entity.character.Ride</animation>
+    </animations>
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0x49321d</hairColor>
+      <mouth>17</mouth>
+      <marks>p_seacaptain</marks>
+      <facial>ss</facial>
+      <hair>tyson</hair>
+      <shirt>ss</shirt>
+      <pants>ss</pants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>880</x>
+      <y>1255</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <faceSpeaker>false</faceSpeaker>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+  <npc id="drLange">
+    <skin>
+      <gender>female</gender>
+      <skinColor>0xf9e4ce</skinColor>
+      <hairColor>0x5e0d11</hairColor>
+      <mouth>15</mouth>
+      <hair>is_scien</hair>
+      <shirt>is_scien</shirt>
+      <pants>is_scien</pants>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>950</x>
+      <y>1355</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="hungryWoman">
+    <skin>
+      <gender>male</gender>
+      <skinColor>8150334</skinColor>
+      <hairColor>0</hairColor>
+      <mouth>pcheerleader</mouth>
+      <facial>funglasses1</facial>
+      <hair>bl_critic02</hair>
+      <shirt>bl_gracie</shirt>
+      <pants>pantscounter</pants>
+      <item>dollars</item>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>2730</x>
+      <y>1355</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+  <npc id="loiteringGuy">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x7c5d3e</skinColor>
+      <hairColor>0x999999</hairColor>
+      <mouth>sponsorec2</mouth>
+      <marks>beardhair</marks>
+      <facial>explorer</facial>
+      <hair>bl_carson</hair>
+      <shirt>oldsherpa</shirt>
+      <pants>wwgenericguy</pants>
+      <eyeState>casual</eyeState>
+    </skin>
+    <position>
+      <x>400</x>
+      <y>1355</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+</npcs>

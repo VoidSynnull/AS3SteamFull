@@ -1,0 +1,71 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2370</right>
+		<bottom>1240</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2575</right>
+		<bottom>1500</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/mocktropica/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer event="set_night">
+			<asset>backdropNight.swf</asset>
+			<rate>.70</rate>
+		</layer>
+		<layer event="set_day">
+			<asset>backdropDay.swf</asset>
+			<rate>.70</rate>
+		</layer>
+		<layer>
+			<asset>chasm3.swf</asset>
+			<rate>.80</rate>
+		</layer>
+		<layer>
+			<asset>chasm2.swf</asset>
+			<rate>.85</rate>
+		</layer>
+		<layer>
+			<asset>chasm1.swf</asset>
+			<rate>.90</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive2.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="mainstreet_unfinished">
+			<asset>overlayUnfinished.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_rain">
+			<asset>overlayRain.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_nght">
+			<asset>overlayNight.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>2300</x>
+			<y>1120</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

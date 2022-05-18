@@ -1,0 +1,39 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset event="barrel_move">creaky_metal_01.mp3</asset>
+		<asset event="helicopter_approaching" loop="true">helicopter_01_L.mp3</asset>
+		<asset event="helicopter_door_close">metal_bar_slide_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb2">rope_strain_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="slide">
+		<asset id="climb2">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="barrel">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="platform">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="driller">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="submarine">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="barrel">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="platform">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="driller">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="submarine">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="water">fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+	</sound>
+</sounds>

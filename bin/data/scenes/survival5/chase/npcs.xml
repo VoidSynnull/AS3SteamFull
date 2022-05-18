@@ -1,0 +1,118 @@
+<npcs>
+	<npc id="buren">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<item>vccrossbow</item>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>-100</x>
+			<y>475</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="dog1" variant="creature">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x47494f</skinColor>
+			<hairColor>0x47494f</hairColor>
+			<mouth>dog</mouth>
+			<facial>dog2</facial>
+			<hair>dog</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>dog</pack>
+			<overshirt>dog</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>-70</x>
+			<y>475</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.4</scale>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="dog2" variant="creature">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x47494f</skinColor>
+			<hairColor>0x47494f</hairColor>
+			<mouth>dog</mouth>
+			<facial>dog2</facial>
+			<hair>dog</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>dog</pack>
+			<overshirt>dog</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>-90</x>
+			<y>475</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.4</scale>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="winston">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfaecc8</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>vcvillager1</mouth>
+			<facial>survival_winston</facial>
+			<hair>survival_winston</hair>
+			<shirt>1</shirt>
+			<item>survival_hunting_horn</item>
+			<pants>badagent</pants>
+			<overpants>survival_winston</overpants>
+			<eyeState>casual</eyeState>			
+		</skin>
+		<position>
+			<x>-100</x>
+			<y>475</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="vanBurenTalker" variant="head">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>50</x>
+			<y>200</y>
+		</position>
+		<direction>right</direction>	
+	</npc>
+</npcs>

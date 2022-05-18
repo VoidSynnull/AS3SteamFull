@@ -1,0 +1,34 @@
+<game>
+	<className>game.scene.template.ads.StarShooterGame</className>
+	<returnX>3300</returnX>
+	<returnY>575</returnY>
+	<speed>400</speed>
+	<progressAlignment>horizontal</progressAlignment>
+	<maxHits>9</maxHits>
+	<gameTime>65</gameTime>
+	<tileHeight>720</tileHeight>
+	<animFrameRate>8</animFrameRate>
+	<sideSpeed>400</sideSpeed>
+	<!-- <choosePopup>limited/ArcadeStarShooterQuest/Choose.swf</choosePopup> -->
+	<leftEdgeBounds>60</leftEdgeBounds>
+	<rightEdgeBounds>850</rightEdgeBounds> <!-- added to left edge bounds -->
+	<shooters>
+		<shooter id="starwars_shooter1">
+			<!-- bullet asset is the only required field -->
+			<className>game.data.specialAbility.character.TopDownShooter</className>
+			<triggerable>true</triggerable>
+			<useButton>true</useButton>
+			<sfPauseTimer>.5</sfPauseTimer>
+			<overrideSuppression>true</overrideSuppression>
+			<parameters>
+				<param id="bulletAsset">limited/ArcadeStarShooterQuest/amo1.swf</param>
+				<param id="axis">y</param>
+				<param id="targetPrefix">ship</param>
+				<param id="shootSound">laser_lsw.mp3</param>
+				<param id="fireRate">0</param>
+				<param id="offsetY">-50</param>
+				<param id="followMultiply">0.3</param>
+			</parameters>
+		</shooter>
+	</shooters>
+</game>

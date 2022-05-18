@@ -1,0 +1,17 @@
+<part>
+	<id>pfairy3</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0xFF6699</color>
+		<color id="color2">0xFFA8C5</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

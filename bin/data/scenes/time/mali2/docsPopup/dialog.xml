@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="merc">
+    	<statement forceOnScreen="true" id="docTalk1" link="docTalk2">docsPopup.text1</statement>
+    	<statement forceOnScreen="true" id="docTalk2" link="docTalk3">docsPopup.text2</statement>
+    	<statement forceOnScreen="true" id="docTalk3" link="docTalk4">docsPopup.text3</statement>
+    	<statement forceOnScreen="true" id="docTalk4" triggerEvent="triggerEvent" triggerEventArgs="maliDocs_start">docsPopup.text4</statement>
+    	<statement forceOnScreen="true" event="puzzleComplete" link="end">docsPopup.text5</statement>
+    	<statement forceOnScreen="true" id="end" triggerEvent="triggerEvent" triggerEventArgs="maliDocs_exitPuzzle">docsPopup.text6</statement>
+    </character>
+</dialogs>

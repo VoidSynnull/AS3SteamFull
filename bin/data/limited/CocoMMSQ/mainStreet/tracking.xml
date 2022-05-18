@@ -1,0 +1,23 @@
+<tracking>
+	<track id="dante">
+		<event>EngagedOutsideNPC</event>
+		<choice>Dante</choice>
+	</track>
+	<track id="miguel">
+		<event>EngagedOutsideNPC</event>
+		<choice>Miguel</choice>
+	</track>
+	<track id="hector">
+		<event>EngagedOutsideNPC</event>
+		<choice>Hector</choice>
+	</track>
+	<track id="delacruz">
+		<event>EngagedOutsideNPC</event>
+		<choice>DeLaCruz</choice>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

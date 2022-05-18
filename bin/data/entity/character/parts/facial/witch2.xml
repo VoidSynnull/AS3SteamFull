@@ -1,0 +1,15 @@
+<part>
+	<id>witch2</id>
+	<type>facial</type>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

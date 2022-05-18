@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorLeft">
+		<scene>game.scenes.superPower.mainStreet.MainStreet</scene>
+		<x>6020</x>
+		<y>1860</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorRight">
+		<scene>game.scenes.superPower.downtown.Downtown</scene>
+		<x>70</x>
+		<y>2160</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

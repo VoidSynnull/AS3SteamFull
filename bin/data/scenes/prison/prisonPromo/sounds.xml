@@ -1,0 +1,29 @@
+<sounds>
+	<sound type="music">
+		<!--<asset>Carrot_ShopTheme.mp3</asset>-->
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" baseVolume="0.7">beach_waves_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="tile">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	
+	<sound type="ambient" action="impact">
+		<asset id="air">air_ducts_01_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="tile">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+	</sound>
+	
+</sounds>

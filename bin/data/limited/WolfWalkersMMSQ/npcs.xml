@@ -1,0 +1,13 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="custom_npc">
+		<bitmap>limited/WolfWalkersQuest/npc.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<faceSpeaker>false</faceSpeaker>
+		<direction>left</direction>
+		<position>
+			<x>617</x> <!-- from left edge of ad unit -->
+			<y>399</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

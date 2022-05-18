@@ -1,0 +1,43 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>5500</right>
+		<bottom>2000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>-150</top>
+		<right>5600</right>
+		<bottom>2150</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,custom.xml,blimp.xml,vendor_cart.xml</data>
+	<assets/>
+	<absoluteFilePaths prependTypePath="true">scenes/time/shared/sounds.xml</absoluteFilePaths>
+	<layers>
+		<layer id="backdrop">
+			<asset>backdrop.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="background">
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>2699</x>
+			<y>1930</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

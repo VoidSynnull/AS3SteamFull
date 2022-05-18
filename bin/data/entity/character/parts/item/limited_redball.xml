@@ -1,0 +1,14 @@
+<part>
+	<id>limited_redball</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2878</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.SyncBounce">
+			<properties>
+				<bounceTime>0.9</bounceTime>
+				<radius>15</radius>
+			</properties>
+		</component>
+  	</components>
+</part>

@@ -1,0 +1,28 @@
+<doors>
+	<door id="financialExit">
+		<scene>game.scenes.zombie.financial.Financial</scene>
+		<x>2000</x>
+		<y>2440</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="leftExit">
+		<scene>game.scenes.zombie.subwayBunker.SubwayBunker</scene>
+		<x>1653</x>
+		<y>1017</y>
+		<label>
+			<text>GO LEFT</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

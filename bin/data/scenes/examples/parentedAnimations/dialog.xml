@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="npc">
+		<conversation>
+			<exchange>
+				<question>Why is this camel following me?</question>
+				<answer>This camel is made from a long timeline for all its states.</answer>
+			</exchange>
+			<exchange>
+				<question>That doesn't answer my question...</question>
+				<answer>Well, a single long timeline isn't parented, but to show some emotion, there is a nested timeline for the head.</answer>
+			</exchange>
+			<exchange>
+				<question>He looks pretty blank for added emotion emotion.</question>
+				<answer>Run from the camel and you will notice he doesn't like it when you try to make him run.</answer>
+			</exchange>
+			<exchange>
+				<question>How did we achieve this?</question>
+				<answer>you may notice there is very little code in this scene and there is nothing handling labels in the creator.</answer>
+			</exchange>
+			<exchange>
+				<question>Where is this done then?</question>
+				<answer>Everything is 'scripted' in the fla for this camel which is located in the same folder as the layers.fla for this scene.</answer>
+			</exchange>
+			<exchange>
+				<question>I thought we weren't supposed to have any code in our flas?</question>
+				<answer>It is not in 'as3', but in the names of the labels. We have a parser which can interpret key phrases for further functionality not just as a label.</answer>
+			</exchange>
+			<exchange>
+				<question>I see a lot of words, which are 'key'?</question>
+				<answer>the key phrases are anything you would see called for a timeline like 'gotoAndStop()' or 'gotoAndPlay()', and within the '()' you can pass in perameters like a normal function.</answer>
+			</exchange>
+			<exchange>
+				<question>I see ',' and '.'. do they represent some of this functionality?</question>
+				<answer>Yes, a ',' means you want the parser to interpret the rest of the line as something new, while '.' means you want a child of this clip to do something.</answer>
+			</exchange>
+			<exchange>
+				<question>Can you have a clip parented multiple layers be called?</question>
+				<answer>Yes, calling any child you just have to specify the parentage. So if you animated the mouth you would write, 'Head.head.LowerMouth.play(), Head.head.Uppermouth.play()'.</answer>
+			</exchange>
+			<exchange>
+				<question>Those parts don't have animations?</question>
+				<answer>Im a programmer not an artist, theoretically, if you wanted you could, but they don't pay me to do that so i don't, I was just asked to explain what we can do.</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

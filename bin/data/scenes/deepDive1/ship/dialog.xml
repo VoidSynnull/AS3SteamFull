@@ -1,0 +1,49 @@
+<dialogs>
+	<character id="player">
+		<statement id="whatsGoingOn" link="needHelp" linkEntityId="cam" triggerEvent="triggerEvent" triggerEventArgs="playerSaidWhatsGoingOn">text1</statement>
+		<statement id="locked">text2</statement>
+		<statement id="alreadyGotInk">text3</statement>
+		<statement id="cantUseThatHere">text4</statement>
+		<statement id="closer">text5</statement>
+
+    </character>
+	<character id="cam">
+		<statement id="needHelp" triggerEvent="triggerEvent" triggerEventArgs="camSaidNeedHelp">text6</statement>
+		<statement id="findKey" triggerEvent="triggerEvent" triggerEventArgs="camCompletedInitialSpeech">text7</statement>
+		<statement id ="success" triggerEvent="triggerEvent" triggerEventArgs="camSaidSuccessSpeech">text8</statement>
+		<statement event="cam_said_why_speech">text9</statement>
+		<statement event="hasItem_key">text10</statement>  
+		<statement id="subOpen">text11</statement>
+	</character>
+	<character id="sailor1">
+		<statement>text12</statement>
+    </character>
+    <character id="sailor2">
+		<!-- <statement>Can't let you have this key. The safety of the crew is at stake.</statement>  -->
+		<statement id="water" link="water2" linkEntityId="sailor2">text13</statement>
+		<statement id="water2" triggerEvent="triggerEvent" triggerEventArgs="sailorDoneReactingToWater">text14</statement>	
+		<!-- <statement event="gotItem_key">What do you want? You already got the key from me.</statement>   -->
+		<statement event="gotItem_key">text15</statement>
+		<statement event="sailor_reacted_to_ink">text15</statement>	
+		<statement id="dumpedInk" triggerEvent="triggerEvent" triggerEventArgs="sailor_reacted_to_ink,true">text16</statement>
+		
+		<conversation>
+			<exchange>
+				<question>text17</question>
+				<answer>text18</answer>
+			</exchange>
+			<exchange>
+				<question>text19</question>
+				<answer>text20</answer>
+			</exchange>
+			<exchange>
+				<question>text21</question>
+				<answer>text22</answer>
+			</exchange>
+		</conversation>
+		
+    </character>
+	<character id="sailor3">
+		<statement>text23</statement>
+    </character>
+</dialogs>

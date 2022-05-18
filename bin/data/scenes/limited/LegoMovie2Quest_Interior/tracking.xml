@@ -1,0 +1,54 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Middle Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="lucy">
+		<event>EngagedInsideNPC</event>
+		<choice>lucy</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="emmet">
+		<event>EngagedInsideNPC</event>
+		<choice>emmet</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="batman">
+		<event>EngagedInsideNPC</event>
+		<choice>batman</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="pirate">
+		<event>EngagedInsideNPC</event>
+		<choice>metal beard</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="planty">
+		<event>EngagedInsideNPC</event>
+		<choice>planty</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="kitty">
+		<event>EngagedInsideNPC</event>
+		<choice>angry unikitty</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

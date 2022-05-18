@@ -1,0 +1,70 @@
+<item id="3037">
+		<type>store</type>
+		<subType>general</subType>
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<radiobuttons>
+		<btn>
+			<color>0xFF669C</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x59B4E0</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x6BDD4A</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Baseball Batter</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<marks>pbaseball</marks>
+			<mouth>magician</mouth>
+			<facial>pbaseball2girl1</facial>
+			<pants>pbaseballgirl1</pants>
+			<shirt>pbaseballgirl1</shirt>
+			<item>pbat</item>
+		</look>
+		<look>
+			<marks>pbaseball</marks>
+			<mouth>magician</mouth>
+			<facial>pbaseball2girl2</facial>
+			<pants>pbaseballgirl2</pants>
+			<shirt>pbaseballgirl2</shirt>
+			<item>pbat</item>
+		</look>
+		<look>
+			<marks>pbaseball</marks>
+			<mouth>magician</mouth>
+			<facial>pbaseball2girl3</facial>
+			<pants>pbaseballgirl3</pants>
+			<shirt>pbaseballgirl3</shirt>
+			<item>pbat</item>
+		</look>
+	</looks> 
+	
+</item>

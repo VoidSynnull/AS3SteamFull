@@ -1,0 +1,61 @@
+
+<springSet beingType="baymax">
+	
+	<!-- 
+		NOTES:  
+		spring : The higher the spring value the 'tighter' the spring, causing the part to move towards it's leader with more force.
+		damp : The higher the damp value the less dampening, a value of 1 would create no dampening.
+	-->
+	
+	<springData>
+		<part>head</part>
+		<leader>neck</leader>
+		<spring>0.5</spring>
+		<damp>0.55</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>-17</offsetX>
+		<offsetY>-72</offsetY>
+	</springData>	
+	
+	<springData>
+		<part>hair</part>
+		<leader>head</leader>
+		<spring>0.4</spring>
+		<damp>0.5</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>11</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>pack</part>
+		<leader>body</leader>
+		<spring>0.3</spring>
+		<damp>0.7</damp>
+		<rotateByVelocity>true</rotateByVelocity>
+		<offsetX>15</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>item</part>
+		<leader>hand1</leader>
+		<spring>0.5</spring>
+		<damp>0.5</damp>
+		<!-- <rotateByLeader>true</rotateByLeader> -->
+		<offsetX>-4</offsetX>
+		<offsetY>-4</offsetY>
+	</springData>
+	
+	<springData>
+		<part>item2</part>
+		<leader>hand2</leader>
+		<spring>0.5</spring>
+		<damp>0.5</damp>
+		<!-- <rotateByLeader>true</rotateByLeader> -->
+		<offsetX>-4</offsetX>
+		<offsetY>-4</offsetY>
+	</springData>
+
+</springSet>
+

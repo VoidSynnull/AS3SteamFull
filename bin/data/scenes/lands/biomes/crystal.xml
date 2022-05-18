@@ -1,0 +1,159 @@
+<biome>
+
+<weather>
+	<meteor rarity="2000" />
+</weather>
+
+	<sky>
+	<top>0x592886, 0x6A35A4, 0x7B42C1, 0x6A35A3, 0x592886, 0x2A1540, 0x100B1A, 0x1B0F2B, 0x592886</top>
+	<bottom>0xEEE6A8, 0xE19AE2, 0xDE83F5, 0xE167D0, 0xEA2D82, 0x401E62, 0x190E28, 0x34194F, 0xEEE6A8</bottom>
+	</sky>
+
+	<tileLayer name="foreground">
+	
+		<tileMap name="decal" tileSet="decal" drawOrder="1" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+				<decalHitRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="building" tileSet="building" drawOrder="2" tileSize="32" drawHits="true">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="12" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="terrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="true">
+
+			<renderers>
+				<terrainOutliner strokeSize="5" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<terrainGenerator />
+				<caveGenerator perlinBase="8" cutThreshold="0xEEEEEE" />
+				<caveGenerator perlinBase="12" cutThreshold="0xEEEEEE" />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+				<flatGenerator tileType="1" height="4" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="trees" tileSet="trees" drawOrder="20" tileSize="32" drawHits="true">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+		</tileMap>
+
+	</tileLayer >
+
+	<tileLayer name="background">
+	
+		<tileMap name="bgdecal" tileSet="decal" drawOrder="200" tileSize="32" drawHits="true">
+
+			<renderers>
+				<decalRenderer />
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgbuilding" tileSet="building" drawOrder="100" tileSize="32" drawHits="false">
+
+			<renderers>
+				<buildingRenderer />
+				<buildingOutliner innerLineSize="7" outerLineSize="8" outerLineColor="0x000000"/>
+			</renderers>
+
+		</tileMap>
+
+		<tileMap name="bgterrain" tileSet="terrain" drawOrder="50" tileSize="64" drawHits="false">
+
+			<renderers>
+				<terrainOutliner strokeSize="2" />
+				<terrainRenderer />
+			</renderers>
+
+			<generators>
+				<terrainGenerator />
+				<caveGenerator perlinBase="12" cutThreshold="0xEEEEEE" />
+				<cliffGenerator perlinBase="16" cutThreshold="0xA00000" />
+			</generators>
+
+		</tileMap>
+
+		<tileMap name="bgtrees" tileSet="trees" drawOrder="1" tileSize="32" drawHits="false">
+
+			<renderers>
+				<treeRenderer drawOutlines="true" />
+			</renderers>
+
+		</tileMap>
+
+	</tileLayer>
+
+	<tileSet name="terrain">
+
+		<terrain name="crystalstone" type="1" drawOrder="1" level="1">
+			
+			<hitGroundColor>0x7EB7E4</hitGroundColor>
+
+			<viewLineColor>0x753D96</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.09</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>crystalstone_tile.swf</viewBitmapFill>
+
+		</terrain>
+
+		<terrain name="crystaldirt" type="2" drawOrder="2" level="2">
+
+			<hitGroundColor>0x996600</hitGroundColor>
+
+			<viewLineColor>0x753D96</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+				
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.15</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>crystaldirt_tile.swf</viewBitmapFill>
+
+		</terrain>
+
+		<terrain name="crystalsand" type="4" drawOrder="3" level="2">
+
+			<hitGroundColor>0x006600</hitGroundColor>
+
+			<viewLineColor>0x753D96</viewLineColor>
+			<viewLineSize>7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.25</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>crystalsand_tile.swf</viewBitmapFill>
+			
+			<details>
+				<detail url="crystalsand_details.swf" sides="top" minDetails="-1" maxDetails="1" />
+			</details>
+
+		</terrain>
+
+	</tileSet>
+
+</biome>

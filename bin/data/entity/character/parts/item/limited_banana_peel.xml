@@ -1,0 +1,22 @@
+<part>
+	<id>limited_banana_peel</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2693</campaignID>
+	<specialAbility id="PlaceHazard">
+		<className>game.data.specialAbility.character.PlaceHazard</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">PopComicsFlyGameQuest,Banana Peel</param>
+			<param id="swfPath">limited/PopComicsFlyGameQuest/banana_peel.swf</param>
+			<param id="knockBackVelocity">1000,300</param>
+			<param id="slipThrough">true</param>
+			<param id="hitAudioFile">whoosh_05.mp3</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

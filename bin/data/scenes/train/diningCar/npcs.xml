@@ -1,0 +1,62 @@
+<npcs>
+	<npc id="porter" event="setPorterInDiningCar">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner4</mouth>
+			<marks/>
+			<facial>mtPorter</facial>
+			<hair>8</hair>
+			<shirt>mtPorter</shirt>
+			<pants>hero2</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>194.95</x>
+			<y>470</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+	<!--  set when clue prune juice is found  -->
+	<npc id="anthony" event="setAnthonyInDiningCar">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>19</mouth>
+			<marks/>
+			<facial>1</facial>
+			<hair>mtSusanB</hair>
+			<shirt>mtSusanB</shirt>
+			<pants>mtSusanB</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1686.85</x>
+			<y>470</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

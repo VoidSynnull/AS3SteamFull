@@ -1,0 +1,23 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>montgomery</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_dislogo_hat</facial>
+			<shirt>limited_disinfinity</shirt>
+			<pants>sponsor_stevuni</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>45</x>
+			<y>636</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

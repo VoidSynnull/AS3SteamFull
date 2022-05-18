@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="count">
+		<statement triggeredByEvent ="start_chase">My dear Annabelle! Why do you run!?</statement>
+		<statement triggeredByEvent ="callout_1">Come back my sweet!</statement>
+		<statement triggeredByEvent ="count_transform">You won't escape me that easily!</statement>
+    </character>
+    <character id="katya">
+		<statement triggeredByEvent ="count_chasing">Darn! Don't let him catch me! Keep up and use the garlic to keep him away from me!</statement>
+		<statement triggeredByEvent ="got_syringe">I've got the syringe! Let's go!</statement>
+		<statement triggeredByEvent ="vampire_shotCount">Quick! The Syringe!</statement>
+    </character>
+</dialogs>

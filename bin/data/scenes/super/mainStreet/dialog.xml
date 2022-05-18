@@ -1,0 +1,120 @@
+<dialogs>
+
+	<!--  character 1  -->
+	<character id="warden">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm the prison warden.</answer>
+			</exchange>
+			<exchange>
+				<question>What happened here?</question>
+				<answer>A meteor hit the prison and the convicts have escaped!</answer>
+			</exchange>
+			<exchange>
+				<question>Tell me more about the escaped prisoners.</question>
+				<!--  get criminal profiles  -->
+				<answer triggerEvent="giveItem" triggerEventArgs="superVillainFiles">Here are their profile reports.</answer>
+			</exchange>
+		</conversation>
+		<statement  event="gotItem_superVillainFiles">The rest is up to you. Good luck.</statement>
+			<!--  depending who got caught last  -->
+			<statement event="beat_boss_1">Thanks for your help! That Copy Cat was a real trickster.</statement>
+			<statement event="beat_boss_2">Looks like Speeding Spike wasn't fast enough to outrun you!</statement>
+			<statement event="beat_boss_3">Sir Rebral won't be playing any more of his mind games now!</statement>
+			<statement event="beat_boss_4">Thanks to you, the Ratman is caged again</statement>
+			<statement event="beat_boss_5">Excellent work! Now Crusher's back in his old stomping grounds.</statement>
+			<statement event="beat_boss_6">Betty Jetty has finally been grounded, thanks to you!</statement>
+				
+		<statement event="beat_boss_6" link="talk_to_ned">The villains are all back behind bars, thanks to Ned Noodlehead...oh, and you.</statement>
+		<statement id="talk_to_ned">I gave the Island Medallion to our hero, Ned Noodlehead!</statement>
+    </character>
+    
+    <!--  character 2  -->
+    <character id="radioactiveSuit">
+   		<statement>Stand back! This thing isn't safe.</statement>
+   		<statement event="beat_boss_6">I think this meteor is a nice decoration for the prison.</statement>
+    </character>
+    
+    <!--  character 3  -->
+    <character id="random1">
+    	<statement>There's been a prison break! We're all in danger!</statement>
+    	<statement event="beat_boss_6">It's a good thing those villains are back in prison!</statement>
+    		<!-- and set their mouthFrame = 1 -->
+    </character>
+    
+    <!--  character 4  -->
+    <character id="femScientist">
+    	<conversation>
+    		<exchange>
+    			<question>What happened here?</question>
+    			<answer>The impact from this meteor sent out a radioactive shockwave that mutated the prisoners.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>So the prisoners have super powers?</question>
+    			<answer triggerEvent="giveItem" triggerEventArgs="antiPowerCuffs">Yes! You'll need these anti-power handcuffs to capture them.</answer>
+    		</exchange>
+    	</conversation>
+    	<conversation event="gotItem_antiPowerCuffs">
+    		<exchange>
+    			<question>What happened here?</question>
+    			<answer>The impact from this meteor sent out a radioactive shockwave that mutated the prisoners.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>So the prisoners have super powers?</question>
+    			<answer>Those handcuffs will remove any villain's super power.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement event="beat_boss_6">The meteor's radioactivity has worn off, so it's no longer a threat.</statement>
+    </character>
+    
+    <!--  character 5  -->
+    <character id="prisonGuard">
+    	<statement>Civilians aren't allowed here. Please head back to the mainland.</statement>
+    	<statement event="gotItem_superHeroID">You're clear to go.</statement>
+    	<statement event="beat_boss_6">Great work!</statement>
+    </character>
+    
+    <!--  character 6  -->
+    <character id="policeWoman">
+    	<statement>Be careful, there are escaped prisoners around!</statement>
+    	<statement event="gotItem_superHeroID">Oh good, a new super hero! That last one is just sitting up on the Daily Paper Building!</statement>
+    	<statement event="beat_boss_6">Thanks, you're a real hero!</statement>
+    </character>
+    
+    <!--  character 7  -->
+    <character id="policeMan">
+    	<statement>We can't let civilians past this point. There are super villains on the loose!</statement>
+    		<!--  if you don't have handcuffs and prisoner files -->
+    	<statement event="gotItem_superHeroID">The prison warden and the scientist have some things for you over at the prison.</statement>
+    	
+    	<statement event="is_hero">Be careful out there!</statement>
+    	<statement event="beat_boss_6">Looks like the island is safe again!</statement>
+    </character>
+    
+    <!--  character 8  -->
+    <character id="hero">
+    	<statement>This isn't a safe place for civilians</statement>
+    	<conversation event="gotItem_superHeroID">
+    		<exchange>
+    			<question>Are you a real super hero?</question>
+	    		<answer>You better believe it, kid. I've defeated more villains than you can count.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>What are you doing up here?</question>
+    			<answer>I can't keep up with all these super villains anymore!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I want to be a super hero!</question>
+    			<answer>There's more to it than having a suit and ID! Talk to me after you've defeated at least 5 villains.</answer>
+    		</exchange>
+    	</conversation>
+    	<statement event="beat_easy_bosses" link="phoneBooth">I'm impressed at what you've accomplished. I think you've got what it takes, kid.</statement>
+    	<statement id="phoneBooth">There's just one more thing you need. You'll find it in the phone booth.</statement>
+    	
+    	<statement event="can_fly">Remember, with great power comes great responsibility.</statement>
+    
+    	<statement event="beat_boss_6">Well done, kid. Not bad at all.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,20 @@
+<dialogs>
+	<character id="tony">
+		<statement link="ask_player" linkEntityId="player">Can you help me beat SH1FT3R?</statement>
+    </character>
+	<character id="player">
+		<statement id="ask_player" triggerEvent="triggerEvent" triggerEventArgs="start">I'm the best you've got.</statement>
+    </character>
+	<character id="boy">
+		<statement>Check out these awesome cars!</statement>
+    </character>
+	<character id="boy2">
+		<statement>Let's brush up on our racing skills!</statement>
+    </character>
+	<character id="girl">
+		<statement>Did you take the cars out for a test drive yet?</statement>
+    </character>
+	<character id="girl2">
+		<statement>Check out our races in this video!</statement>
+    </character>
+</dialogs>

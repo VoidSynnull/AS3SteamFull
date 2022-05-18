@@ -1,0 +1,39 @@
+<events>
+<group type="dialogStart" id="robinson">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+<group type="triggered" id="startRun">
+	<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+		<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">630,556</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+		<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">800,536</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+		<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">216,200</param3>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>
+
+</events>

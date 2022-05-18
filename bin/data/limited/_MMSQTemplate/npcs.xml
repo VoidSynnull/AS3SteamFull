@@ -1,0 +1,42 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="custom_npc">
+		<bitmap>limited/CampaignNameQuest/NPC.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>100</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	
+	<!-- use this for Poptropican NPC -->
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth></mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair></hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>100</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

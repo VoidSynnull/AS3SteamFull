@@ -1,0 +1,20 @@
+<npcs>
+	<npc id="Gabi">
+		<bitmap>limited/VivoQuest/Gabi.swf</bitmap> <!-- *** Path to NPC zip in quest folder -->
+		<faceSpeaker>false</faceSpeaker>
+		<direction>left</direction>
+		<position>
+			<x>-350</x> <!-- from left edge of ad unit -->
+			<y>12</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="Vivo">
+		<bitmap>limited/VivoQuest/Vivo.swf</bitmap> <!-- *** Path to NPC zip in quest folder -->
+		<faceSpeaker>false</faceSpeaker>
+		<direction>right</direction>
+		<position>
+			<x>200</x> <!-- from left edge of ad unit -->
+			<y>-1</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

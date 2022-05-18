@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true" absoluteUrl="true">effects/electric_hum_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="startSequence" loop="true" fade="true" exclusiveType="true">electric_buzz_02a_L.mp3</asset>		
+		<asset triggeredByEvent="startSequence3" loop="true" fade="true" exclusiveType="true">electric_buzz_02a-02b.mp3</asset>
+		<asset triggeredByEvent="startSequence4" loop="true" fade="true" exclusiveType="true">electric_buzz_02b_L.mp3</asset>
+		<asset triggeredByEvent="startSequence5" loop="true" fade="true" exclusiveType="true">electric_buzz_02b-02c.mp3</asset>
+		<asset triggeredByEvent="startSequence6" loop="true" fade="true" exclusiveType="true">electric_buzz_02c_Lv2.mp3</asset>
+		<asset triggeredByEvent="beamFired" loop="true" exclusiveType="true">weapon_laser_blade_hum_1_L.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="doorOpened">
+		<asset>door_airlock_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="metal_ladder">ls_ladder_metal_01.mp3, ls_ladder_metal_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="metal_ladder">fs_ladder_metal_01.mp3, fs_ladder_metal_02.mp3, fs_ladder_metal_03.mp3, fs_ladder_metal_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

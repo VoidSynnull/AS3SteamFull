@@ -1,0 +1,57 @@
+<part>
+	<id>limited_kiddanger_gum</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2873</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/KidDangerQuest/Flash.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">true</param>
+			<param id="tracking">KidDangerQuest,gum</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.custom.GumPop</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction" startDelay="0.6">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">limited_kiddanger</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction" startDelay="0.1">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">limited_kiddanger</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction" startDelay="0.1">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">limited_kiddanger</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

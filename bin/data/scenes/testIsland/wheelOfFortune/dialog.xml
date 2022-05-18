@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="npc">
+		<statement link="spinWheel">Ready to spin the wheel of fate!</statement>
+		<conversation id="spinWheel">
+			<exchange>
+				<question>I'm ready!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="openWheelPopup">Round and Round the wheel it goes! Where it stops, only the server shall know.</answer>
+			</exchange>
+			<exchange>
+				<question>Nah I'm not a gamblin kinda pop.</question>
+				<answer>Its only gamblin if you might loose somethin! So give it a whirl!</answer>
+			</exchange>
+			<exchange>
+				<question>No way this thing is rigged!</question>
+				<answer>Urrrgh... you wound me. How could you such a hurtful thing! I didn't want to give you any of this FREE stuff anyways.</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

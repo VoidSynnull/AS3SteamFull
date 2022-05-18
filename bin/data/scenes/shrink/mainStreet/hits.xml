@@ -1,0 +1,72 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tiledRoof" color="0xC0C0C0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="woodenRoof" color="0xFF00FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="concrete" color="0xA4FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="trashCan" color="0xD56A00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="woodenStairs" color="0xFF8080" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="swingSetBar" color="0xFF80C0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="slideSteps" color="0xACCACD" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="slide1" color="0xA600A6" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>-1500</x>
+				<y>6000</y>
+			</acceleration>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="slide2" color="0xA600A7" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	
+	<hit id="woodenSign" color="0xA95454" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="schoolWindow" color="0xBFBF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

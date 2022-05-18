@@ -1,0 +1,19 @@
+<dialogs>
+<character id="masterBuilder">
+		<statement id="theHammer" triggerEvent="triggerEvent" triggerEventArgs="firstLineOver">The hammer holds great power. Heed my wisdom and I will lead you on the path to becoming a Master Creator.</statement>
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I am the Master Creator who built the walls of Asgard.</answer>
+			</exchange>
+			<exchange>
+				<question>Where am I?</question>
+				<answer>You have entered the ancient realm of Asgard. There are an infinite number of realms to explore.</answer>
+			</exchange>
+			<exchange>
+				<question>What should I do?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="master_fade_out">Wield the power of the hammer to explore, destroy, and create.</answer>
+			</exchange>
+		</conversation>
+	</character>
+</dialogs>

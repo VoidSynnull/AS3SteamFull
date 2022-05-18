@@ -1,0 +1,35 @@
+<layout>
+	<assets>
+		<asset>
+			<folder>island</folder>
+			<name>logo.swf</name>
+			<align>
+				<name>logo</name>
+				<alignment>mid_x_mid_y</alignment>
+			</align>
+		</asset>
+		<asset>
+			<folder>page</folder>
+			<name>slides.swf</name>
+			<align>
+				<name>picture</name>
+				<alignment>mid_x_mid_y</alignment>
+			</align>
+		</asset>
+		<asset>
+			<folder>island</folder>
+			<name>medallion.swf</name>
+			<components>
+				<component class="engine.components.Id">
+					<constructor>
+						<id>medallion</id>
+					</constructor>
+				</component>
+			</components>
+			<align>
+				<name>medallion</name>
+				<alignment>mid_x_mid_y</alignment>
+			</align>
+		</asset>
+	</assets>
+</layout>

@@ -1,0 +1,24 @@
+<dialogs> <!-- BROWSER SPECIFIC -->
+	
+     <character id="viking">
+    	<statement>Travel to Realms to explore, build, and destroy.</statement>
+	</character>
+	
+    <character id="amelia">
+		<statement id="poptropica_is_new" link="poptropica_is_new2">Above us is your own clubhouse!</statement>
+		<statement id="poptropica_is_new2" link="poptropica_is_new3">To the right there is a Pet Barn where you can adopt pets!</statement>
+		<statement id="poptropica_is_new3" link="questions_incomplete">And to the left is the New You where you can customize your look!</statement>
+
+		<statement id="what_else" link="what_else2">You can spin the Wheel of Loot once a day.</statement>
+		<statement id="what_else2" link="what_else3">To the far right, you can play games and make friends in the Star Arcade!</statement>
+		<statement id="what_else3" link="are_you_ready">Last but not least, you can jump in your trusty blimp and go on epic adventures!</statement>
+	</character>
+	
+	<character id="merchant_wizard">
+ 		<statement id="use">Tap your space bar to try em out.</statement>
+    </character>
+    
+    <character id="snowball">
+ 		<statement triggeredByEvent="instructions">Tap your space bar to try em out.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,13 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>10500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winNPCPhrase npc="player">There's Elliot, I can see him above the trees.</winNPCPhrase> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>pete</chaserPrefix>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>1700</returnX>
+	<returnY>880</returnY>
+</game>

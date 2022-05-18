@@ -1,0 +1,148 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/CampaignQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/CampaignQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/CampaignQuest_Interior/" ext="swf">
+		<asset>backdrop</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/CampaignQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/CampaignQuest_Game/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/CampaignQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>follower</asset>
+		<asset>bitmap_npc</asset>
+	</assets>
+
+	<!-- followers -->
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_id</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>9999</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>9999</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/limited/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>mfb_battle_variation</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+		<asset>placeholder</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+		<asset>placeholder</asset>
+	</assets>
+</manifest>

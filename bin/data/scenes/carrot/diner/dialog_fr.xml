@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>Je suis Tony, le propriétaire de ce restaurant.</answer>
+			</exchange>
+			<exchange>
+				<question>Comment vont les affaires?</question>
+				<answer>Mamma Mia! Il n'a jamais été pire!</answer>
+			</exchange>
+			<exchange>
+				<question>Qui sont ces gens sur le bulletin?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="show_poster">Ces gens ont tous disparu depuis plusieurs mois!</answer>
+			</exchange>
+		</conversation>
+		<statement event="destroyed_rabbot">Grazie tanto! Merci pour ramener entreprise!</statement>
+	</character>
+	<character id="waitress">
+		<conversation>
+			<exchange>
+				<question>Vous travaillez ici?</question>
+				<answer>Bien sûr. Vous pensez que je traîne ici pour le plaisir?</answer>
+			</exchange>
+			<exchange>
+				<question>Comment va le travail?</question>
+				<answer>Honey, je suis juste heureux d'avoir un emploi!</answer>
+			</exchange>
+			<exchange>
+				<question>Qu'est-ce que dans votre main?</question>
+				<answer>C'est un pichet de lait.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>Vous travaillez ici?</question>
+				<answer>je fais bien sûr!</answer>
+			</exchange>
+			<exchange>
+				<question>Comment va le travail?</question>
+				<answer>Les choses vont beaucoup mieux maintenant!</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_bowlOfMilk">
+			<exchange>
+				<question>Vous travaillez ici?</question>
+				<answer>Bien sûr. Vous pensez que je traîne ici pour le plaisir?</answer>
+			</exchange>
+			<exchange>
+				<question>Comment va le travail?</question>
+				<answer>Honey, je suis juste heureux d'avoir un emploi!</answer>
+			</exchange>
+			<exchange>
+				<question>Merci pour le lait.</question>
+				<answer>Pas de problème, honey.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_emptyBowl">
+			<exchange>
+				<question>Vous travaillez ici?</question>
+				<answer>Bien sûr. Vous pensez que je traîne ici pour le plaisir?</answer>
+			</exchange>
+			<exchange>
+				<question>Comment va le travail?</question>
+				<answer>Honey, je suis juste heureux d'avoir un emploi!</answer>
+			</exchange>
+			<exchange>
+				<question>Pouvez-vous remplir ce bol avec du lait?</question>
+				<answer triggerEvent="exchangeItems" triggerEventArgs="emptyBowl,bowlOfMilk">sûr!</answer>
+			</exchange>
+		</conversation>
+	</character>
+	<character id="char3">
+		<statement>je ne serais pas ici si ce n'était pas pour vous!</statement>
+	</character>
+</dialogs>

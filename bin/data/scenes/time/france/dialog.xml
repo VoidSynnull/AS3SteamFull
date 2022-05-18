@@ -1,0 +1,41 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>text3</question>
+				<answer>text4</answer>
+			</exchange>
+		</conversation>
+		<statement event="hasItem_statuette">text5</statement>
+		<conversation event="returned_statuette">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text6</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char2">
+    	<statement>text7</statement>
+    	<statement event="gotItem_notebook">text8</statement>
+    </character>
+    <character id="char3">
+    	<statement>text9</statement>
+    	<statement event="returned_statuette">text10</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,14 @@
+<specialAbility id="pop_follower_llama">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="skinColor">0xfffdc8</param>
+		<param id="hairColor">0xff8ebe</param>
+		<!--<param id="lineThickness">25</param>-->
+		<param id="facialFrame">llama_follower</param>
+		<param id="shirtFrame">llama_follower</param>
+		<param id="variant">creature</param>
+		<param id="creature">true</param>
+	 </parameters>
+</specialAbility>

@@ -1,0 +1,73 @@
+<item id="2672"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Teen Beach 2 Brady Follower Card</name> <!-- Change this card name -->
+  	<campaignID>TeenBeach2MVU</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+				<conditional id="hasAbility" isTrue="false"/>
+    		<label>HANG OUT</label>
+    		<actions>
+				<action type="activatePower" tracking="Use Teen Beach 2 Brady Follower Card">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>1</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Teen Beach 2 Brady Follower Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value></value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Brady</value> <!-- Change this title -->
+			<y>-170</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+    <asset id="cardContent" />  <!--	 use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+	
+	 <specials>
+		<specialAbility>limited/pop_follower_brady</specialAbility>
+	</specials>
+
+</item>

@@ -1,0 +1,25 @@
+<hotspots>
+	<hotspot type="poster" id="logo">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot type="poster" id="poster1">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot type="poster" id="poster2">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot type="poster" id="poster3">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot type="poster" id="poster4">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot type="poster" id="gameDoor">
+		<action type="enterQuest">true</action>
+	</hotspot>
+	<hotspot locked="true" type="video" id="videoContainer"> <!-- width and height are obsolete, as Haxe doesn't support in-game Video -->
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+</hotspots>
+

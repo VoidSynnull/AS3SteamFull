@@ -1,0 +1,13 @@
+<part>
+	<id>pearthknight</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="earth_knight">
+		<className>game.data.specialAbility.store.EarthKnight</className>
+		<save>true</save>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="rate">8</param>
+		</parameters>
+	</specialAbility>
+</part>

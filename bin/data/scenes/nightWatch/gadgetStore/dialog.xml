@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="player">
+		<statement event="start_hide">I should find somewhere to hide!</statement>
+		<statement event="surprise_thief">AH HAH!</statement>
+		<statement event="reach_for_phone">It’s stuck in between the cushions... I can’t reach it!</statement>
+		<statement event="start_hide">Ahhhh!!</statement>
+		<statement event="use_charger">Well, I’m on official business, after all.</statement>
+		<statement event="click_steals">That would be stealing!</statement>
+		<statement event="key_fail">The key doesn't fit. It must unlock  a different door.</statement>
+		<statement event="spot_snake">I do not like that thing!</statement>
+		<statement event="examine_umbrellas">Stainless Steel? These must weigh more than me!</statement>
+		<statement event="examine_bathBag">I hope you're not claustrophobic...</statement>
+		<statement event="examine_chocoSoap">I wish my mom would have washed my mouth out with these...</statement>
+		<statement event="examine_tiolets">Uh...No.</statement>
+		<statement event="examine_chocoSoap">I wish my mom would have washed my mouth out with these...</statement>
+		<statement event="examine_toiletPaper">Hello toilet paper...come in toilet paper...</statement>
+		<statement event="examine_hibachi">I could roast peanuts one at a time...</statement>
+		<statement event="examine_fishHat">Here's one I wouldn't have thought of.</statement>
+		<statement event="examine_curlingIron">I actually know someone who could use this.</statement>
+		<statement event="examine_toothBrushes">What if you had braces?</statement>
+    </character>
+    <character id="char1">
+		<statement event="surprise_thief">Aghhhh!</statement>
+    </character>
+</dialogs>

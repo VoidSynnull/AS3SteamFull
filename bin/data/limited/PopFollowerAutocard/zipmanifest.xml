@@ -1,0 +1,59 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PopFollowerAutocard/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2719</asset>
+	</data>
+	<data type="ability" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_ratatosk</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2719</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRed</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>pmouse</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>pmouse</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>magnuschase_squirrel</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>magnuschase_squirrel</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>bald</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>bald</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>magnuschase_squirrel</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>magnuschase_squirrel</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>magnuschase_squirrel</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>magnuschase_squirrel</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>magnuschase_squirrel</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>magnuschase_squirrel</asset>
+	</assets>
+</manifest>

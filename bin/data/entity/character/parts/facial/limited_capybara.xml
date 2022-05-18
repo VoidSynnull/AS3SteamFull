@@ -1,0 +1,30 @@
+<part>
+	<id>limited_capybara</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="color1">0x7EBE3F</color>
+		<color id="color2">0x7EBE3F</color>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>eyes</part>
+		<part>head</part>
+		<part>body</part>
+		<part>mouth</part>
+	</hide>
+</part>

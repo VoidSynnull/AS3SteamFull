@@ -1,0 +1,32 @@
+<npcs>
+	<npc id="cat" variant="creature" event="set_cat_in_farm">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBFAE8B</skinColor>
+			<hairColor>0xBFAE8B</hairColor>
+			<eyes></eyes>
+			<mouth>cat</mouth>
+			<marks></marks>
+			<facial>cat</facial>
+			<hair>cat</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>cat</pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>96</x>
+			<y>410</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="effects" action="doorOpened">
+		<asset id="blastDoor">metal_slide_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp33</asset>
+		<asset id="glass">ls_wood_glass_01.mp3,ls_wood_glass_02.mp3</asset>
+		<asset id="plant">ls_thin_metal_01.mp3,ls_thin_metal_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="glass">fs_wood_glass_01.mp3,fs_wood_glass_02.mp3,fs_wood_glass_03.mp3,fs_wood_glass_04.mp3</asset>
+		<asset id="plant">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="pod_detach">pod_detach_01.mp3</asset>
+		<asset id="pod_attach">pod_attach_01.mp3</asset>
+		<asset id="time_stop">use_stop_watch.mp3</asset>
+		<asset id="time_resume">clock_tick_01.mp3</asset>
+		<asset id="time_clock_charged">timer_01.mp3</asset>
+		<asset id="activate_rat">unlocked_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,24 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">quiet_suspense.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="bottomfloor">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="boxes">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="floor">fs_old_wood_plank_01.mp3,fs_old_wood_plank_02.mp3,fs_old_wood_plank_03.mp3,fs_old_wood_plank_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="bottomfloor">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="boxes">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="floor">ls_old_wood_plank_01.mp3,ls_old_wood_plank_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- scene sounds -->
+		<asset triggeredByEvent="rotateMirror">creaky_metal_05.mp3,creaky_metal_06.mp3</asset>
+	</sound>
+</sounds>

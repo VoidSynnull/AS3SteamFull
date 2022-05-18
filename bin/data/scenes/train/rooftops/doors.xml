@@ -1,0 +1,43 @@
+<doors>
+	<door id="doorFreight">
+		<scene>game.scenes.train.freightCar.FreightCar</scene>
+		<x>998</x>
+		<y>224</y>
+		<label>
+			<text>Enter</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorLuggage">
+		<scene>game.scenes.train.luggageCar.LuggageCar</scene>
+		<x>838</x>
+		<y>20</y>
+		<label>
+			<text>Enter</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorCoal">
+		<scene>game.scenes.train.coalCar.CoalCar</scene>
+		<x>262</x>
+		<y>-50</y>
+		<label>
+			<text>Enter</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

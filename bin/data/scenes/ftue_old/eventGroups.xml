@@ -1,0 +1,98 @@
+<groups>
+	<group event="has_crusoe_item" triggerAndSave="true">
+		<or>			
+			<event type="hasItem_drink"/>
+			<event type="hasItem_canvas"/>
+			<event type="hasItem_rope"/>
+		</or>
+	</group>
+	
+	<group event="gave_rope">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_rope"/>
+			<event type="hasItem_rope" not="true"/>
+			<event type="gave_rope_canvas" not="true"/>
+			<event type="gave_rope_drink" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+	
+	<group event="gave_canvas">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_canvas"/>
+			<event type="hasItem_canvas" not="true"/>
+			<event type="gave_rope_canvas" not="true"/>
+			<event type="gave_canvas_drink" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+	
+	<group event="gave_drink">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_drink"/>
+			<event type="hasItem_drink" not="true"/>
+			<event type="gave_canvas_drink" not="true"/>
+			<event type="gave_rope_drink" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+	
+	<group event="gave_rope_canvas">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_rope"/>
+			<event type="hasItem_rope" not="true"/>
+			<event type="gotItem_canvas"/>
+			<event type="hasItem_canvas" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+	
+	<group event="gave_rope_drink">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_rope"/>
+			<event type="hasItem_rope" not="true"/>
+			<event type="gotItem_drink"/>
+			<event type="hasItem_drink" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+	
+	<group event="gave_canvas_drink">
+		<and>
+			<event type="has_crusoe_item" not="true"/>
+			<event type="gotItem_canvas"/>
+			<event type="hasItem_canvas" not="true"/>
+			<event type="gotItem_drink"/>
+			<event type="hasItem_drink" not="true"/>
+			<event type="gave_everything" not="true"/>
+		</and>
+	</group>
+		
+	<group event="gave_everything" triggerAndSave="true">
+		<and>		
+			<event type="gotItem_drink"/>
+			<event type="gotItem_canvas"/>
+			<event type="gotItem_rope"/>	
+			<event type="hasItem_drink" not="true"/>
+			<event type="hasItem_canvas" not="true"/>
+			<event type="hasItem_rope" not="true"/>
+		</and>
+	</group>
+	
+	<group event="no_intro" triggerAndSave="true">
+		<and>
+			<event type="three_ingredients" not="true"/>
+		</and>
+	</group>
+	
+	<group event="no_blimp_yet" triggerAndSave="true">
+		<and>
+			<event type="made_blimp" not="true"/>
+		</and>
+	</group>
+</groups>

@@ -1,0 +1,33 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stone" platform="true" color="0x0066FF">
+		<component type="platform"/>	
+	</hit>
+	
+	<hit id="concrete" platform="true" color="0x424036">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" platform="true" color="0x999966">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="window_sill" platform="true" color="0x66CCFF">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="linoleum_frames" platform="true" color="0xFFCC66">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xFF9900">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

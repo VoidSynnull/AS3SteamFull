@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>blitz_beard</facial>
+			<hair>blitzen</hair>
+			<shirt>blitz</shirt>
+			<pants>ghd_humphree</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>423</x>
+			<y>737</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

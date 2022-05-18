@@ -1,0 +1,17 @@
+<specialAbility id="limited/follower_ss_pizza">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2792</param>
+		<param id="swfPath">limited/MaxCrumblyPizzaIC/Follower.swf</param> <!-- path to follower swf -->
+		<param id="addParticles">true</param>
+		<param id="particleColor">0xffee02</param>
+		<param id="particleSpeedX">500</param>
+		<param id="particleSpeedY">-420</param>
+		<param id="particleSize">10</param>
+		<param id="particleLife">.7</param>
+		<param id="particleRadiusX">7</param>
+		<param id="particleRadiusY">7</param>
+	</parameters>
+</specialAbility>

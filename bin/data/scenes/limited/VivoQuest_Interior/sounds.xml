@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset fade="true" exclusiveType="true" baseVolume="2.0" loop="true">limited/Vivo/Keep_The_Beat_Vivo_1.mp3</asset>
+	</sound>
+
+	<sound action="impact" type="effects">
+		<asset id="grass">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="plank">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	
+	<sound action="step" type="effects">
+		<asset id="grass">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="plank">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

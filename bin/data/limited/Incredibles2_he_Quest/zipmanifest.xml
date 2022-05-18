@@ -1,0 +1,103 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/Incredibles2_he_Quest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/Incredibles2_he_Quest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/Incredibles2_he_Quest_Interior/" ext="swf">
+		<asset>backdrop</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/Incredibles2_he_Quest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/Incredibles2_he_Quest_Game/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+		<asset>foreground1</asset>
+		<asset>foreground2</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/Incredibles2_he_Quest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>bob</asset>
+		<asset>dash</asset>
+		<asset>edna</asset>
+		<asset>violet2</asset>
+		<asset>helen</asset>
+		<asset>jackjack</asset>
+		<asset>ray</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2896</asset>
+		<asset>2926</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2896</asset>
+		<asset>2926</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRed</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>action_adventure</asset>
+		<asset>space_quest</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>explosion_01</asset>
+		<asset>water_splash_06</asset>
+		<asset>machine_impact_02</asset>
+		<asset>turn_engine_on_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>in2_helmet</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>in2_helmet</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>in2_grow</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>in2_grow</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,41 @@
+<doors>
+	<door id="normalDoor">
+		<scene>game.scenes.examples.audioExample.AudioExample</scene>
+		<x>500</x>
+		<y>500</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="silentDoor">
+		<scene>previousScene</scene>
+		<x>500</x>
+		<y>500</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="noisyDoor">
+		<scene>game.scenes.examples.audioExample.AudioExample</scene>
+		<x>500</x>
+		<y>500</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

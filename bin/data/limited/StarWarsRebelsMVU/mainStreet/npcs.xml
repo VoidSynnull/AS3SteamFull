@@ -1,0 +1,22 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x8e3d06</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>ad_swr_helmet_npc</facial>
+			<overshirt>ad_swr</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>27</x>
+			<y>707</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

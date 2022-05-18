@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="Drac">
+		<statement event="hasAdItem_2921">Watch this fun video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this fun video!</statement> <!-- if video playing -->
+		<statement>Watch this fun video and get Blobby!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

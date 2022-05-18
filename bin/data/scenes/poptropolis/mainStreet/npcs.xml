@@ -1,0 +1,144 @@
+<npcs>
+	<npc id="tribeMember">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<facial>realityteen</facial>
+			<hair>realityteen</hair>
+			<shirt>pg_jersey_wildfire</shirt>
+			<pants>pg_jersey_wildfire</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2950</x>
+			<y>1700</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+	<npc id="master">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x43362B</hairColor>
+			<mouth>wwprospector</mouth> 
+			<marks>wwdeputy</marks>
+			<hair>pgmc</hair>
+			<shirt>pgmc</shirt>
+			<pants>pgmc</pants>
+			<item>ppopgirl2</item>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2729.40</x>
+			<y>1700</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="char2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>1</mouth>
+			<facial>pgfan01</facial>
+			<hair>1</hair>
+			<shirt>pgfan01</shirt>
+			<pants>pgfan01</pants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>504.30</x>
+			<y>1484.95</y>
+		</position>
+		<direction>right</direction>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="char3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xDBC636</hairColor>
+			<mouth>22</mouth>
+			<hair>pgfan02</hair>
+			<shirt>pgfan02</shirt>
+			<pants>astroalien4</pants>
+			<pack>astrochance</pack>
+			<item>pgmegaphone</item>
+			<overshirt>pgfan02</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>804.40</x>
+			<y>1700</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+	<npc id="char4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xe4e0ba</skinColor>
+			<hairColor>0xdbc636</hairColor>
+			<mouth>sponsor_dd_dragaloo</mouth>
+			<marks>pgfan03</marks>
+			<facial>pgfan03</facial>
+			<hair>pgfan02</hair>
+			<shirt>pgfan03</shirt>
+			<pants>pgfan03</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1450</x>
+			<y>1700</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+  <npc id="npc_friend">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x000000</skinColor>
+      <hairColor>0x000000</hairColor>
+    </skin>
+    <position>
+      <x>1000</x>
+      <y>1700</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="npc_friend_bitmap" >
+	<bitmap>Blank.swf</bitmap>
+    <position>
+      <x>1000</x>
+      <y>1700</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+</npcs>

@@ -1,0 +1,23 @@
+<part>
+	<id>poptropicon_jetpack</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	
+    <specialAbility>
+		<triggerable>false</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.Bubbles</param>
+						<param id="part" type="string">pack</param>
+						<param id="startColor" type="number">-1</param> 
+						<param id="endColor" type="number">-1</param> 
+						<param id="offsetX" type="number">-15</param>
+						<param id="offsetY" type="number">25</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

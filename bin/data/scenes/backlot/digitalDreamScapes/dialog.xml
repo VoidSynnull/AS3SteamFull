@@ -1,0 +1,44 @@
+<dialogs>
+	<character id="player">
+    	<statement triggeredByEvent="blackHat">I don't think he would make a good villain.</statement>
+	</character>
+	
+	<character id="man">
+    	<conversation>
+      		<exchange>
+        		<question>This is a movie studio? Where is the crew, the cast?</question>
+        		<answer>It doesn't take a lot of people to make a movie these days. You just need the right computer algorithms.</answer>
+      		</exchange>
+      		<exchange>
+        		<question>But who writes the stories?</question>
+        		<answer>Stories? Nobody cares about stories. Film-making these days is all about marketing! It's about putting rear ends in seats!</answer>
+      		</exchange>
+      		<exchange>
+        		<question>That doesn't sound very exciting.</question>
+        		<answer>Our data indicates that "Lord of the Witches 5" will gross 7.1% more overseas than "Lord of the Witches 4"! What could be more exciting?</answer>
+      		</exchange>
+    	</conversation>
+  	</character>
+  
+	<character id="larry">
+    	<statement>Acting isn't what it used to be. I once played Hamlet in the park! Now I stand around all day in this ridiculous suit.</statement>
+    	<statement id="finally" triggerEvent="triggerEvent" triggerEventArgs="found_hero, true">Finally, a heroic role! No more of this middle-earthiness for me.</statement>
+  	</character>
+  
+	<character id="woman">
+    	<conversation>
+      		<exchange>
+        		<question>What's this place?</question>
+        		<answer>Welcome to the top-grossing movie studio in the world!</answer>
+      		</exchange>
+      		<exchange>
+       			<question>You make movies?</question>
+        		<answer>That's right: this is where dreams are made.</answer>
+      		</exchange>
+      		<exchange>
+        		<question>What are you working on now?</question>
+        		<answer>We're making "Lord of the Witches 5: Redemption", the sequel to our box-office smash, "Lord of the Witches 4: Retaliation".</answer>
+      		</exchange>
+    	</conversation>
+	</character>
+</dialogs>

@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_5_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_brick_verb_01.mp3, ls_brick_verb_02.mp3</asset>
+		<asset id="puddles">ls_cave_pond_splash_01.mp3, ls_cave_pond_splash_02.mp3, ls_cave_pond_splash_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_brick_verb_01.mp3, fs_brick_verb_02.mp3, fs_brick_verb_03.mp3, fs_brick_verb_04.mp3</asset>
+		<asset id="puddles">fs_cave_puddle_01.mp3, fs_cave_puddle_02.mp3, fs_cave_puddle_03.mp3, fs_cave_puddle_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,10 @@
+<specialAbility id="limited/rain_8ball">
+	<className>game.data.specialAbility.character.RainAssets</className>
+	<triggerable>false</triggerable>
+	<parameters>
+		<param id="particleClass">game.particles.emitter.specialAbility.AssetRain</param>
+		<param id="swfPath">particles/8Ball.swf</param>
+		<param id="doRotation">true</param>
+		<param id="duration">7</param>
+ 	</parameters>
+</specialAbility>	

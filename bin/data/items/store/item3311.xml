@@ -1,0 +1,50 @@
+<item id="3311">
+	<type>store</type>
+	<subType>general</subType>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent"/>
+	</assets>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>PUT ON</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+		
+	</buttons>
+	
+	<textfields>
+			<text id="storeSubTitle">
+			<value>Zomberry Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Big Blue</value>
+			</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<skinColor>0x63679F</skinColor>
+			<eyes>zombie</eyes>
+			<mouth>z_zombie</mouth>
+			<marks>z_zombie</marks>
+			<pack>stor_zomfat</pack>
+			<pants>stor_zomfat</pants>
+		</look>
+	</looks>
+	
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+</item>

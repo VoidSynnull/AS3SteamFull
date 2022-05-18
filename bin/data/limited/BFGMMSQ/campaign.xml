@@ -1,0 +1,21 @@
+<campaign>
+  	<campaignId>BFGMMSQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>BFG</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+			<clickUrl id="url1">https://ad.doubleclick.net/ddm/clk/306639667;132729984;a</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2795</card>
+		<card>2796</card>
+		<card>2797</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2795</card>
+		<card>2797</card>
+	</boycards>
+	<girlcards>
+		<card>2795</card>
+		<card>2796</card>
+	</girlcards>
+</campaign>

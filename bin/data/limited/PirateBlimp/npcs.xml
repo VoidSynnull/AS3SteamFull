@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_blimp_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xCAA790</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_shark</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>limited_captainjack</marks>
+			<facial>limited_captainjack</facial>
+			<hair>limited_captainjack</hair>
+			<shirt>limited_captainjack</shirt>
+			<pants>limited_judy</pants>
+			<item>limited_captainjack</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>0</x> <!-- blimpNPC movieClip needs to exist in interative layer -->
+			<y>0</y> <!-- blimpNPC movieClip needs to exist in interative layer -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

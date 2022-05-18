@@ -1,0 +1,84 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/WreckItRalphMVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/WreckItRalphMVU/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>Fly</asset>
+		<asset>motionMaster</asset>
+		<asset>segmentPatterns</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/WreckItRalphMVU/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- bitmap npcs -->
+	<assets type="game" path="assets/limited/WreckItRalphMVU/" ext="swf">
+		<asset>npc</asset>
+		<asset>npc2</asset>
+		<asset>Fly</asset>
+		<asset>LoseFly</asset>
+		<asset>StartFly</asset>
+		<asset>WinFly</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+	</assets>
+
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>wir_game</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2938</asset>
+		<asset>2939</asset>
+		<asset>2940</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2938</asset>
+		<asset>2939</asset>
+		<asset>2940</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>wir_glitch</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>wir_glitch</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>wir_ss</asset>
+		<asset>wir_blockhead_boys</asset>
+		<asset>wir_blockhead_girls</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>wir_ss</asset>
+		<asset>wir_blockhead_boys</asset>
+		<asset>wir_blockhead_girls</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>wir_glitch</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>wir_glitch</asset>
+	</assets>
+	
+</manifest>

@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset>PoptropicaHQ.mp3</asset>
+	</sound>
+
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="playHurtSound">rubber_ball_bounce_01.mp3, rubber_ball_bounce_02.mp3, rubber_ball_bounce_03.mp3, rubber_ball_bounce_04.mp3</asset>
+		<asset triggeredByEvent="playBreakSound">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset triggeredByEvent="playGlitchSound">screen_meltdown.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+</sounds>

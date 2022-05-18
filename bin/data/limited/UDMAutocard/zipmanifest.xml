@@ -1,0 +1,24 @@
+<manifest>
+	<!-- Onward xml files -->
+	<data type="campaign" path="data/limited/UDMAutocard/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+	<!-- card xml files, swfs, backs -->
+	<assets type="support" path="assets/limited/UpsideDownMagicVBB/" ext="swf">
+		<asset>follower_dritten</asset>
+	</assets>
+	
+		<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2016</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2016</asset>
+	</assets>
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGrape</asset>
+	</assets>
+		<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>follower_dritten</asset>
+	</data>
+</manifest>

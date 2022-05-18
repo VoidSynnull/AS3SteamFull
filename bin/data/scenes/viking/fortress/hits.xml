@@ -1,0 +1,47 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xCBB4AA" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="garbage" color="0xCCCC33" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xBAACA6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="wallPlat" platform="true">
+		<component type="wall"/>
+	</hit>
+	<hit id="logPlat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>10</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="boulder" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x65DCFE</splashColor1>
+			<splashColor2>0xA7EBFE</splashColor2>
+			<density>0.8</density>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-800</y>
+			</acceleration>
+			<friction>
+				<x>300</x>
+				<y>3200</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

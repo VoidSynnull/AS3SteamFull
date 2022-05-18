@@ -1,0 +1,53 @@
+<groups>
+	<!-- This is the default groupEvent setup.  Once all the conditions are satisfied it will complete the 'happyNpc' event.  It will NOT trigger an event, so changes from the event
+	will not be applied until a scene reload -->
+	<group event="needToFindMoney">
+		<and>
+			<event type="gotItem_crowbar"/>
+			<event not="true" type="openedSafe"/>
+			<event type="foundSafe"/>
+		</and>
+	</group>
+	
+	<!-- These will save the event like the default and also take effect immediately.  -->
+	<group event="ateApple" triggerAndSave="true">
+		<and>
+			<event type="gaveApple"/>
+			<event type="chewedApple"/>
+		</and>
+	</group>
+	
+	<!-- This eventGroup setting will take effect immediately but will not be saved.  Use this with a triggerEvent (NOT saved) to allow it trigger any number of times. -->
+	<group event="happyNpc" onlyTrigger="true">
+		<and>
+			<event type="gotItem_crowbar"/>
+			<event not="true" type="mockedShirt"/>
+			<event type="likeShirt"/>
+		</and>
+	</group>
+	<group event="angryNpc" onlyTrigger="true">
+		<and>
+			<event type="gotItem_crowbar"/>
+			<event type="mockedShirt"/>
+			<event not="true" type="likeShirt"/>
+		</and>
+	</group>
+	<group event="readPoem" onlyTrigger="true">
+		<and>
+			<event type="gotItem_crowbar"/>
+			<event type="openedChest"/>
+			<event not="true" type="angryNpc"/>
+		</and>
+	</group>
+	<group event="singleTest" triggerAndSave="true">
+		<and>
+			<event not="true" type="dude"/>
+		</and>
+	</group>
+	<group event="groupTest" triggerAndSave="true">
+		<and>
+			<event type="test1"/>
+			<event not="true" type="test2"/>
+		</and>
+	</group>
+</groups>

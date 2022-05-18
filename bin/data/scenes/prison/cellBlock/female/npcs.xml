@@ -1,0 +1,48 @@
+<npcs>
+	<npc id="nightingale">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x513b2b</hairColor>
+			<mouth>athena</mouth>
+			<facial>pr_nightingalef</facial>
+			<hair>1</hair>
+			<shirt>pr_guard</shirt>
+			<pants>mtpoliceman</pants>
+			<overpants>shadycop</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1350</x>
+			<y>1080</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="ratchet" event="not_sent_to_cell">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x875927</hairColor>
+			<mouth>14</mouth>
+			<hair>pr_ratchetf</hair>
+			<shirt>pr_guard2</shirt>
+			<pants>mtpoliceman</pants>
+			<overpants>shadycop</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1510</x>
+			<y>1080</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

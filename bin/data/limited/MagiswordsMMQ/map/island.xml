@@ -1,0 +1,46 @@
+<island>
+	<name>Magiswords</name>
+	<island>MagiswordsMMQ</island>
+	<islandFolder>limited/MagiswordsMMQ/map/</islandFolder>
+	
+	<map>
+		<slot>2</slot>
+		<page>1</page>
+  		<x>480</x> 
+  		<y>510</y>	
+	</map>
+	
+	<episode>
+		<episodic>false</episodic>
+		<episodes>0</episodes>
+		<x>0</x>
+		<y>0</y>
+	</episode>
+	
+	<components>
+		<component class="engine.components.SpatialAddition"/>
+		<component class="game.components.motion.WaveMotion">
+			<properties>
+				<add function="true">
+					<constructor>
+						<data class="game.data.WaveMotionData">
+						<constructor>
+							<property>y</property>
+							<velocity>5</velocity>
+							<step>0.05</step>
+						</constructor>
+						</data>
+					</constructor>
+				</add>
+			</properties>
+		</component>
+	</components>
+	
+	<pages>
+		<page class="game.scenes.map.map.groups.AdIslandPage">
+			<properties>
+				<pageFolder>island/</pageFolder>
+			</properties>
+		</page>
+	</pages>
+</island>

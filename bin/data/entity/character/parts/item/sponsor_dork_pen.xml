@@ -1,0 +1,16 @@
+<part>
+	<id>sponsor_dork_pen</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2457</campaignID>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/DorkDiaries2EC/DorkPower.swf</param> <!-- location of swf in assets/limited -->
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

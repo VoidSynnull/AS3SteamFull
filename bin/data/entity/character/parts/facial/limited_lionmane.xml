@@ -1,0 +1,48 @@
+<part>
+	<id>limited_lionmane</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThoughtBubble</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/LionKingVBB/roar.swf</param>
+			<param id="tracking">LionKingVBB,roar</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Proud</param>
+					</parameters>
+				</action>
+				
+				<action class="SetSkinAction" startDelay=".3">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">cry</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" >
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/LionKingVBB/roar.mp3</param> 
+					</parameters>
+				</action>
+				<action class="CameraShakeAction">
+					<parameters>
+						<param id="time" type="number">1.5</param>
+					</parameters>
+				</action>
+			
+			
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

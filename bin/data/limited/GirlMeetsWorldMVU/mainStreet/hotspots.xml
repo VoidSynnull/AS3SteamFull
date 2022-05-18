@@ -1,0 +1,21 @@
+<hotspots>
+	<hotspot id="posterRight" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+		<hotspot id="posterLeft" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="zappedGame" type="poster">
+		<action type="openUrlOnClick">http://ad.doubleclick.net/ddm/clk/282689585;107970260;u</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="gmwGame" type="poster">
+		<action type="openUrlOnClick">http://ad.doubleclick.net/ddm/clk/282689168;107970260;r</action> <!-- Pulls from CMS -->
+	</hotspot>
+	
+	<hotspot id="videoContainer" width="330" height="187" type="video">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+		<action type="giveItemMale">2539</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2539</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">inside_old_boat_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>close_small_gate_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="planks">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="glass">ls_glass_01.mp3,ls_glass_02.mp3</asset>
+		<asset id="rope">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="planks">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="glass">fs_glass_01.mp3,fs_glass_02.mp3,fs_glass_03.mp3,fs_glass_04.mp3</asset>
+		<asset id="rope">fs_rope_01.mp3,fs_rope_02.mp3,fs_rope_03.mp3,fs_rope_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="rolling_cannon">heavy_gritty_roll_01.mp3</asset>
+		<asset id="shoot_cannon">cannon_shot_01.mp3</asset>
+		<asset id="glass_Crack">break_glass_01.mp3</asset>
+		<asset id="close_Cage">close_small_gate_01.mp3</asset>
+	</sound>
+</sounds>

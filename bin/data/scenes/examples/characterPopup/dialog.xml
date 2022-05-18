@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="npc">
+		<conversation>
+			<exchange>
+				<question>Would you kindly fetch me a popup?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="showPopup">But of course!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

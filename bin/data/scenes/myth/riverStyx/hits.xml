@@ -1,0 +1,52 @@
+<hits>
+	<hit id="boatHit">
+		<!-- <component type="platformTop"/> -->
+ 		<component type="movingPlatform">
+		<!-- 	<visible>boat</visible> -->
+			<velocity>0</velocity>
+			<points>
+				<point>
+					<x>144</x>
+					<y>415</y>
+				</point>
+				<point>
+					<x>100</x>
+					<y>415</y>
+				</point>
+			</points>
+		</component>
+		<!-- <component type="scene">
+			<visible>boat</visible>
+		</component> -->
+	</hit>
+	
+	<hit id="stalacHit">
+		<component type="hazard">
+		<!-- 	<visible followProperties="x,y,rotation">stalac</visible>-->
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="soulHit">
+		<component type="hazard">
+		<!-- 	<visible followProperties="x,y,rotation">soul</visible> -->
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="crocHit">
+		<component type="hazard">
+		<!-- 	<visible followProperties="x,y,rotation">croc</visible> -->
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

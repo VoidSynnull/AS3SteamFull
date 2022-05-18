@@ -1,0 +1,15 @@
+<specialAbility id="limited/pop_follower_wolf_walker">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2044</param>
+		<param id="skinColor">0x643B1F</param>
+		<param id="hairColor">0xF5CD70</param>
+		<param id="overshirtFrame">limited_mebhe_wolf_torso</param>
+		<param id="packFrame">limited_mebhe_wolf_tail</param>
+		<param id="facialFrame">limited_mebhe_wolf_head</param>
+		<param id="campaignName">WolfWalkersQuest</param>
+		<param id="variant">creature</param>
+	 </parameters>
+</specialAbility>

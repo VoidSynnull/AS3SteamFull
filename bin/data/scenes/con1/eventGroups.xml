@@ -1,0 +1,26 @@
+<groups>
+	<group event="bouncer_on" triggerAndSave="true">
+		<and>
+			<event not="true" type="bouncer_out"/>
+		</and>
+	</group>
+	<group event="take_ticket" triggerAndSave="true">
+		<and>
+			<event type="dressed_as_wizard"/>
+			<event not="true" type="gotItem_mjolnir"/>
+			<event type="friend_quest_accepted"/>
+		</and>
+	</group>
+	<group event="racer_not_beat" triggerAndSave="true">
+		<and>
+			<event not="true" type="gotItem_power_gem"/>
+			<event type="shFan_quest_accepted"/>
+		</and>
+	</group>
+	<group event="racer_beat" triggerAndSave="true">
+		<and>
+			<event type="gotItem_power_gem"/>
+			<event type="shFan_quest_accepted"/>
+		</and>
+	</group>
+</groups>

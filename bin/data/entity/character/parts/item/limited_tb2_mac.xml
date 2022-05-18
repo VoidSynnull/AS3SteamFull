@@ -1,0 +1,18 @@
+<part>
+	<id>limited_tb2_mac</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2673</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

@@ -1,0 +1,15 @@
+<doors>
+	<door id="customDoor">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=Cars3DVDQuest_Interior</scene> <!-- AS3 destination -->
+			<x>920</x>
+			<y>803</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

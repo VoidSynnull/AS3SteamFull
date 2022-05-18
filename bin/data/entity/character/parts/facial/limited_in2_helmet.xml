@@ -1,0 +1,35 @@
+<part>
+	<id>limited_in2_helmet</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2896</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">Incredibles2Quest,laser</param>
+			<param id="rayPath">limited/Incredibles2Quest/ray.swf</param>
+			<param id="colors">0x666666,0x845202,0xff9900</param>
+			<param id="min">2</param>
+			<param id="max">4</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>`
+			<param id="edges">true</param>
+		</parameters>
+	</specialAbility>
+
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

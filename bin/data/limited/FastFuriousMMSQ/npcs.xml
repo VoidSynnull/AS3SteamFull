@@ -1,0 +1,12 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="tony">
+		<bitmap>limited/FastFuriousQuest/tony.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>right</direction>
+		<position>
+			<x>730</x> <!-- from left edge of ad unit -->
+			<y>395</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

@@ -1,0 +1,25 @@
+<npcs>
+	<!-- use this for Poptropican NPC -->
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x2c2016</hairColor>
+			<hair>basketball</hair>
+			<mouth>teethgrin1</mouth>
+			<marks>scuffmarks</marks>
+			<shirt>basketball</shirt>
+			<pants>policeman</pants>
+			<item>sponsorfuel</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>100</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

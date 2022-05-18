@@ -1,0 +1,42 @@
+<dialogs>
+	<character id="nightingale">
+		<statement id="start_intro" link="privilege" linkEntityId="ratchet">You'll be entitled to food, clothing, and shelter.</statement>
+		<statement id="rules" link="rules" linkEntityId="ratchet">You know what they say: break the rules, you go to prison.</statement>
+		<statement id="noise" link="threat" linkEntityId="ratchet">Keep the noise down.</statement>
+		<statement id="lights_out" forceOnScreen="true">Lights out!</statement>
+		<statement id="caught" link="caught2">What do you think you are doing?</statement>
+		<statement id="caught2">That'll cost you gum if you don't want me to bring this up to the warden.</statement>
+		<statement id="painted_head">Ahh, nice to see all the prisoners sleeping.</statement>
+		
+		<statement>Lights are out! Go to sleep prisoner!</statement>
+    </character>
+    
+    <character id="ratchet">
+    	<statement id="privilege" link="rules" linkEntityId="nightingale">Anything else you get is a privilege!</statement>
+    	<statement id="rules" link="noise" linkEntityId="nightingale">Break the prison rules, and you come here.</statement>
+    	<statement id="threat" triggerEvent="triggerEvent" triggerEventArgs="lock_up">Or we'll keep it down for you.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="no_spoon">There's space to move around back there... but is there a way through the vent?</statement>
+    	<statement id="regular_spoon">This spoon isn't getting through. Maybe I can sharpen it somehow.</statement>
+    	<statement id="guard_here">This would be too suspicious while the guard is still here.</statement>
+    	<statement id="finished_chisel">I made it through!</statement>
+    	<statement id="dummy_head">This is useless unless I can get it painted to look like me.</statement>
+    	<statement id="vent_locked">I can't climb through while the guard is looking!</statement>
+    	<statement id="door_locked">I shouldn't leave, the guard will be back soon.</statement>
+    	<statement id="back_to_bed">I'd better get back to bed!</statement>
+    	<statement id="plaster">I wonder if I could use this plaster? I need something to carry it.</statement>
+    	 <statement id="busting_out">No time to sleep -- I'm busting out of here tonight!</statement>
+    	
+    	<conversation id="sleep">    		
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="goto_sleep">Better get some sleep.</question>
+    		</exchange>
+    		
+    		<exchange>
+    			<question>I still want to look around.</question>
+    		</exchange>
+    	</conversation>
+    </character>   
+</dialogs>

@@ -1,0 +1,117 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/WrinkleMMSQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/WrinkleMMSQ/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/WrinkleMMSQ/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- avatar parts for NPC in front -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" keep="true" ext="xml">
+		<asset>skullchinamerch</asset>
+		<asset>fortunehunter</asset>
+		<asset>srcj</asset>
+		<asset>sponsor_mh</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" keep="true" ext="swf">
+		<asset>skullchinamerch</asset>
+		<asset>fortunehunter</asset>
+		<asset>srcj</asset>
+		<asset>sponsor_mh</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" keep="true" ext="xml">
+		<asset>sponsor_selenag</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" keep="true" ext="swf">
+		<asset>sponsor_selenag</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>mrs_whatsit</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>mrs_whatsit</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" keep="true" ext="xml">
+		<asset>bl_drem</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" keep="true" ext="swf">
+		<asset>bl_drem</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>meg</asset>
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>meg</asset>
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>meg</asset>
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>meg</asset>
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>mrs_who</asset>
+		<asset>mrs_which</asset>
+		<asset>mrs_whatsit</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>sponsor_mrhan</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>sponsor_mrhan</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>mrs_which</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>mrs_which</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>specs</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>specs</asset>
+	</assets>
+</manifest>

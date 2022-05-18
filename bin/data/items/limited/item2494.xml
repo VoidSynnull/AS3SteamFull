@@ -1,0 +1,69 @@
+﻿<item id="2494"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Queen Dagger Costume Card</name> <!-- Change this card name -->
+  	<campaignID>GalacticHotDogsVendorCart2</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Queen Dagger Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>BLAST OFF!</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Queen Dagger Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Galactic Hot Dogs™</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Queen Dagger</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundRedBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xF1D4F5</skinColor>
+			<hairColor>0xf5c454</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>ad_gh_queendagger</facial>
+			<hair>1</hair>
+			<shirt>ad_gh_queendagger</shirt>
+			<pants>ad_gh_queendagger</pants>
+			<pack>ad_gh_queendagger</pack>
+			<item>ad_gh_queendagger</item>
+			<overshirt>ad_gh_queendagger</overshirt>
+		</look>
+	</looks> 
+    
+</item>

@@ -1,0 +1,51 @@
+
+<Animation name="shootArm" interrupt="false" >
+
+	<events>
+		
+		<FrameData index="0" label="shootArm" />
+		<FrameData index="2">
+			<FrameEvent method="gotoAndPlay">
+				<param>1</param>
+			</FrameEvent>
+		</FrameData>
+	</events>
+
+	<parts>
+
+		<Motion duration="3" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="27.45" y="27.65" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="hand1" symbolName="parts/Hand">
+					<dimensions>
+						<geom:Rectangle left="-10.6" top="-10.6" width="21.2" height="21.2"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0" x="-87.5" y="-73.9" rotation="120"/>
+			<Keyframe index="1" x="-87.5" y="-73.9" rotation="120"/>
+			<Keyframe index="1" x="-87.5" y="-73.9" rotation="120"/>
+		</Motion>
+
+		<Motion duration="3" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="27.9" y="-32.7" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="arm1" symbolName="parts/Joint">
+					<dimensions>
+						<geom:Rectangle left="-5" top="-5" width="10" height="10"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0" x="-12.95" y="-5.75"/>
+			<Keyframe index="1" x="-12.95" y="-5.75"/>
+			<Keyframe index="2" x="-12.95" y="-5.75"/>
+		</Motion>
+
+	</parts>
+</Animation>

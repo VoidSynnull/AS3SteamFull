@@ -1,0 +1,19 @@
+<part>
+	<id>pvampire_girl02</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x333300</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

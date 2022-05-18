@@ -1,0 +1,60 @@
+<item id="5292"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<radiobuttons>
+		<btn>
+			<color>0x57575b</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x683134</color>
+			<val>1</val>
+		</btn>
+	 </radiobuttons>
+	 
+  <buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>USE</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>PUT AWAY</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeTitle">
+			<value>Cool Winter Outfit</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+	
+	<looks>
+		<look>
+			<overshirt>mem_grey_winter_jacket</overshirt>
+		</look>
+		<look>
+			<overshirt>mem_burgundy_winter_scarf</overshirt>
+		</look>
+	</looks>
+
+</item>

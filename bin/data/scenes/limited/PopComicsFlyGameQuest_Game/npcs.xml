@@ -1,0 +1,43 @@
+<npcs>
+	<npc id="jorge">
+		<skin>
+		  <skinColor>0xF4DBCA</skinColor>
+		  <hairColor>0x333538</hairColor>
+		  <eyeState>open</eyeState> 
+		  <mouth>comic_jorge</mouth>
+		  <shirt>comic_jorge</shirt>
+		  <pants>comic_jorge</pants>
+		  <hair>comic_jorge</hair>
+		</skin>
+		<direction>right</direction>
+		<position> <!-- relative position from avatar multiplied by 2.78 -->
+			<x>320</x>
+			<y>610</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="oliver">
+		<skin>
+		  <skinColor>0xf4dbca</skinColor>
+		  <hairColor>0xe9b667</hairColor>
+		  <eyeState>squint</eyeState> 
+		  <mouth>comic_oliver</mouth>
+		  <shirt>comic_oliver</shirt>
+		  <pants>comic_oliver</pants>
+    	  <marks>comic_oliver</marks>
+		  <hair>comic_oliver</hair>
+		</skin>
+		<direction>right</direction>
+		<position> <!-- relative position from avatar multiplied by 2.78 -->
+			<x>370</x> 
+			<y>610</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

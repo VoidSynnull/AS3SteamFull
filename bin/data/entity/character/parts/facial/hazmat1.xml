@@ -1,0 +1,16 @@
+<part>
+  	<id>hazmat1</id>
+  	<type>facial</type>
+  	<hide>
+    	<part>hair</part>
+  	</hide>
+  	<specialAbility id="hazmat_facial">
+		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+	</specialAbility>
+	
+</part>

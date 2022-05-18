@@ -1,0 +1,43 @@
+<part>
+	<id>limited_whatever_princess</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2664</campaignID>
+	<specialAbility>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">WGIC,Girls Beast</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">facial</param> 
+						<param id="partId" type="string">limited_whatever_beast</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">overshirt</param> 
+						<param id="partId" type="string">limited_whatever_beast</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" endDelay="5">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">pants</param> 
+						<param id="partId" type="string">ppromking1e</param> 
+					</parameters>
+				</action>
+				<action class="RevertSkinAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

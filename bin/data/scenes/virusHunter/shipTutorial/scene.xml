@@ -1,0 +1,40 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2300</right>
+		<bottom>3200</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2300</right>
+		<bottom>3200</bottom>
+	</bounds>
+	<data>sounds.xml,hits.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/virusHunter/shared/sounds.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+			<elementsToBitmap>muscleArt1,muscleArt2,muscleArt3</elementsToBitmap>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1000</x>
+			<y>500</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

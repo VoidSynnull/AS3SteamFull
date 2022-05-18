@@ -1,0 +1,29 @@
+<tracking>
+	<track id="logo">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Logo</subchoice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Middle Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

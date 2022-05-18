@@ -1,0 +1,14 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13500</winDistance>
+	<chaseDistance>400</chaseDistance>
+	<npcSpeed>220</npcSpeed>
+	<winPhrase>Princess Dagger has our Mega-Dog?</winPhrase> <!-- Optional -->
+	<winNPCPhrase npc="charx" delay="5">You caught me. I will return it to you.</winNPCPhrase> <!-- Optional -->
+	<winDelay>10</winDelay>
+	<chaserPrefix>jack</chaserPrefix>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<item>limited_gh_blaster</item>
+	<returnX>2000</returnX>
+	<returnY>660</returnY>
+</game>

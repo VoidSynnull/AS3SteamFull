@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Dismal_Future.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">ghost_town.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="sign">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="sign">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+</sounds>

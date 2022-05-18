@@ -1,0 +1,79 @@
+<npcs>
+	<npc id="leadDeveloper">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbcea8</skinColor>
+			<hairColor>0x664532</hairColor>
+			<mouth>rat</mouth>
+			<marks>mk_lead_programmer01</marks>
+			<hair>mk_lead_programmer01</hair>
+			<shirt>mk_lead_programmer01</shirt>
+			<pants>sears5</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>950</x>
+			<y>640</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="random1">
+		<skin>
+		</skin>
+		<position>
+			<x>1600</x>
+			<y>1110</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="random2">
+		<skin>
+		</skin>
+		<position>
+			<x>1630</x>
+			<y>1110</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="climber">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>14</mouth>
+			<marks>maintenanceman</marks>
+			<hair>hobo</hair>
+			<shirt>gtour</shirt>
+			<pants>tt_elf1</pants>
+			<pack></pack>
+			<item>mk_axec</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1535</x>
+			<y>3414</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

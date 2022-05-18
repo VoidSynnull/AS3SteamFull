@@ -1,0 +1,69 @@
+<npcs>
+  <npc id="drlange">
+    <skin>
+      <gender>female</gender>
+      <skinColor>0xf9e4ce</skinColor>
+      <hairColor>0x5e0d11</hairColor>
+      <mouth>15</mouth>
+      <hair>is_scien</hair>
+      <shirt>is_scien</shirt>
+      <pants>is_scien</pants>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>135</x>
+      <y>453.3</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="joe">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfbdfcb</skinColor>
+      <hairColor>0x0</hairColor>
+      <mouth>16</mouth>
+      <facial>is_stockman</facial>
+      <hair>is_stockman</hair>
+      <shirt>is_chem</shirt>
+      <pants>conworker1</pants>
+      <eyeState>squint</eyeState>
+      <item>empty</item>	<!-- Set as empty so that npc can receive an item later in the scene. -->
+    </skin>
+    <position>
+      <x>638.25</x>
+      <y>450</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="scientist">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0xf08b2c</hairColor>
+      <mouth>fisherman</mouth>
+      <marks>beardshort2</marks>
+      <facial>7</facial>
+      <hair>10</hair>
+      <shirt>dadchar1</shirt>
+      <pants>wwdeputy</pants>
+      <item>paper</item>
+      <overshirt>labcoat</overshirt>
+      <eyeState>open</eyeState>
+    </skin>
+    <position>
+      <x>68.35</x>
+      <y>448.35</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+</npcs>

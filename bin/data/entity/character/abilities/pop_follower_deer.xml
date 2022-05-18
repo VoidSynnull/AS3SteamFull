@@ -1,0 +1,13 @@
+<specialAbility id="pop_follower_deer">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="skinColor">0xE98A3C</param>
+		<param id="hairColor">0xE98A3C</param>
+		<param id="facialFrame">june_deer_follower</param>
+		<param id="packFrame">june_deer_follower</param>
+		<param id="variant">creature</param>
+		<param id="creature">true</param>
+	</parameters>
+</specialAbility>

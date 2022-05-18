@@ -1,0 +1,7 @@
+<groups>
+	<group event="no_blimp_yet" triggerAndSave="true">
+		<and>
+			<event type="made_blimp" not="true"/>
+		</and>
+	</group>
+</groups>

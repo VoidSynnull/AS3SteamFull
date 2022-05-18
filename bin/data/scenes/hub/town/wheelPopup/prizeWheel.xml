@@ -1,0 +1,84 @@
+<prizeWheel>
+	<prizes>
+		<prize id="grandPrize"></prize>
+		<prize id="credits1"></prize>
+		<prize id="credits2"></prize>
+		<prize id="credits3"></prize>
+		<prize id="credits4"></prize>
+		<prize id="credits5"></prize>
+		<prize id="again" type="again"></prize>
+		<prize id="credits6"></prize>
+		<prize id="credits7"></prize>
+		<prize id="credits8"></prize>
+		<prize id="credits9"></prize>
+		<prize id="credits10"></prize>
+	</prizes>
+	<inventory>
+		<group id="credits1">
+			<prize type="credits">25</prize>
+		</group>
+		<group id="credits1Member">
+			<prize type="credits">50</prize>
+		</group>
+		<group id="credits2">
+			<prize type="credits">50</prize>
+		</group>
+		<group id="credits2Member">
+			<prize type="credits">100</prize>
+		</group>
+		<group id="credits3">
+			<prize type="credits">100</prize>
+		</group>
+		<group id="credits3Member">
+			<prize type="credits">200</prize>
+		</group>
+		<group id="credits4">
+			<prize type="credits">150</prize>
+		</group>
+		<group id="credits4Member">
+			<prize type="credits">300</prize>
+		</group>
+		<group id="credits5">
+			<prize type="credits">175</prize>
+		</group>
+		<group id="credits5Member">
+			<prize type="credits">350</prize>
+		</group>
+		<group id="credits6">
+			<prize type="credits">150</prize>
+		</group>
+		<group id="credits6Member">
+			<prize type="credits">300</prize>
+		</group>
+		<group id="credits7">
+			<prize type="credits">125</prize>
+		</group>
+		<group id="credits7Member">
+			<prize type="credits">250</prize>
+		</group>
+		<group id="credits8">
+			<prize type="credits">75</prize>
+		</group>
+		<group id="credits8Member">
+			<prize type="credits">150</prize>
+		</group>
+		<group id="credits9">
+			<prize type="credits">50</prize>
+		</group>
+		<group id="credits9Member">
+			<prize type="credits">100</prize>
+		</group>
+		<group id="credits10">
+			<prize type="credits">25</prize>
+		</group>
+		<group id="credits10Member">
+			<prize type="credits">50</prize>
+		</group>
+		<group id="grandPrize">
+			<prize type="credits">800</prize>
+		</group>
+		<group id="grandPrizeMember">
+			<prize type="credits">800</prize>
+		</group>
+	</inventory>
+</prizeWheel>

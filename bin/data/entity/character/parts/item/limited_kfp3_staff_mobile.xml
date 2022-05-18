@@ -1,0 +1,14 @@
+<part>
+	<id>limited_kfp3_staff</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2755</campaignID>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/KungFuPanda3MVUMobile/Smash.swf</param> <!-- location of swf in assets/limited -->
+			<param id="tracking">KungFuPanda3MVUMobile,Smash Attach Power</param>
+		</parameters>
+	</specialAbility>
+</part>

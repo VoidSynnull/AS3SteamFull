@@ -1,0 +1,28 @@
+<doors>
+	<door id="mallExit">
+		<scene>game.scenes.nightWatch.mallRight.MallRight</scene>
+		<x>2384</x>
+		<y>780</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="backExit">
+		<scene>game.scenes.nightWatch.backroom.Backroom</scene>
+		<x>144</x>
+		<y>527</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

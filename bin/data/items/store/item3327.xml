@@ -1,0 +1,60 @@
+<item id="3327">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3327.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+			<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>INFLATE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0xFBC1CC</color>
+			<val>balloon_drhare</val>
+			<y>55</y>
+		</btn>
+		<btn>
+			<color>0x336B9E</color>
+			<val>balloon_haresymbol</val>
+		</btn>
+	</radiobuttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Dr. Hare's Lair</value>
+		</text>
+		<text id="storeTitle">
+			<value>Deluxe Balloons</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Click to choose a design!</web>
+			<mobile>Tap to choose a design!</mobile>
+		</text>
+	</textfields>
+	
+	<specials>
+		<specialAbility>balloon_drhare</specialAbility>
+	</specials>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+</item>

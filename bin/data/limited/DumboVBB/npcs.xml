@@ -1,0 +1,47 @@
+<npcs>
+	<!-- use this for Poptropican NPC -->
+	<npc id="ringmaster">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xDEBE9E</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsorec2</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_ringleader</hair>
+			<pants>limited_ringleader</pants>
+			<pack>limited_ringleader</pack>
+			<overshirt>limited_ringleader</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>640</x> <!-- from left edge of ad unit -->
+			<y>585</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="eva">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullchinamerch</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>snootylady</marks>
+			<item>limited_magic_feather</item>
+			<hair>limited_acrobat</hair>
+			<overshirt>limited_acrobat</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>740</x> <!-- from left edge of ad unit -->
+			<y>585</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

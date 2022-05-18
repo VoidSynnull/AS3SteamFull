@@ -1,0 +1,30 @@
+<part>
+	<id>limited_in2_grow</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2926</campaignID>
+	<specialAbility>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">Incredibles2_he_Quest,grow</param>
+		</parameters>
+		<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetScaleTargetAction" endDelay="20">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="scaleTarget" type="number">1.26</param> 
+					</parameters>
+				</action>
+				<action class="SetScaleTargetAction">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="scaleTarget" type="number">0.36</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

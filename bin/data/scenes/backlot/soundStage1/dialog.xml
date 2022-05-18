@@ -1,0 +1,56 @@
+<dialogs>
+	<character id="player">
+		<statement id="who" link="warren" linkEntityId="lauren">Who are you?</statement>
+    	<statement id="wasnt" link="red-handed" linkEntityId="lauren">I wasn't --</statement>
+    	<statement id="catch_me" triggerEvent="triggerEvent" triggerEventArgs="begin_chase">You have to catch me first!</statement>
+    	<statement id="try" triggerEvent="triggerEvent" triggerEventArgs="center">I can try...</statement>
+    	<statement id="say_what" link="work" linkEntityId="kirk" triggerEvent="triggerEvent" triggerEventArgs="now_back_at_kirk">Say what?</statement>
+  	</character>
+  	
+	<character id="carson">
+		<statement id="need" triggerEvent="triggerEvent" triggerEventArgs="we_need_you">Kirk, please! We need you!</statement>
+		
+		<statement id="unbelievable" link="sorry" linkEntityId="conrad" triggerEvent="triggerEvent" triggerEventArgs="sorry">Unbelievable! We have to get this shot!</statement>
+    	<statement id="you" triggerEvent="triggerEvent" triggerEventArgs="try">You there! Think you can handle a camera?</statement>
+    	<statement id="center">Keep Kirk in the center of the screen. That's all you need to do.</statement>
+    	
+    	<statement event="camera_chat">Go on then, get filming!</statement>
+    	<statement id="filming">We are filming!</statement>
+    	
+    	<statement id="action">Action!</statement>
+    	
+    	<statement id="cut" link="frame">CUT!</statement>
+    	<statement id="frame" triggerEvent="triggerEvent" triggerEventArgs="bad_filming">You need to keep Kirk in the center of the frame!</statement>
+    	
+    	<statement id="print" link="schedule">"Print it! Excellent.</statement>
+    	<statement id="schedule" triggerEvent="triggerEvent" triggerEventArgs="good_filming">Listen, we're on a tight schedule here and there's still a lot to get done. Could you take a spin around the lot and see what else you can help with?</statement>
+    	<statement event="complete_stage1" id="take a spin">Take a spin around the lot and see what else you can help with.</statement>
+  	</character>
+  
+  	<character id="conrad">
+    	<statement id="shh">Shh!</statement>
+    	<statement event="disrupted_kirk" >Kirk Strayer is a jerk, all right, but the camera loves him!</statement>
+    	<statement id="sorry" triggerEvent="triggerEvent" triggerEventArgs="walk_out">Sorry, union rules. I can't work another minute today.</statement>
+  	</character>
+  
+	<character id="kirk">
+		<statement event="camera_chat">I am waiting on you!</statement>
+    	<statement id="ah">AAAAHH!!</statement>
+    	<statement id="light" link="say_what" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="look_at_player">Hey! Watch the light! Why are you trashing my scene?</statement>
+    	<statement id="work" triggerEvent="triggerEvent" triggerEventArgs="kirk_leaves">I can't work like this!</statement>
+  	</character>
+  
+  	<character id="cat">
+    	<statement>I am waiting on you!</statement>
+  	</character>
+  
+  	<character id="lauren">
+    	<statement id="warren" link="stealing" linkEntityId="erin">We're the Warren Sisters, the owners of Grand Majestic Studios! And you're trespassing on our property.</statement>
+    	<statement id="red-handed" link="wait" linkEntityId="erin">We've caught you red-handed.</statement>
+  	</character>
+  
+  	<character id="erin">
+    	<statement id="stealing" link="wasnt" linkEntityId="player">Stealing from us!</statement>
+    	<statement id="wait" link="catch_me" linkEntityId="player">You just stay right where you are. Security will be here in a moment to arrest you.</statement>
+  	</character>
+</dialogs>

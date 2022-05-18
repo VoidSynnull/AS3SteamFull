@@ -1,0 +1,15 @@
+<part>
+	<id>limited_caprispring</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2757</campaignID>
+	 	<specialAbility>
+		<className>game.data.specialAbility.character.CrazyJumping</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">CapriSun2016MegaVendorCart,Capri Sun Spring Shoe</param>
+			<param id="feetPart">limited_capri_spring</param>
+		</parameters>
+	</specialAbility>
+</part>

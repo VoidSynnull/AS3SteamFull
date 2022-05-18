@@ -1,0 +1,32 @@
+<part>
+	<id>limited_bamboo</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2835</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">BornInChinaMVU,transform NPCs</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_panda_mom</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">limited_bamboo_recover</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

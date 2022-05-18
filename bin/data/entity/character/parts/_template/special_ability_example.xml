@@ -1,0 +1,20 @@
+<part>
+	<id>fishing_pole</id>
+	<type>item</type>
+	<specialAbility id="fishing_pole">
+		<!-- path of special ability class connected to part -->
+		<className>game.data.specialAbility.character.Survival2Fishing</className> 
+		<!-- flag determining if an Action button should be used to trigger ability, for use in mobile -->
+		<useButton>true</useButton>
+		<!-- list of islands that ability can be active, if none or specified ability is active on all islands -->
+		<validIslands>survival1,survival2,survival5</validIslands>
+		<!-- pass parameters the special ability may require -->
+		<parameters>
+			<param id="defaultLineLength">100</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<!-- components required by the part can be listed here, these will be added as automatically -->
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

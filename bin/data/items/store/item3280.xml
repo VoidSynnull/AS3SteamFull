@@ -1,0 +1,45 @@
+<item id="3280">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Baby Girl</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<mouth>fisherman</mouth>
+			<marks>astroprincess</marks>
+			<facial>storbabyg</facial>
+			<hair>storbabyg</hair>
+			<shirt>storbabyb</shirt>
+			<pants>storbabyg</pants>
+			<item>storbabyg</item>
+		</look>
+	</looks>
+	
+	
+</item>

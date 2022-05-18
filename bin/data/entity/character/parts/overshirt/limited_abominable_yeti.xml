@@ -1,0 +1,22 @@
+<part>
+	<id>limited_abominable_yeti</id>
+	<type>overshirt</type>
+	<hide>
+		<part>head</part>
+		<part>eyes</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">entity/character/foot/limited_abominable_yeti.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

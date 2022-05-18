@@ -1,0 +1,29 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0x00FF99" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="marble" color="0x00ff00" platform="true">
+		<component type="platform">
+				<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="brick" color="0x009999" platform="true">
+		<component type="platform">
+				<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="pottery" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x009c9a" platform="true">
+		<component type="platform">
+				<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

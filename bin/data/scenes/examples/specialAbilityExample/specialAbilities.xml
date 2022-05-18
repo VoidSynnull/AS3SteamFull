@@ -1,0 +1,14 @@
+<SpecialAbilities>
+	<specialAbility id="Shrink">
+		<class>game.data.specialAbility.character.Shrink</class>
+		<parameters></parameters>
+	</specialAbility>
+	<specialAbility id="Alpha">
+		<class>game.data.specialAbility.character.Alpha</class>
+		<parameters></parameters>
+	</specialAbility>
+	<specialAbility id="Place Flare">"src/game/DynamicallyLoadedClassManifest.as"
+		<class>game.data.specialAbility.character.PlaceObject</class>
+		<parameters>specialAbility/objects/flareLight.swf,50,30</parameters>
+	</specialAbility>
+</SpecialAbilities>

@@ -1,0 +1,15 @@
+<part>
+	<id>limited_zootopia_car</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2760</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<className>game.data.specialAbility.character.PlayPopupAnimVideo</className>
+		<parameters>
+			<param id="videoPath">video/judy_prize2.flv</param>
+			<param id="swfPath">limited/ZootopiaQuest/JudyCar.swf</param>
+			<param id="tracking">ZootopiaQuest,Judy Car</param>
+		</parameters>
+	</specialAbility>
+</part>

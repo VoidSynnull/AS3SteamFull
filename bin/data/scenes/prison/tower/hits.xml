@@ -1,0 +1,17 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowPlat" color="0xCC3366" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="triggerPlat" color="0xCC9900" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

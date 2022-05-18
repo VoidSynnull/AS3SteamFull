@@ -1,0 +1,39 @@
+<part>
+	<id>sanitizer_soaker</id>
+	<type>item</type>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">specialAbility/objects/white.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="speedX">800</param>
+			<param id="speedY">20</param>
+			<param id="offsetY">-30</param>
+			<param id="offsetX">50</param>
+			<param id="rotationSpeed">0</param>
+			<param id="tracking">OnwardQuest,Wizard Staff</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">effects/splat_01.mp3</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">sparkly_clean</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

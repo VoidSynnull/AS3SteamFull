@@ -1,0 +1,32 @@
+<item id="_under_construction">
+  	<type>custom</type>
+  	<subType>general</subType>
+  	<textfields>
+   	 	<text>
+      		<value>Under Construction</value>
+   	 	</text>
+   	 	<text>
+      		<value>Don't see all your cards? Don't fret!</value>
+      		<size>22</size>
+      		<y>105</y>
+    	</text>
+    	<text>
+      		<value>We're doing some construction,</value>
+      		<size>22</size>
+      		<y>125</y>
+    	</text>
+    	<text>
+      		<value>and will dig them up soon!</value>
+      		<size>22</size>
+      		<y>145</y>
+    	</text>
+  	</textfields>
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/shared/ConstructionBackground.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent">
+			<assetPath>items/shared/under_construction.swf</assetPath>
+		</asset>
+  	</assets>
+</item>

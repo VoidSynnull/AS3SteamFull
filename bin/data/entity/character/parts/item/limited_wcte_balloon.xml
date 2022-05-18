@@ -1,0 +1,15 @@
+<part>
+	<id>limited_wcte_balloon</id>
+	<type>item</type>
+	<campaignID>2667</campaignID>
+	<specialAbility id="ButtKite">
+		<className>game.data.specialAbility.character.ButtKite</className>
+		<parameters>
+			<param id="file">limited/DisneyWCTEButtKiteIC/buttKite.swf</param>
+			<param id="numSounds">4</param>
+			<param id="soundPath">limited/DisneyWCTEButtKiteIC/fart</param>
+			<param id="stringColor">0xFFFFFF</param>
+			<param id="tracking">DisneyWCTEButtKiteIC,Butt Kite</param>
+		</parameters>
+	</specialAbility>
+</part>

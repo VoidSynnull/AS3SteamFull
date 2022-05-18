@@ -1,0 +1,23 @@
+<hits>
+	<hit id="wood" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="creak" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lamp" color="0xcc3300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rope" color="0x663300" platform="true">
+		<component type="platform"/>
+	</hit>
+<!-- 	<hit id="bed" platform="true">
+		<component type="platform"/>
+	</hit> -->
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

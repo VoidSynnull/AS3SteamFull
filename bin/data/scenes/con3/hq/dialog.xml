@@ -1,0 +1,149 @@
+<dialogs>
+    <character id="player">
+    	<statement id="happen">What happened?</statement>
+    	<statement id="night">What a nightmare!</statement>
+    
+		<statement id="defeat" link="duh" linkEntityId="fan">How did the Mighty Action Force defeat Omegon?</statement>
+		<statement id="what" link="comic" linkEntityId="fan">Uh.. so what are we supposed to do?</statement>
+		
+		<statement id="weapons">This is it.</statement>
+		<statement id="yes">No doubt about it. These are all of the Mighty Action Force weapons.</statement>
+		
+		<statement id="months">How could you?</statement>
+		<statement id="offer">What happens now? What kind of a deal did Omegon offer you?</statement>
+		
+		<statement id="doom">We're doomed!</statement>
+		<statement id="where">Where can can I find the Omega Crystal?</statement>
+		<statement id="noble">That's uncharacteristically noble of you.</statement>
+    </character>
+    
+	<character id="leader">
+		<statement id="intro">We thought you'd never wake up!</statement>	
+		<statement id="taken">Omegon has taken over the convention. This basement room is all that's left of the human resistance.</statement>
+		<statement id="sadly">Sadly, this is all too real.</statement>
+		<statement id="bearings">Get your bearings and then come talk to me when you're ready...</statement>
+		
+		<conversation>
+			<exchange>
+				<question>Tell me you have a plan.</question>
+				<answer>If we gather the Mighty Action Force Weapons, we have a fighting chance to defeat Omegon.</answer>
+			</exchange>
+			<exchange>
+				<question>What are the Mighty Action Force Weapons?</question>
+				<answer>There are three: Elf Archer's bow, Goldface's electron pulse, and World Guy's shield.</answer>
+			</exchange>
+			<exchange>
+				<question>How will I recognize them?</question>
+				<answer>My second-in-command will give you a comic page that should help.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="sure">You're sure? This is all of it?</statement>
+		<statement id="betray">In that case... we are here, my lord!</statement>
+		
+		<statement id="sorry">I'm sorry. This was the only way.</statement>
+		<statement id="time">For months we've been living underground, barely scraping by. It was only a matter of time before Omegon got to us, too!</statement>
+		<statement id="power">In exchange for giving up the resistance, he's promised me the powers of Alphaon. Omegon... I am ready!</statement>
+		<statement id="no">What? No! I did everything you asked!</statement>
+    </character>
+    
+    <character id="fan">
+		<statement link="defeat" linkEntityId="player">This is just like the "Reign of Omegon" arc from issues 172-178!</statement>
+		<statement id="duh" link="what" linkEntityId="player">Duh -- they summoned Alphaon.</statement>
+		<statement id="comic" triggerEvent="triggerEvent" triggerEventArgs="show_comic178">Don't you understand anything? It's all right here!</statement>
+<!-- 		<statement id="comic" triggerEvent="giveItem" triggerEventArgs="comic178, fan">Don't you understand anything? It's all right here!</statement> -->
+		
+		<statement event="gotItem_comic178">It's all explained in the comic. Go figure it out.</statement>
+		
+		<statement id="alphaon">Alphaon, here we come!</statement>
+		<statement id="ripoff">Wait a minute, this isn't what happened in the comic. What a rip-off!</statement>
+		<statement id="crystal" triggerEvent="triggerEvent" triggerEventArgs="show_comic367">Not so fast. In issue #367, the Mighty Action Force sent Omegon back to his home dimension by overloading the Omega Crystal. Take a look!</statement>
+		<statement id="throne">It's in Omegon's throne room. You go. I'll hold them off!</statement>
+		<statement id="heroic">The heroic sacrifice -- it's what Stan Ditko would have wanted.</statement>
+    </character>
+    
+    <character id="omegon">
+		<statement id="futile">Resistance is futile.</statement>
+		<statement id="plant">Take her to the processing plant.</statement>
+		<statement id="reign">The reign of Omegon is here. Welcome to your doom.</statement>
+    </character>
+    
+    
+    <character id="survivor1">
+    	<statement>I can't even remember life before Omegon.</statement>
+		<statement event="starter_deck" link="play">I can't even remember life before Omegon. All i do is play MAF cards now.</statement>
+		<conversation id="play">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="play_hippie">Lets play!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+		
+    </character>
+    <character id="survivor2">
+        <statement>Playing the Mighty Action Force card game is the only joy I have left.</statement>
+		<statement event="starter_deck" link="play">Playing the Mighty Action Force card game is the only joy I have left.</statement>
+			<conversation id="play">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="play_card2">Lets play!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+    </character>
+    
+    <character id="goldFace">
+    	<statement event="hasItem_gauntlets">Boy, I thought those Goldface fanboys were nuts. This Omegon is on another level!</statement>
+		<statement link="give_gaunts">Boy, I thought those Goldface fanboys were nuts. This Omegon is on another level!</statement>
+		<statement id="give_gaunts" triggerEvent="giveItem" triggerEventArgs="gauntlets, goldface">You can have my electron pulse gauntlets. they'd shoot sparks if the rechargeable batteries weren't dead.</statement>
+		<statement id="again">Not again!</statement>
+    </character>
+    
+    <character id="elfArcher">
+        <statement event="hasItem_bow">I tried to explain that I never even shot an arrow in the movie. My stunt double did!</statement>
+		<statement link="give_bow">I tried to explain that I never even shot an arrow in the movie. My stunt double did!</statement>
+		<statement id="give_bow" triggerEvent="giveItem" triggerEventArgs="bow, elfArcher">Take this replica elf archer bow. i don't know how to shoot it anyway.</statement>
+    </character>
+    
+    <character id="worldGuy">
+        <statement event="hasItem_shield">Stardom isn't all fast cars and good times. Sometimes you get kidnapped by a robot from another dimension.</statement>
+		<statement link="give_shield">Stardom isn't all fast cars and good times. Sometimes you get kidnapped by a robot from another dimension.</statement>
+   		<statement id="give_shield" triggerEvent="giveItem" triggerEventArgs="shield, worldGuy">Here, take my shield. makes a good mirror to check your hair with.</statement>
+    </character>
+    
+    <character id="dealer">
+		<statement link="try_game">All we have left from the convention are Mighty Action Force starter packs. Want another one?</statement>
+    
+    	<conversation id="try_game">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="check_if_played">Sure!</question>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="give_starter" triggerEvent="triggerEvent" triggerEventArgs="give_deck">Here's a starter pack. May it take your mind off of our daily misery.</statement>
+    	<statement id="dealer_teach" triggerEvent="triggerEvent" triggerEventArgs="play_dealer">I'll teach you how to play.</statement>
+    	<!-- <statement event="starter_deck" link="play_again">You may be able to find more cards around the con.</statement> -->
+    	
+    	<statement event="starter_deck" link="replay">Want to play again?</statement>
+    	<conversation id="replay">
+    		<exchange>
+    			<question>Sure, why not.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="play_dealer">Great, let's get started.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Not now.</question>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="won_card" link="explain_deck">Great game! That card should help strengthen your deck.</statement>
+    	<statement id="explain_deck" triggerEvent="triggerEvent" triggerEventArgs="open_deck">You can reorganize cards with your Card Deck item. Try swapping in the card you just won.</statement>
+    	<statement id="deck_closed">Remember to update your deck when you get new cards</statement>
+    </character>
+    
+</dialogs>

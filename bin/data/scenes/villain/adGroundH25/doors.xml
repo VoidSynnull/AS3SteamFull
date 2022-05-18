@@ -1,0 +1,28 @@
+<doors>
+	<door id="leftExit">
+		<scene>game.scenes.villain.mainStreet.MainStreet</scene>
+		<x>996</x>
+		<y>1209</y>
+		<label>
+			<text>Go Right</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.villain.oilControlRoom.OilControlRoom</scene>
+		<x>93</x>
+		<y>460</y>
+		<label>
+			<text>Go Left</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

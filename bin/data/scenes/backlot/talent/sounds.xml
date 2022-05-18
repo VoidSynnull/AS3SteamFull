@@ -1,0 +1,19 @@
+<sounds>
+  <sound type="ambient" >
+    <asset loop="true">room_tone.mp3</asset>
+    <asset loop="true">spinning_weathervane_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>door_pushbar_open_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+    <asset id="tables">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+    <asset id="cabinets">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3,fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+    <asset id="tables">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+    <asset id="cabinets">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+  </sound>
+</sounds>

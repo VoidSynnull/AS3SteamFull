@@ -1,0 +1,17 @@
+<part>
+	<id>limited_onward_wand</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">limited/OnwardQuest/projectile.swf</param>
+			<param id="targetPrefix">zoneObsdrone</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="offsetY">30</param>
+			<param id="explodeSound">effects/myth_transform_01.mp3</param>
+		</parameters>
+	</specialAbility>
+</part>

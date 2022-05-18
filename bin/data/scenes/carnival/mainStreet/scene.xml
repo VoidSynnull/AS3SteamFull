@@ -1,0 +1,80 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>10</left>
+		<top>0</top>
+		<right>4950</right>
+		<bottom>1325</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>10</left>
+		<top>0</top>
+		<right>4950</right>
+		<bottom>1285</bottom>	
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,custom.xml,blimp.xml</data>
+	<assets></assets>
+	<layers>
+		<layer event="set_day">
+			<asset>backdrop.swf</asset>
+			<rate>.85</rate>
+		</layer>
+		<layer event="set_evening">
+			<asset>backdropEvening.swf</asset>
+			<rate>.85</rate>
+		</layer>
+		<layer event="set_night">
+			<asset>backdropNight.swf</asset>
+			<rate>.85</rate>
+		</layer>
+		<layer event="set_morning">
+			<asset>backdropMorning.swf</asset>
+			<rate>.85</rate>
+		</layer>
+		
+		<layer id="background" event="set_day">
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="background" event="set_evening">
+			<asset>backgroundEvening.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="background" event="set_night">
+			<asset>backgroundNight.swf</asset>
+			<rate>1</rate>
+		</layer>	
+		<layer id="background" event="set_morning">
+			<asset>backgroundMorning.swf</asset>
+			<rate>1</rate>
+		</layer>
+			
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_day">
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_evening">
+			<asset>foregroundEvening.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_night">
+			<asset>foregroundNight.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_morning">
+			<asset>foregroundMorning.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>2230</x>
+			<y>1280</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

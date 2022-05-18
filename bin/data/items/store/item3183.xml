@@ -1,0 +1,35 @@
+<item id="3183">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3183.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+		<btn>
+			<index>1</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>1</index>
+			<label>Prank Myself</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+			<index>0</index>
+			<label>Give A Prank</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+			<value>Prank Can</value>
+		</text>
+			<text id="storeInstructions">
+			<web>Tap space bar to create a garden!&#10;(only works in multiplayer rooms)</web>
+			<mobile>Tap ACTION to create a garden!&#10;(only works in multiplayer rooms)</mobile>
+		</text>
+	</textfields>
+</item>

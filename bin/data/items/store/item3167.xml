@@ -1,0 +1,28 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3167.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Fireworks</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Express yourself with a bang!</value>
+		</text>
+	</textfields>
+</item>

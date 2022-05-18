@@ -1,0 +1,62 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="largeWoodenSign" color="0xE5CF95" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodenPlankFence" color="0xB49A61" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="washer" color="0xBBAD97" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tires" color="0x12584A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="smallWoodenDrawer" color="0xC48D68" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="largeWoodenDrawer" color="0x91705A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sturdyMetalPole" color="0xCDD452" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="magnetTowerBase" color="0x858A32" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="magnetTowerEngine" color="0xA7AD44" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="magnetTowerCockpit" color="0xABB147" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="scrapCar" color="0xAD6464" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="scrappedTv" color="0x835E42" platform="true">
+		<component type="platform"/>
+	</hit> 
+	<hit id="oilCanister" color="0x74654D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="scrapCar2" color="0x934A4A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="magnet" color="0xD4A273" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,49 @@
+<item id="3591"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+		<campaignID>MemberGift</campaignID>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="activatePower" tracking="Elf Follower">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+				<label>PUT AWAY</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Elf Follower</value>
+		</text>
+		</textfields>
+	
+		<assets>
+		<asset id="cardBack" /><asset id="cardContent" /> <!-- Will use content bin/assets/items/store/item999.swf -->
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+		
+		<specials>
+		<specialAbility>pop_follower_winter_elf</specialAbility>
+	</specials>
+</item>

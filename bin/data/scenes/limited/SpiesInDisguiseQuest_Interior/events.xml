@@ -1,0 +1,33 @@
+<events>
+	<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">1</param2>
+		</event>
+	</group>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param2 id="target">250,830</param2>
+			<param2 id="wait">true</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">7723</param2>
+			<param3 id="sayID">start</param3>
+		</event>
+	</group>
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>
+</events>

@@ -1,0 +1,130 @@
+<page>
+	<island>PoptropicaComicsQuest_Interior</island>
+	
+	<background>
+		<folder>page</folder>
+		<name>background.swf</name>
+	</background>
+	
+	<slides>
+		<slide>
+			<pageItems>
+				<pageItem class="game.scenes.map.map.groups.SlideGroup">
+					<properties>
+						<id>Slides</id>
+						<x>50</x>
+						<y>62</y>
+					</properties>
+					
+					<button>
+						<folder>shared</folder>
+						<name>buttonSlide.swf</name>
+						<properties>
+							<x>100</x>
+							<y>500</y>
+						</properties>
+					</button>
+				</pageItem>
+			</pageItems>
+		</slide>
+	</slides>
+	
+	<button>
+		<folder>shared</folder>
+		<properties>
+			<x>590</x>
+			<y>305</y>
+		</properties>
+	</button>
+	
+	<displayObjects>
+		<displayObject class="flash.text.TextField">
+			<properties>
+				<x>390</x>
+				<y>180</y>
+				<name>description</name>
+				<text>Help Jorge and Oliver</text>
+				<selectable>false</selectable>
+				<width>400</width>
+				<height>100</height>
+				<embedFonts>true</embedFonts>
+				<multiline>true</multiline>
+				<wordWrap>true</wordWrap>
+				<setTextFormat function="true">
+					<constructor>
+						<textFormat class="flash.text.TextFormat">
+						<properties>
+							<font>CreativeBlock BB</font>
+							<size>30</size>
+							<align>center</align>
+							<color>0xFFFFFF</color>
+						</properties>
+						</textFormat>
+					</constructor>
+				</setTextFormat>
+			</properties>
+		</displayObject>
+		
+		<displayObject class="flash.text.TextField">
+			<properties>
+				<x>390</x>
+				<y>38</y>
+				<name>description</name>
+				<text>ADVERTISEMENT</text>
+				<selectable>false</selectable>
+				<width>400</width>
+				<height>20</height>
+				<embedFonts>true</embedFonts>
+				<multiline>true</multiline>
+				<wordWrap>true</wordWrap>
+				<setTextFormat function="true">
+					<constructor>
+						<textFormat class="flash.text.TextFormat">
+							<properties>
+								<font>Arial</font>
+								<size>10</size>
+								<align>center</align>
+								<color>0xFFFFFF</color>
+							</properties>
+						</textFormat>
+					</constructor>
+				</setTextFormat>
+			</properties>
+		</displayObject>
+		
+		<displayObject class="flash.display.Shape">
+			<properties>
+				<x>390</x>
+				<y>250</y>
+				<graphics class="flash.display.Graphics" constructed="true">
+					<properties>
+						<lineStyle function="true">
+							<constructor>
+								<thickness>1</thickness>
+								<color>0xFFFFFF</color>
+							</constructor>
+						</lineStyle>
+						<lineTo function="true">
+							<constructor>
+								<x>400</x>
+								<y>0</y>
+							</constructor>
+						</lineTo>
+						<endFill function="true"/>
+					</properties>
+				</graphics>
+			</properties>
+		</displayObject>
+	</displayObjects>
+	
+	<assets>
+		<asset>
+			<folder>island</folder>
+			<name>logo.swf</name>
+			<properties>
+				<x>580</x>
+				<y>160</y>
+			</properties>
+		</asset>
+	</assets>
+</page>

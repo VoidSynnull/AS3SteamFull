@@ -1,0 +1,30 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/TangledMBBQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/TangledMBBQ/sideStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/TangledMBBQ/sideStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<assets type="support" path="assets/limited/TangledQuest/">
+		<asset>rapunzelAdBuilding.swf</asset>
+	</assets>
+</manifest>

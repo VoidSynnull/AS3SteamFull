@@ -1,0 +1,77 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Virus_Hunter_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- effects defined without an id default to 'scene sounds' with no positioning.  They can be triggered by events. -->
+		<asset triggeredByEvent="playVanSound">car_drive_away_01.mp3</asset>
+		<asset triggeredByEvent="playWhooshSound">whoosh_01.mp3</asset>
+		<asset triggeredByEvent="playSnagSound">grab_latch_01.mp3</asset>
+		
+		<asset triggeredByEvent="playPaperSound">put_misc_item_down_01.mp3</asset>
+		<asset triggeredByEvent="playPieceCorrectSound">points_ping_01a.mp3</asset>
+		<asset triggeredByEvent="playPageCompleteSound">points_ping_01d.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="exitTownHall">door_heavy_wood_open_01.mp3</asset>
+		<asset id="exitGlobochem">door_pushbar_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="bounce">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="blimp">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="concreteRoof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="thinRoof">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="birdNest">ls_hard_grass_01.mp3, ls_hard_grass_02.mp3</asset>
+		<asset id="busStop">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="busSign">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="globoSign">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="powerPole">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="steps">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="shingles">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="windowSill">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="brickWindowSill">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="metalSeat">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="trash">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="newsBox">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="woodenSign">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="globoDoorFrame">ls_glass_01.mp3, ls_glass_02.mp3</asset>
+		<asset id="townHallWindow">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="radioTower">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="radioTop">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="umbrella">ls_tent_bounce_01.mp3</asset>
+		<asset id="falafelSign">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="hook">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="blimp">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="concreteRoof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="thinRoof">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="birdNest">fs_hard_grass_01.mp3, fs_hard_grass_02.mp3, fs_hard_grass_03.mp3, fs_hard_grass_04.mp3</asset>
+		<asset id="busStop">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="busSign">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="globoSign">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="powerPole">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="steps">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="shingles">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="windowSill">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="brickWindowSill">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="metalSeat">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="trash">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="newsBox">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="woodenSign">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="globoDoorFrame">fs_glass_01.mp3, fs_glass_02.mp3, fs_glass_03.mp3, fs_glass_04.mp3</asset>
+		<asset id="townHallWindow">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="radioTower">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="radioTop">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="falafelSign">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="hook">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+	</sound>
+</sounds>

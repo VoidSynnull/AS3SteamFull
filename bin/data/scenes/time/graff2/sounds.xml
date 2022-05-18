@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Declaration_of_Independence.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="floor">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="woodFurniture">ls_wood_02.mp3</asset>
+		<asset id="bedCloth">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3 </asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_01.mp3, fs_wood_02.mp3</asset>
+		<asset id="floor">fs_wood_01.mp3, fs_wood_02.mp3</asset>
+		<asset id="woodFurniture">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="buzzing_flies" loop="true">insect_flies_01_L.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,50 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_light_and_muffled.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="castleExit">door_light_open_creak_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="fire_coals" loop="true">fire_02_L.mp3</asset>
+		<asset triggeredByEvent="fire_small" loop="true">fire_03_L.mp3</asset>
+		<asset triggeredByEvent="fire_medium" loop="true">fire_04_L.mp3</asset>
+		<asset triggeredByEvent="fire_complete" loop="true">fire_05_L.mp3</asset>
+		<asset triggeredByEvent="airPump_down">air_pump_intake_01.mp3</asset>
+		<asset triggeredByEvent="airPump_up">air_pump_release_01.mp3</asset>
+		<asset triggeredByEvent="ladder_move" loop="true">pulley_01_L.mp3</asset>
+		<asset triggeredByEvent="lantern_lit">torchFire_extinguish_01.mp3</asset>
+		<asset triggeredByEvent="candle_extinguish">torchFire_extinguish_01.mp3</asset>
+		<asset triggeredByEvent="armor_click">metal_shake_02.mp3</asset>
+		<asset triggeredByEvent="lion_mouth_open">concrete_drag_01.mp3</asset>
+		<asset triggeredByEvent="cannonBall_move" loop="true">heavy_gritty_roll_01_L.mp3</asset>
+		<asset triggeredByEvent="cannonBall_heated" loop="true">metal_heat_up_01_L.mp3</asset>
+		<asset triggeredByEvent="cannonBall_heated_touch">sizzle_02.mp3</asset>
+		<asset triggeredByEvent="doorChains_broken">metal_chains_03.mp3</asset>
+		<asset triggeredByEvent="crank_gear">gears_09.mp3</asset>
+		<asset triggeredByEvent="elevator_down">metal_impact_14.mp3</asset>
+		<asset triggeredByEvent="count_transform">vampire_cure.mp3</asset>
+		<asset triggeredByEvent="count_poof">poof_02.mp3</asset>
+		<asset triggeredByEvent="count_in_painting">vampires_painting.mp3</asset>
+		<asset triggerByEvent="end_kiss">kiss_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="stone">ls_brick_verb_01.mp3, ls_brick_verb_02.mp3</asset>
+		<asset id="lantern">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="bookshelf">none</asset>
+		<asset id="ladder">none</asset>
+		<asset id="baseGround">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="stone">fs_brick_verb_01.mp3, fs_brick_verb_02.mp3, fs_brick_verb_03.mp3, fs_brick_verb_04.mp3</asset>
+		<asset id="lantern">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="bookshelf">none</asset>
+		<asset id="ladder">none</asset>
+		<asset id="baseGround">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+	</sound>
+	
+</sounds>

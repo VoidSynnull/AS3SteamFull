@@ -1,0 +1,28 @@
+<game>
+	<musicFile>mfb_battle_intro_loud.mp3</musicFile>
+	<musicVolume>40</musicVolume>
+	<timeout>28.5</timeout>
+	<numDrums>3</numDrums>
+	<numAnims>6</numAnims>
+	<speed>120</speed> <!-- pixels per second -->
+	<needleJump>6</needleJump>
+	<overlap>85</overlap>
+	<accuracy>0.75</accuracy>
+	<bpm>42.0</bpm>
+	<scale>.75</scale>
+	<item>ppunkgirl1</item>
+	<initialDist>460</initialDist>
+	<coords>-250,150</coords>
+	<note0>3.5,8.5,9.75,14.5</note0><!-- ,19.5,24.75,26,30.5 -->
+	<note1>1,2.25,4.75,6.25,7.25,12.5,13.25,15</note1><!-- ,17,18.25,21,22.25,23.5,31 -->
+	<note2>5.5,11,15.5</note2><!-- ,21.5,27,28.75,29.5,31.75 -->
+	<color1>0x3FFD2F,0xF05957,0x7CB7CA</color1>
+	<color2>0x3FFD2F,0xF05957,0x7CB7CA</color2>
+	<particleClassName>game.particles.emitter.specialAbility.ColoredBomb</particleClassName>
+	<particleRange>10,80</particleRange>
+	<buttonScale>1.5</buttonScale>
+	<correctSound>electric_strum_01.mp3</correctSound>
+	<incorrectSound>dissonant_guitar_03.mp3</incorrectSound>
+	<returnX>800</returnX>
+	<returnY>1125</returnY>
+</game>

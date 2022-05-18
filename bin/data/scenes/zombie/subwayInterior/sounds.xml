@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="activate_lights">cab_car_activate_01.mp3</asset>
+		<asset triggeredByEvent="activate_lights">switch_05.mp3</asset>
+		<asset triggeredByEvent="deactivate_lights">switch_05.mp3</asset>
+		<asset triggeredByEvent="car_moving">train_stop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="seat">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="baseGround">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="seat">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="baseGround">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

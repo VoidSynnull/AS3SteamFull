@@ -1,0 +1,40 @@
+<item id="3435">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Scarecrow</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <facial>sponsorgbcrow</facial>
+			 <hair>sponsorgbcrow</hair>
+			 <shirt>sponsorgbcrow</shirt>
+			 <overshirt>sponsorgbcrow</overshirt>
+			 <overpants>sponsorgbcrow</overpants>
+			 </look>
+	</looks> 
+
+</item>

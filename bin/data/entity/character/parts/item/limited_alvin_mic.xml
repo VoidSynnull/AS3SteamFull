@@ -1,0 +1,30 @@
+<part>
+	<id>limited_alvin_mic</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">Alvin4FoxMVU,Microphone</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animation" type="class">game.data.animation.entity.character.Sing</param> 
+					</parameters>
+				</action>
+				<action class="AudioAction">
+					<parameters>
+						<param id="target" type="entity">null</param>
+						<param id="url" type="string">limited/Alvin4FoxMVU/DontBelieveMeJustWatch5.mp3</param> 
+						<param id="radius" type="number">0</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

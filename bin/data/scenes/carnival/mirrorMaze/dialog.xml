@@ -1,0 +1,20 @@
+<dialogs>
+	<character id="player">
+		<statement id="dontUseHammer">I should be careful! It'd be easy to break these mirrors with the hammer.</statement>
+		<statement id="enslaveRingmaster" link="wontHurt" linkEntityId="ringmaster">Now you're the one who is hypnotized! You will never hurt anyone ever again.</statement>
+		<statement id="believeChicken" link="cluckChicken" linkEntityId="ringmaster">And to make sure, from now on, you will be… my friend!… Yeah!</statement>
+		<statement id="freeCages" triggerEvent="triggerEvent" triggerEventArgs="fadeBlack">Just in time. Let's go let everyone out of those cages.</statement>
+	</character>
+	<character id="ringmaster">
+		<statement id="tauntstart" triggerEvent="triggerEvent" triggerEventArgs="startGame">You'll never catch me!</statement>
+		<statement id="taunt1" triggerEvent="triggerEvent" triggerEventArgs="endTaunt">You'll never catch me!</statement>
+		<statement id="taunt2" triggerEvent="triggerEvent" triggerEventArgs="endTaunt">This town will pay for what it did to me!</statement>
+		<statement id="taunt3" triggerEvent="triggerEvent" triggerEventArgs="endTaunt">Your soul belongs to me!</statement>
+		<statement id="becomeSlave" triggerEvent="triggerEvent" triggerEventArgs="becomeSlave">There is nowhere to hide!</statement>
+		<statement id="wontHurt" link="believeChicken" linkEntityId="player">I will never hurt anyone ever again…</statement>
+		<statement id="cluckChicken" triggerEvent="triggerEvent" triggerEventArgs="actChicken"> I… I am your friend?</statement>
+	</character>
+	<character id="edgar">
+		<statement id="stoppedRingmaster" link="freeCages" linkEntityId="player">You stopped him! </statement>
+	</character>
+</dialogs>

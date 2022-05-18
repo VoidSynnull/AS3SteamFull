@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="machine">ls_machinery_01.mp3,ls_machinery_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="machine">fs_machinery_01.mp3,fs_machinery_02.mp3,fs_machinery_03.mp3,fs_machinery_04.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset event="statue_drag">heavy_gritty_drag_01_L.mp3</asset>
+	</sound>
+</sounds>

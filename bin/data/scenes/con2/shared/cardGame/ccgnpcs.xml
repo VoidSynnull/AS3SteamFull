@@ -1,0 +1,92 @@
+<npcs>
+	<npc id="expert">
+		<cards ai="smart">
+			<card>elf_archer</card>
+			<card>mutton_chops</card>
+			<card>gold_face</card>
+			<card>meow_bot</card>
+			<card>teen_arachnid</card>
+			<card>pony_girl</card>
+			<card>dirt_claude</card>
+			<card>trash_collector</card>
+			<card>fashion_ninja</card>
+			<card>hench_bot</card>
+		</cards>
+		
+		<reward>
+			<card>omegon</card>
+		</reward>
+	</npc>
+	
+	<npc id="card2">
+		<cards ai="to_13">
+			<card>elf_archer</card>
+			<card>mutton_chops</card>
+			<card>mutton_chops</card>
+			<card>meow_bot</card>
+			<card>dirt_claude</card>
+			<card>meow_bot</card>
+			<card>teen_arachnid</card>
+			<card>trash_collector</card>
+			<card>hench_bot</card>
+			<card>hench_bot</card>
+		</cards>
+		
+		<reward>
+			<card>elf_archer</card>
+		</reward>
+	</npc>
+	
+	<npc id="hippie">
+		<cards ai="random">
+			<card>gold_face</card>
+			<card>gold_face</card>
+			<card>meow_bot</card>
+			<card>meow_bot</card>
+			<card>meow_bot</card>
+			<card>pony_girl</card>
+			<card>fashion_ninja</card>
+			<card>hench_bot</card>
+			<card>hench_bot</card>
+			<card>hench_bot</card>
+		</cards>
+		
+		<reward>
+			<card>gold_face</card>
+		</reward>
+	</npc>
+	
+	<npc id="dealer">
+		<cards ai="smart">
+			<card>meow_bot</card>
+			<card>meow_bot</card>
+			<card>pony_girl</card>
+			<card>dirt_claude</card>
+			<card>trash_collector</card>
+			<card>teen_arachnid</card>
+			<card>fashion_ninja</card>
+			<card>hench_bot</card>
+			<card>hench_bot</card>
+			<card>hench_bot</card>
+		</cards>
+		
+		<reward>
+			<card>world_guy</card>
+		</reward>
+	</npc>
+	
+	<npc id="scott">
+		<cards ai="smart">
+			<card>omegon</card>
+			<card>elf_archer</card>
+			<card>world_guy</card>
+			<card>gold_face</card>
+			<card>mutton_chops</card>
+			<card>pony_girl</card>
+			<card>dirt_claude</card>
+			<card>trash_collector</card>
+			<card>fashion_ninja</card>
+			<card>teen_arachnid</card>
+		</cards>
+	</npc>
+</npcs>

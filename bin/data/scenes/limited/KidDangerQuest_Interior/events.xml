@@ -1,0 +1,53 @@
+<events>
+<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">CaptainMan</param2>
+			<param3 id="sayID">save1</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">save2</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">CaptainMan</param2>
+			<param3 id="sayID">save3</param3>
+		</event>
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">monster</param2>
+			<param3 id="startLabelName">start</param3>
+			<param4 id="endLabelName">end</param4>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">1</param2>
+		</event>
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">monster</param2>
+			<param3 id="startLabelName">start</param3>
+			<param4 id="endLabelName">start</param4>
+		</event>
+	</group>
+	
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+	
+	<group type="triggered" id="initSceneReturn">
+	</group>
+		
+</events>

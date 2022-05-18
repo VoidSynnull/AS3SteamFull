@@ -1,0 +1,43 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>14</left>
+		<top>14</top>
+		<right>2728</right>
+		<bottom>1120</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>14</left>
+		<top>14</top>
+		<right>2728</right>
+		<bottom>1200</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,photos.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths prependTypePath="true">scenes/viking/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>74</x>
+			<y>1035</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

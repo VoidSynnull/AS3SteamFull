@@ -1,0 +1,14 @@
+<part>
+	<id>poptropicon_worldguy</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="holdShield">
+		<className>game.data.specialAbility.islands.poptropicon.HoldShield</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<validIslands>con3</validIslands>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

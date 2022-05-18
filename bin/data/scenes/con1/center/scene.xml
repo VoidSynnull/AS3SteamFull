@@ -1,0 +1,38 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>200</left>
+		<top>320</top>
+		<right>5830</right>
+		<bottom>1835</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-150</left>
+		<top>320</top>
+		<right>5820</right>
+		<bottom>1790</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,items.xml,custom.xml</data>
+	<absoluteFilePaths>scenes/con1/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<!-- <layer>
+			<asset>backdrop.swf</asset>
+			<rate>0.75</rate>
+		</layer> -->
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>500</x>
+			<y>1790</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

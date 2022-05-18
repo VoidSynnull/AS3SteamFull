@@ -1,0 +1,46 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="slide2" color="0x006600" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>-1500</x>
+				<y>6000</y>
+			</acceleration>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="slide1" color="0x00FF00" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>1500</x>
+				<y>6000</y>
+			</acceleration>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

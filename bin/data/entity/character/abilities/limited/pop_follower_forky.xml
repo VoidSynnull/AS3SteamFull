@@ -1,0 +1,23 @@
+<specialAbility id="limited/pop_follower_forky">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2966</param>
+		<param id="overpantsFrame">limited_forky</param>
+		<param id="useSpecialActionBtn">true</param>
+		<param id="hideParts">body,hair,shirt,arm1,arm2,hand1,hand2,foot1,foot2,leg1,leg2,eyes,mouth,head</param>
+		<param id="campaignName">ToyStory4HEVBB</param>
+	</parameters>
+		<actions>
+			<actionChain id="click_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_google_eyes</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+</specialAbility>

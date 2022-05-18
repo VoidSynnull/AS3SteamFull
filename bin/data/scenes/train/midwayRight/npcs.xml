@@ -1,0 +1,256 @@
+<npcs>
+
+<!-- 	
+
+	
+	//Le Monde Reporter 
+	char7.createNPC(0, 0, 0, 0, "specific", 0, "undefined", 0xfee0d8, 0xE6D500, "squint", "aphrodite", 0, 0, "MTfReporter", "MTfReporter", "MtfReporter", 1, "notepadPaper", 1, 1);
+	char7.avatar.nextFrame();
+	char7._xscale *= -1;
+	
+	//Lion Trainer 
+	char8.createNPC(0, 0, 0, 0, "specific", 1, "undefined", 0xfae0c9, 0x443828, "squint", 14, "shadow2", 1, "mtFeeder", "mtFeeder", "MTeiffel", 1, "mtFeeder", "dinerCook", 1);
+	char8.avatar.nextFrame();
+	char8._xscale *= -1;
+-->
+	
+	<npc id="guard1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>thinking</mouth>
+			<marks/>
+			<facial>mtPoliceman</facial>
+			<hair>1</hair>
+			<shirt>mtPoliceman</shirt>
+			<pants>mtPoliceman</pants>
+			<pack>1</pack>
+			<item>mtPoliceman</item>
+			<overshirt/>
+			<overpants>mtPoliceman</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>3217.7</x>
+			<y>1315</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="guard2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>thinking</mouth>
+			<marks/>
+			<facial>mtPoliceman</facial>
+			<hair>1</hair>
+			<shirt>mtPoliceman</shirt>
+			<pants>mtPoliceman</pants>
+			<pack>1</pack>
+			<item>mtPoliceman</item>
+			<overshirt/>
+			<overpants>mtPoliceman</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1387.85</x>
+			<y>1192.2</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="juggler1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB57731</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>shadow2</marks>
+			<facial>1</facial>
+			<hair>mtJuggler</hair>
+			<shirt>mtJuggler</shirt>
+			<pants>mtJuggler</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>mtJuggler</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2279.8</x>
+			<y>1315</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="juggler2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB57731</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>shadow2</marks>
+			<facial>1</facial>
+			<hair>mtJuggler</hair>
+			<shirt>mtJuggler</shirt>
+			<pants>mtJuggler</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>mtJuggler</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1900.8</x>
+			<y>1315</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="juggler3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB57731</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>shadow2</marks>
+			<facial>1</facial>
+			<hair>mtJuggler</hair>
+			<shirt>mtJuggler</shirt>
+			<pants>mtJuggler</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>mtJuggler</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1522.85</x>
+			<y>1198.2</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="juggler4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB57731</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>shadow2</marks>
+			<facial>1</facial>
+			<hair>mtJuggler</hair>
+			<shirt>mtJuggler</shirt>
+			<pants>mtJuggler</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>mtJuggler</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1083.9</x>
+			<y>1198.2</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="leMonde">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xE6D500</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>aphrodite</mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>MTfReporter</hair>
+			<shirt>MTfReporter</shirt>
+			<pants>MTfReporter</pants>
+			<pack>1</pack>
+			<item>notepadPaper</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1685.85</x>
+			<y>1198.2</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+	<npc id="lionTrainer">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>14</mouth>
+			<marks>shadow2</marks>
+			<facial>1</facial>
+			<hair>mtFeeder</hair>
+			<shirt>mtFeeder</shirt>
+			<pants>MTeiffel</pants>
+			<pack>1</pack>
+			<item>mtFeeder</item>
+			<overshirt>dinerCook</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>3374.75</x>
+			<y>1237</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

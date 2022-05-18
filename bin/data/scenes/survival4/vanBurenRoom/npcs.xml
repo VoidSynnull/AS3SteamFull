@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="van buren">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen_pjs</hair>
+			<shirt>survival_vanburen_pjs</shirt>
+			<pants>hippie</pants>
+			<item>survival_vanburen_pjs</item>
+			<overshirt>survival_vanburen_pjs</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<animations>
+			<animation>game.data.animation.entity.character.SleepingOnBack</animation>
+		</animations>
+		<position>
+			<x>2700</x>
+			<y>585</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

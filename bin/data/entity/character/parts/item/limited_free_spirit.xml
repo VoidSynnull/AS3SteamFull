@@ -1,0 +1,39 @@
+<part>
+	<id>limited_free_spirit</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2041</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<disableBroadcast>true</disableBroadcast>
+		<sfPauseTimer>2</sfPauseTimer>
+		<parameters>
+			<param id="swfPath">limited/SpiritVBB/freeSpirit.swf</param>
+			<param id="tracking">SpiritFreeRidingVBB,free_spirit</param>
+			<param id="scaleToFill">true</param>
+			<param id="lockInput">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="TalkAction" noWait="true" lockInput="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="say_id" type="string">Come on, Spirit!</param>
+						<param id="directSayText" type="boolean">true</param> 
+					</parameters>
+				</action>
+				<action class="AnimationAction" noWait="false" endDelay="1" lockInput="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+						<param id="waitlabel" type="string">raised</param> 
+						<param id="maxframes" type="int">0</param> 
+						<param id="stoponlabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

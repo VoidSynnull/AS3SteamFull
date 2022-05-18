@@ -1,0 +1,51 @@
+<groups>
+<!-- 	<group event="got_all_lazybear_parts" triggerAndSave="true">
+		<and>
+			<event type="gotItem_permanent_marker"/>
+			<event type="gotItem_box"/>
+			<event type="gotItem_camera"/>
+			<event type="got_detective_log_page_2"/>
+		</and>
+	</group>
+	
+	<group event="got_all_totalmobile_parts" triggerAndSave="true">
+		<and>
+			<event type="gotItem_wagon"/>
+			<event type="gotItem_bucket"/>
+			<event type="gotItem_chicken_nuggets"/>
+			<event type="gotItem_rope"/>
+			<event type="got_detective_log_page_9"/>
+		</and>
+	</group> -->
+	<group event="timmy_on_tower" triggerAndSave="true">
+		<and>
+			<event type="returned_cat"/>
+			<event type="got_detective_log_page_9" not="true"/>
+		</and>
+	</group>
+	
+	<group event="before_rollo_freed" triggerAndSave="true">
+		<and>
+			<event type="got_detective_log_page_6" not="true"/>
+		</and>
+	</group>
+	
+	<group event="before_scutaro_gone" triggerAndSave="true">
+		<and>
+			<event type="dropped_camera" not="true"/>
+		</and>
+	</group>
+	
+	<group event="before_timmy_left_main" triggerAndSave="true">
+		<and>
+			<event type="got_detective_log_page_1" not="true"/>
+		</and>
+	</group>
+	
+	<group event="outro" triggerAndSave="true">
+		<and>
+			<event type="chase_complete"/>
+			<event type="gotItem_medal_timmy" not="true"/>
+		</and>
+	</group>
+</groups>

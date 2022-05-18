@@ -1,0 +1,28 @@
+<item id="3091">
+	<type>store</type>
+	<subType>general</subType>
+	<buttons>
+		<btn>
+				<label>LAUNCH</label>
+				<actions>
+				<action type="gotoUrl" >
+						<parameters>
+							<param id="urlId">http://www.poptropica.com/avatarstudio/</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+				<value>Avatar Studio</value>
+			</text>
+			<text id="storeInstructions">
+					<value>Save and share your&#10;Poptropican with others.</value>
+			</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent"/>
+	</assets>
+</item>

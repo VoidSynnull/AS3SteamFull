@@ -1,0 +1,43 @@
+<hits>
+	<hit id="redRoof" color="0x9C341C" platform="true">
+		<component type="platform"/>
+	</hit>
+		
+	<hit id="blimp" color="0xDBB879" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0x517780" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinmetal" color="0xC0D1D3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="concrete" color="0xBCBDA8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crumblyconcrete" color="0xD8DECF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concrete2" color="0xECECDE" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+</hits>
+

@@ -1,0 +1,48 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3565</right>
+		<bottom>1875</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-200</left>
+		<top>-200</top>
+		<right>3565</right>
+		<bottom>2075</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths>scenes/deepDive2/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<condition type="hide">+99</condition>
+			<asset>foreground_mobile.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<condition type="hide">-100</condition>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>197</x>
+			<y>1048</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

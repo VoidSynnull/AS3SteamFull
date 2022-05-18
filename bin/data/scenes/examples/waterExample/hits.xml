@@ -1,0 +1,47 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform">
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+			<density>1</density>
+			<viscosity>.96</viscosity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="waterDive" color="0xff0000">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+			<density>.78</density>	<!-- low density causes more WaterColliders to sink. -->
+			<viscosity>.96</viscosity>
+		</component>
+	</hit> -->
+	<hit id="barrelHit1">
+		<component type="platformTop">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<component type="scene">
+			<visible>barrel1</visible>
+		</component>
+	</hit>
+	<hit id="barrelHit2">
+		<component type="platformTop">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<component type="scene">
+			<visible>barrel2</visible>
+		</component>
+	</hit>
+	<hit id="barrels" color="0x987758" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

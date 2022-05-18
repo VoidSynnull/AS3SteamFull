@@ -1,0 +1,67 @@
+<item id="2032"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Dodger Follower</name> <!-- *** Change this card name -->
+  	<campaignID>AmericanGirlQuest</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE</label>
+			<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+   	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>American Girl</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Dodger Follower</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+	<specials>
+		<specialAbility>limited/follower_ag_dodger</specialAbility>
+	</specials>
+	
+	<conditionals>
+    	<conditional type="hasAbility"/>
+    </conditionals>
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> 
+  	</assets>
+
+    
+</item>

@@ -1,0 +1,42 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<x>0</x>
+		<y>0</y>
+		<width>3070</width>
+		<height>1790</height>	
+	</cameraLimits>
+	<bounds>
+		<x>10</x>
+		<y>0</y>
+		<width>3070</width>
+		<height>1790</height>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>hits.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>321</x>
+			<y>1755</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

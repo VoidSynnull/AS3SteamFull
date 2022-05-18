@@ -1,0 +1,29 @@
+<groups>
+	<group event="dog_in_city_left">
+		<and>
+			<event type="gotItem_medalVirusHunter"/>
+			<event not="true" type="talked_to_girl"/>
+		</and>
+	</group>
+	
+	<group event="dog_in_main_street">
+		<and>
+			<event type="gotItem_medalVirusHunter"/>
+			<event type="talked_to_girl"/>
+		</and>
+	</group>
+	
+	<group event="girl_in_city_left">
+		<and>
+			<event type="gotItem_medalVirusHunter"/>
+			<event not="true" type="worm_boss_defeated"/>
+		</and>
+	</group>
+	
+	<group event="girl_in_main_street">
+		<and>
+			<event type="gotItem_medalVirusHunter"/>
+			<event type="worm_boss_defeated"/>
+		</and>
+	</group>
+</groups>

@@ -1,0 +1,56 @@
+<dialogs>
+	<character id="player">
+		<statement>Hey, is it me or is that mountain not completed?</statement>
+		<statement id="seen_that" triggerEvent="triggerEvent" triggerEventArgs="chirp_chair_lift">I sure wish I'd seen that before...</statement>
+		<statement triggeredByEvent="not_zen" triggerEvent="triggerEvent" triggerEventArgs="going_back_to_office">Sore loser, huh? Not very Zen...</statement>
+		<statement triggeredByEvent="no_pain">Ow! ...wait a second, that didn't hurt at all.</statement>
+	</character>
+	
+	<character id="climber">
+		<conversation>
+			<exchange>
+				<question>You OK? You look frustrated.</question>
+				<answer>I was trying to climb every mountain in Poptropica, but it's kind of hard when the mountains aren't finished!</answer>
+			</exchange>
+			<exchange>
+				<question>How can a mountain not be finished?</question>
+				<answer>Lazy programming.</answer>
+			</exchange>
+			<exchange>
+				<question>I'm sorry you can't complete your climb.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="done_climbing, true">I'm done with Poptropica! I'm going to climb the mountains over at The Walrus Den or whatever it's called.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="random1">
+		<statement id="easiest_trip" link="joy" linkEntityId="random2" forceOnscreen="true">Easiest trip ever!</statement>
+		<statement event="reached_summit">The Mount Funshine chairlift? You can't miss it. Unless you're really dense.</statement>
+	</character>
+	
+	<character id="random2">
+		<statement id="joy" link="seen_that" linkEntityId="player" forceOnscreen="true">It's an absolute joy getting to the top of that mountain.</statement>
+		<statement event="reached_summit">I can see my house from here.</statement>
+	</character>
+	
+	<character id="leadDeveloper">
+		<conversation>
+			<exchange>
+				<question>Are you Billy Jordan, the Poptropica Developer?</question>
+				<answer>That is my given name, but it does not define who I am.</answer>
+			</exchange>
+			<exchange>
+				<question>What are you doing here? You look odd...</question>
+				<answer>I seek enlightenment. I am swimming in an ocean of pure reality. Well, I was, until some jerk distracted me.</answer>
+			</exchange>
+			<exchange>
+				<question>I need you to return to Poptropica Worldwide Headquarters!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="mancala_started">If you can beat me in a game of Mancala, I will return.  But you will not win - I programmed the game!</answer>
+			</exchange>
+		</conversation>
+		<statement id="silly_game" triggerEvent="triggerEvent" triggerEventArgs="not_zen">I never liked that silly game anyway!</statement>
+		<statement triggeredByEvent="going_back_to_office" triggerEvent="triggerEvent" triggerEventArgs="mancala_victory">You're not very Zen! I'll be back at the office.</statement>
+		<statement id="try_again" triggerEvent="triggerEvent" triggerEventArgs="play_again">You are not one with your surroundings. Become centered, and you might win.</statement>
+		<statement event="play_again" triggerEvent="triggerEvent" triggerEventArgs="mancala_started">Care to try again?</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,64 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poptropicon1_main_theme.mp3</asset>
+		<asset triggeredByEvent="for_glory" loop="true" fade="true" exclusiveType="true">for_glory.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="tossBar">gears_heavy_01_loop.mp3</asset>
+		<asset id="lever">metal_impact_07.mp3</asset>
+		<asset id="window">glass_break_03.mp3</asset>
+		<asset id="catapult">myth_zues_shoot_wind_01.mp3</asset>	
+		<asset id="vent0" fade="true" loop="true" modifiers="position" absoluteUrl="true">ambient/air_ducts_3.mp3</asset>
+		<asset id="vent1" fade="true" loop="true" modifiers="position" absoluteUrl="true">ambient/air_ducts_3.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="click">
+		<asset id="lever">gears_12.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="conventionSign">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="cardboard">ls_cardboard_01.mp3, ls_cardboard_02.mp3</asset>
+		<asset id="thinMetal">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="heavyMetal">ls_metal_shelf_verb_01.mp3, ls_metal_shelf_verb_02.mp3</asset>
+		<asset id="thinPlastic">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="heavyPlastic">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="styrofoam">ls_snow_01.mp3, ls_snow_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="piping">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="leaves">ls_leaves_01.mp3, ls_leaves_02.mp3</asset>
+		<asset id="stones">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="vent">ls_heavy_metal_verb_01.mp3, ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="powerBox">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="truck">ls_porcelain_01.mp3, ls_porcelain_02.mp3</asset>
+		<asset id="tires">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="catapultNest">gears_17.mp3</asset>
+		<asset id="bounce">ls_spring_01.mp3,ls_spring_02.mp3,ls_spring_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="conventionSign">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="cardboard">fs_cardboard_01.mp3, fs_cardboard_02.mp3, fs_cardboard_03.mp3, fs_cardboard_04.mp3</asset>
+		<asset id="thinMetal">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="heavyMetal">fs_metal_shelf_verb_01.mp3, fs_metal_shelf_verb_02.mp3, fs_metal_shelf_verb_03.mp3, fs_metal_shelf_verb_04.mp3</asset>
+		<asset id="thinPlastic">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="heavyPlastic">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="styrofoam">fs_snow_01.mp3, fs_snow_02.mp3, fs_snow_03.mp3, fs_snow_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="piping">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="leaves">fs_leaves_01.mp3, fs_leaves_02.mp3, fs_leaves_03.mp3, fs_leaves_04.mp3</asset>
+		<asset id="stones">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="vent">fs_heavy_metal_verb_01.mp3, fs_heavy_metal_verb_02.mp3, fs_heavy_metal_verb_03.mp3, fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="powerBox">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="truck">fs_porcelain_tap_01.mp3, fs_porcelain_tap_02.mp3, fs_porcelain_tap_03.mp3, fs_porcelain_tap_04.mp3</asset>
+		<asset id="tires">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>	
+		<asset id="catapultNest">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+	</sound>
+</sounds>

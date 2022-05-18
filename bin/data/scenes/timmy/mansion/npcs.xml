@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="bingo" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/bingo.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>708</x>
+			<y>1025</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="total" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/total.swf</movieClip>
+		<position>
+			<x>2800</x>
+			<y>1060</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="timmy" event="got_detective_log_page_2" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>1970</x>
+			<y>1053</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+</npcs>

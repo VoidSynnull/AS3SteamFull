@@ -1,0 +1,249 @@
+<SpecialAbilities>
+	<specialAbility id="#3323-Virus Costume">
+		<className>game.data.specialAbility.character.VirusLegs</className>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Guitar</param>
+		</parameters>
+		<part type="overshirt">vh_virus1</part>
+	</specialAbility>
+	<specialAbility id="#3000-Geisha">
+		<className>game.data.specialAbility.character.TriggerAnimation</className>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Guitar</param>
+		</parameters>
+		<part type="item">pgeisha1</part>
+	</specialAbility>
+	<specialAbility id="#3001-RoyalBall">
+		<class>game.data.specialAbility.character.PartTimelineOpenClose</class>
+		<parameters>
+			<param id="partType">item</param>
+		</parameters>
+	</specialAbility>
+	
+	<!--
+	<specialAbility id="#3002-SouthernBelle">
+		<class>game.data.specialAbility.character.PartTimelineOpenClose</class>
+		<parameters>
+			<param id="partType">item</param>
+		</parameters>
+		<part type="item">priding1</part>
+	</specialAbility>
+	<specialAbility id="#3003-TemplarKnight">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">pknight1</part>
+	</specialAbility>
+	<specialAbility id="#3005-Puppy">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Proud</param>
+		</parameters>
+		<part type="item">pdog1</part>
+	</specialAbility>
+	<specialAbility id="#3006-Rock Star M">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Guitar</param>
+		</parameters>
+		<part type="item">ppunkguy1</part>
+	</specialAbility>
+	<specialAbility id="#3007-Rock Star F">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Guitar</param>
+		</parameters>
+		<part type="item">ppunkgirl1</part>
+	</specialAbility>
+	<specialAbility id="#3008-PopSinger">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sing</param>
+		</parameters>
+		<part type="item">ppopgirl1</part>
+	</specialAbility>
+	<specialAbility id="#3015/16-Pharoah">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+		</parameters>
+		<part type="item">ppharaoh</part>
+	</specialAbility>
+	<specialAbility id="#3017-Zorro">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">pzorro</part>
+	</specialAbility>
+	<specialAbility id="#3018-Samauri">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">psamurai</part>
+	</specialAbility>
+	<specialAbility id="#3019-Cheesy Mouse">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Proud</param>
+		</parameters>
+		<part type="item">pmouse</part>
+	</specialAbility>
+	<specialAbility id="#3030-RockSinger">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sing</param>
+		</parameters>
+		<part type="item">ppopgirl1</part>
+	</specialAbility>
+	<specialAbility id="#3031/32-Pirate">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+		</parameters>
+		<part type="item">ppiratesword</part>
+	</specialAbility>
+	<specialAbility id="#3037/38-BBall Batter">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+		</parameters>
+		<part type="item">pbat</part>
+	</specialAbility>
+	<specialAbility id="#3039/40-Cowboy" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">prevolver</part>
+	</specialAbility>
+	<specialAbility id="#3044-Skyhawk:Sword">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+		</parameters>
+		<part type="item">probot4</part>
+	</specialAbility>
+	<specialAbility id="#3044-Skyhawk:Visor">
+		<class>game.data.specialAbility.character.PartTimelineOpenClose</class>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+		<part type="facial">probot4_1</part>
+	</specialAbility>
+	<specialAbility id="#3046/47-KarateMaster">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">pbowstaff</part>
+	</specialAbility>
+	<specialAbility id="#3048-Cheerleader">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Score</param>
+		</parameters>
+		<part type="item">ppompom</part>
+	</specialAbility>
+	<specialAbility id="#3049-Goth Cheer">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Stomp</param>
+		</parameters>
+		<part type="item">ppompom2</part>
+	</specialAbility>
+	<specialAbility id="#3059-Light Ninja">
+		<class>game.data.specialAbility.character.PartTimelineOpenClose</class>
+		<parameters>
+			<param id="partType">item</param>
+		</parameters>
+		<part type="item">pninjale</part>
+	</specialAbility>
+	<specialAbility id="#3061/62-Little Devil">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Twirl</param>
+		</parameters>
+		<part type="item">pdevil</part>
+	</specialAbility>
+	<specialAbility id="#3033-CandyCane" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Tossup</param>
+		</parameters>
+		<part type="item">candycane</part>
+	</specialAbility>
+	<specialAbility id="#3106-DKnight M" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">pdarkKnight_boy</part>
+	</specialAbility>
+	<specialAbility id="#3107-DKnight F" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Sword</param>
+		</parameters>
+		<part type="item">pdarkKnight_girl</part>
+	</specialAbility>
+	<specialAbility id="#3111/12-SkullPirate">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Twirl</param>
+		</parameters>
+		<part type="item">pskullpirate1</part>
+	</specialAbility>
+	<specialAbility id="#3117-PromKing">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Twirl</param>
+		</parameters>
+		<part type="item">ppromking1a</part>
+	</specialAbility>
+	<specialAbility id="#3119/20-Surfer">
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+		</parameters>
+		<part type="item">pmythsurferzeus</part>
+	</specialAbility>
+	<specialAbility id="#3146-3rd Bday" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Drink2</param>
+		</parameters>
+		<part type="item">birthday_3</part>
+	</specialAbility>
+	<specialAbility id="#3164-Disco King" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Disco</param>
+		</parameters>
+		<part type="hair">pdisco_king</part>
+	</specialAbility>
+	<specialAbility id="#3165-Disco Queen" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Disco</param>
+		</parameters>
+		<part type="hair">pdisco_queen</part>
+	</specialAbility>
+	<specialAbility id="#3180-Lawman" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.TwirlPistol</param>
+		</parameters>
+		<part type="item">plawman</part>
+	</specialAbility>
+	<specialAbility id="#3181-Peacemaker" >
+		<class>game.data.specialAbility.character.TriggerAnimation</class>
+		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.TwirlPistol</param>
+		</parameters>
+		<part type="item">ppeacemaker</part>
+	</specialAbility>
+	-->
+</SpecialAbilities>

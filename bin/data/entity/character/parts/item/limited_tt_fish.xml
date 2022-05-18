@@ -1,0 +1,34 @@
+<part>
+	<id>limited_tt_fish</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2794</campaignID>
+	 <specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPaths">limited/PPGTTGPartyRoom/BeastBoyPower1.swf,limited/PPGTTGPartyRoom/BeastBoyPower2.swf,limited/PPGTTGPartyRoom/BeastBoyPower3.swf</param>
+			<param id="tracking">PPGTTGPartyRoom,Beast Boy Power</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

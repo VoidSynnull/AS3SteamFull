@@ -1,0 +1,36 @@
+<hits>	
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform">
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="rockBarrier" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="radial" color="0x990099">
+		<component type="radial">
+			<rebound>0.1</rebound>
+		</component>
+	</hit>
+	<hit id="clamHit">
+		<component type="hazard">
+			<visible>clam</visible>
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>300</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="waterDive" color="0x0000ff">
+		<component type="water">
+			<density>0.76</density>
+			<sceneWide>true</sceneWide>
+		</component>
+	</hit>
+</hits>

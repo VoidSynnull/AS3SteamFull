@@ -1,0 +1,9 @@
+<specialAbility id="limited/follower_timmy">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2686</param>
+		<param id="swfPath">limited/ShaunTheSheepQuest/TimmyFollower.swf</param> <!-- path to follower swf -->
+	</parameters>
+</specialAbility>

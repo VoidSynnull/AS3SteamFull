@@ -1,0 +1,33 @@
+<bundle>
+	<id>atlantis</id>
+	<name>Mission Atlantis Pack</name>
+	
+	<cardSets>
+		<cardSet id="shared">
+			<card>3349</card>
+			<card>3354</card>
+			<card>3359</card>
+		</cardSet>
+	</cardSets>
+	
+	<bundleNum>0</bundleNum>
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>-18</brightness>
+	   			<contrast>8</contrast>
+	   			<saturation>-27</saturation>
+	   			<hue>-161</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/atlantis.swf</assetPath>
+	    </asset> 
+    </assets>
+    
+</bundle>

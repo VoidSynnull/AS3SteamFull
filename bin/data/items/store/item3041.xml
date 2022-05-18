@@ -1,0 +1,70 @@
+<item id="3041">
+		<type>island</type>
+		<subType>examples</subType>
+		
+	<contentClass> <!-- This displays avatar with instruct -->
+		<className>game.ui.card.CharacterContentView</className>
+		<parameters>
+			<param id="clickableSpecial">true</param>
+		</parameters>
+	</contentClass>
+	
+		<buttons>
+			<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>INFLATE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<textfields>
+	 	 	<text id="storeTitle">
+					<value>Balloons</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Click on the balloon to&#10;select a different emote.</web>
+			<mobile>Tap on the balloon to&#10;select a different emote.</mobile>
+		</text>
+		</textfields>
+		
+		<assets>
+			<asset id="cardBack"/>
+		</assets>
+		
+ 	<specials>
+			<specialAbility>balloon_1</specialAbility>
+			<specialAbility>balloon_2</specialAbility>
+			<specialAbility>balloon_3</specialAbility>
+			<specialAbility>balloon_4</specialAbility>
+			<specialAbility>balloon_5</specialAbility>
+			<specialAbility>balloon_6</specialAbility>
+			<specialAbility>balloon_7</specialAbility>
+			<specialAbility>balloon_8</specialAbility>
+			<specialAbility>balloon_9</specialAbility>
+			<specialAbility>balloon_10</specialAbility>
+	</specials>
+	
+		<looks>
+			<look>
+			<item>empty</item>
+		</look>
+	</looks>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+		
+</item>

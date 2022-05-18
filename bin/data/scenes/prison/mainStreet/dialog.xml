@@ -1,0 +1,41 @@
+<dialogs>
+	<character id="player">
+		<statement id="stop" triggerEvent="triggerEvent" triggerEventArgs="run_off">I'll stop them!</statement>
+		<statement id="well" link="no_no" linkEntityId="tex">Well Marshal, I appreciate all your help.</statement>
+    </character>
+	<character id="lady">
+		<statement>I'm just waiting for Indigo here to do her business.</statement>
+		<statement id="after_theif">Someone needs to stop that theif. Indigo here needs to be calm to do her business.</statement>
+		<statement id="after_medal">You look just like that horrible booted bandit!</statement>
+    </character>
+	<character id="muscles">
+		<statement>Scoping out the scenery, eh?</statement>
+		<statement id="after_theif">If that bandit comes back here, I'll have a thing or two to say!</statement>
+		<statement id="after_medal">I hope the booted bandit stays locked up for good!</statement>
+    </character>
+	<character id="blades">
+		<statement>No time to chat!</statement>
+		<statement id="oof" triggerEvent="triggerEvent" triggerEventArgs="blades_hit">Oof!</statement>
+		<statement id="after_theif">I think I'll just sit here for a while... ugh..</statement>
+		<statement id="after_medal">You swam all the way across the bay? Amazing!</statement>
+    </character>
+	<character id="tex">
+		<statement id="stop" triggerEvent="triggerEvent" triggerEventArgs="stop">Stop, thief!</statement>
+		<statement id="no_no" triggerEvent="triggerEvent" triggerEventArgs="get_medallion">No, no, thank you! In fact, here, take this!</statement>
+		<statement id="great_job">Great job!</statement>
+    </character>
+	<character id="patches">
+		<statement>I thought I'd never make it out of that cage. You're a lifesaver.</statement>
+    </character>
+	<character id="nostrand">
+		<statement link="final_dialog">Thanks for helping with my parole.</statement>
+		<statement id="final_dialog">The city is even more beautiful up close. I'll never run out of things to paint!</statement>
+    </character>
+	<character id="marion">
+		<statement link="final_dialog">Thanks for helping with my parole.</statement>
+		<statement id="final_dialog">Time to hit up the help wanted ads!</statement>
+    </character>
+	<character id="flambe">
+		<statement>They say you can't un-collapse a souffle, but now I've got a second chance and I'm going to prove them wrong!</statement>
+    </character>
+</dialogs>

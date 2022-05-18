@@ -1,0 +1,106 @@
+<dialogs>
+    <character id="player">
+    	<statement id="bonus_started1" link="bonus_started2" linkEntityId="opponent1">Is that an earthquake?</statement>
+    	<statement triggeredByEvent="bonus4" triggerEvent="triggerEvent" triggerEventArgs="bonus5">Well, um... me?</statement>
+    </character>
+    
+    <character id="winner1">
+		<statement>I won!</statement>
+		<statement event="all_events_completed">I am the champion!</statement>
+		<statement id="bonus4">Is that an earthquake?</statement>
+    </character>
+    
+    <character id="winner2">
+		<statement>Second place!</statement>
+		<statement event="all_events_completed">I was so close!</statement>
+		<statement id="bonus5">Is it the island sinking back into the sea!?</statement>
+    </character>
+    
+    <character id="winner3">
+		<statement>Third place isn't bad.</statement>
+		<statement event="all_events_completed">Third place isn't bad.</statement>
+		<statement id="bonus6">Is it something I ate?</statement>
+    </character>
+    
+    <character id="master">
+    	<statement id="congratulations">Congratulations to the [tribe], winner of our last event!</statement>
+		
+		<statement id="first" triggerEvent="triggerEvent" triggerEventArgs="popup_events">Which event will you be competing in first?</statement>
+		<statement event="started_games" triggerEvent="triggerEvent" triggerEventArgs="popup_events">Which event will you be competing in next?</statement>
+		
+    	<statement id="ceremony1" triggerEvent="triggerEvent" triggerEventArgs="ceremony1">Ladies and gentlemen, it is my honor to welcome you to the centennial Poptropolis Games!</statement>
+		<statement id="ceremony2" triggerEvent="triggerEvent" triggerEventArgs="ceremony2">Will the representatives from each tribe please come forward.</statement>
+		<statement id="ceremony3" triggerEvent="triggerEvent" triggerEventArgs="ceremony3">Let the Poptropolis Flame illuminate this contest and ignite our thirst for victory!</statement>
+		<statement id="ceremony4" triggerEvent="triggerEvent" triggerEventArgs="ceremony4">Let the games begin!</statement>
+		<statement id="ceremony5" triggerEvent="triggerEvent" triggerEventArgs="ceremony5">Talk to me when you're ready to compete.</statement>
+		
+		<statement id="finale1" triggerEvent="triggerEvent" triggerEventArgs="finale1">My friends, the tribal champions have all competed with honor. Here are the final results.</statement>
+		<statement id="finale2" triggerEvent="triggerEvent" link="finale3">In the Poptropolis Games, there can be only one winner. I present to you the grand champion of all Poptropica...</statement>
+		<statement id="finale3" triggerEvent="triggerEvent" triggerEventArgs="finale3">The [tribe]!</statement>
+		<statement id="finale4" triggerEvent="triggerEvent" triggerEventArgs="finale4" link="finale5">[tribe], I bestow upon you the Gold Medallion.</statement>
+		<statement id="finale5" triggerEvent="triggerEvent" triggerEventArgs="finale5">Your tribe reigns supreme-- until the next Poptropolis Games.</statement>
+		
+		<statement event="all_events_completed" triggerEvent="triggerEvent" triggerEventArgs="popup_game_over">You've already competed in all the events.</statement>
+		<statement event="bonus_completed">All hail [player name]: the greatest champion Poptropica has ever known!</statement>
+    </character>
+    
+    <character id="scorekeeper">
+    	<statement id="scorekeeper">I'm the official scorekeeper for the Poptropolis Games. Come back and see me whenever you want to know the rankings.</statement>
+		<statement event="started_games" triggerEvent="triggerEvent" triggerEventArgs="popup_score">Here are the overall rankings.</statement>
+    </character>
+    
+    <character id="opponent1">
+		<statement>The [tribe] are going to win this time!</statement>
+		<statement event="all_events_completed">That was a tough competition!</statement>
+		<statement id="bonus_started2" link="bonus_started3" linkEntityId="opponent2">Is it the island sinking back into the sea!?</statement>
+    </character>
+    
+    <character id="opponent2">
+		<statement>You don't stand a chance.</statement>
+		<statement event="all_events_completed">It's finally over.</statement>
+		<statement id="bonus_started3" triggerEvent="triggerEvent" triggerEventArgs="bonus3">Is it something I ate?</statement>
+    </character>
+    
+    <character id="opponent3">
+		<statement>I'm going to win this for the [tribe]!</statement>
+		<statement event="all_events_completed">Time to head back home.</statement>
+    </character>
+    
+    <character id="opponent4">
+		<statement>The [tribe] rule!</statement>
+		<statement event="all_events_completed">I'm exhausted!</statement>
+    </character>
+    
+    <character id="opponent5">
+		<statement>Good luck out there. You're going to need it.</statement>
+		<statement event="all_events_completed">Good job out there.</statement>
+    </character>
+    
+    <character id="opponent6">
+		<statement>I'm representing the [tribe].</statement>
+		<statement event="all_events_completed">I'm getting out of here before the island sinks back into the sea!</statement>
+    </character>
+    
+    <character id="opponent7">
+		<statement>I've been training my whole life for this competition.</statement>
+		<statement event="all_events_completed">This has been the greatest experience of my life!</statement>
+    </character>
+    
+    <character id="warrior">
+		<statement triggeredByEvent="bonus3" triggerEvent="triggerEvent" triggerEventArgs="bonus4">Who dares to call themselves the Champion of Poptropica?</statement>
+		<statement triggeredByEvent="bonus5" triggerEvent="triggerEvent" triggerEventArgs="bonus_started,true">Fraud! I challenge you to the most ancient of contests: wrestling!</statement>
+		
+		<conversation event="bonus_started" triggeredByEvent="bonus_started">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="popup_blocker">I accept!</question>
+				<answer>Prepare for battle. There can be only one champion!</answer>
+			</exchange>
+			<exchange>
+				<question>I'd rather not.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="coward">As I thought! You are a coward, not worthy of that medallion around your neck.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="strength" triggerEvent="giveItem" triggerEventArgs="ancient_warrior_outfit">Such strength! You... you truly are the champion of Poptropica!</statement>
+    </character>
+</dialogs>

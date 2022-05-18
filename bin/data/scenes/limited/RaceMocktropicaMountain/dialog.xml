@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="npc">
+    	<statement id="first">I challenge you to a race of endurance!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="start_race" id="set">I've trained years for this! Good luck keeping your breath!</statement>
+		
+		<statement id="win">Ha Ha! What's the matter? Get a little winded!</statement>
+		<statement id="loose">huff... puff... air... so... thin...</statement>
+    </character>
+</dialogs>

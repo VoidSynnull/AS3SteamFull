@@ -1,0 +1,84 @@
+<hotspots>
+	<hotspot id="info" type="poster">
+		<action type="openUrlOnClick">https://www.americangirl.com/shop/c/girl-of-the-year-kira</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">https://www.americangirl.com/shop/c/girl-of-the-year-kira</action> 
+	</hotspot>
+	<hotspot id="videoContainerMainStreet" width="300" height="170" type="video" controls="true" lock="false">
+		<action type="play">videoFile1</action>
+		<action type="openUrlOnClick">https://www.americangirl.com/shop/c/girl-of-the-year-kira</action> 
+	</hotspot>
+	<!--<hotspot id="surfGame" type="poster">
+		<action type="enterQuest" folder="AmericanGirlQuest">Surf</action> 
+	</hotspot>-->
+	<hotspot id="poster3" type="poster">
+		<action type="className">game.scenes.custom.AdInfoPopup</action>
+        <action type="popup">Info.swf</action>
+	</hotspot>
+	<hotspot id="wombatbox" type="poster">
+		<action type="gotoAndPlay">wombatbox,doPlay</action> 
+	</hotspot>
+	<hotspot id="bird" type="poster">
+		<action type="gotoAndPlay">bird,doPlay</action> 
+	</hotspot>
+	<hotspot id="bird2" type="poster">
+		<action type="gotoAndPlay">bird2,doPlay</action> 
+	</hotspot>
+	<hotspot id="emu" type="poster">
+		<action type="gotoAndPlay">emu,doPlay</action> 
+	</hotspot>
+	<hotspot id="kanga" type="poster">
+		<action type="gotoAndPlay">kanga,doPlay</action> 
+	</hotspot>
+	<hotspot id="koalaanim" type="poster">
+		<action type="gotoAndPlay">koalaanim,doPlay</action> 
+	</hotspot>
+	<hotspot id="frog1" type="poster">
+		<action type="gotoAndPlay">frog1,doPlay</action> 
+	</hotspot>
+	<hotspot id="frog2" type="poster">
+		<action type="gotoAndPlay">frog2,doPlay</action> 
+	</hotspot>
+	
+	<hotspot id="carebearprize" type="poster">
+		<action type="giveItemMale">2019</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2019</action> 
+		<action type="autoPlay">carebearprizeclip</action>
+	</hotspot>
+		<hotspot id="comicprize" type="poster">
+		<action type="giveItemMale">2021</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2021</action> 
+		<action type="autoPlay">comicprizeclip</action>
+	</hotspot>
+		<hotspot id="outfitprize" type="poster">
+		<action type="giveItemMale">2022</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2022</action> 
+		<action type="autoPlay">outfitprizeclip</action>
+	</hotspot>
+		<hotspot id="parselyprize" type="poster">
+		<action type="giveItemMale">2020</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2020</action> 
+		<action type="autoPlay">parselyprizeclip</action>
+	</hotspot>
+		<hotspot id="cootieprize" type="poster">
+		<action type="giveItemMale">2025</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2025</action> 
+		<action type="autoPlay">cootieprizeclip</action>
+	</hotspot>
+		<hotspot id="walkmanprize" type="poster">
+		<action type="giveItemMale">2024</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2024</action> 
+		<action type="autoPlay">walkmanprizeclip</action>
+	</hotspot>
+	<hotspot id="dodgerprize" type="poster">
+		<action type="giveItemMale">2032</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2032</action>
+		<action type="autoPlay">dodgerprizeclip</action>		
+	</hotspot>
+	<hotspot id="wombatprize" type="poster">
+		<action type="giveItemMale">2036</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2036</action>
+		<action type="autoPlay">wombatprizeclip</action>		
+	</hotspot>
+</hotspots>

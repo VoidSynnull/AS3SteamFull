@@ -1,0 +1,27 @@
+<part>
+	<id>gpromohunter</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<specialAbility id="gpromohunter_facial">
+		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+	</specialAbility>
+</part>

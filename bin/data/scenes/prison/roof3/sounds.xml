@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Pelican_Rock.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">nightime_crickets_01_loop.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+	</sound>
+</sounds>

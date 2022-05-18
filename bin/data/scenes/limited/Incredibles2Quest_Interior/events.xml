@@ -1,0 +1,97 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">violet</param2>
+			<param3 id="sayID">start</param3>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">1</param2>
+		</event>
+		<event>
+			<param1 id="action">awardCard</param1>
+			<param2 id="card">2894</param2>
+		</event>
+	</group>
+	<group type="triggered" id="startViolet">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npc">jackjack</param2>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overshirt</param2>
+			<param3 id="partValue">limited_jackjack</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">dash</param2>
+			<param3 id="sayID">start</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param2 id="target">1350,1300</param2>
+			<param2 id="wait">true</param2>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+	</group>
+	<group type="triggered" id="startDash">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npc">jackjack</param2>
+		</event>
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">overshirt</param2>
+			<param3 id="partValue">limited_jackjack</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param2 id="target">1300,1300</param2>
+			<param2 id="wait">true</param2>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+	</group>
+</events>

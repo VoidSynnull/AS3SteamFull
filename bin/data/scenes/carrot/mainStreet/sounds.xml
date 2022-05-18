@@ -1,0 +1,49 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">24_Carrot_Main_Theme.mp3</asset>
+		<asset event="destroyed_rabbot" loop="false" fade="true" exclusiveType="true">PoptropicaTheme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="door3">door_pushbar_open_02.mp3</asset>
+		<asset id="door5">door_pushbar_open_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- <asset triggeredByEvent="gotItem_medalCarrot">card_get.mp3</asset> -->
+		<!-- <asset triggeredByEvent="gotItem_betaCostume">card_get.mp3</asset> -->
+		<asset triggeredByEvent="victory">medallion_fanfare_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="dinerRoof">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="concreteRoof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="cinemaSign">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="lampPost">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="metalSign">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="gasPump">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="dinerRoof">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="concreteRoof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="cinemaSign">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="lampPost">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="metalSign">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="gasPump">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

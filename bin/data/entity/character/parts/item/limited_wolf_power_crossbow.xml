@@ -1,0 +1,39 @@
+<part>
+	<id>limited_wolf_power_crossbow</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2043</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/WolfWalkersQuest/wolf_power.swf</param>
+			<param id="tracking">WolfWalkersQuest,wolf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

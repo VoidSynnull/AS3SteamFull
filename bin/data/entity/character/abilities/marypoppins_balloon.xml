@@ -1,0 +1,23 @@
+<specialAbility id="limited/marypoppins_balloon">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddBalloon</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/birthday9.swf</param>
+		<param id="knotX">5</param>
+		<param id="knotY">5</param>
+		<param id="tracking">MaryPoppinsVBB,Balloon Power</param>
+	</parameters>
+	<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction" endDelay="2">
+					<parameters>
+						<param id="char" type="entity">NPCs</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">limited_wir_glitch</param>
+					</parameters>
+				</action>
+				
+			</actionChain>
+		</actions>
+</specialAbility>

@@ -1,0 +1,17 @@
+<part>
+	<id>ad_pranks_ball</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2472</campaignID>
+	<specialAbility id="Bouncing Ball">
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<parameters>
+			<param id="partType">item</param>
+			<param id="stopWhenJump">true</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

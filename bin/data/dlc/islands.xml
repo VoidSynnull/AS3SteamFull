@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<target name="-build-island-zips">
+
+<create-island-zip
+    island="hub"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.hub"
+    packagedFileState="localCompressed"
+    files="hub.character.entity.assets,hub.character.entity.data,hub.sound.ambient,hub.sound.effects,hub.sound.music,hub.misc,"/>
+
+<create-island-zip
+    island="start"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.start"
+    packagedFileState="localCompressed"
+    files="start.character.entity.assets,start.character.entity.data,start.sound.effects,start.sound.music,start.misc,"/>
+
+<create-island-zip
+    island="map"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.map"
+    packagedFileState="localCompressed"
+    files="map.sound.music,map.misc,"/>
+
+<create-island-zip
+    island="reality2"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.reality2"
+    packagedFileState="remoteCompressed"
+    files="reality2.character.entity.assets,reality2.character.entity.data,reality2.sound.ambient,reality2.sound.effects,reality2.sound.music,reality2.misc,"/>
+	
+<create-island-zip
+    island="myth"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.myth"
+    packagedFileState="remoteCompressed"
+    files="myth.character.entity.assets,myth.character.entity.data,myth.sound.ambient,myth.sound.effects,myth.sound.music,myth.misc,"/>
+
+<create-island-zip
+    island="tutorial"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.tutorial"
+    packagedFileState="remoteCompressed"
+    files="tutorial.character.entity.assets,tutorial.character.entity.data,tutorial.misc,"/>
+
+<create-island-zip
+    island="carrot"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.carrot"
+    packagedFileState="remoteCompressed"
+    files="carrot.character.entity.assets,carrot.character.entity.data,carrot.sound.ambient,carrot.sound.effects,carrot.sound.music,carrot.misc,"/>
+
+<create-island-zip
+    island="time"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.time"
+    packagedFileState="remoteCompressed"
+    files="time.character.entity.assets,time.character.entity.data,time.sound.ambient,time.sound.effects,time.sound.music,time.misc,"/>
+
+<create-island-zip
+    island="deepDive1"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.deepDive1"
+    packagedFileState="remoteCompressed"
+    files="deepDive1.character.entity.assets,deepDive1.character.entity.data,deepDive1.sound.ambient,deepDive1.sound.effects,deepDive1.sound.music,deepDive1.misc,"/>
+
+<create-island-zip
+    island="deepDive2"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.deepDive2"
+    packagedFileState="remoteCompressed"
+    files="deepDive2.character.entity.assets,deepDive2.character.entity.data,deepDive2.sound.ambient,deepDive2.sound.effects,deepDive2.sound.music,deepDive2.misc,"/>
+
+<create-island-zip
+    island="deepDive3"
+    free="true"
+    storeID="com.pearsoned.poptropica.island.deepDive3"
+    packagedFileState="remoteCompressed"
+    files="deepDive3.character.entity.assets,deepDive3.character.entity.data,deepDive3.sound.ambient,deepDive3.sound.effects,deepDive3.sound.music,deepDive3.misc,"/>
+
+<create-island-zip
+    island="survival1"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.survival1"
+    packagedFileState="remoteCompressed"
+    files="survival1.character.entity.assets,survival1.character.entity.data,survival1.sound.ambient,survival1.sound.effects,survival1.sound.music,survival1.misc,"/>
+
+<create-island-zip
+    island="survival2"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.survival2"
+    packagedFileState="remoteCompressed"
+    files="survival2.character.entity.assets,survival2.character.entity.data,survival2.sound.ambient,survival2.sound.effects,survival2.sound.music,survival2.misc,"/>
+
+<create-island-zip
+    island="survival3"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.survival3"
+    packagedFileState="remoteCompressed"
+    files="survival3.character.entity.assets,survival3.character.entity.data,survival3.sound.ambient,survival3.sound.effects,survival3.sound.music,survival3.misc,"/>
+
+<create-island-zip
+    island="survival4"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.survival4"
+    packagedFileState="remoteCompressed"
+    files="survival4.character.entity.assets,survival4.character.entity.data,survival4.sound.ambient,survival4.sound.effects,survival4.sound.music,survival4.misc,"/>
+
+<create-island-zip
+    island="survival5"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.survival5"
+    packagedFileState="remoteCompressed"
+    files="survival5.character.entity.assets,survival5.character.entity.data,survival5.sound.ambient,survival5.sound.effects,survival5.sound.music,survival5.misc,"/>
+
+<create-island-zip
+    island="con1"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.con1"
+    packagedFileState="remoteCompressed"
+    files="con1.character.entity.assets,con1.character.entity.data,con1.sound.ambient,con1.sound.effects,con1.sound.music,con1.misc,"/>
+
+<create-island-zip
+    island="con2"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.con2"
+    packagedFileState="remoteCompressed"
+    files="con2.character.entity.assets,con2.character.entity.data,con2.sound.effects,con2.sound.music,con2.misc,"/>
+
+<create-island-zip
+    island="con3"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.con3"
+    packagedFileState="remoteCompressed"
+    files="con3.character.entity.assets,con3.character.entity.data,con3.sound.ambient,con3.sound.effects,con3.sound.music,con3.misc,"/>
+
+<create-island-zip
+    island="arab1"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.arab1"
+    packagedFileState="remoteCompressed"
+    files="arab1.character.entity.assets,arab1.character.entity.data,arab1.sound.ambient,arab1.sound.effects,arab1.sound.music,arab1.misc,"/>
+
+<create-island-zip
+    island="arab2"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.arab2"
+    packagedFileState="remoteCompressed"
+    files="arab2.character.entity.assets,arab2.character.entity.data,arab2.sound.ambient,arab2.sound.effects,arab2.sound.music,arab2.misc,"/>
+
+<create-island-zip
+    island="arab3"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.arab3"
+    packagedFileState="remoteCompressed"
+    files="arab3.character.entity.assets,arab3.character.entity.data,arab3.sound.ambient,arab3.sound.effects,arab3.sound.music,arab3.misc,"/>
+
+<create-island-zip
+    island="ghd"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.ghd"
+    packagedFileState="remoteCompressed"
+    files="ghd.character.entity.assets,ghd.character.entity.data,ghd.sound.ambient,ghd.sound.effects,ghd.sound.music,ghd.misc,"/>
+
+<create-island-zip
+    island="shrink"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.shrink"
+    packagedFileState="remoteCompressed"
+    files="shrink.character.entity.assets,shrink.character.entity.data,shrink.sound.ambient,shrink.sound.effects,shrink.sound.music,shrink.misc,"/>
+
+<create-island-zip
+    island="viking"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.viking"
+    packagedFileState="remoteCompressed"
+    files="viking.character.entity.assets,viking.character.entity.data,viking.sound.ambient,viking.sound.effects,viking.sound.music,viking.misc,"/>
+
+<create-island-zip
+    island="timmy"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.timmy"
+    packagedFileState="remoteCompressed"
+    files="timmy.character.entity.assets,timmy.character.entity.data,timmy.sound.ambient,timmy.sound.effects,timmy.sound.music,timmy.misc,"/>
+
+<create-island-zip
+    island="prison"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.prison"
+    packagedFileState="remoteCompressed"
+    files="prison.character.entity.assets,prison.character.entity.data,prison.sound.ambient,prison.sound.effects,prison.sound.music,prison.misc,"/>
+
+<create-island-zip
+    island="ftue"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.ftue"
+    packagedFileState="remoteCompressed"
+    files="ftue.character.entity.assets,ftue.character.entity.data,ftue.sound.ambient,ftue.sound.effects,ftue.sound.music,ftue.misc,"/>
+
+<create-island-zip
+    island="photoBoothIsland"
+    free="true"
+    storeID="com.pearsoned.poptropica.islands.photoBoothIsland"
+    packagedFileState="localCompressed"
+    files="photoBoothIsland.sound.effects,photoBoothIsland.misc,"/>
+</target>
+</project>

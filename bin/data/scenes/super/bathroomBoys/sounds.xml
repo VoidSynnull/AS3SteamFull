@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">air_ducts_3.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="porcelain">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="porcelain">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

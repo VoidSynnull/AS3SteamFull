@@ -1,0 +1,32 @@
+<item id="3220">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3220.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Shrink Ray Island</value>
+		</text>
+			<text id="storeTitle">
+			<value>Soda Bottle</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Shake it up, put it down,&#10;and watch the fun!</value>
+		</text>
+	</textfields>
+</item>

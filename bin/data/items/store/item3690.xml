@@ -1,0 +1,41 @@
+<item id="3690">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Apprentice Wizard</value>
+			 </text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<mouth>pmagic1</mouth>
+			<hair>apprentice_wizard</hair>
+			<shirt>apprentice_wizard</shirt>
+			<pants>skullnavigator</pants>
+			<pack>apprentice_wizard</pack>
+			<item>apprentice_wizard</item>
+			<overshirt>apprentice_wizard</overshirt>
+		</look>
+	</looks> 
+</item>

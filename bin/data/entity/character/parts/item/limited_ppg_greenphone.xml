@@ -1,0 +1,15 @@
+<part>
+	<id>limited_ppg_greenphone</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2772</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/PowerPuffGirls2016PartyRoom/FlyIn.swf</param>
+			<param id="tracking">PowerPuffGirls2016PartyRoom,Green Phone Power</param>
+		</parameters>
+	</specialAbility>
+</part>

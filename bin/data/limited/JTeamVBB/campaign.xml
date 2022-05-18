@@ -1,0 +1,21 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>JTeamVBB</campaignId> <!-- *** MUST match campaign folder name -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	<version>2</version>
+	<!-- if only one click URL is provided, then you only need Default -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.paramountplus.com/?cbscidmt=originals/?ftag=PPM-06-10ahj6g&dclid=CJr4rpv44vICFU0G0AQdrl8Gyg</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<!-- <clickUrl id="Video">http://www.google.com</clickUrl> -->  <!-- for clicking on visit sponsor button on video end screen -->
+		<!-- <clickUrl id="Poster">http://www.google.com</clickUrl> --> <!-- for clicking on posters that take user to sponsor site -->
+		<!-- <clickUrl id="Card">http://www.google.com</clickUrl> -->   <!-- for clicking on visit sponsor button on cards -->
+	</clickUrls>
+	<boycards>
+		<card>2078</card>
+		<card>2079</card>
+	</boycards>
+	<girlcards>
+		<card>2078</card>
+		<card>2079</card>
+	</girlcards>
+</campaign>

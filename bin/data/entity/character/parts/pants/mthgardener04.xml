@@ -1,0 +1,12 @@
+<part>
+	<id>mthgardener04</id>
+	<type>pants</type>
+		<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

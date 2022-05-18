@@ -1,0 +1,15 @@
+<part>
+	<id>ad_gh_queendagger</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<gender>female</gender>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>	
+</part>

@@ -1,0 +1,287 @@
+<npcs>
+	<npc id="ratchet">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x875927</hairColor>
+			<mouth>14</mouth>
+			<hair>pr_ratchet</hair>
+			<shirt>pr_guard2</shirt>
+			<pants>mtpoliceman</pants>
+			<overpants>shadycop</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2353</x>
+			<y>1071</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="nightingale">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x513b2b</hairColor>
+			<mouth>prisoner1</mouth>
+			<facial>pr_nightingale</facial>
+			<hair>1</hair>
+			<shirt>pr_guard</shirt>
+			<pants>mtpoliceman</pants>
+			<overpants>shadycop</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2600</x>
+			<y>1071</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="flambe">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>14</mouth>
+			<marks>pr_flambe</marks>
+			<hair>pr_flambe</hair>
+			<shirt>pr_flambe</shirt>
+			<pants>pr_prisoner</pants>
+			<item>pr_mixer</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>930</x>
+			<y>1071</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="flambe" event="ended_food_fight">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>14</mouth>
+			<marks>pr_flambe</marks>
+			<hair>pr_flambe</hair>
+			<shirt>pr_flambe</shirt>
+			<pants>pr_prisoner</pants>
+			<item>empty</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>930</x>
+			<y>1075</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="les">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Eat</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>15</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_les</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1445</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="sal">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Eat</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_sal</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1230</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="les"  event="escaped_big_tuna">
+		<animations loop="false">
+			<animation>game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>15</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_les</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1445</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="sal" event="escaped_big_tuna">
+		<animations loop="false">
+			<animation>game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_sal</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1230</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="patches">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Eat</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0xe0e0e0</hairColor>
+			<mouth>wkgrmpa</mouth>
+			<marks>pr_patches</marks>
+			<hair>pr_patches</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>squint</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1850</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="florian">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Eat</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xefa618</hairColor>
+			<mouth>15</mouth>
+			<marks>beautymark</marks>
+			<hair>pr_florian</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>casual</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>2130</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="marion">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Eat</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>17</mouth>
+			<marks>mthbonsaiwoman</marks>
+			<hair>pr_marion</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open</eyeState>
+			<item>pr_spoon</item>
+		</skin>
+		<position>
+			<x>1650</x>
+			<y>1024</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

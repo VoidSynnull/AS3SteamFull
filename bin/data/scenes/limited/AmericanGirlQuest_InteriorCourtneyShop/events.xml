@@ -1,0 +1,21 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">courtney</param2>
+			<param3 id="sayID">shop</param3>
+		</event>
+	</group>
+	<group type="triggered" id="setIcecreamPart">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="partValue">limited_scoopshake</param3>
+		</event>
+	</group>
+	<group type="triggered" id="colorize">
+		<event>
+			<param1 id="action">openColorizer</param1>
+		</event>
+	</group>
+</events>

@@ -1,0 +1,33 @@
+<item id="3316">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3316.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TAKE OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Night Watch Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Whoopzie Cushion</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to place cushion</web>
+			<mobile>Tap ACTION to place cushion</mobile>
+		</text>
+	</textfields>
+</item>

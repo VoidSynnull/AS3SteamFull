@@ -1,0 +1,23 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_6</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_44</hair>
+			<shirt>limited_4</shirt>
+			<pants>limited_tourist</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>620</x>
+			<y>415</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

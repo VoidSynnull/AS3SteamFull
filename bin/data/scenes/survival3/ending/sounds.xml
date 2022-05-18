@@ -1,0 +1,10 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_3_Ending_Cutscene.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset loop="true" baseVolume=".25">radio_static_01_loop.mp3</asset>
+		<asset triggeredByEvent="stand" loop="true">creaky_metal_12_loop.mp3</asset>
+	</sound>
+</sounds>

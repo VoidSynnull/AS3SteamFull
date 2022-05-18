@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Like my Smurf costume? Come see what's happening in the Smurf Village.</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

@@ -1,0 +1,36 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3,ls_thin_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="glass">ls_glass_01.mp3,ls_glass_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3,fs_thin_metal_02.mp3,fs_thin_metal_03.mp3,fs_thin_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="glass">fs_glass_01.mp3,fs_glass_02.mp3,fs_glass_03.mp3,fs_glass_04.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset event="statue_drag">heavy_gritty_drag_01_L.mp3</asset>
+		<asset event="enter_code">keypad_01.mp3</asset>
+		<asset event="code_wrong">ping_13.mp3</asset>
+		<asset event="code_right">ping_12.mp3</asset>
+		<asset event="safe_open">safe_open_01.mp3</asset>
+		<asset event="safe_close">safe_close_01.mp3</asset>
+		<asset event="game_rightPing">.mp3</asset>
+		<asset event="game_over_cards">event_07.mp3</asset>
+		<asset event="game_flipCard">card_flip_01.mp3</asset>
+	</sound>
+</sounds>

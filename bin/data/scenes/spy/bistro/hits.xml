@@ -1,0 +1,30 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tables" color="0xD70000" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="windowBlinds" color="0xDD8A62" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="kitchenCounter" color="0xE1D4BB" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="fridge" color="0xBCC0C3" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="vents" color="0x0099FF" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="lights" color="0xB6BBAC" platform="true">
+		<component type="platform"/>	
+	</hit>
+</hits>

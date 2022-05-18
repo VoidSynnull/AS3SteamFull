@@ -1,0 +1,67 @@
+<item id="3561"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+		<campaignID>MemberGift</campaignID>
+	
+		<buttons>
+			<btn>
+				<index>1</index>
+				<conditional id="playerIsScaled" isTrue="false"/>
+				<label>SHRINK YOURSELF</label>
+				<actions>
+				<action type="shrinkPlayer" tracking="Shrink Self">
+					<parameters>
+						<param id="scale">0.5</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>1</index>
+ 				<conditional id="playerIsScaled" isTrue="true"/>
+				<label>UNSHRINK SELF</label>
+				<actions>
+				<action type="unshrinkPlayer"/>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+				<conditional id="npcsAreScaled" isTrue="false"/>
+				<label>SHRINK OTHERS</label>
+				<actions>
+				<action type="shrinkNPCs" tracking="Shrink Others">
+					<parameters>
+						<param id="scale">0.5</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="npcsAreScaled" isTrue="true"/>
+				<label>UNSHRINK OTHERS</label>
+				<actions>
+				<action type="unshrinkNPCs"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value> <!-- Change this subtitle -->
+		</text>
+		<text id="storeTitle">
+			<value>Shrink Power</value> <!-- Change this title -->
+		</text>
+		</textfields>
+	
+	
+		<assets>
+		<asset id="cardBack" /><asset id="cardContent" />
+		</assets>
+		
+	<conditionals>
+			<conditional type="playerIsScaled" />
+			<conditional type="npcsAreScaled" />
+		</conditionals>
+</item>

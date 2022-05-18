@@ -1,0 +1,95 @@
+<hits>
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb3">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb4">
+		<component type="climb"/>
+	</hit>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="grass" color="0xB2BE9E" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="wood" color="0xCCBDA4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="old_wood" color="0xB4B1A4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="trees" color="0xBBC6A2" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="stone" color="0xBAC2CB" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="rope" color="0xC7B9A4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="waterBottom" color="0x006600" platform="true">
+		<component type="platform">
+		<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="ice" color="0xA8CFFF" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y><!-- <y>-1400</y> -->
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffff00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	<hit id="air" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-2000</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

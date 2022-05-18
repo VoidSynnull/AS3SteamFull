@@ -1,0 +1,64 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="chute" color="0xFF8484" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalPlatform" color="0x58A792" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crates" color="0xA49959" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="piping" color="0xCA7060" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="machine" color="0x809794" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="brackets" color="0x94B18F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="vent" color="0x9C998D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="smallPipe" color="0xAFDE8F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="crateHit1">
+		<component type="hazard">
+			<visible>crate1</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="crateHit2">
+		<component type="hazard">
+			<visible>crate2</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="crateHit3">
+		<component type="hazard">
+			<visible>crate3</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>500</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

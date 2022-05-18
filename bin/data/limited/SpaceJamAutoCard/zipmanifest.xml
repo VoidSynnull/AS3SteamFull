@@ -1,0 +1,51 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/SpaceJamAutoCard/" type="campaign" ext="xml">
+		<asset>version</asset>
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- followers -->
+
+	<assets path="assets/entity/character/hand/" type="foot" ext="swf">
+		<asset>limited_bugs_bunny_foot</asset>
+	</assets>
+	
+	<data path="data/entity/character/abilities/limited/" type="ability" ext="xml">
+		<asset>pop_follower_space_jam_bugs</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data path="data/items/limited/" type="card" ext="xml" prefix="item">
+		<asset>2050</asset>
+		<asset>2051</asset>
+		<asset>2052</asset>
+	</data>
+	<assets path="assets/items/limited/" type="card" ext="swf" prefix="item">
+		<asset>2050</asset>
+		<asset>2051</asset>
+		<asset>2052</asset>
+	</assets>
+
+	<assets path="assets/items/limited/backs/" type="cardBack" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<data path="data/entity/character/parts/overshirt/" type="overshirt" ext="xml">
+		<asset>limited_bugs_bunny_follower</asset>
+	</data>
+	<assets path="assets/entity/character/overshirt/" type="overshirt" ext="swf">
+		<asset>limited_bugs_bunny_follower</asset>
+	</assets>
+	<data path="data/entity/character/parts/item/" type="item" ext="xml">
+		<asset>limited_space_jam_transporter</asset>
+		<asset>limited_happymeal</asset>
+	</data>
+	<assets path="assets/entity/character/item/" type="item" ext="swf">
+		<asset>limited_space_jam_transporter</asset>
+		<asset>limited_happymeal</asset>
+	</assets>
+	<data type="support" path="assets/overlays/" ext="swf">
+		<asset>SpaceJam_animated_orb</asset>
+	</data>
+</manifest>

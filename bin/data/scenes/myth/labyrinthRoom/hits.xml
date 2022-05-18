@@ -1,0 +1,22 @@
+<hits>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+
+	<hit id="urn" color="0xA0D1C8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="statue" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stairs" color="0x00CCCC" platform="true">
+		<component type="platform"/>	
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

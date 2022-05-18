@@ -1,0 +1,70 @@
+<item id="3011">
+	<type>store</type>
+	<subType>general</subType>
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>25</x>
+	</contentClass>
+
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<radiobuttons>
+		<btn>
+			<color>0x528621</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFFFFFF</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x006599</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Crazy Rooster</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<looks>
+		 <look>
+			<mouth>15</mouth>
+			<facial>pRooster1</facial>
+			<hair>1</hair>
+			<shirt>pRooster1</shirt>
+			<pack>pRooster1</pack>
+			<pants>1</pants>
+		</look>
+		<look>
+			<mouth>15</mouth>
+			<facial>pRooster2</facial>
+			<hair>1</hair>
+			<shirt>pRooster2</shirt>
+			<pack>pRooster2</pack>
+			<pants>1</pants>
+		</look>
+		<look>
+			<mouth>15</mouth>
+			<facial>pRooster3</facial>
+			<hair>1</hair>
+			<shirt>pRooster3</shirt>
+			<pack>pRooster3</pack>
+			<pants>1</pants>
+		</look>
+	</looks> 
+	
+</item>

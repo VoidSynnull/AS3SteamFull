@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="sugar">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Go find that key!</statement>
+	</character>
+	<character id="clara">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="mouserun">I need a key to open this present my mother left me.</statement>
+		<statement id="mouse" triggerEvent="triggerEvent" triggerEventArgs="endmouse">Oh no! The mouse ran into the Fourth Realm! Hurry! We have to catch it.</statement>
+	</character>
+	<character id="dancer">
+		<statement>Welcome to the castle.</statement>
+	</character>
+	<character id="ginger">
+		<statement>The time has come.</statement>
+	</character>
+</dialogs>

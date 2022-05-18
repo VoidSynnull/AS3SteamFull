@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement event="hasAdItem_2645">Check out this fun, spookeriffic video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Check out this fun, spookeriffic video!</statement> <!-- if video done -->
+		<statement event="videoPlaying">Check out this fun, spookeriffic video!</statement> <!-- if video playing -->
+		<statement>Check out this fun, spookeriffic video!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

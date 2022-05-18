@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="char1">
+		<statement event="meet_thief">This forgery is so good,no one will ever realize the real card is missing!</statement>
+    	<statement event="chase_theif">Curse you! I'm caught redhanded!</statement>
+    	<statement event="thief_runs">But you'll never be able to catch up with me!</statement>
+    </character>
+    <character id="player">
+		<statement event="meet_thief">Ahem!</statement>
+    </character>
+</dialogs>

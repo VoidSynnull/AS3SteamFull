@@ -1,0 +1,27 @@
+<item id="whiteHat">
+	<type>island</type>
+	<subType>backlot</subType>
+	<buttons>
+		<btn>
+    		<label>USE</label>
+    		<actions>
+	    		<action type="triggerEvent">
+		  			<parameters>
+		  				<param id="event">whiteHat</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+	</buttons>
+	<textfields>
+ 		<text>
+      		<value>White Hat</value>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/BacklotBackground.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent"/>
+    </assets>
+</item>

@@ -1,0 +1,38 @@
+<scene>
+	<sceneType>billboard</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1930</right>
+		<bottom>670</bottom>
+	</cameraLimits>
+	<bounds>
+		<left>20</left>
+		<top>0</top>
+		<right>1900</right>
+		<bottom>610</bottom>
+	</bounds>
+	<data>custom.xml,doors.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>100</x>
+			<y>610</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

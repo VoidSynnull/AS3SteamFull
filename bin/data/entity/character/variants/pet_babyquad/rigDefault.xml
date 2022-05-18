@@ -1,0 +1,99 @@
+<character variant="pet_babyquad" assetPath="entity/pet_babyquad/" dataPath="entity/pet_babyquad/parts/">
+	<parts>
+		<part id="tail" optional="true">
+			<joint animDriven="true">tail</joint>
+			<partType>tail</partType>
+		</part>
+		<part id="calf4">
+			<joint animDriven="true">calf4</joint>
+			<partType>calf</partType>
+		</part>
+		<part id="thigh4">
+			<joint animDriven="true">thigh4</joint>
+			<partType>thigh</partType>
+		</part>
+		<part id="paw4">
+			<joint animDriven="true">paw4</joint>
+			<partType>paw</partType>
+		</part>
+		<part id="calf2">
+			<joint animDriven="true">calf2</joint>
+			<partType>calf</partType>
+		</part>
+		<part id="thigh2">
+			<joint animDriven="true">thigh2</joint>
+			<partType>thigh</partType>
+		</part>
+		<part id="paw2">
+			<joint animDriven="true">paw2</joint>
+			<partType>paw</partType>
+		</part>
+		<part id="bodySkin">
+			<joint animDriven="true">body</joint>
+			<partType>bodySkin</partType>
+		</part>
+		<part id="calf3">
+			<joint animDriven="true">calf3</joint>
+			<partType>calf</partType>
+		</part>
+		<part id="thigh3">
+			<joint animDriven="true">thigh3</joint>
+			<partType>thigh</partType>
+		</part>
+		<part id="paw3">
+			<joint animDriven="true">paw3</joint>
+			<partType>paw</partType>
+		</part>
+		<part id="calf1">
+			<joint animDriven="true">calf1</joint>
+			<partType>calf</partType>
+		</part>
+		<part id="thigh1">
+			<joint animDriven="true">thigh1</joint>
+			<partType>thigh</partType>
+		</part>
+		<part id="paw1">
+			<joint animDriven="true">paw1</joint>
+			<partType>paw</partType>
+		</part>
+		<part id="neck">
+			<joint animDriven="true" ignoreRotation="true">neck</joint>
+		</part>
+		<part id="overbody">
+			<joint animDriven="true">body</joint>
+			<partType>overbody</partType>
+		</part>
+		<part id="marks" optional="true">
+			<joint>head</joint>
+			<partType>marks</partType>
+		</part>
+		<part id="hat" optional="true">
+			<joint>head</joint>
+			<partType>hat</partType>
+		</part>
+		<part id="headSkin">
+			<joint>head</joint>
+			<partType>headSkin</partType>
+		</part>
+		<part id="eyes" optional="true">
+			<joint>head</joint>
+			<partType>eyes</partType>
+		</part>
+		<part id="mouth" optional="true">
+			<joint>head</joint>
+			<partType>mouth</partType>
+		</part>
+		<part id="facial" optional="true">
+			<joint>head</joint>
+			<partType>facial</partType>
+		</part>
+	</parts>
+</character>
+
+
+
+
+
+
+
+

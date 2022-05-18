@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pPromQueen1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>ad_tip</hair>
+			<shirt>ad_tip</shirt>
+			<pants>comic_oliver</pants>
+			<overshirt>ad_tip</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>60</x>
+			<y>413</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

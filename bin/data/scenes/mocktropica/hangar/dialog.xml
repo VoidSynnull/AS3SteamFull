@@ -1,0 +1,30 @@
+<dialogs>
+	<character id="bucketBot">
+		<conversation>
+			<exchange>
+				<question>Are you one of the Mega Fighting Bots?</question>
+				<answer>Mega? Me? Ha! I'm Bucket Bot -- the scrap pile they send out every time a new player registers.</answer>
+			</exchange>
+			<exchange>
+				<question>Have you seen someone named Mark Hertz?</question>
+				<answer>Colonel Hertz?! He's the one who keeps pummeling me in order to gouge new players into paying for upgrades. He's evil.</answer>
+			</exchange>
+			<exchange>
+				<question>Why don't we team up and go after him?</question>
+				<answer>Why not? I couldn't be any more miserable as it is. Use the Mega Customizing Console to get started.</answer>
+			</exchange>
+		</conversation>
+	</character>
+	
+	
+	<character id="hertz">
+		<statement id="monster" link="but_why" linkEntityId="player">What have I become? Microtransactions... cheevos... I'm a monster!</statement>
+		<statement id="bonus_quests" link="dat_att" linkEntityId="player">I couldn't take another half-baked bonus quest. But you've shown me the error of my ways. These bonus quests are well worth the price of membership. It's a bargain, really.</statement>
+		<statement id="lets_go" triggerEvent="triggerEvent" triggerEventArgs="hertz_rejoined, true">Let's go. I think Bucket Bot has things under control here.</statement>
+	</character>
+	
+	<character id="player">
+		<statement id="but_why" link="bonus_quests" linkEntityId="hertz">Why'd you do it, Hertz? Why did you turn your back on Poptropica?</statement>
+		<statement id="dat_att" link="lets_go" linkEntityId="hertz">They could use that attitude back at Pop HQ.</statement>
+	</character>
+</dialogs>

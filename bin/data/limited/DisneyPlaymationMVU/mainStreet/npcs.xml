@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_franklin_pain</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>7</facial>
+			<hair>sponsor_kk_bully01</hair>
+			<shirt>limited_playmation</shirt>
+			<pants>wwconductor</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt>limited_playmation_labcoat</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-29</x>
+			<y>425</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

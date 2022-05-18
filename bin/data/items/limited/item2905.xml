@@ -1,0 +1,79 @@
+<item id="2905"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Tigger Follower Card</name> <!-- *** Change this card name -->
+  	<campaignID>ChrisRobinMVU</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>1</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Christopher Robin</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Tigger Follower</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<web>Spacebar tap to make Tigger bounce</web>
+			<mobile>Action button tap to make Tigger bounce</mobile>
+			<y>66</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlueCyan.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<pack>limited_pooh</pack>
+		</look>
+	</looks> 
+
+ 	 	<specials>
+		<specialAbility>limited/pop_follower_tigger</specialAbility>	
+	</specials>
+</item>

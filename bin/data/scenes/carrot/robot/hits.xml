@@ -1,0 +1,48 @@
+<hits>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="rabbot" color="0x5B9DFF" platform="true">
+		<component type="platform"/>		
+	</hit>
+	<hit id="woodPlatforms" color="0xE18B0B" platform="true">
+		<component type="platform"/>		
+	</hit>
+	<hit id="barrels" color="0xDD4722" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinPipes" color="0x41E0FC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="fuelTanks" color="0xAB92A4" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="computer" color="0x6F8D95" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lights" color="0xB59D82" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>		
+	</hit>
+
+	<hit id="hoverPad">
+		<component type="platform">
+			<visible>hoverPadArt</visible>
+		</component>
+	</hit>
+	
+	<!-- <hit id="handHit1">
+		<component type="movingPlatform">
+			<visible>hand1</visible>
+		</component>
+	</hit>
+	
+	<hit id="handHit2">
+		<component type="movingPlatform">
+			<visible>hand2</visible>
+		</component>
+	</hit> -->
+</hits>

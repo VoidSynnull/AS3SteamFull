@@ -1,0 +1,40 @@
+<item id="3177">
+	<type>store</type>
+	<subType>general</subType>
+				
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<buttons>
+			<btn>
+				<index>1</index>
+				<label>COSTUMIZE</label>
+				<actions>
+				<action type="costumize"/>
+		</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+				<label>PAPERIZE</label>
+				<actions>
+			<action type="applyLookNPC"/>
+		</actions>
+			</btn>
+		</buttons>
+		<textfields>
+		<text id="storeTitle2">
+			<value>Paper Girl</value>
+			</text>
+	</textfields>
+		<assets>
+			<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+		
+		<looks>
+			<look>
+			<overshirt>vh_goodbody</overshirt>
+		 	</look> 
+	</looks>
+</item>

@@ -1,0 +1,87 @@
+<item id="2793"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>TTG Costumes Card</name> <!-- Change this card name -->
+  	<campaignID>PPGTTGPartyRoom</campaignID> <!-- Change this CMS name -->
+	
+    <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<y>15</y>
+	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use TTG Costumes Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="TTG Costumes Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0xEC1B3B</color>
+			<val>0</val>
+			<y>20</y>
+		</btn>
+		<btn>
+			<color>0xACB7BE</color>
+			<val>1</val>
+			<y>20</y>
+		</btn>
+		<btn>
+			<color>0x28368F</color>
+			<val>2</val>
+			<y>20</y>
+		</btn>
+	</radiobuttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-148</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundLightBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.swf -->
+  	</assets>
+  	
+  	<looks> <!-- Set up the looks for each button -->
+	    <look> <!-- Only list what you want to change -->
+			<facial>limited_robin</facial>
+			<shirt>limited_robin</shirt>
+			<pants>limited_robin</pants>
+			<pack>limited_robin</pack>
+			<overshirt>empty</overshirt>
+		</look>
+		<look>
+			<facial>limited_cyborg</facial>
+			<pants>limited_cyborg</pants>
+			<pack>empty</pack>
+			<overshirt>limited_cyborg</overshirt>
+		</look>
+		<look>
+			<facial>limited_raven</facial>
+		</look>
+	</looks> 
+	
+</item>

@@ -1,0 +1,22 @@
+<part>
+	<id>limited_teentitans_beastboy</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2936</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colors>
+		<color id="greenColor">0x8dc640</color>
+	</colors>
+	<applyColors>
+		<applyColor id="greenColor">
+			<part id="skinColor">skinColor</part>
+		</applyColor>
+		<applyColor id="greenColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+</part>

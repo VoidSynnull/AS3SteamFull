@@ -1,0 +1,17 @@
+<part>
+	<id>ppromking1c</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="shirtColor">0x735ECC</color>
+		<color id="bowColor">0x735ECC</color>
+	</colors>
+	<colorables>
+		<colorable id="shirtColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="bowColor">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+	</colorables>
+</part>

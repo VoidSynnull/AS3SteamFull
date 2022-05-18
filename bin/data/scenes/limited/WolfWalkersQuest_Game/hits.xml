@@ -1,0 +1,28 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x6DBDB2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xFF6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xFFCC00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="ground" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1300</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

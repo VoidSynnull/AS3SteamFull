@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>astroKing</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sideburns2</marks>
+			<facial>boardwalk_sunglassesboys</facial>
+			<hair>wwpospector</hair>
+			<shirt>sponsor_tucker</shirt>
+			<pants>nw_burg</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>359</x>
+			<y>320</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

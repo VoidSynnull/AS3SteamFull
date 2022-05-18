@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" triggeredByEvent="in_the_hall" exclusiveType="true">Prisoner.mp3</asset>
+		<asset loop="true" fade="true" triggeredByEvent="in_the_roof" exclusiveType="true">Pelican_Rock.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true" triggeredByEvent="in_the_hall" exclusiveType="true">room_tone_01_loop.mp3</asset>
+		<asset loop="true" fade="true" triggeredByEvent="in_the_roof" exclusiveType="true">sewers_or_cave_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="ventFloor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="machineFloor">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="machine">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="pipe">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="ventFloor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3,fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="machineFloor">fs_carpet_01.mp3, fs_carpet_02.mp3,fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3,fs_wood_01.mp3, fs_wood_02.mp3</asset>
+		<asset id="machine">fs_general_metal_01.mp3,fs_general_metal_02.mp3,fs_general_metal_03.mp3,fs_general_metal_04.mp3</asset>
+		<asset id="pipe">fs_general_metal_verb_01.mp3,fs_general_metal_verb_02.mp3,fs_general_metal_verb_03.mp3,fs_general_metal_verb_04.mp3</asset>
+	</sound>
+</sounds>

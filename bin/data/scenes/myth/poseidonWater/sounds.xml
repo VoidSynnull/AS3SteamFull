@@ -1,0 +1,24 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poseidon_realm.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">under_water.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="waterDive">fs_under_water_swirl_01.mp3,fs_under_water_swirl_02.mp3,fs_under_water_swirl_03.mp3,fs_under_water_swirl_04.mp3,fs_under_water_swirl_05.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="clamHit">whack_01.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="break_rock">rock_hit_02.mp3</asset>
+		<asset triggeredByEvent="got_air_bubble" allowOverlap="false">myth_air_bubble_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="open">
+		<asset id="oyster" modifiers="position">myth_oyster_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="close">
+		<asset id="oyster" modifiers="position">myth_oyster_shut_01.mp3</asset>	
+	</sound>
+</sounds>

@@ -1,0 +1,101 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="fishTank" color="0xB8B5AF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="chair" color="0xF2C7B5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="book" color="0xEEB898" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="woodFurniture" color="0xC5B4A3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tape" color="0xE2E5DA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tapePlayer" color="0xA7A9A3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tv" color="0xC9C7BB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="shelf" color="0xF6EACC" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="pictureFrame" color="0xACDAEB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="remote" color="0xF6A69C" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="chairBounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="wallTip" color="0xff300">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="fishTankWater" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>10000</y>
+			</friction>
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="catHit">
+		<component type="hazard">
+			<visible>cat</visible>
+			<knockBackVelocity>
+				<x>600</x>
+				<y>1200</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

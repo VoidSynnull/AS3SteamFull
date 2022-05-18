@@ -1,0 +1,44 @@
+<npcs>
+	<npc id="moana">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x36150a</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_pcowgirl1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_liv</hair>
+			<shirt>limited_smurfs2_badgirl</shirt>
+			<pants>limited_wkviolet01</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>750</x>
+			<y>1395</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="maui">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_alphaomega</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>limited_spiritanimals_boy2</hair>
+			<shirt>limited_rick</shirt>
+			<pants>limited_pkarateboy3</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1660</x>
+			<y>1320</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

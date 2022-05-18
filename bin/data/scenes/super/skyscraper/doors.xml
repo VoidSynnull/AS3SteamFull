@@ -1,0 +1,28 @@
+<doors>
+	<door id="doorDowntown1">
+		<scene>game.scenes.superPower.downtown.Downtown</scene>
+		<x>2109</x>
+		<y>71</y>
+		<label>
+			<text>Go Down</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>-100</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorDowntown2">
+		<scene>game.scenes.superPower.downtown.Downtown</scene>
+		<x>2494</x>
+		<y>71</y>
+		<label>
+			<text>Go Down</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>-75</y>
+			</offset>
+		</label>
+	</door>
+</doors>

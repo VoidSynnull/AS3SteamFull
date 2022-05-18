@@ -1,0 +1,46 @@
+<part>
+	<id>limited_in2_flame</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2895</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<parameters>
+			<param id="tracking">Incredibles2Quest,flames</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_jackjack_flame</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">limited_jackjack_flame</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="HideSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,45 @@
+
+<springSet beingType="mannequin">
+	
+	<springData>
+		<part>head</part>
+		<leader>neck</leader>
+		<spring>1.8</spring>
+		<damp>0.4</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>-17</offsetX>
+		<offsetY>-72</offsetY>
+	</springData>	
+		
+	<springData>
+		<part>hair</part>
+		<leader>head</leader>
+		<spring>1.5</spring>
+		<damp>0.35</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>11</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>pack</part>
+		<leader>body</leader>
+		<spring>1.3</spring>
+		<damp>0.6</damp>
+		<rotateByVelocity>true</rotateByVelocity>
+		<offsetX>15</offsetX>
+		<offsetY>-10</offsetY>
+	</springData>
+	
+	<springData>
+		<part>item</part>
+		<leader>hand1</leader>
+		<spring>1.5</spring>
+		<damp>0.35</damp>
+		<rotateByLeader>true</rotateByLeader>
+		<offsetX>-4</offsetX>
+		<offsetY>-4</offsetY>
+	</springData>
+
+</springSet>
+

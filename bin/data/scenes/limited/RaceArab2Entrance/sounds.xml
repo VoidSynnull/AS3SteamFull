@@ -1,0 +1,35 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">thief_chase_2.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="elevatorButton">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="post">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="postDestroyed">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="enforcerIgnore">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="sand">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="magicSandPlat0">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="magicSandPlat1">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="magicSandPlat2">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="barrelRoll">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="pool">ls_water_splash_01.mp3, ls_water_splash_02.mp3, ls_water_splash_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="elevatorButton">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="post">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="postDestroyed">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="enforcerIgnore">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="sand">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="magicSandPlat0">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="magicSandPlat1">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="magicSandPlat2">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="barrelRoll">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="pool">fs_water_01.mp3, fs_water_01.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+	</sound>
+</sounds>

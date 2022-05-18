@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset event="small_tesla_buzz" loop="true">tesla_coil_01_L.mp3</asset>
+		<asset event="large_tesla_buzz">electric_hum_01_loop.mp3</asset>
+		<asset event="light_bulb_life">machine_lights_on.mp3</asset>
+		<asset event="machine_life">machine_on.mp3</asset>
+		<asset event="zeus_reveal">none</asset>
+		<asset event="lab_alarm" loop="true">alarm_05_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="hollow">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="hollow">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

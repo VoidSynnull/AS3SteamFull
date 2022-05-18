@@ -1,0 +1,41 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="cardboard" color="0xD3B596" platform="true">
+   	 	<component type="platform"/>
+  	</hit>
+	
+	<hit id="topConveyer" color="0x660099" platform="true">
+		<component type="platform"/>
+		<component type="mover">
+			<velocity>
+				<x>250</x>
+				<y>0</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="bottomConveyer" color="0x006699" platform="true">
+		<component type="platform"/>
+		<component type="mover">
+			<velocity>
+				<x>-250</x>
+				<y>0</y>
+			</velocity>
+		</component>
+	</hit>
+
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

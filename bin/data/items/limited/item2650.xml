@@ -1,0 +1,93 @@
+<item id="2650">
+<type>custom</type>
+	<subType>general</subType>
+	<name>Mixels Masks 2 Card</name> <!-- Change this card name -->
+  	<campaignID>Mixels2015Mask2IC</campaignID> <!-- Change this CMS name -->
+
+    <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		
+	</contentClass>
+	<radiobuttons>
+		<btn>
+			<color>0xD4CBC3</color>
+			<alpha>1</alpha>
+			<y>40</y>
+			<x>-80</x>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x7EAB13</color>
+			<alpha>1</alpha>
+			<y>90</y>
+			<x>-80</x>
+			<val>1</val>
+		</btn>
+			<btn>
+			<color>0x13639C</color>
+			<alpha>1</alpha>
+			<y>140</y>
+			<x>-80</x>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	<buttons>
+	<btn>
+  			<index>1</index>
+ 			
+    		<label>TAKE OFF</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>PUT ON MASK</label>
+			<actions>
+				<action type="costumize" tracking="Use Mixels Masks 2 Card"/>
+			</actions>
+		</btn>
+			<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Mixels Masks 2 Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+
+<textfields>
+<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+	</textfields>
+	
+		<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath>
+    	</asset>
+		<asset id="cardContent" /> 
+    </assets>
+
+  	<looks>
+		<look>
+			<facial>limited_mixels_nurp</facial>
+		</look>
+	    <look>
+			<facial>limited_mixels_rokit</facial>
+		</look>
+		<look>
+			<facial>limited_mixels_vampos</facial>
+		</look>
+	</looks> 
+
+</item>

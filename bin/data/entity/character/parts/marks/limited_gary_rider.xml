@@ -1,0 +1,36 @@
+<part>
+	<id>limited_gary_rider</id>
+	<type>marks</type>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>gary.BurpBubble</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">SpongeBobKampKoralMMSQ,Gary</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">marks</param>
+						<param id="startFrame" type="int">10</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+						<param id="endLabel" type="string">ending</param>
+						<param id="childName" type="string">gary</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

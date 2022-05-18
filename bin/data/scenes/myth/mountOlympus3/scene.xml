@@ -1,0 +1,40 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2500</right>
+		<bottom>1320</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>30</left>
+		<top>0</top>
+		<right>2455</right>
+		<bottom>1340</bottom>	
+	</bounds>
+	<data>dialog.xml,npcs.xml,sounds.xml,photos.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/myth/shared/sounds.xml, scenes/myth/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.80</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>931</x>
+			<y>1066</y>
+		</defaultPosition>
+		<scale>0.6</scale>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

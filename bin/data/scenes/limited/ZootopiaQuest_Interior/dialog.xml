@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="nick">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="dukeRun">Hurry! Help Judy catch a thief, Duke Weaselton.</statement> <!-- default if above not true -->
+	</character>
+	<character id="judy">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup|TopDown">Psssst! Hey! I need your help with Nick!</statement> <!-- default if above not true -->
+	</character>
+	<character id="flash">
+		<statement>Watch... this... cool... video... I... really... like...... it.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

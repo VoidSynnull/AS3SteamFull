@@ -1,0 +1,23 @@
+<dialogs>
+	<character id="char1">
+		<statement>If you're trying to find the science fair, it's over at the school.</statement>
+		<statement event="got_shrink_medallion">I hear there's an amazing new project at the science fair!</statement>
+    	<conversation event="got_address">
+			<exchange>
+				<question>Have you seen C.J.?</question>
+				<answer>I've been out here all day. I saw C.J. leave, but never saw her come back.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+	<character id="char2">
+		<statement>The science fair should be awesome this year!</statement>
+		<statement event="got_shrink_medallion">Glad to hear that C.J. is ok!</statement>
+		<conversation event="got_address">
+			<exchange>
+				<question>Is C.J. in her apartment?</question>
+				<answer>I thought I saw someone in C.J.'s apartment earlier, but when I knocked on the door, no one answered!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

@@ -1,0 +1,10 @@
+<specialAbility id="love_potion">
+	<save>false</save>
+	<className>game.data.specialAbility.store.Potion</className>
+	<parameters>
+		<param id="messWithSelf">true</param>
+		<param id="potionName">love_potion</param>
+		<param id="potionParticle">specialAbility/objects/heart.swf</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

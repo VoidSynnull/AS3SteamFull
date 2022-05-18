@@ -1,0 +1,30 @@
+<doors>
+	<door id="doorLeft">
+		<scene>game.scenes.survival1.cliffside.Cliffside</scene>
+		<x>5250</x>
+		<y>1140</y>
+		<direction>left</direction>
+		<label>
+			<text>GO LEFT</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorRight">
+		<scene>game.scenes.survival1.woods.Woods</scene>
+		<x>75</x>
+		<y>1775</y>
+		<direction>right</direction>
+		<label>
+			<text>GO RIGHT</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

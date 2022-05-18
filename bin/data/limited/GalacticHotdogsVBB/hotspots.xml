@@ -1,0 +1,10 @@
+<hotspots>
+	<hotspot type="poster" id="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+	<hotspot id="videoContainer" width="470" height="266" awardCredits="10" type="video" locked="true" controls="false">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+		<action type="awardCredits">10</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+</hotspots>

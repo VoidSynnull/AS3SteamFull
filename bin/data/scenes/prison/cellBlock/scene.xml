@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1358</right>
+		<bottom>1125</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>1500</right>
+		<bottom>1113</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,items.xml,photos.xml</data>
+	<absoluteFilePaths>scenes/prison/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>		
+		<layer>
+			<asset>background1.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background0.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>600</x>
+			<y>970</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

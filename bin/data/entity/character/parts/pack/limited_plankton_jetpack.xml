@@ -1,0 +1,15 @@
+<part>
+	<id>limited_plankton_jetpack</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility id="plankton_jetpack">
+		<save>true</save>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="tracking">SpongeBobKampKoralMMSQ,PlanktonJetpack</param>
+			<param id="noCarpet">true</param>
+		</parameters>
+		<className>game.data.specialAbility.islands.arab.MagicCarpet</className>
+	</specialAbility>
+</part>

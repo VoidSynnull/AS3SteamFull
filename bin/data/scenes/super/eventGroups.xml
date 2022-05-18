@@ -1,0 +1,75 @@
+<groups>
+	<!--  set copyCat  -->
+	<group event="setBoss1" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_1"/>
+		</and>
+	</group>
+	<!--  set speedingSpike  -->
+	<group event="setBoss2" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_2"/>
+		</and>
+	</group>
+	<!--  set sirRebral  -->
+	<group event="setBoss3" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_3"/>
+		</and>
+	</group>
+	<!--  set ratman  -->
+	<group event="setBoss4" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_4"/>
+		</and>
+	</group>
+	<!--  set crusher  -->
+	<group event="setBoss5" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_5"/>
+		</and>
+	</group>
+	<!--  set bettyJetty  -->
+	<group event="setBoss6" triggerAndSave="true">
+		<and>
+			<event not="true" type="beat_boss_6"/>
+		</and>
+	</group>
+	
+	
+	<!--  beat all bosses you don't need flight for  -->
+	<group event="beat_easy_bosses" triggerAndSave="true">
+		<and>
+			<event type="beat_boss_1"/>
+			<event type="beat_boss_2"/>
+			<event type="beat_boss_3"/>
+			<event type="beat_boss_4"/>
+			<event type="beat_boss_5"/>
+		</and>
+	</group>
+	
+	<!--  have hero ID, prisoner profiles and anti-power cuffs  -->
+	<group event="is_hero" triggerAndSave="true">
+		<and>
+			<event type="gotItem_superVillainFiles"/>
+			<event type="gotItem_antiPowerCuffs"/>
+			<event type="gotItem_superHeroID"/>
+		</and>
+	</group>
+
+	<!--  ned noodlehead asked for a hotdog, you never got one  -->
+	<group event="no_hotdog" triggerAndSave="true">
+		<and>
+			<event type="asked_for_hotdog"/>
+			<event not="true" type="gotItem_hotdog"/>
+		</and>
+	</group>
+	
+	<!--  you have ned's hotdog, can trade it for the island medal -->
+	<group event="trade_hotdog" triggerAndSave="true">
+		<and>
+			<event type="asked_for_hotdog"/>
+			<event type="gotItem_hotdog"/>
+		</and>
+	</group>
+</groups>

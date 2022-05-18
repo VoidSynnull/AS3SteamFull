@@ -1,0 +1,10 @@
+<specialAbility id="limited/follower_fairy_ring">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2538</param>
+		<param id="swfPath">limited/LandOfStoriesIC/FairyRingFollower.swf</param> <!-- path to follower swf -->
+		<param id="disableFlip">true</param>
+	</parameters>
+</specialAbility>

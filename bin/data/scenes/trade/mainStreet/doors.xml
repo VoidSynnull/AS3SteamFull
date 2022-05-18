@@ -1,0 +1,67 @@
+<doors>
+	<door id="doorMainStreet2Top">
+		<scene>game.scenes.trade.mainStreet2.MainStreet2</scene>
+		<x>30</x>
+		<y>1180</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorMainStreet2Bottom">
+		<scene>game.scenes.trade.mainStreet2.MainStreet2</scene>
+		<x>30</x>
+		<y>1790</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorBrokenBarrel">
+		<scene>game.scenes.trade.brokenBarrel.BrokenBarrel</scene>
+		<x>552</x>
+		<y>800</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorTravel">
+		<scene>game.scenes.trade.mainStreet.MainStreet</scene>
+		<x>1205</x>
+		<y>1515</y>
+		<label>
+			<text>Enter</text>
+			<type>exitUp</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorTradeStore">
+		<scene>game.scenes.trade.tradeStore.TradeStore</scene>
+		<x>710</x>
+		<y>498</y>
+		<label>
+			<text>Enter</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

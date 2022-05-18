@@ -1,0 +1,129 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="radial" color="0x9933CC">
+		<component type="radial"/>
+	</hit>
+	
+	<hit id="muscleGroup1" color="0x666633">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscleGroup2" color="0x339933">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscleGroup3" color="0x33CCFF">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscleGroup4" color="0x996666">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscleGroup5" color="0x6699CC">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="muscleGroup6" color="0x996633">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="nerve1Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve2Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve3Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve4Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve5Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve6Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="nerve7Target">
+		<component type="weaponTarget">
+			<maxDamage>0.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

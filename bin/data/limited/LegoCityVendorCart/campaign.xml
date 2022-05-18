@@ -1,0 +1,35 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>LegoCityVendorCart</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+  	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N789069.2522106PLAYWIRE/B21558566.226873510;dc_trk_aid=425097649;dc_trk_cid=104692392;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+	<!-- 
+	<impressionUrls>
+		<impressions id="AdImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.2522106PLAYWIRE/B21558566.226873510;dc_trk_aid=425097649;dc_trk_cid=104692392;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="NPCImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.2522106PLAYWIRE/B21558566.226873510;dc_trk_aid=425097649;dc_trk_cid=104692392;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="PosterImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.2522106PLAYWIRE/B21558566.226873510;dc_trk_aid=425097649;dc_trk_cid=104692392;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="CardImpression">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.2522106PLAYWIRE/B21558566.226873510;dc_trk_aid=425097649;dc_trk_cid=104692392;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	third-party impressions by event name -->
+	<cards>
+		<card>2913</card>
+	</cards>
+	<boycards>
+		<card>2913</card>
+	</boycards>
+	<girlcards>
+		<card>2913</card>
+	</girlcards>
+</campaign>

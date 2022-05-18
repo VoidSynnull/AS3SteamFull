@@ -1,0 +1,102 @@
+<item id="2541"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Dwarf Costume Card</name> <!-- Change this card name -->
+  	<campaignID>DisneyDXDAnimacationWK3Quest</campaignID> <!-- Change this CMS name -->
+	
+    <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+  		<y>19</y>
+	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Dwarf Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Dwarf Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0xFB451D</color>
+			<val>0</val>
+			<x>-230</x>
+			<y>45</y>
+		</btn>
+		<btn>
+			<color>0x87A81B</color>
+			<val>1</val>
+			<x>-230</x>
+			<y>95</y>
+		</btn>
+		<btn>
+			<color>0x91714A</color>
+			<val>2</val>
+			<x>-230</x>
+			<y>145</y>
+		</btn>
+	</radiobuttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Disney XD Animacation</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Dwarf Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<looks> <!-- Set up the looks for each button -->
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xfbdfcb</skinColor>
+			<eyeState>squint</eyeState> <!-- 1:c, 2:casual, 3:open -->
+			<mouth>5</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>ad_dxd7d_dopey</facial>
+			<shirt>ad_dxd7d_dopey</shirt>
+			<pants>bl_sofia</pants>
+		</look>
+		<look>
+			<skinColor>0xfbdfcb</skinColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>5</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>ad_dxd7d_bashful</facial>
+			<shirt>ad_dxd7d_bashful</shirt>
+			<pants>ad_dxd7d_bashful</pants>
+		</look>
+		<look>
+			<skinColor>0xfbdfcb</skinColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>2</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>ad_dxd7d_grumpy</facial>
+			<shirt>ad_dxd7d_grumpy</shirt>
+			<pants>ad_dxd7d_grumpy</pants>
+		</look>
+	</looks> 
+	
+</item>

@@ -1,0 +1,14 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winPhrase>We found the mouse!</winPhrase> <!-- Optional -->
+	<startNPCPhrase npc="clara">Quick! Catch that mouse!</startNPCPhrase> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>clara</chaserPrefix>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>3150</returnX>
+	<returnY>1430</returnY>
+</game>

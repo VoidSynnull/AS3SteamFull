@@ -1,0 +1,34 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>Frozen2VBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://movies.disney.com/frozen-2</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22323811.257130826;dc_trk_aid=453883016;dc_trk_cid=99808761;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoClicked">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22323811.257130826;dc_trk_aid=453883016;dc_trk_cid=99808761;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22323811.257130838;dc_trk_aid=453883016;dc_trk_cid=99808761;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22323811.256825052;dc_trk_aid=453883016;dc_trk_cid=99808761;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<boycards>
+		<card>2983</card>
+		<card>2984</card>
+	</boycards>
+	<girlcards>
+		<card>2983</card>
+		<card>2984</card>
+	</girlcards>
+</campaign>

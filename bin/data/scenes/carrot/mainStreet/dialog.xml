@@ -1,0 +1,42 @@
+<dialogs>
+	<character id="dr beev">
+		
+		<statement link="answer">What did the beaver say to the tree?</statement>
+		<statement id="answer" triggerEvent="giveItem" triggerEventArgs="3703">It's been nice gnawing you!</statement>
+		
+		<statement event="gotItem_3703">Sorry, that joke has been gnawing at me for weeks. I just had to say it.</statement>
+	</character>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>text1</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>text3</question>
+				<answer>text4</answer>
+			</exchange>
+			<exchange>
+				<question>text5</question>
+				<answer>text6</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="destroyed_rabbot" link="get_medal">text7</statement>
+		<statement id="get_medal" triggerEvent="triggerEvent" triggerEventArgs="award_medal">text8</statement>
+		
+		<statement event="gotItem_medalCarrot">text9</statement>
+	</character>
+	<character id="char2">
+		<statement>text10</statement>
+		<statement event="destroyed_rabbot">text11</statement>
+	</character>
+	<character id="char3">
+		<statement>text12</statement>
+		<statement event="destroyed_rabbot" link="reopen">text13</statement>
+		<statement id="reopen">text14</statement>
+	</character>
+	<character id="char5">
+		<statement>text15</statement>
+	</character>
+</dialogs>

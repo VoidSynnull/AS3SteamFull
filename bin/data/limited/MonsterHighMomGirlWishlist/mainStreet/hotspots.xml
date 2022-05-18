@@ -1,0 +1,16 @@
+<hotspots>
+	<hotspot id="btnGetCards" type="poster">
+		<action type="giveItemMale">2608,2607</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">2608,2607</action> <!-- To award an item card to a girl -->
+		<action type="suppressSponsorClick">true</action> <!-- Prevent awarding of card to end with sponsor link click -->
+		<action type="autoOpenPopupClass">game.scenes.custom.WishlistPopup</action>
+		<action type="autoOpenPopupFile">MonsterHighMomGirlWishlist/wishlist.swf</action>
+		<action type="autoOpenPopupClickURL">http://ad.doubleclick.net/ddm/trackclk/N763.fen.comOX6820/B8270071.111620976;dc_trk_aid=286198671;dc_trk_cid=60303802</action>
+		<action type="autoOpenPopupSaveToggleButtons">true</action>
+		<action type="autoOpenPopupTrackToggleButtons">true</action>
+		
+	</hotspot>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+</hotspots>

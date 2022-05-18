@@ -1,0 +1,39 @@
+<events>
+	<group type="triggered" id="gong">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param2 id="npcID">webby</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">webby</param2>
+			<param3 id="sayID">nobody</param3>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param2 id="npcID">dewey</param2>
+		</event>
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">gong</param2>
+			<param3 id="startLabelName">start</param3>
+			<param4 id="endLabelName">end</param4>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">dewey</param2>
+			<param3 id="sayID">oops</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+		<event>
+			<param1 id="action">setCameraTarget</param1>
+			<param2 id="npcID">player</param2>
+		</event>
+	</group>
+</events>

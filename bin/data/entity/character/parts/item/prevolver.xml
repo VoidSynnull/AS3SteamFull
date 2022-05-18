@@ -1,0 +1,18 @@
+<part>
+	<id>prevolver</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"/>
+	</components>
+  	
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TimelineGun</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<parameters>
+			<param id="instanceFlip">active_obj.fireGun.bangSign</param>
+		</parameters>
+  	</specialAbility>
+</part>

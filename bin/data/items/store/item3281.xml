@@ -1,0 +1,65 @@
+<item id="3281">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0x009933</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xCC6600</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x6666CC</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Wimpy Boardwalk</value>
+		</text>
+		<text id="storeTitle">
+			<value>Beachgoer</value>
+		</text>
+	</textfields>
+	<looks>
+		<look>
+			<mouth>youngsherpa</mouth>
+			<facial>boardwalk_sunglassesboys</facial>
+			<hair>gulliver</hair>
+			<shirt>boardwalk_boy</shirt>
+			<pants>boardwalk_boy3</pants>
+		</look>
+		<look>
+			<mouth>youngsherpa</mouth>
+			<facial>boardwalk_sunglassesboys</facial>
+			<hair>gulliver</hair>
+			<shirt>boardwalk_boy</shirt>
+			<pants>boardwalk_boy2</pants>
+		</look>
+		<look>
+			<mouth>youngsherpa</mouth>
+			<facial>boardwalk_sunglassesboys</facial>
+			<hair>gulliver</hair>
+			<shirt>boardwalk_boy</shirt>
+			<pants>boardwalk_boy</pants>
+		</look>
+	</looks>
+</item>

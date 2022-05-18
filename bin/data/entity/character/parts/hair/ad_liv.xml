@@ -1,0 +1,18 @@
+<part>
+	<id>ad_liv</id>
+	<type>hair</type>
+	<gender>female</gender>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,49 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/ViewMasterTestIC/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>classes</asset>
+	</data>
+
+	<data type="game" path="data/limited/ViewMasterTestIC/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/ViewMasterTestIC/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<assets type="support" path="assets/limited/" ext="swf">
+		<asset>DisneyInfinity2VendorCart/origanim</asset>
+	</assets>
+	
+	<data type="support" path="data/entity/character/animation/human" ext="xml">
+		<asset>Salute</asset>
+	</data>
+	
+		<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2712</asset>
+	</data>
+	
+	<data type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2712</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	
+		<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>vmtest</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>vmtest</asset>
+	</assets>
+	
+</manifest>

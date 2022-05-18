@@ -1,0 +1,47 @@
+<item id="3351">
+		<type>store</type>
+		<subType>general</subType>
+
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Cyclops Costume (boys) Card"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Mythology Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Cyclops</value>
+			</text>
+	</textfields>
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+			<skinColor>0xaaaa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>p_CountVampire</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>myth_cyclops_boy</facial>
+			<hair>myth_cyclops_boy</hair>
+			<pants>1</pants>
+			<pack>myth_cyclops</pack>
+			<item>myth_cyclops</item>
+			<overpants>myth_cyclops</overpants>
+		</look>
+	</looks> 
+
+</item>

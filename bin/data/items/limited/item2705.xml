@@ -1,0 +1,72 @@
+<item id="2705"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Captain Underpants Stinks Card</name> <!-- Change this card name -->
+  	<campaignID>CaptUndStinkIC</campaignID> <!-- Change this CMS name -->
+	
+
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>GET POWER!</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Captain Underpants Stinks Card"> <!-- change tracking call -->
+				</action>
+			</actions>
+  		</btn>
+		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>TURN OFF</label>
+    		<actions>
+					<action type="removeLook"/>
+			</actions>
+  		</btn>		
+    	<btn>
+    		<index>0</index>
+      		<label>MAKE YOUR COMIC!</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Captain Underpants Stinks Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="adtitle">
+			<value>Stink Power</value> <!-- Change this title -->
+			<y>-165</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+		
+  	</textfields>
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBrightBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		  <asset id="cardContent" />  
+	</assets>
+
+	<looks>
+		<look>
+			<facial>limited_captainunderpants_hat</facial>
+		</look>
+	</looks>
+    
+ 	
+</item>

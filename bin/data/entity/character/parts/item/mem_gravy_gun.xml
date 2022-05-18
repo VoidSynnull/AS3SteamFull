@@ -1,0 +1,39 @@
+<part>
+	<id>mem_gravy_gun</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">specialAbility/objects/gravy_lazer.swf</param>
+			<param id="targetPrefix">shoot</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>
+			<param id="offsetX">20</param>
+			<param id="offsetY">40</param>
+			<param id="inset">80</param>
+		</parameters>
+
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">mem_gravy_splat</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">overshirt</param>
+						<param type="string">mem_gravy_splat</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

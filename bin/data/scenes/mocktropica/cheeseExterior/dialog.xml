@@ -1,0 +1,11 @@
+﻿<dialogs>
+	<character id="guard">
+		<statement event="">Scram! No one gets past me.</statement>
+		<statement id="beat_it">I said beat it!</statement>
+		<statement event="is_happy">I suddenly feel different. I feel sort of... friendly! Welcoming, even!</statement>
+    </character>
+    
+    <character id="boy">
+    	<statement id="boy_multiplying" triggerEvent="completeEvent" triggerEventArgs="boy_left_cheese_exterior">These pets won't stop eating! They're multiplying!</statement>
+    </character>
+</dialogs>

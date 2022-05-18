@@ -1,0 +1,57 @@
+<item id="3264">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass>
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		<btn>
+			
+				<label>TURN TO STONE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<textfields>
+		<text id="storeTitle">
+			<value>Troll</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Click a Poptropican to&#10;turn them to stone!</web>
+			<mobile>Tap a Poptropican to&#10;turn them to stone!</mobile>
+		</text>
+	</textfields>
+		
+		<specials>
+			<specialAbility>turn_npcs_to_stone</specialAbility>
+		</specials>
+		
+		<looks>
+		<look>
+			<facial>ptroll</facial>
+			<hair>26</hair>
+			<marks>ptroll</marks>
+			<mouth>7</mouth>
+			<overshirt>ptroll</overshirt>
+			<pack>ptroll</pack>
+			<pants>empty</pants>
+		</look>
+	</looks>
+</item>

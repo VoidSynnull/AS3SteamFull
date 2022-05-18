@@ -1,0 +1,39 @@
+<dialogs>
+	<character id="npc1">
+		<statement>Watch your valuables! There are thieves about.</statement>
+    </character>
+    
+	<character id="npc2">
+		<statement>The sultan holes himself up in the palace with his riches, while the people are terrorized by the 40 thieves!</statement>
+    </character>
+    
+    <character id="npc3">
+		<statement>I've tried to sneak into the palace, but the guards are too quick.</statement>
+    </character>
+    
+    <character id="npc4">
+		<statement>The view from the top is amazing! You can see the whole desert.</statement>
+    </character>
+
+	<character id="trader1">
+		<statement id="comment">I can tell you have a good eye! This is, indeed, a magical lamp.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader1">Let's trade!</statement>
+    </character>
+    
+	<character id="trader2">
+		<statement id="comment">My spyglass will let you see things you could never have imagined.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader2">Let's trade!</statement>
+    </character>
+    
+    <character id="trader3">
+    	<statement id="comment">Isn't this the most beautiful camel you've ever seen? Shame about the biting...</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="trader3">Let's trade!</statement>
+		<statement id="gave_camel_harness">If you can control him, this camel will follow you just about anywhere.</statement>
+    </character>
+    
+    <character id="player">
+		<statement id="smoke_bomb_left">Looks like they left something behind.</statement>
+		<statement id="camel_taken">So that's where their hideout is!</statement>
+		<statement id="need_spy_glass">Looks like it's meant to hold a spyglass.</statement>
+    </character>
+</dialogs>

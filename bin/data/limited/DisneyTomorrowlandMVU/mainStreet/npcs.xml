@@ -1,0 +1,25 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>5</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>pvampire_girl01</hair>
+			<shirt>pvampire_boy</shirt>
+			<pants>policeman</pants>
+			<overshirt>is_bert</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>105</x>
+			<y>400</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

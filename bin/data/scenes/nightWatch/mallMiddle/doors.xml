@@ -1,0 +1,54 @@
+<doors>
+	<door id="leftExit">
+		<scene>game.scenes.nightWatch.mallLeft.MallLeft</scene>
+		<x>2770</x>
+		<y>1950</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="securityExit">
+		<scene>game.scenes.nightWatch.securityOffice.SecurityOffice</scene>
+		<x>1035</x>
+		<y>425</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="managerExit">
+		<scene>game.scenes.nightWatch.managersOffice.ManagersOffice</scene>
+		<x>904</x>
+		<y>542</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.nightWatch.mallRight.MallRight</scene>
+		<x>19</x>
+		<y>1940</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

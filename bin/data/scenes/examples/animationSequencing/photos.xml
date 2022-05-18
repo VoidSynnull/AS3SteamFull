@@ -1,0 +1,25 @@
+<photos>
+    <photo>
+        <id>11700</id>
+        <triggerType>event</triggerType>
+        <parameters>
+            <param id="event">returnEgg</param>
+        </parameters>
+     </photo>
+	<photo>
+        <id>11703</id>
+        <triggerType>item</triggerType>
+        <parameters>
+            <param id="itemid">1001</param>
+        </parameters>
+    </photo>
+	<photo>
+    <id>11700</id>
+        <triggerType>location</triggerType>
+        <parameters>
+            <param id="xpos">750</param>
+            <param id="ypos">1000</param>
+            <param id="proximity">1000</param>
+        </parameters>
+     </photo>
+</photos>

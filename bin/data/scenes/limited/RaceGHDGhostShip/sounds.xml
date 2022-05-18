@@ -1,0 +1,44 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">dark_atmosphere.mp3</asset>
+	</sound>
+	<sound type="effects" action="climb">
+		<asset id="climb" exclusiveType="true">wire_strain_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb" exclusiveType="true">rubber_stretch_14.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="popup1">door_hydrolics_open_01.mp3</asset>
+		<asset triggeredByEvent="popup2">bear_growl_02.mp3</asset>
+		<asset triggeredByEvent="popup3">squish_05.mp3</asset>
+		<asset triggeredByEvent="popup4">openDoor_creakyGrill.mp3</asset>
+		<asset triggeredByEvent="popup5">squish_05.mp3</asset>
+		<asset triggeredByEvent="popup6">squish_05.mp3</asset>
+		<asset triggeredByEvent="popup7">door_hydrolics_open_01.mp3</asset>
+		<asset triggeredByEvent="popup8">creepy_monsters_2.mp3</asset>
+		<asset triggeredByEvent="popup9">squish_05.mp3</asset>
+		<asset triggeredByEvent="popup_lever1">machineLever.mp3</asset>
+		<asset triggeredByEvent="popup_lever2">machineLever.mp3</asset>
+		<asset triggeredByEvent="popup_lever3">machineLever.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="cans">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="baseGround">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="floor">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="gate0B">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="gate1B">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="gate2B">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="cans">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="baseGround">fs_general_metal_01.mp3, fs_general_metal_02.mp3,fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="floor">fs_general_metal_01.mp3, fs_general_metal_02.mp3,fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="gate0B">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="gate1B">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="gate2B">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+</sounds>

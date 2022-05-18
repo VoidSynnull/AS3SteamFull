@@ -1,0 +1,20 @@
+<part>
+	<id>racer_arab</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0xFFFFFF</color>
+		<color id="color2">0xFFFFFF</color>
+	</colors>
+	<colorables>
+		<colorable id="color2">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,62 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="couch" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bed" color="0xFF4D00" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="table" color="0xC47B39" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="chair" color="0xB76D00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="cardboard" color="0xC4A67D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tiledFloor" color="0x09C479" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="toiletTop" color="0xA6C180" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="toiletSeat" color="0xB9BEA5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sink" color="0xAEBBE8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wardrobe" color="0xA49D55" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodboards" color="0xD27575" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bathtub" color="0xA6967B" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="firePlace" color="0xA768A8" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

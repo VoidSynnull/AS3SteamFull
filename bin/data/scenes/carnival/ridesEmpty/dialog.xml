@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="ferrisWheel">
+		<statement>You can ride my Ferris Wheel free of charge next time we're in town.</statement>
+    </character>
+    <character id="foodStand">
+		<statement>You saved the day!</statement>
+    </character>
+    <character id="man">
+    	<statement link="nice" linkEntityId="woman">I can't believe the Ringmaster was the same kid we drove out of town so many years ago. We never should have done that.</statement>
+    	
+    	<statement event="gotItem_medal_carnival" link="years" linkEntityId="woman">Thank goodness everything is back to normal! If only we'd been better all those years ago.</statement>
+    </character>
+        <character id="woman">
+    	<statement id="nice">That's the wildest night at the carnival I've ever experienced!</statement>
+    	<statement>That's the wildest night at the carnival I've ever experienced!</statement>
+    	<statement id="years" triggerEvent="triggerEvent" triggerEventArgs="introduce_day_2,true">I hope we don't have to wait another 20 years for the carnival to come back.</statement>
+    </character>
+    <character id="marnie">
+    	<statement event="started_bonus_quest">Go check the forest for Dr. Dan!</statement>
+    	<statement event="blocked_from_bonus" link="not" linkEntityId="player">Dr. Dan is missing! Have you seen him?</statement>
+    	<statement id="day2" link="not" linkEntityId="player">Dr. Dan is missing! Have you seen him?</statement>
+    	<statement id="woods" link="look">He likes to take morning walks in the woods, but he's usually back by now. I'm afraid he could be hurt.</statement>
+		<statement id="look" link="sure" linkEntityId="player">Would you look for him?</statement>
+    </character>
+    <character id="sissy">
+    	<statement>Bubby was supposed to win me a teddy bear!</statement>
+    </character>
+    <character id="edgar">
+    	<statement link="fun">It sure feels good to no longer be under the Ringmaster's spell.</statement>
+    	<statement id="fun" link="what" linkEntityId="player">Running a carnival is a lot more fun when you don't have to worry about turning into a monster every night!</statement>
+   		<statement id="road" link="nexttime" linkEntityId="edgar">It's the carnies' life for us. We're hitting the road. First stop, though, Super Villain Island!</statement>
+   		<statement id="nexttime" triggerEvent="giveItem" triggerEventArgs="medal_carnival">Maybe we'll see you on the road. Oh, and take this medallion – you'll never have to buy a ticket again!</statement>
+    </character>
+    <character id="player">
+		<statement id="what" link="road" linkEntityId="edgar">What Happens Now?</statement>
+		
+		<statement id="not" link="woods" linkEntityId="marnie">Not since last night.</statement>
+		<statement id="sure" triggerEvent="triggerEvent" triggerEventArgs="agree_to_day_2">Sure, I'll look for him.</statement>
+		
+			<statement id="myfriend" triggerEvent="triggerEvent" triggerEventArgs="completeIsland" >But he's my...</statement>
+
+	</character>
+    <character id="ringmaster">
+    	
+    </character>
+</dialogs>

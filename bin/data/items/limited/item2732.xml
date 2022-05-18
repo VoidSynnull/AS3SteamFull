@@ -1,0 +1,43 @@
+<item id="item2732">
+  	<type>custom</type>
+	<subType>general</subType>
+  	
+  	<contentClass>
+		<className>game.scenes.custom.items.TicketContentView</className>
+	</contentClass>
+  	
+  	<textfields>
+  		<text>
+    		<value>Sweepstakes Ticket</value>
+  		</text>
+  	</textfields>
+  	
+  	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/survival1/background.swf</assetPath>
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>0</brightness>
+     			<contrast>0</contrast>
+     			<saturation>-80</saturation>
+     			<hue>149</hue>
+    		</effect>
+    	</asset>
+   		<!-- <asset id="cardContent"/> -->
+    </assets>
+	
+	<value>
+		<conditional id="userField"/>
+	</value>
+	
+	<conditionals>
+		<conditional type="checkUserField">
+			<parameters>
+				<param id="userField">contestIslandMap</param>
+				<param id="island">none</param>
+			</parameters>
+		</conditional>
+	</conditionals>
+	
+</item>

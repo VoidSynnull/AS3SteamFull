@@ -1,0 +1,74 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>SherlockGnomesQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215740242;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215740797;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215740794;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Left Poster">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215657264;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Right Poster">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215657264;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+		<clickUrl id="Outside Poster">https://ad.doubleclick.net/ddm/trackclk/N783065.270649POPTROPICA/B20692808.215740524;dc_trk_aid=413060261;dc_trk_cid=97552632;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl>
+	</clickUrls>
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+		<impressions id="Poster">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215657264;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215657264&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215657264&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+	</impressionOnClicks>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740524;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740524&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740524&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Mobile Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740524;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740524&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740524&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Start">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740242;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740242&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740242&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="Replay">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740242;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740242&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740242&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="ObjectCollected">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740797;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740797&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740797&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="VideoClicked">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740794;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740794&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740794&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+		<impressions id="VideoReplayed">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740794;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="moat">https://z.moatads.com/mecuslaparamountdcm813126048404/moatad.js#moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740794&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-&amp;skin=0</impression>
+			<impression type="moatClass">MOAT-mecuslaparamountdcm813126048404?moatClientLevel1=20692808&amp;moatClientLevel2=4508317&amp;moatClientLevel3=215740794&amp;moatClientLevel4=1x1_Site_Served_Unit&amp;moatClientSlicer1=-&amp;moatClientSlicer2=-</impression>
+		</impressions>
+	</impressionUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2879</card>
+		<card>2880</card>
+		<card>2881</card>
+	</boycards>
+	<girlcards>
+		<card>2879</card>
+		<card>2880</card>
+		<card>2881</card>
+	</girlcards>
+</campaign>

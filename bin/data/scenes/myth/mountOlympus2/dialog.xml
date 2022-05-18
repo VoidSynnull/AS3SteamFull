@@ -1,0 +1,16 @@
+<dialogs> 
+	<character id="player">
+		<statement id="whatAbout" link="forNow" linkEntityId="athena">text1</statement>
+		<statement triggeredByEvent="look_player" triggerEvent="triggerEvent" triggerEventArgs="player_become_god">text2</statement>
+    </character>
+	<character id="zeus">
+		<statement triggeredByEvent="zeus_boom" link="suffer">text3</statement>
+		<statement id="suffer" triggerEvent="triggerEvent" triggerEventArgs="look_player">text4</statement>
+    </character>
+    <character id="athena">
+    	<statement event="gotItem_medalMythology">text5</statement>
+		<statement link="whatAbout" linkEntityId="player">text5</statement>
+		<statement id="forNow" link="giveToken">text6</statement>
+    	<statement id="giveToken" triggerEvent="triggerEvent" triggerEventArgs="getMedal">text7</statement>
+    </character>
+</dialogs>

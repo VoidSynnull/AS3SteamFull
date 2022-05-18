@@ -1,0 +1,39 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">viking_fortress.mp3</asset>
+		<asset event="balance_game_started" loop="true" fade="true" exclusiveType="true">caught.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="pig1" modifiers="proximity">pig_squeal_01.mp3, pig_squeal_02.mp3, pig_squeal_03.mp3</asset>
+		<asset id="pig2" modifiers="proximity" loop="true">pigs_squealing_loop_01.mp3</asset>
+		<asset id="penBlock" modifiers="proximity">shake_wood_03.mp3</asset>
+		<asset id="cageBlock">axe_on_wood_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="break">
+		<asset id="penBlock" modifiers="proximity">wood_break_01.mp3</asset>
+		<asset id="cageBlock" modifiers="proximity">wood_break_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="open">
+		<asset id="cageBlock" modifiers="proximity">door_light_open_creak_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="ground">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="hayBale">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="cageGround">fs_mud_01.mp3, fs_mud_02.mp3, fs_mud_03.mp3, fs_mud_04.mp3</asset>
+		<asset id="guardPath">ls_mud_01.mp3, ls_mud_02.mp3</asset>
+		<asset id="penGround">ls_mud_01.mp3, ls_mud_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="ground">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="hayBale">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="cageGround">fs_mud_01.mp3, fs_mud_02.mp3, fs_mud_03.mp3, fs_mud_04.mp3</asset>
+		<asset id="guardPath">fs_mud_01.mp3, fs_mud_02.mp3, fs_mud_03.mp3, fs_mud_04.mp3</asset>
+		<asset id="penGround">fs_mud_01.mp3, fs_mud_02.mp3, fs_mud_03.mp3, fs_mud_04.mp3</asset>
+	</sound>
+</sounds>

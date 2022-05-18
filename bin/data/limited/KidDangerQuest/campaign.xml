@@ -1,0 +1,18 @@
+<campaign>
+  	<campaignId>KidDangerQuest</campaignId> <!-- Must match CMS name in CMS -->
+ 	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=23697550&PluID=0&ord=[RANDOM]</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2873</card>
+		<card>2874</card>
+	</boycards>
+	<girlcards>
+		<card>2873</card>
+		<card>2874</card>
+	</girlcards>
+</campaign>

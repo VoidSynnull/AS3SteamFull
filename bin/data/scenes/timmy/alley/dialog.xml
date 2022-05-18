@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="clerk">
+		<statement event="gotItem_car_key">A dancing bear... Well, now I've seen everything.</statement>
+		<statement>Beat it! I won't let a kid like you enter this alley alone.</statement>
+		<statement id="block">Beat it! I won't let a kid like you enter this alley alone.</statement>
+		<statement id="dance">WOW, that bear can dance!</statement>
+    </character>
+    <character id="player">
+		<statement id="cat">There's the cat, now how do i get her out?</statement>
+		<statement id="candy">It only accepts loose change, those bonbons sure look good though.</statement>
+		<statement id="empty">I don't think I need any more junk food.</statement>
+		<statement id="nochange">It only accepts loose change.</statement>
+		<statement id="bonbons">I bet Total would go crazy for these Bonbons.</statement>
+		<statement id="excuse" link="best" linkEntityId="crispin">Excuse me?</statement>
+		<statement id="beat" link="keys" linkEntityId="crispin">I bet I could beat you.</statement>
+		<statement id="win">This is it! I can get Timmy's pants back and save the day!</statement>
+		<statement id="arcade">Can never top Street Bowling II. Now that was a classic.</statement>
+		<statement id="sneak">She is too attentive for me to sneak past, maybe total can help me distract her.</statement>
+    </character>
+    <character id="crispin">
+    	<statement>Don't bother me now kid, I'm setting a new high score. Come back later if you want to play.</statement>
+		<statement event="saw_timmy_on_tower" link="excuse" linkEntityId="player">Come to take a shot at the king, eh?</statement>
+		<statement id="best" link="beat" linkEntityId="player">I'm the greatest bowler in town! No one denies this.</statement>
+ 		<statement id="keys" link="on">Ha! I'd hand you my car keys if you can throw a better game than me.</statement>
+		<conversation id="on">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="lets_bowl">You're on!</question>
+			</exchange>
+			<exchange>
+				<question>Some other time.</question>
+				<answer>I'll be here, I'm always here!</answer>
+			</exchange>
+		</conversation>
+		<statement id="lose" link="get_keys">I can't believe you beat my record!</statement>
+		<statement id="lose_perfect" link="get_keys">You rolled a perfect game! I guess you are the true turkey here!</statement>
+		<statement id="get_keys" link="win" linkEntityId="player" triggerEvent="giveItem" triggerEventArgs="car_key">Fine, take my car keys, it's parked out front, don't scratch the paint.</statement>
+		
+		<statement event="gotItem_car_key" link="on">Your last win was a dumb luck, I bet you can't do it again.</statement>
+		<statement id="lose2">I can't believe you beat my record again!</statement>
+		<statement id="lose_perfect2">You rolled a perfect game! I guess you are the true turkey here!</statement>
+		
+		<statement id="fail">Nice try kid, but i'm the king!</statement>
+		
+		<statement event="attempted_bowling_game" link="on">Here to try your luck again kid? I'll give you one more try.</statement>
+    </character>
+</dialogs>

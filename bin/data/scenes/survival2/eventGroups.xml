@@ -1,0 +1,43 @@
+<groups>
+	<group event="found_one_page" triggerAndSave="true">
+		<and>
+			<event type="got_journal" not="true"/>
+			<event type="found_two_pages" not="true"/>
+			<or>
+				<event type="got_page1"/>
+				<event type="got_page2"/>
+				<event type="got_page3"/>
+			</or>
+		</and>
+	</group>
+	
+	<group event="found_two_pages" triggerAndSave="true">
+		<and>
+			<event type="got_journal" not="true"/>
+			<or>
+				<and>
+					<event type="got_page1"/>
+					<event type="got_page2"/>
+				</and>
+				
+				<and>
+					<event type="got_page1"/>
+					<event type="got_page3"/>
+				</and>
+				
+				<and>
+					<event type="got_page2"/>
+					<event type="got_page3"/>
+				</and>
+			</or>
+		</and>
+	</group>
+	
+	<group event="ready_for_bait" triggerAndSave="true">
+		<and>
+			<event type="hasItem_fishingPole"/>
+			<event type="gotItem_hook"/>
+			<event type="hasItem_hook" not="true"/>
+		</and>
+	</group>
+</groups>

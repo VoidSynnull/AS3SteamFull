@@ -1,0 +1,66 @@
+<item id="3335">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<radiobuttons>
+		<btn>
+			<color>0xCCCCCC</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x333333</color>
+			<val>1</val>
+		</btn>
+	</radiobuttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Dr. Hare's Lair Outfits</value>
+		</text>
+		<text id="storeTitle">
+			<value>Light and Shadow</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to throw carrot!</web>
+			<mobile>Tap ACTION to throw carrot!</mobile>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<looks>
+		<look>
+			<mouth>drhare</mouth>
+			<facial>drhare_cuusoo_light</facial>
+			<shirt>drhare_cuusoo_light</shirt>
+			<pack>drhare</pack>
+			<item>cuusoo_white_rabbit</item>
+			<overpants>drhare_cuusoo_light</overpants>
+			<pants>1</pants>
+		</look>
+		<look>
+			<mouth>drhare</mouth>
+			<facial>drhare_cuusoo_shadow</facial>
+			<shirt>drhare_cuusoo_shadow</shirt>
+			<pack>drhare_cuusoo_shadow</pack>
+			<item>cuusoo_white_rabbit</item>
+			<overpants>drhare_cuusoo_shadow</overpants>
+			<pants>1</pants>
+		</look>
+	</looks>
+</item>

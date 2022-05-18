@@ -1,0 +1,63 @@
+<item id="2558"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Reveal Kit Jack Costume Card</name> <!-- Change this card name -->
+  	<campaignID>GHDRevealVendorCart</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>TRANSFORM</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Reveal kit Jack Costume Card" /> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>BLAST OFF!</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Reveal kit Jack Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url3</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Galactic Hot Dogs™</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Jack</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGHD2.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<facial>ad_ghd_jack_single</facial>
+			<overshirt>ad_ghd_jack</overshirt>
+		</look>
+	</looks> 
+</item>

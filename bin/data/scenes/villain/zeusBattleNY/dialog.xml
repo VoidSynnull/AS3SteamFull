@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="zeus">
+		<statment id="kneel">Everyone in Poptropica will kneel before me! Starting with...</statment>
+		<statement event="reached_eyes" link="useless_powers">I am the god of thunder!</statement>
+		<statement id="useless_powers">I don't need these worthless powers to defeat you!</statement>
+		<statement event="end_battle">Not again! I was so close...</statement>
+    </character>
+</dialogs>

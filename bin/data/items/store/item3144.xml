@@ -1,0 +1,28 @@
+<item id="3144">
+	<type>store</type>
+	<subType>general</subType>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+	<buttons>
+		<btn>
+			<actions>
+				<action type="openPopup">
+ 				<parameters>
+ 					<param id="className">game.ui.card.storeCardPopups.FortuneCookie</param>
+				</parameters>
+			</action>
+		</actions>
+			<label>Tell My Fortune</label>
+			 
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Fortune Cookie</value>
+		</text>
+		 <text id="storeInstructions">
+			<value>Give A Fortune&#10;(only works in multiplayer rooms)</value>
+		</text>
+	</textfields>
+</item>

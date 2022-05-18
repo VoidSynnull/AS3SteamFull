@@ -1,0 +1,28 @@
+<doors>
+	<door id="castleExit">
+		<scene>game.scenes.vampire.castle.Castle</scene>
+		<x>1740</x>
+		<y>910</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="towersExit">
+		<scene>game.scenes.vampire.castleTowers.CastleTowers</scene>
+		<x>1310</x>
+		<y>1830</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

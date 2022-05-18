@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="plank">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="counter">ls_heavy_metal_01.mp3,ls_heavy_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="plank">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="counter">fs_heavy_metal_01.mp3,fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3,fs_heavy_metal_04.mp3</asset>	
+	</sound>
+	<sound type="effects">
+		<asset id="punch_Machine_Up">hit_punch_bag_01.mp3</asset>
+		<asset id="bike_Pedaling">gears_06_L.mp3</asset>
+		<asset id="baseball_shooter">pitch_machine.mp3</asset>
+		<asset id="swing_bat">whoosh_05.mp3</asset>
+		<asset id="hit_ball">baseball_crack_01.mp3</asset>
+	</sound>
+</sounds>

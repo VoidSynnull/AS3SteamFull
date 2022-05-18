@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" absoluteUrl="true">ambient/underwater.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="cave" allowOverlap="false" baseVolume="0.5">rock_hit_03.mp3
+		</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="jetBlockSound">stone_impact_05.mp3</asset>
+		<asset triggeredByEvent="fishMoveSound">myth_air_bubble_01.mp3</asset>
+		<asset triggeredByEvent="firejetSound">bubbles_03_loop.mp3</asset>
+		<asset triggeredByEvent="squidMoveSound">water_splash_03.mp3</asset>
+	</sound>
+</sounds>

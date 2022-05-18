@@ -1,0 +1,11 @@
+<specialAbility id="gum_bat">
+	<save>true</save>
+	<className>game.data.specialAbility.store.AddGum</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/gum/cinnamongum.swf</param>
+		<param id="particleClass">game.particles.emitter.specialAbility.CinnamonGum</param>
+		<param id="particleFilePath">particles/cinnamongum.swf</param>
+	</parameters>
+</specialAbility>

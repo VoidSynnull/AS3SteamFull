@@ -1,0 +1,47 @@
+<item id="3368">
+		<type>store</type>
+		<subType>general</subType>
+
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Scarecrow Costume"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Scarecrow</value>
+		 </text>
+	</textfields>
+	<assets>
+			<asset id="cardBack" />		
+		</assets>
+	
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+	
+			<skinColor>0xd8b856</skinColor>
+			<hairColor>0xf5cd70</hairColor>
+			<eyeState>squint</eyeState>
+			<facial>sponsorgbcrow</facial>
+			<hair>sponsorgbcrow</hair>
+			<shirt>sponsorgbcrow</shirt>
+			<pants>1</pants>
+			<item>pitchfork</item>
+			<overpants>sponsorgbcrow</overpants>
+			<overshirt>sponsorgbcrow</overshirt>
+			
+		</look>
+	</looks> 
+
+</item>

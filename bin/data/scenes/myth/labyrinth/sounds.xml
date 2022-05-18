@@ -1,0 +1,40 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">ancient_temple.mp3</asset>
+	</sound>
+		
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb2" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb3" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb4" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb5" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb6" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb7" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb8" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb9" allowOverlap="false">ls_chains_01.mp3</asset>
+		<asset id="climb10" allowOverlap="false">ls_chains_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb1" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb2" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb3" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb4" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb5" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb6" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb7" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb8" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb9" allowOverlap="false">down_chains_01.mp3</asset>
+		<asset id="climb10" allowOverlap="false">down_chains_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="stone">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="stone">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

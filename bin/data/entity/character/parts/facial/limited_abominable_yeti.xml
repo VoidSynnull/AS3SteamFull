@@ -1,0 +1,12 @@
+<part>
+	<id>limited_abominable_yeti</id>
+	<type>facial</type>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="front">limited_abominable_yeti</param>
+			<param id="back">limited_abominable_yeti</param>
+		</parameters>
+	</specialAbility>
+</part>

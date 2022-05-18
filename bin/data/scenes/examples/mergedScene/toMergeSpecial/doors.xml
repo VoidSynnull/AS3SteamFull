@@ -1,0 +1,15 @@
+<doors>
+	<door id="exitDoor">
+		<scene>game.scenes.examples.mergedScene.MergedScene</scene>
+		<x>500</x>
+		<y>100</y>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

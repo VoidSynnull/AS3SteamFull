@@ -1,0 +1,18 @@
+<tracking>
+	<track id="custom_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice>Blitzen</choice>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+	</track>
+	<track id="posterright">
+		<event>ClickToSponsor</event>
+		<choice>Right Poster</choice>
+	</track>
+	<track id="posterleft">
+		<event>ClickToSponsor</event>
+		<choice>Left Poster</choice>
+	</track>
+</tracking>

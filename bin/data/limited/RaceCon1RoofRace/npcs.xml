@@ -1,0 +1,56 @@
+<npcs>
+	<npc id="racer">
+		<animations>
+			<animation>game.data.animation.entity.character.Run</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFC4A8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>15</mouth>
+			<marks>is_wom</marks>
+			<hair>racer_roof</hair>
+			<shirt>racer_roof</shirt>
+			<pants>racer_roof</pants>
+			<item2>ftue_pointer</item2>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>7</x>
+			<y>-17</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<faceSpeaker>false</faceSpeaker>
+		<direction>right</direction>
+	</npc>
+	<npc id="racer" event="racer_next_con1">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFC4A8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>15</mouth>
+			<marks>is_wom</marks>
+			<hair>racer_roof</hair>
+			<shirt>racer_roof</shirt>
+			<pants>racer_roof</pants>
+			<item2>empty</item2>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>7</x>
+			<y>-17</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<faceSpeaker>false</faceSpeaker>
+		<direction>right</direction>
+	</npc>
+</npcs>

@@ -1,0 +1,34 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="grass" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xC5B870" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="silo" color="0x0033CC" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+</hits>

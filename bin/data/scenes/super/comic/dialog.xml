@@ -1,0 +1,67 @@
+<dialogs>
+	<character id="nedNoodlehead">
+		<conversation>
+			<exchange>
+				<question>Do you work here?</question>
+				<answer>This is my shop!</answer>
+			</exchange>
+			<exchange>
+				<question>So you like comics?</question>
+				<answer>I love anything related to super heroes!</answer>
+			</exchange>
+			<exchange>
+				<question>Do you have anything other than comic books?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="superHeroHandbook">I'm glad you asked.  Check out this awesome handbook I wrote!</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation event="gotItem_superHeroHandbook">
+			<exchange>
+				<question>Do you work here?</question>
+				<answer>This is my shop!</answer>
+			</exchange>
+			<exchange>
+				<question>So you like comics?</question>
+				<answer>I love anything related to super heroes!</answer>
+			</exchange>
+			<exchange>
+				<question>Thanks for the handbook.</question>
+				<answer>I've spent most of my life doing research for that book!</answer>
+			</exchange>
+		</conversation>
+		
+ 		<statement event="beat_boss_6" link="brag2">Have you seen my name in the papers? I'm a real hero now!</statement>
+ 		<statement id="brag2" link="brag3">But I need to look after my comic shop.</statement>
+ 		<statement id="brag3" triggerEvent="triggerEvent" triggerEventArgs="asked_for_hotdog,true">So I'd be willing to trade this medallion for a good hot dog!</statement>
+ 		
+ 		<conversation event="no_hotdog">
+ 			<exchange>
+ 				<question>I don't have a hotdog.</question>
+ 				<answer>Oh, that's a pity.</answer>
+ 			</exchange>
+ 		</conversation>
+ 		
+ 		<conversation event="trade_hotdog">
+   			<exchange>
+ 				<question>I don't want to trade.</question>
+ 				<answer>Ok, let me know if you change your mind.</answer>
+ 			</exchange>
+ 			<exchange>
+    			<question>Here's a hot dog.</question>
+    			<answer triggerEvent="exchangeItems" triggerEventArgs="hotdog,medallionSuper">Oh boy! The medallion is all yours.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement event="gotItem_medallionSuper">I think I'll change my name to Hot Dog Boy.</statement>
+ 		
+ 			<!--  ring bell > 0 
+ 			_root.manualSay(character, text) 
+ 		<statement>Umm, I'm right here.</statement>-->
+ 			
+ 			<!--  ring bell > 2 
+ 		<statement>What do you want!?</statement>-->
+ 
+ 			<!--  ring bell > 5 
+ 		<statement>I really need to get rid of that thing.</statement>-->
+    </character>
+</dialogs>

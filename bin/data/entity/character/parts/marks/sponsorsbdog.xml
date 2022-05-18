@@ -1,0 +1,18 @@
+<part>
+	<id>sponsorsbdog</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<campaignID>2085</campaignID>
+	<notPrintable>true</notPrintable>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+	</colorables>
+</part>

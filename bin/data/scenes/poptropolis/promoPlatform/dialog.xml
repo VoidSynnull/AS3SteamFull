@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="master">
+		<conversation>
+			<exchange>
+				<question>Hey, what happened to the Poptropolis Games?</question>
+				<answer>Don't you follow the blogs? The Games sank. They won't be back for another 100 years.</answer>
+			</exchange>
+			<exchange>
+				<question>100 years? But I want to play now!</question>
+				<answer>I was hoping you'd say that. There may be a loophole, if you want to help.</answer>
+			</exchange>
+			<exchange>
+				<question>What can we do?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="putOn">We just need to dig up the island! Head into the diving chamber and help your tribe raise the games!</answer>
+			</exchange>
+		</conversation>
+		<statement id="backAgain">Back again? Good. Head into the diving chamber and help your tribe raise the games!</statement>
+		<statement id="putOn">Head into the diving chamber and help your tribe raise the Poptropolis Games!</statement>
+		<statement id="dontGiveUp">Dont give up! Without the Poptropolis Games Im nothing but a good-looking guy with a microphone.</statement>
+		<statement id="anotherPoint" triggerEvent="triggerEvent" triggerEventArgs="dug_promo">Another point for the [tribe]! You can dig as much as you want, or take the Tribal ferry to visit your tribe's common room.</statement>
+    </character>
+	 <character id="player">
+    	<statement id="enough">Thats enough for today. I should come back tomorrow and dive again.</statement>
+    </character>
+</dialogs>

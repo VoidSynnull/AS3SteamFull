@@ -1,0 +1,20 @@
+<part>
+	<id>limited_milkpep_outfit</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2964</campaignID>
+	<hide>
+		<part>shirt</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>milkpep_overshirt_outfit_flip</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

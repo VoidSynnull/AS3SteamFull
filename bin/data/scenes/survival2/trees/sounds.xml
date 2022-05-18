@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_2_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3,fs_dirt_02.mp3,fs_dirt_03.mp3,fs_dirt_04.mp3</asset>
+		<asset id="mud">fs_mud_01.mp3,fs_mud_02.mp3,fs_mud_03.mp3,fs_mud_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="snow">fs_snow_01.mp3,fs_snow_02.mp3,fs_snow_03.mp3,fs_snow_04.mp3</asset>
+		<asset id="branch">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+		<asset id="baseGround">fs_dirt_01.mp3,fs_dirt_02.mp3,fs_dirt_03.mp3,fs_dirt_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3,ls_dirt_02.mp3</asset>
+		<asset id="mud">ls_mud_01.mp3,ls_mud_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="snow">ls_snow_01.mp3,ls_snow_02.mp3</asset>
+		<asset id="branch">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+		<asset id="bounce1">ls_bounce_01.mp3,ls_bounce_02.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3,ls_bounce_02.mp3</asset>
+		<asset id="bounce3">ls_bounce_01.mp3,ls_bounce_02.mp3</asset>
+		<asset id="bounce4">ls_bounce_01.mp3,ls_bounce_02.mp3</asset>
+		<asset id="baseGround">ls_dirt_01.mp3,ls_dirt_02.mp3</asset>
+	</sound>
+</sounds>

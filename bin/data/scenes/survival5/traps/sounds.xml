@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_5_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="dog" loop="true" modifiers="position">dog_sniffing_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="puddle">ls_pond_water_splash_01.mp3, ls_pond_water_splash_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="treeBridge">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="parachute">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="puddle">fs_pond_water_01.mp3, fs_pond_water_02.mp3, fs_pond_water_03.mp3, fs_pond_water_04.mp3</asset>
+		<asset id="dogPath">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="treeBridge">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="parachute">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="random">
+	    <asset id="flame1" loop="true" modifiers="proximity">fire_01_L.mp3</asset>
+	    <asset id="flame2" loop="true" modifiers="proximity">fire_01_L.mp3</asset>
+    </sound>
+</sounds>

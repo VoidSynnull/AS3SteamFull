@@ -1,0 +1,23 @@
+<part>
+	<id>limited_whatever_mirror</id>
+	<type>item</type>
+	<notPrintable>true</notPrintable>
+	<campaignID>2665</campaignID>
+	<specialAbility>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">WMIC,Magic Mirror</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="TalkAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="say_id" type="string">Getting my best friend swallowed into a fairy tale was so not part of my sleepover plan.|Anything is possible in fairy tale land.|I'm not supposed to tell anyone about the mirror.</param> 
+						<param id="directSayText" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

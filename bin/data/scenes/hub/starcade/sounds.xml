@@ -1,0 +1,24 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">game_show_main_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="b_squid_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_frog_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_fish_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_rabbit_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower1_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower2_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower3_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower4_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower5_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower6_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_flower7_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

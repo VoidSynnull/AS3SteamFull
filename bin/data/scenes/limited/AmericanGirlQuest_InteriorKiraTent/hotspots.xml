@@ -1,0 +1,25 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">https://play.americangirl.com/american-girl-play/en-us/characters/Courtney</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">https://play.americangirl.com/american-girl-play/en-us/characters/Courtney</action> 
+	</hotspot>
+	<!--<hotspot id="surfGame" type="poster">
+		<action type="enterQuest" folder="AmericanGirlQuest">Surf</action> 
+	</hotspot>-->
+	<hotspot id="outfitprize" type="poster">
+		<action type="giveItemMale">2029</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2029</action>
+		<action type="autoPlay">outfitprizeclip</action>		
+	</hotspot>
+	<hotspot id="bootsprize" type="poster">
+		<action type="giveItemMale">2030</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2030</action>
+		<action type="autoPlay">bootsprizeclip</action>		
+	</hotspot>
+	<hotspot id="collectionGame" type="poster">
+		<action type="trigger">startGame</action>
+	</hotspot>
+</hotspots>
+

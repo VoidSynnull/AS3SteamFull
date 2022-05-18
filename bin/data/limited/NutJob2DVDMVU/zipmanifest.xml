@@ -1,0 +1,49 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/NutJob2DVDMVU/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/NutJob2DVDMVU/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/NutJob2DVDMVU/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<data type="mouth" path="data/entity/character/parts/mouth/" keep="true" ext="xml">
+		<asset>1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" keep="true" ext="swf">
+		<asset>1</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" keep="true" ext="xml">
+		<asset>mteiffel</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" keep="true" ext="swf">
+		<asset>mteiffel</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" keep="true" ext="xml">
+		<asset>barpatron1</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" keep="true" ext="swf">
+		<asset>barpatron1</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>mtpoliceman</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>mtpoliceman</asset>
+	</assets>
+</manifest>

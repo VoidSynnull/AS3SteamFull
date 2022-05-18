@@ -1,0 +1,54 @@
+<dialogs>
+	<character id="player">
+		<statement id="infoInteraction1" link="infoInteraction1b">text1</statement>
+		<statement id="infoInteraction1b">text2</statement>
+		<statement id="infoInteraction2" link="infoInteraction2b">text3</statement>
+		<statement id="infoInteraction2b">text4</statement>
+		<statement id="infoInteraction3">text5</statement>
+		<statement id="infoInteraction4">text6</statement>
+		<statement id="infoInteraction5">text7</statement>
+		<statement id="infoInteraction6" link="infoInteraction6b">text8</statement>
+		<statement id="infoInteraction6b">text9</statement>
+		<statement id="infoInteraction7" link="infoInteraction7b">text10</statement>
+		<statement id="infoInteraction7b">text11</statement>
+		<statement id="infoInteraction8">text12</statement>
+		<statement id="infoInteraction9">text13</statement>
+		<statement id="infoInteraction10">text14</statement>
+		<statement id="infoInteraction11">text15</statement>
+		<statement id="infoInteraction12" link="infoInteraction12b">text16</statement>
+		<statement id="infoInteraction12b" link="infoInteraction12c">text17</statement>
+		<statement id="infoInteraction12c">text18</statement>
+		<statement id="infoInteraction13" link="infoInteraction13b">text19</statement>
+		<statement id="infoInteraction13b">text20</statement>
+		<statement id="infoInteraction14" link="infoInteraction14b">text21</statement>
+		<statement id="infoInteraction14b">text22</statement>
+    </character>
+	<character id="customDialog1">
+		<statement id="talk1" link="talk2" linkEntityId="customDialog2">text23</statement>
+    </character>
+    <character id="customDialog2">
+		<statement id="talk2" link="talk3" linkEntityId="customDialog3">text24</statement>
+    </character>
+    <character id="customDialog3">
+		<statement id="talk3" link="talk4" linkEntityId="customDialog4">text25</statement>		
+<!-- 		<statement id="talk6" link="talk7" linkEntityId="customDialog4">I will never bow to you, brother.</statement> -->
+    </character>
+    <character id="customDialog4">
+		<statement id="talk4" link="talk5" linkEntityId="customDialog5">text26</statement>		
+<!-- 		<statement id="talk7" link="talk8" linkEntityId="customDialog5">Nor I.</statement> -->
+    </character>
+    <character id="customDialog5">
+		<statement id="talk5" link="talk6" linkEntityId="customDialog6">text27</statement>
+<!-- 		<statement id="talk8" triggerEvent="triggerEvent" triggerEventArgs="tour_over">Perhaps not now... but one day.</statement> -->
+    </character>
+    <character id="customDialog6">
+		<statement id="talk6" link="talk7" linkEntityId="customDialog7">text28</statement>    
+    </character>
+    <character id="customDialog7">
+    	<statement id="talk7" link="talk8" linkEntityId="customDialog8">text29</statement>
+    </character>
+    <character id="customDialog8">
+    	<statement id="talk8" triggerEvent="triggerEvent" triggerEventArgs="museum_tour_over">text30</statement>
+    </character>
+
+</dialogs>

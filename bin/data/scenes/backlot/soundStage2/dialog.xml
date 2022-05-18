@@ -1,0 +1,119 @@
+<dialogs>
+  <character id="char1">
+    <statement id="where is goldie" link="due yesterday">Where is Goldie with the script?</statement>
+    <statement id="due yesterday" link="usual spot">We told him it was due yesterday!</statement>
+    <statement id="usual spot" link="get that script">He's probably in his usual spot, head in the clouds.</statement>
+    <statement id="get that script" triggerEvent="triggerEvent" triggerEventArgs="get_the_script, true">Find him and get that script!</statement>
+    
+    <statement id="found pages" triggerEvent="triggerEvent" triggerEventArgs="ordered_question">Thank goodness, you found the script!</statement>
+    
+    <statement id="not in order" link="get pages in order">But they are not in the correct order.</statement>
+    <statement id="get pages in order">You'll need to get the script pages in the right order before we can get started.</statement>
+    
+    <statement id="right order" link="another problem" triggerEvent="takeItem" triggerEventArgs="screenplayPages, false">...and they are in the right order!</statement>
+    <statement id="another problem" link = "lacey type">But we've got another problem. Our lead actress never showed up.</statement>
+    <statement id="lacey type" triggerEvent="giveItem" triggerEventArgs="headShot">We need a Lacey Williams type. Get us someone like her!</statement>
+    
+    <statement id="act the navigator" link="hurry up">We need you to act the role of the navigator.</statement>
+    <statement id ="hurry up" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Hurry up and get changed and get on stage!</statement>
+    
+    <statement id="you heard him" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">You heard him! Get changed and get on stage!</statement>
+    
+    <statement id="back to dressing room" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Head back to the dressing room when you are ready.</statement>
+    
+    <statement id="nice work">Nice work!</statement>
+  </character>
+  <character id="char2">
+    <statement id ="your my support" link="head to dressing room">So you are going to be my supporting actor?</statement>
+    <statement id="head to dressing room" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">Head on up to the dressing room up there.</statement>
+    
+    <statement id="thrill">It's such a thrill to be back in front of the camera!</statement>
+    <statement id="not yet">Agh! Not yet! You will ruin my make-up!</statement>
+    <statement id="turn it off">Agh! Turn it off! Turn it off!</statement>
+    <statement id="get dressed">You'd best get dressed for this role.</statement>
+    
+    <statement id="start" link="time">This is it,  my friend.</statement>
+    <statement id="time" link="options1" triggerEvent="triggerEvent" triggerEventArgs="dialog_option">It is time for us to say goodbye.</statement>
+    <conversation id="options1">
+      <exchange>
+        <question triggerEvent="triggerEvent" triggerEventArgs="wrong_line">Later, alligator!</question>
+      </exchange>
+      <exchange>
+        <question triggerEvent="triggerEvent" triggerEventArgs="wrong_line">See you.</question>
+      </exchange>
+      <exchange>
+        <question link="i know" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="continue_scene">But--</question>
+      </exchange>
+    </conversation>
+    <statement id="i know" link="but" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="exclaim">I know what you're thinking. You can't come with me!</statement>
+    <statement id="im sorry" link="take this" linkEntityId="player">I'm sorry, but the journey from here is too dangerous!</statement>
+    <conversation id="options2">
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="offer_compass">(offer her a compass)</question>
+      </exchange>
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="offer_kiss">(offer her a kiss)</question>
+      </exchange>
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="offer_flower">(offer her a flower)</question>
+      </exchange>
+    </conversation>
+    <statement id="what is it" link="compass" linkEntityId="player">What is it?</statement>
+    <statement id="thank you" link="options3" triggerEvent="triggerEvent" triggerEventArgs="enter_balloon">Thank you, my friend.</statement>
+    <conversation id="options3">
+      <exchange>
+        <question link="so long" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="continue_scene">Safe journeys! I'll never forget you!</question>
+      </exchange>
+      <exchange>
+        <question triggerEvent="triggerEvent" triggerEventArgs="wrong_line">Hurry up and go! I've got somewhere to be.</question>
+      </exchange>
+      <exchange>
+        <question triggerEvent="triggerEvent" triggerEventArgs="wrong_line">You'd better not lose my compass.</question>
+      </exchange>
+    </conversation>
+    <statement id="so long" triggerEvent="triggerEvent" triggerEventArgs="fly_away">So long!</statement>
+    <conversation id="options4">
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="gotcha">Gotcha!</question>
+      </exchange>
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="darn_it">Darn it! My compass!</question>
+      </exchange>
+      <exchange>
+        <question showDialog="false" triggerEvent="triggerEvent" triggerEventArgs="noooooo">NOOOOOOOOOO!</question>
+      </exchange>
+     </conversation>
+    <statement id="dont worry" triggerEvent="triggerEvent" triggerEventArgs="finished_talking" >Don't worry, everyone's nervous on their first debut.</statement>
+  </character>
+  <character id="char3">
+    <statement>Story of my life man... story of my life.</statement>
+  </character>
+  <character id="char4">
+    <statement id="dont got all day" link="you heard him" linkEntityId="char1">Sophia, I haven't got all day.</statement>
+    <statement id="sublime">You were sublime!</statement>
+    <statement event="complete_all_stages">Great! All the scenes are shot! Now meet me over at post-production!</statement>
+    <statement event="go_to_stage3">Almost Done! Head on over to sound stage 3 to shoot the last scene!</statement>
+    <statement event="go_to_stage2">Almost Done! Head on over to sound stage 4 to shoot the last scene!</statement>
+    <statement id="quiet" link="ready">Quiet on the set!</statement>
+    <statement id="ready" link="action">Ready...</statement>
+    <statement id="action" triggerEvent="triggerEvent" triggerEventArgs="action">Action!</statement>
+    <statement id="cut line" link="again">Cut! That's the wrong line!</statement>
+    <statement id="again" triggerEvent="triggerEvent" triggerEventArgs="again">Let's try that again.</statement>
+    <statement id="cut action" link ="again">Cut! Cut! That's not right!</statement>
+    <statement id="print" triggerEvent="triggerEvent" triggerEventArgs="wrap_it_up">Print it! That's a wrap!</statement>
+    <statement id="cut leave" link="take five">Cut! Looks like our new navigator needs a break!</statement>
+    <statement id="take five" link="when your ready">Everyone, take five.</statement>
+    <statement id="when your ready" triggerEvent="triggerEvent" triggerEventArgs="stop">When you are ready go back to the dressing room and we'll try again.</statement>
+    <statement id="back to dressing room" triggerEvent="triggerEvent" triggerEventArgs="finished_talking">When you are ready go back to the dressing room and we'll try again.</statement>
+  </character>
+  <character id="player">
+    <statement id="but" link="you cant">But we've come so far!</statement>
+    <statement id="you cant" link="im sorry" linkEntityId="char2">You can't leave me behind now!</statement>
+    <statement id="take this" triggerEvent="triggerEvent" triggerEventArgs="start_rain">Take this to remember me by.</statement>
+    <statement id="compass" link="thank you" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="balloon_arrives">It's my compass. For when you're lost in stormy skies.</statement>
+    <statement id= "gotcha">Gotcha!</statement>
+    <statement id= "darn it">Darn it! My compass!</statement>
+    <statement id= "no">NOOOOO!</statement>
+    <statement id="guess" link="print" linkEntityId="char4" triggerEvent="triggerEvent" triggerEventArgs="print">Guess I shouldn't have given her that metal compass in a lightning storm.</statement>
+  </character>
+</dialogs>

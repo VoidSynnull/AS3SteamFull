@@ -1,0 +1,60 @@
+﻿<item id="2534"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Conner Outfit Card</name> <!-- Change this card name -->
+  	<campaignID>LandOfStoriesBoysIC</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Conner Outfit Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Conner Outfit Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+		<text id="adsubtitle"> <!-- Change any member instructions -->
+			<value>Press SPACEBAR to flip sword!</value>
+			<y>30</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundRedOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" />
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<shirt>ad_landofstories_conner</shirt>
+			<item>ad_landofstories_conner</item>
+		</look>
+	</looks> 
+    
+</item>

@@ -1,0 +1,250 @@
+<npcs>
+	<npc id="guy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>pPharaoh</mouth>
+			<marks>ce_ranger</marks>
+			<hair>mthjack</hair>
+			<shirt>mk_designer02</shirt>
+			<pants>astroalien3</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2060</x>
+			<y>436</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="programmer1">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfdd4b3</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>astroGuard1</mouth>
+			<marks>mk_programmer02</marks>
+			<hair>mk_programmer02</hair>
+			<shirt>mk_designer02</shirt>
+			<pants>biker</pants>
+			<overpants>pfirefigther1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>567</x>
+			<y>850</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="programmer2">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfddff7</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>astroGuard1</mouth>
+			<marks>mk_programmer01</marks>
+			<hair>mk_programmer01</hair>
+			<shirt>mk_designer01</shirt>
+			<pants>biker</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>907</x>
+			<y>850</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="designer1">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbe3b3</skinColor>
+			<hairColor>0xf1bd36</hairColor>
+			<mouth>wwRuby</mouth>
+			<marks>snootygirl</marks>
+			<facial>8</facial>
+			<hair>mk_designer01</hair>
+			<shirt>mk_designer01</shirt>
+			<pants>biker</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1050</x>
+			<y>850</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="designer2">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>astroGuard1</mouth>
+			<marks>grandma</marks>
+			<hair>mk_designer02</hair>
+			<shirt>mk_designer02</shirt>
+			<pants>biker</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1385</x>
+			<y>850</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="leadDesigner">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf5d791</skinColor>
+			<hairColor>0x7a6245</hairColor>
+			<mouth>sponsorEdith</mouth>
+			<facial>mk_lead_designer01</facial>
+			<hair>mk_lead_designer02</hair>
+			<shirt>mk_lead_designer01</shirt>
+			<pants>policeman</pants>
+			<item>mk_lead_designer01</item>
+			<overpants>barpatron1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1165</x>
+			<y>900</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="costCutter">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>14</mouth>
+			<facial>mk_cutter</facial>
+			<hair>mk_cutter</hair>
+			<shirt>mk_cutter</shirt>
+			<pants>mk_cutter</pants>
+			<item>scissors</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1050</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="sleepingProgrammer">
+		<animations>
+			<animation>game.data.animation.entity.character.SitSleepLoop</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>VCvillager1</mouth>
+			<marks>wrinkles</marks>
+			<facial>mtferris</facial>
+			<hair>grandpa</hair>
+			<shirt>mk_lead_programmer01</shirt>
+			<pants>sears5</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>530</x>
+			<y>870</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>right</direction>
+	</npc>
+	<npc id="leadDeveloper">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbcea8</skinColor>
+			<hairColor>0x664532</hairColor>
+			<mouth>leo</mouth>
+			<marks>shadow1b</marks>
+			<hair>mk_lead_programmer01</hair>
+			<shirt>mk_lead_programmer01</shirt>
+			<pants>sears5</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>700</x>
+			<y>900</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="hertz">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffe070</skinColor>
+			<hairColor>0x4d2713</hairColor>
+			<mouth>14</mouth>
+			<facial>mk_disgruntled_programmer</facial>
+			<hair>mk_disgruntled_programmer</hair>
+			<shirt>mk_lead_programmer01</shirt>
+			<pants>biker</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>880</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

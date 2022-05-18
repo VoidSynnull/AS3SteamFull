@@ -1,0 +1,39 @@
+<sounds>
+
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">hades_realm.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">eerie_moaning.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorThrone">door_hatch_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="boulder" triggeredByEvent="move_boulder">heavy_rock_drag_01_loop.mp3</asset>
+		<asset id="head1" triggeredByEvent="idle" exclusiveType="true">myth_cerb_idle_01_loop.mp3</asset>
+		<asset id="head1" triggeredByEvent="chomp1" exclusiveType="true">dog_chomp_01.mp3</asset>
+		<asset id="head2" triggeredByEvent="chomp2" exclusiveType="true">dog_chomp_01.mp3</asset>
+		<asset id="head3" triggeredByEvent="chomp3" exclusiveType="true">dog_chomp_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="boat">ls_wood_on_water_01.mp3, ls_wood_on_water_02.mp3, ls_wood_on_water_03.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="hercsBoulder">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="bones">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="sign">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="boat">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="hercsBoulder">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="bones">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="sign">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+</sounds>

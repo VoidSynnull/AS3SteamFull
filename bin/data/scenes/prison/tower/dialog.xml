@@ -1,0 +1,44 @@
+<dialogs>
+	<character id="player">
+		<statement id="different">This doesn't look like I expected. It's different, but how?</statement>
+		<statement id="plaster">There! It's been filled in with plaster! Trusty chisel to the rescue again!</statement>
+		
+		<statement id="you" link="excuse_me" linkEntityId="bandit">You! Because of you, I had to break out of prison to find this safe!</statement>
+		
+		<statement id="last_time" link="prove_it" linkEntityId="tex">For the last time, I'm not the Booted Bandit!</statement>
+		<statement id="contents" link="nice_try" linkEntityId="bandit">Maybe the contents of the safe will prove my innocence.</statement>
+		<statement id="maybe" triggerEvent="triggerEvent" triggerEventArgs="open_safe">Maybe I do...</statement>
+		
+		<statement id="files">Maybe there's something in the prisoner files that can help getting this open...</statement>
+		
+		<statement id="so_sure" triggerEvent="triggerEvent" triggerEventArgs="bandit_captured">Don't be so sure, marshal!</statement>
+		
+		<statement id="friends" link="done" linkEntityId="tex">I've got some friends with parole hearings coming up. You could put in a good word.</statement>
+		<statement id="no_spoon">No use for spoon right now.</statement>
+    </character>
+	
+	<character id="tex">
+		<statement id="got_you" link="last_time" linkEntityId="player">I've got you now! Wait – two Booted Bandits?</statement>
+		<statement id="prove_it" link="contents" linkEntityId="player">Prove it!</statement>
+		
+		<statement id="confession" link="take_away">That sounds like a confession to me!</statement>
+		<!--<statement id="take_away" triggerEvent="triggerEvent" triggerEventArgs="take_away">Take him away, boys.</statement>-->
+		
+		<statement id="long_time" link="so_sure" linkEntityId="player">The Booted Bandit won't be seeing the outside of a prison cell for a long, long time.</statement>
+		
+		<statement id="sorry" link="friends" linkEntityId="player">Sorry about the mix-up. Anything I can do to make it up to you?</statement>
+		
+		<statement id="done" triggerEvent="triggerEvent" triggerEventArgs="release_prisoners">Consider it done!</statement>
+    </character>
+	
+	<character id="bandit">
+		<statement id="grunt_work" link="you" linkEntityId="player">Thanks for doing the grunt work. I'll take it from here...</statement>
+		<statement id="excuse_me" triggerEvent="triggerEvent" triggerEventArgs="tex_enter">That's how the cookie crumbles. Now if you'll excuse me, that treasure is mine.</statement>
+		
+		<statement id="nice_try" link="maybe" linkEntityId="player">Nice try, but nobody knows the combination except Flashy Fosbury!</statement>
+		
+		<statement id="at_last" triggerEvent="triggerEvent" triggerEventArgs="at_last">At last, Florian's priceless treasure!</statement>
+		<statement id="what" triggerEvent="triggerEvent" triggerEventArgs="what">What, these are just pictures of Florian, the priceless treasure are just head shots!</statement>
+		<statement id="years" triggerEvent="triggerEvent" triggerEventArgs="years">Years of search and for this! Arrrgghhh!!!!</statement>
+    </character>
+</dialogs>

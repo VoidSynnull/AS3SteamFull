@@ -1,0 +1,33 @@
+<item id="3362">
+	<type>store</type>
+	<subType>general</subType>
+	<campaignID>PrintPoster</campaignID>
+	<buttons>
+		<btn>
+		<label>PRINT</label>
+		<actions>
+			<action type="printPoster" tracking="Use Poptropicon Poster Card"> <!-- change tracking call -->
+				<parameters>
+					<param id="path">posters/comicCover.swf</param>
+					<param id="xpos">313</param>
+					<param id="ypos">582</param>
+					<param id="xscale">1.82</param>
+					<param id="yscale">1.82</param>
+					<param id="rotation">-4</param>
+				</parameters>
+			</action>
+		</actions>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropicon Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Poster</value>
+			</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" />	<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+	</assets>
+</item>

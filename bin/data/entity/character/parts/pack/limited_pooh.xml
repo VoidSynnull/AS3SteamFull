@@ -1,0 +1,42 @@
+<part>
+	<id>limited_pooh</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<campaignID>2905</campaignID>
+ 	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<parameters>
+			<param id="tracking">ChrisRobinMVU,bounce</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">FOLLOWER</param>
+						<param id="class" type="class">game.data.animation.entity.character.Bounce</param>
+						<param id="waitLabel" type="string">ending</param>
+						<param id="maxFrames" type="int">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+						<param id="fsmActive" type="boolean">false</param>
+						<param id="repeat" type="int">2</param>
+						<param id="partType" type="string">pack</param>
+						<param id="partValue" type="string">limited_tigger_straight</param>
+					</parameters>
+				</action>
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">ALL</param>
+						<param id="class" type="class">game.data.animation.entity.character.VeilDance</param>
+						<param id="waitLabel" type="string">ending</param>
+						<param id="maxFrames" type="int">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+						<param id="fsmActive" type="boolean">false</param>
+						<param id="repeat" type="int">5</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

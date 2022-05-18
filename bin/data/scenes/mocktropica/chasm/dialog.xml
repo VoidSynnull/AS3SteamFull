@@ -1,0 +1,34 @@
+<dialogs>
+	<character id="player">
+		<statement id="cannotCross">There's no way I can cross that chasm!</statement>
+	</character>
+	
+	<character id="pet">
+		<statement>Narf, narf, narf, narf!</statement>
+	</character>
+	
+	<character id="boy">
+		<statement>Will no one rid me of these meddlesome narfs?</statement>
+		<statement event="narf_wall_complete">Gee whiz, thanks! Those pets almost drove *me* over the edge!</statement>
+	</character>
+	
+	<character id="npc">
+		<conversation>
+			<exchange>
+				<question>Why can't I cross?</question>
+				<answer>Much too dangerous. You could fall and die! Or even skin a knee!</answer>
+			</exchange>
+			<exchange>
+				<question>But it looks so fun over there!</question>
+				<answer>It's very fun! You'd probably have the time of your life. But you can't go.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="completeEvent" triggerEventArgs="spoke_with_safety_inspector_chasm">But please...!</question>
+				<answer>I said... YOU SHALL NOT PASS!</answer>
+			</exchange>
+		</conversation>
+		<statement id="halt">Halt!</statement>
+		<statement event="spoke_with_safety_inspector_chasm">I said... YOU SHALL NOT PASS!</statement>
+		<statement event="narf_wall_complete">Huh. Well, I guess you can cross. Those fuzzy pets look pretty safe.</statement>
+    </character>
+</dialogs>

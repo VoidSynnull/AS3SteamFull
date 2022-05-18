@@ -1,0 +1,14 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">train_chugging_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="boxes">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="roof">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="boxes">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="roof">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

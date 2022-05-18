@@ -1,0 +1,70 @@
+<part>
+	<id>limited_captainunderpants_hat</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2705</campaignID>
+	<notPrintable>true</notPrintable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/CaptUndStinkIC/cu_logo.swf</param>
+			<param id="tracking">CaptUndStinkIC,Stinks</param>
+			<param id="standingOnly">true</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.custom.Stinks</param> 
+					</parameters>
+				</action>
+				<action class="TalkAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="sayText" type="string">Say hello to my stinky friends!</param> 
+						<param id="directSay" type="boolean">true</param> 
+					</parameters>
+				</action>
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particlesClass" type="class">game.particles.emitter.specialAbility.FartCloud</param> 
+						<param id="part" type="string">neck</param> 
+						<param id="startColor" type="number">0x997a00</param> 
+						<param id="endColor" type="number">0x997a00</param> 
+						<param id="offsetX" type="number">0</param> 
+						<param id="offsetY" type="number">0</param> 
+						<param id="filePath" type="string">assets/particles/fartcloud.swf</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,48 @@
+<dialogs>
+	<character id="timmy">
+		<statement>That shoebox is perfect for the Lazy Bear 2000. We just need to find a way to get it down!</statement>
+		<statement id="throw_me" triggerEvent="triggerEvent" triggerEventArgs="throw_to_timmy">Perfect! Throw it to me, I'm a great shot!</statement>
+		<statement id="got_box">I'm not sure that's what I had in mind...</statement>
+    </character>
+	<character id="player">
+		<statement id="this_wagon">I could use this wagon for the Totalmobile!</statement>
+		<statement id="got_wagon">This wagon should come in handy.</statement>
+		<statement id="pole">The pole just isn't long enough... What I really need is something to throw!</statement>
+		<statement id="cant_reach">That shoebox is too high to get to. I need to find a way to knock it down!</statement>
+		<statement id="beach_ball" link="throw_me" linkEntityId="timmy">Maybe we can use the beach ball to knock it down!</statement>
+    </character>
+	<character id="bingo">
+		<conversation>
+			<exchange>
+				<question>What are you doing?</question>
+				<answer>Carefully trimming Ms. Colander's prized Topiarys.</answer>
+			</exchange>
+			<exchange>
+				<question>Why are you doing that?</question>
+				<answer>Ms. Colander likes it. I like it too, though I'd like it a lot more if she'd pay me.</answer>
+			</exchange>
+			<exchange>
+				<question>She doesn't pay you?</question>
+				<answer>Oh, I shouldn't say that. She eventually does. Most of the time.</answer>
+			</exchange>
+			<exchange>
+				<question>Can I climb up there?</question>
+				<answer>Okay. But be careful.</answer>
+			</exchange>
+		</conversation>
+		<statement id="no" triggerEvent="triggerEvent" triggerEventArgs="finish_nose">Noooooo!</statement>
+		<statement id="look">Look what you've done! How will I ever fix this?</statement>
+		<conversation id="wagon">
+			<exchange>
+				<question>Can I have that wagon?</question>
+				<answer>Oh, no! Not you again!</answer>
+			</exchange>
+			<exchange>
+				<question>I really need a wagon. If you'd just let me borrow it...</question>
+				<answer>No way! You've distracted me for the last time.</answer>
+			</exchange>
+		</conversation>
+		<statement id="mitts">Keep your mitts off that wagon!</statement>
+		<statement id="look_at_that">Would you look at that... a dancing bear...</statement>
+    </character>
+</dialogs>

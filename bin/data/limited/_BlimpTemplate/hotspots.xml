@@ -1,0 +1,12 @@
+<hotspots>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+	<hotspot id="blimpVideoContainer" width="600" height="340" type="video" locked="true">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+		<action type="giveItemMale">9999</action> <!-- *** To award an item card to a boy -->
+		<action type="giveItemFemale">9999</action> <!-- *** To award an item card to a girl -->
+	</hotspot>
+</hotspots>
+

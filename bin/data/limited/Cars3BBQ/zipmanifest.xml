@@ -1,0 +1,31 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/Cars3BBQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- building xml files and swfs -->
+	<!-- from scene.xml -->
+	<data type="building" path="data/limited/Cars3BBQ/sideStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml -->
+	<assets type="building" path="assets/limited/Cars3BBQ/sideStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<assets type="support" path="assets/limited/Cars3BBQ/" ext="swf">
+		<asset>lightning</asset>
+	</assets>
+	
+</manifest>

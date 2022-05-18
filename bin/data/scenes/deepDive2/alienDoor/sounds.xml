@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">atlantis_2_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="glassHit">glass_break_02.mp3,glass_break_01.mp3</asset>
+		<asset triggeredByEvent="glassBreak">glass_break_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="cave" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3, cart_bump_02.mp3, cart_bump_03.mp3</asset>
+	</sound>
+</sounds>

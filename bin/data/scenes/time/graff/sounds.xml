@@ -1,0 +1,32 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Declaration_of_Independence.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="windowSill">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3 </asset>
+		<asset id="chimney">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="woodCrate">ls_wood_plank_01.mp3</asset>
+		<asset id="tileRoof">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		
+<!-- 		<asset id="porcupineHit1">porcupine_hit_01.mp3</asset> -->
+<!-- 		<asset id="porcupineHit2">porcupine_hit_01.mp3</asset> -->
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="windowSill">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3</asset>
+		<asset id="chimney">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="tileRoof">fs_tile_01.mp3,fs_tile_02.mp3,fs_tile_03.mp3,fs_tile_04.mp3</asset>
+		<asset id="woodCrate">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3</asset>
+	</sound>
+	<sound type="effects">			
+		<asset triggeredByEvent="hitHazard" allowOverlap="false">porcupine_hit_01.mp3</asset>
+	</sound>
+</sounds>

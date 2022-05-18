@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="nyTimes">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metNyTimes,true">What are you grumbling about?</question>
+				<answer>It is a travesty that the World's Fair is being held in Chicago instead of New York. It's a second-rate city, and this will be a second-rate Fair!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

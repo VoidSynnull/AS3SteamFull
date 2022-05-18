@@ -1,0 +1,17 @@
+<part>
+	<id>limited_frosted_flakes</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2912</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+		<param id="bounce">true</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+		<param id="tracking">FrostedFlakes1Quest,toss</param>
+		</parameters>
+	</specialAbility>
+</part>

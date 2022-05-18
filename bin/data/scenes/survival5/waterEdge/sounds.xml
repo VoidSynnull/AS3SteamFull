@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_5_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="dog" loop="true" modifiers="position">dog_sniffing_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="bounce0">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce1">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="seesaw1">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="seesaw2">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="seesaw3">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3,fs_water_02.mp3,fs_water_03.mp3,fs_water_04.mp3,fs_swim_water_01.mp3,fs_swim_water_02.mp3,fs_swim_water_03.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="seesaw1">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="seesaw2">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="seesaw3">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="ropeSound">rope_strain_04.mp3</asset>
+		<asset triggeredByEvent="branchSound">branch_break_01.mp3</asset>
+		<asset triggeredByEvent="freeBeaverSound">gears_15_loop.mp3</asset>
+	</sound>
+</sounds>

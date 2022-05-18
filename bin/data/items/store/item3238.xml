@@ -1,0 +1,31 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3238.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>PUT ON</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>TAKE OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropica: The Official Guide</value>
+		</text>
+			<text id="storeTitle">
+			<value>Backpack</value>
+		</text>
+		<text id="storeInstructions">
+			<value>The ultimate guide bookin your backpack</value>
+		</text>
+	</textfields>
+</item>

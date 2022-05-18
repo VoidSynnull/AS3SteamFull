@@ -1,0 +1,27 @@
+<npcs>
+	<npc id="cosmoe" event="cosmoe_lost">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf0c286</skinColor>
+			<hairColor>0xe3d22c</hairColor>
+			<head>cosmoe</head>
+			<mouth>cosmoe_sad</mouth>
+			<shirt>ad_gh_boy2</shirt>
+			<pants>ad_gh_boy</pants>
+			<item>ghd_goober</item>
+			<overshirt>ad_gh_boy2</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<talkMouth>cosmoe_talk</talkMouth>
+		<position>
+			<x>1000</x>
+			<y>615</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<costumizable>false</costumizable>
+	</npc>
+</npcs>

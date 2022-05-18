@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true">crowd.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="generalMetal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="generalMetal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

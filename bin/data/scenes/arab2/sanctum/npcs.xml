@@ -1,0 +1,34 @@
+<npcs>
+	<npc id="master">
+		<animations>
+			<animation>game.data.animation.entity.character.Read</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>fortuneHunter</mouth>
+			<marks>an2_master</marks>
+			<facial>an2_master</facial>
+			<hair>an2_master</hair>
+			<shirt>an2_master</shirt>
+			<pants>an2_master</pants>
+			<pack>an2_master</pack>
+			<item>empty</item>
+			<item2>paper</item2>
+			<overshirt>an2_master</overshirt>
+			<overpants>an2_master</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1400</x>
+			<y>665</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

@@ -1,0 +1,29 @@
+<part>
+	<id>mem_trick_board</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+		<part>item</part>
+		<part>overpants</part>
+		<part>pants</part>
+	</hide>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+			<clip instanceName="skinShape2"/>
+			<clip instanceName="skinShape3"/>
+			<clip instanceName="skinShape4"/>
+			<clip instanceName="skinShape5"/>
+		</colorable>
+	</colorables>
+</part>

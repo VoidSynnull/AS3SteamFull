@@ -1,0 +1,15 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="right">ping_04.mp3</asset>
+		<asset triggeredByEvent="wrong">buzzer_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+</sounds>

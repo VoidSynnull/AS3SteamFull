@@ -1,0 +1,14 @@
+<part>
+	<id>green_wand</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.TintAllCharacters</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tintColors">0x21eb500</param>
+			<param id="tintIntensity">50</param>
+		</parameters>
+	</specialAbility>
+</part>

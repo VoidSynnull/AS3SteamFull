@@ -1,0 +1,115 @@
+<npcs>
+	<npc id="char1">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xE38322</hairColor>
+			<mouth>scuba</mouth>
+			<marks>beardmed2</marks>
+			<facial>viking</facial>
+			<hair>43</hair>
+			<shirt>viking1</shirt>
+			<pants>viking1</pants>
+			<item>vikingspear</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2295</x>
+			<y>1374</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	<npc id="char2">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xB79300</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>beardmed2</marks>
+			<facial>viking</facial>
+			<hair>43</hair>
+			<shirt>viking2</shirt>
+			<pants>viking2</pants>
+			<pack>viking2</pack>
+			<item>vikingaxe</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2215</x>
+			<y>1375</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	<npc id="captain">
+		<animations loop="true">
+			<animation duration="100">game.data.animation.entity.character.Grief</animation>
+			<animation duration="300">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xAAAAAA</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>beardmed3</marks>
+			<facial>viking3</facial>
+			<hair>43</hair>
+			<shirt>viking3</shirt>
+			<pants>viking1</pants>
+			<pack>viking3</pack>
+			<overshirt>empty</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1696</x>
+			<y>1374</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+<!-- 	<npc id="captain" event="returned_amulet">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xAAAAAA</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>beardmed3</marks>
+			<facial>viking3</facial>
+			<hair>43</hair>
+			<shirt>viking3</shirt>
+			<pants>viking1</pants>
+			<pack>viking3</pack>
+			<overshirt>amulet</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1696</x>
+			<y>1374</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc> -->
+</npcs>

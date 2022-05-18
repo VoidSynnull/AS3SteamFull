@@ -1,0 +1,25 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+		 <param id="look">id=2631&skinColor=0xFFFFFF&packFrame=limited_strangemagic_imp&facialFrame=limited_strangemagic_imp&overshirtFrame=limited_strangemagic</param>
+			<gender>male</gender>
+			<skinColor>0xFFFFFF</skinColor>
+			<pack>limited_strangemagic_imp</pack>
+			<facial>limited_strangemagic_imp</facial>
+			<overshirt>limited_strangemagic</overshirt>
+			<eyeState>squint</eyeState>
+			<pants>1</pants>
+	</skin>
+		<direction>left</direction>
+		<position>
+			<x>-40</x>
+			<y>455</y>
+		</position>
+		<scale>.2</scale>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

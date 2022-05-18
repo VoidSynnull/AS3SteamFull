@@ -1,0 +1,38 @@
+<npcs>
+	<npc id="custom_npc1">
+		<bitmap>limited/campaignQuest/npc.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>340</x>
+			<y>1160</y>
+		</position>
+		<faceSpeaker>true</faceSpeaker>
+	</npc>
+	<npc id="custom_npc2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth></mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair></hair>
+			<shirt></shirt>
+			<pants></pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1540</x>
+			<y>1160</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

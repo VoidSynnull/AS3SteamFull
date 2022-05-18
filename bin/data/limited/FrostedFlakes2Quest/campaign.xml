@@ -1,0 +1,29 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>FrostedFlakes2Quest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.223392152;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.223618755;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Poster">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.223611114;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.223496722;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Start">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.227652685;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on start popup -->
+		<clickUrl id="Win">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.227825292;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+		<clickUrl id="Lose">https://ad.doubleclick.net/ddm/trackclk/N7572.131841INTERGILLC/B21324239.227825289;dc_trk_aid=426649928;dc_trk_cid=103358763;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on lose popup -->
+	</clickUrls>
+	
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2922MusicGame</card>
+		<card>2923MusicGame</card>
+	</boycards>
+	<girlcards>
+		<card>2922MusicGame</card>
+		<card>2923MusicGame</card>
+	</girlcards>
+</campaign>

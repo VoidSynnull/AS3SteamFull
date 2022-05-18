@@ -1,0 +1,17 @@
+<specialAbility id="limited/pop_follower_poppy">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2985</param>
+		<param id="overshirtFrame">limited_poppy_follower</param>
+		<param id="overpantsFrame">limited_poppy_follower</param>
+		<param id="campaignName">TrollsVBB</param>
+		<param id="lineThickness">8</param>
+		<param id="noDarken">true</param>
+		<param id="hideParts">body,hair,shirt,arm1,arm2,hand1,hand2,foot1,foot2,leg1,leg2,eyes,mouth,head</param>
+		<!-- <param id="useSpecialActionBtn">true</param>
+		<param id="audioFile1">game/sound/limited/NutcrackerQuest/snow.mp3</param>
+		<param id="pauseMusic">true</param> -->
+	 </parameters>
+</specialAbility>

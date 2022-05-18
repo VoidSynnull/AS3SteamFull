@@ -1,0 +1,34 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">jungle_beach_atmosphere.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="fine_sand">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="branch1">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="branch2">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="branch3">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="plane1">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="plane2">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="rope" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="rope" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="fine_sand">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3,fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3,fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3,fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="branch1">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="branch2">fs_concrete_01.mp3, fs_concrete_02.mp3,fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="branch3">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="plane1">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="plane2">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3,fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+	</sound>
+</sounds>

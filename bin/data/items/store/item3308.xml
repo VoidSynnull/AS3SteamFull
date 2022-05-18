@@ -1,0 +1,36 @@
+<item id="3308">
+		<type>store</type>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		<buttons>
+			<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+		</buttons>
+	<textfields>
+			<text id="storeTitle">
+					<value>Oompa-Loompa</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Charlie and the Chocolate Factory</value>
+			</text>
+ 	</textfields>
+ 	
+ 	<looks>
+			<look>
+			<mouth>wkolmale</mouth>
+			<hair>wkolmale</hair>
+			<shirt>wkolmale</shirt>
+			<pants>1</pants>
+		</look>
+	</looks> 
+</item>

@@ -1,0 +1,41 @@
+<item id="3454">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Joan of Arc</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <mouth>prockergirl1</mouth>
+			 <facial>stor_joanarc</facial>
+			 <shirt>stor_kingarthur</shirt>
+			 <pants>stor_joanarc</pants>
+			 <item>stor_joanarc</item>
+			 <overpants>stor_joanarc</overpants>
+		</look>
+	</looks> 
+
+</item>

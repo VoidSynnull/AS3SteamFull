@@ -1,0 +1,15 @@
+<part>
+	<id>limited_legobatman_belt</id>
+	<type>overpants</type>
+	<costumizable>false</costumizable>
+	<campaignID>2851</campaignID>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<parameters>
+			<param id="swfPath">limited/LegoBatmanToyQuest/batmobilePrize.swf</param>
+			<param id="tracking">LegoBatmanToyQuest,builder</param>
+		</parameters>
+	</specialAbility>
+</part>

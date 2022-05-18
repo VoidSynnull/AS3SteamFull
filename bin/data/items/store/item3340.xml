@@ -1,0 +1,36 @@
+<item id="3340">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Mocktropica Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Unfinished Costume</value>
+			</text>
+	</textfields>
+		<assets>			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<facial>mk_unfinish02</facial>
+			<pants>mk_unfinish02</pants>
+			<shirt>mk_unfinish02</shirt>
+		</look>
+	</looks> 
+	
+</item>

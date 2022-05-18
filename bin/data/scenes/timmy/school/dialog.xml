@@ -1,0 +1,145 @@
+<dialogs>
+    <character id="player">
+		<statement id="boy">There must be a way to get that boy out of there...</statement>
+		<statement id="bear">Great -- now Total is stuck in there!</statement>
+		<statement id="total_stuck">How am I supposed to shake a polar bear out of a slide?</statement>
+		<statement id="quiz" link="round1" linkEntityId="rollo">I heard there was a pop quiz scheduled for tomorrow.</statement>
+		<statement id="wait">Uh, hold on, I think I got that last part wrong.</statement>
+		<statement id="clogged">I better clear out the slide first or I could get stuck too.</statement>
+		
+		<statement id="help" link="brave" linkEntityId="molly">Is there anything I can help with?</statement>
+		<statement id="vote" link="cat" linkEntityId="molly">Thanks for the vote of confidence. What do you need help with?</statement>
+		<statement id="buy" link="coins" linkEntityId="molly">Why can't you just buy something from the machine?</statement>
+		<statement id="take" link="shoes" linkEntityId="molly">I'll take the money and figure something out.</statement>
+		<statement id="find_shoes" triggerEvent="triggerEvent" triggerEventArgs="unlock">Shoes? Timmy might have a pair stashed at his headquarters</statement>
+	<!-- 	<statement id="round1" link="round2" linkEntityId="rollo">It gets even worse!</statement> -->
+	<!-- 	<statement id="round1_2" link="round2" linkEntityId="rollo">Oh. Well, what until you hear what's next.</statement>
+		<statement id="round1_3" link="round2" linkEntityId="rollo">Really? You might not be so happy to hear about the format.</statement> -->
+		
+	<!--	<statement id="round2" link="round3" linkEntityId="rollo">Yeah, and wait until you find out about the time limit!</statement>
+	 	<statement id="round2_2" link="round3" linkEntityId="rollo">Maybe not with a strict time limit.</statement>
+		<statement id="round2_3" link="round3" linkEntityId="rollo">Hard to write an essay within the time limit.</statement> -->
+		<statement id="round1" link="round2" linkEntityId="rollo">Yeah, and wait until you find out about the time limit!</statement>
+		<statement id="round2" link="round3" linkEntityId="rollo">There's one more twist you won't believe.</statement>
+	 <!--	<statement id="round3">One last thing...</statement>  link="round4" linkEntityId="rollo"  -->
+		
+		<statement id="mistaken" link="oh" linkEntityId="rollo" triggerEvent="triggerEvent" triggerEventArgs="such_relief">Oh, sorry, I was thinking of next week.</statement>
+		
+		<statement id="buy_these" link="deal" linkEntityId="molly">Can I interest you in a fine pair of gently used shoes?</statement>
+		<statement id="this_yours">I believe this is the feline you were looking for?</statement>
+		<statement id="found_them" link="slouch" linkEntityId="molly">Timmy's pants are in the back of that truck!</statement>
+		<statement id="no_time" triggerEvent="triggerEvent" triggerEventArgs="on_tower">It's up to me to investigate, then.</statement>
+    </character>
+    
+    <character id="rollo">
+    	<statement id="school">I haven't been down the slide yet, there is always a line at recess.</statement>
+		<statement id="help" link="boy" linkEntityId="player">Help! I'm stuck!</statement>
+		<statement id="thanks">Thanks! I hate cramped places.</statement>
+		<statement id="garbanzo">Please. Some silly getup won't frighten me. The only thing I'm scared of is a bad grade!</statement>
+		
+		<statement id="round1" link="convo1">A pop quiz? Oh no! Do you know what subject?</statement>
+		<conversation id="convo1">
+			<exchange>
+				<question>Geography.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">No problem. Geography is my best subject.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="higher">English.</question>
+				<answer link="round1" linkEntityId="player">That's my worst subject!</answer>
+			</exchange>
+			<exchange>
+				<question>Math.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">Math? Could be worse.</answer>
+			</exchange>
+		</conversation>
+		
+	<!-- >	<statement id="round2" link="convo2">What is the format of the test?</statement>
+		<conversation id="convo2">
+			<exchange>
+				<question>Multiple Choice.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">Hmm. Not too hard to fake your way through one of those.</answer>
+			</exchange>
+			<exchange>
+				<question>Essay.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">That's perfect. Essays are my forte!</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="higher">Short Answer.</question>
+				<answer link="round2" linkEntityId="player">Oh no! Nothing's tougher than a test of pure knowledge.</answer>
+			</exchange>
+		</conversation> -->
+		
+		<statement id="round2" link="convo2">Why, what's with the time limit?</statement>
+		<conversation id="convo2">
+			<exchange>
+				<question>It takes half an hour.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">I don't see a problem there.</answer>
+			</exchange>
+			<exchange>
+				<question>It's an hour-long test!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">I love long tests. More time to think!</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="higher">It's only ten minutes long.</question>
+				<answer link="round2" linkEntityId="player">Ten minutes? What if I don't answer all the questions in time?</answer>
+			</exchange>
+		</conversation>
+		
+	<!-- 	<statement id="round4" link="convo4">What kind of twist could there possibly be?</statement>
+		<conversation id="convo4">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="higher">The test is to be given orally.</question>
+				<answer link="round4" linkEntityId="player">You mean I have to stand up in front of the class?</answer>
+			</exchange>
+			<exchange>
+				<question>The test is to be done in groups.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">Depending on the group, that could be okay.</answer>
+			</exchange>
+			<exchange>
+				<question>The test is to be done in silence.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">Perfect. Just me and my thoughts.</answer>
+			</exchange>
+		</conversation> -->
+		
+		<statement id="round3" link="convo3">What else could there possibly be?</statement>
+		<conversation id="convo3">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="higher">This test will go on your permanent record!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="end_test">Oh nooooo!</answer>
+			</exchange>
+			<exchange>
+				<question>This quiz makes up 10% of your grade.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">10% is a lot… but not that much.</answer>
+			</exchange>
+			<exchange>
+				<question>This quiz is strictly pass/fail.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="over">Whew! That's a relief.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="must_study" link="mistaken" linkEntityId="player">Arghhh! I need to study!</statement>
+		<statement id="oh">Oh. What a relief!</statement>
+		<statement id="relief">I'm going to be ready for that quiz!</statement>
+		<statement id="distracted">I didn't know polar bears had such good coordination. Maybe he could teach me a few steps.</statement>
+    </character>
+    
+    <character id="molly">
+		<statement id="where" link="help" linkEntityId="player">Where's Timmy? Where, oh where? I need Timmy's help!</statement>
+		<statement id="brave" link="vote" linkEntityId="player">You don't look as brave as Timmy, or half as good-looking, but beggars can't be choosers.</statement>
+		<statement id="cat" link="buy" linkEntityId="player">It's my cat, Senor Burrito! She's stuck in the vending machine at the bowling alley!</statement>
+		<statement id="coins" link="take" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="mollys_onto_you, true">It only takes coins, and I only have bills!</statement>
+		<statement id="shoes" link="find_shoes" linkEntityId="player">Does that usually work for you? I'll buy something -- shoes, maybe -- but I'm not giving away my allowance.</statement>
+		
+		<statement id="spend_cash">I'll buy something -- shoes, maybe -- but I'm not giving away my allowance.</statement>
+		<statement id="deal" triggerEvent="triggerEvent" triggerEventArgs="trade_shoes">You've got a deal!</statement>
+		
+		<statement id="wheres_the_cat">Well, you have the money. Where is Senor Burrito?</statement>
+		<statement id="the_best">I was wrong about you! Next time, I'm coming to you first.</statement>
+		<statement id="likes_you">Mr. Burrito and I will never forget what you did for us.</statement>
+		
+		<statement id="slouch" link="no_time" linkEntityId="player">I'd say ask Timmy, but I think he's still on the tower.</statement>
+		<statement id="tower">Timmy will lose all his clients if he doesn't stop playing around on that tower.</statement>
+		<statement id="tired">So much has happened, I need a shopping spree to calm my nerves.</statement>
+		<statement id="distracted">Oh goodness, is the circus in town? I love circus acts!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,310 @@
+<npcs>
+	<!-- Calimari Kid -->
+	<npc id="char1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>1</mouth>
+			<marks/>
+			<facial>explorer</facial>
+			<hair>SRstudent01</hair>
+			<shirt>13</shirt>
+			<pants>2</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>681</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- Balloon Kid -->
+	<npc id="char2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf5c454</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>9</mouth>
+			<marks/>
+			<facial/>
+			<hair>SRstudent02</hair>
+			<shirt>SRgirl</shirt>
+			<pants>4</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor/>
+			<eyeState>casual</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>989</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- Chocolate Kid -->
+	<npc id="char3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>15</mouth>
+			<marks>SRstudent04</marks>
+			<facial/>
+			<hair>7</hair>
+			<shirt>26</shirt>
+			<pants>franklin</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants>SRdad</overpants>
+			<lineColor/>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1399.95</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- Propulsion Kid -->
+	<npc id="char4">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x917150</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>teethGrin1</mouth>
+			<marks>freckles</marks>
+			<facial/>
+			<hair>16</hair>
+			<shirt>dinerWaitress</shirt>
+			<pants>pinkSkirt</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor/>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1746.9</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- Belly Button Kid -->
+	<npc id="char5">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf08b2b</hairColor>
+			<eyes>eyes</eyes>
+			<mouth></mouth> <!-- Changed from 22, not working? -->
+			<marks>freckles</marks>
+			<facial/>
+			<hair>6</hair>
+			<shirt>9</shirt>
+			<pants>6</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor/>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2031.9</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- Mr Silva -->
+	<npc id="char6">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>14</mouth>
+			<marks/>
+			<facial>SRsilva</facial>
+			<hair>SRsilva</hair>
+			<shirt>SRsilva</shirt>
+			<pants>frenchman</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor/>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2341.85</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- CJs Mother -->
+	<npc id="char7">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>SRcj</mouth>
+			<marks>SRmom</marks>
+			<facial/>
+			<hair>SRmom</hair>
+			<shirt>SRcj</shirt>
+			<pants>SRmom</pants>
+			<pack/>
+			<item/>
+			<overshirt>necklace</overshirt>
+			<overpants/>
+			<lineColor/>
+			<eyeState>casual</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2642.85</x>
+			<y>676</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!-- CJs Father -->
+	<npc id="char8">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>montgomery</mouth>
+			<marks/>
+			<facial/>
+			<hair>6</hair>
+			<shirt>SRdad</shirt>
+			<pants>jefferson</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants>SRdad</overpants>
+			<lineColor/>
+			<eyeState>casual</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2717.85</x>
+			<y>676</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	
+	<!-- Tiny Mr Silva -->
+	<npc id="char9" event="shrunk_silva">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>6</mouth>
+			<marks/>
+			<facial>SRsilva</facial>
+			<hair>SRsilva</hair>
+			<shirt>SRsilva</shirt>
+			<pants>frenchman</pants>
+			<pack/>
+			<item/>
+			<overshirt/>
+			<overpants/>
+			<lineColor/>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2438.85</x>
+			<y>613.05</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>.1</scale>
+	</npc>
+	<npc id="cj" event="shrunk_silva">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>SRcj</mouth>
+			<marks/>
+			<facial/>
+			<hair>SRcj</hair>
+			<shirt>SRcj</shirt>
+			<pants>astroChance</pants>
+			<pack/>
+			<item/>
+			<overshirt>SRcj</overshirt>
+			<overpants/>
+			<lineColor/>
+			<eyeState>casual</eyeState>
+			<lineWidth/>
+		</skin>
+		<position>
+			<x>2341.85</x>
+			<y>676</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

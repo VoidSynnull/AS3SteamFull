@@ -1,0 +1,41 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Science_Fair.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="curb" baseVolume="2" exclusiveType="true">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="curbEdge" baseVolume="2" exclusiveType="true">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="culvert" baseVolume="2" exclusiveType="true">none</asset>
+		<asset id="hole" baseVolume="2" exclusiveType="true">object_fall_01.mp3</asset>
+		<asset id="jump" baseVolume="2" exclusiveType="true">jump_from_gravel_01.mp3</asset>
+		<asset id="wall" baseVolume="2" exclusiveType="true">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		
+		<asset id="spilledTrashHit" baseVolume="2" exclusiveType="true">metal_impact_09.mp3, metal_impact_10.mp3</asset>
+		<asset id="trashHit" baseVolume="2" exclusiveType="true">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+		<asset id="hydrantHit" baseVolume="2" exclusiveType="true">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="trashcanHit" baseVolume="2" exclusiveType="true">metal_pop.mp3</asset>
+		<asset id="mailboxHit" baseVolume="2" exclusiveType="true">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		
+		<asset id="constructionHit" baseVolume="2" exclusiveType="true">wood_impact_01.mp3, wood_impact_02.mp3</asset>
+		<asset id="clothesHit" baseVolume="2" exclusiveType="true">cloth_01.mp3, cloth_flap_02.mp3</asset>
+		<asset id="puddleHit" baseVolume="2" exclusiveType="true">ls_pond_water_splash_01.mp3, ls_pond_water_splash_02.mp3</asset>
+		<asset id="skateboardHit" baseVolume="2" exclusiveType="true">ls_wood_verb_01.mp3, ls_wood_verb_02.mp3</asset>
+		<asset id="oilHit" baseVolume="2" exclusiveType="true">muck_01.mp3, muck_02.mp3, muck_03.mp3, muck_04.mp3</asset>
+		<asset id="hydrantOnHit" baseVolume="2" exclusiveType="true">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="tireHit" baseVolume="2" exclusiveType="true">rubber_stretch_14.mp3</asset>
+		<asset id="manholeHit" baseVolume="2" exclusiveType="true">object_fall_01.mp3</asset>
+		
+		<asset id="coneHit" baseVolume="2" exclusiveType="true">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="bumpHit" baseVolume="2" exclusiveType="true">jump_from_gravel_01.mp3</asset>
+		<asset id="busstopHit" baseVolume="2" exclusiveType="true">metal_panel_open_01.mp3, metal_panel_open_02.mp3, metal_panel_open_03.mp3</asset>
+		<asset id="potholeHit" baseVolume="2" exclusiveType="true">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+		<asset id="bikeHit" baseVolume="2" exclusiveType="true">metal_impact_07.mp3, metal_impact_14.mp3</asset>
+		<asset id="bballHit" baseVolume="2" exclusiveType="true">ball_bounce_01.mp3, ball_bounce_02.mp3</asset>
+		
+		<asset id="jump02Hit" baseVolume="2" exclusiveType="true">jump_from_gravel_01.mp3</asset>
+		<asset id="jump03Hit" baseVolume="2" exclusiveType="true">jump_from_gravel_01.mp3</asset>
+		
+		<asset id="boatHit" baseVolume="2" exclusiveType="true">ls_wood_crate_01.mp3</asset>
+	</sound>
+</sounds>

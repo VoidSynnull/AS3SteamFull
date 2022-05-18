@@ -1,0 +1,51 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PhotoBoothValentines2019/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>dialog</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- from scene.xml in ad scene -->
+	<assets type="building" path="assets/limited/PhotoBoothValentines2019/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- avatar parts for exterior NPC only -->	
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>ppeacekeeper</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>ppeacekeeper</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>stor_winter_gpoofball</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>stor_winter_gpoofball</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>ad_monstersinc_boo</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>ad_monstersinc_boo</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>char3</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>char3</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>ad_lalagirls_mittens</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>ad_lalagirls_mittens</asset>
+	</assets>
+</manifest>

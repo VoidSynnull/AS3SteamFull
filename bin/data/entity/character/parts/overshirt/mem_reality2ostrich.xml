@@ -1,0 +1,34 @@
+<part>
+	<id>mem_reality2ostrich</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">entity/character/foot/mem_reality2ostrich_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+		<part id="skinColor">skinColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+		<color id="skinColor"/>
+	</colors>
+	<colorables>
+		<colorable id="skinColor">
+			<clip instanceName="arm1"/>
+			<clip instanceName="arm2"/>
+			<clip instanceName="leg"/>
+		</colorable>
+	</colorables>
+</part>

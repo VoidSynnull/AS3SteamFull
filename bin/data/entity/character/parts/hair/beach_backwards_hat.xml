@@ -1,0 +1,20 @@
+<part>
+	<id>beach_backwards_hat</id>
+	<type>hair</type>
+	<gender>male</gender>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape1"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape2"/>
+		</colorable>
+	</colorables>
+</part>

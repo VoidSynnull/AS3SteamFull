@@ -1,0 +1,26 @@
+<part>
+	<id>limited_trolls_whip_hair</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<campaignID>2826</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">TrollsPartyRoom,Hair Whip</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="part" type="string">hair</param>
+						<param id="frame" type="string">whip</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

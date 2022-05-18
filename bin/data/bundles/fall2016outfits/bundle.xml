@@ -1,0 +1,37 @@
+<bundle>
+	<id>fall2016outfits</id>
+	<name>Fall Fashion Pack</name>
+	
+	<cardSets>
+		<cardSet id="male">
+			<card>3527</card>
+			<card>3529</card>
+			<card>3531</card>
+			<card>3533</card>
+		</cardSet>
+		<cardSet id="female">
+			<card>3528</card>
+			<card>3530</card>
+			<card>3532</card>
+			<card>3534</card>
+		</cardSet>
+	</cardSets>
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>0</brightness>
+	   			<contrast>0</contrast>
+	   			<saturation>12</saturation>
+	   			<hue>156</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/fall2016outfits.swf</assetPath>
+	    </asset> 
+    </assets>
+</bundle>

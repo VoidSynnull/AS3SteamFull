@@ -1,0 +1,46 @@
+<npcs>
+  <npc id="dwight">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xE9BAA8</skinColor>
+		<hairColor>0xFA1B88</hairColor>
+		 <mouth>fisherman</mouth>
+		 <marks>mtcleveland</marks>
+		 <facial>limited_dwight</facial>
+		 <hair>limited_dwight</hair>
+		 <shirt>limited_dwight</shirt>
+		 <pants>limited_dwight</pants>
+		 <item>clipboard</item>
+    </skin>
+	<direction>right</direction>
+	<scale>.5</scale>
+    <position>
+      <x>100</x>
+      <y>420</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<faceSpeaker>true</faceSpeaker>
+  </npc>
+	<npc id="rafe">
+		<skin>
+ <skinColor>0xF7B986</skinColor>
+	<hairColor>0x4B351B</hairColor>
+	 <mouth>hercules</mouth>
+	 <hair>ad_spiritanimals_boy2</hair>
+	 <shirt>limited_rafe</shirt>
+	 <pants>finvendor</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>13200</x>
+			<y>420</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

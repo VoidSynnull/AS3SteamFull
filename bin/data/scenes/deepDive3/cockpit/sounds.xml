@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" event="spoke_with_ai">atlantis_3_escape_theme.mp3</asset>
+		<asset loop="true">atlantis_3_main_theme.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="shipTakingOff">atlantis_3_escape_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_pressure_short_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+		<asset id="water">fs_water_01.mp3,fs_water_02.mp3,fs_water_03.mp3,fs_water_04.mp3,fs_swim_water_01.mp3,fs_swim_water_02.mp3,fs_swim_water_03.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- scene sounds -->
+		<asset triggeredByEvent="turnAlienOnSound">power_on_07b.mp3</asset>
+		<asset triggeredByEvent="monitorHumSound" baseVolume="0.6" loop="true">monitor_screen_hum_02_loop.mp3</asset>
+	</sound>
+</sounds>

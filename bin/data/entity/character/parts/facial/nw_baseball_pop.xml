@@ -1,0 +1,17 @@
+<part ignoreTimelines="true">
+	<id>nw_baseball_pop</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>baseball_letter</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

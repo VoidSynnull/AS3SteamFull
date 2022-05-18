@@ -1,0 +1,40 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">viking_fortress.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset id="doorRiver">sewer_scrape_01.mp3</asset>
+		<!-- <asset>openDoor_pushBar.mp3</asset> -->
+	</sound>
+	
+	<sound type="effects" action="drink">
+		<asset id="giant" modifiers="position">drink_soda_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="eat">
+		<asset id="giant" modifiers="position">soft_bite_01.mp3, soft_bite_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="chew">
+		<asset id="giant" modifiers="position" loop="true">chewing_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="flame1" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+		<asset id="flame2" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+		<asset id="flame3" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="wood_old">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="wood_frame">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="wood_old">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="wood_frame">fs_wood_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+</sounds>

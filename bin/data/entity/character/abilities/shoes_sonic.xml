@@ -1,0 +1,27 @@
+<specialAbility id="shoes_sonic">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddShoes</className>
+	<parameters>
+		<param id="shoePath">entity/character/foot/limited_sonic_foot2d.swf</param>
+		<!--
+		<param id="showBlur">true</param>
+		<param id="blursPerSecond">8</param>
+		<param id="color">0xD87431</param>
+		<param id="alpha">.75</param>-->
+	</parameters>
+	<!-- 
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetSkinAction">
+				<parameters>
+					<param id="char" type="entity">player</param>
+					<param id="partType" type="string">item</param>
+					<param id="partID" type="string">limited_sonic_speed</param>
+					<param id="permanent" type="boolean">false</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>	
+	 -->
+</specialAbility>

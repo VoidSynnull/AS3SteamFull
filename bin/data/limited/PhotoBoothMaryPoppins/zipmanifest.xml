@@ -1,0 +1,67 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/IslandPhotoBoothMobile/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>dialog</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- from scene.xml in ad scene -->
+	<assets type="building" path="assets/limited/IslandPhotoBoothMobile/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- avatar parts for exterior NPC only -->	
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>wwprospector</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>wwprospector</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>notebook</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>notebook</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>townie4</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>townie4</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>ginnkw</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>ginnkw</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>grandma</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>grandma</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>bl_hipm</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>bl_hipm</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>pbiker1</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>pbiker1</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>camera</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>camera</asset>
+	</assets>
+</manifest>

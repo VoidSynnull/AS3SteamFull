@@ -1,0 +1,30 @@
+<part>
+	<id>limited_dc_lasso</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2961</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/DCSupergirlsVBB/lasso.swf</param>
+			<param id="speedX">200</param>
+			<param id="speedY">-450</param>
+			<param id="rotationSpeed">100</param>
+			<param id="tracking">DCSupergirlsVBB,Lasso</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">overshirt</param>
+						<param type="string">limited_tied_up</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

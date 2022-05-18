@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement event="hasAdItem_2835">Have you enabled your baby panda companion prize?</statement> <!-- If have item card -->
+		<statement event="videoDone">Have you enabled your baby panda companion prize?</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this video!</statement> <!-- if video playing -->
+		<statement>Watch this video and get a baby panda companion prize!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

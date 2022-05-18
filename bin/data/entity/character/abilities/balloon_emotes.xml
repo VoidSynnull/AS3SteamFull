@@ -1,0 +1,10 @@
+<specialAbility id="balloon_emotes">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddBalloon</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/balloonEmotes.swf</param>
+		<param id="offsetY">-90</param>
+		<param id="clickable">true</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

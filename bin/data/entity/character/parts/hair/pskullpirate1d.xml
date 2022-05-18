@@ -1,0 +1,20 @@
+<part>
+	<id>pskullpirate1d</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hatColor">0x946538</color>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hatColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

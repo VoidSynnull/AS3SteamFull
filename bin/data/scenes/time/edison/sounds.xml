@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Edisons_Workshop.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_light_open_creak_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="roof">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="chimney">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="tree">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="house">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="leaves">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="carSeat">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="carTop">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="roof">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="chimney">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="tree">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="house">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="leaves">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+</sounds>

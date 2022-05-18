@@ -1,0 +1,72 @@
+<npcs>
+	<npc id="rebecca">
+    	<skin>
+			<gender>female</gender>
+			<skinColor>0xFBDFCB</skinColor>
+			<hairColor>0x513B2B</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>limited_tsbrjess</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>43</hair>
+			<facial>empty</facial>
+			<shirt>limited_rebecca</shirt>
+			<pants>limited_rebecca</pants>
+ 			<item>limited_9lives_pinkphone</item>
+   	</skin>
+		<direction>right</direction>
+    	<position>
+    		<x>730</x>
+    		<y>875</y>
+    	</position>
+    	<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<faceSpeaker>true</faceSpeaker>
+	</npc>
+	<npc id="cat" variant="creature">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0x807E7F</skinColor>
+			<mouth>van</mouth>
+			<pack>limited_mrfuzzypants</pack>
+			<marks>limited_mrfuzzypants</marks>
+			<facial>empty</facial>
+			<overshirt>limited_mrfuzzypants</overshirt>
+    	</skin>
+		<direction>right</direction>
+    	<position>
+    		<x>650</x>
+    		<y>875</y>
+    	</position>
+    	<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.216</scale>
+		<faceSpeaker>true</faceSpeaker>
+	</npc>
+	<npc id="felix">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfd6</skinColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsorcwmb1</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>empty</facial>
+			<marks>mtcleveland</marks>
+			<hair>limited_felix</hair>
+			<shirt>9</shirt>
+			<pants>astroguard1</pants>
+			<overshirt>limited_felix</overshirt>
+    	</skin>
+		<direction>left</direction>
+    	<position>
+    		<x>1070</x>
+    		<y>875</y>
+    	</position>
+    	<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<faceSpeaker>true</faceSpeaker>
+	</npc>
+</npcs>

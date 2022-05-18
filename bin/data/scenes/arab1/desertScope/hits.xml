@@ -1,0 +1,27 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stone" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xff9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="awning" color="0x00ff99" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="entranceStone" color="0x999900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="water" color="0x0099ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0x61DEE433</splashColor1>
+			<splashColor2>0x489AD033</splashColor2>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="ambient">
+<!-- 		<asset loop="true" baseVolume="1.6">winter_wind_01_loop.mp3</asset> -->
+	</sound>
+	
+	<sound type="music">
+<!-- 		<asset loop="true" fade="true" exclusiveType="true">thieves_lair.mp3</asset> -->
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

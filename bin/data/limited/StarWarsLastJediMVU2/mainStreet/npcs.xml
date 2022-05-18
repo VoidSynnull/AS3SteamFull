@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>14</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>limited_kiloren2</marks>
+			<hair>limited_kiloren2</hair>
+			<pants>gpromodaphne</pants>
+			<pack>limited_kiloren2</pack>
+			<item>limited_kiloren2</item>
+			<overshirt>limited_kiloren2</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>140</x>
+			<y>460</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

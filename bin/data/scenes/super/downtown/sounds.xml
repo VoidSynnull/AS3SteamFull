@@ -1,0 +1,47 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_02.mp3</asset>
+		<asset id="doorMain">none</asset>
+		<asset id="doorPark">none</asset>
+		<asset id="doorSkyscraper">none</asset>
+		<asset id="doorSkyscraper2">none</asset>
+		<asset id="doorStation">none</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="bounce">ls_spring_02.mp3</asset>
+		<asset id="metalDome">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="slantedConcreteRoof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="flatConcreteRoof">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metalRail">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="archedClothOverhang">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="sidewalk">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="newsPaperBox">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="subwaySign">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="trashBin">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="statue">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metalSign">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="windowSills">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="pretzelStand">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="metalDome">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="slantedConcreteRoof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="flatConcreteRoof">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="metalRail">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="archedClothOverhang">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="sidewalk">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="newsPaperBox">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="subwaySign">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="trashBin">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="statue">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="metalSign">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="windowSills">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="pretzelStand">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+	</sound>
+</sounds>

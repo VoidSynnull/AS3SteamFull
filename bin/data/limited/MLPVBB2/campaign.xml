@@ -1,0 +1,11 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+ 	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<campaignId>MLPVBB2</campaignId> <!-- *** MUST match campaign folder name -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<!-- if only one click URL is provided, then you only need Default -->
+	<clickUrls>
+		<clickUrl id="Default">https://www.netflix.com/title/81424207</clickUrl>
+	</clickUrls>
+</campaign>

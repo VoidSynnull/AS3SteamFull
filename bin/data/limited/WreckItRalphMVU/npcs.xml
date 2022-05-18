@@ -1,0 +1,21 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="limited_van">
+		<bitmap>limited/WreckItRalphMVU/npc2.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>840</x> <!-- from left edge of ad unit -->
+			<y>394</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>	
+	<npc id="limited_ralph">
+		<bitmap>limited/WreckItRalphMVU/npc.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>140</x> <!-- from left edge of ad unit -->
+			<y>394</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>	
+</npcs>

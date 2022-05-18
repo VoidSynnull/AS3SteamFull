@@ -1,0 +1,36 @@
+<hits>
+	<hit id="roof" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="barrier" color="0x990000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rail" color="0x999999" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x0066FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bag" color="0x9933CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="block" color="0xFF66FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+</hits>

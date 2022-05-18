@@ -1,0 +1,67 @@
+<item id="3072">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+				<value>Pumpkin Head</value>
+ 	 	</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<radiobuttons>
+		<btn>
+			<asset>ui/card/pumpkinButtons/radio_btn1.swf</asset>
+			<color>0xFF9900</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<asset>ui/card/pumpkinButtons/radio_btn2.swf</asset>
+			<color>0xFF9900</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<asset>ui/card/pumpkinButtons/radio_btn3.swf</asset>
+			<color>0xFF9900</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+		
+	<looks>
+		<look>
+			<facial>pumpkinHead</facial>
+			<pants>pumpkin</pants>
+			<shirt>pumpkin</shirt>
+			<overshirt>pumpkin</overshirt>
+		</look>
+		<look>
+			<facial>pumpkinHead2</facial>
+			<pants>pumpkin</pants>
+			<shirt>pumpkin</shirt>
+			<overshirt>pumpkin</overshirt>
+		</look>
+		<look>
+			<facial>pumpkinHead3</facial>
+			<pants>pumpkin</pants>
+			<shirt>pumpkin</shirt>
+			<overshirt>pumpkin</overshirt>
+		</look>
+	</looks> 
+	
+</item>

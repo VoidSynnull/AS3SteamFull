@@ -1,0 +1,94 @@
+<item id="6005"> <!-- Change this card ID -->
+  	<type>pets</type>
+	<subType>general</subType>
+	
+     <contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  		<parameters>
+			<param id="pet">true</param>
+		</parameters>
+  	</contentClass>
+	
+ 	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE PET</label>
+    		<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">EquipPet</param>
+				  		<param id="choice">Husky</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY PET</label>
+    		<actions>
+				<action type="deactivatePower"/>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">UnEquipPet</param>
+				  		<param id="choice">Husky</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Members-Only Pet</value>
+		</text>
+		<text id="storeTitle">
+			<value>Husky</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack"/>
+  	</assets>
+   	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+   	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0x38565e</skinColor>
+			<mouth>husky</mouth>
+			<head>husky</head>
+			<body>husky</body>
+			<marks>husky_ears</marks>
+			<tail>husky</tail>
+			<paw1>husky</paw1>
+			<paw2>husky</paw2>
+			<paw3>husky</paw3>
+			<paw4>husky</paw4>
+			<calf1>husky_front</calf1>
+			<calf2>husky_front</calf2>
+			<calf3>husky_back</calf3>
+			<calf4>husky_back</calf4>
+			<thigh1>husky_front</thigh1>
+			<thigh2>husky_front</thigh2>
+			<thigh3>husky_back</thigh3>
+			<thigh4>husky_back</thigh4>
+			<facial>empty</facial>
+			<hair>empty</hair>
+			<eyes>eyes</eyes>
+			<overbody>empty</overbody>
+		</look>
+	</looks> 
+
+    <specials>
+		<specialAbility>pets/pop_follower_husky</specialAbility>
+	</specials>
+</item>

@@ -1,0 +1,23 @@
+<dialogs>
+	<character id="vanburen">
+		<statement id="eat_up">Eat up! You'll need your strength for the hunt tomorrow.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="taste">This steak tastes funny. What's in it?</statement>
+    	<statement id="bad_meat">I don't feel so good...</statement>
+    	<statement triggeredByEvent="player_scared" triggerEvent="triggerEvent" triggerEventArgs="back_to_bed">AHHH!</statement>
+    	<statement triggeredByEvent="bloody_scared" triggerEvent="triggerEvent" triggerEventArgs="phrased_better">AHHH!</statement>
+    	<statement triggeredByEvent="jumpy">Guess I'm a little jumpy.</statement>
+    </character>
+    
+    <character id="cook">
+    	<statement id="woken">What was that?</statement>
+    	<statement id="nothing">I guess it was nothing.</statement>
+    	<statement id="meat" triggerEvent="takeItem" triggerEventArgs="taintedMeat, cook">Give that back!</statement>
+    	<statement event="open_kitchen" triggerEvent="triggerEvent" triggerEventArgs="bloody_scared">How do you want it? Bloody?</statement>
+    	<statement triggeredByEvent="phrased_better" triggerEvent="triggerEvent" triggerEventArgs="jumpy">I could have phrased that better. Dinner won't start for a bit. We're having steaks.</statement>
+    	<statement id="goodnight" triggerEvent="triggerEvent" triggerEventArgs="player_scared">Time to say good night!</statement>
+    	<statement triggeredByEvent="back_to_bed" triggerEvent="triggerEvent" triggerEventArgs="butler_popup">I'll have Winston take you back to bed.</statement>
+    </character>    
+</dialogs>

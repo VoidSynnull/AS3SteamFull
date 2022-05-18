@@ -1,0 +1,44 @@
+<dialogs>
+
+	<character id="char1">
+		<statement>They’re only letting very important people on the train!</statement>
+		<statement event="gotItem_1021">I never would have suspected Mlle. Moreau of being a thief.</statement>
+    </character>
+    
+    <character id="char2">
+		<statement>The Chicago World’s Fair sounds like the most spectacular event in the history of the world!</statement>
+		<statement event="gotItem_1021">You’re the one who caught that thief! Well done!</statement>
+    </character>
+    
+    <character id="char3">
+		<statement>I sure wish I could afford to go to Chicago.</statement>
+		<statement event="gotItem_1021">The fair was exhausting! Good thing it happens only every four years.</statement>
+    </character>
+    
+    <character id="edison">
+    	<conversation>
+    		<exchange>
+	    		<question>Need a hand?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="pushCrateChat,true">If you could help me get my luggage onto the train, I’d be in your debt!</answer>
+    		</exchange>
+    	</conversation>
+		<statement event="pushCrateChat">Can you help me get my luggage on the train?</statement>
+    	<statement event="pushedCrate" triggerEvent="giveItem" triggerEventArgs="trainTicket" >Say, how would you like to come along with me to Chicago? I’m sure I could use your assistance again!</statement>
+		<statement event="gotItem_trainTicket">Meet me at my cabin once you board the train.</statement>
+    </character>
+    
+    <character id="char5">
+		<statement>They won’t let me on the train. Well, I didn’t want to go to the World’s Fair anyway!</statement>
+		<statement event="gotItem_medallionTrain">Want to solve the mystery all over again? Open your island map and press 'restart island'!</statement>
+    </character>
+    
+    <character id="char6">
+		<statement>Everybody who's anybody is on that train -- even my favorite writer, Mark Twain!</statement>
+		<statement event="gotItem_medallionTrain">My goodness, I hope my next train ride is less eventful.</statement>
+    </character>
+    
+    <character id="char7">
+		<statement>It’s a long trip to Chicago, but it’ll be worth the wait to see that Fair.</statement>
+		<statement event="gotItem_medallionTrain">In the future, I bet we’ll have flying machines that can take us from DC to Chicago in hours, not days!</statement>
+    </character>
+</dialogs>

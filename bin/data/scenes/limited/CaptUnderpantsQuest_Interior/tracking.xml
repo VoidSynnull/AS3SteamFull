@@ -1,0 +1,48 @@
+<tracking>
+	<track id="poster0">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Above Door</subchoice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right</subchoice>
+	</track>
+	<track id="poster2">
+		<event>OpenedPopup</event>
+		<choice>Synopsis</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="poster3">
+		<event>OpenedPopup</event>
+		<choice>Harold and George</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="poster4">
+		<event>OpenedPopup</event>
+		<choice>Captain Underpants</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="poster5">
+		<event>OpenedPopup</event>
+		<choice>Fly Animation</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="CaptUnderpants">
+		<event>EngagedInsideNPC</event>
+		<choice>Captain Underpants</choice>
+	</track>
+	<track id="George">
+		<event>EngagedInsideNPC</event>
+		<choice>George</choice>
+	</track>
+	<track id="Harold">
+		<event>EngagedInsideNPC</event>
+		<choice>Harold</choice>
+	</track>
+</tracking>

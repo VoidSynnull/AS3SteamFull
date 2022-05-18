@@ -1,0 +1,46 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2564</right>
+		<bottom>936</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>2564</right>
+		<bottom>900</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml,items.xml,photos.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/survival1/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+			<tileSize>1024</tileSize>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>219</x>
+			<y>850</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<suppressFollower>true</suppressFollower>
+	<suppressAbility>true</suppressAbility>
+</scene>

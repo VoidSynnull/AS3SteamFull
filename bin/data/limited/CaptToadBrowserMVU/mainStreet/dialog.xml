@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="videoDone">Check out this cool video!</statement> <!-- if video done -->
+		<statement event="videoPlaying">Check out this cool video!</statement> <!-- if video playing -->
+		<statement>Check out this cool video!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

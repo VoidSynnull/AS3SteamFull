@@ -1,0 +1,27 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xCCCC00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x0099CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="boat" color="0x330000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+</hits>

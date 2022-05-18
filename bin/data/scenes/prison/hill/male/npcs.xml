@@ -1,0 +1,47 @@
+<npcs>
+	<npc id="les" event="player_escaped">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>15</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>psingerguy1</shirt>
+			<pants>sears2</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1820</x>
+			<y>671</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="sal" event="player_escaped">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>psingerguy2</shirt>
+			<pants>van</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1800</x>
+			<y>671</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

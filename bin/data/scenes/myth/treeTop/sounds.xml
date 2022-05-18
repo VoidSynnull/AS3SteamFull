@@ -1,0 +1,41 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="tree">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+		<asset id="secretPath">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+		<asset id="weakbounce">ls_bounce_01.mp3,ls_bounce_02.mp3,ls_bounce_03.mp3</asset>
+		<asset id="bounce">ls_spring_01.mp3,ls_spring_02.mp3,ls_spring_03.mp3</asset>
+		<asset id="squish">ls_squishy_muck_01.mp3,ls_squishy_muck_02.mp3</asset>
+		<asset id ="climb1">ls_rope_01.mp3,ls_rope_02.mp3</asset>	
+		<asset id ="climb2">ls_rope_01.mp3,ls_rope_02.mp3</asset>	
+		<asset id ="climb3">ls_rope_01.mp3,ls_rope_02.mp3</asset>	
+		<asset id ="climb4">ls_rope_01.mp3,ls_rope_02.mp3</asset>	
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="tree">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+		<asset id="secretPath">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+		<asset id="squish">fs_squishy_muck_01.mp3,fs_squishy_muck_02.mp3,fs_squishy_muck_03.mp3,fs_squishy_muck_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="thunder_clap" allowOverlap="true">thunder_clap_01.mp3, thunder_clap_02.mp3, thunder_clap_03.mp3</asset>
+		<asset triggeredByEvent="honey_chase_collect_sound" baseVolume="4.0">myth_collect_honey_jar_01.mp3</asset>
+		<asset triggeredByEvent="honey_chase_passed" baseVolume="4.0">myth_mg_correct_01.mp3</asset>
+		<asset triggeredByEvent="honey_chase_failed" baseVolume="4.0">myth_mg_wrong_01.mp3</asset>
+		<asset triggeredByEvent="show_path" allowOverlap="false">myth_path_revealed_01.mp3</asset>
+		<asset triggeredByEvent="stomp_sound" allowOverlap="false">myth_trunk_stomp_01.mp3</asset>
+		<asset triggeredByEvent="bigThunder_sound" allowOverlap="false">thunder_big_clap_01.mp3</asset>
+		<asset triggeredByEvent="poof_sound" allowOverlap="false">poof_01.mp3, poof_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="climb2" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="climb3" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="climb4" allowOverlap="false">slide_down_rope_01.mp3</asset>		
+	</sound>
+	<sound type="effects" action="go">
+		<asset id="zeusScroll" loop="true" allowOverlap="false">myth_sparkle_loop_01.mp3</asset>
+	</sound>
+</sounds>

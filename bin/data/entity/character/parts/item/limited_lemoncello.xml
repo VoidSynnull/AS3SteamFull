@@ -1,0 +1,15 @@
+<part>
+	<id>limited_lemoncello</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2854</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<parameters>
+			<param id="partType">item</param>
+			<param id="tracking">LemoncelloQuest,Umbrella</param>
+		</parameters>
+	</specialAbility>
+</part>

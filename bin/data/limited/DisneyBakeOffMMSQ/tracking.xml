@@ -1,0 +1,24 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster Logo</subchoice>
+		<triggerImpression>false</triggerImpression>
+	</track>
+		<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+		<triggerImpression>false</triggerImpression>
+	</track>
+	<track id="dara">
+		<event>EngagedOutsideNPC</event>
+		<choice>Outside Dara</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+		<track id="isaac">
+		<event>EngagedOutsideNPC</event>
+		<choice>Outside Isaac</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

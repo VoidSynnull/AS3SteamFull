@@ -1,0 +1,39 @@
+<hits>
+	<hit id="branch" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-700</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="mushroom" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb3">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb4">
+		<component type="climb"/>
+	</hit>
+</hits>

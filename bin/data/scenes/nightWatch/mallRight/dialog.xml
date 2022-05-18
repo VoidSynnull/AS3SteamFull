@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="player">
+		<statement event="snake_lost">Now where did he go?</statement>
+		<statement event="watch_greetOldLady">Good evening, ma'am.</statement>
+		<statement event="watch_reprimandEscalatorBoy">No running up the escalator!</statement>
+		<statement event="watch_comingSoonWithTorch">I'll need to use the blowtorch.</statement>
+		<statement event="watch_lockedComingSoon">It's locked.</statement>
+		<statement event="watch_needTorch">He said to get the blowtorch behind a photo in the manager's office.</statement>
+		<statement event="watch_useTrochFail">No reason to use this right here.</statement>
+    </character>
+	<character id="char1">
+		<statement event="watch_task2">Patrol the mall for trouble.</statement>
+		<statement event="watch_botExplodes">Hmm, guess we’ll have to replace that one.</statement>
+		<statement event="watch_purseThiefEscaped">Don't just stand there. Go after him!</statement>
+    </character>
+    <character id="char4">
+    	<statement event="watch_purseSnatch">Help! Thief!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,15 @@
+<doors>
+	<door id="customDoor">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=LPSQuest_Interior</scene> <!-- AS3 destination -->
+			<x>250</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

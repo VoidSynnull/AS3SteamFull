@@ -1,0 +1,87 @@
+<npcs>
+	<npc id="char1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE88A</skinColor>
+			<hairColor>0x55402D</hairColor>
+			<mouth>rat</mouth>
+			<marks>beardshort2</marks>
+			<hair>44</hair>
+			<shirt>eiffel</shirt>
+			<pants>eiffel</pants>
+			<item>scroll</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1425</x>
+			<y>673</y>
+		</position>
+		<direction>right</direction>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char2">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<faceSpeaker>false</faceSpeaker>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE88A</skinColor>
+			<hairColor>0x6C4A24</hairColor>
+			<mouth>rat</mouth>
+			<marks>beardshort4</marks>
+			<facial>frenchman2</facial>
+			<hair>frenchman</hair>
+			<shirt>frenchman2</shirt>
+			<pants>frenchman</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>63</x>
+			<y>2240</y>
+		</position>
+		<direction>right</direction>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char2" event="returned_statuette">
+		<animations>
+		</animations>
+	</npc>
+	<npc id="char3">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<faceSpeaker>false</faceSpeaker>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE88A</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>beardhair</marks>
+			<facial>frenchman1</facial>
+			<hair>frenchman</hair>
+			<shirt>frenchman1</shirt>
+			<pants>frenchman</pants>
+			<item>mallet</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1972</x>
+			<y>2240</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char3" event="returned_statuette">
+		<animations>
+		</animations>
+	</npc>
+</npcs>

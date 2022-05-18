@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">city_night_time.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorHeadquarters">door_metal_lab_01.mp3</asset>
+		<asset id="doorSpyGlass1">door_knob_turn_open_01.mp3</asset>
+		<asset id="doorSpyglass2">door_knob_turn_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="generalMetal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="cloth">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="generalRubbish">ls_general_rubbish_01.mp3, ls_general_rubbish_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="wicker">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="plastic">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3,</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="generalMetal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="cloth">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="generalRubbish">fs_general_rubbish_01.mp3, fs_general_rubbish_02.mp3, fs_general_rubbish_03.mp3, fs_general_rubbish_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="climb">ropeStrain_01.mp3, ropeStrain_02.mp3, ropeStrain_03.mp3</asset>
+		<asset id="wicker">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+		<asset id="plastic">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+	</sound>
+</sounds>

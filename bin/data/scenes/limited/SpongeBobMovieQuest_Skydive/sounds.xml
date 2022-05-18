@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">prepare_for_liftoff.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true">light_wind_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="chuteOpened">
+		<asset id="player">whoosh_05.mp3</asset>
+	</sound>
+	<sound type="effects" action="chuteDeployed">
+		<asset id="player">wing_flap_small_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="crashed">
+		<asset id="player">whack_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="landed">
+		<asset id="player">Landing_gravelAndGrass.mp3</asset>
+	</sound>
+	<sound type="effects" action="falseStart">
+		<asset id="player">alarm_04.mp3</asset>
+	</sound>
+</sounds>

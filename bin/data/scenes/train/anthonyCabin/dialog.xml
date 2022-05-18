@@ -1,0 +1,20 @@
+<dialogs>
+	<character id="anthony">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metAnthony,true">Are you looking forward to the fair?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="womensSuffragePamphlet">So many people will be there. It's the perfect place to demonstrate for my cause.  Have a pamphlet!</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_womensSuffragePamphlet">
+			<exchange>
+				<question>Are you looking forward to the fair?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="already_have_pamphlet">So many people will be there. It's the perfect place to demonstrate for my cause.  Have a pamphlet!</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="player">
+    	<statement triggeredByEvent="already_have_pamphlet">I already have one, thanks.</statement>
+    </character>
+</dialogs>

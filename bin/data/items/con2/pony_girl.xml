@@ -1,0 +1,32 @@
+<item id="mutton_chops">
+	<type>island</type>
+	<subType>con2</subType>
+	<value>2,draw</value>
+	<textfields>
+ 		<text id="title">
+      		<value>Pony Girl</value>
+      		<styleFamily>CCG</styleFamily>
+      		<y>-180</y>
+      		<x>-120</x>
+    	</text>
+    	<text id="power">
+      		<value>Extra Card</value>
+      		<styleFamily>CCG</styleFamily>
+      		<y>40</y>
+    	</text>
+    	<text id="description">
+      		<value>Draw an extra card from your deck.</value>
+      		<styleFamily>CCG</styleFamily>
+      		<width>250</width>
+      		<y>100</y>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/con2/background2.swf</assetPath>
+    	</asset>
+    	<asset id="cardContent">
+  			<assetPath>items/con2/pony_girl.swf</assetPath>
+    	</asset>
+    </assets>
+</item>

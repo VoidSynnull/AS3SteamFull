@@ -1,0 +1,14 @@
+<part>
+	<id>limited_mall_santa</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.store.AddSnow</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rate">250</param>
+			<param id="tracking">ChristmasAgainVBB,snow_power</param>
+  		</parameters>
+	</specialAbility>
+</part>

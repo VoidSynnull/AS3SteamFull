@@ -1,0 +1,52 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/CBSMiddleSchoolMMSQ/" ext="xml">
+		<asset>campaign</asset>
+		<asset>version</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/CBSMiddleSchoolMMSQ/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+
+	<data type="game" path="assets/limited/CBSMiddleSchoolMMSQ/mainStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</data>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>hercules</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>hercules</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>ad_spiritanimals_boy2</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>ad_spiritanimals_boy2</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_rafe</asset>		
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_rafe</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>finvendor</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>finvendor</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,13 @@
+<game>
+	<className>game.scene.template.ads.AdMemoryGame</className>
+	<winDelay>0</winDelay>
+	<returnX>2900</returnX>
+	<returnY>1346</returnY>
+	<tweenSpeed>.2</tweenSpeed>   <!-- how fast shuffle is -->
+	<numShuffles>40</numShuffles> <!-- num shuffles before start-->
+	<waitTime>5</waitTime>		  <!-- count down to game start-->
+	<numTiles>20</numTiles>		  <!-- number of tiles-->
+	<timeOut>194</timeOut>		  <!-- timer length-->
+	<correctSFX>effects/points_ping_01d.mp3</correctSFX>	  <!-- correct match sound -->		
+	<incorrectSFX>effects/miss_points_01.mp3</incorrectSFX>  <!-- incorrect match sound-->
+</game>

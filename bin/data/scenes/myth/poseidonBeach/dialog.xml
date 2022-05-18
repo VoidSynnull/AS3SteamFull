@@ -1,0 +1,60 @@
+<dialogs>
+	<character id="char1">
+		<statement event="zeus_defeated">text1</statement>
+		<conversation>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+			<exchange>
+				<question>text6</question>
+				<answer>text7</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="char2">
+		<statement>text8</statement>
+		<statement id="answer">text9</statement>
+    </character>
+    
+    <character id="char3">
+		<statement link="answer" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="lookGirl">text10</statement>
+    </character>
+    
+    <character id="aphrodite">
+		<statement triggeredByEvent="aphrodite_test_failed" triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text11</statement>
+		<statement triggeredByEvent="aphrodite_test_passed" link="mirror" triggerEvent="giveItem" triggerEventArgs="aphroditeMirror">text12</statement>
+		<statement id="mirror" triggerEvent="triggerEvent" triggerEventArgs="unlock_motion">text13</statement>
+		<statement event ="gotItem_aphroditeMirror">text14</statement>
+		<conversation>
+			<exchange>
+				<question>text15</question>
+				<answer>text16</answer>
+			</exchange>
+			<exchange>
+				<question>text17</question>
+				<answer>text18</answer>
+			</exchange>
+			<exchange>
+				<question>text19</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="aphrodite_test">text20</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<dialogs>
+	<!--  character 1  -->
+	<character id="policewoman">
+		<statement>Thank goodness you're here!</statement>
+    	<statement event="beat_boss_5">Thanks for your help. We'll secure the area.</statement>
+    </character>
+    
+    <!--  character 2  -->
+    <character id="policeman">
+    	<statement>We're no match for crusher!</statement>
+		<statement event="beat_boss_5">That was amazing work! Thanks!</statement>
+    </character>
+</dialogs>

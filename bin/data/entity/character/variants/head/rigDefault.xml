@@ -1,0 +1,33 @@
+<character variant="head" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<parts>
+		<part id="hair" optional="true">
+			<joint>hair</joint>
+			<partType>hair</partType>
+		</part>
+		<part id="headSkin">
+			<joint>head</joint>
+			<partType>headSkin</partType>
+		</part>
+		<part id="marks" optional="true">
+			<joint>head</joint>
+			<partType>marks</partType>
+		</part>
+		<part id="eyes" optional="true">
+			<joint>head</joint>
+			<partType>eyes</partType>
+		</part>
+		<part id="mouth" optional="true">
+			<joint>head</joint>
+			<partType>mouth</partType>
+		</part>
+		<part id="facial" optional="true">
+			<joint>head</joint>
+			<partType>facial</partType>
+		</part>
+	</parts>
+</character>
+
+
+
+
+

@@ -1,0 +1,15 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="stone" color="0x640BE5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="seat" color="0xC90BE5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

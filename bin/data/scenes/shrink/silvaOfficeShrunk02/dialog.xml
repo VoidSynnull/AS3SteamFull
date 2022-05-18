@@ -1,0 +1,31 @@
+<dialogs>
+	<!-- CJ -->
+	<character id="char1">
+		<conversation id="convo">
+			<exchange>
+				<question>Are you all right?</question>
+				<answer>I'm fine, but we've got to do something. Mr. Silva stole my shrink ray gun!</answer>
+			</exchange>
+			<exchange>
+				<question>Why would he do that?</question>
+				<answer>I don't know! He's always been such a great teacher!</answer>
+			</exchange>
+			<exchange>
+				<question>What should we do?</question>
+				<answer>No matter what, we need to make sure Mr. Silva doesn't see us.</answer>
+			</exchange>
+		</conversation>
+		<statement id="run">Run for it!</statement>
+    </character>
+    
+    <!-- Mr Silva -->
+    <character id="char2">
+		<statement id="there you are">There you are! I'll shrink you again, and you'll be so small that no one will EVER see you!</statement>
+		<statement id="ill make millions">Then I'll sell the shrink ray design and make millions!</statement>
+    </character>
+    
+    <character id="player">
+		<statement id="in the office">I'm in Mr. Silva's office!</statement>
+		<statement id="being watched">Ever get the feeling you're being watched?</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="no_reason_to_use_item_default">shared.text1</statement>
+		<statement triggeredByEvent="no_put_on">shared.text2</statement>
+		<statement id="getBoot">shared.text3</statement>
+		<statement id="no_hook">shared.text4</statement>
+	</character>
+</dialogs>

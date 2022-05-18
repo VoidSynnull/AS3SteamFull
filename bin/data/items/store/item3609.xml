@@ -1,0 +1,39 @@
+<item id="3609"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+		<campaignID>MemberGift</campaignID>
+	
+		<contentClass> <!-- This displays avatar -->
+			<className>game.ui.card.CharacterContentView</className>
+		</contentClass>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Bouquet of Roses"/>
+			</actions>
+			</btn>
+		</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Bouquet of Roses</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to toss</web>
+			<mobile>Tap ACTION to toss</mobile>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<item>red_roses</item>
+		</look>
+	</looks> 
+</item>

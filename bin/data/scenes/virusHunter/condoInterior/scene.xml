@@ -1,0 +1,38 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+    <left>0</left>
+    <top>0</top>
+    <right>1412</right>
+    <bottom>842</bottom>
+  </cameraLimits>
+  <bounds>
+    <left>16</left>
+    <top>16</top>
+    <right>1380</right>
+    <bottom>790</bottom>
+  </bounds>
+  <data>dialog.xml,doors.xml,sounds.xml,hits.xml</data>
+  <assets>droplet.swf</assets>
+  <layers>
+    <layer>
+      <asset>background.swf</asset>
+      <rate>1</rate>
+    </layer>
+    <layer hit="true">
+      <asset>interactive.swf</asset>
+      <rate>1</rate>
+    </layer>
+    <layer>
+      <asset>foreground.swf</asset>
+      <rate>1</rate>
+    </layer>
+  </layers>
+  <player>
+    <defaultPosition>
+      <x>164</x>
+      <y>792</y>
+    </defaultPosition>
+    <defaultDirection>right</defaultDirection>
+  </player>
+</scene>

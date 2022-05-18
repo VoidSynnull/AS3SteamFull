@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">for_glory.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">sewers_or_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="idle">
+		<asset id="hit0" modifiers="proximity" baseVolume="3">myth_hydra_idle_loop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="notice">
+		<asset id="hit0" modifiers="proximity">myth_hydra_idle_about_to_attack_01.mp3</asset>
+		<asset id="hit1" modifiers="proximity">myth_hydra_idle_about_to_attack_01.mp3</asset>
+		<asset id="hit2" modifiers="proximity">myth_hydra_idle_about_to_attack_01.mp3</asset>
+		<asset id="hit3" modifiers="proximity">myth_hydra_idle_about_to_attack_01.mp3</asset>
+		<asset id="hit4" modifiers="proximity">myth_hydra_idle_about_to_attack_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="attack">
+		<asset id="hit0" modifiers="proximity">myth_hydra_idle_attack_01.mp3</asset>
+		<asset id="hit1" modifiers="proximity">myth_hydra_idle_attack_01.mp3</asset>
+		<asset id="hit2" modifiers="proximity">myth_hydra_idle_attack_01.mp3</asset>
+		<asset id="hit3" modifiers="proximity">myth_hydra_idle_attack_01.mp3</asset>
+		<asset id="hit4" modifiers="proximity">myth_hydra_idle_attack_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="hit">
+		<asset id="hit0" modifiers="proximity" baseVolume="2">myth_hydra_idle_player_hits_h_01.mp3</asset>
+		<asset id="hit1" modifiers="proximity" baseVolume="2">myth_hydra_idle_player_hits_h_01.mp3</asset>
+		<asset id="hit2" modifiers="proximity" baseVolume="2">myth_hydra_idle_player_hits_h_01.mp3</asset>
+		<asset id="hit3" modifiers="proximity" baseVolume="2">myth_hydra_idle_player_hits_h_01.mp3</asset>
+		<asset id="hit4" modifiers="proximity" baseVolume="2">myth_hydra_idle_player_hits_h_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="stone">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="hit0" modifiers="proximity" baseVolume="2">whack_01.mp3</asset>
+		<asset id="hit1" modifiers="proximity" baseVolume="2">whack_01.mp3</asset>
+		<asset id="hit2" modifiers="proximity" baseVolume="2">whack_01.mp3</asset>
+		<asset id="hit3" modifiers="proximity" baseVolume="2">whack_01.mp3</asset>
+		<asset id="hit4" modifiers="proximity" baseVolume="2">whack_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="stone">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

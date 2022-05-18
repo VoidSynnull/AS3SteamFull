@@ -1,0 +1,28 @@
+<doors>
+	<door id="doorVIP1">
+		<scene>game.scenes.train.vipCar1.VipCar1</scene>
+		<x>1674</x>
+		<y>492</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorCoal">
+		<scene>game.scenes.train.coalCar.CoalCar</scene>
+		<x>50</x>
+		<y>470</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

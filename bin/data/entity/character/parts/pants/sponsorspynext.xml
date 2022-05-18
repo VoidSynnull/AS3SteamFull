@@ -1,0 +1,19 @@
+<part>
+	<id>sponsorspynext</id>
+	<type>pants</type>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x856C36</color>
+		<color id="color2">0x856C36</color>
+	</colors>
+	<colorables>
+		<colorable id="color2">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

@@ -1,0 +1,13 @@
+<dialogs>
+	<!--  character 1  -->
+	<character id="policewoman">
+		<statement>We need your help on the subway train!</statement>
+    	<statement event="beat_boss_2">Thanks. We'll take it from here.</statement>
+    </character>
+    
+    <!--  character 2  -->
+    <character id="policeman">
+    	<statement>Speeding Spike has hijacked the train! He's too quick for us!</statement>
+    	<statement event="beat_boss_2">That was some quick thinking! Well done.</statement>
+    </character>
+</dialogs>

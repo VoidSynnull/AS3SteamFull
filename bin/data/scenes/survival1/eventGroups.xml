@@ -1,0 +1,88 @@
+<groups>
+	<group event="found_one_page" triggerAndSave="true">
+		<and>
+			<event type="gotItem_handbook" not="true"/>
+			<event type="found_two_pages" not="true"/>
+			<or>
+				<event type="gotItem_handbookPage1"/>
+				<event type="gotItem_handbookPage2"/>
+				<event type="gotItem_handbookPage3"/>
+				<event type="gotItem_handbookPage4"/>
+				<event type="gotItem_handbookPage5"/>
+				<event type="gotItem_handbookPage6"/>
+			</or>
+		</and>
+	</group>
+	
+	<group event="found_two_pages" triggerAndSave="true">
+		<and>
+			<event type="gotItem_handbook" not="true"/>
+			<or>
+				<and>
+					<event type="gotItem_handbookPage1"/>
+					<event type="gotItem_handbookPage2"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage1"/>
+					<event type="gotItem_handbookPage3"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage1"/>
+					<event type="gotItem_handbookPage4"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage1"/>
+					<event type="gotItem_handbookPage5"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage1"/>
+					<event type="gotItem_handbookPage6"/>
+				</and>
+				
+				<and>
+					<event type="gotItem_handbookPage2"/>
+					<event type="gotItem_handbookPage3"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage2"/>
+					<event type="gotItem_handbookPage4"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage2"/>
+					<event type="gotItem_handbookPage5"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage2"/>
+					<event type="gotItem_handbookPage6"/>
+				</and>
+				
+				<and>
+					<event type="gotItem_handbookPage3"/>
+					<event type="gotItem_handbookPage4"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage3"/>
+					<event type="gotItem_handbookPage5"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage3"/>
+					<event type="gotItem_handbookPage6"/>
+				</and>
+				
+				<and>
+					<event type="gotItem_handbookPage4"/>
+					<event type="gotItem_handbookPage5"/>
+				</and>
+				<and>
+					<event type="gotItem_handbookPage4"/>
+					<event type="gotItem_handbookPage6"/>
+				</and>
+				
+				<and>
+					<event type="gotItem_handbookPage5"/>
+					<event type="gotItem_handbookPage6"/>
+				</and>
+			</or>
+		</and>
+	</group>
+</groups>

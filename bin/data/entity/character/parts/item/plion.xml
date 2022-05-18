@@ -1,0 +1,13 @@
+<part>
+	<id>plion</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TossItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  	</specialAbility>
+</part>

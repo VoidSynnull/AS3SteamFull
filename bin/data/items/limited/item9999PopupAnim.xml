@@ -1,0 +1,61 @@
+<item id="9999"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>NameOfCard</name> <!-- *** Change this card name for ObjectCollected-->
+  	<campaignID>Campaign CMS Name</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="openPopup" tracking="true">
+	  				<parameters>
+	  					<param id="className">game.scenes.custom.CardAnimPower</param>
+	  					<param id="swfPath">limited/CampaignFolder/Popup.swf</param> <!-- location of swf in assets -->
+	  					<param id="offsetX">100</param> <!-- optional x offset from player's avatar -->
+	  					<param id="offsetY">40</param> <!-- optional y offset from player's avatar -->
+	  					<param id="alignDirection">true</param> <!-- optional set offset according to avatar direction -->
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Campaign Name</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Special Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<value>Press SPACEBAR to use the power!</value>
+			<y>66</y>
+		</text>
+		<text id="copyright">
+			<value>© Sponsor.</value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+</item>

@@ -1,0 +1,11 @@
+<hotspots>
+	<hotspot id="poster" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+	</hotspot>
+	<hotspot id="videoContainer" width="470" height="266" type="video" locked="true" controls="false">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+		<action type="giveItemMale">2041,2042</action>
+		<action type="giveItemFemale">2041,2042</action>
+	</hotspot>
+</hotspots>

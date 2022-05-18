@@ -1,0 +1,231 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MilkPepQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/MilkPepQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/scenes/limited/MilkPepQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>foreground</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<data type="game" path="data/scenes/limited/MilkPepQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/scenes/limited/MilkPepQuest_Game/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>backdrop1</asset>
+		<asset>backdrop2</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/MilkPepQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Choose</asset>
+	</assets>
+	
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>standNinja</asset>
+		<asset>walkNinja</asset>
+		<asset>runNinja</asset>
+		<asset>drink</asset>
+	</data>
+	
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2964</asset>
+		<asset>2965</asset>
+	</data>
+	
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPurple</asset>
+	</assets>
+	
+	<!-- ar assets -->
+	<assets type="music" path="sound/music/" ext="mp3">
+		<asset>fun_and_games</asset>
+		<asset>timmys_pants_chase</asset>
+	</assets>
+	
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_01</asset>
+	</assets>
+	
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_basketball_purple</asset>
+		<asset>limited_basketball_yellow</asset>
+		<asset>limited_basketball_orange</asset>
+		<asset>limited_milk_white</asset>
+		<asset>limited_milk_chocolate</asset>
+		<asset>limited_milk_strawberry</asset>
+		<asset>sponsorfuel</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_basketball_purple</asset>
+		<asset>limited_basketball_yellow</asset>
+		<asset>limited_basketball_orange</asset>
+		<asset>limited_milk_white</asset>
+		<asset>limited_milk_chocolate</asset>
+		<asset>limited_milk_strawberry</asset>
+		<asset>sponsorfuel</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>scuffmarks</asset>
+		<asset>limited_milkpep_npc3</asset>
+		<asset>freckles</asset>
+		<asset>limited_milk_mustache_chocolate</asset>
+		<asset>limited_milk_mustache_strawberry</asset>
+		<asset>limited_milk_mustache_white</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>scuffmarks</asset>
+		<asset>limited_milkpep_npc3</asset>
+		<asset>freckles</asset>
+		<asset>limited_milk_mustache_chocolate</asset>
+		<asset>limited_milk_mustache_strawberry</asset>
+		<asset>limited_milk_mustache_white</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>policeman</asset>
+		<asset>ad_marshall</asset>
+		<asset>char6</asset>
+		<asset>eiffel</asset>
+		<asset>pkarateboy3</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>policeman</asset>
+		<asset>ad_marshall</asset>
+		<asset>char6</asset>
+		<asset>eiffel</asset>
+		<asset>pkarateboy3</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>milkpep_strawberry</asset>
+		<asset>milkpep_choco</asset>
+		<asset>milkpep_plain</asset>
+		<asset>milkpep_npc3</asset>
+		<asset>milkpep_outfit</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>milkpep_strawberry</asset>
+		<asset>milkpep_choco</asset>
+		<asset>milkpep_plain</asset>
+		<asset>milkpep_npc3</asset>
+		<asset>milkpep_outfit</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+		<asset>milkpep_outfit</asset>
+	</data>
+	<data type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+		<asset>milkpep_outfit</asset>
+	</data>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>milkpep_outfit</asset>
+	</data>
+	<data type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>milkpep_outfit</asset>
+	</data>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>basketball</asset>
+		<asset>limited_milkpep_npc1</asset>
+		<asset>limited_milkpep_npc2</asset>
+		<asset>limited_milkpep_npc4</asset>
+		<asset>limited_milkpep_npc5</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>basketball</asset>
+		<asset>limited_milkpep_npc1</asset>
+		<asset>limited_milkpep_npc2</asset>
+		<asset>limited_milkpep_npc4</asset>
+		<asset>limited_milkpep_npc5</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>basketball</asset>
+		<asset>limited_milkpep_npc1</asset>
+		<asset>limited_milkpep_npc2</asset>
+		<asset>limited_milkpep_npc3</asset>
+		<asset>limited_milkpep_npc4</asset>
+		<asset>limited_milkpep_npc5</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_milkpep_kid1</asset>
+		<asset>limited_milkpep_kid2</asset>
+		<asset>basketball</asset>
+		<asset>limited_milkpep_npc1</asset>
+		<asset>limited_milkpep_npc2</asset>
+		<asset>limited_milkpep_npc3</asset>
+		<asset>limited_milkpep_npc4</asset>
+		<asset>limited_milkpep_npc5</asset>
+	</assets>
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>pfool</asset>
+		<asset>teethgrin1</asset>
+		<asset>19</asset>
+		<asset>14</asset>
+		<asset>pfairy3</asset>
+		<asset>pshedevil</asset>
+		<asset>sponsorec2</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>pfool</asset>
+		<asset>teethgrin1</asset>
+		<asset>19</asset>
+		<asset>14</asset>
+		<asset>pfairy</asset>
+		<asset>pshedevil</asset>
+		<asset>sponsorec2</asset>
+	</assets>
+	<data type="campaign" path="data/limited/MilkPepMMSQARInterior/" ext="xml">
+		<asset>ar</asset>
+	</data>
+	<assets type="assets" path="assets/limited/_ar/">
+		<asset>logos/milkpep.swf</asset>
+		<asset>masks/mustache01.swf</asset>
+		<asset>masks/mustache02.swf</asset>
+		<asset>masks/mustache03.swf</asset>
+	</assets>
+</manifest>

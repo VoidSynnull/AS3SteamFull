@@ -1,0 +1,47 @@
+<item id="2639"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Strange Magic Driver Card</name> <!-- Change this card name -->
+  	<campaignID>StrangeMagicDriverIC</campaignID> <!-- Change this CMS name -->
+
+  	<buttons>
+  		<btn>	
+  			<index>1</index>
+    		<label>I WANT ONE!</label>
+    		<actions>
+				<action type="loadAS2Scene" tracking="Use Strange Magic Driver Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="section">gameplay</param>
+	  					<param id="island">Moon</param>
+	  					<param id="scene">MoonMain</param>
+	  					<param id="coords">3191,1636</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+ 
+  	<textfields>
+		<text id="limited">
+		</text>
+		<text id="adtitle">
+			<value></value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value></value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			
+		</text>
+  	</textfields>
+	
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBrown.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+</item>

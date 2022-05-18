@@ -1,0 +1,29 @@
+<part>
+	<id>limited_wonderpark_car_ca</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2957</campaignID>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>item</part>
+	</hide>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

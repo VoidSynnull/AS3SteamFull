@@ -1,0 +1,16 @@
+<part>
+	<id>ad_desmond_whoopee</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="WhoopeeCushion">
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="swfPath">items/limited/desmondWhoopeeCushion.swf</param>
+			<param id="sprayOffsetX">35</param>
+			<param id="sprayOffsetY">-5</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

@@ -1,0 +1,103 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoFriendsQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoFriendsQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoFriendsQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/LegoFriendsQuest_Game/" ext="xml">
+		<asset>dialog</asset>
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/LegoFriendsQuest_Game/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/LegoFriendsQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>stephanie</asset>
+		<asset>olivia</asset>
+		<asset>mia</asset>
+		<asset>andrea</asset>
+		<asset>emma</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2927</asset>
+		<asset>2928</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2927</asset>
+		<asset>2928</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>tropical_beach</asset>
+		<asset>jungle_beach</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>legofriends_surfboard</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>legofriends_surfboard</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>legofriends_surfboard</asset>
+		<asset>legofriends_wave_runner</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>legofriends_surfboard</asset>
+		<asset>legofriends_wave_runner</asset>
+	</assets>
+</manifest>

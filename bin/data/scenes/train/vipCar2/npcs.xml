@@ -1,0 +1,61 @@
+<npcs>
+	<npc id="nyTimes">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x3A3B40</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>subGuide</mouth>
+			<marks></marks>
+			<facial>MTnyReporter</facial>
+			<hair>MTnyReporter</hair>
+			<shirt>MTnyReporter</shirt>
+			<pants>MTnyReporter</pants>
+			<pack>1</pack>
+			<item>noteBook</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1389.85</x>
+			<y>492</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+	<npc id="porter" event="setPorterInVipCar2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner4</mouth>
+			<marks/>
+			<facial>mtPorter</facial>
+			<hair>8</hair>
+			<shirt>mtPorter</shirt>
+			<pants>hero2</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>158</x>
+			<y>492</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

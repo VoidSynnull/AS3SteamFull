@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="playerRespond">Baa.</statement>
+	</character>
+	<character id="player">
+	    <statement triggeredByEvent="playerRespond">There's something big going on in the city? And there are prizes involved, you say? I'll be right in!</statement>
+</character>
+</dialogs>

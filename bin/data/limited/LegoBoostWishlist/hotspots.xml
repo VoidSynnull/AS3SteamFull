@@ -1,0 +1,14 @@
+<hotspots>
+	<hotspot id="btnGetCards" type="poster">
+		<action type="giveItemMale">2919</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">2919</action> <!-- To award an item card to a girl -->
+		<action type="suppressSponsorClick">true</action> <!-- Prevent awarding of card to end with sponsor link click -->
+		<action type="autoOpenPopupClass">game.scenes.custom.WishlistPopup</action>
+		<action type="autoOpenPopupFile">LegoBoostWishlist/wishlist.swf</action>
+		<action type="autoOpenPopupSaveToggleButtons">true</action>
+		<action type="autoOpenPopupTrackToggleButtons">true</action>
+	</hotspot>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+</hotspots>

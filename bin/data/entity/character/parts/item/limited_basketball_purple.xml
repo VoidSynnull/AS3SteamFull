@@ -1,0 +1,24 @@
+<part>
+	<id>limited_basketball_purple</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>milkpep_purple_bb_flip</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.Dribble</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="bounceTime">.5</param>
+			<param id="tracking">MilkPepMMSQ,Dribble Power</param>
+		</parameters>
+	</specialAbility>
+</part>

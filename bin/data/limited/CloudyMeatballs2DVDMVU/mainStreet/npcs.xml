@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsorPinoFairy</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>bangs4</marks>
+			<facial>ad_meatball2_glasses</facial>
+			<hair>sears1</hair>
+			<shirt>sponsorchipwrecked_zoe</shirt>
+			<pants>bartholdi</pants>
+			<pack>ad_meatball2_sampack</pack>
+			<item></item>
+			<overshirt>ad_meatball2_sam</overshirt>
+			<overpants>mthshopkeeper</overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>547</x>
+			<y>450.9</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

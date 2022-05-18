@@ -1,0 +1,29 @@
+<dialogs>
+	<character id="player">
+		<statement event="made_it" tiggerEvent="triggerEvent" triggerEventArgs="why_here">Why have you asked me here?</statement>
+		<statement event="such_power" triggerEvent="triggerEvent" triggerEventArgs="destroy_it">We'd better destroy this stuff!</statement>
+		<statement id="pod0">I thought Binary Bard was lost in deep space. How did he end up here?</statement>
+		<statement id="pod1">Captain Crawfish can't do much blogging from in there.</statement>
+		<statement id="pod2">Once a thief, always a thief. The Black Widow is stealing forty winks!</statement>
+		<statement id="pod3">Dr. Hare doesn't look so threatening now. He almost looks cute!</statement>
+		<statement id="watch_out" tiggerEvent="triggerEvent" triggerEventArgs="watch_out">Watch Out!</statement>
+		<statement event="perfectly_safe" tiggerEvent="triggerEvent" triggerEventArgs="why_pods">What are they doing here?</statement>
+		<statement event="remove_evil" tiggerEvent="triggerEvent" triggerEventArgs="how_remove_evil">But how do we do that?</statement>
+	</character>
+	
+	<character id="char1">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="made_it">Welcome! I'm so glad you could make it.</statement>
+		<statement event="why_here">You are about to participate in the most important scientific experiment the world has ever known.</statement>
+		<statment event="totems_missing">What are you waiting for, collect all the totems!</statment>
+		<statement event="gotItem_allTotems" triggerEvent="triggerEvent" triggerEventArgs="such_power">Such power! This is the most concentrated source of evil in the history of Poptropica.</statement>
+		<statement event="destroy_it" triggerEvent="triggerEvent" triggerEventArgs="become_zeus">Destroy? Oh, no... I've got other plans!</statement>
+    	<statement event="watch_out" triggerEvent="triggerEvent" triggerEventArgs="perfectly_safe">You are perfectly safe. Each of these fiends is fast asleep...</statement>
+    	<statement event="why_pods" triggerEvent="triggerEvent" triggerEventArgs="remove_evil">I believe that deep inside the mind of each of these villains is a totem representing the source of their evil. If we remove the totems, we remove the evil!</statement>
+    	<statement event="how_remove_evil" tiggerEvent="triggerEvent" triggerEventArgs="why_pods">That's where you come in. You're going to infiltrate their dreams and bring back those totems!</statement>
+    	<statement event="clip_hitbox2">When you're ready, step into the dream machine and get started!</statement>
+    </character>
+    
+    <character id="char6">
+    	<statement event="became_zeus">Behold! It is I, Zeus! With these four objects, I will finally rule all of Poptropica!</statement>
+    </character>
+</dialogs>

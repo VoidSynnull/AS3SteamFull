@@ -1,0 +1,42 @@
+<scene>
+	<sceneType>billboard</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>960</right>
+		<bottom>640</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>1160</right>
+		<bottom>556</bottom>
+	</bounds>
+	<assets></assets>
+	<data>doors.xml,hits.xml,npcs.xml,custom.xml,sounds.xml</data>
+	<layers>
+		<layer id="backdrop" event="destroyed_rabbot">
+			<asset>backdropFinale.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>50</x>
+			<y>556</y>
+		</defaultPosition>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

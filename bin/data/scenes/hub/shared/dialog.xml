@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="found_all_shards" link="return_to_town">That's the last one!</statement>
+		<statement id="return_to_town">I should head back to town now that I have all the pieces.</statement>
+	</character>
+</dialogs>

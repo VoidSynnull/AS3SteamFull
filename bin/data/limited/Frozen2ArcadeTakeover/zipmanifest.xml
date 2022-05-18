@@ -1,0 +1,44 @@
+<manifest>
+	<!-- Frozen2 xml files -->
+	<data type="Frozen2" path="data/limited/Frozen2ArcadeTakeover/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/Frozen2Quest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/Frozen2Quest_Interior/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/Frozen2VBB/" ext="swf">
+		<asset>Elsa</asset>
+		<asset>Anna</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>Pelican_Rock</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>crunch_01</asset>
+		<asset>dissonant_guitar_03</asset>
+	</assets>
+
+</manifest>

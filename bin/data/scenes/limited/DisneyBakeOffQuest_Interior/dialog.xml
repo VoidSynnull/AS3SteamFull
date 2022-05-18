@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="teammate1">
+		<statement>I'm ready to bake!</statement>
+		<statement event="setNewDialog">We make a great team.</statement>
+    </character>
+	<character id="teammate2">
+		<statement>I can't wait to see the recipe.</statement>
+		<statement event="setNewDialog">You were good!</statement>
+    </character>
+	<character id="dara">
+		<statement id="introDara" link="isaacLink" linkEntityId="isaac">Welcome to the show! Your team is ready to start.</statement>
+		<statement>Welcome to the show! Your team is ready to start.</statement>
+		<statement event="setNewDialog" link="daraLinkReturn">Good job!</statement>
+		<statement id="daraLinkReturn" triggerEvent="triggerEvent" triggerEventArgs="startGame">Want to play again?</statement>
+
+	</character>
+	<character id="isaac">
+		<statement id="isaacLink" triggerEvent="triggerEvent" triggerEventArgs="releaseCamera">The other team is ready, too. Time to begin the bake-off!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="releaseCamera">The other team is ready, too. Time to begin the bake-off!</statement>
+		<statement event="setNewDialog" link="isaacLinkReturn">Nice work!</statement>
+		<statement id="isaacLinkReturn" triggerEvent="triggerEvent" triggerEventArgs="startGame">Want to play again?</statement>
+   </character>
+	<character id="opponent1">
+		<statement>I'm the best baker around.</statement>
+		<statement event="setNewDialog">Good game.</statement>
+    </character>
+	<character id="opponent2">
+		<statement>Good luck!</statement>
+		<statement event="setNewDialog">Well played.</statement>
+    </character>
+	<character id="opponent3">
+		<statement>Let's see how you hold up under pressure.</statement>
+		<statement event="setNewDialog" triggerEvent="triggerEvent" triggerEventArgs="startGame">Want to play again?</statement>
+    </character>
+</dialogs>

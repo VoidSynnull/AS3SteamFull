@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="poseidon">
+		<conversation>
+			<exchange>
+				<question>text1</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text25</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="poseidonTrident">text3</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text26</question>
+				<answer>shared.text27</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation event="hasItem_poseidonTrident">
+			<exchange>
+				<question>text1</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text25</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text26</question>
+				<answer>shared.text27</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="hasItem_medalMythology">text4</statement>
+    </character>
+</dialogs>

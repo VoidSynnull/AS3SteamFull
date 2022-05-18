@@ -1,0 +1,27 @@
+<events>
+<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">setZoneTrigger</param1>
+			<param2 id="clip">zoneDoor</param2>
+			<param3 id="event">animatedoor</param3>
+			<param3 id="listenOnce">false</param3>
+			<param3 id="exitEvent">closeDoor</param3>
+		</event>
+	</group>
+	<group type="triggered" id="animatedoor">
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">AnimatingDoor</param2>
+			<param3 id="startLabelName">openstart</param3>
+			<param4 id="endLabelName">openend</param4>
+		</event>
+	</group>
+	<group type="triggered" id="closeDoor">
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">AnimatingDoor</param2>
+			<param3 id="startLabelName">closestart</param3>
+			<param4 id="endLabelName">closeend</param4>
+		</event>
+	</group>
+</events>

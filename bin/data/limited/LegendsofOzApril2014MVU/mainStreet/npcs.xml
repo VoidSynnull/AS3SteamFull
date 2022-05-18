@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pPopGirl1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair>43</hair>
+			<shirt>ad_legendsofoz_dorothy</shirt>
+			<pants>ad_legendsofoz_dorothy</pants>
+			<pack></pack>
+			<item>mthbasket</item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1077.55</x>
+			<y>639.4</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

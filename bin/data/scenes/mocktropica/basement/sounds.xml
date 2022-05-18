@@ -1,0 +1,47 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">PoptropicaHQ.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" baseVolume="0.5">freezer_room.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="porcelain">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="thinMetal">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="heavyMetal">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+	</sound>	
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="porcelain">ls_porcelain_01.mp3, ls_porcelain_02.mp3</asset>
+		<asset id="thinMetal">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="heavyMetal">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- popup sounds -->
+		<asset triggeredByEvent="smashed_crate">retro_explosion_01.mp3</asset>
+		<asset triggeredByEvent="click1">mouse_single_click_01.mp3</asset>
+		<asset triggeredByEvent="click2">mouse_double_click_01.mp3</asset>
+		<asset triggeredByEvent="alert">alert_01.mp3</asset>
+		<asset triggeredByEvent="grab">mouse_single_click_01.mp3</asset>
+		<asset triggeredByEvent="drop">mouse_single_click_01.mp3</asset>
+		<!-- scene sounds -->
+		<asset triggeredByEvent="drinkSound">drink_dispenser.mp3</asset>
+		<asset triggeredByEvent="openFridgeSound">fridge_door_open_01.mp3</asset>
+		<asset triggeredByEvent="closeFridgeSound">fridge_door_close_01.mp3</asset>
+		<asset triggeredByEvent="microwaveSound">microwave_animation.mp3</asset>
+		<asset triggeredByEvent="foldoutSound">paper_flap_01.mp3</asset>
+		<asset triggeredByEvent="poptropicaSound">ls_unstable_metal_02.mp3</asset>
+		<asset triggeredByEvent="ouchSound">small_pow_01.mp3</asset>
+		<asset triggeredByEvent="fallSound">metal_impact_01.mp3</asset>
+		<asset triggeredByEvent="bagSound">duffel_bag_slide_01.mp3</asset>
+	</sound>
+</sounds>

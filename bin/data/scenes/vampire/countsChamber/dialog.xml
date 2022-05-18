@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="player">
+		<statement id="show_bat">What was that?</statement>
+		<statement id="key_too_far">I'll need to get closer to the lock.</statement>
+		<statement id="key_done">I already opened the cage.</statement>
+		<statement id="crowbar_closet">The crowbar won't reach far. I'll need something longer.</statement>
+		<statement id="crowbar">The crowbar won't do any good here.</statement>
+	</character>
+	
+	<character id="katya">
+		<conversation>
+			<exchange>
+				<question>I'm here to help</question>
+				<answer>Thank goodness someone's come to rescue me! But we won't get far unless Count Bram is first cured of his vampirism.</answer>
+			</exchange>
+			<exchange>
+				<question>What should I do?</question>
+				<answer>Look for clues in his lab, then bring me anything you find.</answer>
+			</exchange>
+			<exchange>
+				<question>Why has he locked you in that cage?</question>
+				<answer>He said I remind him of someone. Now hurry! Sunrise is near, and he'll soon be returning.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="gotItem_notebook">
+			<exchange>
+				<question>I'm here to help</question>
+				<answer>Thank goodness someone's come to rescue me! But we won't get far unless Count Bram is first cured of his vampirism.</answer>
+			</exchange>
+			<exchange>
+				<question>I found his notebook. He doesn't know how to find the ingredients.</question>
+				<answer>There's a book in the library that may provide you with the clues you need to complete the serum.</answer>
+			</exchange>
+			<exchange>
+				<question>Why has he locked you in that cage?</question>
+				<answer>He said I remind him of someone. Now hurry! Sunrise is near, and he'll soon be returning.</answer>
+			</exchange>
+		</conversation>
+		<statement event="gotItem_syringe">You completed the serum! Now get me out of here!</statement>
+		<statement event="cage_opened">Thanks for getting me out of there!</statement>
+    </character>
+    
+    <character id="count">
+    	<statement event="show_count">My dear Annabelle, you shall not leave me again!</statement>
+    </character>
+</dialogs>

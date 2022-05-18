@@ -1,0 +1,36 @@
+<sounds>
+  <sound type="music">
+    <asset>Carrot_ShopTheme.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>door_knob_turn_open_01.mp3</asset>
+    <asset id="fenceExit">creaky_metal_01.mp3</asset>
+    <asset id="cartExit">none</asset>
+  </sound>
+   <sound type="effects">
+    <asset triggeredByEvent="open">door_creak_01.mp3</asset>
+    <asset triggeredByEvent="swing">creaky_metal_09.mp3,creaky_metal_10.mp3</asset>
+    <asset triggeredByEvent="swish">creaky_metal_02.mp3,creaky_metal_03.mp3</asset>
+    <asset triggeredByEvent="blow_away_pages">gust_of_wind.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+    <asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+    <asset id="beams">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+    <asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+    <asset id="roof_metal">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+    <asset id="car">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+    <asset id="crates">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+    <asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="baseGround">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+    <asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+    <asset id="beams">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+    <asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+    <asset id="roof_metal">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+    <asset id="car">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+    <asset id="crates">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+    <asset id="bounce">fs_bounce_01.mp3, fs_bounce_02.mp3, fs_bounce_03.mp3, fs_bounce_04.mp3</asset>
+  </sound>
+</sounds>

@@ -1,0 +1,91 @@
+<skin beingType="head" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<skinParts>
+		<skinPart id="eyes">
+			<part>eyes</part>
+			<value>eyes</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="marks">
+			<part>marks</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="mouth">
+			<part>mouth</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="facial">
+			<part>facial</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="hair">
+			<part>hair</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="head">
+			<part>headSkin</part>
+			<value>headskin</value>
+			<colorSet/>
+		</skinPart>
+		
+		<!-- STATES -->
+		
+		<skinPart id="gender">
+			<value>male</value>
+			<metaData>
+				<state id="gender"/>
+				<applyState id="gender">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+		<skinPart id="eyeState">
+			<value>squint</value>
+			<metaData>
+				<state id="eyeState"/>
+				<applyState id="eyeState">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+
+		<!-- COLORS -->
+		
+		<skinPart id="skinColor">
+			<value numeric="true">0xFFCC66</value>
+			<colorSet>
+				<colorAspect id="skinColor"/>
+			</colorSet>
+			<metaData>
+				<colors>
+					<color id="skinColor"/>
+				</colors>
+				<applyColors>
+					<applyColor id="skinColor">
+						<part id="head"/>
+					</applyColor>
+				</applyColors>
+			</metaData>
+		</skinPart>
+		<skinPart id="hairColor">
+			<value numeric="true">0x7C5E23</value>
+			<colorSet>
+				<colorAspect id="hairColor"/>
+			</colorSet>
+			<metaData>
+				<colors>
+					<color id="hairColor"/>
+				</colors>
+				<applyColors>
+					<applyColor id="hairColor">
+						<part id="hair"/>
+					</applyColor>
+				</applyColors>
+			</metaData>
+		</skinPart>
+		
+	</skinParts>
+</skin>

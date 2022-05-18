@@ -1,0 +1,137 @@
+<npcs>
+	<npc id="Meg">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullchinamerch</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>bl_drem</facial>
+			<hair>limited_meg</hair>
+			<shirt>limited_meg</shirt>
+			<pants>sponsor_mrhan</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>200</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="MrsWho">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>fortunehunter</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sponsor_selenag</marks>
+			<hair>limited_mrs_who</hair>
+			<shirt>limited_mrs_who</shirt>
+			<pants>limited_mrs_who</pants>
+			<item>limited_specs</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1100</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.4</scale>
+	</npc>
+	<npc id="Calvin">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pmagic1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>sponsor_kk_bully01</hair>
+			<shirt>mthannie</shirt>
+			<pants>sponsorfloct2</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1800</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Charles">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xECD1B7</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>magician</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>44</hair>
+			<shirt>limited_charles</shirt>
+			<pants>sponsorultimatespiderman_pants</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2705</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Meg2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullchinamerch</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>bl_drem</facial>
+			<hair>limited_meg</hair>
+			<shirt>limited_meg</shirt>
+			<pants>sponsor_mrhan</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>3100</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="Father">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x584527</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsoralphaomega</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_alex</facial>
+			<marks>limited_alex</marks>
+			<hair>hades2</hair>
+			<shirt>limited_alex</shirt>
+			<pants>astroalien1</pants>
+			<overshirt>limited_alex</overshirt>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>3000</x>
+			<y>782</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.4</scale>
+	</npc>
+</npcs>

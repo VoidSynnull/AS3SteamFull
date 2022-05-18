@@ -1,0 +1,697 @@
+<segments>
+	
+	<!-- Segment 1 -->
+	<segment>
+		<!-- Name of background MovieClip -->
+		<background>road01</background>
+		
+		<!-- List of obstacles on this tile -->
+		<obstacles>
+			<!--  Name of MovieClip and position on the tile -->
+			<obstacle>
+				<clip>bike</clip>
+				<type>item</type>
+				<x>1878</x>
+				<y>122</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bball</clip>
+				<type>item</type>
+				<x>1471</x>
+				<y>415</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>sidewalk_chalk</clip>
+				<x>786</x>
+				<y>325</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>boat</clip>
+				<type>wall</type>
+				<x>1737</x>
+				<y>553</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>1118</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>1986</x>
+				<y>826</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!-- Segment 2 -->
+	<segment>
+		<background>ramp01</background>
+		<obstacles>
+			<obstacle>
+				<clip>jump03</clip>
+				<type>jump</type>
+				<x>104</x>
+				<y>285</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>oil</clip>
+				<type>item</type>
+				<x>988</x>
+				<y>640</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+
+	<!-- Segment 3 -->
+	<segment>
+		<background>culvert01</background>
+		<obstacles>
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>1397</x>
+				<y>778</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>manhole</clip>
+				<type>hole</type>
+				<x>1775</x>
+				<y>754</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>hydrantOn</clip>
+				<type>wall</type>
+				<x>1848</x>
+				<y>336</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 4 -->
+	<segment>
+		<background>ramp01</background>
+		<obstacles>
+			<obstacle>
+				<clip>skateboard</clip>
+				<type>item</type>
+				<x>114</x>
+				<y>251</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>tire</clip>
+				<type>wall</type>
+				<x>698</x>
+				<y>677</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 5 -->
+	<segment>
+		<background>ramp02</background>
+		<obstacles>
+			<obstacle>
+				<clip>jump</clip>
+				<type>jump</type>
+				<x>1622</x>
+				<y>539</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>73</x>
+				<y>797</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 6 -->
+	<segment>
+		<background>road01</background>
+		<obstacles>
+			<obstacle>
+				<clip>busstop</clip>
+				<type>wall</type>
+				<x>137</x>
+				<y>313</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>clothes</clip>
+				<type>item</type>
+				<x>1222</x>
+				<y>204</y>
+			</obstacle>
+		
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>1359</x>
+				<y>624</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>manhole</clip>
+				<type>hole</type>
+				<x>1663</x>
+				<y>758</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>jump02</clip>
+				<type>jump</type>
+				<x>1566</x>
+				<y>830</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>sidewalk_chalk</clip>
+				<x>1764</x>
+				<y>327</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 7 -->
+	<segment>
+		<background>grass01</background>
+		<obstacles>
+			<obstacle>
+				<clip>construction</clip>
+				<type>wall</type>
+				<x>223</x>
+				<y>488</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 8 -->
+	<segment>
+		<background>grass02</background>
+		<obstacles>
+			<obstacle>
+				<clip>mailbox</clip>
+				<type>wall</type>
+				<x>187</x>
+				<y>353</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>308</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>1700</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>674</x>
+				<y>605</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>hydrantOn</clip>
+				<type>wall</type>
+				<x>1400</x>
+				<y>336</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bball</clip>
+				<type>item</type>
+				<x>1061</x>
+				<y>200</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>chalk</clip>
+				<x>898</x>
+				<y>888</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 9 -->
+	<segment>
+		<background>grass04</background>
+		<obstacles>
+			<obstacle>
+				<clip>puddle</clip>
+				<type>item</type>
+				<x>431</x>
+				<y>793</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>trashcan</clip>
+				<type>wall</type>
+				<x>281</x>
+				<y>349</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 10 -->
+	<segment>
+		<background>culvert01</background>
+		<obstacles>
+			<obstacle>
+				<clip>jump</clip>
+				<type>jump</type>
+				<x>400</x>
+				<y>687</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>oil</clip>
+				<type>item</type>
+				<x>1369</x>
+				<y>780</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>hydrant</clip>
+				<type>wall</type>
+				<x>1895</x>
+				<y>336</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 11 -->
+	<segment>
+		<background>ramp01</background>
+		<obstacles>
+			<obstacle>
+				<clip>trash</clip>
+				<type>item</type>
+				<x>161</x>
+				<y>653</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>219</x>
+				<y>825</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>oil</clip>
+				<type>item</type>
+				<x>610</x>
+				<y>285</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 12 -->
+	<segment>
+		<background>grass01</background>
+		<obstacles>
+			<obstacle>
+				<clip>puddle</clip>
+				<type>item</type>
+				<x>554</x>
+				<y>885</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>spilledTrash</clip>
+				<type>item</type>
+				<x>485</x>
+				<y>225</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 13 -->
+	<segment>
+		<background>grass02</background>
+		<obstacles>
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>39</x>
+				<y>711</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>hydrantOn</clip>
+				<type>wall</type>
+				<x>537</x>
+				<y>336</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>construction</clip>
+				<type>wall</type>
+				<x>1550</x>
+				<y>488</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bball</clip>
+				<type>item</type>
+				<x>1587</x>
+				<y>177</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 14 -->
+	<segment>
+		<background>grass03</background>
+		<obstacles>
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>80</x>
+				<y>138</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>72</x>
+				<y>444</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>jump02</clip>
+				<type>jump</type>
+				<x>302</x>
+				<y>270</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 15 -->
+	<segment>
+		<background>grass04</background>
+		<obstacles>
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>52</x>
+				<y>790</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>333</x>
+				<y>765</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>jump</clip>
+				<type>jump</type>
+				<x>436</x>
+				<y>233</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 16 -->
+	<segment>
+		<background>ramp02</background>
+		<obstacles>
+			<obstacle>
+				<clip>skateboard</clip>
+				<type>item</type>
+				<x>5</x>
+				<y>220</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>chalk</clip>
+				<x>919</x>
+				<y>258</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>manhole</clip>
+				<type>hole</type>
+				<x>1074</x>
+				<y>708</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>puddle</clip>
+				<type>item</type>
+				<x>1951</x>
+				<y>751</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>busstop</clip>
+				<type>wall</type>
+				<x>1907</x>
+				<y>319</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 17 -->
+	<segment>
+		<background>road01</background>
+		<obstacles>
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>283</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bike</clip>
+				<type>item</type>
+				<x>1180</x>
+				<y>124</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>sidewalk_chalk</clip>
+				<x>732</x>
+				<y>309</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>jump03</clip>
+				<type>jump</type>
+				<x>1563</x>
+				<y>567</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>trash</clip>
+				<type>item</type>
+				<x>1852</x>
+				<y>640</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>skateboard</clip>
+				<type>item</type>
+				<x>2122</x>
+				<y>821</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>oil</clip>
+				<type>item</type>
+				<x>1321</x>
+				<y>821</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 18 -->
+	<segment>
+		<background>culvert01</background>
+		<obstacles>
+			<obstacle>
+				<clip>jump</clip>
+				<type>jump</type>
+				<x>1898</x>
+				<y>235</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>cone</clip>
+				<type>item</type>
+				<x>76</x>
+				<y>746</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>manhole</clip>
+				<type>hole</type>
+				<x>404</x>
+				<y>750</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>1920</x>
+				<y>715</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>trash</clip>
+				<type>item</type>
+				<x>2221</x>
+				<y>352</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>sidewalk_chalk</clip>
+				<x>109</x>
+				<y>304</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 19 -->
+	<segment>
+		<background>grass01</background>
+		<obstacles>
+			<obstacle>
+				<clip>hydrantOn</clip>
+				<type>wall</type>
+				<x>400</x>
+				<y>336</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>puddle</clip>
+				<type>item</type>
+				<x>162</x>
+				<y>867</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 20 -->
+	<segment>
+		<background>grass02</background>
+		<obstacles>
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>342</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>bump</clip>
+				<type>jump</type>
+				<x>1645</x>
+				<y>695</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>boat</clip>
+				<type>wall</type>
+				<x>693</x>
+				<y>552</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>oil</clip>
+				<type>item</type>
+				<x>1207</x>
+				<y>722</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>jump03</clip>
+				<type>jump</type>
+				<x>1641</x>
+				<y>567</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>clothes</clip>
+				<type>item</type>
+				<x>1982</x>
+				<y>170</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>mailbox</clip>
+				<type>wall</type>
+				<x>1175</x>
+				<y>345</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 21 -->
+	<segment>
+		<background>grass04</background>
+		<obstacles>
+			<obstacle>
+				<clip>pothole</clip>
+				<type>item</type>
+				<x>167</x>
+				<y>785</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 22 -->
+	<segment>
+		<background>ramp01</background>
+		<obstacles>
+			<obstacle>
+				<clip>trashcan</clip>
+				<type>wall</type>
+				<x>272</x>
+				<y>343</y>
+			</obstacle>
+			
+			<obstacle>
+				<clip>tire</clip>
+				<type>wall</type>
+				<x>991</x>
+				<y>557</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+	
+	<!--  Segment 23 -->
+	<segment>
+		<background>road01</background>
+		<obstacles>
+			<obstacle>
+				<clip>sidewalk_chalk</clip>
+				<x>740</x>
+				<y>320</y>
+			</obstacle>
+		</obstacles>
+	</segment>
+</segments>

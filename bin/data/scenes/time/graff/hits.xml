@@ -1,0 +1,35 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowSill" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="chimney" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodCrate" color="0x006699" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tileRoof" color="0x99CC00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="porcupineHit1">
+		<component type="hazard">
+			<visible>porc1</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="porcupineHit2">
+		<component type="hazard">
+			<visible>porc2</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

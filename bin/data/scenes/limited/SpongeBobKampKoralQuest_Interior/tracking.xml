@@ -1,0 +1,76 @@
+<tracking>
+	<track id="posterSpongebob">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Spongebob Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="posterSandy">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Sandy Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="posterSquidward">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Squidward Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="posterPatrick">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Patrick Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="posterKrabbs">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Krabbs Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>	
+	<track id="posterKampKoral">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Kamp Koral Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="spongebob">
+		<event>EngagedInsideNPC</event>
+		<choice>spongebob</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="squidward">
+		<event>EngagedInsideNPC</event>
+		<choice>squidward</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="sandy">
+		<event>EngagedInsideNPC</event>
+		<choice>sandy</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="patrick">
+		<event>EngagedInsideNPC</event>
+		<choice>patrick</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="mrkrabs">
+		<event>EngagedInsideNPC</event>
+		<choice>mr krabbs</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="plankton">
+		<event>EngagedInsideNPC</event>
+		<choice>plankton</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="krabbyPattyprize">
+		<event>ClickedTrigger</event>
+		<choice>krabbyPattyprize</choice>
+	</track>
+</tracking>

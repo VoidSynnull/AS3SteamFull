@@ -1,0 +1,54 @@
+<events>
+<!--
+<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="target">910,1485</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">bitmap_norm</param2>
+			<param3 id="sayID">doneWalk</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+			<param3 id="target">Hiding</param3>
+		</event>
+	</group>-->
+	<group type="triggered" id="startKakamoraGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+			<param3 id="target">Kakamora</param3>
+		</event>
+	</group>
+	<!--
+	<group type="dialogStart" id="bitmap_begonia">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">playAudio</param2>
+			<param3 id="target">effects/alert_01.mp3</param3>
+		</event>
+	</group>
+	<group type="dialogStart" id="bitmap_stella">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">playAudio</param2>
+			<param3 id="target">effects/buffalo.mp3</param3>
+		</event>
+	</group>-->
+
+	<group type="triggered" id="initSceneReturn">
+		
+	</group>
+			
+</events>

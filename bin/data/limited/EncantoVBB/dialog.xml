@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="mirabel">
+		<!--<statement event="hasItem_2084">Watch the video to get magical prizes!</statement>--> <!-- If have item card and returned to scene -->
+		<!--<statement event="videoDone">Perfectly imperfect!</statement> --><!-- if video done -->
+		<statement triggerEventArgs="talkedTo" triggerEvent="triggerEvent">Watch the video to get magical prizes!</statement> <!-- default if above not true -->
+		<statement id="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	  	<randomSet event="talkedTo">
+	    	<statement>Be your own kind of unique!</statement>
+	    	<statement>Perfectly imperfect!</statement>
+	    	<statement>Magic awaits you!</statement>
+	    	<statement>Home is where the magic is.</statement>
+    	</randomSet>
+	
+	</character>
+		<character id="antonio">
+		<!--<statement event="hasItem_2084">Magic awaits you!</statement>--> <!-- If have item card and returned to scene -->
+		<!--<statement event="videoDone">Home is where the magic is</statement> --><!-- if video done -->
+		<statement triggerEventArgs="talkedToAnt" triggerEvent="triggerEvent">I love my family!</statement> <!-- default if above not true -->
+		<statement id="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+		<randomSet event="talkedToAnt">
+	    	<statement>Be your own kind of unique!</statement>
+	    	<statement>Perfectly imperfect!</statement>
+	    	<statement>Magic awaits you!</statement>
+	    	<statement>Home is where the magic is.</statement>
+    	</randomSet>
+	</character>
+</dialogs>

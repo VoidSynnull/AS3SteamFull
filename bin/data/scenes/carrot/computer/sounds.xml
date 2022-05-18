@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="rabbot_launch">Train_Finale_B.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="keyboard_press_1">keyboard_type_01.mp3</asset>
+		<asset triggeredByEvent="keyboard_press_2">keyboard_type_02.mp3</asset>
+		<asset triggeredByEvent="keyboard_press_3">keyboard_type_03.mp3</asset>
+		<asset triggeredByEvent="enter_press">keyboard_enter_01.mp3</asset>
+		
+		<asset triggeredByEvent="rabbot_launch">rabbot_launch_scene_01.mp3</asset>
+		
+		<asset triggeredByEvent="rabbot_hit">console_rabbot_damage.mp3</asset>
+		<asset triggeredByEvent="dr_hare_talk">console_speech_bubble.mp3</asset>
+		
+		<asset triggeredByEvent="destroyed_rabbot">console_rabbot_destroyed.mp3</asset>
+	</sound>
+</sounds>

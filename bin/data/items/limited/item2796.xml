@@ -1,0 +1,69 @@
+﻿<item id="2796"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Sophie Costume Card</name> <!-- Change this card name -->
+  	<campaignID>BFGQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Sophie Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Sophie Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>BFG</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Sophie Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+		<text id="copyright">
+			<value></value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGrape.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			 <mouth>limited_pcowgirl1</mouth>
+			 <facial>limited_bfg_glasses</facial>
+			 <hair>limited_bfg_hair</hair>
+			 <shirt>limited_bfg_gown</shirt>
+			 <pants>limited_bfg_gown</pants>
+			 <item>limited_bfg_book</item>
+		</look>
+	</looks> 
+    
+</item>

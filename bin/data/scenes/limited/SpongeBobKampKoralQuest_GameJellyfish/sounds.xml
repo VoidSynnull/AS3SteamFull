@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset fade="true" exclusiveType="true" loop="true">Science_Fair.mp3</asset>
+	</sound>
+
+	<sound action="impact" type="effects">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="platformhit">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+
+	</sound>
+	
+	<sound action="step" type="effects">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,17 @@
+<part>
+	<id>beach_pink_sunglasses</id>
+	<type>hair</type>
+	<gender>female</gender>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape1"/>
+		</colorable>
+	</colorables>
+</part>

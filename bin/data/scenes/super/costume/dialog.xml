@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="tailor">
+		<statement link="getID">So you want to be a super hero, eh?</statement>
+		<statement id="getID" triggerEvent="giveItem" triggerEventArgs="superHeroID">Along with a new suit, you'll need this Super Hero ID card.</statement>
+   		
+   		<statement event="gotItem_superHeroID">A super hero needs a super outfit! There's plenty to choose from.</statement>
+    </character>
+</dialogs>

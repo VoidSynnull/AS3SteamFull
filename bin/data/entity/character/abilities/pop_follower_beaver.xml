@@ -1,0 +1,20 @@
+<specialAbility id="pop_follower_beaver">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">beaver_follower</param>
+		<param id="variant">creature</param>
+		<param id="skinColor">0x9F4625</param>
+		<param id="hairColor">0x0</param>
+		<param id="mouthFrame">14</param>
+		<param id="facialFrame">beaver_follower</param>
+		<param id="marksFrame">empty</param>
+		<param id="hairFrame">empty</param>
+		<param id="shirtFrame">empty</param>
+		<param id="overshirtFrame">beaver_follower</param>
+		<param id="pantsFrame">empty</param>
+		<param id="packFrame">beaver_follower</param>
+		<param id="eyeState">angry</param>
+	 </parameters>
+</specialAbility>

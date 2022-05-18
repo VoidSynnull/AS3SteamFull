@@ -1,0 +1,36 @@
+<item id="3520">
+	<type>store</type>
+	<subType>general</subType>
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Shakespeare In Love</value>
+				<size>28</size>
+		</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+		 	<shirt>pshakespear</shirt>
+		 	<overshirt>pshakespear</overshirt>
+		 	<pants>pshakespear</pants>
+		 	<hair>pshakespear</hair>
+		 	<item>pshakespear</item>
+		 	</look> 
+	</looks>
+</item>

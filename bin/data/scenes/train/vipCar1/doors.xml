@@ -1,0 +1,85 @@
+<doors>
+	<door id="doorLuggage">
+		<scene>game.scenes.train.luggageCar.LuggageCar</scene>
+		<x>1580</x>
+		<y>477</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorBathroom">
+		<scene>game.scenes.train.bathroom.Bathroom</scene>
+		<x>635</x>
+		<y>435</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorHoudini">
+		<scene>game.scenes.train.houdiniCabin.HoudiniCabin</scene>
+		<x>363</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorAnthony">
+		<scene>game.scenes.train.anthonyCabin.AnthonyCabin</scene>
+		<x>450</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorTesla">
+		<scene>game.scenes.train.teslaCabin.TeslaCabin</scene>
+		<x>590</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorCoach">
+		<scene>game.scenes.train.coachCar.CoachCar</scene>
+		<x>50</x>
+		<y>484</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

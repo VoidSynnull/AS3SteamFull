@@ -1,0 +1,57 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+		<asset event="destroyed_rabbot" loop="false" fade="true" exclusiveType="true">PoptropicaTheme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="grate" triggeredByEvent="grate_openning">pry_lid_01.mp3</asset>
+		<asset id="grate" triggeredByEvent="grate_open">big_pop_01.mp3</asset>
+		<!-- <asset triggeredByEvent="gotItem_ventBlueprints">card_get.mp3</asset> 
+		<asset triggeredByEvent="teleport">event_06.mp3</asset> -->
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		
+		<asset id="fence">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="metalCap">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="metalPipe">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="concreteSiding">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="concreteRoof">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="windowBoards">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="sewerPipe">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="shore">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="barrels">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="smokeStack">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="brickRoof">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		
+		<asset id="barrelHit1">ls_barrel_in_water_01.mp3</asset>
+		<asset id="barrelHit2">ls_barrel_in_water_01.mp3</asset>
+		<asset id="barrelHit3">ls_barrel_in_water_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		
+		<asset id="fence">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="metalCap">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="metalPipe">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="concreteSiding">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="concreteRoof">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>
+		<asset id="windowBoards">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="sewerPipe">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="shore">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="barrels">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="smokeStack">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="brickRoof">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		
+		<asset id="barrelHit1">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="barrelHit2">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="barrelHit3">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,34 @@
+﻿<bundle>
+	<id>galactichotdogs</id>
+	<name>Galactic Hot Dogs Pack</name>
+	
+	<cardSets>
+		<cardSet id="shared">
+			<card>3127</card>
+			<card>3126</card>
+			<card>3380</card>
+			<card>3381</card>
+		</cardSet>
+	</cardSets>
+	
+	<bundleNum>0</bundleNum>
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>0</brightness>
+	   			<contrast>0</contrast>
+	   			<saturation>0</saturation>
+	   			<hue>15</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/galactichotdogs.swf</assetPath>
+	    </asset> 
+    </assets>
+    
+</bundle>

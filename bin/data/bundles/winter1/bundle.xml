@@ -1,0 +1,38 @@
+<bundle>
+	<id>winter1</id>
+	<name>Winter Pack 1</name>
+	
+	   <cardSets>
+                <cardSet id="male">
+					<card>3485</card>
+					<card>3487</card>
+                </cardSet>
+                <cardSet id="female">
+                        <card>3482</card>
+                        <card>3488</card>
+                </cardSet>
+				 <cardSet id="shared">
+					<card>3483</card>
+                </cardSet>
+        </cardSets>
+	
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>0</brightness>
+	   			<contrast>0</contrast>
+	   			<saturation>12</saturation>
+	   			<hue>156</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/winter1.swf</assetPath>
+	    </asset> 
+    </assets>
+    
+</bundle>

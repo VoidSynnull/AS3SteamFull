@@ -1,0 +1,24 @@
+<game>
+	<className>CollectionGame</className>
+	<itemName></itemName>
+	<sceneName>WolfwalkersQuest_GameCollection</sceneName>
+	<returnX>2994</returnX>
+	<returnY>790</returnY>
+	<fontX>-208</fontX>
+	<fontY>-290</fontY>
+	<fontName>WebLetterer BB</fontName>
+	<fontColor>0xFF4000</fontColor>
+	<fontSize>18</fontSize>
+	<timeout>180</timeout>
+	<showTimer>true</showTimer>
+	<nightMode>true</nightMode>
+	<darkness>.9</darkness>
+	<choose>false</choose>
+	<looks>
+		<skin>
+			<pack>limited_crossbow_cape</pack>
+			<item>limited_dora_torch_npc</item>
+		</skin>
+	</looks>
+	<collectSound>effects/bush_rustle_01.mp3</collectSound>
+</game>

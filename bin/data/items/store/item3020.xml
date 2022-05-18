@@ -1,0 +1,28 @@
+<item id="3020">
+	<type>island</type>
+	<subType>examples</subType>
+	<buttons>
+		<btn>
+				<label>COLORIZE</label>
+				<actions>
+				<action type="openPopup">
+						<parameters>
+							<param id="className">game.scenes.hub.avatarShop.Colorizer</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+					<value>Colorizer</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<value>Change your skin or hair color quickly with the COLORIZER!</value>
+		</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+</item>

@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorCoach">
+		<scene>game.scenes.train.coachCar.CoachCar</scene>
+		<x>1575</x>
+		<y>484</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>50</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="trainExit">
+		<scene>game.scenes.train.trainStop.TrainStop</scene>
+		<x>1230</x>
+		<y>830</y>
+		<label>
+			<text>Exit Train</text>
+			<type>exitDown</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,57 @@
+<item id="camera">
+	<type>island</type>
+	<subType>backlot</subType>
+	<buttons>
+		<btn>
+			<conditional id="checkEvents" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+	    		<action type="triggerEvent"> 
+		    		<parameters>
+			  			<param id="event">camera</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+			<conditional id="checkEvents" isTrue="true"/>
+    		<label>USE</label>
+    		<actions>
+	    		<action type="triggerEvent"> 
+		    		<parameters>
+			  			<param id="event">cameraAndFilm</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+	</buttons>
+	<textfields>
+ 		<text>
+      		<value>Telephoto Camera</value>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/BacklotBackground.swf</assetPath>
+    	</asset>
+    	
+  		<asset id="cardContent">
+			<conditional type="checkEvents" isTrue="false"/>
+			<assetPath>items/backlot/camera.swf</assetPath>
+		</asset>
+		
+		<asset id="cardContent">
+			<conditional type="checkEvents" isTrue="true"/>
+			<assetPath>items/backlot/cameraAndFilm.swf</assetPath>
+		</asset>
+		
+    </assets>
+    
+    <conditionals>
+    	<conditional type="checkEvents">
+    		<parameters>
+		  		<param id="event">film_used</param>
+			</parameters>
+    	</conditional>
+    </conditionals>
+</item>

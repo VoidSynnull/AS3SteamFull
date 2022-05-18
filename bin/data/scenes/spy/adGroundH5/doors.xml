@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorLeft">
+		<scene>game.scenes.spy.docks.Docks</scene>
+		<x>4952</x>
+		<y>1840</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorRight">
+		<scene>game.scenes.spy.mainStreet.MainStreet</scene>
+		<x>10</x>
+		<y>2142</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

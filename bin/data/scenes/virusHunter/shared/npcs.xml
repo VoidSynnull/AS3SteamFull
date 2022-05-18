@@ -1,0 +1,34 @@
+<npcs>	
+  <npc id="drLang" variant="head">
+		<skin>
+			  <gender>female</gender>
+		      <skinColor>0xf9e4ce</skinColor>
+		      <hairColor>0x5e0d11</hairColor>
+		      <mouth>15</mouth>
+		      <hair>is_scien</hair>
+		      <shirt>is_scien</shirt>
+		      <pants>is_scien</pants>
+		      <overshirt>labcoat</overshirt>
+		      <eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<direction>right</direction>	
+	</npc>
+	
+	<npc id="player" variant="head">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<direction>right</direction>	
+	</npc>
+</npcs>

@@ -1,0 +1,18 @@
+<part>
+	<id>storeplantastatue1</id>
+	<type>item</type>
+	<specialAbility id="placeStatue">
+		<className>game.data.specialAbility.store.PlaceStatue</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">specialAbility/objects/statues/plantStatue1.swf</param>
+			<param id="extraPath">specialAbility/objects/statues/statueBird.swf</param>
+			<param id="x">-85</param>
+			<param id="y">-196</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

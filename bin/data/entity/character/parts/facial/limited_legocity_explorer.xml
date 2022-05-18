@@ -1,0 +1,14 @@
+<part>
+	<id>limited_legocity_explorer</id>
+	<type>facial</type>
+	<hide>hair</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.store.AddSnow</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rate">250</param>
+			<param id="tracking">LegoCityQuest,snow_power</param>
+  		</parameters>
+	</specialAbility>
+</part>

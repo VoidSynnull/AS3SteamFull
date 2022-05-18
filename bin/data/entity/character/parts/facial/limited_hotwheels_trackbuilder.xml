@@ -1,0 +1,39 @@
+<part>
+	<id>limited_hotwheels_trackbuilder</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2653</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility id="PlayerSay">
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="tracking">HotWheelsTrackBuilderQuest,Helmet</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="TalkAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="say_id" type="string">Join Team Hot Wheels!</param> 
+						<param id="directSayText" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

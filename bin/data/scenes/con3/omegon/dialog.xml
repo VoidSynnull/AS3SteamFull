@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="player">
+    	<statement id="end" link="true_form" linkEntityId="omegon">This is your end, Omegon!</statement>
+    </character>
+    
+    <character id="omegon">
+    	<statement id="alphaon" link="end" linkEntityId="player">Alphaon, we meet at last!</statement>
+    	<statement id="true_form">I think not. Behold my true form!</statement>
+    </character>
+</dialogs>

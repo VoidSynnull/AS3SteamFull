@@ -1,0 +1,55 @@
+<dialogs>
+  <character id="char1">
+    <statement>I can't wait... like, I seriously can't wait...</statement>
+    <statement id="after_movie_1" link="funny?" linkEntityId="char2">Ha, ha, ha!</statement>
+    <statement id="what_no" link="heh_heh">What? No, of course not.</statement>
+    <statement id="heh_heh" triggerEvent = "triggerEvent" triggerEventArgs="watch_next_movie">Heh, heh.</statement>
+  </character>
+  <character id="char2">
+    <statement>So exciting!</statement>
+    <statement id="funny?" link="what_no" linkEntityId="char1">You thoght that was funny?</statement>
+  </character>
+  <character id="char3">
+    <statement>I could sleep pretty well in this chair.</statement>
+    <statement id="after_movie_2" link="heart" linkEntityId="char4">Gee Whillikers! I did not see that coming.</statement>
+  </character>
+  <character id="char4">
+    <statement>It's just like I read about!</statement>
+    <statement id="heart" triggerEvent = "triggerEvent" triggerEventArgs="watch_next_movie">Thank goodness I brought my heart medication!</statement>
+  </character>
+  <character id="char5">
+    <statement>This is what we've been waiting for!</statement>
+    <statement id="after_movie_4" link="see" linkEntityId="char6">That monkey... he was so brave.</statement>
+  </character>
+  <character id="char6">
+    <statement>I wish this would start already.</statement>
+    <statement id="see" triggerEvent = "triggerEvent" triggerEventArgs="watch_next_movie">See that, honey? That's how you connect with an audience -- just like the gorilla did.</statement>
+  </character>
+  <character id="char7">
+    <statement>I still get butterfiles!</statement>
+    <statement id="after_movie_3" link="it_helps" linkEntityId="char8">Wonderful performance, old bean. A star turn.</statement>
+  </character>
+  <character id="char8">
+    <statement>Good show, good show!</statement>
+    <statement id="it_helps" triggerEvent = "triggerEvent" triggerEventArgs="watch_next_movie">It helps to work with an actor as great as you!</statement>
+  </character>
+  <character id="char9">
+    <statement>Are you talking to me?</statement>
+  </character>
+  <character id="char10">
+    <statement>The back row is the best place to sit. Only an imbecile would think otherwise.</statement>
+    <statement id="opening" link="hasnt" linkEntityId="char11" triggerEvent="triggerEvent" triggerEventArgs="no_good_movies">Carson Willis hasn't made a good movie in years!</statement>
+  </character>
+  <character id="char11">
+    <statement>How did I end up between these two bickering critics?</statement>
+    <statement id="hasnt" link="hey" linkEntityId="char12" triggerEvent="triggerEvent" triggerEventArgs="no_movies">Carson Willis hasn't made any movie in years.</statement>
+  </character>
+  <character id="char12">
+    <statement>The front row is the best place to sit. Anyone who thinks otherwise is a fool.</statement>
+    <statement id="hey" triggerEvent="triggerEvent" triggerEventArgs="free_popcorn">Hey, free popcorn is free popcorn.</statement>
+  </character>
+  <character id="player">
+    <statement id="big premiere">Time for the big premiere! I just need to load the film.</statement>
+    <statement id="not here">I can't use this here.</statement>
+  </character>
+</dialogs>

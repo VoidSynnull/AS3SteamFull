@@ -1,0 +1,48 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>5550</right>
+		<bottom>1140</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>5750</right>
+		<bottom>1110</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,custom.xml,blimp.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/myth/shared/sounds.xml, scenes/myth/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.95</rate>
+		</layer>
+		<layer hit="true">
+			<asset>clouds.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="background">
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1321.55</x>
+			<y>421</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

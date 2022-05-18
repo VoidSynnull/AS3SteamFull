@@ -1,0 +1,54 @@
+<hits>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="metalDome" color="0x47A4D9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="slantedConcreteRoof" color="0x79BEE5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="flatConcreteRoof" color="0x93BAD0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalRail" color="0x70AFA6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="archedClothOverhang" color="0x21695F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sidewalk" color="0xB0B69A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="newsPaperBox" color="0x7594C2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="subwaySign" color="0x76C5F7" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trashBin" color="0x5892B6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="statue" color="0xBDB37D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalSign" color="0x64875D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowSills" color="0xA0AFEC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pretzelStand" color="0x449EBF" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

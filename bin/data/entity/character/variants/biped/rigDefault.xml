@@ -1,0 +1,29 @@
+<character variant="biped" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<parts>
+		<part id="leg2">
+			<joint animDriven="true" ignoreRotation="true">leg2</joint>
+			<isGraphic>true</isGraphic>
+		</part>
+		<part id="foot2">
+			<joint animDriven="true">foot2</joint>
+			<partType>foot</partType>
+		</part>
+		<part id="bodySkin">
+			<joint animDriven="true">body</joint>
+			<partType>bodySkin</partType>
+		</part>
+		<part id="leg1">
+			<joint animDriven="true" ignoreRotation="true">leg1</joint>
+			<isGraphic>true</isGraphic>
+		</part>
+		<part id="foot1">
+			<joint animDriven="true">foot1</joint>
+			<partType>foot</partType>
+		</part>
+		<part id="mouth" optional="true">
+			<!--  MOUTH IS DRIVEN BY OVERSHIRT JOINT IN BIPEDs -->
+			<joint>body</joint>
+			<partType>mouth</partType>
+		</part>
+	</parts>
+</character>

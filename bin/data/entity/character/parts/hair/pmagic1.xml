@@ -1,0 +1,22 @@
+<part>
+	<id>pmagic1</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.store.MagicHat</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+	</specialAbility>
+</part>

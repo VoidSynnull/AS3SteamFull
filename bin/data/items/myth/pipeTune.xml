@@ -1,0 +1,29 @@
+<item id="pipeTune">
+  	<type>island</type>
+  	<subType>myth</subType>
+  	<textfields>
+ 		<text>
+      		<value>Pipe Tune</value>
+    	</text>
+    	<text>
+      		<value>This tune was taught to you by Euterpe, the muse of music.</value>
+      		<size>18</size>
+      		<y>100</y>
+      		<width>170</width>
+      		<textColor>0x6F787C</textColor>
+      	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>6</brightness>
+     			<contrast>0</contrast>
+     			<saturation>-68</saturation>
+     			<hue>160</hue>
+    		</effect>
+    	</asset>
+   		<asset id="cardContent"/>
+    </assets>
+</item>

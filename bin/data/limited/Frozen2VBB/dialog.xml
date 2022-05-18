@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="anna">
+		<statement event="hasAdItem_2984">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement>I'm going with Elsa.</statement> <!-- default if above not true -->
+	</character>
+	<character id="elsa">
+		<statement>A voice is calling me. It comes from an enchanted forest.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

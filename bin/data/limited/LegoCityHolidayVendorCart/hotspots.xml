@@ -1,0 +1,7 @@
+<hotspots>
+	<hotspot id="posterLegoCityVC" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+		<action type="giveItemMale">2943</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">2943</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

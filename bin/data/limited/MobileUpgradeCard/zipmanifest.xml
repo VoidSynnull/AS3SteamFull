@@ -1,0 +1,27 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MobileUpgradeCard/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2850</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2850</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundTeal</asset>
+	</assets>
+	<assets type="follower" path="assets/limited/MobileUpgradeCard/" ext="swf">
+		<asset>Follower</asset>
+	</assets>
+
+	<data type="ability" path="data/entity/character/abilities/limited/">
+		<asset>follower_flying_dragon.xml</asset>
+	</data>
+
+</manifest>

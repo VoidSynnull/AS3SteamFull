@@ -1,0 +1,79 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoElvesVC/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/LegoElvesVC/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/LegoElvesVC/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>leaf.swf</asset>
+		<asset>VinesPower.swf</asset>
+		<asset>WaterPower.swf</asset>
+		<asset>LavaPower.swf</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2871</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>pcowgirl1</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>pcowgirl1</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" keep="true" ext="xml">
+		<asset>sponsorln_mo</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" keep="true" ext="swf">
+		<asset>sponsorln_mo</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" keep="true" ext="xml">
+		<asset>musicshirt1</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" keep="true" ext="swf">
+		<asset>musicshirt1</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>skullpirate3</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>skullpirate3</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>lego_elf_key1</asset>
+		<asset>lego_elf_key2</asset>
+		<asset>lego_elf_key3</asset>
+		<asset>lego_elf_key4</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>lego_elf_key1</asset>
+		<asset>lego_elf_key2</asset>
+		<asset>lego_elf_key3</asset>
+		<asset>lego_elf_key4</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,9 @@
+<specialAbility id="limited/follower_flying_dragon">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2850</param>
+		<param id="swfPath">limited/MobileUpgradeCard/Follower.swf</param> <!-- path to follower swf -->
+	</parameters>
+</specialAbility>

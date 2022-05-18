@@ -1,0 +1,25 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>stor_winter_gpoofball</marks>
+			<hair>34</hair>
+			<shirt>stor_winter_sweaterwr</shirt>
+			<pants>sponsorBF5a</pants>
+			<item>snowball</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>610</x>
+			<y>422</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

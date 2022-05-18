@@ -1,0 +1,8 @@
+<events>
+	<group type="triggered" id="rain">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">startRain</param2>
+		</event>
+	</group>
+</events>

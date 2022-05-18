@@ -1,0 +1,19 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/TeenBeach2MVUDriverIC/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2679</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2679</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundStevenUniverse</asset>
+	</assets>
+
+</manifest>

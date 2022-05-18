@@ -1,0 +1,25 @@
+<part>
+	<id>lands_animal09</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="skinColor">skinColor</part>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="color1">0x528622</color>
+		<color id="skinColor"/>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="skinColor">
+			<clip instanceName="skinShape"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

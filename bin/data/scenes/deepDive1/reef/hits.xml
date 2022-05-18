@@ -1,0 +1,53 @@
+<hits>
+	<hit id="cave" color="0x0066ff">
+		<component type="radial"/>
+	</hit>
+	<hit id="airRight" color="0x00ffff">
+		<component type="mover">
+			<acceleration>
+				<x>1000</x>
+				<y>0</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="airLeft" color="0x00FB9D">
+		<component type="mover">
+			<acceleration>
+				<x>-1000</x>
+				<y>0</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="airUp" color="0xCE86FF">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1000</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="airDown" color="0x8DACFF">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>1000</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+</hits>

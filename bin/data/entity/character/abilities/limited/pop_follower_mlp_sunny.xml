@@ -1,0 +1,25 @@
+<specialAbility id="limited/pop_follower_mlp_sunny">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2073</param>
+		<param id="facialFrame">sunny_follower</param>
+		<param id="tracking">MyLittlePonyQuest,Sunny</param>
+		<param id="campaignTracking">MyLittlePonyQuest,Sunny</param>
+		<param id="alwaysAnimated">true</param>
+		<param id="triggerAnimation">true</param>
+		<param id="useSpecialActionBtn">true</param>
+	</parameters>
+
+	<actions>
+		<actionChain id="click_actions">
+			<action class="AudioAction" startDelay=".1">
+				<parameters>
+					<param id="target" type="entity">popFollower</param> 
+					<param id="soundUrl" type="string">limited/MLP/magic_chimes.mp3</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

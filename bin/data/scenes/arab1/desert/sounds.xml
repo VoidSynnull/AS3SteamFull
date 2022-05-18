@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" baseVolume="0.8">arab1_main_theme.mp3</asset>
+		<asset exclusiveType="true" triggeredByEvent="openSesame">arab1_open_sesame.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" baseVolume="1.8">winter_wind_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_water_splash_01.mp3, ls_water_splash_02.mp3, ls_water_splash_03.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="stone">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="entranceStone">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="awning">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+		<asset id="stone">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+		<asset id="entranceStone">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+		<asset id="awning">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+</sounds>

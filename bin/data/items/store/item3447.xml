@@ -1,0 +1,56 @@
+<item id="3447">
+		<type>store</type>
+		<subType>general</subType>
+
+		<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>80</x>
+		<parameters>
+			<param id="scale">0.5</param>
+			<param id="forceScale">true</param>
+		</parameters>
+	</contentClass>
+	<buttons>
+			<btn>
+				<index>0</index>
+ 			
+				<label>TURN OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+		
+			<btn>
+			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>PUT ON</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeSubTitle">
+			<value>Timmy Failure Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Greatness</value>
+			</text>
+	</textfields>
+	
+		<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent" />
+		</assets>
+
+		<looks>
+			<look>
+			<pack>stor_tf_greatness</pack>
+		</look>
+	</looks> 
+
+</item>

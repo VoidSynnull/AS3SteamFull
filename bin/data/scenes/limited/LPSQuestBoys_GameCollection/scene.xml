@@ -1,0 +1,40 @@
+<scene>
+	<sceneType>adinterior</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1710</right>
+		<bottom>705</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>50</left>
+		<top>0</top>
+		<right>1710</right>
+		<bottom>705</bottom>
+	</bounds>
+	<data>hits.xml,npcs.xml,game.xml,sounds.xml</data>
+	 <layers>
+    <layer>
+      <asset>background.swf</asset>
+      <rate>1</rate>
+    </layer>
+	    <layer hit="true">
+      <asset>interactive.swf</asset>
+      <rate>1</rate>
+    </layer>
+	    <layer>
+      <asset>foreground.swf</asset>
+      <rate>1</rate>
+    </layer>
+
+
+  </layers>
+	<player>
+		<defaultPosition>
+			<x>800</x>
+			<y>705</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

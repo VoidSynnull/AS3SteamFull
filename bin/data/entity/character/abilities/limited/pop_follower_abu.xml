@@ -1,0 +1,33 @@
+<specialAbility id="limited/pop_follower_abu">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2975</param>
+		<param id="skinColor">0x7A5941</param>
+		<param id="hairColor">0x453929</param>
+		<param id="scaleSize">0.6</param>
+		<param id="mouthFrame">tyson</param>
+		<param id="facialFrame">limited_abu_follower</param>
+		<param id="shirtFrame">limited_abu_follower</param>
+		<param id="packFrame">limited_abu_follower</param>
+		<param id="pantsFrame">limited_abu</param>
+		<param id="campaignName">AladdinVBB</param>
+		<!--<param id="hideNPC">BigHero6MVU_baymax</param>-->
+		<param id="useSpecialActionBtn">true</param>
+		<param id="campaignTracking">AladdinVBB,transform</param>
+	</parameters>
+	<actions>
+			<actionChain id="click_actions">
+			<action class="SetLookAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="lookString" type="string">1,0xFFBC87,0x453923,0x453923,none,none,none,none,none,none,limited_jasmine,sponsor_mh,none,none,none,limited_jasmine,none/1,0xEEA676,0x453929,0x453929,none,none,none,limited_aladdin,limited_aladdin,limited_aladdin,limited_aladdin,tyson,none,none,none,none</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="searchTerm" type="string">aladdin</param>
+					</parameters>
+				</action>
+				
+			</actionChain>
+		</actions>
+</specialAbility>

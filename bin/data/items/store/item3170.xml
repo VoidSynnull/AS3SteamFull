@@ -1,0 +1,39 @@
+<item id="3170">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+			<value>Hat and Bandana</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Wild West</value>
+			</text>
+	</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+	<looks>
+		<look>
+			<facial>promowwday3</facial>
+			<hair>promowwday3m</hair>
+		</look>
+	</looks>
+</item>

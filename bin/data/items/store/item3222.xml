@@ -1,0 +1,26 @@
+<item id="3222">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3222.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>SELECT CHARACTER</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Shrink Ray Island</value>
+		</text>
+			<text id="storeTitle">
+			<value>Crayons</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Pick a color and then use&#10;it on yourself or others!</value>
+		</text>
+	</textfields>
+</item>

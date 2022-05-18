@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="timmy">
+		<statement id="see_it" link="solution">I can see it from here, but we'll need some way to get after it!</statement>
+		<statement id="solution" triggerEvent="triggerEvent" triggerEventArgs="talked_with_timmy">There's one solution: Crispin Flavius's car! I assume he’s trying trying to top his lousy Bowling record...</statement>
+		<statement>There's one solution: Crispin Flavius's car! I assume he's trying to top his lousy Bowling record...</statement>
+		
+		<statement id="steal_the_car" link="find_it">Well done! Now we just need to find Crispin's car and this case is as good as solved!</statement>
+		<statement id="find_it">He usually parks close to the alley; go see if you can find it and then catch-up to the garbage truck.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="pants" link="see_it" linkEntityId="timmy">The pants could be in the trash truck.</statement>
+    </character>
+</dialogs>

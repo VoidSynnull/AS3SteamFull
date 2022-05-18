@@ -1,0 +1,39 @@
+<hits>
+	<hit id="hood" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="box" color="0xFF99FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crate" color="0xFFCC00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x00FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x333399" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="truckBed" color="0x009999" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="tire" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-900</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

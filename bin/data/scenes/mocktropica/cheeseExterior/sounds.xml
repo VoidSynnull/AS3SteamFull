@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" event="set_day">CountryFarm.mp3</asset>
+		<asset loop="true" event ="set_night">night_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset event="set_rain" loop="true" faded="true" exclusiveType="true">rain_light.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="silo">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="silo">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+
+	</sound>
+	
+</sounds>

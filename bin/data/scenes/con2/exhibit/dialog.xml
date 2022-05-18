@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="worker1">
+		<statement id="missing_archer">Looks like we're just missing... Elf Archer? Is that right?</statement>
+		<statement id="dentists_convention" triggerEvent="triggerEvent" triggerEventArgs="off_to_work">Sigh... This is worse than the dentists' convention. Let's go look for it.</statement>
+   		<statement id="wrong_costume" link="keep_looking" linkEntityId="worker2">This isn't the right costume!</statement>
+   		<statement id="found_it">Hey, you found the Elf Archer!</statement>
+   		<statement id="unload">Whatever, let's just unload this stuff.</statement>
+    </character>
+    
+    <character id="worker2">
+    	<statement id="silver_age_archer" triggerEvent="triggerEvent" triggerEventArgs="sigh">"Silver Age" Elf Archer. The plan's around here somewhere.</statement>
+    	<statement id="keep_looking" triggerEvent="triggerEvent" triggerEventArgs="off_to_work">Ugh, let's keep looking.</statement>
+    	<statement id="found_it">Hey, you found the Elf Archer!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="locked">There's got to be a way inside. Maybe the Elf Archer could get in!</statement>
+    	<statement id="dat_card">Is that a Might Action Force card? What luck! Now I just need to get it down.</statement>
+    	<statement id="so_sneaky">Hehe, I'm so sneaky. Time to snoop for Omegon's mask!</statement>
+		<statement id="sick_mask_bro">Wow! I really like the direction they went with his new mask. That's some fine work right there!</statement>
+    </character>
+</dialogs>

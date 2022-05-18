@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2700</right>
+		<bottom>740</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>50</left>
+		<top>0</top>
+		<right>2640</right>
+		<bottom>660</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,items.xml</data>
+	<assets></assets>
+	<absoluteFilePaths>scenes/survival4/shared/dialog.xml, scenes/survival4/shared/sounds.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>2400</x>
+			<y>660</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

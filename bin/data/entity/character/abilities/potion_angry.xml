@@ -1,0 +1,10 @@
+<specialAbility id="smiley_potion">
+	<save>false</save>
+	<className>game.data.specialAbility.store.Potion</className>
+	<parameters>
+		<param id="messWithSelf">true</param>
+		<param id="potionName">smiley_potion</param>
+		<param id="potionParticle">specialAbility/objects/smileyPotion/particleAngry.swf</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

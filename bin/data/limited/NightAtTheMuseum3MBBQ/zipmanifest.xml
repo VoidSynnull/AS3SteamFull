@@ -1,0 +1,77 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/NightAtTheMuseum3MBBQ/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+		<asset>classes</asset>
+		<asset>popup/page</asset>
+	</data>
+	
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/NightAtTheMuseum3MBBQ/sideStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>popup.xml</asset>
+	</data>
+
+	<data type="game" path="assets/limited/NightAtTheMuseum3MBBQ/sideStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</data>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/NightAtTheMuseum3MBBQ/" ext="swf">
+		<asset>sideStreet/background</asset>
+		<asset>sideStreet/interactive</asset>
+		<asset>icon</asset>
+		<asset>island</asset>
+		<asset>logo</asset>
+		<asset>popup/background</asset>
+		<asset>popup/slides</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>15</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>15</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>nw_sportsowner</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>nw_sportsowner</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>franklin</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>franklin</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>teddy</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>teddy</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>caprisun_guide</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>caprisun_guide</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>astromanure</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>astromanure</asset>
+	</assets>
+</manifest>

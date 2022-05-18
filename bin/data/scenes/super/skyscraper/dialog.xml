@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="bettyJetty">
+		<statement>Catch me if you can!</statement>
+		<statement event="beat_boss_6">It's going to take more than that to stop me! Bwaah ha ha!!!</statement>
+    </character>
+    
+    <chracter id="nedNoodlehead">
+		<statement event="beat_boss_6" link="unexpected">Your trusty sidekick has arrived!</statement>
+		<statement id="unexpected">I bet you didn't see that coming!</statement>
+   	</chracter>
+</dialogs>

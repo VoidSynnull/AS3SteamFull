@@ -1,0 +1,12 @@
+<part>
+	<id>mk_curds</id>
+	<type>item</type>
+	<specialAbility id="cheeseThrow">
+		<useButton>true</useButton>
+
+		<className>game.data.specialAbility.character.ThrowCurd</className>
+		<parameters>
+			<param id="color">0xFDFD64</param>
+		</parameters>
+	</specialAbility>
+</part>

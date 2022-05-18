@@ -1,0 +1,18 @@
+<part>
+	<id>limited_disinfinity</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2742</campaignID>
+	<notPrintable>true</notPrintable>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>shirt</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

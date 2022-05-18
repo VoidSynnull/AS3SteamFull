@@ -1,0 +1,27 @@
+<part>
+	<id>limited_gh_humphree</id>
+	<type>facial</type>
+	<costumizable>true</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2507</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<colors>
+		<color id="greenColor">0x8dc73f</color>
+	</colors>
+	<applyColors>
+		<applyColor id="greenColor">
+			<part id="skinColor">skinColor</part>
+		</applyColor>
+		<applyColor id="greenColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+	</colorables>
+</part>

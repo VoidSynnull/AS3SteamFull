@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" baseVolume=".3">tunnel_of_love.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">water_splash_05.mp3, water_splash_06.mp3</asset>
+		<asset id="floor">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">water_splash_01.mp3</asset>
+		<asset id="floor">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="beads">bead_curtain_01.mp3</asset>
+	</sound>
+</sounds>

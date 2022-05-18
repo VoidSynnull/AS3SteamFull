@@ -1,0 +1,17 @@
+<part>
+	<id>limited_louie</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>shirt</part>
+		<part>body</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/ducktales_flipper.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

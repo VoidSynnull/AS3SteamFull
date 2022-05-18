@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="Sunny">
+		<statement event="hasAdItem_9999">Watch the video to get cool prizes!</statement> <!-- If have item card and returned to scene -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement>Watch this cool video and get a fun prize!</statement> <!-- default if above not true -->
+		<statement id="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

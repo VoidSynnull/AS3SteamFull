@@ -1,0 +1,26 @@
+<part>
+	<id>limited_gnomehat</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2879</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">SherlockGnomesQuest,shrink</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetScaleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="scale" type="number">0.18</param>
+						<param id="toggle" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

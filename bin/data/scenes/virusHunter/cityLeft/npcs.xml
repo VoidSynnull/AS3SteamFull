@@ -1,0 +1,76 @@
+<npcs>
+  <npc id="manWithShades">
+	<animations loop="false" random="false">
+		<animation>game.data.animation.entity.character.Ride</animation>
+	</animations>
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfde7b6</skinColor>
+      <hairColor>0x49321d</hairColor>
+      <mouth>17</mouth>
+      <marks>p_seacaptain</marks>
+      <facial>ss</facial>
+      <hair>tyson</hair>
+      <shirt>ss</shirt>
+      <pants>ss</pants>
+      <eyeState>squint</eyeState>
+    </skin>
+    <position>
+      <x>150</x>
+      <y>1210</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+	<faceSpeaker>false</faceSpeaker>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+
+	<npc id="girl" event="girl_in_city_left">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>19</mouth>
+			<hair>sacagawea</hair>
+			<shirt>nw_bshirt02</shirt>
+			<pants>africanlady3</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2100</x>
+			<y>1310</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="dog" variant="creature" event="dog_in_city_left">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE7CF98</skinColor>
+			<hairColor>0xD2B351</hairColor>
+			<mouth>sponsorbarbieggdog3</mouth>
+			<marks>sponsorcddog</marks>
+			<facial>sponsorbarbieggdog1</facial>
+			<hair>bald</hair>
+			<shirt>sponsorbarbieggdog4</shirt>
+			<pants>1</pants>
+			<pack>sponsorcddog</pack>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>1200</x>
+			<y>1310</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

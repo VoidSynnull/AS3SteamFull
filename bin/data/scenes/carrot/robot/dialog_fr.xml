@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="drHare">
+		<statement id="drhare_talks">Pourquoi vous tenez-vous autour? Obtenez de l'ordinateur et démarrer la séquence de lancement!</statement>
+		<statement id="drhare_move_it">je vais être en attente dans le cockpit. Maintenant, déplacez-le!</statement>
+	</character>
+	<character id="drone4">
+		<conversation>
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>peux pas parler. Doit lancer la séquence de lancement.</answer>
+			</exchange>
+			<exchange>
+				<question>Que faites-vous?</question>
+				<answer>peux pas parler. Doit lancer la séquence de lancement.</answer>
+			</exchange>
+			<exchange>
+				<question>Rechercher, un lapin géant!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_4">Où?</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="drone_denial">Vous n'êtes pas autorisé à utiliser cet ordinateur.</statement>
+		<statement triggeredByEvent="drone_free">Dr. Hare va utiliser son Rabbot géant à l'esprit contrôler l'ensemble de la planète depuis l'espace!</statement>
+		<statement event="drone_freed_4">Dr. Hare va utiliser son Rabbot géant à l'esprit contrôler l'ensemble de la planète depuis l'espace!</statement>
+		<statement triggeredByEvent="drone_congrats">vous l'avez fait! Maintenant, sortons d'ici.</statement>
+	</character>
+</dialogs>

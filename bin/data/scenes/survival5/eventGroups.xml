@@ -1,0 +1,15 @@
+<groups>
+	<group event="island_incomplete" triggerAndSave="true">
+		<and>
+			<event not="true" type="gotItem_medal_survival5"/>
+		</and>
+	</group>
+	
+	<group event="ready_to_fight" triggerAndSave="true">
+		<and>
+			<event type="gotItem_whistle"/>
+			<event type="gotItem_rope"/>
+			<event type="gotItem_gear"/>
+		</and>
+	</group>
+</groups>

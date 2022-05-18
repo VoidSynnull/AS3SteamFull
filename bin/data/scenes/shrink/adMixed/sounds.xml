@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">none</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+</sounds>

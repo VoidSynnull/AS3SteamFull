@@ -1,0 +1,36 @@
+<part>
+	<id>limited_tony_tiger</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2911</campaignID>
+	<hide>
+		<part>hair</part>
+		<part>shirt</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>eyes</part>
+		<part>mouth</part>
+		<part>head</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>flipClip</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/tony_tiger_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

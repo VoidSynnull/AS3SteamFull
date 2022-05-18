@@ -1,0 +1,53 @@
+<npcs>
+	<npc id="octavian">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd7b786</skinColor>
+			<hairColor>0x1a1e21</hairColor>
+			<mouth>14</mouth>
+			<marks>3</marks>
+			<hair>comic_octavian</hair>
+			<shirt>comic_octavian</shirt>
+			<pants>policeman</pants>
+			<overshirt>comic_octavian</overshirt>
+			<overpants>comic_octavian</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>3476</x>
+			<y>1033</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="npc_friend">
+		<skin>
+		  <gender>male</gender>
+		  <skinColor>0x000000</skinColor>
+		  <hairColor>0x000000</hairColor>
+		</skin>
+		<position>
+		  <x>1790</x>
+		  <y>1020</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="npc_friend_bitmap" >
+		<bitmap>Blank.swf</bitmap>
+		<position>
+		  <x>1790</x>
+		  <y>1020</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

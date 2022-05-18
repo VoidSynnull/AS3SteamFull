@@ -1,0 +1,39 @@
+<hits>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="grass" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="brick" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hardGrass" color="0x00ff99" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rocks" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit id="radial" color="0x990099">
+		<component type="radial">
+			<rebound>0.1</rebound>
+		</component>
+	</hit>
+	<hit id="waterHit">
+		<component type="water">
+			<splashColor1>0x497276</splashColor1>
+			<splashColor2>0x66EFF7</splashColor2>
+		</component>
+	</hit>
+</hits>

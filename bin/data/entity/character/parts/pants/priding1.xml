@@ -1,0 +1,21 @@
+<part>
+	<id>priding1</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0x51B7EE</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="pRidingDress.colorShape1"/>
+		</colorable>
+	</colorables>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>	
+</part>

@@ -1,0 +1,21 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="limited_Eep">
+		<bitmap>limited/Croods2Quest/Eep.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>80</x> <!-- from left edge of ad unit -->
+			<y>744</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="limited_Guy">
+		<bitmap>limited/Croods2Quest/Guy.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>0</x> <!-- from left edge of ad unit -->
+			<y>744</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

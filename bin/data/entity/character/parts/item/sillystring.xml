@@ -1,0 +1,33 @@
+<part>
+	<id>sillystring</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<className>game.data.specialAbility.store.SillyString</className>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction" startDelay="0.5">
+					<parameters>
+						<param id="char" type="string">FACING</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">stor_sillystream</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">FACING</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">stor_sillystream</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+  	</specialAbility>
+</part>

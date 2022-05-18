@@ -1,0 +1,127 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="hit0">
+		<component type="movingPlatform">
+			<visible>dummy0</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>275</x>
+					<y>2092</y>
+				</point>
+				<point>
+					<x>275</x>
+					<y>1427</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="hit1">
+		<component type="movingPlatform">
+			<visible>dummy1</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>369</x>
+					<y>2120</y>
+				</point>
+				<point>
+					<x>369</x>
+					<y>1454</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="hit2">
+		<component type="movingPlatform">
+			<visible>dummy2</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>520</x>
+					<y>2175</y>
+				</point>
+				<point>
+					<x>520</x>
+					<y>1509</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="hit3">
+		<component type="movingPlatform">
+			<visible>dummy3</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>685</x>
+					<y>2135</y>
+				</point>
+				<point>
+					<x>685</x>
+					<y>1470</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="hit4">
+		<component type="movingPlatform">
+			<visible>dummy4</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>837</x>
+					<y>2106</y>
+				</point>
+				<point>
+					<x>837</x>
+					<y>1440</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="hit5">
+		<component type="movingPlatform">
+			<visible>island</visible>
+			<velocity>50</velocity>
+			<points>
+				<point>
+					<x>556</x>
+					<y>1954</y>
+				</point>
+				<point>
+					<x>556</x>
+					<y>1288</y>
+				</point>
+			</points>
+			<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-12000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>3000</y>
+			</friction>
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

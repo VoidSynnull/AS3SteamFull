@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="cage_moved">creaky_metal_01.mp3, creaky_metal_02.mp3, creaky_metal_03.mp3</asset>
+		<asset triggeredByEvent="glass_break">none</asset>
+		<asset triggeredByEvent="key_jingle">none</asset>
+		<asset triggeredByEvent="cage_opens">none</asset>
+		<asset triggeredByEvent="key_grab">none</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="bed">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="cage">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="coffin">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="cage">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="coffin">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

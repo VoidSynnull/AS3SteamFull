@@ -1,0 +1,21 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">CheeseFactory.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="floor">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="cardboard">fs_cardboard_01.mp3, fs_cardboard_02.mp3, fs_cardboard_03.mp3, fs_cardboard_04.mp3</asset>
+		<asset id="topConveyer">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="bottomConveyer">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="floor">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="cardboard">ls_cardboard_01.mp3, ls_cardboard_02.mp3</asset>
+		<asset id="bottomConveyer">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="topConveyer">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+	</sound>
+	
+</sounds>

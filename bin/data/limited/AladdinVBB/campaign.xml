@@ -1,0 +1,39 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>AladdinVBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251397328;dc_trk_aid=447617114;dc_trk_cid=103389622;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251125222;dc_trk_aid=447617114;dc_trk_cid=103389622;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251206149;dc_trk_aid=447617114;dc_trk_cid=103389622;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+	</clickUrls>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251397328;dc_trk_aid=447617114;dc_trk_cid=103389622;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoClicked"> <!-- For playing video -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251125222;dc_trk_aid=447617114;dc_trk_cid=103389622;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="VideoReplayed"> <!-- For replaying video (usually same tag as for VideoClicked) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251125222;dc_trk_aid=447617114;dc_trk_cid=103389622;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="NPCImpression"> <!-- When NPC appears in front of ad building or in interior (specify in tracking.xml) -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251205504;dc_trk_aid=447617114;dc_trk_cid=103389622;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+		<impressions id="CardImpression"> <!-- When prize card appears when awarded or in inventory -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B22879278.251206149;dc_trk_aid=447617114;dc_trk_cid=103389622;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+	
+	<boycards>
+		<!--<card>2974</card>-->
+		<card>2975</card>
+	</boycards>
+	<girlcards>
+		<!--<card>2974</card>-->
+		<card>2975</card>
+	</girlcards>
+</campaign>

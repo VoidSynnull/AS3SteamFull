@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_2441">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Watch this cool video and get a jet pack!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hi! I'm Casey.</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

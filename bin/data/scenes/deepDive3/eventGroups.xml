@@ -1,0 +1,19 @@
+<groups>
+	<group event="stage_0_layers" triggerAndSave="true">
+		<and>			
+			<event type="stage_1_active" not="true"/>
+		</and>
+	</group>
+	<group event="stage_1_layers" triggerAndSave="true">
+		<and>			
+			<event type="stage_1_active"/>
+			<event type="stage_2_active" not="true"/>
+		</and>
+	</group>
+	<group event="stage_2_layers" triggerAndSave="true">
+		<and>			
+			<event type="stage_1_active"/>
+			<event type="stage_2_active"/>
+		</and>
+	</group>
+</groups>

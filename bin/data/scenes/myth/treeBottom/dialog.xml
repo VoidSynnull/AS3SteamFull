@@ -1,0 +1,67 @@
+<dialogs>
+	<character id="player">
+		<statement id="what" link="look" linkEntityId="athena">text1</statement>
+		
+		<statement id="immort" link="fool" linkEntityId="zeus">text2</statement>
+		<statement id="giveBack" link="noWay" linkEntityId="zeus">text3</statement>
+		<statement triggeredByEvent="item_puzzle_complete" triggerEvent="triggerEvent" triggerEventArgs="zeus_appears_steal,true">text4</statement>
+    
+    	<statement id="nowWhat" link="getHerc" linkEntityId="athena">text5</statement>
+    	<statement id="noHelp" link="hurry" linkEntityId="athena">text6</statement>
+    </character>
+    
+    <character id="crone">
+		<statement>text7</statement>   
+	</character>
+	
+     <character id="athena">
+
+		<statement id="zeus_escaped" link="noGood">text8</statement>
+		<statement id="noGood" link="nowWhat" linkEntityId="player">text9</statement>
+		<statement id="getHerc" link="noHelp" linkEntityId="player">text10</statement>
+		<statement id="hurry" triggerEvent="triggerEvent" triggerEventArgs="hurry_up">text11</statement>
+		
+		<conversation>
+			<exchange>
+				<question>shared.text24</question>
+				<answer>text12</answer>
+			</exchange>
+			<exchange>
+				<question>text13</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="athena_olives">text14</answer>
+			</exchange>
+			<exchange>
+				<question>text15</question>
+				<answer>text16</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="athena_all_items" link="danger">text17</statement>
+		<statement id="danger" link="what" linkEntityId="player">text18</statement>
+		<statement id="look" triggerEvent="triggerEvent" triggerEventArgs="item_puzzle_start">text19</statement>
+		
+    </character>
+    
+    <character id="satyr">
+    	<statement>text20</statement>
+		<statement triggeredByEvent="satyr_LockedZone">text20</statement>
+    </character>
+    
+	<character id="zeus">
+		<statement triggeredByEvent="zeus_steal_finished" link="immort" linkEntityId="player">text21</statement>
+		<statement id="fool" link="giveBack" linkEntityId="player">text22</statement>
+		<statement id="noWay" triggerEvent="triggerEvent" triggerEventArgs="zeus_escaped, true">text23</statement>
+    </character>
+    
+    <character id="customDialog1">
+		<statement>text24</statement>
+		<statement event="gotItem_zeusScroll">text25</statement>
+		<statement event="got_all_items">text26</statement>
+    </character>
+    
+    <character id="customDialog2">
+		<statement>text27</statement>
+		<statement event="gotItem_zeusScroll">text28</statement>
+		<statement event="got_all_items">text29</statement>
+    </character>
+</dialogs>

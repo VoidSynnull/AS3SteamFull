@@ -1,0 +1,39 @@
+<item id="3648">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>PUT ON</label>
+				<actions>
+				<action type="activatePower"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasAbility" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+	<textfields>
+			<text id="storeTitle">
+			<value id="title">Hiking Shoes</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<specials>
+			<specialAbility>shoes_hiking</specialAbility>
+		</specials>
+
+		<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+</item>

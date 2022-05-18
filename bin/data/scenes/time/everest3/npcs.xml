@@ -1,0 +1,49 @@
+<npcs>
+	<npc id="char1" event="returned_goggles">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xAAAAAA</hairColor>
+			<mouth>14</mouth>
+			<marks>hillary</marks>
+			<facial>hillary</facial>
+			<shirt>hillary</shirt>
+			<pants>hillary</pants>
+			<pack>hillary</pack>
+			<item>icepick</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1355</x>
+			<y>703</y>
+		</position>
+		<direction>right</direction>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char2" event="returned_goggles">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xC28354</skinColor>
+			<hairColor>0xAAAAAA</hairColor>
+			<mouth>14</mouth>
+			<marks>sherpa</marks>
+			<facial>sherpa</facial>
+			<shirt>sherpa</shirt>
+			<pants>sherpa</pants>
+			<pack>sherpa</pack>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1091</x>
+			<y>747</y>
+		</position>
+		<direction>right</direction>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

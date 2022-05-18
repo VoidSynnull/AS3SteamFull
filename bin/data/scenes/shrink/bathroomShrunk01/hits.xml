@@ -1,0 +1,117 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="drawer" color="0xC6B59C" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="hamper" color="0xF9E5E2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="counter" color="0xCEE2C7" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="switchTop" color="0xD3AAA5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="switchBottom" color="0xEAE7CB" platform="true">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="faucet" color="0xCBD5CF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="soapDispenser" color="0xDAF0B5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="hairSpray" color="0xD8ADBE" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="toothpasteSquirt" color="0x8CDDDF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="toothbrushContainer" color="0xAEC4A1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="plug" color="0xABA8A2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dryerPlat" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dryerButtons" color="0xE0ADAA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rug" color="0xAEC593" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="hairBrushBounce" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="hotFaucet" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="coldFaucet" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="squirtPlat0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="squirtPlat1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dryerPlat" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="switch0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="switch1" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

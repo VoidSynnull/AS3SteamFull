@@ -1,0 +1,49 @@
+<part>
+	<id>limited_buzzlightyear</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/ToyStory4VBB/Fly.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="tracking">ToyStory4VBB,fly</param>
+			<param id="pack">limited_buzzlightyear_open</param>
+			<param id="animClass">game.data.animation.entity.character.Soar</param>
+			<param id="animClassReturn">game.data.animation.entity.character.FallingNinja</param>
+			<param id="hidePlayer">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="PartTimelineAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="part" type="string">pack</param>
+						<param id="start" type="string">open</param>
+						<param id="wait" type="string">openEnd</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" endDelay="1.5">
+					<parameters>
+						<param id="target" type="entity">player</param>
+						<param id="url" type="string">limited/ToyStory4/buzz_clip1.mp3,limited/ToyStory4/buzz_clip2.mp3</param> 
+						<param id="radius" type="number">0</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="PartTimelineAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="part" type="string">pack</param>
+						<param id="start" type="string">close</param>
+						<param id="wait" type="string">closeEnd</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

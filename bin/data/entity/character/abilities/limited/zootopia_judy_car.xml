@@ -1,0 +1,11 @@
+<specialAbility id="limited/zootopia_judy_car">
+	<save>true</save>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<campaignID>2760</campaignID>
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+	<parameters>
+		<param id="swfPath">limited/ZootopiaQuest/JudyCar.swf</param>
+		<param id="tracking">ZootopiaMMQ,Judy Car</param>
+	</parameters>
+</specialAbility>

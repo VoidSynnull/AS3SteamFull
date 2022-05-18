@@ -1,0 +1,58 @@
+<dialogs>
+	<character id="player">
+		<statement id="examine_rocks">text1</statement>
+	</character>
+	<character id="captain">
+		<conversation>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text8</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+		</conversation>
+		<conversation event="returned_amulet">
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>text6</question>
+				<answer>text7</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text8</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_amulet">
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text8</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text9</question>
+				<answer triggerEvent ="takeItem" triggerEventArgs="amulet, captain">text10</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char1" >
+    	<statement>text11</statement>
+    	<statement event="returned_amulet">text12</statement>
+    </character>
+    <character id="char2" >
+    	<statement>text13</statement>
+    	<statement event="returned_amulet">text14</statement>
+    </character>
+    
+</dialogs>

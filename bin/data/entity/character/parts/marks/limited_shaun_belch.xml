@@ -1,0 +1,14 @@
+<part>
+	<id>limited_shaun_belch</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<campaignID>2689</campaignID>
+	
+	<specialAbility id="shaunAvatarTransform">
+		<className>game.data.specialAbility.character.Shout</className>
+		<parameters>
+			<param id="tracking">ShaunTheSheepPartyRoom,Shaun Belch</param>
+			<param id="swfPath">limited/ShaunTheSheepPartyRoom/belch.swf</param>
+		</parameters>
+	</specialAbility>
+</part>

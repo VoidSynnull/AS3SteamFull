@@ -1,0 +1,43 @@
+<item id="3200">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+					<value>Shark Costume</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Shark Tooth Island</value>
+			</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+
+	<looks>
+		<look>
+			<mouth>shark</mouth>
+			<facial>shark</facial>
+			<shirt>shark</shirt>
+			<pack>shark</pack>
+			<item>fish</item>
+			<pants>1</pants>
+		</look>
+	</looks>
+</item>

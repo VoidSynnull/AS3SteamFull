@@ -1,0 +1,71 @@
+<npcs>
+	<npc id="char1">
+		<skin random="true">
+			 <eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1388</x> 
+			<y>1930</y> 
+		</position>
+		<ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="labGirl" event="not_entered_lab">
+		<animations loop="true" random="true">
+			<animation duration="150">game.data.animation.entity.character.Cry</animation>
+			<animation duration="100">game.data.animation.entity.character.Grief</animation>
+			<animation duration="200">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			 <gender>female</gender> 
+			 <skinColor>0xFFE271</skinColor> 
+			 <hairColor>0xD26231</hairColor>
+			 <mouth>10</mouth> 
+			 <facial>4</facial> 
+			 <hair>42</hair> 
+			 <shirt>rat</shirt> 
+			 <pants>bartholdi</pants>
+			 <overshirt>apron</overshirt>
+			 <eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>3212</x> 
+			<y>1930</y> 
+		</position>
+		<ignoreDepth>true</ignoreDepth>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+  <npc id="npc_friend">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x000000</skinColor>
+      <hairColor>0x000000</hairColor>
+    </skin>
+    <position>
+      <x>1588</x>
+      <y>2685</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="npc_friend_bitmap" >
+	<bitmap>Blank.swf</bitmap>
+    <position>
+      <x>1588</x>
+      <y>2685</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+</npcs>

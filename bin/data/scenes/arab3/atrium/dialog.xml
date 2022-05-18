@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="player">
+		<statement id="hide" link="think" linkEntityId="genie">There's nowhere to hide now.</statement>
+		<statement id="key">Locked. Looks like I need a key of some sort.</statement>
+		<statement id="lamp">He's heading for the lamp room!</statement>
+		<statement id="portrait1">That's odd... The sultan and the genie must have met before.</statement>
+		<statement id="portrait2">Who's that? And why does she look so sad?</statement>
+		<statement id="portrait3">I guess wishes really do come true.</statement>
+		<statement id="portrait4">The sultan sure commissioned a lot of portraits of himself. What an ego!</statement>
+		<statement id="portrait5">That's the face of someone who loves counting his gold.</statement>
+	</character>
+	
+	<character id="genie">
+		<statement id="think" triggerEvent="triggerEvent" triggerEventArgs="genie_run">That's what you think!</statement>
+	</character>
+</dialogs>

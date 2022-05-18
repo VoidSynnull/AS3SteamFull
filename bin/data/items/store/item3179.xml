@@ -1,0 +1,40 @@
+<item id="3179">
+	<type>store</type>
+	<subType>general</subType>
+	
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Outlaw</value>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<gender>female</gender>
+			<marks>poutlaw_girls</marks>
+			<facial>poutlaw_girls</facial>
+			<pants>sponsor_karatekid</pants>
+			<shirt>poutlaw_girls</shirt>
+			<overshirt>poutlaw_girls</overshirt>
+		</look>
+	</looks>
+</item>

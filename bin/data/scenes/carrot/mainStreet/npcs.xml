@@ -1,0 +1,184 @@
+<npcs>
+	<npc id="char3" event="destroyed_rabbot">
+		<skin>
+			<mouth>5</mouth>
+		</skin>
+	</npc>
+	<npc id="char1">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Cry</animation>
+			<animation>game.data.animation.entity.character.Grief</animation>
+			<animation duration="60">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<mouth>14</mouth>
+			<marks>shadow2</marks>
+			<hair>mayor</hair>
+			<shirt>mayor</shirt>
+			<pants>adams</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>346</x>
+			<y>940</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char1" event="destroyed_rabbot">
+		<animations>
+			<animation></animation>
+		</animations>
+		<skin>
+			<mouth>5</mouth>
+		</skin>
+		<position>
+			<x>646</x>
+			<y>940</y>
+		</position>
+	</npc>
+	<npc id="char2">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<mouth>17</mouth>
+			<marks>shadow1</marks>
+			<hair>hobo</hair>
+			<shirt>hobo</shirt>
+			<pants>spanishcon</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1856.3</x>
+			<y>940</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="char2" event="destroyed_rabbot">
+		<animations>
+			<animation>game.data.animation.entity.character.Hammer</animation>
+		</animations>
+		<skin>
+			<mouth>5</mouth>
+			<item2>hammer</item2>
+		</skin>
+		<position>
+			<x>906</x>
+			<y>679</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="char3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<mouth>17</mouth>
+			<hair>gasdude</hair>
+			<shirt>gasdude</shirt>
+			<pants>gasdude</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2705</x>
+			<y>940</y>
+		</position>
+		<range>
+			<x>150</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char3" event="destroyed_rabbot">
+		<skin>
+			<mouth>5</mouth>
+		</skin>
+	</npc>
+	<npc id="cat" variant="creature" event="cat_following">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBFAE8B</skinColor>
+			<hairColor>0xBFAE8B</hairColor>
+			<mouth>cat</mouth>
+			<facial>cat</facial>
+			<hair>cat</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>cat</pack>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>346</x>
+			<y>940</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char5" event="destroyed_rabbot">
+		<animations>
+			<animation>game.data.animation.entity.character.Hammer</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x000000</hairColor>
+			<mouth>5</mouth>
+			<hair>35</hair>
+			<shirt>22</shirt>
+			<pants>2</pants>
+			<item2>hammer</item2>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>551</x>
+			<y>435</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+  <npc id="npc_friend">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0x000000</skinColor>
+      <hairColor>0x000000</hairColor>
+    </skin>
+    <position>
+      <x>1070</x>
+      <y>940</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+  </npc>
+  <npc id="npc_friend_bitmap" >
+	<bitmap>Blank.swf</bitmap>
+    <position>
+      <x>1070</x>
+      <y>940</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<ignoreDepth>true</ignoreDepth>
+  </npc>
+</npcs>

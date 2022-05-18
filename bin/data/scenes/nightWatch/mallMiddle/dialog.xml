@@ -1,0 +1,46 @@
+<dialogs>
+    <character id="player">
+		<statement event="watch_finishRide">Well, that was disappointing.</statement>
+		<statement event="watch_click_ride_NoMoney">It won't work without a coin.</statement>
+		<statement event="watch_catch_snake_fail">He's too quick! Maybe the pet store owner has some advice.</statement>
+		<statement event="watch_thiefBot_chase">Stop! Thief!</statement>
+		<statement event="watch_noLoiterClck">No loitering!</statement>
+		<statement event="watch_snakeIsMissing">I'll have to catch up to the snake before I can feed him the bird.</statement>
+		<statement event="watch_useBirdFail">There's no reason to use the toy bird right here.</statement>
+		<statement event="watch_chasingThief">I might be able to catch him if I sneak up from the back when he comes down the escalator.</statement>
+		<statement event="watch_caughtRoboThief">The training robot!? I've been fooled!</statement>
+		<statement event="watch_IDThief">The print shop owner!</statement>
+   	</character>
+	<character id="char1">
+		<statement event="watch_lesson1">You’ll need to have sharp eyes for this job.</statement>
+		<statement event="watch_lesson2">Not bad. Now let’s see if you can handle some real-life situations.</statement>
+		<statement event="say_use_scooter">Use that scooter there to patrol the mall for trouble. I’ll be right behind you to make sure you don’t mess up too bad.</statement>
+		<statement event="watch_next_room">Nice work. Now head down the hall to the right.</statement>
+		<statement event="watch_lesson3">I've set up some training robots to practice with.</statement>
+		<statement event="watch_fallOffScooter">You’ll have to learn to drive that thing if you want the job!</statement>
+		<statement event="watch_getThief">Catch that thief!</statement>
+		<statement event="nightwatch_gotJob">Well, you've made quite a mess, but I guess you've got the job. Good luck and stay off the energy drinks.</statement>
+		<statement event="watch_goto_security">I'll clean up this mess before I leave. Head back to the security office to start your shift.</statement>
+    </character>
+    <character id="char5">
+		<statement event="watch_hiefTookCard">I'm going to sell this for millions!</statement>
+		<statement event="watch_meddling">I would have gotten away with it if not for this meddling security guard!</statement>
+    </character>
+    <character id="char6">
+		<statement event="watch_CaughtThief_callCops">I called the real cops! They'll take it from here!</statement>
+		<statement event="watch_startBonus">Nice work, but don't put your guard down yet. You never know what might go wrong.</statement>
+    	<statement event="watch_bonus2">We know. We took care of it. The burglar is in handcuffs.</statement>
+ 		<statement event="watch_bonus4">The Loitering Teen bot is mischievous, but he’s not destructive. My guess is that all those cards are scattered around the mall.</statement>
+    </character>
+    <character id="char7">
+		<statement event="watch_caughtCardThief">His plan was to replace my most valuable card with a copy and hope I never noticed! But you caught him just in time!</statement>
+    	<statement event="watch_finale">I can't give you my card, but here's a token of my appreciation!</statement>
+    	<statement event="watch_bonus1">There’s been a robbery!</statement>
+    	<statement event="watch_bonus3">Not that. That robot went hay-wire and stole my collectible trading cards featuring the greatest Canadian athletes of the 1960s!</statement>
+    	<statement event="watch_bonus5">Someone’s got to find them. It’s the complete set!</statement>
+    	<statement event="watch_bonus6">Your shift doesn’t end for another two hours! Find those cards and bring them back to Slugger’s!</statement>
+    </character>
+    <character id="char8">
+		<statement event="watch_cuffThief">You'll have plenty of time to think about your crime in the slammer.</statement>
+    </character>
+</dialogs>

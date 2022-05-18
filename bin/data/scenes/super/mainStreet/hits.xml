@@ -1,0 +1,72 @@
+<hits>
+	<!--  no sound for blimp basket  -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x97D3D6</splashColor1>
+			<splashColor2>0xC1EAEA</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="waterTower" color="0x8CB8A0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalRoof" color="0xA8B194" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="prisonWindow" color="0x95C1DB" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wallPlatform" color="0x75A5AF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="meteorite" color="0x8AC977" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="prisonSign" color="0xB89D60" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xE0D583" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="lightPost" color="0x24ECC5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trashCan" color="0x9CD0C8" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="billboard" color="0x7BB47F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plasticOverhang" color="0xC7E0C7" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sidewalk" color="0xA89292" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodenLedge" color="0xBDA277" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="telephoneRoof" color="0x74A2D0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dailyPaperOverhang" color="0x6B799A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="paperStand" color="0x759F6A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodenBench" color="0xD7A541" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dailyPaperGlobe" color="0xEED474" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

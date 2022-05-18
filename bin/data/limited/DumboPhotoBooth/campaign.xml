@@ -1,0 +1,14 @@
+<campaign>
+  	<campaignId>DumboPhotoBooth</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths (don't change) -->
+	<clickUrls>
+		<clickUrl id="url1">https://ad.doubleclick.net/ddm/trackclk/N6344.1918853PLAYWIREMEDIA.COM/B21937527.242249748;dc_trk_aid=438953261;dc_trk_cid=99808761;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- *** Must match clickURL in CMS -->
+	</clickUrls>
+	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="PhotoBoothImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N6344.1918853PLAYWIREMEDIA.COM/B21937527.242249748;dc_trk_aid=438953261;dc_trk_cid=99808761;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

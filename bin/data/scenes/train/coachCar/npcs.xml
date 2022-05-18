@@ -1,0 +1,63 @@
+<npcs>
+	<!--  character 1  -->
+	<npc id="ferris" event="setFerrisInCoachCar">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>farmerboy</mouth> 
+			<marks/>
+			<facial>MTferris</facial>
+			<hair>MTferris</hair>
+			<shirt>MTferris</shirt>
+			<pants>MTferris</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>616.75</x>
+			<y>484</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 2  -->
+	<npc id="pinkerton" event="setPinkertonInCoachCar">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x3D2B1F</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>scuba</mouth>
+			<marks/>
+			<facial>mtpinkertonthug</facial>
+			<hair>mtpinkertonthug</hair> 
+			<shirt>mtpinkertonthug</shirt>
+			<pants>wwProspector</pants> 
+			<pack>1</pack>
+			<item></item>
+			<overshirt>mtPinkertonThug</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1454.7</x>
+			<y>484</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

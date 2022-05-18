@@ -1,0 +1,15 @@
+<hotspots>
+	<hotspot id="poster" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="itemClick" type="poster">
+		<action type="openPopup"> <!-- change tracking call -->
+	  		<parameters>
+	  			<param id="swfPath">/ScholasticAdventureWishlist/ScholasticAdventureWishList2014Hint.swf</param> <!-- location of swf in assets/limited -->
+			</parameters>
+		</action>
+		<action type="giveItemMale">2525</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2525</action> <!-- To award an item card to a girl -->		
+	</hotspot>
+</hotspots>
+

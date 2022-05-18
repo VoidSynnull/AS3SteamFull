@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">atlantis_3_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+		<asset loop="true" event="stage_1_active">mid_rumble_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="cave" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="d1" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="d2" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+		<asset id="d3" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+	</sound>
+</sounds>

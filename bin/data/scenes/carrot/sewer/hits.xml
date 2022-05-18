@@ -1,0 +1,37 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="trapPlatform1" color="0x669933" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trapPlatform2" color="0x663366" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trapPlatform3" color="0x6633cc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trapPlatform4" color="0x6699ff" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="pipes" color="0x717A65" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="ratHit">
+		<component type="hazard">
+			<visible>rat</visible>
+			<knockBackVelocity>
+				<x>2500</x>
+				<y>250</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

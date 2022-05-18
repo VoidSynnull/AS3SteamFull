@@ -1,0 +1,56 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 1</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 2</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 3</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 4</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster5">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 5</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster6">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Logo</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="questDoor">
+		<event>startGame</event>
+		<choice>Poster</choice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="ianbarley">
+		<event>EngagedInsideNPC</event>
+		<choice>ianbarley</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="dad">
+		<event>EngagedOutsideNPC</event>
+		<choice>dad</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

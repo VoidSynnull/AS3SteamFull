@@ -1,0 +1,22 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3223.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>PLAY THIS GAME</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Blimp Adventure</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Save the citizens of Poptropica in your mighty blimp!</value>
+		</text>
+	</textfields>
+</item>

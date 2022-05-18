@@ -1,0 +1,201 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/SpongeBobKampKoralQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_GameJellyfish/" ext="xml">
+		<asset>dialog</asset>
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_GameObstacle/" ext="xml">
+		<asset>dialog</asset>
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_Balloons/" ext="xml">
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_Skydive/" ext="xml">
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/SpongeBobKampKoralQuest_StarLink/" ext="xml">
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<assets type="interior" path="assets/scenes/limited/SpongeBobKampKoralQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="game" path="assets/scenes/limited/SpongeBobKampKoralQuest_GameJellyfish/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="game" path="assets/scenes/limited/SpongeBobKampKoralQuest_GameObstacle/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+		<asset>hud</asset>
+	</assets>
+	<assets type="balloons" path="assets/scenes/limited/SpongeBobKampKoralQuest_Balloons/" ext="swf">
+		<asset>balloonBlue</asset>
+		<asset>balloonRed</asset>
+		<asset>interactive</asset>
+	</assets>
+	<assets type="skydive" path="assets/scenes/limited/SpongeBobKampKoralQuest_Skydive/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>backdrop</asset>
+		<asset>parachute</asset>
+		<asset>result</asset>
+		<asset>waiting</asset>
+	</assets>
+	<assets type="starlink" path="assets/scenes/limited/SpongeBobKampKoralQuest_StarLink/" ext="swf">
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/SpongeBobKampKoralQuest/" ext="swf">
+		<asset>krabbs</asset>
+		<asset>patrick</asset>
+		<asset>LoseJellyfish</asset>
+		<asset>StartJellyfish</asset>
+		<asset>WinJellyfish</asset>
+		<asset>LoseObstacle</asset>
+		<asset>StartObstacle</asset>
+		<asset>WinObstacle</asset>
+		<asset>Patty1</asset>
+		<asset>Patty2</asset>
+		<asset>Patty3</asset>
+		<asset>Patty4</asset>
+		<asset>plankton</asset>
+		<asset>spongebob</asset>
+		<asset>squidward</asset>
+		<asset>sandy</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2055</asset>
+		<asset>2056</asset>
+		<asset>2057</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2055</asset>
+		<asset>2056</asset>
+		<asset>2057</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="ability" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+		<asset>sword</asset>
+		<asset>standNinja</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>Bucking_Bronco</asset>
+		<asset>Science_Fair</asset>
+		<asset>prepare_for_liftoff</asset>
+		<asset>poptropicon2_main_theme</asset>
+		<asset>tropical_beach</asset>
+	</assets>
+	<assets type="sounds" path="sound/ambient/" ext="mp3" keep="true">
+		<asset>realms_lunar</asset>
+		<asset>light_wind_01_loop</asset>
+	</assets>
+	<assets type="sounds" path="sound/limited/SpongeBobMovie/" ext="mp3" keep="true">
+		<asset>spongeLaugh</asset>
+	</assets>
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>fs_sand_01</asset>
+		<asset>fs_sand_02</asset>
+		<asset>fs_sand_03</asset>
+		<asset>fs_sand_04</asset>
+		<asset>ls_sand_01</asset>
+		<asset>ls_sand_02</asset>
+		<asset>fs_grass_01</asset>
+		<asset>fs_grass_02</asset>
+		<asset>fs_grass_03</asset>
+		<asset>fs_grass_04</asset>
+		<asset>ls_grass_01</asset>
+		<asset>ls_grass_02</asset>
+		<asset>fs_water_01</asset>
+		<asset>fs_water_02</asset>
+		<asset>fs_water_03</asset>
+		<asset>fs_water_04</asset>
+		<asset>ls_water_splash_01</asset>
+		<asset>ls_water_splash_02</asset>
+		<asset>balloon_bounce_01</asset>
+		<asset>balloon_bounce_02</asset>
+		<asset>rubber_ball_bounce_01</asset>
+		<asset>rubber_ball_bounce_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>fs_swim_water_01</asset>
+		<asset>fs_swim_water_02</asset>
+		<asset>fs_swim_water_03</asset>
+		<asset>whoosh_05</asset>
+		<asset>wing_flap_small_01</asset>
+		<asset>whack_03</asset>
+		<asset>Landing_gravelAndGrass</asset>
+		<asset>alarm_04</asset>
+		<asset>ratchet_crank_short_01</asset>
+		<asset>grab_rope_03</asset>
+		<asset>slide_down_rope_01</asset>
+		<asset>rubber_stretch_01</asset>
+		<asset>rubber_stretch_04</asset>
+		<asset>weapon_electric_zap_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>plankton_jetpack</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>plankton_jetpack</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>pool_noodle</asset>
+		<asset>krabby_patty</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>pool_noodle</asset>
+		<asset>krabby_patty</asset>
+	</assets>
+</manifest>

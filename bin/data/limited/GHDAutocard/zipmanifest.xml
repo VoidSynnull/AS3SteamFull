@@ -1,0 +1,50 @@
+<manifest>
+	<!-- Onward xml files -->
+	<data type="campaign" path="data/limited/GHDAutocard/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2009</asset>
+		<asset>2010</asset>
+		<asset>2011</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	<assets type="support" path="assets/limited/GalacticHotDogsVendorCart/" ext="swf">
+		<asset>iceblock</asset>
+	</assets>
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>1</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>1</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_ghd_megadog</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_ghd_megadog</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_galactic_book1</asset>
+		<asset>limited_galactic_book2</asset>
+		<asset>limited_galactic_book3</asset>
+		<asset>limited_ghd_jupiterjolt</asset>
+		<asset>ad_gh_iceblaster</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_galactic_book1</asset>
+		<asset>limited_galactic_book2</asset>
+		<asset>limited_galactic_book3</asset>
+		<asset>limited_ghd_jupiterjolt</asset>
+		<asset>ad_gh_iceblaster</asset>
+	</assets>
+</manifest>

@@ -1,0 +1,33 @@
+<bundle>
+	<id>survival</id>
+	<name>Survival Pack</name>
+	
+	<cardSets>
+		<cardSet id="shared">
+			<card>3348</card>
+			<card>3347</card>
+			<card>3357</card>
+		</cardSet>
+	</cardSets>
+	
+	<bundleNum>0</bundleNum>
+	
+	<assets>
+  		<asset id="bundleBase">
+			<assetPath>bundles/bundle_base.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+	    		<name>adjustColorFilter</name>
+	    		<enabled>true</enabled>
+	    		<brightness>-59</brightness>
+	   			<contrast>12</contrast>
+	   			<saturation>-42</saturation>
+	   			<hue>-14</hue>
+    		</effect>
+	    </asset>
+	 	<asset id="bundleIcon">
+	    	<assetPath>bundles/survival.swf</assetPath>
+	    </asset> 
+    </assets>
+    
+</bundle>

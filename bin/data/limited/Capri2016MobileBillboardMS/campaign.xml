@@ -1,0 +1,11 @@
+<campaign>
+  	<campaignId>Capri2016MobileBillboardMS</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Capri Sun</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">https://ad.doubleclick.net/ddm/clk/300242057;132388303;p</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<impressionUrls>
+		<impressionUrl id="url1">var1=https://ad.doubleclick.net/ddm/ad/N7954.150739THEFAMILYEDUCATIONNE/B9274907.132388303;sz=1x1;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?&var2=https://tps30.doubleverify.com/visit.jpg?ctx=3171113&cmp=9274907&sid=2385311&plc=132388303&num=&adid=&advid=1135129&adsrv=1&region=30&btreg=&btadsrv=&crt=&crtname=&chnl=&unit=&pid=&uid=&tagtype=&dvtagver=6.1.img</impressionUrl> <!-- Must match click thru URL in CMS -->				
+		 <!-- <impressionUrl id="url2"></impressionUrl> <!-- Must match click thru URL in CMS -->
+	</impressionUrls>
+</campaign>

@@ -1,0 +1,67 @@
+<doors>
+	<door id="exitRight">
+		<scene>game.scenes.zombie.adGroundH27.AdGroundH27</scene>
+		<x>50</x>
+		<y>432</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="brownstoneDoor">
+		<scene>game.scenes.zombie.brownstone.Brownstone</scene>
+		<x>1205</x>
+		<y>325</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="bunkerDoor">
+		<scene>game.scenes.zombie.romerosBunker.RomerosBunker</scene>
+		<x>215</x>
+		<y>454</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="sewerExit">
+		<scene>game.scenes.zombie.sewerDay2.sewerDay2</scene>
+		<x>294</x>
+		<y>364</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exitDown</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="exitLeft">
+		<scene>game.scenes.zombie.chinatown.Chinatown</scene>
+		<x>2738</x>
+		<y>1170</y>
+		<label>
+			<text>GO LEFT</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

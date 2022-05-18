@@ -1,0 +1,30 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>STOP CHEWING</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>CHEW</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeSubTitle">
+			<value>Smiley</value>
+		</text>
+		<text id="storeTitle">
+			<value>POPGUM</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to blow bubbles.</web>
+			<mobile>Tap ACTION to blow bubbles.</mobile>
+		</text>
+	</textfields>
+</item>

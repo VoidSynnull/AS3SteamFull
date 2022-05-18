@@ -1,0 +1,24 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>What's going on?</question>
+				<answer>It's that Dr. Jupiter. He's begging me to send him workers from my rig again. The last ones who went out never came back!</answer>
+			</exchange>
+			<exchange>
+				<question>Can I help?</question>
+				<answer>Maybe. Could you fly out there and take a look? Then report back with what you find.</answer>
+			</exchange>
+			<exchange>
+				<question>You can count on me!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="accepted_ride">I'll have a chopper give you a life. The pilot will meet you outside. Just promise to be careful, and come back right away.</answer>
+			</exchange>
+		</conversation>
+		<statement event="accepted_ride">Promise me you'll be careful</statement>
+		<statement event="no_doctor" link="sigh">For the last time, doctor, we're already working night and day out here. I don't have any manpower to spare!</statement>
+   		<statement id="sigh">Sigh...</statement>
+    </character>
+    <character id="char2">
+    	<statement event="used_radio" triggerEvent="triggerEvent" triggerEventArgs="no_doctor">...won't take more than a day. I'll pay double your usual wages!</statement>
+    </character>
+</dialogs>

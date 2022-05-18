@@ -1,0 +1,68 @@
+﻿<item id="2502">
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Bacon Cheespider Costume Card</name> <!-- Change this card name -->
+  	<campaignID>CloudyMeatballs2DVDQuest</campaignID>
+  	<contentClass>
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>WEAR</label>
+   			<actions>
+				<action type="applyLook" tracking="Use Bacon Cheespider Costume Card"/>
+			</actions>
+  		</btn>
+   		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+	   	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Bacon Cheespider Costume Card">
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+  	<textfields>
+		<text id="limited">
+		  <value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+		  <value>Cloudy with a Chance of Meatballs 2</value>
+		</text>
+		<text id="adtitle">
+		  <value>Bacon Cheespider</value>
+		</text>
+		<text id="ad">
+		  <value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look>
+			<facial>ad_meatball2_burger</facial>
+		</look>
+	</looks> 
+    
+</item>

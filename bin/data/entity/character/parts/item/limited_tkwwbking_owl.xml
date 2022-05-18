@@ -1,0 +1,36 @@
+<part>
+	<id>limited_tkwwbking_owl</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2947</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/TKWWBKingMVU/owl.swf</param>
+			<param id="tracking">TKWWBKingMVU,owl</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="value" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

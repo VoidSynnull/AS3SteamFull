@@ -1,0 +1,54 @@
+<part>
+	<id>limited_spiesdisguise_potion</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2989</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		
+		<disableBroadcast>true</disableBroadcast>		
+		<parameters>
+			<param id="swfPath">limited/SpiesInDisguiseQuest/pigeon.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="triggerable">true</param>
+			<param id="tracking">SpiesInDisguiseQuest,pigeon</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Drink</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" startDelay=".2">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">effects/drinking_01.mp3</param> 
+					</parameters>
+				</action>
+				<action class="SetVisibleAction" startDelay="1">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="visibility" type="boolean">false</param>
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="visibility" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

@@ -1,0 +1,25 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3000</right>
+		<bottom>3000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>3000</right>
+		<bottom>3000</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths prependTypePath="true">scenes/ghd/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<noCharacters>true</noCharacters>
+</scene>

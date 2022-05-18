@@ -1,0 +1,19 @@
+<part>
+	<id>elephant_follower</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">entity/character/foot/elephant_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+	<hide>
+		<part>head</part>
+		<part>mouth</part>
+		<part>eyes</part>
+		<part>body</part>
+	</hide>
+</part>

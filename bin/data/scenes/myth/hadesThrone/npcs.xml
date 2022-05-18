@@ -1,0 +1,34 @@
+<npcs>
+	<npc id="hades">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<mouth>hades</mouth>
+			<marks>hades</marks>
+			<hair>hades</hair>
+			<shirt>hades</shirt>
+			<pants>hades</pants>
+			<pack>hades</pack>
+			<item>hades</item>
+			<overpants>hades</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>835</x>
+			<y>451.3</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+		<scale>.65</scale>
+	</npc>
+	
+	<npc id="hades" event="hasItem_hadesCrown">
+		<skin>
+			<hair>hades2</hair>
+		</skin>
+	</npc>
+</npcs>

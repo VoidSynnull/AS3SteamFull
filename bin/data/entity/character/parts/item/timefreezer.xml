@@ -1,0 +1,16 @@
+<part>
+	<id>timefreezer</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.store.FreezeGame</className>
+		<parameters>
+			<param id="swfPath">overlays/iceframe.swf</param>
+		</parameters>
+	</specialAbility>
+</part>

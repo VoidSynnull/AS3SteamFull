@@ -1,0 +1,23 @@
+<specialAbility id="limited/follower_mlp_pipp">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2074</param>
+		<param id="swfPath">limited/MyLittlePonyQuest/Pipp_Follower.swf</param>
+		<param id="clickableAnimation">true</param>
+		<param id="tracking">MyLittlePonyQuest,Pipp</param>
+		<param id="campaignTracking">MyLittlePonyQuest,Pipp</param>
+	</parameters>
+
+	<actions>
+		<actionChain id="click_actions">
+			<action class="AudioAction" startDelay=".1">
+				<parameters>
+					<param id="target" type="entity">player</param> 
+					<param id="soundUrl" type="string">limited/MLP/magic_chimes.mp3</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

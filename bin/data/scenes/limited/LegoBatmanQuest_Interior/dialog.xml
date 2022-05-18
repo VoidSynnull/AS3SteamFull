@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="barbara">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Batman has another mission. You will have to fill in for him.</statement>
+	</character>
+	<character id="batman">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">I have another mission. You will have to stop The Joker for me.</statement>
+	</character>
+	<character id="robin">
+		<statement>The Joker is trashing Gotham City.</statement>
+	</character>
+</dialogs>

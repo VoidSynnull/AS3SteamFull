@@ -1,0 +1,28 @@
+<item id="3021">
+	<type>island</type>
+	<subType>examples</subType>
+	<buttons>
+		<btn>
+				<label>PRINT</label>
+				<actions>
+				<action type="openPopup">
+						<parameters>
+							<param id="className"></param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+					<value>Portrait Printer</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<value>Design, pose, and print a portrait of your character!</value>
+		</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+</item>

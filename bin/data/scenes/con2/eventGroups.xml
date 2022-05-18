@@ -1,0 +1,13 @@
+<groups>
+	<group event="pre_cosplay">
+		<and>
+			<event type="archer_cosplay_started" not="true"/>
+		</and>
+	</group>
+	<group event="cosplay_on">
+		<and>
+			<event type="archer_cosplay_started"/>
+			<event type="exhibit_open" not="true"/>
+		</and>
+	</group>
+</groups>

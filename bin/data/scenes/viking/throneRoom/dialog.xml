@@ -1,0 +1,40 @@
+<dialogs>
+	<character id="thorlak">
+		<statement id="grumble">Where is that servant with my drink? I'm parched!</statement>	
+    	<statement id="thanks">About time, lad.</statement>
+    	<statement id="wasntMe" link="soItWasYou" linkEntityId="erik">Me? But the servant just--</statement>
+		<statement id="noJudgement" link="scoundrel" linkEntityId="erik">You said no judgment!</statement>
+    </character>
+	<character id="erik">
+		<statement id="listen" link="closeEyes" >Listen. I know someone stole my goblet. No judgment -- I just want it back.</statement>	
+		<statement id="closeEyes" triggerEvent="triggerEvent" triggerEventArgs="turn_blind_eye">So I'm going to close my eyes and count to 10, and whoever has my goblet can just put it down.</statement>
+		<statement id="noOne" link="closeEyes" >No one? Okay, we'll try this one more time.</statement>
+		<statement id="done">10. I hope the guilty party did the sensible thing and returned my goblet.</statement>
+		
+		<statement id="betrayMe" link="wasntMe" linkEntityId="thorlak">Thorlak! How could you betray me like this?</statement>
+		<statement id="soItWasYou" triggerEvent="triggerEvent" triggerEventArgs="stagger_response">Silence! How can you have the gall to hold it right in front of my face?</statement>
+		<statement id="scoundrel" triggerEvent="triggerEvent" triggerEventArgs="flip_a_lid">I know what I said, you scoundrel! Get out of my sight!</statement>
+		
+		<statement id="thorlak_framed">How could my most trusted man steal from me? FROM ME?!</statement>
+    </character>
+    
+    <character id="underling_3">
+    	<statement id="grumble">He's always like this when he misplaces his things.</statement>
+    	<statement id="thanks">Erik is known for his fierce, unforgiving temper.</statement>
+    	<statement id="not_that_one">I wouldn't be holding that if I were you.</statement>
+    </character>
+    <character id="underling_2">
+    	<statement id="grumble">You don't suppose it could be outside the fortress?</statement>
+    	<statement id="thanks">Good lad, this tasty beverage should help my parched throat.</statement>
+    	<statement id="not_that_one">This cough is killing me, but I think I'd prefer to keep my head.</statement>
+    </character>
+    <character id="underling_1">
+    	<statement id="grumble">I h-h-hope he doesn't think I di-di-did it...</statement>
+    	<statement id="thanks">Thanks, this should help calm my nerves.</statement>
+    	<statement id="not_that_one">Th-th-that.. Erik mustn't see you with that!</statement>
+    </character>
+  
+   <character id="player">
+   		<statement id="dont_get_caught">I don't want to be the one caught with this, but maybe I can find a way to sneak it to someone else.</statement>
+   </character>
+</dialogs>

@@ -1,0 +1,24 @@
+<dialogs>
+  <character id="carson">
+    <statement id="suit_up">Ok, Kirk go ahead and suit up.</statement>
+    <statement id="marvelous" link="demeaning" linkEntityId="kirk">You look marvelous.</statement>
+    <statement id="sigh" link="need_coffee" linkEntityId="player">Sigh.</statement>
+    <statement id="had_it" link="go">I've had it up to here with his primadonna hijinks! You think you're up for the role of a lifetime?</statement>
+    <statement id="go" link="now" linkEntityId="player">Go ahead and try on that suit.</statement>
+    <statement event="activate_costume">Go ahead and try on that suit.</statement>
+    <statement event="in_costume" triggerEvent="triggerEvent" triggerEventArgs="ready_to_destroy_city">Now jump up on that stage. Time is money in this business.</statement>
+    <statement event="complete_all_stages">Great! All the scenes are shot! Now meet me over at post-production!</statement>
+    <statement event="go_to_stage3">Almost Done! Head on over to sound stage 3 to shoot the last scene!</statement>
+    <statement event="go_to_stage2">Almost Done! Head on over to sound stage 2 to shoot the last scene!</statement>
+  </character>
+  
+  <character id="kirk">
+    <statement id="monkey_suit" link="marvelous" linkEntityId="carson">A monkey suit?</statement>
+    <statement id="demeaning" triggerEvent="triggerEvent" triggerEventArgs="kirk_quits">It's demeaning! I won't do it!</statement>
+  </character>
+  
+  <character id="player">
+    <statement id="need_coffee" link="had_it" linkEntityId="carson">Does he need another coffee?</statement>
+    <statement id="now" triggerEvent="triggerEvent" triggerEventArgs="offered_part_stage_4, true">Sure.</statement>
+  </character>
+</dialogs>

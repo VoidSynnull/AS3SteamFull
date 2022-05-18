@@ -1,0 +1,258 @@
+<groups>
+
+<!--  
+	Item Numbers	
+		timesNum = 330;
+		lemondeNum = 331;
+		porterOutfitNum = 332;
+		suffrageNum = 333;
+		ticketNum = 334;
+		keyNum = 335;
+		grainyNum = 336;
+		lockPickNum = 337;
+		transformerSketchNum = 338;
+		telegramNum = 339;
+		pencilNum = 340;
+		scissorsNum = 341;
+		portersNotepadNum = 342;
+		transformerNum = 343;
+		teslasSketchNum = 344;
+		medalNum = 1021;
+ -->
+ 
+ 	<group event="metEveryone">
+ 		<and>
+ 			<event type="metAnthony"/>
+ 			<event type="metEiffel"/>
+ 			<event type="metFerris"/>
+ 			<event type="metLeMonde"/>
+ 			<event type="metNyTimes"/>
+ 			<event type="metTesla"/>
+ 			<event type="metTwain"/>
+ 			<event type="metWeisz"/>
+ 		</and>
+ 	</group>
+ 
+ 
+	<!--  Pinkerton Thug placement  --> 
+	<group event="setPinkertonAsleep">
+		<and>
+			<event type="gotItem_clueTransformer"/>
+			<event not="true" type="setPinkertonAside"/> 
+		</and>
+	</group>
+	<group event="setPinkertonAside">
+		<and>
+			<event type="talkedToCleveland"/>
+		</and>
+	</group>
+	
+	<!--<group event="setPinkertonInLuggageCar"></group> -->
+	<group event="setPinkertonInCoachCar">
+		<and>
+			<event type="caughtTesla"/>
+			<event not="true" type="gotItem_sketchOfTeslasCabin"/>
+		</and>
+	</group>
+	
+	<!--  Gustave Eiffel placement  -->
+	<!--  <group event="setEiffelInVipCar1"></group>
+	-->	
+	
+	
+	<!--  Conductor placement  -->
+	<!-- <group event="setConductorInCoalCar"></group>
+	<group event="setConductorAtTrainStop"></group>
+	-->
+	
+	
+	<!--  LeMonde Reporter placement  -->
+	<group event="setLeMondeInCabin">
+		<and>
+			<event not="true" type="setLeMondeInLuggageCar"/>
+		</and>
+	</group>
+	
+	<!-- no idea what triggers this... -->
+	<group event="setLeMondeInLuggageCar">
+		<and>
+			<event type="investigatedCoal"/>
+			<event type="investigatedJuice"/>
+		</and>
+	</group>
+	<!-- <group event="setLeMondeMidwayRight"></group>
+	<group event="setLeMondeMidwayLeft"></group>
+	<group event="setLeMondeAtFerrisWheel"></group>
+	-->
+	
+	
+	<!--  Grover Cleveland placement  -->
+	<!-- <group event="setClevelandInCabin"></group>
+	<group event="setClevelandAtFerrisWheel"></group>
+	-->
+	
+	<!--  Thomas Edison placement  -->
+	<!-- <group event="setEdisonInCabin"></group>
+	-->
+	
+	<!--  Mark Twain placement  -->
+	<!-- <group event="setTwainInCabin"></group>
+	-->
+	
+	<!--  Weisz placement  -->
+	<!-- <group event="setWeiszInCabin"></group>
+	<group event="setWeiszOnRooftop"></group>
+	<group event="setWeiszInFreightCar"></group>
+	<group event="setWeiszAtFerrisWheel"></group>
+	-->
+	
+	<!--  Porter placement  -->
+	<group event="setPorterInDiningCar">
+		<and>
+			<event not="true" type="setPorterInVipCar2"/>
+			<!-- <event not="true" type="gotItem_portersNotepad"/>
+			<event event="caughtTesla"/>  -->
+		</and>
+	</group>
+	
+	<group event="setPorterInVipCar2">
+		<and>
+			<event type="gotItem_cluePortersNotepad"/>
+			<event not="true" type="caughtTesla"/>
+		</and>
+	</group>
+	<!--<group event="setPorterInLuggageCar"></group>
+	-->
+	
+	<!--  NY Times Reporter placement  -->
+	<!-- <group event="setNYTimesInVipCar2"></group>
+	<group event="setNYTimesInEdisonCabin"></group>
+	<group event="setNYTimesAtTrainStop"></group>
+	-->
+	
+	<!--  Gale Ferris placement  -->
+	<group event="setFerrisInCoachCar">
+		<and>
+			<event not="true" type="setFerrisInLuggageCar"/>
+		</and>
+	</group>
+	<!-- 
+	<group event="setFerrisAtTrainStop"></group> -->
+	<group event="setFerrisInLuggageCar">
+		<and>
+			<event type="talkedToCleveland"/>
+		</and>
+	</group>
+	<!-- <group event="setFerrisAtFerrisWheel"></group>
+	-->
+	
+	<!--  Susan B Anthony placement  --> 
+	<group event="setAnthonyInDiningCar">
+		<and>
+			<event type="gotItem_cluePruneJuice"/>
+		</and>
+	</group>
+	
+	<group event="setAnthonyInCabin">
+		<and>
+			<event not="true" type="setAnthonyInDiningCar"/>
+		</and>
+	</group> 
+	
+	
+	<!--  Nicola Tesla placement  -->
+
+	<!--<group event="setTeslaOutsideCabin">	</group>-->
+	<!-- investigation starts -->
+	<!--<group event="setTeslaInsideCabin">  </group>-->
+	<!-- dress-up as porter -->
+	<!--<group event="setTeslaInCabin">  </group>-->
+	<!-- caughtTesla -->
+	<!--<group event="setTeslaInCoalCar">  </group>-->
+
+	
+	
+	
+	<!--  Tesla quests  -->
+	<group event="setTeslaOutsideCabin">
+		<and>
+			<event not="true" type="setTeslaInsideCabin"/>
+		</and>
+	</group>
+	
+	<group event="setTeslaInsideCabin">
+		<and>
+			<event type="startedInvestigation"/>
+			<event not="true" type="caughtTesla"/>
+		</and>
+	</group>
+	
+	<group event="teslaLetsYouInCabin">
+		<and>
+			<event type="gotItem_porterOutfit"/>
+			<!--  <event type="facialFrame = mtPorter"/>  -->
+		</and>
+	</group>
+	
+	<group event="teslaInChains" triggerAndSave="true">
+		<and>
+			<event not="true" type="gotItem_transformerSketch"/>
+			<event type="caughtTesla"/>
+		</and>
+	</group>
+	
+	<group event="teslaBeforeSendsYouToRoom">
+		<and>
+			<event type="teslaInChains"/>
+		 	<event not="true" type="gotItem_sketchOfTeslasCabin"/>
+		</and>
+	</group>
+	
+	<group event="teslaGivesYouSketch">
+		<and>
+			<event type="askedForPencil"/>
+			<event type="gotItem_pencil"/>
+		</and>
+	</group>
+	
+	<group event="teslaSendsYouToRoom">
+		<and>
+			<event type="gotItem_sketchOfTeslasCabin"/>
+			<event not="true" type="checkedTeslaCabin"/>
+		</and>
+	</group>
+	
+	<group event="teslaAfterSendsYouToRoom">
+		<and>
+			<event type="checkedTeslaCabin"/>
+			<event type="gotItem_sketchOfTeslasCabin"/>
+			<event not="true" type="teslaFindDiff"/>
+		</and>
+	</group>
+	
+	<group event="teslaOpenBriefcase">
+		<and>
+			<event type="teslaFindDiff"/>
+			<event not="true" type="briefcaseChat"/>
+		</and>
+	</group>
+	
+	
+	<!--   Clue id="1" name="DeviceStolen" displayName="motion capture device stolen" graphic="device"  		 -->
+	<!--   Clue id="2" name="TeslaCabin" displayName="Nikola Tesla hiding in cabin" graphic="tesla"      		-->
+	<!--   Clue id="3" name="Twain" displayName="Mark Twain's secret compartment" graphic="twain"       		 -->
+	<!--   Clue id="4" name="PruneJuice" displayName="prune juice stains" graphic="prunejuice"          		 -->
+	<!--   Clue id="5" name="CoalSmudges" displayName="coal smudges" graphic="coalsmudges"						 -->
+	<!--   Clue id="6" name="Snack" displayName="coal man left for a snack" graphic="snack" 		 			 -->
+	<!--   Clue id="7" name="TeslaPrune" displayName="Nikola Tesla ordered prune juice" graphic="tesla" 		 -->
+	<!--   Clue id="8" name="GrainyPicture" displayName="grainy picture" graphic="grainypic"   					 -->
+	<!--   Clue id="9" name="Briefcase" displayName="open briefcase" graphic="briefcase"    					 -->
+	<!--   Clue id="10" name="Weisz" displayName="Erik Weisz's odd behavior" graphic="weisz" 					 -->
+	<!--   Clue id="11" name="TimesArticle" displayName="NY Times article" graphic="nytimes"   					 -->
+	<!--   Clue id="12" name="Tesla" displayName="Nikola Tesla is hiding something" graphic="tesla" 			 -->
+	<!--   Clue id="13" name="Transformer" displayName="transformer" graphic="transformer"						 -->
+	<!--   Clue id="14" name="Silhouette" displayName="mysterious fellow in the last car" graphic="silhouette" 	 -->
+	<!--   Clue id="15" name="Trunk" displayName="French items in trunk" graphic="trunk"						 -->
+	<!--   Clue id="16" name="PinkertonBlock" displayName="Pinkerton blocking the way" graphic="pinkerton"		 -->
+
+</groups>

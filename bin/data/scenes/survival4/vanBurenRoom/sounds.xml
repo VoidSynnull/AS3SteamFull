@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_4_Main_Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>unlocked_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="hardFloor1Alert">wood_creak_03.mp3</asset>
+		<asset id="hardFloor2Alert">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="hardFloor1Safe">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="hardFloor2Safe">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="softPlatform">ls_carpet_wood_01.mp3, ls_carpet_wood_02.mp3</asset>
+		<asset id="bounce">ls_spring_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="hardFloor1Alert">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="hardFloor2Alert">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="hardFloor1Safe">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="hardFloor2Safe">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="softPlatform">fs_carpet_wood_01.mp3, fs_carpet_wood_02.mp3, fs_carpet_wood_03.mp3, fs_carpet_wood_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,49 @@
+<dialogs>
+	<character id="player">
+		<statement id="money" triggerEvent="triggerEvent" triggerEventArgs="betrayal">That's a lot of money... but where did the thief go?</statement>
+		<statement id="not_booted" link="always_knew" linkEntityId="tex">I'm not the Booted Bandit! </statement>
+		<statement id="framed" link="save_it" linkEntityId="tex">What? I've been framed!</statement>
+		<statement id="tower">I've got to get up to that tower. There must be something there to help clear my name!</statement>
+		<statement id="no_enter">Hope I never have to go back in there... creepy!</statement>
+    </character>
+	<character id="bandit">
+		<statement id="odds" link="double" triggerEvent="triggerEvent" triggerEventArgs="remove_mask">What are the odds? You're the perfect patsy--</statement>
+		<statement id="double" triggerEvent="triggerEvent" triggerEventArgs="double">--my exact double!</statement>
+		<statement id="enjoy" triggerEvent="triggerEvent" triggerEventArgs="bandit_out">Enjoy your trip. I'll just have to come back for the tower treasure!</statement>
+    </character>
+	<character id="tex">
+		<statement id="fan_out" triggerEvent="triggerEvent" triggerEventArgs="fan_out">Fan out, boys. This chicken won't fly the coop this time.</statement>
+		<statement id="got_you" link="not_booted" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="stand_up">We meet again, Booted Bandit!</statement>
+		<statement id="got_you" link="framed" linkEntityId="player">I always knew you'd come back here.</statement>
+		<statement id="save_it" triggerEvent="triggerEvent" triggerEventArgs="capture">Save it for the warden at Pelican Rock Prison. I'm sure your big friend will be happy to see you there.</statement>
+		<statement id="listen_up" link="gee" linkEntityId="p2">Listen up, you mugs! There was a break from Pelican Rock Prison last night. The Booted Bandit is sure to return to the scene of the crime.</statement>
+		<statement id="score" triggerEvent="triggerEvent" triggerEventArgs="manhunt">Because they hid the score of the lifetime somewhere on this hill! And we're going to nab it first.</statement>
+    </character>
+	<character id="p1">
+		<statement id="stop">Stop right there!</statement>
+    </character>
+	<character id="p2">
+		<statement id="stop">Stop right there!</statement>
+		<statement id="gee" link="score" linkEntityId="tex">Gee, Marshal. Why would they go and do a thing like that?</statement>
+    </character>
+	<character id="p3">
+		<statement id="stop">Stop right there!</statement>
+    </character>
+	<character id="p4">
+		<statement id="stop">Stop right there!</statement>
+    </character>
+	<character id="p5">
+		<statement id="stop">Stop right there!</statement>
+    </character>
+	<character id="p6">
+		<statement id="stop">Stop right there!</statement>
+    </character>
+	<character id="les">
+		<statement id="vamoose" link="now_on" linkEntityId="sal">It's been fun, but time for us to vamoose.</statement>
+		<statement id="seed_money" link="knock_over" linkEntityId="sal">Just need some seed money to get started.</statement>
+    </character>
+	<character id="sal">
+		<statement id="now_on" link="seed_money" linkEntityId="les">We live on the straight and narrow from now on.</statement>
+		<statement id="knock_over" triggerEvent="triggerEvent" triggerEventArgs="sal_les_out">Okay, we knock over the Bay City Bank once, and then no more!</statement>
+    </character>
+</dialogs>

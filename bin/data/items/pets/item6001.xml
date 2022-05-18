@@ -1,0 +1,94 @@
+<item id="6001"> <!-- Change this card ID -->
+  	<type>pets</type>
+	<subType>general</subType>
+	
+     <contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  		<parameters>
+			<param id="pet">true</param>
+		</parameters>
+  	</contentClass>
+
+  	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE PET</label>
+    		<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">EquipPet</param>
+				  		<param id="choice">Puppy</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY PET</label>
+    		<actions>
+				<action type="deactivatePower"/>
+				<action type="track"> <!-- change tracking call -->
+					<parameters>
+				  		<param id="eventtype">UnEquipPet</param>
+				  		<param id="choice">Puppy</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Poptropica Pet</value>
+		</text>
+		<text id="storeTitle">
+			<value>Puppy</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack"/>
+  	</assets>
+   	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+   	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xAAB1B2</skinColor>
+			<mouth>puppy</mouth>
+			<head>puppy</head>
+			<body>puppy</body>
+			<marks>puppy_ears</marks>
+			<tail>puppy</tail>
+			<paw1>puppy</paw1>
+			<paw2>puppy</paw2>
+			<paw3>puppy</paw3>
+			<paw4>puppy</paw4>
+			<calf1>puppy_front</calf1>
+			<calf2>puppy_front</calf2>
+			<calf3>puppy_back</calf3>
+			<calf4>puppy_back</calf4>
+			<thigh1>puppy_front</thigh1>
+			<thigh2>puppy_front</thigh2>
+			<thigh3>puppy_back</thigh3>
+			<thigh4>puppy_back</thigh4>
+			<facial>empty</facial>
+			<hair>empty</hair>
+			<eyes>eyes</eyes>
+			<overbody>empty</overbody>
+		</look>
+	</looks> 
+
+    <specials>
+		<specialAbility>pets/pop_follower_puppy</specialAbility>
+	</specials>
+</item>

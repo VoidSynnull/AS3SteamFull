@@ -1,0 +1,135 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/FrostedFlakes1Quest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/FrostedFlakes1Quest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/FrostedFlakes1Quest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/FrostedFlakes1Quest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/FrostedFlakes1Quest_Game/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/FrostedFlakes1Quest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Tony</asset>
+	</assets>
+
+	<!-- followers -->
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_tony_tiger</asset>
+	</data>
+	<assets type="foot" path="assets/specialAbility/objects/shoes/" ext="swf">
+		<asset>tony_tiger_foot</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2911</asset>
+		<asset>2912</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2911</asset>
+		<asset>2912</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundOrange</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>fun_and_games</asset>
+		<asset>grand_adventure</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>cart_bump_01</asset>
+		<asset>small_pow_05</asset>
+		<asset>sand_bag_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" keep="true" ext="xml">
+		<asset>ppromqueen1</asset>
+		<asset>youngsherpa</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" keep="true" ext="swf">
+		<asset>ppromqueen1</asset>
+		<asset>youngsherpa</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" keep="true" ext="xml">
+		<asset>char13</asset>
+		<asset>char32</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" keep="true" ext="swf">
+		<asset>char13</asset>
+		<asset>char32</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" keep="true" ext="xml">
+		<asset>mthannie</asset>
+		<asset>limited_kyle</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" keep="true" ext="swf">
+		<asset>mthannie</asset>
+		<asset>limited_kyle</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>sponsorfloct2</asset>
+		<asset>sponsornm2guard</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>sponsorfloct2</asset>
+		<asset>sponsornm2guard</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>frosted_flakes</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>frosted_flakes</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>tony_tiger</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>tony_tiger</asset>
+	</assets>
+</manifest>

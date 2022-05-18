@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>billboard</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1995</right>
+		<bottom>1110</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2100</right>
+		<bottom>1075</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml,custom.xml</data>
+	<absoluteFilePaths prependTypePath="true">scenes/ghd/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1880</x>
+			<y>1075</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Factory_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sewers_or_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="rat" triggeredByEvent="rat_squeek" allowOverlap="false">rat_squeks_02_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="pipes">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="baseGround">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		
+		<asset id="platform1">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="platform2">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="platform3">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="platform4">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="pipes">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="baseGround">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		
+		<asset id="platform1">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="platform2">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="platform3">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="platform4">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+	</sound> 
+</sounds>

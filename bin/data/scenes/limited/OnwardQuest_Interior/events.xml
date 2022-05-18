@@ -1,0 +1,91 @@
+<events>
+
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+	
+	<group type="triggered" id="stampede">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">player</param1>
+			<param1 id="target">1555,750</param1>
+			<param1 id="wait">true</param1>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param1 id="npcID">milk1</param1>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param1 id="npcID">milk2</param1>
+		</event>
+		<event>
+			<param1 id="action">show</param1>
+			<param1 id="npcID">milk3</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">milk1</param1>
+			<param1 id="target">750,950</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">milk2</param1>
+			<param1 id="target">750,950</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param1 id="npcID">milk3</param1>
+			<param1 id="target">750,950</param1>
+			<param1 id="wait">true</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">milk1</param1>
+			<param1 id="target">2400,950</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">milk2</param1>
+			<param1 id="target">2300,950</param1>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param1 id="npcID">milk3</param1>
+			<param1 id="target">2200,950</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk1</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk2</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk3</param1>
+		</event>
+	</group>
+	
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk1</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk2</param1>
+		</event>
+		<event>
+			<param1 id="action">hide</param1>
+			<param1 id="npcID">milk3</param1>
+		</event>
+	</group>
+</events>

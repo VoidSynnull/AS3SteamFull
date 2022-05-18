@@ -1,0 +1,21 @@
+<sounds>
+	<sound type="music">
+		<asset>Poptropolis_Main_Theme_Full.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_metal_01.mp3,fs_metal_02.mp3,fs_metal_03.mp3,fs_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="pickGreenAngleSFX">whoosh_06.mp3</asset>
+		<asset triggeredByEvent="pickYellowAngleSFX">selection_03.mp3</asset>
+		<asset triggeredByEvent="pickGreenPowerSFX">selection_02.mp3</asset>
+		<asset triggeredByEvent="pickYellowPowerSFX">selection_01.mp3</asset>
+		<asset triggeredByEvent="throwJavelinSFX">whoosh_07.mp3</asset>
+		<asset triggeredByEvent="notPickedSFX">fall_on_ground_01.mp3</asset>
+		<asset triggeredByEvent="javelinLandedSFX">blunt_hit_03.mp3</asset> <!-- blunt_hit_03.mp3 -->
+		<asset triggeredByEvent="beatScoreSFX">achievement_01.mp3</asset>
+	</sound>
+</sounds>

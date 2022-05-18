@@ -1,0 +1,15 @@
+<part>
+	<id>ad_legomovie_batman</id>
+	<type>item</type>
+	<campaignID>2545</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThoughtBubble</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/LegoMovieJune2014IC/LegoMovie_ThoughtBubble.swf</param>
+		</parameters>
+		</specialAbility>	
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

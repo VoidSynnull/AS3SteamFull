@@ -1,0 +1,94 @@
+<npcs>
+	 <!--  character 1  -->
+	<npc id="crusher" event="setBoss5">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBD6840</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner3</mouth>
+			<marks>shadowScar</marks>
+			<facial>1</facial>
+			<hair>prisoner3</hair>
+			<shirt>prisoner1</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1168.25</x>
+			<y>1643.75</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 2  -->
+	<npc id="policewoman">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x742F0E</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>10</mouth>
+			<marks/>
+			<facial>policeman</facial>
+			<hair>39</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>297.1</x>
+			<y>2115</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	 <!--  character 3  -->
+	<npc id="policeman">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xCA8C4F</skinColor>
+			<hairColor>0x55402D</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>rat</mouth>
+			<marks>mustache2</marks>
+			<facial>policeman</facial>
+			<hair>44</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>487.1</x>
+			<y>2115</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

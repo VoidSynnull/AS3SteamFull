@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Mt_Everest.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="events">
+		<asset triggeredByEvent="icicle_fall">icicle_01.mp3</asset>
+		<asset triggeredByEvent="icicle_hit">icicle_fall_hit_01.mp3</asset>
+		<asset triggeredByEvent="sliding">ls_snow_slide_01.mp3, ls_snow_slide_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">rope_strain_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="ice">ls_snow_01.mp3, ls_snow_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="ice">fs_snow_01.mp3, fs_snow_02.mp3, fs_snow_03.mp3, fs_snow_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,28 @@
+<doors>
+	<door id="blastDoor">
+		<scene>game.scenes.villain.binaryBard1.BinaryBard1</scene>
+		<x>4393</x>
+		<y>467</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+		<door id="finalDoor">
+		<scene>game.scenes.villain.binaryBard3.BinaryBard3</scene>
+		<x>441</x>
+		<y>495</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

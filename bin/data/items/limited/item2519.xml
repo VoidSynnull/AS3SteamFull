@@ -1,0 +1,65 @@
+﻿<item id="2519"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Tinker Bell Water Power Card</name> <!-- Change this card name -->
+  	<campaignID>PirateFairyQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="openPopup" tracking="Use Tinker Bell Water Power Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="className">game.scenes.custom.CardAnimPower</param>
+	  					<param id="swfPath">PirateFairyQuest/WaterPower.swf</param> <!-- location of swf in assets/limited -->
+
+	  					<param id="alignDirection">false</param> <!-- optional set offset according to avatar direction -->
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Tinker Bell Water Power Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value></value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value></value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+			<y>-145</y>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<value></value>
+			<y>66</y>
+		</text>
+		<text id="copyright">
+			<value>©2014 Disney</value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundTeal.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2519.swf -->
+  	</assets>
+  	
+</item>

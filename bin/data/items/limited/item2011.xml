@@ -1,0 +1,77 @@
+<item id="2011"> <!-- Change this card ID -->
+	<type>custom</type>
+	<subType>general</subType>
+	<name>GHD IceBlaster</name> <!-- *** Change this card name -->
+  	<campaignID>GHDAutocard</campaignID> <!-- *** Change this CMS name -->
+	
+	<contentClass> <!-- This displays avatar -->
+			<className>game.ui.card.CharacterContentView</className>
+			<y>-10</y>
+			<parameters>
+				<param id="scale">0.2</param>
+				<param id="forceScale">true</param>
+			</parameters>
+		</contentClass>
+		
+		<buttons>
+			<btn>
+				<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="applyLook" /> <!-- change tracking call -->
+			</actions>
+			</btn>
+			<btn>
+				<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+				<label>PUT AWAY</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+			<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+		</buttons>
+	
+		<textfields>
+		<text id="limited">
+				<value>FOR A LIMITED TIME ONLY</value>
+			</text>
+			<text id="subtitle">
+				<value>Galactic Hot Dogs</value> <!-- Change this subtitle -->
+			</text>
+			<text id="adtitle">
+				<value>Ice Blaster</value> <!-- Change this title -->
+			</text>
+			<text id="ad">
+				<value>ADVERTISEMENT</value>
+			</text>
+			<text id="memberinstructions">
+				<web>Tap space bar to freeze!</web>
+				<mobile>Tap ACTION to freeze!</mobile>
+				<y>60</y>
+			</text>
+		</textfields>
+	
+		<assets>
+		<asset id="cardBack">
+				<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath>
+			</asset>
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+		
+		<looks>
+			<look> <!-- Only list what you want to change -->
+			<item>ad_gh_iceblaster</item>
+		</look>
+	</looks> 
+</item>

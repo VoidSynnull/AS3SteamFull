@@ -1,0 +1,13 @@
+<campaign>
+  	<campaignId>SpongeBobKampKoralIslandBooth</campaignId>
+  	
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">http://doubleclick.net?param=blank</impression>
+		</impressions>
+		<impressions id="DoorClicked"> <!-- For clicking door -->
+			<impression type="standard">http://doubleclick.net?param=blank</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

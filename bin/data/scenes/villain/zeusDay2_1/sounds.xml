@@ -1,0 +1,39 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">eerie_wind.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="climb">
+		<asset id="climb0">ls_chains_01.mp3</asset>
+		<asset id="climb1">ls_chains_01.mp3</asset>
+		<asset id="climb2">ls_chains_01.mp3</asset>
+		<asset id="climb3">ls_chains_01.mp3</asset>
+		<asset id="climb4">ls_chains_01.mp3</asset>
+		<asset id="climb5">ls_chains_01.mp3</asset>
+		<asset id="climb6">ls_chains_01.mp3</asset>
+		<asset id="climb7">ls_chains_01.mp3</asset>
+		<asset id="climb8">ls_chains_01.mp3</asset>
+		<asset id="climb9">ls_chains_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="slide">
+		<asset id="climb0">down_chains_01.mp3</asset>
+		<asset id="climb1">down_chains_01.mp3</asset>
+		<asset id="climb2">down_chains_01.mp3</asset>
+		<asset id="climb3">down_chains_01.mp3</asset>
+		<asset id="climb4">down_chains_01.mp3</asset>
+		<asset id="climb5">down_chains_01.mp3</asset>
+		<asset id="climb6">down_chains_01.mp3</asset>
+		<asset id="climb7">down_chains_01.mp3</asset>
+		<asset id="climb8">down_chains_01.mp3</asset>
+		<asset id="climb9">down_chains_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

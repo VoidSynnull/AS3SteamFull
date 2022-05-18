@@ -1,0 +1,68 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">mythology_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="labyrinthGate" exclusiveType="true" modifiers="position">myth_min_door_open_01.mp3</asset>
+		
+		<asset id="lever0" exclusiveType="true" modifiers="position">myth_pull_lever_01.mp3</asset>
+		<asset id="lever1" exclusiveType="true" modifiers="position">myth_pull_lever_01.mp3</asset>
+		<asset id="lever2" exclusiveType="true" modifiers="position">myth_pull_lever_01.mp3</asset>
+		<asset id="lever3" exclusiveType="true" modifiers="position">myth_pull_lever_01.mp3</asset>
+		
+		<asset id="bridgeTarget0" exclusiveType="true" modifiers="position">myth_push_bridge_01.mp3</asset>
+		<asset id="bridgeTarget1" exclusiveType="true" modifiers="position">myth_push_bridge_01.mp3</asset>
+		
+		<asset id="sphinx" exclusiveType="true" modifiers="position">myth_sphinx_wake_01.mp3</asset>
+		
+		<asset id="wfx" loop="true" exclusiveType="true" modifiers="position">myth_water_fall_01_loop.mp3</asset>
+		
+		<asset id="way0" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way1" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way2" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way3" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way4" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way5" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way6" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way7" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way8" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		<asset id="way9" loop="true" exclusiveType="true" modifiers="position">myth_water_gush_01_loop.mp3</asset>
+		
+		<asset id="fall0" loop="true" exclusiveType="true" modifiers="position">myth_water_flow_01_loop.mp3</asset>
+		<asset id="fall1" loop="true" exclusiveType="true" modifiers="position">myth_water_flow_01_loop.mp3</asset>
+		<asset id="fall2" loop="true" exclusiveType="true" modifiers="position">myth_water_flow_01_loop.mp3</asset>
+		<asset id="fall3" loop="true" exclusiveType="true" modifiers="position">myth_water_flow_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">rope_strain_01.mp3</asset>
+	</sound>	
+	
+	<sound type="effects" action="impact">
+		<asset id="waterHit">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="brick">ls_brick_01.mp3,ls_brick_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="hardGrass">ls_hard_grass_01.mp3,ls_hard_grass_02.mp3</asset>
+		<asset id="rocks">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="climb">ls_rope_01.mp3,ls_rope_02.mp3</asset>
+		<asset id="bridgePath0">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="bridgePath1">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="waterHit">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="brick">fs_brick_01.mp3,fs_brick_02.mp3,fs_brick_03.mp3,fs_brick_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id="hardGrass">fs_hard_grass_01.mp3,fs_hard_grass_02.mp3,fs_hard_grass_03.mp3,fs_hard_grass_04.mp3</asset>
+		<asset id="rocks">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="climb">slide_down_rope_01.mp3</asset>
+		<asset id="bridgePath0" baseVolume="2">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="bridgePath1" baseVolume="2">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

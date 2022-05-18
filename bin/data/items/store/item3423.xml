@@ -1,0 +1,40 @@
+<item id="3423">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Reporter</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+				<mouth>thinking</mouth><!-- 71 -->
+			 <facial>bl_pap01</facial>
+			 <shirt>mikesmarket</shirt>
+			 <pants>shadycop</pants>
+			 <item>bl_camera</item>
+		</look>
+	</looks> 
+
+</item>

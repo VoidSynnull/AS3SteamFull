@@ -1,0 +1,13 @@
+<part>
+	<id>store_scidoctor</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="store_scidoctor">
+		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+	</specialAbility>
+</part>

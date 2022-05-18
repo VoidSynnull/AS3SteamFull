@@ -1,0 +1,18 @@
+<island>
+	<name>Snagglemast</name>
+	<island>tutorial</island>
+	<gameVersion>AS3</gameVersion>
+	<islandFolder>scenes/map/map/islands/tutorial/</islandFolder>
+	<numEpisodes>0</numEpisodes>
+	<showProgress>false</showProgress>
+	
+	<notification>Learn to play!</notification>
+	
+	<pages>
+		<page class="game.scenes.map.map.groups.GenericPage">
+			<properties>
+				<pageFolder>island/</pageFolder>
+			</properties>
+		</page>
+	</pages>
+</island>

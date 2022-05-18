@@ -1,0 +1,11 @@
+<specialAbility id="meteor_shower">
+	<className>game.data.specialAbility.store.MeteorShower</className>
+	<triggerable>false</triggerable>
+	<parameters>
+		<param id="sceneW">1400</param>
+		<param id="sceneH">300</param>
+		<param id="assetPath">items/examples/meteorite.swf</param>
+		<param id="assetPath2">items/examples/explosion_rock.swf</param>
+		<param id="assetPath3">items/examples/explosion_smoke.swf</param>
+	</parameters>
+</specialAbility>

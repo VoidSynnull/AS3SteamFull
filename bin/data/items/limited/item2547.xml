@@ -1,0 +1,61 @@
+﻿<item id="2547"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Animacation Power</name> <!-- Change this card name -->
+  	<campaignID>DisneyDXDAnimacationWK3Quest</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="activatePower" tracking="Use Animication Power Card">
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Animication Power Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Disney XD Animacation</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Animacation Power</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2533.swf -->
+  	</assets>
+	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+  	
+  	<specials>
+		<specialAbility>limited/tint_all_characters</specialAbility>	
+	</specials>  	
+</item>

@@ -1,0 +1,30 @@
+<part convertAllTimelines="true">
+  <id>hypnotized</id>
+  <asset>hypnotized</asset>
+  <type>eyes</type>
+  <retrieveColors>
+	<part id="skinColor"/>
+  </retrieveColors>
+  <colors>
+	  <color id="skinColor"/>
+	  <color id="eyeBallColor">0xFFFFFF</color>
+	  <color id="pupilColor">0x000000</color> <!-- For some reason setting color of the pupil beaks the animation on the right eye? -->
+	  <!-- <color id="lashColor">0x000000</color> -->
+  </colors>
+  <colorables>
+	  <colorable id="skinColor" darken=".5">
+		  <clip instanceName="content.outlines"/>
+	  </colorable>
+	  <colorable id="eyeBallColor">
+		  <clip instanceName="content.eye_R.eyeball"/>
+		  <clip instanceName="content.eye_L.eyeball"/>
+	  </colorable>
+	  <colorable id="pupilColor">
+		  <clip instanceName="content.eye_R.pupil"/>
+		  <clip instanceName="content.eye_L.pupil"/>
+	  </colorable>
+	  <!-- <colorable id="lashColor">
+		  <clip instanceName="content.lashes"/>
+	  </colorable> -->
+  </colorables>
+</part>

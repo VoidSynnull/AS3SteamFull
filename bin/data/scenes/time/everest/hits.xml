@@ -1,0 +1,22 @@
+<hits>
+	<hit id="metal" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ice" color="0xA8CFFF" platform="true">
+		<component type="platform">
+			<friction>
+				<x>400</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb" color="0xFFFF00">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+</hits>

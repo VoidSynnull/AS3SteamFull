@@ -1,0 +1,94 @@
+<doors>
+  <door id="doorQueequegs2">
+    <scene>game.scenes.backlot.coffeeShopRight.CoffeeShopRight</scene>
+    <x>390</x>
+    <y>472</y>
+    <label>
+      <text>EXIT</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="doorTalentAgency">
+    <scene>game.scenes.backlot.talent.Talent</scene>
+    <x>181</x>
+    <y>434</y>
+    <label>
+      <text>EXIT</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="doorDigitalDreamScapes">
+    <label>
+      <offset>
+        <y>0</y>
+        <x>0</x>
+      </offset>
+      <asset>exit3D</asset>
+      <text>EXIT</text>
+    </label>
+    <y>460</y>
+    <x>2560</x>
+    <scene>game.scenes.backlot.digitalDreamScapes.DigitalDreamScapes</scene>
+  </door>
+  <door id="doorCommonRoom">
+    <scene>game.scenes.backlot.backlotCommon.BacklotCommon</scene>
+    <x>598</x>
+    <y>844</y>
+    <label>
+      <text>EXIT</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="doorQueequegs1">
+    <label>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+      <asset>exit3D</asset>
+      <text>EXIT</text>
+    </label>
+    <y>472</y>
+    <x>1182</x>
+    <scene>game.scenes.backlot.coffeeShopLeft.CoffeeShopLeft</scene>
+  </door>
+  <door id="adExit">
+    <scene>game.scenes.backlot.adGroundH29.AdGroundH29</scene>
+    <x>40</x>
+    <y>470</y>
+    <direction>right</direction>
+    <label>
+      <text>Go Right</text>
+      <type>exitRight</type>
+      <offset>
+        <x>-150</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="toMap">
+    <scene>game.scenes.map.map.Map</scene>
+    <x>0</x>
+    <y>0</y>
+    <label>
+      <text>Exit To Map</text>
+      <asset>exitUp</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+</doors>

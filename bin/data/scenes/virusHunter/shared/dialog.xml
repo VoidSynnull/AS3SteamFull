@@ -1,0 +1,105 @@
+<dialogs>
+	<character id="drLang">
+		<statement id="wave2">Nice work! Looks like you have the basics down. Things get a bit more interesting from here on out.</statement>
+		<statement id="wave3">Wow, most of our test subjects don't get this far...perhaps you've got the right stuff after all?</statement>
+		<statement id="wave4">Impressive! You've exceeded all expectations do far...lets see how you do against the best we've got.</statement>
+		<statement id="wave5">Darn...you know how expensive those things are?! Ah well, it's only money. LOTS of money.</statement>
+		<statement id="instruct0">Welcome to the test chamber! Lets go over the basics.</statement>
+		<statement id="instruct1">Use the mouse cursor to aim.</statement>
+		<statement id="instruct2">Hold the mouse button to move.</statement>
+		<statement id="instruct3">Finally, press the spacebar to fire your weapon.</statement>
+		<statement id="instruct4">I'll be giving you updates on the testing via your ship's radio. Good luck!</statement>
+		<statement id="boss1">Nice work on dealing with those little guys. Let's see how you handle one of the more advanced units.</statement>
+		<statement id="boss2">So far so good! Here's another experimental model. Hope you enjoy it!</statement>
+		<statement id="boss3">This next unit is equipped with a new weapon prototype so keep your guard up!</statement>
+		<statement id="boss4">Alright, looks like you're ready to face off against our most advanced unit. Hope your weapons are fully powered up!</statement>
+    	<statement id="intro">Welcome to the tutorial! I'll take you through the various functions of your ship as we proceed.</statement>
+		<!-- 
+		<statement id="intro2" link="intro3">Click on your ship to access its tools and weapons.</statement>
+		<statement id="intro3" link="intro4">The top weapon is your basic gun capable of damaging enemies.</statement>
+		<statement id="intro4" link="intro5">The left tool fires a Coagulant useful for healing cuts.</statement>
+		<statement id="intro5" link="intro6">The right tool is a shock tool that can be used to trigger nerve endings.</statement>
+		<statement id="intro6">The bottom weapon is your laser scalpel which can cut through obstacles and cause massive damage to enemies.</statement>
+		-->
+		<statement id="fatZone" link="fatZone2">You'll need something sharp to cut through this fat. Click on your ship now to select a new weapon.</statement>
+		<statement id="fatZone2" link="fatZone3">Click on the red laser scalpel to select it.</statement>
+		<statement id="fatZone3">Use the laser scalpel to cut through the three fatty barriers.</statement>
+		<statement id="muscleZone" link="muscleZone2">Nice work! Next, select the Electro-bolt tool on the right side of your ship.</statement>
+		<statement id="muscleZone2">Press space bar to fire a charge. Use it to electrocute the blue nerve endings to make the muscles contract.</statement>
+		<statement id="nerveZone">Excellent! Use the same tool again to make the blue nerves move out of the way.</statement>
+		<statement id="bloodZone" link="bloodZone2">Now select the Coagulant tool on the left side of your ship.</statement>
+		<statement id="bloodZone2">You need to use Coagulant to seal up these cuts and stop the blood flow.</statement>
+		<statement id="fanZone">Your ship has a powerful engine that can move through a strong current like the one caused by this fan.</statement>
+		<statement id="virusZone" link="virusZone2">Warning! Incoming virus attack!</statement>
+		<statement id="virusZone2" link="virusZone3">Your ship's shield will protect you from enemy attacks, but keep an eye on the energy bar!</statement>
+		<statement id="virusZone3">Switch to your gun to destroy the enemy virus.</statement>
+		<statement id="end">Well done! You're a natural!</statement>
+		
+		<statement id="hand_warning" timeOverride="5"><span class="title">Warning!</span><span class="text">Infection imminent in hand region.</span></statement>
+		<statement id="shield_offline" timeOverride="4"><span class="title">Warning!</span><span class="text">Shield offline.</span></statement>
+		<statement id="shock_offline" timeOverride="4"><span class="title">Warning!</span><span class="text">Electrobolt offline.</span></statement>
+		<statement id="scalpel_offline" timeOverride="4"><span class="title">Warning!</span><span class="text">Laser scalpel offline.</span></statement>
+		<statement id="goo_offline" timeOverride="4"><span class="title">Warning!</span><span class="text">Coagulant offline.</span></statement>
+		<statement id="antiGrav_offline" timeOverride="4"><span class="title">Warning!</span><span class="text">Gravity core offline.</span></statement>
+		
+		<statement id="shield_online"><span class="title">Shield online.</span><span class="text">Ship cleared for travel through hazardous environments.</span></statement>
+		<statement id="shock_online"><span class="title">Electrobolt online.</span><span class="text">Click on ship and select Electrobolt to zap nerve endings.</span></statement>
+		<statement id="scalpel_online"><span class="title">Laser scalpel online.</span><span class="text">Click on ship and select Laser Scalpel to cut through blockages.</span></statement>
+		<statement id="goo_online"><span class="title">Coagulant online.</span><span class="text">Click on ship and select Coagulant to seal cuts.</span></statement>
+		<statement id="antiGrav_online"><span class="title">Gravity core online.</span><span class="text">Ship cleared for travel through windy environments.</span></statement>
+		
+		<statement id="virus_attack"><span class="title">Danger!</span><span class="text">Virus attack!</span></statement>
+		<statement id="sample_taken"><span class="title">Virus Contained.</span><span class="text">Sample taken.</span></statement>
+   		<statement id="ship_destroyed"><span class="title">Ship Destroyed.</span><span class="text">Regenerating...</span></statement>
+   		
+   		<statement id="brain_bossInvuln"><span class="title">Caution!</span><span class="text">Virus is invulnerable to standard weapons' fire...</span></statement>
+   		<statement id="brain_bossInvuln3"><span class="text">Scanning... Virus is susceptible to electric shocks...</span></statement>
+   		<statement id="brain_bossInvuln5"><span class="text">Negative. More voltage needed. Look for a nearby circuit...</span></statement>
+    
+    	<statement id="wbc_theft_2" timeOverride="17"><span class="text">Multiple tracking signals.</span><span class="text">Components in various locations.</span></statement>
+    	<!-- <statement id="wbc_theft_4" link="wbc_theft_5">Multiple tracking signals.  Components in various locations.</statement>
+    	<statement id="wbc_theft_5">Multiple tracking signals.  Components in various locations.</statement>
+    	-->
+    	<statement id="arrived_in_throat"><span class="title">Warning!</span><span class="text">Passage too narrow. Pilot to proceed on foot.</span></statement>
+    	
+    	<statement id="sneeze"><span class="title">Warning!</span><span class="text">Sneeze imminent. Assume crash position!</span></statement>
+    	
+    	<statement id="air_currents"><span class="title">Warning!</span><span class="text">Unstable air currents. Unable to proceed without Gravity Core.</span></statement>
+    	
+    	<statement id="stomach_secondary"><span class="text">Anomaly Detected: stomach ulcer.</span></statement>
+    	<statement id="stomach_resolved"><span class="text">Anomaly resolved. Ulcer healed.</span></statement>
+    	
+    	<statement id="hand_secondary"><span class="text">Anomaly Detected: tissue hemorrhage.</span></statement>
+    	<statement id="hand_resolved"><span class="text">Anomaly resolved. Hemorrhage healed.</span></statement>
+    	
+    	<statement id="mouth_secondary"><span class="text">Anomaly Detected: tooth cavity.</span></statement>
+    	<statement id="mouth_resolved"><span class="text">Anomaly resolved. Cavity eradicated.</span></statement>
+    	
+    	<statement id="intestine_secondary"><span class="text">Anomaly Detected: intestinal blockage.</span></statement>
+    	<statement id="intestine_resolved"><span class="text">Anomaly resolved. Blockage removed.</span></statement>
+    	
+    	<statement id="heart_secondary"><span class="text">Anomaly Detected: heart arrhythmia.</span></statement>
+    	<statement id="heart_resolved"><span class="text">Anomaly resolved. Regular heartbeat restored.</span></statement>
+    	
+    	<statement id="arm_secondary"><span class="text">Anomaly Detected: tissue calcification.</span></statement>
+    	<statement id="arm_resolved"><span class="text">Anomaly resolved. Calcification destroyed.</span></statement>
+    	
+    	<statement id="brain_secondary"><span class="text">Anomaly Detected: hemorrhage.</span></statement>
+    	<statement id="brain_resolved"><span class="text">Anomaly resolved. Hemorrhage healed.</span></statement>
+    	
+    	<statement id="heartworm_attack"><span class="title">Danger!</span><span class="text">Heartworm attack!</span></statement>
+    	<statement id="heartworm_contained"><span class="text">Heartworm contained.</span></statement>
+    	<statement id="heartworm_cleared"><span class="text">Worm cleared.</span></statement>
+   </character>
+    
+   <character id="player">
+    	<statement id="missed_chance">This is a breeze! I'll be out of here in no time.</statement>
+    	<statement id="wbc_theft">Ship, where have the white blood cells taken those parts?</statement>
+   		<statement id="wbc_theft_3">Crikey. I've got to recover those parts, or I'm toast!</statement>
+   		
+   		<statement id="say_so">If you say so...</statement>
+   		
+   		<statement id="brain_bossInvuln2">How can I hurt it?</statement>
+   		<statement id="brain_bossInvuln4">Can I hit it with electrobolt?</statement>
+    </character>
+</dialogs>

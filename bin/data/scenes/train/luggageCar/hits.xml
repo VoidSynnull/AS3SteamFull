@@ -1,0 +1,24 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="luggageLg" color="0xB9003D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="luggageSm" color="0x672C6D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodFurniture" color="0xB78900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodWardrobe" color="0x9B7131" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,17 @@
+<part>
+	<id>limited_caprisun_balltrigger</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2758</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.RainAssets</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="particleClass">game.particles.emitter.specialAbility.AssetRain</param>
+			<param id="swfPaths">limited/CapriSun2016EC/baseball.swf,limited/CapriSun2016EC/football.swf,limited/CapriSun2016EC/soccerball.swf,limited/CapriSun2016EC/beachball.swf,limited/CapriSun2016EC/basketball.swf</param>
+			<param id="doRotation">false</param>
+			<param id="duration">7</param>
+			<param id="tracking">CapriSun2016EC,Ball Storm</param>
+		</parameters>
+	</specialAbility>	
+</part>

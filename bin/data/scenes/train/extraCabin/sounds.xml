@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true">train_interior_01_L.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_pushbar_open_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="mattress">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="luggage">ls_leather_01.mp3</asset>
+		<asset id="baseGround">ls_carpet_wood_01.mp3, ls_carpet_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="luggage">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="baseGround">fs_carpet_wood_01.mp3, fs_carpet_wood_02.mp3, fs_carpet_wood_03.mp3, fs_carpet_wood_04.mp3</asset>
+	</sound>
+</sounds>

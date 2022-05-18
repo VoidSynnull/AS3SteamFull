@@ -1,0 +1,25 @@
+<events>
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+			<param1 id="suffix">Jellyfish</param1>
+			<param1 id="folderName">SpongeBobKampKoralQuest</param1>
+		</event>
+	</group>
+	<group type="triggered" id="startGameObstacle">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+			<param1 id="suffix">Obstacle</param1>
+			<param1 id="folderName">SpongeBobKampKoralQuest</param1>
+		</event>
+	</group>
+	<group type="triggered" id="pullLever">
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">lever</param2>
+			<param3 id="startLabelName">startAni</param3>
+		</event>
+	</group>
+</events>

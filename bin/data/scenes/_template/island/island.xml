@@ -1,0 +1,16 @@
+<island>
+	<name>Island Name</name>
+	<eventsClass>game.data.island.IslandEvents</eventsClass>
+	<island></island>
+	
+	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+		<event>started</event>	<!-- Every island should have a permanent 'started' event -->
+		<event></event>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+		<item id=""></item>
+	</itemIdMap>
+</island>

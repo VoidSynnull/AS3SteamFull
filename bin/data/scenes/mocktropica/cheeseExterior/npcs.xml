@@ -1,0 +1,53 @@
+<npcs>
+	<npc id="guard">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfce1c5</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>angry</mouth>
+			<marks>sideburns</marks>
+			<facial>mk_guard</facial>
+			<hair>44</hair>
+			<shirt>securityguard1</shirt>
+			<pants>securityguard1</pants>
+			<overshirt>securityguard1</overshirt>
+			<overpants>securityguard1</overpants>
+			<eyeState>angry</eyeState>
+		</skin>
+		<position>
+			<x>2750</x>
+			<y>1640</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+
+	<npc id="boy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffb280</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>2</mouth>
+			<marks>freckles</marks>
+			<hair>mk_mainstreet_kid01</hair>
+			<shirt>mk_mainstreet_kid01</shirt>
+			<pants>finvendor</pants>
+			<overshirt>mk_mainstreet_kid01</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<ignoreDepth>true</ignoreDepth>
+		<position>
+			<x>700</x>
+			<y>1640</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

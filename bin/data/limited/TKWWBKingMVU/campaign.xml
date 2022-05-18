@@ -1,0 +1,19 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>TKWWBKingMVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">http://www.foxmovies.com/movies/the-kid-who-would-be-king?utm_source=poptropica&utm_medium=paid&utm_content=main&utm_campaign=thekidwhowouldbeking</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	
+	<boycards>
+		<card>2946</card>
+		<card>2947</card>
+	</boycards>
+	<girlcards>
+		<card>2946</card>
+		<card>2947</card>
+	</girlcards>
+</campaign>

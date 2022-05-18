@@ -1,0 +1,26 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="petFloor" color="0xCC6600" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-300</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="rock" color="0x7EB7E4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xC5B870" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0xCC9966" platform="true">
+		<component type="platform"/>
+	</hit>	
+</hits>

@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="mom1">
+	    <statement triggerEvent="triggerEvent" triggerEventArgs="mom1-1">We knew Madison would be a star from the moment she was born. Just look at those cheekbones!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="mom1-1">We knew Madison would be a star from the moment she was born. Just look at those cheekbones!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="mom1-3" triggeredByEvent="mom1-2">We can't go home, sweetie. We sold the house to pay for our bus fare to Hollywood, remember?</statement>
+	</character>
+	<character id="madison">
+		<statement triggeredByEvent="mom1-1" triggerEvent="triggerEvent" triggerEventArgs="mom1-2">Mama, I wanna go home.</statement>
+	</character>
+	<character id="mom2">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="mom2a">My Dakota is so talented. Look, she can cry on cue!</statement>
+		<statement triggeredByEvent="mom2b">See? She's a natural!</statement>
+	</character>
+	<character id="gracie">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="gracie1">You... you're a natural! You've got the look of a star!</statement>
+		<statement triggeredByEvent="gracie2" triggerEvent="triggerEvent" triggerEventArgs="gracie3">Just pay me a thousand dollars for your set-up fee and we'll get started.</statement>
+		<statement triggeredByEvent="gracie4" triggerEvent="triggerEvent" triggerEventArgs="gracie5">Hmm. If it's money you need, I heard Harvey Scoops is looking for help with his gossip rag.</statement>
+		<statement event="backlot_enteredBacklot">I told you, it's a thousand bucks for me to represent you. Unless there's something else I can do for you?</statement>
+		<statement triggeredByEvent="graciejump" triggerEvent="triggerEvent" triggerEventArgs="graciejump1">Lacey Williams, at your service! This talent agency thing was just a safety net. I'll see you at the studio!</statement>
+	</character>
+	<character id="player">
+		<statement triggeredByEvent="gracie1" triggerEvent="triggerEvent" triggerEventArgs="gracie2">Me? A star?</statement>
+		<statement triggeredByEvent="gracie3" triggerEvent="triggerEvent" triggerEventArgs="gracie4">I don't have a thousand dollars!</statement>
+	</character>
+</dialogs>

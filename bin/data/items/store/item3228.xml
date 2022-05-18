@@ -1,0 +1,24 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset>
+			<assetPath>items/store/item3228.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+			<value>Poptropica's 4th Birthday!</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+	</textfields>
+</item>

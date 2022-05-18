@@ -1,0 +1,34 @@
+<events>
+	<group type="init" id="player">
+		<event>
+			<param1 id="action">setPart</param1>
+			<param2 id="partID">item</param2>
+			<param3 id="partValue">limited_natm3_tablet</param3>
+		</event>
+	</group>
+	<group type="dialogStart" id="teddy">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="roar">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">playAnim</param1>
+			<param2 id="animClipName">roar</param2>
+			<param3 id="startLabelName">start</param3>
+			<param4 id="endLabelName">end</param4>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="charID">teddy</param2>
+			<param3 id="sayID">endRoar</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

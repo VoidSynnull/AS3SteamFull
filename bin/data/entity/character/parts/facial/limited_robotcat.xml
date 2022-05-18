@@ -1,0 +1,17 @@
+<part>
+	<id>limited_robotcat</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2919</campaignID>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+		<param id="front">limited_robotcat_foot</param>
+		<param id="back">limited_robotcat_foot</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,90 @@
+<hits>
+	<hit id="concrete" color="0x00ff00" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="barrelRoll" color="0x00CCCC" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="pool" color="0x66FFFF">
+		<component type="water">
+			<splashColor1>0xFF508660</splashColor1>
+			<splashColor2>0x66508660</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="wood" color="0xAC9F92" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="enforcerIgnore" color="0x996699" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="sand" color="0xD1BCA2" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="elevatorButton" color="0x0099FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="magicSandPlat0">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="magicSandPlat1">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="magicSandPlat2">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="post" color="0x66CCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="postDestroyed" color="0xCCFFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

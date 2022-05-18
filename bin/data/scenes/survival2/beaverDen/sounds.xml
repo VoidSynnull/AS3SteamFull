@@ -1,0 +1,86 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Survival_2_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="hit">
+		<asset id="leakTrigger" baseVolume="2">wood_break_01.mp3</asset>
+		<asset id="beaver1" baseVolume="5">whack_03.mp3</asset>
+		<asset id="beaver2" baseVolume="5">whack_03.mp3</asset>
+		<asset id="fox">dog_bark_01.mp3</asset>
+		<asset id="chipmunk">small_creature_squeak_01.mp3</asset>
+		<asset id="flipstone">lift_heavy_object_from_dirt_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="land">
+		<asset id="flipstone">snow_large_impact_01.mp3</asset>
+		
+	</sound>
+	
+	<sound type="effects" action="loop">
+		<asset id="riverfall" loop="true" fade="true" modifiers="position">waterfall.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="repair">
+		<asset id="beaver1" baseVolume="3" modifiers="position">water_splash_06.mp3</asset>
+		<asset id="beaver2" baseVolume="3" modifiers="position">water_splash_06.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="alert">
+		<asset id="beaver1" baseVolume="3" modifiers="position">rodent_small_01.mp3</asset>
+		<asset id="beaver2" baseVolume="3" modifiers="position">rodent_small_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="bubbles">
+		<asset id="hole1" loop="true" modifiers="position">bubbles_03_loop.mp3</asset>
+		<asset id="hole2" loop="true" modifiers="position">bubbles_03_loop.mp3</asset>
+		<asset id="hole3" loop="true" modifiers="position">bubbles_03_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="draining">
+		<asset id="hole1" loop="true" modifiers="position">water_flow_02_loop.mp3</asset>
+		<asset id="hole2" loop="true" modifiers="position">water_flow_02_loop.mp3</asset>
+		<asset id="hole3" loop="true" modifiers="position">water_flow_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="waterHit">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		
+		<asset id="floatingLogHit1" exclusiveType="true">wood_heavy_impact_01.mp3</asset>
+		<asset id="floatingLogHit2" exclusiveType="true">wood_heavy_impact_01.mp3</asset>
+		<asset id="floatingLogHit3" exclusiveType="true">wood_heavy_impact_01.mp3</asset>
+		<asset id="rocks">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		
+		<asset id="bounce1">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce3">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce4">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce5">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		
+		<asset id="logs" exclusiveType="true">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="leakTrigger">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="damFloor">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="snow">ls_crisp_snow_01.mp3, ls_crisp_snow_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="waterHit">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="floatingLogHit1" exclusiveType="true">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="floatingLogHit2" exclusiveType="true">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="floatingLogHit3" exclusiveType="true">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		
+		<asset id="rocks">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="logs">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="leakTrigger">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="damFloor">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="snow">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

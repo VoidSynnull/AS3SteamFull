@@ -1,0 +1,1032 @@
+<sets>
+
+	<tileSet name="decal" type="decal">
+		
+		<clipType name="appliances_fridge" type="16" level="5">
+			<clip>appliances_fridge.swf</clip>
+		</clipType>
+		<clipType name="appliances_microwave" type="17" level="11">
+			<clip>appliances_microwave.swf</clip>
+		</clipType>
+		<clipType name="appliances_washer" type="18" level="6">
+			<clip>appliances_washer.swf</clip>
+		</clipType>
+		<clipType name="decorations_cactus" drawHits="false" type="19" level="13">
+			<clip>decorations_cactus.swf</clip>
+		</clipType>
+		<clipType name="decorations_plant" drawHits="false" type="20" level="7">
+			<clip>decorations_plant.swf</clip>
+		</clipType>
+		<clipType name="electronics_radio" drawHits="false" type="21" level="12">
+			<clip>electronics_radio.swf</clip>
+		</clipType>
+		<clipType name="food_chocolate_cake" drawHits="false" type="22" level="15">
+			<special type="food" bonus="100" />
+			<clip>food_chocolate_cake.swf</clip>
+		</clipType>
+		<clipType name="food_cooler" type="23" level="8">
+			<clip>food_cooler.swf</clip>
+		</clipType>
+		<clipType name="food_cup" drawHits="false" type="24" level="2">
+			<special type="food" bonus="25" />
+			<clip>food_cup.swf</clip>
+		</clipType>
+		<clipType name="food_apple" drawHits="false" type="25" level="4">
+			<special type="food" bonus="25" />
+			<clip>food_apple.swf</clip>
+		</clipType>
+		<clipType name="food_fruit_cake" drawHits="false" type="26" level="5">
+			<special type="food" bonus="50" />
+			<clip>food_fruit_cake.swf</clip>
+		</clipType>
+		<clipType name="food_fruit_tart" drawHits="false" type="27" level="6">
+			<special type="food" bonus="25" />
+			<clip>food_fruit_tart.swf</clip>
+		</clipType>
+		<clipType name="food_grape_juice" drawHits="false" type="28" level="12">
+			<special type="food" bonus="50" />
+			<clip>food_grape_juice.swf</clip>
+		</clipType>
+		<clipType name="food_hamburger" drawHits="false" type="29" level="13">
+			<special type="food" bonus="70" />
+			<clip>food_hamburger.swf</clip>
+		</clipType>
+		<clipType name="food_milk" drawHits="false" type="30" level="3">
+			<special type="food" bonus="40" />
+			<clip>food_milk.swf</clip>
+		</clipType>
+		<clipType name="food_orange" drawHits="false" type="31" level="7">
+			<special type="food" bonus="25" />
+			<clip>food_orange.swf</clip>
+		</clipType>
+		<clipType name="food_plate" drawHits="false" type="32" level="3">
+			<special type="food" bonus="70" />
+			<clip>food_plate.swf</clip>
+		</clipType>
+		<clipType name="food_popcorn" drawHits="false" type="33" level="8">
+			<special type="food" bonus="50" />
+			<clip>food_popcorn.swf</clip>
+		</clipType>
+		<clipType name="food_spaghetti" drawHits="false" type="34" level="4">
+			<special type="food" bonus="70" />
+			<clip>food_spaghetti.swf</clip>
+		</clipType>
+		<clipType name="food_teacup" drawHits="false" type="35" level="11">
+			<special type="food" bonus="25" />
+			<clip>food_teacup.swf</clip>
+		</clipType>
+		<clipType name="furniture_boy_bed" type="36" level="4">
+			<clip>furniture_boy_bed.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0x00ff00</hitFillColor>
+		</clipType>
+		<clipType name="furniture_chair" type="37" level="2">
+			<clip>furniture_chair.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="furniture_night_stand" type="38" level="3">
+			<clip>furniture_night_stand.swf</clip>
+		</clipType>
+		<clipType name="furniture_girl_bed" type="39" level="4">
+			<clip>furniture_girl_bed.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0x00ff00</hitFillColor>
+		</clipType>
+		<clipType name="furniture_shelf" type="40" level="4">
+			<clip>furniture_shelf.swf</clip>
+		</clipType>
+		<clipType name="furniture_table" type="41" level="2">
+			<clip>furniture_table.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="furniture_vanity" type="42" level="5">
+			<clip>furniture_vanity.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0x00ff00</hitFillColor>
+		</clipType>
+		<clipType name="hobbies_anvil" type="43" level="2">
+			<clip>hobbies_anvil.swf</clip>
+		</clipType>
+		<clipType name="hobbies_baseball" drawHits="false" type="44" level="9">
+			<clip>hobbies_baseball.swf</clip>
+		</clipType>
+		<clipType name="hobbies_basketball" drawHits="false" type="45" level="10">
+			<clip>hobbies_basketball.swf</clip>
+		</clipType>
+		<clipType name="hobbies_football" drawHits="false" type="46" level="10">
+			<clip>hobbies_football.swf</clip>
+		</clipType>
+		<clipType name="hobbies_sewing_machine" drawHits="false" type="47" level="10">
+			<clip>hobbies_sewing_machine.swf</clip>
+		</clipType>
+		<clipType name="hobbies_soccerball" drawHits="false" type="48" level="9">
+			<clip>hobbies_soccerball.swf</clip>
+		</clipType>
+		<clipType name="structural_counter" type="49" level="3">
+			<clip>structural_counter.swf</clip>
+		</clipType>
+		<clipType name="interactive_door_closed" type="50" level="3">
+			<special type="swap" id="51" dx="1" sound="door_knob_turn_open_01.mp3"/>
+			<clip>structural_door_side.swf</clip>
+		</clipType>
+		<clipType name="interactive_door_open" type="51" canEdit="false" drawHits="false">
+			<special type="swap" id="50" dx="-1" sound="door_knob_turn_open_01.mp3" />
+			<clip>structural_door.swf</clip>
+		</clipType>
+		<clipType name="structural_window" type="52" level="3">
+			<clip>structural_window.swf</clip>
+		</clipType>
+		
+		<clipType name="decorations_painting_1" type="53" level="6">
+			<clip>decorations_painting_1.swf</clip>
+		</clipType>
+		<clipType name="decorations_painting_2" type="54" level="7">
+			<clip>decorations_painting_2.swf</clip>
+		</clipType>
+		<clipType name="decorations_painting_3" type="55" level="9">
+			<clip>decorations_painting_3.swf</clip>
+		</clipType>
+		<clipType name="decorations_painting_4" type="56" level="9">
+			<clip>decorations_painting_4.swf</clip>
+		</clipType>
+		
+		<clipType name="industrial_cardboard_box" type="58" level="3">
+			<clip>industrial_cardboard_box.swf</clip>
+		</clipType>
+		<clipType name="structural_tub_shower" type="59" level="9">
+			<clip>structural_tub_shower.swf</clip>
+		</clipType>
+		<clipType name="interactive_toilet_closed" type="60" level="5">
+			<special type="swap" id="122" dx="0" sound="bathroom_toilet_flush_02.mp3" />
+			<clip>structural_toilet.swf</clip>
+		</clipType>
+		<clipType name="structural_stove" type="61" level="8">
+			<clip>structural_stove.swf</clip>
+		</clipType>
+		<clipType name="structural_mirror" type="62" level="4">
+			<clip>structural_mirror.swf</clip>
+		</clipType>
+		<clipType name="structural_bath_sink" drawHits="false" type="63" level="7">
+			<clip>structural_bath_sink.swf</clip>
+		</clipType>
+		<clipType name="industrial_safe" type="64" level="12">
+			<clip>industrial_safe.swf</clip>
+		</clipType>
+		<clipType name="industrial_crate" type="65" level="2">
+			<clip>industrial_crate.swf</clip>
+		</clipType>
+		<clipType name="industrial_barrel" type="66" level="2">
+			<clip>industrial_barrel.swf</clip>
+		</clipType>
+		<clipType name="furniture_tv_stand" type="67" level="11">
+			<clip>furniture_tv_stand.swf</clip>
+		</clipType>
+		<clipType name="furniture_sofa" type="68" level="6">
+			<clip>furniture_sofa.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0xaa0000</hitFillColor>
+		</clipType>
+		<clipType name="interactive_foot_locker_closed" type="69" level="7">
+			<special type="swap" id="119" sound="door_light_close_01.mp3" />
+			<clip>furniture_foot_locker.swf</clip>
+		</clipType>
+		<clipType name="furniture_dresser" type="70" level="5">
+			<clip>furniture_dresser.swf</clip>
+		</clipType>
+		<clipType name="furniture_comp_table" type="71" level="4">
+			<clip>furniture_comp_table.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="furniture_closet" type="72" level="5">
+			<clip>furniture_closet.swf</clip>
+		</clipType>
+		<clipType name="furniture_arm_chair" type="73" level="8">
+			<clip>furniture_arm_chair.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0xaa0000</hitFillColor>
+		</clipType>
+		<clipType name="electronics_computer" type="74" level="14">
+			<clip>electronics_computer.swf</clip>
+		</clipType>
+		<clipType name="electronics_big_tv" type="75" level="11">
+			<clip>electronics_big_tv.swf</clip>
+		</clipType>
+		<clipType name="appliances_lamp" drawHits="false" type="76" level="4" light="240">
+			<clip>appliances_lamp.swf</clip>
+		</clipType>
+		<clipType name="structural_sink" drawHits="false" type="77" level="4">
+			<clip>structural_sink.swf</clip>
+		</clipType>
+		
+		<clipType name="structural_fence" drawHits="false" type="78" level="4">
+			<clip>structural_fence.swf</clip>
+		</clipType>
+		<clipType name="structural_pillar" type="79" level="2">
+			<clip>structural_pillar.swf</clip>
+		</clipType>
+		
+		<clipType name="vehicles_bicycle" drawHits="false" type="80" level="12">
+			<clip>vehicles_bicycle.swf</clip>
+		</clipType>
+		<clipType name="vehicles_motorcycle" drawHits="false" type="81" level="13">
+			<clip>vehicles_motorcycle.swf</clip>
+		</clipType>
+		<clipType name="vehicles_side_tire" type="82" level="5">
+			<clip>vehicles_side_tire.swf</clip>
+			<hitFillColor>0xff0000</hitFillColor>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="vehicles_front_tire" type="83" level="5">
+			<clip>vehicles_front_tire.swf</clip>
+			<hitFillColor>0xff0000</hitFillColor>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="appliances_lamp_tall" drawHits="false" type="84" level="10">
+			<clip>appliances_lamp_tall.swf</clip>
+		</clipType>
+		<clipType name="food_icecream" drawHits="false" type="85" level="11">
+			<special type="food" bonus="35" />
+			<clip>food_icecream.swf</clip>
+		</clipType>
+		<clipType name="appliances_hanging_light_2" drawHits="false" type="86" level="5">
+			<clip>appliances_hanging_light_2.swf</clip>
+		</clipType>
+		<clipType name="appliances_hanging_light_1" drawHits="false" type="87" level="6">
+			<clip>appliances_hanging_light_1.swf</clip>
+		</clipType>
+		<clipType name="food_cheese" drawHits="false" type="88" level="4">
+			<special type="food" bonus="35" />
+			<clip>food_cheese.swf</clip>
+		</clipType>
+		<clipType name="structural_fireplace" type="89" level="10">
+			<clip>structural_fireplace.swf</clip>
+		</clipType>
+		<clipType name="electronics_camera" drawHits="false" type="90" level="14">
+			<clip>electronics_camera.swf</clip>
+		</clipType>
+		<clipType name="food_bread" drawHits="false" type="91" level="3">
+			<special type="food" bonus="35" />
+			<clip>food_bread.swf</clip>
+		</clipType>
+		
+		<clipType name="structural_ladder" type="92" level="2">
+			<clip>structural_ladder.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="decorations_arrow_sign" type="93" level="2">
+			<clip>decorations_arrow_sign.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		<clipType name="structural_stone_brick" type="94" level="2">
+			<clip>structural_stone_brick.swf</clip>
+		</clipType>
+		<clipType name="structural_log" type="95" level="2">
+			<clip>structural_log.swf</clip>
+		</clipType>
+		<clipType name="structural_vertical_log" type="96" level="2">
+			<clip>structural_vertical_log.swf</clip>
+		</clipType>
+		<clipType name="structural_shelf" type="97" level="4">
+			<clip>structural_shelf.swf</clip>
+			<hitFillColor>0x000000</hitFillColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<hitCeilingColor>0x000000</hitCeilingColor>
+		</clipType>
+		
+		<clipType name="treasure_1" drawHits="false" type="98" canEdit="false">
+			<special type="swap" id="103" dx="0" bonus="150" />
+			<clip>treasure_1.swf</clip>
+		</clipType>
+		<clipType name="treasure_2" drawHits="false" type="99" canEdit="false">
+			<special type="swap" id="104" dx="0" bonus="80" />
+			<clip>treasure_2.swf</clip>
+		</clipType>
+		<clipType name="treasure_3" drawHits="false" type="100" canEdit="false">
+			<special type="swap" id="105" dx="0" bonus="250"/>
+			<clip>treasure_3.swf</clip>
+		</clipType>
+		<clipType name="treasure_4" drawHits="false" type="101" canEdit="false">
+			<special type="swap" id="106" dx="0" bonus="50" />
+			<clip>treasure_4.swf</clip>
+		</clipType>
+		<clipType name="treasure_5" drawHits="false" type="102" canEdit="false">
+			<special type="swap" id="107" dx="0" bonus="500" />
+			<clip>treasure_5.swf</clip>
+		</clipType>
+		<clipType name="treasure_empty_1" drawHits="false" type="103" canEdit="false">
+			<clip>treasure_empty_1.swf</clip>
+		</clipType>
+		<clipType name="treasure_empty_2" drawHits="false" type="104" canEdit="false">
+			<clip>treasure_empty_2.swf</clip>
+		</clipType>
+		<clipType name="treasure_empty_3" drawHits="false" type="105" canEdit="false">
+			<clip>treasure_empty_3.swf</clip>
+		</clipType>
+		<clipType name="treasure_empty_4" drawHits="false" type="106" canEdit="false">
+			<clip>treasure_empty_4.swf</clip>
+		</clipType>
+		<clipType name="treasure_empty_5" drawHits="false" type="107" canEdit="false">
+			<clip>treasure_empty_5.swf</clip>
+		</clipType>
+		
+		<clipType name="interactive_hatch_closed" type="108" level="6">
+			<special type="swap" id="109" dy="-3" sound="door_squeaky_metal_swing_01.mp3" />
+			<clip>interactive_hatch_closed.swf</clip>
+		</clipType>
+		<clipType name="interactive_hatch_open" type="109" drawHits="false" level="6">
+			<special type="swap" id="108" dy="3" sound="door_squeaky_metal_swing_01.mp3" />
+			<clip>interactive_hatch_open.swf</clip>
+		</clipType>
+		<clipType name="interactive_race_start" type="110" drawHits="false" level="11">
+			<special type="race_start" sound="event_04.mp3" />
+			<clip>interactive_race_start.swf</clip>
+		</clipType>
+		<clipType name="interactive_race_finish" type="111" drawHits="false" level="11">
+			<special type="race_finish" sound="event_04.mp3" />
+			<clip>interactive_race_finish.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapbomb" type="112" level="12">
+			<special type="explode_trap" id="25" dy="2" />
+			<clip>interactive_trapbomb.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapdoor_closed" type="113" level="8">
+			<special type="trap" id="114" dy="0" sound="door_light_close_01.mp3" />
+			<clip>interactive_trapdoor_closed.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapdoor_open" type="114" drawHits="false" canEdit="false">
+			<special type="swap" id="113" dy="0" sound="door_light_close_01.mp3"/>
+			<clip>interactive_trapdoor_open.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapspikes_down" type="115" level="9">
+			<!--<special type="swap" id="116" dy="-1" />-->
+			<special type="trap" id="116" dy="-1" />
+			<clip>interactive_trapspikes_down.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapspikes_up" type="116" canEdit="false">
+			<special type="swap" id="115" dy="1" sound="gears_01.mp3" />
+			<clip>interactive_trapspikes_up.swf</clip>
+			<hitGroundColor>0x668000</hitGroundColor>
+			<hitWallColor>0x668000</hitWallColor>
+		</clipType>
+		<clipType name="interactive_trapspring_down" type="117" level="7">
+			<special type="trap" id="118" dy="-1" />
+			<!--<special type="swap" id="118" dy="-1" />-->
+			<clip>interactive_trapspring_down.swf</clip>
+		</clipType>
+		<clipType name="interactive_trapspring_up" type="118" canEdit="false">
+			<special type="swap" id="117" dy="1" sound="gears_01.mp3" />
+			<clip>interactive_trapspring_up.swf</clip>
+			<hitGroundColor>0xff0000</hitGroundColor>
+			<hitFillColor>0xff0000</hitFillColor>
+		</clipType>
+		<clipType name="interactive_foot_locker_open" type="119" canEdit="false">
+			<special type="swap" id="69" sound="door_light_close_01.mp3" />
+			<clip>furniture_foot_locker_open.swf</clip>
+		</clipType>
+		<clipType name="interactive_cannon" type="120" level="10">
+			<special type="cannon" sound="cannon_shot_01.mp3" />
+			<clip>interactive_cannon.swf</clip>
+			<hitGroundColor>0x000000</hitGroundColor>
+			<hitFillColor>0x00ff00</hitFillColor>
+		</clipType>
+		
+		<clipType name="treasure_100bar" type="121" level="3" unbreakable="true">
+			<special type="swap" id="0" dx="0" refund="true" />
+			<clip>treasure_100bar.swf</clip>
+			<cost>100</cost>
+		</clipType>
+		<clipType name="interactive_toilet_open" type="122" canEdit="false">
+			<special type="swap" id="60" dx="0" sound="bathroom_toilet_flush_02.mp3" />
+			<clip>structural_toilet_open.swf</clip>
+		</clipType>
+		
+		<clipType name="interactive_slidingdoor_closed" type="123" level="5">
+			<special type="swap" id="124" sound="door_hydrolics_open_01.mp3"/>
+			<clip>interactive_slidingdoor_closed.swf</clip>
+		</clipType>
+		<clipType name="interactive_slidingdoor_open" type="124" canEdit="false" drawHits="false">
+			<special type="swap" id="123" sound="door_airlock_close_01.mp3" />
+			<clip>interactive_slidingdoor_open.swf</clip>
+		</clipType>
+
+	</tileSet>
+
+	<tileSet name="building" type="building">
+
+		<material name="Log wall" type="1" level="1">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x50482C</innerLineColor>
+			<outerLineColor>0x2F2B1A</outerLineColor>
+			<viewBitmapFill>log_wall_tile.swf</viewBitmapFill>
+		</material>
+
+		<material name="Log Side wall" type="2" drawBorder="false" level="2">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x50482C</innerLineColor>
+			<outerLineColor>0x2F2B1A</outerLineColor>
+			<viewBitmapFill>logside_wall_tile.swf</viewBitmapFill>
+		</material>
+			
+		<material name="Wood wall" type="3" level="3">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x795835</innerLineColor>
+			<outerLineColor>0x382918</outerLineColor>
+			<viewBitmapFill>wood_wall_tile.swf</viewBitmapFill>
+		</material>
+
+		<material name="Light Wood wall" type="4" level="3">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xC5AC7A</innerLineColor>
+			<outerLineColor>0x67542E</outerLineColor>
+			<viewBitmapFill>lightwood_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Bamboo wall" type="5" level="3">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xD8CC98</innerLineColor>
+			<outerLineColor>0x4D4617</outerLineColor>
+			<viewBitmapFill>bamboo_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Ruins wall" type="6" level="4">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xA8B27E</innerLineColor>
+			<outerLineColor>0x343922</outerLineColor>
+			<viewBitmapFill>ruins_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Pillar wall" type="7" level="4">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xA8B27E</innerLineColor>
+			<outerLineColor>0x343922</outerLineColor>
+			<viewBitmapFill>pillar_wall_tile.swf</viewBitmapFill>
+		</material>
+
+		<material name="Stone wall" type="8" level="4">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xBAB4A6</innerLineColor>
+			<outerLineColor>0x5C574E</outerLineColor>
+			<viewBitmapFill>stone_wall_tile.swf</viewBitmapFill>
+		</material>
+
+		<material name="Red brick wall" type="9" level="4">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x84563F</innerLineColor>
+			<outerLineColor>0x38241B</outerLineColor>
+			<viewBitmapFill>brick_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Ceramic wall" type="10" level="5">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xE8EAE1</innerLineColor>
+			<outerLineColor>0x565E42</outerLineColor>
+			<viewBitmapFill>ceramic_wall_tile.swf</viewBitmapFill>
+		</material>
+		<material name="Metal wall" type="11" level="5">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x75736B</innerLineColor>
+			<outerLineColor>0x393735</outerLineColor>
+			<viewBitmapFill>metal_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Circuitry wall" type="12" level="5">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xF2DC99</innerLineColor>
+			<outerLineColor>0x3E334A</outerLineColor>
+			<viewBitmapFill>circuitry_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Roof wall" type="13" level="6">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xA53F0F</innerLineColor>
+			<outerLineColor>0x592309</outerLineColor>
+			<viewBitmapFill>roof_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Fabric wall" type="14" level="6">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x345FA3</innerLineColor>
+			<outerLineColor>0x203862</outerLineColor>
+			<viewBitmapFill>fabric_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Canvas wall" type="15" level="6">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xE9E0C5</innerLineColor>
+			<outerLineColor>0x8D7B45</outerLineColor>
+			<viewBitmapFill>canvas_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Stick wall" type="16" drawHits="false" drawBorder="false" level="7">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x0</innerLineColor>
+			<outerLineColor>0x0</outerLineColor>
+			<innerLineSize>2</innerLineSize>
+			<outerLineSize>4</outerLineSize>
+			<viewBitmapFill>stick_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Bars wall" type="17" drawHits="false" drawBorder="false" level="7">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xBEBEBE</innerLineColor>
+			<outerLineColor>0x666666</outerLineColor>
+			<innerLineSize>2</innerLineSize>
+			<outerLineSize>4</outerLineSize>
+			<viewBitmapFill>bars_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Lattice wall" type="18" drawHits="false" drawBorder="false" level="7">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x9E5449</innerLineColor>
+			<outerLineColor>0x5F322C</outerLineColor>
+			<innerLineSize>2</innerLineSize>
+			<outerLineSize>4</outerLineSize>
+			<viewBitmapFill>lattice_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Glass wall" type="19" drawHits="false" level="7">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xBACFD6</innerLineColor>
+			<outerLineColor>0x6897A6</outerLineColor>
+			<innerLineSize>1</innerLineSize>
+			<outerLineSize>3</outerLineSize>
+			<viewBitmapFill>glass_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Rope wall" type="20" drawBorder="false" level="8">
+			<hitCeilingColor>0xFFFF00</hitCeilingColor>
+			<hitGroundColor>0xFFFF00</hitGroundColor>
+			<hitWallColor>0xFFFF00</hitWallColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xEAD97B</innerLineColor>
+			<outerLineColor>0x6E5C33</outerLineColor>
+			<innerLineSize>5</innerLineSize>
+			<outerLineSize>8</outerLineSize>
+			<viewBitmapFill>rope_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Barbed wall" type="21" drawBorder="false" level="8">
+			<hitCeilingColor>0x666000</hitCeilingColor>
+			<hitGroundColor>0x666000</hitGroundColor>
+			<hitWallColor>0x666000</hitWallColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x587584</innerLineColor>
+			<outerLineColor>0x3B4D59</outerLineColor>
+			<innerLineSize>4</innerLineSize>
+			<outerLineSize>6</outerLineSize>
+			<viewBitmapFill>barbed_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Spring wall" type="22" level="9">
+			<hitGroundColor>0xff0000</hitGroundColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x4E9A79</innerLineColor>
+			<outerLineColor>0x284F3F</outerLineColor>
+			<viewBitmapFill>spring_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Direction Left wall" type="23" level="9">
+			<hitGroundColor>0x302010</hitGroundColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x535353</innerLineColor>
+			<outerLineColor>0x303030</outerLineColor>
+			<viewBitmapFill>directionleft_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Direction Right wall" type="24" level="9">
+			<hitGroundColor>0x102030</hitGroundColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x535353</innerLineColor>
+			<outerLineColor>0x303030</outerLineColor>
+			<viewBitmapFill>directionright_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="TNT wall" type="25" level="10">
+			<special type="explode" />
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xA30A0A</innerLineColor>
+			<outerLineColor>0x3A0303</outerLineColor>
+			<viewBitmapFill>tnt_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Crumbling wall" type="26" level="10">
+			<special type="crumble" />
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xE8EAE1</innerLineColor>
+			<outerLineColor>0x565E42</outerLineColor>
+			<viewBitmapFill>crumbling_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Crystal wall" type="27" level="10">
+			<hitGroundColor>0x991155</hitGroundColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xDB91D8</innerLineColor>
+			<outerLineColor>0xECC6EA</outerLineColor>
+			<viewBitmapFill>crystal_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Crystal Blue wall" type="28" level="10">
+			<hitGroundColor>0x991155</hitGroundColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x0099FF</innerLineColor>
+			<outerLineColor>0x8CD1FF</outerLineColor>
+			<viewBitmapFill>crystalblue_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Rope Vertical wall" type="29" drawBorder="false" level="8">
+			<hitCeilingColor>0xFFFF00</hitCeilingColor>
+			<hitGroundColor>0xFFFF00</hitGroundColor>
+			<hitWallColor>0xFFFF00</hitWallColor>
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xEAD97B</innerLineColor>
+			<outerLineColor>0x6E5C33</outerLineColor>
+			<innerLineSize>5</innerLineSize>
+			<outerLineSize>8</outerLineSize>
+			<viewBitmapFill>ropevertical_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Wallpaper wall" type="30" level="6">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xBAAB96</innerLineColor>
+			<outerLineColor>0x71614A</outerLineColor>
+			<viewBitmapFill>wallpaper_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Roof Blue wall" type="31" level="6">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x395491</innerLineColor>
+			<outerLineColor>0x24355B</outerLineColor>
+			<viewBitmapFill>roofblue_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Marble wall" type="32" level="5">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0xE8E4C5</innerLineColor>
+			<outerLineColor>0x696347</outerLineColor>
+			<viewBitmapFill>marble_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Metal Roof wall" type="33" level="5">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x8A9A8A</innerLineColor>
+			<outerLineColor>0x4D5B4D</outerLineColor>
+			<viewBitmapFill>metalroof_wall_tile.swf</viewBitmapFill>
+		</material>
+		
+		<material name="Cardboard wall" type="34" level="11">
+			<viewLineColor>0x000000</viewLineColor>
+			<viewLineSize>1</viewLineSize>
+			<innerLineColor>0x87703A</innerLineColor>
+			<outerLineColor>0x4A3D1F</outerLineColor>
+			<viewBitmapFill>cardboard_wall_tile.swf</viewBitmapFill>
+		</material>
+
+	</tileSet>
+
+	<tileSet name="terrain" type="natural">
+
+		<terrain name="stone" type="1" drawOrder="1" level="1">
+
+			<hitCeilingColor>0xFFCC00</hitCeilingColor>
+			<hitGroundColor>0x7EB7E4</hitGroundColor>
+			<hitWallColor>0xFF6600</hitWallColor>
+
+			<viewLineColor>0x43443E</viewLineColor>
+			<viewLineSize fg="7" bg="2">7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.09</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>stone_tile.swf</viewBitmapFill>
+	
+			<details>
+				<detail url="stone_details.swf" sides="top"  minDetails="-1" maxDetails="1" />
+			</details>
+
+		</terrain>
+
+		<terrain name="dirt" type="2" drawOrder="2" level="2">
+
+			<hitGroundColor>0x996600</hitGroundColor>
+
+			<viewFillColor>0xA67208</viewFillColor>
+			<viewLineColor>0x462F15</viewLineColor>
+			<viewLineSize fg="7" bg="2">7</viewLineSize>
+					
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.09</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>dirt_tile.swf</viewBitmapFill>
+
+		</terrain>
+		
+		<terrain name="grass" type="4" drawOrder="3" level="2">
+
+			<hitCeilingColor>0xFFCC00</hitCeilingColor>
+			<hitGroundColor>0x006600</hitGroundColor>
+			<hitWallColor>0xFF6600</hitWallColor>
+
+			<viewFillColor>0x759236</viewFillColor>
+			<viewLineColor>0x455821</viewLineColor>
+			<viewLineSize fg="7" bg="2">7</viewLineSize>
+
+			<viewHilite>
+				<size>24</size>
+				<alpha>0.09</alpha>
+			</viewHilite>
+
+			<viewBitmapFill>grass_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="ceiling_details.swf" sides="bottom" />
+				<detail url="ground_details.swf" sides="top" />
+			</details>
+
+		</terrain>
+
+	</tileSet>
+
+	<tileSet name="trees" type="natural" allowMixedTiles="true">
+		
+		<terrain name="Cloud Terrain" type="0x000100" drawOrder="1" canMine="false" level="8">
+			<hitCeilingColor>0x00eeff</hitCeilingColor>
+			<hitGroundColor>0x00eeff</hitGroundColor>
+			<hitWallColor>0x00eeff</hitWallColor>
+			<viewBitmapFill>cloud_tile.swf</viewBitmapFill>
+			<viewLineColor>0xFFFFFF</viewLineColor>
+			<viewLineAlpha>0.1</viewLineAlpha>
+			<viewLineSize>12</viewLineSize>
+			
+			<viewHilite>
+				<size>18</size>
+				<alpha>1</alpha>
+			</viewHilite>
+		</terrain>
+		
+		<terrain name="Water Terrain" type="0x000200" drawOrder="2" canMine="false" level="7">
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>water_tile.swf</viewBitmapFill>
+			<viewLineColor>0x81B9D6</viewLineColor>
+			<viewLineAlpha>0.7</viewLineAlpha>
+			<viewLineSize fg="2" bg="1"></viewLineSize>
+			
+			<viewHilite>
+				<size>12</size>
+				<alpha>0.15</alpha>
+			</viewHilite>
+		</terrain>
+		
+		<terrain name="Lava Terrain" type="0x000400" light="230" drawOrder="3" canMine="false" level="9">
+			<hitCeilingColor>0x667000</hitCeilingColor>
+			<hitGroundColor>0x667000</hitGroundColor>
+			<hitWallColor>0x667000</hitWallColor>
+			<viewBitmapFill>lava_tile.swf</viewBitmapFill>
+			<viewLineColor>0xFFCC00</viewLineColor>
+			<viewLineAlpha>0.7</viewLineAlpha>
+			<viewLineSize fg="2" bg="1"></viewLineSize>
+			
+			<viewHilite>
+				<size>12</size>
+				<alpha>0.15</alpha>
+			</viewHilite>
+		</terrain>
+
+		<terrain name="Tree Trunk" type="0x000800" drawOrder="4" fillHits="false" level="3">
+			<hitCeilingColor>0x000000</hitCeilingColor>
+			<hitGroundColor>0x00FF00</hitGroundColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<viewBitmapFill>trunk_tile.swf</viewBitmapFill>
+			<viewLineColor>0x483E26</viewLineColor>
+			<viewLineAlpha>1</viewLineAlpha>
+			<viewLineSize fg="2.5" bg="1"></viewLineSize>
+			<viewHilite>
+				<angle>135</angle>
+				<size>18</size>
+				<alpha>0.12</alpha>
+			</viewHilite>
+		</terrain>
+		
+		<terrain name="Pine Tree Trunk" type="0x001000" drawOrder="5" fillHits="false" level="4">
+			<hitCeilingColor>0x000000</hitCeilingColor>
+			<hitGroundColor>0x00FF00</hitGroundColor>
+			<hitWallColor>0x000000</hitWallColor>
+			<viewBitmapFill>pinetrunk_tile.swf</viewBitmapFill>
+			<viewLineColor>0x2F1700</viewLineColor>
+			<viewLineAlpha>1</viewLineAlpha>
+			<viewLineSize fg="2.5" bg="1"></viewLineSize>
+			
+			<viewHilite>
+				<angle>135</angle>
+				<size>18</size>
+				<alpha>0.12</alpha>
+			</viewHilite>
+		</terrain>
+		
+		<terrain name="Cactus" type="0x002000" drawOrder="6" level="6">
+			<hitCeilingColor>0x668000</hitCeilingColor>
+			<hitGroundColor>0x668000</hitGroundColor>
+			<hitWallColor>0x668000</hitWallColor>
+			<viewBitmapFill>cactus_tile.swf</viewBitmapFill>
+			<viewLineColor>0x3E4F28</viewLineColor>
+			<viewLineAlpha>1</viewLineAlpha>
+			<viewLineSize fg="2.5" bg="1"></viewLineSize>
+			<fillHits>false</fillHits>
+
+			<viewHilite>
+				<angle>135</angle>
+				<size>18</size>
+				<alpha>0.12</alpha>
+			</viewHilite>
+
+			<details>
+				<detail url="cactus_details.swf" sides="bottom,sides,top" minDetails="2" maxDetails="3" />
+			</details>
+
+		</terrain>
+
+		<terrain name="Leaves" type="0x004000" drawHits="false" drawOrder="7" level="3">
+
+			<viewBitmapFill>leaf_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="leaf_details.swf" sides="bottom,sides,top" minDetails="1" maxDetails="1" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Pine Leaves" type="0x008000" drawHits="false" drawOrder="8" level="4">
+
+			<viewBitmapFill>pineleaf_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="pineleaf_details.swf" sides="bottom,sides,top" minDetails="1" maxDetails="1" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Bushes" type="0x010000" drawHits="false" drawOrder="9" level="5">
+			<viewLineColor>0x495E2C</viewLineColor>
+			<viewLineAlpha>1</viewLineAlpha>
+			<viewLineSize>1</viewLineSize>
+
+			<viewBitmapFill>bush_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="bush_details.swf" sides="bottom,sides,top" minDetails="2" maxDetails="2" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Flowers" type="0x200000" drawHits="false" drawOrder="10" level="5">
+
+			<viewBitmapFill>flower_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="flower_details.swf" sides="bottom,sides,top" minDetails="1" maxDetails="1" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Vines" type="0x400000" drawHits="false" drawOrder="11" level="5">
+
+			<viewBitmapFill>vine_tile.swf</viewBitmapFill>
+
+			<details>
+				<detail url="vine_details.swf" sides="bottom,sides,top" minDetails="1" maxDetails="1" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Spider Webs" type="0x800000" drawOrder="12" canMine="false" level="6">
+		
+			<hitCeilingColor>0x774433</hitCeilingColor>
+			<hitGroundColor>0x774433</hitGroundColor>
+			<hitWallColor>0x774433</hitWallColor>
+			<viewBitmapFill>web_tile.swf</viewBitmapFill>
+			<viewLineColor>0xFFFFFF</viewLineColor>
+			<viewLineAlpha>0.7</viewLineAlpha>
+			<viewLineSize>1</viewLineSize>
+			
+		</terrain>
+		
+		<terrain name="Thorns" type="0x000080" drawOrder="13" level="6">
+
+			<hitCeilingColor>0x668000</hitCeilingColor>
+			<hitGroundColor>0x668000</hitGroundColor>
+			<hitWallColor>0x668000</hitWallColor>
+			<viewBitmapFill>thorn_tile.swf</viewBitmapFill>
+			<fillHits>false</fillHits>
+
+			<details>
+				<detail url="thorn_details.swf" sides="bottom,sides,top" minDetails="1" maxDetails="1" />
+			</details>
+
+		</terrain>
+		
+		<terrain name="Slime" type="0x000040" drawOrder="14" canMine="false" level="9">
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>slime_tile.swf</viewBitmapFill>
+			<viewLineColor>0xE0FF82</viewLineColor>
+			<viewLineAlpha>0.5</viewLineAlpha>
+			<viewLineSize fg="2" bg="1"></viewLineSize>
+			
+			<viewHilite>
+				<size>12</size>
+				<alpha>0.15</alpha>
+			</viewHilite>
+		</terrain>
+
+		<terrain name="Blue" type="1" canEdit="false">
+			<cost>0</cost>
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>blue_color_tile.swf</viewBitmapFill>
+		</terrain>
+		<terrain name="Green" type="2" canEdit="false">
+		<cost>0</cost>
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>green_color_tile.swf</viewBitmapFill>
+		</terrain>
+		<terrain name="Red" type="4" canEdit="false">
+		<cost>0</cost>
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>red_color_tile.swf</viewBitmapFill>
+		</terrain>
+		<terrain name="Yellow" type="8" canEdit="false">
+		<cost>0</cost>
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>yellow_color_tile.swf</viewBitmapFill>
+		</terrain>
+		<terrain name="Purple" type="16" canEdit="false">
+		<cost>0</cost>
+			<hitCeilingColor>0x0000bb</hitCeilingColor>
+			<hitGroundColor>0x0000bb</hitGroundColor>
+			<hitWallColor>0x0000bb</hitWallColor>
+			<viewBitmapFill>purple_color_tile.swf</viewBitmapFill>
+		</terrain>
+
+	</tileSet>
+
+</sets>

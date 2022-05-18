@@ -1,0 +1,64 @@
+<item id="2053"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Gabi Outfit</name> <!-- *** Change this card name -->
+  	<campaignID>VivoQuest</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="true"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Vivo</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Gabi's Stylin' Outfit</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<web>Press SPACEBAR to play drums!</web>
+			<mobile>Press action button to play drums</mobile>
+			<y>66</y>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background zip -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.zip -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look>
+			<facial>limited_vivo_outfit</facial>
+			<hair>limited_vivo_outfit</hair>
+			<shirt>limited_vivo_outfit</shirt>
+			<pants>limited_vivo_outfit</pants>
+			<overshirt>limited_vivo_outfit</overshirt>
+		</look>
+	</looks> 
+</item>

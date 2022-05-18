@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Sneaky_Suspense.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="shower_knob_turned">shower_valve_01.mp3</asset>
+		<asset triggeredByEvent="shower_started" loop="true">shower_01_L.mp3</asset>
+		<asset id="cat" triggeredByEvent="milk_given">cat_meow_01.mp3</asset>
+		<asset id="cat" triggeredByEvent="cat_purr">cat_purring_01_L.mp3</asset>
+		<asset id="cat" triggeredByEvent="cat_meow">cat_meow_01.mp3</asset>
+		<asset id="cat" exclusiveType="true" triggeredByEvent="cat_drink">cat_sipping_01_L.mp3</asset>
+		<!-- <asset triggeredByEvent="gotItem_emptyBowl">card_get.mp3</asset> -->
+		<asset triggeredByEvent="place_bowl">porcelain_tap_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1" allowOverlap="false">rope_strain_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="couch">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="bed">ls_spring_01.mp3</asset>
+		<asset id="table">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="chair">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="cardboard">ls_cardboard_01.mp3, ls_cardboard_02.mp3</asset>
+		<asset id="tiledFloor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="toiletTop">ls_squishy_toilet_top_01.mp3</asset>
+		<asset id="toiletSeat">ls_toilet_plastic_01.mp3, ls_toilet_plastic_02.mp3</asset>
+		<asset id="sink">ls_porcelain_01.mp3, ls_porcelain_02.mp3</asset>
+		<asset id="wardrobe">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="woodboards">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="bathtub">ls_porcelain_01.mp3, ls_porcelain_02.mp3</asset>
+		<asset id="firePlace">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="baseGround">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="table">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="chair">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="cardboard">fs_cardboard_01.mp3, fs_cardboard_02.mp3, fs_cardboard_03.mp3, fs_cardboard_04.mp3</asset>
+		<asset id="tiledFloor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="toiletTop">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="toiletSeat">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="sink">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="wardrobe">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="woodboards">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="bathtub">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="firePlace">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="baseGround">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+	</sound>
+</sounds>

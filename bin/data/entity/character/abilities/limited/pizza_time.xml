@@ -1,0 +1,21 @@
+<specialAbility id="limited/pizza_time">
+	<triggerable>false</triggerable>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetSkinAction" noWait="true">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">facial</param>
+					<param id="partId" type="string">ad_tmnt_don,ad_tmnt_leo,ad_tmnt_mike,ad_tmnt_raph</param> 
+				</parameters>
+			</action>
+			<action class="SetSkinAction" noWait="true">
+				<parameters>
+					<param id="char" type="string">NPCS</param>
+					<param id="partType" type="string">item</param> 
+					<param id="partId" type="string">ad_tmnt_pizza</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

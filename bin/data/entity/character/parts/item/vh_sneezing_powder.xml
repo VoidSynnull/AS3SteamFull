@@ -1,0 +1,13 @@
+<part>
+	<id>vh_sneezing_powder</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="sneezingPowder">
+		<className>game.data.specialAbility.store.SneezingPowder</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

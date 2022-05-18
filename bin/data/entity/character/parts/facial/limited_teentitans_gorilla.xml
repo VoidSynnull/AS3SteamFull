@@ -1,0 +1,49 @@
+<part>
+	<id>limited_teentitans_gorilla</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<campaignID>2935</campaignID>
+	<colors>
+		<color id="greenColor">0x8dc640</color>
+	</colors>
+	<applyColors>
+		<applyColor id="greenColor">
+			<part id="skinColor">skinColor</part>
+		</applyColor>
+		<applyColor id="greenColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">TeenTitansGoMVU,transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">M:limited_teentitans_cat,limited_teentitans_pig,limited_teentitans_horse,limited_teentitans_dinosaur|F:limited_teentitans_cat,limited_teentitans_pig,limited_teentitans_horse,limited_teentitans_dinosaur</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">scale</param>
+						<param id="partID" type="string">M:1.1,1.1|F:1.1,1.1</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,22 @@
+<part>
+	<id>pterrorcaptain</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>pants</part>
+	</hide>
+	<applyColors>
+		<applyColor id="sleeveColor">
+			<part id="arm1"/>
+			<part id="arm2"/>
+		</applyColor>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x535B66</color>
+		<color id="sleeveColor">0x535B66</color>
+	</colors>
+</part>

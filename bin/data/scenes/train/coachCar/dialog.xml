@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="ferris">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metFerris,true">Excuse me...</question>
+				<answer>No, no, this won't do. This won't do at all!</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metFerris,true">What's the matter?</question>
+				<answer>I've built the centerpiece for the Fair - a massive wheel that carries hundreds of passengers into the sky!</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metFerris,true">That sounds spectacular! What are you worried about?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="telegram">The wheel isn't working!</answer>
+			</exchange>
+		</conversation>
+	</character>
+	
+	<character id="pinkerton">
+		<statement>Sorry, can't let anyone in with the prisoner.</statement>
+		<conversation>
+			<exchange>
+				<question>I have proof that Mr. Tesla is innocent!</question>
+				<answer>Buzz off. This one's open and shut.</answer>
+			</exchange>
+   		</conversation>
+   		
+   		<statement triggerEvent="triggerEvent" triggerEventArgs="sneakingBackResponse,true" triggeredByEvent="sneakingBack">What were you doing back there?</statement>
+    </character>
+    
+
+    <character id="player">
+    	<statement triggeredByEvent="sneakingBackResponse">Oh, nothing.</statement>
+    </character>
+</dialogs>

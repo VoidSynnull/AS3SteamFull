@@ -1,0 +1,37 @@
+<part>
+	<id>limited_strangemagic_staff</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2631</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/StrangeMagicMVU/imp.swf</param>
+			<param id="tracking">StrangeMagicMVU,Staff</param>
+		</parameters>
+		<actions>
+			<actionChain id="after_actions">
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/StrangeMagicMVU/forestcreatures.mp3</param> 
+					</parameters>
+				</action>
+				<action class="TwirlItemAction">
+					<parameters>
+						<param id="entity" type="entity">player</param> 
+						<param id="animClass" type="class">game.data.animation.entity.character.Twirl</param>
+						<param id="speed" type="number">63</param> 
+						<param id="acceleration" type="number">-0.5</param> 
+						<param id="reverseAtTrigger" type="boolean">false</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

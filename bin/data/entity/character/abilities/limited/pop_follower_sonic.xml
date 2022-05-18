@@ -1,0 +1,17 @@
+<specialAbility id="limited/pop_follower_sonic">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2993</param>
+		<param id="skinColor">0x1E55C6</param>
+		<param id="overshirtFrame">limited_sonic_follower</param>
+		<param id="campaignName">TrollsVBB</param>
+		<param id="lineThickness">8</param>
+		<param id="noDarken">false</param>
+		<param id="hideParts">body,hair,shirt,arm1,arm2,hand1,hand2,eyes,mouth,head</param>
+		<!-- <param id="useSpecialActionBtn">true</param>
+		<param id="audioFile1">game/sound/limited/NutcrackerQuest/snow.mp3</param>
+		<param id="pauseMusic">true</param> -->
+	 </parameters>
+</specialAbility>

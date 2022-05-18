@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="gabby">
+		<statement event="hasAdItem_2981">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement>Hi, I'm Gabby Duran, the best babysitter in the galaxy.</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="slime">
+		<statement>Hello. I'm Jeremy. Gabby is my babysitter.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

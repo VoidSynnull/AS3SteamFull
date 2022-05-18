@@ -1,0 +1,193 @@
+
+<Animation name="sleep" noEnd="true">
+	<events>
+		
+		<FrameData index="0" label="sleep">
+			<FrameEvent method="setEyes">
+				<param>closed</param>
+			</FrameEvent>
+			<FrameEvent method="setPart">
+				<param>mouth</param>
+				<param>ooh</param>
+			</FrameEvent>
+		</FrameData>
+		
+		<FrameData index="1">
+			<FrameEvent method="stop"/>
+		</FrameData>
+
+	</events>
+	
+	<parts>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-33.2" y="112.8" scaleX="1" scaleY="1" rotation="-88.4" elementType="movie clip" instanceName="hand1" symbolName="Duplicate Items Folder/Hand">
+					<dimensions>
+						<geom:Rectangle left="-10.6" top="-28.1" width="21.2" height="56.2"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-31.45" y="55.65" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="arm1" symbolName="Duplicate Items Folder/Joint">
+					<dimensions>
+						<geom:Rectangle left="-5" top="-5" width="10" height="10"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-78" y="110" scaleX="1" scaleY="1" rotation="-54.4" elementType="movie clip" instanceName="neck" symbolName="Duplicate Items Folder/Jointhead">
+					<dimensions>
+						<geom:Rectangle left="-98.7" top="-153.85" width="162.8" height="158.85"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.6" y="0.96"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+	
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="76.85" y="100.9" scaleX="1" scaleY="1" rotation="-159.6" elementType="movie clip" instanceName="foot1" symbolName="Duplicate Items Folder/Foot">
+					<dimensions>
+						<geom:Rectangle left="-37.95" top="-6.15" width="41.3" height="12.7"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.9188861985472156" y="0.48425196850393704"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="37.55" y="51.5" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="leg1" symbolName="Duplicate Items Folder/Joint">
+					<dimensions>
+						<geom:Rectangle left="-5" top="-5" width="10" height="10"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-0.45" y="75.8" scaleX="1" scaleY="1" rotation="-88.4" elementType="movie clip" instanceName="body" symbolName="Duplicate Items Folder/Torso">
+					<dimensions>
+						<geom:Rectangle left="-36.25" top="-46.2" width="74.45" height="92.6"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.4869039623908663" y="0.4989200863930886"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="96.05" y="103.85" scaleX="1" scaleY="1" rotation="-161.4" elementType="movie clip" instanceName="foot2" symbolName="Duplicate Items Folder/Foot">
+					<dimensions>
+						<geom:Rectangle left="-37.95" top="-6.15" width="41.3" height="12.7"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.9188861985472156" y="0.48425196850393704"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="31.2" y="100.75" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="leg2" symbolName="Duplicate Items Folder/Joint">
+					<dimensions>
+						<geom:Rectangle left="-5" top="-5" width="10" height="10"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-84.3" y="110.8" scaleX="1" scaleY="1" rotation="-88.4" elementType="movie clip" instanceName="hand2" symbolName="Duplicate Items Folder/Hand">
+					<dimensions>
+						<geom:Rectangle left="-10.6" top="-28.1" width="21.2" height="56.2"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+
+		<Motion duration="2" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="31" x="-31.35" y="98.15" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="arm2" symbolName="Duplicate Items Folder/Joint">
+					<dimensions>
+						<geom:Rectangle left="-5" top="-5" width="10" height="10"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.5"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			
+		</Motion>
+	</parts>
+</Animation>

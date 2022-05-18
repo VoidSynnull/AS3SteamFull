@@ -1,0 +1,26 @@
+<hits>
+	<hit id="dirt" color="0xD4BC8D" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="puddles" color="0x6BA4D4" platform="true">
+		<component type="platform"/>
+		<component type="emitter">
+			<className class="game.particles.emitter.WaterSplash" type="impact">
+				<params>
+					<param id="color">0x31B3C3</param>
+					<param id="color2">0x42D5E2</param>
+					<param id="total">4</param>
+					<param id="size">10</param>
+				</params>
+			</className>
+			<className class="game.particles.emitter.WaterSplash" type="step">
+				<params>
+					<param id="color">0x31B3C3</param>
+					<param id="color2">0x42D5E2</param>
+					<param id="total">4</param>
+					<param id="size">10</param>
+				</params>
+			</className>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">chase_game_percussion.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="cooperHit" baseVolume="2">big_pow_05.mp3</asset>
+		<asset id="vanHit" baseVolume="2">explosion_02.mp3</asset>
+		<asset id="giraffeHit" baseVolume="2">big_pop_01.mp3</asset>
+		<asset id="truckHit" baseVolume="2">big_pop_01.mp3</asset>
+		<asset id="safariHit" baseVolume="2">explosion_04.mp3</asset>
+		<asset id="bikeHit" baseVolume="2">air_shot_03.mp3</asset>
+		<asset id="lionHit" baseVolume="2">big_pow_05.mp3</asset>
+		<asset id="goatHit" baseVolume="2">big_pow_05.mp3</asset>
+		<asset id="orangeHit" baseVolume="2">door_hatch_01.mp3</asset>
+		<asset id="whiteHit" baseVolume="2">door_hatch_01.mp3</asset>
+	</sound>
+
+</sounds>

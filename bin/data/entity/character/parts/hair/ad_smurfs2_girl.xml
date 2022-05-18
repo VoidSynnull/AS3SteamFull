@@ -1,0 +1,18 @@
+<part>
+	<id>ad_smurfs2_girl</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<campaignID>2422</campaignID>
+	<notPrintable>true</notPrintable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

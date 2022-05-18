@@ -1,0 +1,30 @@
+<specialAbility id="limited/activate_actionanim_lalaloopsy">
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+	<triggerable>false</triggerable>
+	<parameters>
+		<param id="swfPath">limited/LalaloopsyPartyRoom/dance.swf</param>
+		<param id="standingOnly">true</param>
+	</parameters>
+	<actions>
+		<actionChain id="now_actions">
+			<action class="AnimationAction" endDelay="0.01">
+				<parameters>
+					<param id="entity" type="string">ALL</param> 
+					<param id="animationClass" type="class">game.data.animation.entity.character.DanceMoves01</param> 
+				</parameters>
+			</action>
+			<action class="AnimationAction" endDelay="0.01">
+				<parameters>
+					<param id="entity" type="string">ALL</param> 
+					<param id="animationClass" type="class">game.data.animation.entity.character.DanceMoves01</param> 
+				</parameters>
+			</action>
+			<action class="AnimationAction">
+				<parameters>
+					<param id="entity" type="string">ALL</param> 
+					<param id="animationClass" type="class">game.data.animation.entity.character.DanceMoves01</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>	

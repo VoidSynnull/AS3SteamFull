@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer>text5</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_stoneBowl">
+			<exchange>
+				<question>shared.text5</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text6</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="stoneBowl, char1">text7</answer>
+			</exchange>
+		</conversation>
+    	<statement event="returned_stoneBowl">text7</statement>
+    </character>
+    <character id="char2">
+    	<statement triggerEvent="triggerEvent" triggerEventArgs="memory_game">text8</statement>
+    	<statement event="gotItem_amulet" triggerEvent="triggerEvent" triggerEventArgs="memory_game">text9</statement>
+    	<statement id="memory_game_lost">text10</statement>
+    	<statement id="memory_game_win" triggerEvent="giveItem" triggerEventArgs="amulet">text11</statement>
+    	<statement id="memory_game_win_extra">text12</statement>
+    </character>
+    <character id="char3">
+    	<statement>text13</statement>
+    </character>
+    <character id="char4">
+    	<statement>text14</statement>
+    </character>
+</dialogs>

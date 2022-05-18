@@ -1,0 +1,31 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks></marks>
+			<facial></facial>
+			<hair>sponsorcwmb1</hair>
+			<shirt>ad_meatball2_flintshirt</shirt>
+			<pants>adams</pants>
+			<pack>ad_meatballs2_steve</pack>
+			<item></item>
+			<overshirt>sponsorcwmb1</overshirt>
+			<overpants>mthshopkeeper</overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>595</x>
+			<y>564.9</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+	
+</npcs>

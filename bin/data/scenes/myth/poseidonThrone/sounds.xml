@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">poseidon_realm.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">under_water.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="fountain1" loop="true" modifier="position" baseVolume=".3">water_fountain_large_01_loop.mp3</asset>
+		<asset id="fountain2" loop="true" modifier="position" baseVolume=".3">water_fountain_large_01_loop.mp3</asset>
+		<asset id="fountain3" loop="true" modifier="position" baseVolume=".3">water_fountain_large_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id = "floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id = "baseGround">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id = "water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id = "water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id = "floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id = "baseGround">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+	</sound>
+</sounds>

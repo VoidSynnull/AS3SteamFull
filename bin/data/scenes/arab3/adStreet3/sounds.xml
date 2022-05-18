@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="ambient">
+<!-- 		<asset loop="true" baseVolume="1.6">winter_wind_01_loop.mp3</asset> -->
+	</sound>
+	
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">arabian_nights_3_main_theme.mp3</asset>
+		<asset event="sultan_made_wish" loop="true" fade="true" exclusiveType="true">arab1_main_theme_a.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

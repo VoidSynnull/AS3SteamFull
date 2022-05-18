@@ -1,0 +1,16 @@
+<part>
+	<id>limited_tomorrowland_jetpack</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2669</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/DisneyTomorrowlandMVU/jetpack.swf</param>
+			<param id="tracking">DisneyTomorrowlandMVU,Jet Pack</param>
+			<param id="pack">limited_tomorrowland_jetpack2</param>
+		</parameters>
+	</specialAbility>
+</part>

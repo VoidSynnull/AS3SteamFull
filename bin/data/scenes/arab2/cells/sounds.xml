@@ -1,0 +1,29 @@
+<sounds>	
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">thieves_lair.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="magicSandPlat0">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="magicSandPlat1">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="bed">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="ballPlatform">ls_metal_verb_01.mp3,ls_metal_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="magicSandPlat0">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="magicSandPlat1">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="bed">ls_spring_misc_furniture_01.mp3, ls_spring_misc_furniture_02.mp3, ls_spring_misc_furniture_03.mp3</asset>
+		<asset id="ballPlatform">fs_metal_verb_01.mp3, fs_metal_verb_02.mp3, fs_metal_verb_03.mp3, fs_metal_verb_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="push">
+		<asset id="dropper0" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_roll_01_L.mp3</asset>
+		<asset id="dropper1" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_roll_01_L.mp3</asset>
+		<asset id="dropper2" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_roll_01_L.mp3</asset>
+		<asset id="dropper3" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_roll_01_L.mp3</asset>
+		<asset id="bed" allowOverlap="false" baseVolume="1.5" fade="true">heavy_gritty_drag_01_L.mp3</asset>
+	</sound>
+</sounds>

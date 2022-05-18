@@ -1,0 +1,28 @@
+<doors>
+	<door id="controlDoor">
+		<scene>game.scenes.villain.adGroundH25.AdGroundH25</scene>
+		<x>50</x>
+		<y>450</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="commonDoor">
+		<scene>game.scenes.villain.common.Common</scene>
+		<x>870</x>
+		<y>817</y>
+		<label>
+			<text>COMMON ROOM</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

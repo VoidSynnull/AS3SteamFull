@@ -1,0 +1,143 @@
+<npcs>
+	<npc id="bigTuna" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>angry</mouth>
+			<marks>pr_tuna</marks>
+			<facial>pr_tuna</facial>
+			<hair>pr_tuna</hair>
+			<shirt>pr_tuna</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>mean_still</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>90</y>
+		</position>
+		<direction>right</direction>
+		<scale>.6</scale>
+	</npc>
+	
+	<npc id="florian" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xefa618</hairColor>
+			<mouth>15</mouth>
+			<marks>beautymark</marks>
+			<hair>pr_florian</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>casual_still</eyeState>
+		</skin>
+		<position>
+			<x>5</x>
+			<y>105</y>
+		</position>
+		<direction>left</direction>
+		<scale>.6</scale>
+	</npc>	
+	
+	<npc id="nostrand" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>huntergiveup</mouth>
+			<marks>pr_von</marks>
+			<facial>franklin</facial>
+			<hair>pr_von</hair>
+			<shirt>pr_von</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>squint_still</eyeState>
+		</skin>
+		<position>
+			<x>10</x>
+			<y>100</y>
+		</position>
+		<direction>left</direction>
+		<scale>.6</scale>
+	</npc>
+	
+	<npc id="patches" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0xe0e0e0</hairColor>
+			<mouth>wkgrmpa</mouth>
+			<marks>pr_patches</marks>
+			<hair>pr_patches</hair>
+			<shirt>pr_prisoner</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>squint_still</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>85</y>
+		</position>
+		<direction>right</direction>
+		<scale>.6</scale>
+	</npc>
+	
+	<npc id="les" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>15</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_les</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open_still</eyeState>
+		</skin>
+		<position>
+			<x>5</x>
+			<y>95</y>
+		</position>
+		<direction>left</direction>
+		<scale>.6</scale>
+	</npc>
+	
+	<npc id="sal" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<facial>pr_les_sal</facial>
+			<hair>1</hair>
+			<shirt>pr_sal</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open_still</eyeState>
+		</skin>
+		<position>
+			<x>5</x>
+			<y>95</y>
+		</position>
+		<direction>left</direction>
+		<scale>.6</scale>
+	</npc> 
+	
+	<npc id="flambe" type="portrait">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>14</mouth>
+			<marks>pr_flambe</marks>
+			<hair>pr_flambe</hair>
+			<shirt>pr_flambe</shirt>
+			<pants>pr_prisoner</pants>
+			<eyeState>open_still</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>105</y>
+		</position>
+		<direction>right</direction>
+		<scale>.6</scale>
+	</npc>
+</npcs>

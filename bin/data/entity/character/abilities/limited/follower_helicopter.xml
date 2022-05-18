@@ -1,0 +1,10 @@
+<specialAbility id="limited/follower_helicopter">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2909</param>
+  		<param id="swfPath">limited/LegoCityQuest/HelicopterFollower.swf</param> <!-- path to follower swf -->
+	    <param id="swapClip">swap</param> <!-- swap art when flipping -->
+	</parameters>
+</specialAbility>

@@ -1,0 +1,122 @@
+<part>
+	<id>limited_surfboard_g</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2845</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">LegoFriendsEC,transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">skinColor</param>
+						<param id="partID" type="string">M:0xd2aa72,0xfee0d8,0x917151|F:0xd2aa72,0xd2aa72,0xfde7b6</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hairColor</param>
+						<param id="partID" type="string">M:0xf5c455,0xf9aa18,0x453928|F:0xf5c455,0x453929,0x453929</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">eyeState</param>
+						<param id="partID" type="string">M:casual,squint,squint|F:casual,casual,squint</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">M:1,sponsoralphaomega,thinking|F:pcowgirl1,sponsorpinofairy,ppunkgirl5</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">M:empty,empty,prockerguy3|F:empty,mythbeach2,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">M:ad_pranks_kaz,hiphop,1|F:limited_pete,girlhair4,limited_lego_friends_g2</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">M:limited_lego_friends_avatar_b,limited_lego_friends_b1,limited_lego_friends_b2|F:limited_lego_friends_avatar_g,limited_lego_friends_g1,limited_lego_friends_g2</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">M:6,1,1|F:bblue,1,1</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pack</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overpants</param>
+						<param id="partID" type="string">M:empty,empty,empty|F:empty,empty,empty</param>
+						<param id="permanent" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

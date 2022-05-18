@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="npc">
+		<conversation>
+			<exchange>
+				<question>Could you make the music sound sneaky?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="sneakySwitch">YES!</answer>
+			</exchange>
+			<exchange>
+				<question>Could you make the baseground surface sound like tin?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="changeBaseGroundSurface">I suppose I- Yes, yes I could.</answer>
+			</exchange>
+			<exchange>
+				<question>Could you make a click sound effect play?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="startGears">Roger!</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

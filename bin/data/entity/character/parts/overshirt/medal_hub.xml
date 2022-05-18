@@ -1,0 +1,17 @@
+<part>
+	<id>medal_hub</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>flippable</instanceName>	<!-- If instance is nested use dot notation to specify ( ex. hat.flip_clip )  -->
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

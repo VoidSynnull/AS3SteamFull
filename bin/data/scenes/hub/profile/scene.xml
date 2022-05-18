@@ -1,0 +1,35 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>960</right>
+		<bottom>640</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-500</left>
+		<top>0</top>
+		<right>-200</right>
+		<bottom>640</bottom>
+	</bounds>
+	<data>sounds.xml,chats.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+  <saveLocation>false</saveLocation>
+   <player>
+		<defaultPosition>
+			<x>-400</x>
+			<y>200</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

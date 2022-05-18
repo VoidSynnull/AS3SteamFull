@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="effects" action="doorOpened">
+		<asset>door_metal_lab_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="floorPlat">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floorPlat">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="floor">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset id="elevator_start">elevator_begin_01.mp3</asset>
+		<asset id="elevator_stop">elevator_end_01.mp3</asset>
+		<asset id="elevator_moving">elevator_01_L.mp3</asset>
+		<asset id="elevator_ping">elevator_ping_01.mp3</asset>
+	</sound>
+</sounds>

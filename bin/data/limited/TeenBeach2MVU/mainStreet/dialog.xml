@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="npc_mac">
+		<statement event="videoDone">Click the replay button to see the video again.</statement>
+		<statement>Watch this cool video and get an awesome new prize!</statement> <!-- default if above not true -->
+		</character>
+	<character id="npc_brady">
+	<statement event="videoDone">Click the replay button to see the video again.</statement>
+		<statement>Watch this video! Girls get a Brady prize and boys get Mack!</statement> <!-- default if above not true -->
+		</character>
+</dialogs>

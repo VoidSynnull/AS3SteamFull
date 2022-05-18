@@ -1,0 +1,26 @@
+<part>
+	<id>snowball</id>
+	<type>item</type>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="speedX">300</param>
+			<param id="speedY">-350</param>
+			<param id="rotationSpeed">100</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_smallfoot</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

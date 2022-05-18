@@ -1,0 +1,8 @@
+<hotspots>
+	<hotspot id="popupGame" type="poster">
+		<action type="popup">PoptasticGame/TwitchTest.swf</action> <!-- Name of popup in campaign folder -->
+		<action type="className">game.scenes.custom.TwitchGamePower</action> <!-- popup class -->
+		<action type="param1">PoptasticGame/TwitchTest.xml</action> <!-- photo ID -->
+	</hotspot>
+</hotspots>
+

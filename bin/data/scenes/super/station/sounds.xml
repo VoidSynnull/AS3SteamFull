@@ -1,0 +1,24 @@
+<sounds>	
+	<!-- <sound type="effects" action="doorOpened">
+		<asset>train_door_open_01.wav</asset>
+	</sound>  -->
+
+	<sound type="effects" action="impact">
+		<asset id="chairs">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="trash">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="ticketBooth">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="entranceBooth">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="aluminumRoof">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="concreteFloor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="chairs">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="trash">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="ticketBooth">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="entranceBooth">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="aluminumRoof">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="concreteFloor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

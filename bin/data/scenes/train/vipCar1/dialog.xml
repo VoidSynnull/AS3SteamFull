@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="tesla">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metTesla,true">This fair sounds unbelievable, huh?</question>
+				<answer>Nothing is unbelievable if you can imagine it. That is the essence of science.</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="eiffel">
+    	<conversation>
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="metEiffel,true">Excited about the fair?</question>
+    			<answer>I cannot wait! I hear there is a giant wheel at this fair that will outdo even my tower in Paris.</answer>
+    		</exchange>
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="metEiffel,true">Tower? Paris? You're not...</question>
+    			<answer>Gustave Eiffel? Indeed I am!</answer>
+    		</exchange>
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="metEiffel,true">Aren't you afraid the Wheel will make your tower look bad?</question>
+    			<answer>Non, non! All great creations should inspire others to even greater heights!</answer>
+    		</exchange>
+    	</conversation>
+    </character>
+</dialogs>

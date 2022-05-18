@@ -1,0 +1,16 @@
+<part>
+	<id>limited_carkey</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2658</campaignID>
+	<specialAbility id="car">
+		<className>game.data.specialAbility.character.CarRide</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/ScholasticBumperCarIC/car.swf</param>
+			<param id="tracking">ScholasticBumperCarIC,Bumper Car</param>
+			<param id="xoffset">500</param>
+		</parameters>
+	</specialAbility>
+</part>

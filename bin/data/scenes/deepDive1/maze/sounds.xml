@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" absoluteUrl="true">ambient/underwater.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="getFish">ping_18.mp3</asset>
+		<asset triggeredByEvent="chomp">chewing_2a.mp3</asset>
+		<asset triggeredByEvent="urchin">rock_hit_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="cave" allowOverlap="false" baseVolume="0.5">rock_hit_03.mp3</asset>
+	</sound>
+</sounds>

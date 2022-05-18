@@ -1,0 +1,55 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Middle Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Top Door</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="lucy">
+		<event>EngagedInsideNPC</event>
+		<choice>lucy</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="jin">
+		<event>EngagedInsideNPC</event>
+		<choice>jin</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="pen">
+		<event>EngagedInsideNPC</event>
+		<choice>pen</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="yi">
+		<event>EngagedInsideNPC</event>
+		<choice>yi</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="yetinpc">
+		<event>EngagedInsideNPC</event>
+		<choice>yeti</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

@@ -1,0 +1,7 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="wrong_dressing_room_Girl">I can't go in there, that's the boy's fitting room!</statement>
+		<statement triggeredByEvent="wrong_dressing_room_Boy">I can't go in there, that's the girl's fitting room!</statement>
+		<statement triggeredByEvent="click_locked_door">It's locked.</statement>
+    </character>
+</dialogs>

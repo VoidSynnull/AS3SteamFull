@@ -1,0 +1,54 @@
+<doors>
+	<door id="bunkerExit" event="bunker_unlocked">
+		<scene>game.scenes.zombie.RomerosBunker</scene>
+		<x>2012</x>
+		<y>455</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="leftExit">
+		<scene>game.scenes.zombie.subway.Subway</scene>
+		<x>2696</x>
+		<y>700</y>
+		<label>
+			<text>GO LEFT</text>
+			<asset>exitLeft</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="rightExit">
+		<scene>game.scenes.zombie.subwayFinancial.SubwayFinancial</scene>
+		<x>28</x>
+		<y>494</y>
+		<label>
+			<text>GO RIGHT</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="trainExit" event="train_moved">
+		<scene>game.scenes.zombie.subwayInterior.SubwayInterior</scene>
+		<x>515</x>
+		<y>125</y>
+		<label>
+			<text>GO DOWN</text>
+			<asset>exitDown</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

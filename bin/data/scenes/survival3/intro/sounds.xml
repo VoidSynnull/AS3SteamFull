@@ -1,0 +1,10 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_3_Intro_Cutscene.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">forest_ambiance_01_loop.mp3</asset>
+		<asset triggeredByEvent="geese" baseVolume="2.5">geese_ambiance_01.mp3</asset>
+	</sound>
+</sounds>

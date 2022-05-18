@@ -1,0 +1,74 @@
+<item id="2685"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Dragon Breath Card</name> <!-- Change this card name -->
+  	<campaignID>WingsOfFireIC2</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+		<btn>
+  			<index>1</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="activatePower" tracking="Use Dragon Breath Card">
+					<parameters>
+					  		<param id="trigger">true</param>
+							<param id="tracking">WingsOfFireIC2,Dragon Breath</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+		
+		<btn>
+  			<index>1</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+		
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Dragon Breath Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url2</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Wings of Fire</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Fire and Ice Breath</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2685.swf -->
+  	</assets>
+
+	<specials>
+	    <specialAbility>limited/projectile_breath</specialAbility>
+	</specials>
+  	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+	
+</item>

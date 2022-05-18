@@ -1,0 +1,25 @@
+<hits>
+	<hit id="crate" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trashOpen" color="0x00FFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trashClosed" color="0xCC0000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x660099" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

@@ -1,0 +1,49 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	
+	<!-- use this for Poptropican NPC -->
+	<npc id="mary">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<mouth>stor_zaggymoon</mouth>
+			<facial>limited_marypoppins</facial>
+			<hair>limited_marypoppins</hair>
+			<shirt>limited_marypoppins</shirt>
+			<pants>limited_marypoppins</pants>
+			<item>limited_umbrella</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>750</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	
+	
+	<npc id="jack">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<mouth>youngsherpa</mouth>
+			<facial>limited_jack</facial>
+			<hair>limited_jack</hair>
+			<pants>char6</pants>
+			<overshirt>limited_jack</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>840</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

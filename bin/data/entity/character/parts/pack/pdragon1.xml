@@ -1,0 +1,21 @@
+<part>
+	<id>pdragon1</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<colors>
+		<color id="color1">0x1D80AF</color>
+		<color id="color2">0x8DCDEC</color>
+		<color id="color3">0xEA5B5B</color>
+	</colors>
+	<colorables>
+		<colorable id="color1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="color2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+		<colorable id="color3">
+			<clip instanceName="colorShape3"/>
+		</colorable>
+	</colorables>
+</part>

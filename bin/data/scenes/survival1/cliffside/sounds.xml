@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_1_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="snow">ls_snow_01.mp3,ls_snow_02.mp3</asset>
+		<asset id="axeHandle">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="branch">ls_crisp_snow_01.mp3,ls_crisp_snow_02.mp3</asset>
+		<asset id="backpackBranch">ls_crisp_snow_01.mp3,ls_crisp_snow_02.mp3</asset>
+		<asset id="ice">ls_ice_01.mp3,ls_ice_02.mp3</asset>
+		
+		<asset id="bounce0">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="snow">fs_snow_01.mp3,fs_snow_02.mp3,fs_snow_03.mp3,fs_snow_04.mp3</asset>
+		<asset id="axeHandle">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="branch">fs_crisp_snow_01.mp3,fs_crisp_snow_02.mp3,fs_crisp_snow_03.mp3,fs_crisp_snow_04.mp3</asset>
+		<asset id="backpackBranch">fs_crisp_snow_01.mp3,fs_crisp_snow_02.mp3,fs_crisp_snow_03.mp3,fs_crisp_snow_04.mp3</asset>
+		<asset id="ice">fs_ice_01.mp3,fs_ice_02.mp3,fs_ice_03.mp3,fs_ice_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,40 @@
+<doors>
+	<door id="exitDoor">
+		<scene>previousScene</scene>
+		<label>
+			<text>EXIT</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorPacifica">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=MoanaQuest_InteriorPacifica</scene> <!-- AS3 destination -->
+			 <x>1100</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorFabled">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=MoanaQuest_InteriorFabled</scene> <!-- AS3 destination -->
+			 <x>200</x>
+			<y>1485</y>
+			<direction>right</direction>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

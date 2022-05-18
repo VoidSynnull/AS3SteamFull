@@ -1,0 +1,17 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">http://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+	<hotspot id="questDoor" type="poster">
+		<action type="className">game.scenes.custom.AdStartGamePopup</action>
+		<action type="gameClass">game.scenes.custom.BeatGamePower</action>
+		<action type="gameID">MusicGame</action>
+	</hotspot>
+	<hotspot id="board" type="poster">
+		<action type="gotoAndPlay">board,startAni</action> 
+	</hotspot>
+</hotspots>
+

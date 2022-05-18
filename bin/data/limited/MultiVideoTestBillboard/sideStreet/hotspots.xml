@@ -1,0 +1,11 @@
+<hotspots>
+	<hotspot id="clickURL" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+		<action type="giveItemMale">2553,2554,2555,2569</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2553,2554,2555,2569</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

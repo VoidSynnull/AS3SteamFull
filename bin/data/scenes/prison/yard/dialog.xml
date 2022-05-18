@@ -1,0 +1,234 @@
+<dialogs>
+	<character id="player">
+		<statement id="wait">Listen, I--</statement>
+		<statement id="not_bb" linkEntityId="bigTuna" link="watch_your_back">But I'm not--</statement>		
+		<statement id="you_do" linkEntityId="florian" link="size">You do?</statement>
+		
+		<statement id="last_time">This might be the last time we talk.</statement>
+		<statement id="bird_too">I'll miss you. The bird, too.</statement>
+		<statement id="help_seeds">Say, Patches, got a handful of birdseed?</statement>
+				
+		<statement id="not_planted">This patch of dirt may actually be able to grow something.</statement>
+		<statement id="need_water">Should get plenty of sunlight, but that's not enough...</statement>
+		<statement id="already_watered">I don't want to over water the plant.</statement>
+		<statement id="sunflower_not_ready">The plant isn't fully bloomed yet. I should water it more.</statement>    	
+    	
+    	<statement id="correct_gum_marion" link="gave_gum" linkEntityId="marion">Here you go.</statement>
+    	<statement id="wrong_gum_marion" link="more_gum" linkEntityId="marion">I don't have enough gum.</statement>    	
+    	<statement id="wrong_gum_head">I better get some more gum.</statement>    	
+    	<statement id="wrong_gum_noodle">I need more gum.</statement>
+    	<statement id="gum_for_noodle" link="gum_for_noodle" linkEntityId="nostrand">Seems steep, but here you go.</statement>
+    	<statement id="bust_description">'Always watching?' That's not creepy at all.</statement>
+    </character>    
+    
+    <character id="nostrand">
+  		<statement event="hasItem_painting">I can help you out with any painting needs.</statement>
+    	<conversation event="no_intro_yard">
+    		<exchange>
+    			<question forceOnScreen="true">Who are you?</question>
+    			<answer>Name's Van Nostrand.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>How long have you been here?</question>
+    			<answer>Oh, years and years. I've lost count.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I guess there are worse locations.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="spoke_to_nostrand">Are you kidding? Thanks to the sea air, this whole place is crumbling.</answer>
+    		</exchange>
+    	</conversation>
+    	    	
+    	<conversation event="yard_intro_shown">
+			<exchange>
+				<question forceOnScreen="true">What are you painting?</question>
+				<answer>The city skyline, just like always.</answer>
+			</exchange>    		
+			<exchange>
+				<question>It looks nice.</question>
+				<answer>Thanks, but I'd love to paint something else.</answer>
+			</exchange>
+			<exchange>
+				<question>Like what?</question>
+				<answer>Something that lives and breathes, like a still life of a flower.</answer>
+			</exchange>
+    	</conversation>
+    	
+    	<conversation id="give_sunflower">
+    		<exchange>
+    			<question triggerEvent="takeItem" triggerEventArgs="sunflower,nostrand">It's not a bouquet, but you could paint this flower!</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="painting" link="hasItem_painting">Wow, thanks! I've been painting that horizon for twenty years! Here's one of my earlier efforts.</answer>
+    		</exchange>
+    	</conversation>
+    	    	
+    	<statement event="give_tonight">Give me tonight to paint it.</statement>
+    	
+    	<conversation id="try_dummy_head">
+    		<exchange>
+    			<question triggerEvent="takeItem" triggerEventArgs="dummy_head,nostrand">Can you paint this to look like me?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="gum_paint_head">For five sticks of gum, sure.</answer>
+    		</exchange>
+   		</conversation>    	
+   		<statement id="gum_for_head" triggerEvent="triggerEvent" triggerEventArgs="give_tonight, truet">Just need one night to paint it. I'll give it to you tomorrow.</statement>
+    	<statement event="give_painted_head_back" triggerEvent="giveItem" triggerEventArgs="painted_dummy_head">Got your skin tone exactly right.</statement>
+    	
+    	<conversation id="try_pasta">
+    		<exchange>
+    			<question triggerEvent="takeItem" triggerEventArgs="uncooked_pasta,nostrand">Can you paint this silver?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="gum_paint_noodle">Easy. That'll run you seven sticks of gum.</answer>
+    		</exchange>
+    	</conversation> 
+    	<statement id="gum_for_noodle" triggerEvent="triggerEvent" triggerEventArgs="give_tonight, true">Give me one night to paint it.</statement>    	
+    	
+    	<statement event="give_painted_pasta_back" triggerEvent="giveItem" triggerEventArgs="painted_pasta" link="lead_based">Here you go: one silver piece of corkscrew pasta.</statement>
+    	<statement id="lead_based" triggerEvent="triggerEvent" triggerEventArgs="busted">That's a lead-based paint, by the way, so don't eat it.</statement>
+    	
+    	<statement id="short_shirt" linkEntityId="warden" link="rules">My prison issue shirt is too short. It won't stay tucked!</statement>
+    	<statement id="you_cant" triggerEvent="triggerEvent" triggerEventArgs="steal_paint">You can't! Painting is all I have!</statement>
+    	
+    	<statement event="take_away_paint">Well this can't be good for my upcoming parole hearing.</statement>
+    	<statement event="parole_next_day_nostrand">Wish me luck! I'm going before the parole board tomorrow.</statement>
+    	<statement event="parole_passed_nostrand">Maybe I can take up sculpting...</statement>
+    	
+    	<randomSet id="already_painting">
+    		<statement>Patience is a virtue.</statement>
+    		<statement>I can only complete one project a night.</statement>
+    		<statement>Hang on to your sticks, I can only finish one painting a night.</statement>
+    	</randomSet>
+    </character>    
+    
+    <character id="patches">
+    	<conversation event="no_intro_yard">
+    		<exchange>
+    			<question>Hi there.</question>
+    			<answer>Howdy. I'm Patches.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Is that your bird?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="spoke_to_patches">Yup. Found her with a broken wing. She's healthy now, but forgot how to fly.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="meet_warden">Oh boy, here comes the warden. Don't say anything if you don't have to.</statement>
+    	<statement event="eggs_collected_3">My parole hearing is coming up soon. Hopefully I can get out of here this time.</statement>
+    	<statement event="all_eggs_parole_next">Got my parole hearing again tomorrow. Been going to those so long I forgot how to lie at them.</statement>
+    	<statement event="all_eggs_parole_passed">Another ten years in this place. If I'm lucky.</statement>
+    	
+    	<conversation event="yard_intro_shown">
+    		<exchange>
+    			<question>What are you doing?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="already_fed">Just feeding the birds.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<conversation event="already_fed">
+    		<exchange>
+    			<question>Will you feed them again?</question>
+    			<answer>Not today, they've had enough.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="help">Why, sure.</statement>
+    	<statement id="hope">It's been good to know you. You give me hope that there's still life outside these walls.</statement>
+    	<statement id="mutual">Aye, she'll miss you too. Maybe I can convince her to fly away with you.</statement> 
+    </character>    
+    
+    <character id="florian">
+    	<conversation event="no_intro_yard">
+    		<exchange>
+    			<question forceOnScreen="true">Who are you?</question>
+    			<answer>Don't act like you don't know me, Booted Bandit!</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I'm not the Booted Bandit!</question>
+    			<answer>Sure, and I ain't Flashy Florian Fosbury, either.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>So... you are Flashy Fosbury?</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="spoke_to_florian">Of course I am! And I haven't forgotten that you nicked my safe, so watch your back.</answer>
+    		</exchange>
+    	</conversation>
+    	
+    	<conversation event="yard_intro_shown">
+    		<exchange>
+    			<question>You sure do a lot of exercise.</question>
+    			<answer linkEntityId="player" link="you_do">You think it's easy to keep a physique like this? I have the same measurements I had twenty years ago!</answer>
+    		</exchange>
+   		</conversation>
+   		
+   		<statement id="size" link="florian_size">26-34-30!</statement>
+   		<statement event="florian_size" triggerEvent="triggerEvent" triggerEventArgs="florian_size, true">Not that this prison jumpsuit is doing me any favors...</statement>
+    </character>
+    
+    <character id="marion">
+    	<conversation event="no_intro_yard">
+    		<exchange>
+    			<question forceOnScreen="true">Hello there.</question>
+    			<answer>Hello, they call me Marion. You made the headlines today, did you know?</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Wait, what do you mean "headline"?</question>
+    			<answer>Oh, just today's newspaper.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I didn't know we had access to current news here.</question>
+    			<answer triggerEvent="triggerEvent" triggerEventArgs="spoke_to_marion">You can get anything here, if you know who to ask.</answer>
+    		</exchange>
+   		</conversation>
+   		
+   		<conversation event="ask_for_prison_files">
+   			<exchange>
+   				<question>How much for those prisoner files?</question>
+   				<answer triggerEvent="triggerEvent" triggerEventArgs="gum_marion">Three sticks of gum.</answer>
+   			</exchange>
+   		</conversation>
+   		
+   		<statement id="gave_gum" triggerEvent="giveItem" triggerEventArgs="prison_files">I hope something in these files can help you.</statement>
+   		<statement id="more_gum">Then you'd better make some license plates!</statement>
+   		<statement event="hasItem_prison_files">Don't let the guards see those files.</statement>
+    </character>
+    
+    <character id="warden">
+    	<statement id="statue">This warms a warden's heart; all the criminals paying their debt to society around our fine institution's symbol of order.</statement>
+    	
+		<statement id="new_guest" linkEntityId="player" link="wait">This must be our new guest, eh?</statement>
+		<statement id="keep_it_up" triggerEvent="triggerEvent" triggerEventArgs="look_to_wall">Keep up that kind of insolence, and you'll go straight to the hole.</statement>
+		<statement id="dat_wall">I see you looking over that wall. You still have the light of hope in your eyes.</statement>
+		<statement id="assure" triggerEvent="triggerEvent" triggerEventArgs="triggerBigTuna">But I assure you, escape is impossible. Even for you, Booted Bandit.</statement>
+		<statement id="wrap_up">Well, now you know what happens when you misbehave. Carry on.</statement>
+		
+		<statement id="busted">Ah ha! Caught you in the act.</statement>
+		<statement id="shirt" linkEntityId="nostrand" link="short_shirt">I told you that if I caught you with your shirt untucked one more time that you'd lose your painting privileges.</statement>
+		<statement id="rules" linkEntityId="nostrand" link="you_cant">Rules are rules. No more painting for you.</statement>
+		<statement id="lesson">Let that be a lesson to the rest of you. I will not tolerate rulebreaking.</statement>
+    </character>    
+    
+    <character id="ratchet">
+    	<statement event="no_intro_yard">Go mingle with the others.</statement>
+   		<statement id="try_day1">Don't even try. Go talk to others while you still have free time.</statement>
+    	
+    	<statement event="yard_intro_shown" link="leave">Are you ready to go to work?</statement>
+    	<conversation id="leave">
+    		<exchange>
+    			<question triggerEvent="triggerEvent" triggerEventArgs="leave_for_work, false">Yes.</question>
+    		</exchange>
+    		<exchange>
+    			<question>No.</question>
+    		</exchange>
+    	</conversation>
+    	
+    	<statement id="line_up">Alright, you know the drill. Fall in line.</statement>
+    	<statement id="nice_try">Nice try.</statement>
+    	<statement id="silence" linkEntityId="warden" link="keep_it_up">Silence! You do not speak to Warden Sharp.</statement>
+    </character>
+    
+    <character id="bigTuna">
+    	<statement id="grunt" link="stay_away" linkEntityId="player">Grrrrr.</statement>
+    	
+    	<!-- intro -->
+    	<statement id="set_me_up">The Booted Bandit?! You set me up!</statement>
+    	<statement id="watch_your_back">Watch your back, Booted Bandit! Watch your back!</statement>
+    	
+    	<statement id="got_you_now">You can't escape me now, Booted Bandit!</statement>
+    	<statement id="cant_stop">Bird seeds can't stop us!</statement>
+    </character>
+</dialogs>

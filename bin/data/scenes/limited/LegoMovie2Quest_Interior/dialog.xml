@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="lucy">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="shipEnter">Something's not right.</statement>
+		<statement id="cut">Hurry! Let's get out of here!</statement>
+	</character>
+	<character id="emmet">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="shipEnter">What an awesome day!</statement>
+		<statement id="cut">We'll drive the buggy!</statement>
+	</character>
+	<character id="batman">
+		<statement>Don't forget to watch the awesome video.</statement>
+	</character>
+	<character id="pirate">
+		<statement>Talk to Lucy or Emmet if you're up for adventure.</statement>
+	</character>
+	<character id="planty">
+		<statement>I am Planty.</statement>
+	</character>
+	<character id="kitty">
+		<statement>Growl. Don't talk to me!</statement>
+	</character>
+	<character id="player">
+		<statement id="cut">I'd better go talk to Emmet and Lucy.</statement>
+	</character>
+</dialogs>

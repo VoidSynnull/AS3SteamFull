@@ -1,0 +1,32 @@
+<part>
+	<id>limited_wir_glitch</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2938</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">WreckItRalphMVU,TransformNPCs Glitch</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction" endDelay="2">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">limited_wir_glitch</param>
+					</parameters>
+				</action>
+				<action class="RevertSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+					</parameters>
+				</action>
+				
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

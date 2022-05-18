@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xab5c17</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>11</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sponsortinkerbell</marks>
+			<hair>ad_piratefairy_fawn</hair>
+			<shirt>ad_piratefairy_fawn</shirt>
+			<pack>sponsortink3</pack>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>527</x>
+			<y>685</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

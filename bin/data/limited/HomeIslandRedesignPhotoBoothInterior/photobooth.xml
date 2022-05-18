@@ -1,0 +1,1284 @@
+<photoBooth theme ="limited/_photobooth/bgs/bg_myst_tile.swf" instructionsColor="0x000033">
+	<music>ad_interior_scene.mp3</music>
+	
+	<!-- types: contest(submit to server), ad(go to ads web site), dev(allows devs to create templates)
+	<header type="default">
+		<asset>limited/_photobooth/headers/pop_header.swf</asset>
+		<popup></popup>
+	</header>
+	-->
+	<submitPopup>
+		<warning>Save to profile successful.</warning>
+		<alternate>Save to profile failed.</alternate>
+		<numBtns>1</numBtns>
+	</submitPopup>
+	
+	<startingTemplate>snow</startingTemplate> <!-- optional node: must match a template ID below -->
+		 
+	<templates><!-- files used to pre fill scene -->
+	<!-- template id should be name of xml file, asset is just what is used to display in menu -->
+		<group title="Templates">
+			<template id="homeIslandRedesign/jungleTemplate">
+  				<asset>limited/_photobooth/templates/homeIslandRedesign/jungleTemplate.png</asset>
+  			</template>
+  			<template id="homeIslandRedesign/mythTemplate">
+  				<asset>limited/_photobooth/templates/homeIslandRedesign/mythTemplate.png</asset>
+  			</template>
+  			<template id="homeIslandRedesign/snowBallFightTemplate">
+  				<asset>limited/_photobooth/templates/homeIslandRedesign/snowBallFightTemplate.png</asset>
+  			</template>
+		</group>
+		
+		<group title="Templates">
+			<template id="homeIslandRedesign/windmillTemplate">
+  				<asset>limited/_photobooth/templates/homeIslandRedesign/windmillTemplate.png</asset>
+  			</template>
+  			<template id="homeIslandRedesign/zombieConcertTemplate">
+  				<asset>limited/_photobooth/templates/homeIslandRedesign/zombieConcertTemplate.png</asset>
+  			</template>
+		</group>
+	</templates>
+	<bgs>
+		<group title="Backgrounds">
+			<bg id="park">
+				<asset>limited/_photobooth/bgs/bg_backgrounds01.swf</asset>
+			</bg>
+			<bg id="mill">
+				<asset>limited/_photobooth/bgs/bg_backgrounds02.swf</asset>
+			</bg>
+			<bg id="myth">
+				<asset>limited/_photobooth/bgs/bg_backgrounds03.swf</asset>
+			</bg>
+		</group>
+		<group title="Backgrounds">
+			<bg id="jungle">
+				<asset>limited/_photobooth/bgs/bg_backgrounds04.swf</asset>
+			</bg>
+			<bg id="snow">
+				<asset>limited/_photobooth/bgs/bg_backgrounds05.swf</asset>
+			</bg>
+		</group>
+	</bgs>
+	<poses>
+		<asset>entity/character/_poses/default.swf</asset>	
+		<asset>entity/character/_poses/angry.swf</asset>
+		<asset>entity/character/_poses/dizzy.swf</asset>
+		<asset>entity/character/_poses/duck.swf</asset>
+		<asset>entity/character/_poses/fly.swf</asset>
+		<asset>entity/character/_poses/laugh.swf</asset>
+		<asset>entity/character/_poses/mario.swf</asset>
+		<asset>entity/character/_poses/run.swf</asset>
+		<asset>entity/character/_poses/sad.swf</asset>
+		<asset>entity/character/_poses/singing.swf</asset>
+		<asset>entity/character/_poses/sly.swf</asset>
+		<asset>entity/character/_poses/throw.swf</asset>
+		<asset>entity/character/_poses/zombie.swf</asset>
+	</poses>
+	<looks>
+		<facial>
+			<look><!-- recommend using all 3 for each so they don't carry over between expressions -->
+				<pupilState>front</pupilState><!-- look at eyeSystem for stateNames or just use an angle -->
+				<mouth>1</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>235</pupilState>
+				<mouth>15</mouth>
+				<eyeState>casual_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<skinColor>0xFF2C35</skinColor>
+				<pupilState>front</pupilState>
+				<mouth>angry</mouth>
+				<eyeState>angry</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>front</pupilState>
+				<mouth>22</mouth>
+				<eyeState>laugh</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>front</pupilState>
+				<mouth>breathless</mouth>
+				<eyeState>angry</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>135</pupilState>
+				<mouth>thinking</mouth>
+				<eyeState>casual_manual</eyeState>
+			</look>
+		</facial>
+		<facial>
+			<look>
+				<pupilState>45</pupilState>
+				<mouth>thinking</mouth>
+				<eyeState>open_manual</eyeState>
+			</look>
+		</facial>
+		<facial> <!-- zombie -->
+			<look>
+				<skinColor>0x63679f</skinColor>
+				<hairColor>0x443a87</hairColor>
+				<mouth>z_zombie</mouth>
+				<!-- <marks>z_zombie</marks> -->
+				<eyes>zombie</eyes>
+			</look>
+		</facial>
+		<facial> <!-- hypnotized -->
+			<look>
+				<mouth>ooh</mouth>
+				<eyes>hypnotized</eyes>
+			</look>
+		</facial>
+<!-- 		<facial> rabbit drone
+			<look>
+				<mouth>rabbitcon</mouth>
+				<facial>rabbitcon</facial>
+				<eyes>drone</eyes>
+			</look>
+		</facial> -->
+
+		 <!-- ITEMS -->
+		<item>
+			<look>
+				<item>empty</item>
+			</look>
+		</item>
+		<item>
+            <look>
+                <item>camera</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>broom2</item>
+                <!-- broom -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>brush</item>
+                <!-- paintbrush -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>fish</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>cryptidlantern</item>
+                <!-- spooky lantern -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>flowerpower</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>gsumbrella</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>mc_flashlight_normal</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ad_popappphone</item>
+                <!-- iPhone -->
+            </look>
+        </item>
+       <!-- <item>
+            <look>
+                <item>mk_writer</item>
+                book of poets
+            </look>
+        </item> -->
+        <item>
+            <look>
+                <item>pfirefighter1</item>
+                <!-- fire extinguisher -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>procket</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>plunger</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>probot4</item>
+                <!-- lightsaber -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>spatula</item>
+                <!-- spatula -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>sponsortoiletpaper</item>
+                <!-- toliet paper -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppopcake</item>
+                <!-- cake -->
+            </look>
+        </item>
+        <!-- MUSIC ITEMS -->
+        <item>
+            <look>
+                <item>microphone</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppunkgirl1</item>
+                <!-- V-guitar teal -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>ppunkguy1</item>
+                <!-- guitar yellow -->
+            </look>
+        </item>
+
+        <!-- SPORTS ITEMS -->
+        <item>
+            <look>
+                <item>basketball</item>
+                <!-- basketball -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>football</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>psoccerball</item>
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>skater</item>
+                <!-- skateboard -->
+            </look>
+        </item>
+        <item>
+            <look>
+                <item>tshrksfr</item>
+                <!-- surfboard with shark design -->
+            </look>
+        </item>
+	</looks>
+	<npcs>
+		<!-- don't include items, mouths, and eye states to avoid overriding expressions and items -->
+		
+		<!-- STANDARDS -->
+		<group title="Ninja">
+			<npc id="ninja">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfde6b6</skinColor>	
+					<facial>pNinja1</facial>
+					<pants>pNinja</pants>
+					<shirt>pNinja1</shirt>
+					<overpants>pNinja1</overpants>
+					<!-- <item>pNinja1</item> -->
+					<pack>pNinja1</pack>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Bonsai Bu">
+			<npc id="bonsaiWoman">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfae0c9</skinColor>
+					<hairColor>0x3c3c3c</hairColor>
+					<mouth>mthbonsaiwoman</mouth>
+					<marks>mthbonsaiwoman</marks>
+					<hair>mthbonsaiwoman</hair>
+					<shirt>mthbonsaiwoman</shirt>
+					<pants>mthbonsaiwoman</pants>
+					<pack>mthbonsaiwoman</pack>
+					<overshirt>mthbonsaiwoman</overshirt>
+					<eyes>eyes</eyes>
+					<eyeState>laugh</eyeState>
+				</skin>
+			</npc>
+		</group>
+		<group title="Frankie Freestyle">
+			<npc id="zombieGuy">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x63679f</skinColor>
+					<hairColor>0x443a87</hairColor>
+					<mouth>z_zombie</mouth>
+					<marks>z_zombie</marks>
+					<hair>prisoner1</hair>
+					<shirt>z_dancer1</shirt>
+					<pants>z_dancer1</pants>
+					<eyes>zombie</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Donna Disco">
+			<npc id="zombieGirl">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x63679f</skinColor>
+					<hairColor>0x443a87</hairColor>
+					<mouth>z_zombie</mouth>
+					<marks>z_zombie</marks>
+					<hair>z_disco4</hair>
+					<shirt>z_disco4</shirt>
+					<pants>1</pants>
+					<eyes>zombie</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Albert Einstein">
+			<npc id="einstein">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xf9e4ce</skinColor>
+					<mouth>14</mouth>
+					<facial>pEinstein</facial>
+					<hair>pEinstein</hair>
+					<pants>pEinstein</pants>
+					<shirt>pEinstein</shirt>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+
+		<!-- ISLAND NPCS -->
+		<group title="Amelia">
+			<npc id="amelia">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfdd9c8</skinColor>
+					<hairColor>0xf5894e</hairColor>
+					<mouth>mthfishmonger</mouth>
+					<hair>home_crash</hair>
+					<shirt>home_crash</shirt>
+					<pants>peinstein</pants>
+					<pack>home_crash</pack>
+					<overshirt>home_crash</overshirt>
+					<eyes>eyes</eyes>
+					<eyeState>open</eyeState>
+				</skin>
+			</npc>
+		</group>
+		<group title="DJ Saturday Nite">
+			<npc id="djSaturdayNite">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x754a2f</skinColor>
+					<hairColor>0x3d221a</hairColor>
+					<mouth>sponsorLM_Stella</mouth>
+					<facial>z_djnite</facial>
+					<hair>z_djnite</hair>
+					<shirt>z_djnite</shirt>
+					<pants>astrochance</pants>
+					<overpants>z_djnite</overpants>
+					<eyeState>casual</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Zeus">
+			<npc id="zeus">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfde6b6</skinColor>
+					<hairColor>0xffffff</hairColor>
+					<mouth>shadycop</mouth>
+					<marks>zeus</marks>
+					<hair>zeus</hair>
+					<shirt>zeus</shirt>
+					<pants>zeus</pants>
+					<pack>zeus</pack>
+					<item>zeus</item>
+					<overshirt>zeus</overshirt>
+					<overpants>zeus</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Aphrodite">
+			<npc id="aphrodite">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfee0d8</skinColor>
+					<hairColor>0xfdd124</hairColor>
+					<mouth>aphrodite</mouth>
+					<marks>aphrodite</marks>
+					<hair>aphrodite</hair>
+					<shirt>aphrodite</shirt>
+					<pants>aphrodite</pants>
+					<pack>aphrodite</pack>
+					<item>aphromirror</item>
+					<overshirt>aphrodite</overshirt>
+					<overpants>aphrodite</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Minotaur">
+			<npc id="minotaur">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0x7b5c3e</skinColor>
+					<hairColor>0xffffff</hairColor>
+					<mouth>prisoner3</mouth>
+					<marks>minotaur</marks>
+					<facial>minotaur</facial>
+					<hair>minotaur</hair>
+					<shirt>minotaur</shirt>
+					<pants>1</pants>
+					<item>minotaur</item>
+					<overshirt>minotaur</overshirt>
+					<overpants>minotaur</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dr. Hare">
+			<npc id="drHare">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0x4a2c17</hairColor>
+					<mouth>drhare</mouth>
+					<facial>drhare</facial>
+					<hair>31</hair>
+					<shirt>drhare</shirt>
+					<pants>1</pants>
+					<pack>drhare</pack>
+					<overpants>drhare</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dr. Lange">
+			<npc id="drLange">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xf9e4ce</skinColor>
+					<hairColor>0x5e0d11</hairColor>
+					<mouth>15</mouth>
+					<hair>is_scien</hair>
+					<shirt>is_scien</shirt>
+					<pants>is_scien</pants>
+					<overshirt>labcoat</overshirt>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Omegon">
+			<npc id="omegon">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xffc215</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>19</mouth>
+					<marks>poptropicon_omegon</marks>
+					<facial>poptropicon_omegon</facial>
+					<hair>poptropicon_omegon</hair>
+					<shirt>1</shirt>
+					<pants>miner2</pants>
+					<pack>poptropicon_omegon</pack>
+					<overshirt>poptropicon_omegon</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes_omegon</eyes><!-- omegons eyes mess up other eyes for facial expressions -->
+				</skin>
+			</npc>
+		</group>
+		<group title="Genie">
+			<npc id="genieGirl">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0x6bdbb6</skinColor>
+					<hairColor>0x1b362d</hairColor>
+					<mouth>teethgrin2</mouth>
+					<marks>an_genie2</marks>
+					<facial>an2_master2</facial>
+					<hair>an_genie2</hair>
+					<shirt>an_genie2</shirt>
+					<pants>an_genie2</pants>
+					<overpants>an_princess</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Black Widow">
+			<npc id="blackWidow">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xfbdfc7</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>blackwidow</mouth>
+					<marks>blackwidow2</marks>
+					<hair>blackwidow2</hair>
+					<shirt>blackwidow2</shirt>
+					<pants>ss</pants>
+					<overpants>blackwidow2</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Captain Crawfish">
+			<npc id="cptCrawfish">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfbdfcb</skinColor>
+					<hairColor>0x999999</hairColor>
+					<mouth>captcrawfish</mouth>
+					<marks>captcrawfish</marks>
+					<facial>captcrawfish</facial>
+					<hair>captcrawfish</hair>
+					<shirt>captcrawfish</shirt>
+					<pants>captcrawfish</pants>
+					<item>captcrawfish</item>
+					<overshirt>captcrawfish</overshirt>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Director D">
+			<npc id="directorD">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xffe271</skinColor>
+					<hairColor>0x5b5b5b</hairColor>
+					<mouth>14</mouth>
+					<hair>tailor</hair>
+					<shirt>directord</shirt>
+					<pants>ss</pants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Dr. Salerno">
+			<npc id="drSalerno">
+				<skin>
+					<gender>female</gender>
+					<skinColor>0xd2aa72</skinColor>
+					<hairColor>0x453929</hairColor>
+					<mouth>19</mouth>
+					<marks>bags</marks>
+					<hair>sears3</hair>
+					<shirt>lc_salerno</shirt>
+					<pants>lc_salerno</pants>
+					<eyeState>open</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+		<group title="Vampire Hunter">
+			<npc id="vampireHunter">
+				<skin>
+					<gender>male</gender>
+					<skinColor>0xfde6b6</skinColor>
+					<hairColor>0x0</hairColor>
+					<mouth>astroguard1</mouth>
+					<marks>vchunter</marks>
+					<facial>vchunter</facial>
+					<hair>1</hair>
+					<shirt>mtedison</shirt>
+					<pants>mtedison</pants>
+					<pack>vchunter</pack>
+					<overshirt>vchunter</overshirt>
+					<overpants>montgomery</overpants>
+					<eyeState>squint</eyeState>
+					<eyes>eyes</eyes>
+				</skin>
+			</npc>
+		</group>
+	</npcs>
+	<stickers>
+		<group title="Props" columns="2">
+			<sticker id="prop1">
+				<asset>limited/_photobooth/stickers/props1/prop1.swf</asset>
+			</sticker>
+			<sticker id="prop2">
+				<asset>limited/_photobooth/stickers/props1/prop2.swf</asset>
+			</sticker>
+			<sticker id="prop3">
+				<asset>limited/_photobooth/stickers/props1/prop3.swf</asset>
+			</sticker>
+			<sticker id="prop4">
+				<asset>limited/_photobooth/stickers/props1/prop4.swf</asset>
+			</sticker>
+			<sticker id="prop5">
+				<asset>limited/_photobooth/stickers/props1/prop5.swf</asset>
+			</sticker>
+			<sticker id="prop6">
+				<asset>limited/_photobooth/stickers/props1/prop6.swf</asset>
+			</sticker>
+			<sticker id="prop7">
+				<asset>limited/_photobooth/stickers/props1/prop7.swf</asset>
+			</sticker>
+			<sticker id="prop8">
+				<asset>limited/_photobooth/stickers/props1/prop8.swf</asset>
+			</sticker>
+			<sticker id="prop9">
+				<asset>limited/_photobooth/stickers/props1/prop9.swf</asset>
+			</sticker>
+			<sticker id="prop10">
+				<asset>limited/_photobooth/stickers/props1/prop10.swf</asset>
+			</sticker>
+			<sticker id="prop11">
+				<asset>limited/_photobooth/stickers/props1/prop11.swf</asset>
+			</sticker>
+			<sticker id="prop12">
+				<asset>limited/_photobooth/stickers/props1/prop12.swf</asset>
+			</sticker>
+		</group>
+		<group title="Props" columns="2">
+			<sticker id="prop19">
+				<asset>limited/_photobooth/stickers/props1/prop19.swf</asset>
+			</sticker>
+			<sticker id="prop20">
+				<asset>limited/_photobooth/stickers/props1/prop20.swf</asset>
+			</sticker>
+			<sticker id="prop21">
+				<asset>limited/_photobooth/stickers/props1/prop21.swf</asset>
+			</sticker>
+			<sticker id="prop22">
+				<asset>limited/_photobooth/stickers/props1/prop22.swf</asset>
+			</sticker>
+			<!-- 
+			<sticker id="prop23">
+				<asset>limited/_photobooth/stickers/props1/prop23.swf</asset>
+			</sticker>
+			 -->
+			<sticker id="prop24">
+				<asset>limited/_photobooth/stickers/props1/prop24.swf</asset>
+			</sticker>
+			<sticker id="prop25">
+				<asset>limited/_photobooth/stickers/props1/prop25.swf</asset>
+			</sticker>
+			<sticker id="prop26">
+				<asset>limited/_photobooth/stickers/props1/prop26.swf</asset>
+			</sticker>
+			<!-- 
+			<sticker id="prop27">
+				<asset>limited/_photobooth/stickers/props1/prop27.swf</asset>
+			</sticker>
+			 -->
+			<sticker id="prop28">
+				<asset>limited/_photobooth/stickers/props1/prop28.swf</asset>
+			</sticker>
+		</group>
+		<group title="Beach Props" columns="2">
+			<sticker id="prop13">
+				<asset>limited/_photobooth/stickers/props1/prop13.swf</asset>
+			</sticker>
+			<sticker id="prop14">
+				<asset>limited/_photobooth/stickers/props1/prop14.swf</asset>
+			</sticker>
+			<sticker id="prop15">
+				<asset>limited/_photobooth/stickers/props1/prop15.swf</asset>
+			</sticker>
+			<sticker id="prop16">
+				<asset>limited/_photobooth/stickers/props1/prop16.swf</asset>
+			</sticker>
+			<sticker id="prop17">
+				<asset>limited/_photobooth/stickers/props1/prop17.swf</asset>
+			</sticker>
+			<sticker id="prop18">
+				<asset>limited/_photobooth/stickers/props1/prop18.swf</asset>
+			</sticker>
+		</group>
+		<group title="Creatures 1" columns="2">
+			<sticker id="creature1">
+				<asset>limited/_photobooth/stickers/creatures1/creature1.swf</asset>
+			</sticker>
+			<sticker id="creature2">
+				<asset>limited/_photobooth/stickers/creatures1/creature2.swf</asset>
+			</sticker>
+			<sticker id="creature3">
+				<asset>limited/_photobooth/stickers/creatures1/creature3.swf</asset>
+			</sticker>
+			<sticker id="creature4">
+				<asset>limited/_photobooth/stickers/creatures1/creature4.swf</asset>
+			</sticker>
+			<sticker id="creature5">
+				<asset>limited/_photobooth/stickers/creatures1/creature5.swf</asset>
+			</sticker>
+			<sticker id="creature6">
+				<asset>limited/_photobooth/stickers/creatures1/creature6.swf</asset>
+			</sticker>
+			<sticker id="creature7">
+				<asset>limited/_photobooth/stickers/creatures1/creature7.swf</asset>
+			</sticker>
+			<sticker id="creature16">
+				<asset>limited/_photobooth/stickers/creatures1/creature16.swf</asset>
+			</sticker>
+		</group>
+		<group title="Creatures 2" columns="2">
+			<sticker id="creature8">
+				<asset>limited/_photobooth/stickers/creatures1/creature8.swf</asset>
+			</sticker>
+			<sticker id="creature9">
+				<asset>limited/_photobooth/stickers/creatures1/creature9.swf</asset>
+			</sticker>
+			<sticker id="creature10">
+				<asset>limited/_photobooth/stickers/creatures1/creature10.swf</asset>
+			</sticker>
+			<sticker id="creature11">
+				<asset>limited/_photobooth/stickers/creatures1/creature11.swf</asset>
+			</sticker>
+			<sticker id="creature12">
+				<asset>limited/_photobooth/stickers/creatures1/creature12.swf</asset>
+			</sticker>
+			<sticker id="creature13">
+				<asset>limited/_photobooth/stickers/creatures1/creature13.swf</asset>
+			</sticker>
+			<sticker id="creature14">
+				<asset>limited/_photobooth/stickers/creatures1/creature14.swf</asset>
+			</sticker>
+			<sticker id="creature15">
+				<asset>limited/_photobooth/stickers/creatures1/creature15.swf</asset>
+			</sticker>
+		</group>
+		<group title="Effects" columns="2">
+			<sticker id="effect1">
+				<asset>limited/_photobooth/stickers/effects1/effect1.swf</asset>
+			</sticker>
+			<sticker id="effect3">
+				<asset>limited/_photobooth/stickers/effects1/effect3.swf</asset>
+			</sticker>
+			<sticker id="effect4">
+				<asset>limited/_photobooth/stickers/effects1/effect4.swf</asset>
+			</sticker>
+			<sticker id="effect5">
+				<asset>limited/_photobooth/stickers/effects1/effect5.swf</asset>
+			</sticker>
+			<sticker id="effect11">
+				<asset>limited/_photobooth/stickers/winter/snowball_splat01.swf</asset>
+			</sticker>
+			<sticker id="effect12">
+				<asset>limited/_photobooth/stickers/winter/snowball_splat02.swf</asset>
+			</sticker>
+			<sticker id="effect13">
+				<asset>limited/_photobooth/stickers/winter/snowball01.swf</asset>
+			</sticker>
+			<sticker id="effect14">
+				<asset>limited/_photobooth/stickers/winter/snowballs.swf</asset>
+			</sticker>
+			<!-- id dont know where these went?
+			<sticker id="effect11">
+				<asset>limited/_photobooth/stickers/effects1/effect11.swf</asset>
+			</sticker>
+			<sticker id="effect12">
+				<asset>limited/_photobooth/stickers/effects1/effect12.swf</asset>
+			</sticker>
+			<sticker id="effect13">
+				<asset>limited/_photobooth/stickers/effects1/effect13.swf</asset>
+			</sticker>
+			<sticker id="effect14">
+				<asset>limited/_photobooth/stickers/effects1/effect14.swf</asset>
+			</sticker>
+			<sticker id="effect15">
+				<asset>limited/_photobooth/stickers/effects1/effect15.swf</asset>
+			</sticker>
+			 -->
+		</group>
+		<group title="Food 1" columns="2">
+			<sticker id="food1">
+				<asset>limited/_photobooth/stickers/food1/food1.swf</asset>
+			</sticker>
+			<sticker id="food2">
+				<asset>limited/_photobooth/stickers/food1/food2.swf</asset>
+			</sticker>
+			<sticker id="food3">
+				<asset>limited/_photobooth/stickers/food1/food3.swf</asset>
+			</sticker>
+			<sticker id="food4">
+				<asset>limited/_photobooth/stickers/food1/food4.swf</asset>
+			</sticker>
+			<sticker id="food5">
+				<asset>limited/_photobooth/stickers/food1/food5.swf</asset>
+			</sticker>
+			<sticker id="food6">
+				<asset>limited/_photobooth/stickers/food1/food6.swf</asset>
+			</sticker>
+			<sticker id="food7">
+				<asset>limited/_photobooth/stickers/food1/food7.swf</asset>
+			</sticker>
+			<sticker id="food8">
+				<asset>limited/_photobooth/stickers/food1/food8.swf</asset>
+			</sticker>
+			<sticker id="food9">
+				<asset>limited/_photobooth/stickers/food1/food9.swf</asset>
+			</sticker>
+			<sticker id="food10">
+				<asset>limited/_photobooth/stickers/food1/food10.swf</asset>
+			</sticker>
+			<sticker id="food11">
+				<asset>limited/_photobooth/stickers/food1/food11.swf</asset>
+			</sticker>
+			<sticker id="food12">
+				<asset>limited/_photobooth/stickers/food1/food12.swf</asset>
+			</sticker>
+			<sticker id="food13">
+				<asset>limited/_photobooth/stickers/food1/food13.swf</asset>
+			</sticker>
+			<sticker id="food14">
+				<asset>limited/_photobooth/stickers/food1/food14.swf</asset>
+			</sticker>
+		</group>
+		<group title="Food 2" columns="2">
+			<sticker id="food15">
+				<asset>limited/_photobooth/stickers/food1/food15.swf</asset>
+			</sticker>
+			<sticker id="food16">
+				<asset>limited/_photobooth/stickers/food1/food16.swf</asset>
+			</sticker>
+			<sticker id="food17">
+				<asset>limited/_photobooth/stickers/food1/food17.swf</asset>
+			</sticker>
+			<sticker id="food18">
+				<asset>limited/_photobooth/stickers/food1/food18.swf</asset>
+			</sticker>
+			<sticker id="food19">
+				<asset>limited/_photobooth/stickers/food1/food19.swf</asset>
+			</sticker>
+			<sticker id="food20">
+				<asset>limited/_photobooth/stickers/food1/food20.swf</asset>
+			</sticker>
+			<sticker id="food21">
+				<asset>limited/_photobooth/stickers/food1/food21.swf</asset>
+			</sticker>
+			<sticker id="food22">
+				<asset>limited/_photobooth/stickers/food1/food22.swf</asset>
+			</sticker>
+			<sticker id="food23">
+				<asset>limited/_photobooth/stickers/food1/food23.swf</asset>
+			</sticker>
+			<sticker id="food24">
+				<asset>limited/_photobooth/stickers/food1/food24.swf</asset>
+			</sticker>
+			<sticker id="food25">
+				<asset>limited/_photobooth/stickers/food1/food25.swf</asset>
+			</sticker>
+			<sticker id="food26">
+				<asset>limited/_photobooth/stickers/food1/food26.swf</asset>
+			</sticker>
+			<sticker id="food27">
+				<asset>limited/_photobooth/stickers/food1/food27.swf</asset>
+			</sticker>
+			<sticker id="food28">
+				<asset>limited/_photobooth/stickers/food1/food28.swf</asset>
+			</sticker>
+		</group>
+		<group title="Splats" columns="2">
+			<sticker id="effect6">
+				<asset>limited/_photobooth/stickers/effects1/effect6.swf</asset>
+			</sticker>
+			<sticker id="effect7">
+				<asset>limited/_photobooth/stickers/effects1/effect7.swf</asset>
+			</sticker>
+			<sticker id="effect8">
+				<asset>limited/_photobooth/stickers/effects1/effect8.swf</asset>
+			</sticker>
+			<!-- <sticker id="effect9">
+				<asset>limited/_photobooth/stickers/effects1/effect9.swf</asset>
+			</sticker> -->
+			<sticker id="effect10">
+				<asset>limited/_photobooth/stickers/effects1/effect10.swf</asset>
+			</sticker>
+			<sticker id="effect16">
+				<asset>limited/_photobooth/stickers/effects1/effect16.swf</asset>
+			</sticker>
+			<sticker id="effect17">
+				<asset>limited/_photobooth/stickers/effects1/effect17.swf</asset>
+			</sticker>
+			<!-- <sticker id="effect18">
+				<asset>limited/_photobooth/stickers/effects1/effect18.swf</asset>
+			</sticker> -->
+			<sticker id="effect19">
+				<asset>limited/_photobooth/stickers/effects1/effect19.swf</asset>
+			</sticker>
+			<sticker id="effect20">
+				<asset>limited/_photobooth/stickers/effects1/effect20.swf</asset>
+			</sticker>
+			<!-- nor these
+			<sticker id="effect21">
+				<asset>limited/_photobooth/stickers/effects1/effect21.swf</asset>
+			</sticker>
+			<sticker id="effect22">
+				<asset>limited/_photobooth/stickers/effects1/effect22.swf</asset>
+			</sticker>
+			<sticker id="effect23">
+				<asset>limited/_photobooth/stickers/effects1/effect23.swf</asset>
+			</sticker>
+			<sticker id="effect24">
+				<asset>limited/_photobooth/stickers/effects1/effect24.swf</asset>
+			</sticker>
+			<sticker id="effect25">
+				<asset>limited/_photobooth/stickers/effects1/effect25.swf</asset>
+			</sticker>
+			 -->
+			<sticker id="effect26">
+				<asset>limited/_photobooth/stickers/effects1/effect26.swf</asset>
+			</sticker>
+			<sticker id="effect27">
+				<asset>limited/_photobooth/stickers/effects1/effect27.swf</asset>
+			</sticker>
+			<sticker id="effect28">
+				<asset>limited/_photobooth/stickers/effects1/effect28.swf</asset>
+			</sticker>
+			<!-- <sticker id="effect29">
+				<asset>limited/_photobooth/stickers/effects1/effect29.swf</asset>
+			</sticker> -->
+			<sticker id="effect30">
+				<asset>limited/_photobooth/stickers/effects1/effect30.swf</asset>
+			</sticker>
+		</group>
+		<group title="Signs 1" columns="2">
+			<sticker id="sign1">
+				<asset>limited/_photobooth/stickers/signs1/sign1.swf</asset>
+			</sticker>
+			<sticker id="sign2">
+				<asset>limited/_photobooth/stickers/signs1/sign2.swf</asset>
+			</sticker>
+			<sticker id="sign3">
+				<asset>limited/_photobooth/stickers/signs1/sign3.swf</asset>
+			</sticker>
+			<sticker id="sign4">
+				<asset>limited/_photobooth/stickers/signs1/sign4.swf</asset>
+			</sticker>
+			<sticker id="sign5">
+				<asset>limited/_photobooth/stickers/signs1/sign5.swf</asset>
+			</sticker>
+			<sticker id="sign6">
+				<asset>limited/_photobooth/stickers/signs1/sign6.swf</asset>
+			</sticker>
+			<sticker id="sign7">
+				<asset>limited/_photobooth/stickers/signs1/sign7.swf</asset>
+			</sticker>
+			<sticker id="sign8">
+				<asset>limited/_photobooth/stickers/signs1/sign8.swf</asset>
+			</sticker>
+		</group>
+		<group title="Signs 2" columns="2">
+			<sticker id="sign9">
+				<asset>limited/_photobooth/stickers/signs1/sign9.swf</asset>
+			</sticker>
+			<sticker id="sign10">
+				<asset>limited/_photobooth/stickers/signs1/sign10.swf</asset>
+			</sticker>
+			<sticker id="sign11">
+				<asset>limited/_photobooth/stickers/signs1/sign11.swf</asset>
+			</sticker>
+			<sticker id="sign12">
+				<asset>limited/_photobooth/stickers/signs1/sign12.swf</asset>
+			</sticker>
+			<sticker id="sign13">
+				<asset>limited/_photobooth/stickers/signs1/sign13.swf</asset>
+			</sticker>
+			<sticker id="sign14">
+				<asset>limited/_photobooth/stickers/signs1/sign14.swf</asset>
+			</sticker>
+			<sticker id="sign15">
+				<asset>limited/_photobooth/stickers/signs1/sign15.swf</asset>
+			</sticker>
+		</group>
+		<group title="Speech Bubbles" columns="2">
+			<sticker id="speech1">
+				<asset>limited/_photobooth/stickers/speech1/speech1.swf</asset>
+			</sticker>
+			<sticker id="speech2">
+				<asset>limited/_photobooth/stickers/speech1/speech2.swf</asset>
+			</sticker>
+			<sticker id="speech3">
+				<asset>limited/_photobooth/stickers/speech1/speech3.swf</asset>
+			</sticker>
+			<sticker id="speech4">
+				<asset>limited/_photobooth/stickers/speech1/speech4.swf</asset>
+			</sticker>
+			<sticker id="speech5">
+				<asset>limited/_photobooth/stickers/speech1/speech5.swf</asset>
+			</sticker>
+			<sticker id="speech6">
+				<asset>limited/_photobooth/stickers/speech1/speech6.swf</asset>
+			</sticker>
+			<sticker id="speech7">
+				<asset>limited/_photobooth/stickers/speech1/speech7.swf</asset>
+			</sticker>
+			<sticker id="speech8">
+				<asset>limited/_photobooth/stickers/speech1/speech8.swf</asset>
+			</sticker>
+			<sticker id="speech9">
+				<asset>limited/_photobooth/stickers/speech1/speech9.swf</asset>
+			</sticker>
+			<sticker id="speech10">
+				<asset>limited/_photobooth/stickers/speech1/speech10.swf</asset>
+			</sticker>
+		</group>
+		<group title="Emotes" columns="2">
+			<sticker id="emote1">
+				<asset>limited/_photobooth/stickers/emotes1/emote1.swf</asset>
+			</sticker>
+			<sticker id="emote2">
+				<asset>limited/_photobooth/stickers/emotes1/emote2.swf</asset>
+			</sticker>
+			<sticker id="emote3">
+				<asset>limited/_photobooth/stickers/emotes1/emote3.swf</asset>
+			</sticker>
+			<sticker id="emote4">
+				<asset>limited/_photobooth/stickers/emotes1/emote4.swf</asset>
+			</sticker>
+			<sticker id="emote5">
+				<asset>limited/_photobooth/stickers/emotes1/emote5.swf</asset>
+			</sticker>
+			<sticker id="emote6">
+				<asset>limited/_photobooth/stickers/emotes1/emote6.swf</asset>
+			</sticker>
+			<sticker id="emote7">
+				<asset>limited/_photobooth/stickers/emotes1/emote7.swf</asset>
+			</sticker>
+			<sticker id="emote8">
+				<asset>limited/_photobooth/stickers/emotes1/emote8.swf</asset>
+			</sticker>
+			<sticker id="emote9">
+				<asset>limited/_photobooth/stickers/emotes1/emote9.swf</asset>
+			</sticker>
+			<sticker id="emote10">
+				<asset>limited/_photobooth/stickers/emotes1/emote10.swf</asset>
+			</sticker>
+			<sticker id="emote11">
+				<asset>limited/_photobooth/stickers/emotes1/emote11.swf</asset>
+			</sticker>
+			<sticker id="emote12">
+				<asset>limited/_photobooth/stickers/emotes1/emote12.swf</asset>
+			</sticker>
+		</group>
+		<group title="Words">
+			<sticker id="stamp">
+				<asset>limited/_photobooth/stickers/words1/word39.swf</asset>
+			</sticker>
+			<sticker id="greetingsfrom">
+				<asset>limited/_photobooth/stickers/words1/word9.swf</asset>
+			</sticker>
+			<sticker id="poptropica">
+				<asset>limited/_photobooth/stickers/words1/word18.swf</asset>
+			</sticker>
+			<sticker id="chillin">
+				<asset>limited/_photobooth/stickers/words1/word4.swf</asset>
+			</sticker>
+			<sticker id="bonus">
+				<asset>limited/_photobooth/stickers/words1/word2.swf</asset>
+			</sticker>
+			<sticker id="super">
+				<asset>limited/_photobooth/stickers/words1/word25.swf</asset>
+			</sticker>
+			<sticker id="cool">
+				<asset>limited/_photobooth/stickers/words1/word6.swf</asset>
+			</sticker>
+		</group>
+		<group title="Exclamations">
+			<sticker id="grr">
+				<asset>limited/_photobooth/stickers/words1/word8.swf</asset>
+			</sticker>
+			<sticker id="huh">
+				<asset>limited/_photobooth/stickers/words1/word11.swf</asset>
+			</sticker>
+			<sticker id="lol">
+				<asset>limited/_photobooth/stickers/words1/word12.swf</asset>
+			</sticker>
+			<sticker id="omnom">
+				<asset>limited/_photobooth/stickers/words1/word13.swf</asset>
+			</sticker>
+			<sticker id="ouch">
+				<asset>limited/_photobooth/stickers/words1/word14.swf</asset>
+			</sticker>
+			<sticker id="wow">
+				<asset>limited/_photobooth/stickers/words1/word31.swf</asset>
+			</sticker>
+		</group>
+		<group title="Leetspeak">
+			<sticker id="gr8!">
+				<asset>limited/_photobooth/stickers/words1/word10.swf</asset>
+			</sticker>
+			<sticker id="yaas">
+				<asset>limited/_photobooth/stickers/words1/word32.swf</asset>
+			</sticker>
+			<sticker id="tbt">
+				<asset>limited/_photobooth/stickers/words1/word35.swf</asset>
+			</sticker>
+			<sticker id="yolo">
+				<asset>limited/_photobooth/stickers/words1/word36.swf</asset>
+			</sticker>
+			<sticker id="???">
+				<asset>limited/_photobooth/stickers/words1/word37.swf</asset>
+			</sticker>
+			<sticker id="!!!">
+				<asset>limited/_photobooth/stickers/words1/word38.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 1">
+			<sticker id="belch">
+				<asset>limited/_photobooth/stickers/words1/word1.swf</asset>
+			</sticker>
+			<sticker id="boom">
+				<asset>limited/_photobooth/stickers/words1/word3.swf</asset>
+			</sticker>
+			<sticker id="chomp">
+				<asset>limited/_photobooth/stickers/words1/word5.swf</asset>
+			</sticker>
+			<sticker id="crunch">
+				<asset>limited/_photobooth/stickers/words1/word7.swf</asset>
+			</sticker>
+			<sticker id="plop">
+				<asset>limited/_photobooth/stickers/words1/word15.swf</asset>
+			</sticker>
+			<sticker id="poof">
+				<asset>limited/_photobooth/stickers/words1/word16.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 2">
+			<sticker id="pop">
+				<asset>limited/_photobooth/stickers/words1/word17.swf</asset>
+			</sticker>
+			<sticker id="pow">
+				<asset>limited/_photobooth/stickers/words1/word19.swf</asset>
+			</sticker>
+			<sticker id="ring">
+				<asset>limited/_photobooth/stickers/words1/word20.swf</asset>
+			</sticker>
+			<sticker id="shock">
+				<asset>limited/_photobooth/stickers/words1/word21.swf</asset>
+			</sticker>
+			<sticker id="splat">
+				<asset>limited/_photobooth/stickers/words1/word22.swf</asset>
+			</sticker>
+			<sticker id="squish">
+				<asset>limited/_photobooth/stickers/words1/word23.swf</asset>
+			</sticker>
+			<sticker id="sting">
+				<asset>limited/_photobooth/stickers/words1/word24.swf</asset>
+			</sticker>
+		</group>
+		<group title="Sounds 3">
+			<sticker id="thud">
+				<asset>limited/_photobooth/stickers/words1/word26.swf</asset>
+			</sticker>
+			<sticker id="thump">
+				<asset>limited/_photobooth/stickers/words1/word27.swf</asset>
+			</sticker>
+			<sticker id="tickle">
+				<asset>limited/_photobooth/stickers/words1/word28.swf</asset>
+			</sticker>
+			<sticker id="whack">
+				<asset>limited/_photobooth/stickers/words1/word29.swf</asset>
+			</sticker>
+			<sticker id="woosh">
+				<asset>limited/_photobooth/stickers/words1/word30.swf</asset>
+			</sticker>
+			<sticker id="zap">
+				<asset>limited/_photobooth/stickers/words1/word33.swf</asset>
+			</sticker>
+			<sticker id="zing">
+				<asset>limited/_photobooth/stickers/words1/word34.swf</asset>
+			</sticker>
+		</group>
+	
+	</stickers>
+	<!-- 
+	<wordBubbles>
+		<group title="Speech Bubble">
+			<sticker id="speech1">
+				<asset>ui/elements/wordBalloon.swf</asset>
+			</sticker>
+		</group>
+		<group title="Static Bubble">
+			<sticker id="speech2">
+				<asset>ui/elements/wordBalloonRadio.swf</asset>
+			</sticker>
+		</group>
+		<group title="thought Bubble">
+			<sticker id="speech3">
+				<asset>ui/elements/characterDialogChoiceBalloon.swf</asset>
+			</sticker>
+		</group>
+  	</wordBubbles>
+  	 -->
+  	<fonts>
+	  	<font>Billy Serif</font>
+	  	<font>Arial</font>
+	  	<font>CreativeBlock BB</font>
+	  	<font>GhostKid AOE</font>
+	  	<font>Grilled Cheese Wide</font>
+  	</fonts>
+  	<sizes>
+	  	<size>32</size>
+	  	<size>40</size>
+	  	<size>48</size>
+	  	<size>56</size>
+	  	<size>64</size>
+	  	<size>8</size>
+	  	<size>12</size>
+	  	<size>16</size>
+	  	<size>20</size>
+	  	<size>24</size>
+  	</sizes>
+  	<colors>
+	  	<color>0x000000</color>
+	  	<color>0x666666</color>
+	  	<color>0x999999</color>
+	  	<color>0xcccccc</color>
+	  	<color>0xffffff</color>
+	  	<color>0xff0000</color>
+	  	<color>0x00ff00</color>
+	  	<color>0x0000ff</color>
+	  	<color>0xffff00</color>
+	  	<color>0xff00ff</color>
+	  	<color>0x00ffff</color>
+	  	<color>0xFF9900</color>
+	  	<color>0x9900ff</color>
+	  	<color>0x0099ff</color>
+	  	<color>0x1A9FFC</color>
+  	</colors>
+</photoBooth>

@@ -1,0 +1,34 @@
+<part>
+	<id>may_stickynote</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.PointItem</param> 
+						<param id="waitLabel" type="String">pointing</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">may_stickynotes</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">may_stickynotes</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

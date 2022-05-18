@@ -1,0 +1,13 @@
+<specialAbility id="limited/shoes_ag_boots">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddShoes</className>
+	<parameters>
+		<param id="shoePath">entity/character/foot/limited_ag_boots.swf</param>
+		<!--
+		<param id="showBlur">true</param>
+		<param id="blursPerSecond">8</param>
+		<param id="color">0xD87431</param>
+		<param id="alpha">.75</param>-->
+	</parameters>
+</specialAbility>

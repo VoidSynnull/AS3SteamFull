@@ -1,0 +1,23 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>DoraVBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">http://dora.movie</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">http://dora.movie</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Card">http://dora.movie</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+	</clickUrls>
+	
+	
+	
+	<boycards>
+		<card>2970</card>
+		<card>2971</card>
+	</boycards>
+	<girlcards>
+		<card>2970</card>
+		<card>2971</card>
+	</girlcards>
+</campaign>

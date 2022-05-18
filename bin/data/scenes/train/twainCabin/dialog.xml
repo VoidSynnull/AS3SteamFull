@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="twain">
+		<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="metTwain,true">You look a little green.</question>
+				<answer>I'd rather be on a steamship. Train travel makes me ill. It's the coal fumes... *urk*</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

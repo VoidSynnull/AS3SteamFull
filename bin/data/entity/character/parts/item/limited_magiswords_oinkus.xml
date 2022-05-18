@@ -1,0 +1,29 @@
+<part>
+	<id>limited_magiswords_oinkus</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2813</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+	<specialAbility>
+		<parameters>
+			<param id="tracking">MagiswordsQuest,Oinkus Sword</param>
+		</parameters>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="startFrame" type="string">on</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+	
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,20 @@
+<campaign>
+  	<campaignId>TangledMMSQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Tangled</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">https://www.youtube.com/playlist?list=PLiv1IUQDVSNKRbDEGn4fFnVxBksQnRHqd</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2833</card>
+		<card>2834</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2833</card>
+		<card>2834</card>
+	</boycards>
+	<girlcards>
+		<card>2833</card>
+		<card>2834</card>
+	</girlcards>
+</campaign>

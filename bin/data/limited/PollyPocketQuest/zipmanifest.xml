@@ -1,0 +1,130 @@
+<manifest>
+	<!-- PollyPocket xml files -->
+	<data type="PollyPocket" path="data/limited/PollyPocketQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/PollyPocketQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="game" path="data/scenes/limited/PollyPocketQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/PollyPocketQuest_Interior/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		
+	<assets type="game" path="assets/scenes/limited/PollyPocketQuest_Game/" ext="swf">
+		<asset>foreground</asset>
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/PollyPocketQuest/" ext="swf">
+		<asset>boy</asset>
+		<asset>brunette</asset>
+		<asset>Lose</asset>
+		<asset>polly</asset>
+		<asset>redhead</asset>
+		<asset>shrink</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2979</asset>
+		<asset>2980</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml">
+		<asset>salute</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>PollyPocketQuest</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>crunch_01</asset>
+		<asset>dissonant_guitar_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" keep="true" ext="xml">
+		<asset>ppopgirlle</asset>
+		<asset>sponsorheatherg</asset>
+		<asset>skullnavigator</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" keep="true" ext="swf">
+		<asset>ppopgirlle</asset>
+		<asset>sponsorheatherg</asset>
+		<asset>skullnavigator</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" keep="true" ext="xml">
+		<asset>limited_pollypocket_polly</asset>
+		<asset>limited_pollypocket_red</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" keep="true" ext="swf">
+		<asset>limited_pollypocket_polly</asset>
+		<asset>limited_pollypocket_red</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" keep="true" ext="xml">
+		<asset>limited_pollypocket_polly</asset>
+		<asset>limited_pollypocket_red</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" keep="true" ext="swf">
+		<asset>limited_pollypocket_polly</asset>
+		<asset>limited_pollypocket_red</asset>
+		<asset>limited_pollypocket_brunette</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" keep="true" ext="xml">
+		<asset>char25</asset>
+		<asset>limited_pollypocket_red</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" keep="true" ext="swf">
+		<asset>char25</asset>
+		<asset>limited_pollypocket_red</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_pollypocket_amulet</asset>
+		<asset>limited_pollypocket_red</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_pollypocket_amulet</asset>
+		<asset>limited_pollypocket_red</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" ext="xml">
+		<asset>limited_pollypocket_brunette</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" ext="swf">
+		<asset>limited_pollypocket_brunette</asset>
+	</assets>
+</manifest>

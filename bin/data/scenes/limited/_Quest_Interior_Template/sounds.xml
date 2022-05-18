@@ -1,0 +1,44 @@
+<sounds>
+	<sound type="music">
+		<asset>Carrot_ShopTheme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound action="climb" type="effects">
+		<asset allowOverlap="false" id="climb1">rope_strain_02.mp3</asset>
+		<asset allowOverlap="false" id="climb2">rope_strain_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="platform">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="mp1">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="mp2">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="trees">ls_leaves_01.mp3, ls_leaves_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="stone">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="clay">ls_clay_tile_01.mp3, ls_clay_tile_02.mp3</asset>
+		<asset id="ceramics">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="platform">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="mp1">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="mp2">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="trees">fs_leaves_01.mp3, fs_leaves_02.mp3, fs_leaves_03.mp3, fs_leaves_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="stone">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="metal">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="clay">fs_clay_tile_01.mp3, fs_clay_tile_02.mp3, fs_clay_tile_03.mp3, fs_clay_tile_04.mp3</asset>
+		<asset id="ceramics">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+</sounds>

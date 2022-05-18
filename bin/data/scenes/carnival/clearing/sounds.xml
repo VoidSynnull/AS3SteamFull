@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">forest_night.mp3</asset>
+		<asset triggeredByEvent="monsters_emerge" loop="true" fade="true">monsters_emerge.mp3</asset>
+		<asset triggeredByEvent="monsters_unleashed" loop="true" fade="true">carnival_night.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="stump">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="stump">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="morphSound0">monsters_1.mp3</asset>
+		<asset triggeredByEvent="morphSound1">creepy_monsters_1.mp3</asset>
+		<asset triggeredByEvent="morphSound2">monsters_2.mp3</asset>
+		<asset triggeredByEvent="morphSound3">creepy_monsters_2.mp3</asset>
+		<asset triggeredByEvent="morphSound4">monsters_3.mp3</asset>
+		<asset triggeredByEvent="morphSound5">creepy_monsters_3.mp3</asset>
+		<asset triggeredByEvent="morphSound6">monsters_1.mp3</asset>
+		<asset triggeredByEvent="morphSound7">creepy_monsters_2.mp3</asset>
+	</sound>
+</sounds>

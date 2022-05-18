@@ -1,0 +1,18 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>ArcadeBotBreakerQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<clickUrls>
+		<clickUrl id="Default">https://play.americangirl.com/american-girl-play/en-us/characters/Courtney</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+	</clickUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2017</card>
+	</boycards>
+	<girlcards>
+		<card>2017</card>
+	</girlcards>
+</campaign>

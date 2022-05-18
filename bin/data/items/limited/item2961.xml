@@ -1,0 +1,70 @@
+<item id="2961"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>DC Supergirls Lasso Card</name> <!-- *** Change this card name -->
+  	<campaignID>DCSupergirlsVBB</campaignID> <!-- *** Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="true" />
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>DC Super Hero Girls™</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Wonder Woman™</value> <!-- Change this title -->
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<web>Press SPACEBAR to throw!</web>
+			<mobile>Press action button to throw!</mobile>
+			<y>66</y>
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<text id="copyright">
+			<value>© & ™ DC & WBEI.(s19)</value> <!-- Change or delete this copyright -->
+		</text>
+ 	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundPurple.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<facial>limited_wonderwoman</facial>
+			<hair>limited_wonderwoman</hair>
+			<shirt>limited_wonderwoman</shirt>
+			<pants>limited_wonderwoman</pants>
+			<item>limited_dc_lasso</item>
+		</look>
+	</looks> 
+</item>

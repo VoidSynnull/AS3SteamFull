@@ -1,0 +1,39 @@
+<item id="3710">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeTitle">
+			<value>Pretty Tough</value>
+			 </text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<looks>
+		<look>
+			<mouth>p_seacaptain_girl</mouth>
+			<hair>sponsor_kerstie</hair>
+			<pants>2</pants>
+			<overshirt>leather_jacket2</overshirt>
+			<shirt>1</shirt>
+		</look>
+	</looks> 
+</item>

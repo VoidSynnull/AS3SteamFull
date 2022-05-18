@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="player">
+
+    </character>
+    <character id="char1">
+		<statement triggerEvent = "watch_canApply">Ten years on the job and they let me go just like that! The mall’s not safe, I tell ya!</statement>
+    </character>
+    <character id="char2">
+		<statement>Too bad about Gus, the security guard, but I guess the stress of the job was too much for him.</statement>
+    </character>
+    <character id="char3">
+		<statement link="watch_say">I know nothing much ever happens here, but with no night watchman, who’s going to look after my shop?</statement>
+		<statement id="watch_say">Say, why don’t you speak to the Mall Manager and apply for the job?</statement>
+    </character>
+</dialogs>

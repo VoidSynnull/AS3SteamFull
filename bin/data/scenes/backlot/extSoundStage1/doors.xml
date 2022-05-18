@@ -1,0 +1,42 @@
+<doors>
+  <door id="fenceExit">
+    <scene>game.scenes.backlot.sunriseStreet.SunriseStreet</scene>
+    <x>4328</x>
+    <y>1112</y>
+    <label>
+      <text>Exit</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="soundstageExit">
+    <scene>game.scenes.backlot.soundStage1.SoundStage1</scene>
+    <x>2453</x>
+    <y>1235</y>
+    <direction>left</direction>
+    <label>
+      <text>Enter</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="cartExit">
+    <scene>game.scenes.backlot.backlotTopDown.BacklotTopDown</scene>
+    <x>480</x>
+    <y>350</y>
+    <label>
+      <text>Ride</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+</doors>

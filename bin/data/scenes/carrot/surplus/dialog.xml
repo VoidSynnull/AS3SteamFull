@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="player">
+		<statement id="present_cat">text16</statement>
+	</character>
+	<character id="owner">
+		<conversation>
+			<exchange>
+				<question>shared.text41</question>
+				<answer>text17</answer>
+			</exchange>
+			<exchange>
+				<question>text18</question>
+				<answer>text19</answer>
+			</exchange>
+			<exchange>
+				<question>text20</question>
+				<answer>text21</answer>
+			</exchange>
+		</conversation>
+		<conversation event="cat_returned">
+			<exchange>
+				<question>text24</question>
+				<answer>text25</answer>
+			</exchange>
+			<exchange>
+				<question>text22</question>
+				<answer>text23</answer>
+			</exchange>	
+		</conversation>
+		<conversation event="destroyed_rabbot">
+			<exchange>
+				<question>text24</question>
+				<answer>text25</answer>
+			</exchange>
+			<exchange>
+				<question>text22</question>
+				<answer>text26</answer>
+			</exchange>						
+		</conversation>	
+		<statement id="cat_following" link="crowbar_give" triggerEvent="completeEvent" triggerEventArgs="cat_returned">text27</statement>
+		<statement id="crowbar_give" triggerEvent="giveItem" triggerEventArgs="crowbar">text28</statement>
+	</character>
+	<character id="char3">
+		<statement>text29</statement>
+	</character>
+</dialogs>

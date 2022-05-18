@@ -1,0 +1,25 @@
+<part>
+	<id>stor_discocorn</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Disco</param>
+					</parameters>
+				</action>
+				<action class="AnimationAction" startDelay="3" lockInput="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Pop</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

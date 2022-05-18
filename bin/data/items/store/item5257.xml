@@ -1,0 +1,38 @@
+<item id="5257"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+  		<btn>
+  			<index>0</index>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Big Dreadlocks</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<hair>bigdreadlocks</hair>
+		</look>
+	</looks>
+
+</item>

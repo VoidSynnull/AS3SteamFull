@@ -1,0 +1,24 @@
+<island>
+	<name>Lego Island</name>
+	<eventsClass></eventsClass>
+	<gameVersion>AS3</gameVersion>
+	<island>lego</island>
+	
+	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+	</itemIdMap>
+	
+	<firstScene>
+		<scene>game.scenes.lego.mainStreet.Mainstreet</scene>
+		<x>1570</x>
+		<y>840</y>
+		<direction>left</direction>
+	</firstScene>
+	
+	<playerMap></playerMap>
+	<medallion></medallion>
+</island>

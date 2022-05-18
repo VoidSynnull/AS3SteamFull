@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Villain_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="shrink">
+		<asset id="shrinkable1">shrink_01.mp3</asset>
+		<asset id="shrinkable2">shrink_01.mp3</asset>
+		<asset id="shrinkable3">shrink_01.mp3</asset>
+		<asset id="shrinkable4">shrink_01.mp3</asset>
+		<asset id="shrinkable5">shrink_01.mp3</asset>
+		<asset id="shrinkable6">shrink_01.mp3</asset>
+		<asset id="shrinkable7">shrink_01.mp3</asset>
+		<asset id="shrinkable8">shrink_01.mp3</asset>
+		<asset id="shrinkable9">shrink_01.mp3</asset>
+		<asset id="shrinkable10">shrink_01.mp3</asset>
+		<asset id="shrinkable11">shrink_01.mp3</asset>
+		<asset id="shrinkable12">shrink_01.mp3</asset>
+		<asset id="shrinkable13">shrink_01.mp3</asset>
+		<asset id="shrinkable14">shrink_01.mp3</asset>
+		<asset id="shrinkable15">shrink_01.mp3</asset>
+		<asset id="shrinkable16">shrink_01.mp3</asset>
+		<asset id="shrinkable17">shrink_01.mp3</asset>
+		<asset id="shrinkable18">shrink_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3,fs_linoleum_02.mp3,fs_linoleum_03.mp3,fs_linoleum_04.mp3</asset>
+		<asset id="shelf">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+		<asset id="book">fs_cardboard_01.mp3,fs_cardboard_02.mp3,fs_cardboard_03.mp3,fs_cardboard_04.mp3</asset>
+		<asset id="chair">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="chair_metal">fs_metal_01.mp3,fs_metal_02.mp3,fs_metal_03.mp3,fs_metal_04.mp3</asset>
+		<asset id="desk">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3,ls_linoleum_02.mp3</asset>
+		<asset id="shelf">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+		<asset id="book">ls_cardboard_01.mp3,ls_cardboard_02.mp3</asset>
+		<asset id="chair">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="chair_metal">ls_metal_01.mp3,ls_metal_02.mp3</asset>
+		<asset id="desk">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+	</sound>
+</sounds>

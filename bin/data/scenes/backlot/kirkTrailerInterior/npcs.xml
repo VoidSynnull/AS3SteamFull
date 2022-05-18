@@ -1,0 +1,59 @@
+<npcs>
+  <npc id="char1" type="portrait" variant="mannequin"><!-- type dummy doesn't work for turning them into a manikin -->
+    <skin>
+      <gender>male</gender>
+      <skinColor>16639926</skinColor>
+      <hairColor>4536617</hairColor>
+      <eyes/>
+      <marks/>
+      <facial>bl_indiana</facial>
+      <hair>bartenderpub</hair>
+      <shirt>nim2</shirt>
+      <pants>egyptarch</pants>
+      <pack/>
+      <item/>
+      <overshirt>skullmainhaylady</overshirt>
+      <overpants>nim2</overpants>
+      <lineColor/>
+      <eyeState>open</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>116.1</x>
+      <y>495</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+    <direction>left</direction>
+  </npc>
+  <npc id="char2" type="portrait" variant="mannequin"><!-- type dummy doesn't work for turning them into a manikin -->
+    <skin>
+      <gender>1</gender>
+      <skinColor>0xfae0c9</skinColor>
+      <hairColor>0x1e0f07</hairColor>
+      <eyes/>
+      <marks>sideburns</marks>
+      <facial/>
+      <hair>z_disco2</hair>
+      <shirt>z_disco2</shirt>
+      <pants>wwannouncer</pants>
+      <pack/>
+      <item/>
+      <overshirt/>
+      <overpants/>
+      <lineColor/>
+      <eyeState>squint</eyeState>
+      <lineWidth/>
+    </skin>
+    <position>
+      <x>312</x>
+      <y>495</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+</npcs>

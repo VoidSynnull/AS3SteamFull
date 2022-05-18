@@ -1,0 +1,151 @@
+<dialogs>
+	<character id="player">
+		<statement id="bandit">I didn't do anything!</statement>
+		<statement id="proof">I could prove it, if I could just find out what those criminals were up to...</statement>
+		
+		<statement id="done">I'm done for the day.</statement>
+		<statement id="need_bit">This might be useful, if i could sneak it past the guard.</statement>
+		<statement id="has_bit">I need something to spin this drill bit if i want to use it.</statement>
+		<statement id="pasta">Looks like the guard still hasen't noticed the switch.</statement>
+		<statement id="need_distraction">I'll need to distract the guard before I can use this.</statement>
+		<statement id="plates_finished">I already made a stack of license plates for the day.</statement>
+		<statement id="nothing_grind">I have nothing to grind right now.</statement>
+		<statement id="help_guy">I should get that drill bit for Marion first.</statement>
+		<statement id="one_plate">I should make at least one license plate before i go.</statement>
+		<statement id="done_pressing">The machine is starting to over-heat, I think i've made enough license plates for today.</statement>
+		<statement id="times_up">Time's up, i'll have to try again tomorrow.</statement>		
+		<statement id="vents">I think that did it, now the vents exit over the guard's office.</statement>
+		<statement id="right">That's right.</statement>
+		<statement id="all">Here's all the gum I have.</statement>
+		
+		<statement id="paint">I need to borrow the drill bit before I can switch it for this.</statement>
+    </character>
+	<character id="marion">
+		<statement id="bad">You must have done something pretty bad to make the Big Tuna so mad at you this morning.</statement>
+		<statement id="sure">Sure, sure. We're all innocent in here...</statement>
+		<statement id="files">For the right price, I could get you their files. But you've got to earn some sticks first.</statement>
+		<statement id="teach">Come on, I'll teach you how to work the machine, first, go grab me a drill bit from the guard.</statement>
+		<statement id="thanks" triggerEvent="triggerEvent" triggerEventArgs="borrowed_tool, true">Thanks, now we can get started, use that machine to the left to print license plates.</statement>
+		<statement id="pay">The more license plates we print, the more gum we'll earn.</statement>
+    	<statement triggerEvent="triggerEvent" triggerEventArgs="drill_plz">Get me that drill bit yet?</statement>
+    	<statement id="escape">Word is you're making your escape tonight.</statement>
+    	<statement id="help">You'll probably want those prisoner files if you want to clear your name, got anything to offer for them?</statement>
+    	<statement id="deal">I suppose that's good enough, here you go.</statement>
+    	
+		<statement event="borrowed_tool">Use that machine on the left to print license plates.</statement>
+		<statement event="metal_day_1_complete">Meet me in the Yard with the gum if you want those files.</statement>
+		<statement event="gotItem_prison_files">Don't let the guards see those files.</statement>
+		<!-- If the player has not yet sharpened the spoon: -->
+		<statement event="hasItem_spoon">That grinder over there could turn any piece of metal into a useful chisel.</statement>
+		<!-- If the player has the chisel but not yet chiseled out of the cell. -->
+		<statement event="hasItem_sharpened_spoon">There's an awful lot of space behind those cells. You just need to chip through the grate.</statement>
+		<!-- If the player has accessed the utility corridor but not made the dummy head. -->
+		<statement event="cell_grate_open">Heard a story about an inmate who escaped years ago. Made a dummy head that he left in his bunk to fool the guards.</statement>
+		<!-- If the player has the unpainted dummy head. -->
+		<statement event="hasItem_dummy_head">It's dark at night, but not that dark. That bright-white head won't cut it.</statement>
+		<!-- If the player has the painted dummy head. -->
+		<statement event="hasItem_painted_dummy_head">The only way to smuggle a drill bit out of here would be to give the guard something that he thinks is the drill bit.</statement>
+		<!-- If the player has everything but the mixer. -->
+		<statement event="hasItem_painted_pasta">Flashy's got a hot temper. If you could set him off in the mess hall, you could probably grab Flambe's mixer.</statement>
+		
+	    <statement event="drilled_plate">Good luck!</statement>
+	   	<statement id="luck">Good luck!</statement>
+	    
+    </character>
+    <character id="guard">
+    	<statement id="duty">From now on you're on license plate duty, the more you make, the more gum you'll earn.</statement>
+    	<statement id="duty2">Go into the shop and get to work.</statement>
+    	
+    	<statement event="guard_glasses_steamed">Can't see anything.</statement>
+    	
+    	<statement id="block_grinder">Hey! No grinding of unauthorized materials!</statement>
+    	<statement id="fan">Nobody turns on the fan but me!</statement>
+    	
+    	<conversation id="guard_intro">
+			<exchange>
+				<question>never mind.</question>
+			</exchange>
+			<exchange>
+				<question>Can i leave?</question>
+				<answer>Not until you've learned to use the license plate machine.</answer>
+			</exchange>
+			<exchange>
+				<question>One drill bit, please.</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="drill_bit">Bring it back when you're done.</answer>
+			</exchange>
+		</conversation>
+				
+		<conversation  id="guard_locked">
+			<exchange>
+				<question>never mind.</question>
+			</exchange>
+			<exchange>
+				<question>Can i leave?</question>
+				<answer>Not until you've learned to use the license plate machine.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation  id="guard_normal">
+			<exchange>
+				<question>never mind.</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="return_stuff">I'm done for the day.</question>
+			</exchange>
+			<exchange>
+				<question>One drill bit, please.</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="drill_bit">Bring it back when you're done.</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation  id="guard_leave">
+			<exchange>
+				<question>never mind.</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="return_stuff">I'm done for the day.</question>
+			</exchange>
+		</conversation>
+
+		<statement id="back">Bring it back when you're done.</statement>
+		<statement id="gum">You made [x] license plates. Here's your gum.</statement>
+		<statement id="gum2">You made [x] license plates, sorry, that's not worth any gum.</statement>
+		<statement id="what">What have you done? Let me see.</statement>
+		
+		<statement id="junk">Ack! I’m blind as a bat!</statement>
+		<statement id="steam">Forget it, I can't see anything with my glasses all steamed up!</statement>
+		<statement id="cool">Just let that cool off for now, I'll have it fixed by tomorrow.</statement>
+		<statement id="see">What's happening?! I can't see anything!</statement>
+		
+		<statement id="bit">Return that drill bit you borrowed.</statement>
+		<statement id="bit2">Returning that drill bit you borrowed?</statement>
+	
+		<statement id="crude_bit">You can't fool me with this crude replica, my vision is clear with these glasses!</statement>
+		<statement id="raw_bit">Hey, this drill bit is yellow, wait it’s just a noodle! What are you trying to pull here?</statement>
+		<statement id="bit_sneak">Darn, can't see a thing... look's about right, move along!</statement>
+    </character>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dialogs>

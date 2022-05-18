@@ -1,0 +1,14 @@
+<part>
+	<id>limited_badkitty_tail</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<campaignID>2626</campaignID>
+	<specialAbility id="DIPopup">
+		<className>game.data.specialAbility.character.BadKittyPower</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/BadKittyPowerIC/badparts.swf</param>
+			<param id="tracking">BadKittyPowerIC,Power</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="muscle_expand">Boss_Battle_Theme.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="arm_boss_defeated">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="radial" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="enemySpawnBase1" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="enemySpawnBase2" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="musclesUnlocked" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="musclesLocked" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="enemySpawn1" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="enemySpawn2" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="musclesLocked" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="musclesLocked" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="calc1" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+		<asset id="calc2" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+		<asset id="calc3" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+		<asset id="calc4" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+		<asset id="calc5" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+		<asset id="calc6" allowOverlap="false">stone_impact_02.mp3, stone_impact_03.mp3, stone_impact_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="spawn_virus">flesh_impact_06.mp3</asset>
+		<asset triggeredByEvent="wbc_swarm">consume_virus_L.mp3</asset>
+		
+		<asset triggeredByEvent="muscle_contract">contract_expand_muscle_01.mp3</asset>
+		<asset triggeredByEvent="muscle_expand">contract_expand_muscle_02.mp3</asset>
+	</sound>
+</sounds>

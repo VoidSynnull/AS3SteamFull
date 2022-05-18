@@ -1,0 +1,43 @@
+<groups>
+	<group event="cat_is_inside">
+		<and>
+			<event type="entered_apartment"/>
+			<event not="true" type="chased_cat"/>
+		</and>
+	</group>
+	<group event="cat_is_outside">
+		<and>
+			<event not="true" type="cat_is_inside"/>
+		</and>
+	</group>
+	<group event="dont_know_what_to_do_with_paper_yet">
+		<and>
+			<event not="true" type="lemon_paper_light"/>
+		</and>
+	</group>
+	<group event="paper_on_table">
+		<and>
+			<event type="placed_paper"/>
+			<event not="true" type="cjs_at_school"/>
+		</and>
+	</group>
+	<group event="paper_message_visible">
+		<and>
+			<event type="paper_on_table"/>
+			<event type="lamp_on"/>
+			<event type="lamp_down"/>
+		</and>
+	</group>
+	<group event="remote_has_battery">
+		<and>
+			<event not="true" type="hasItem_battery"/>
+			<event not="true" type="car_has_battery"/>
+		</and>
+	</group>
+	<group event="car_has_battery">
+		<and>
+			<event not="true" type="hasItem_battery"/>
+			<event not="true" type="remote_has_battery"/>
+		</and>
+	</group>
+</groups>

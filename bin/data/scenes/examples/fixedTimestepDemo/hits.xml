@@ -1,0 +1,60 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="climb" color="0xffff00">
+		<component type="climb"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+		</component>
+	</hit>
+	<hit id="air" color="0x00ffff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-2600</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+		<hit id="elevator">
+		<component type="movingPlatform">
+			<visible>elevatorArt</visible>
+			<!-- set the velocity (distance over one second) -->
+			<velocity>400</velocity>
+			<!-- add as many points as needed -->
+			<points>
+				<point>
+					<x>356</x>
+					<y>3500</y>
+				</point>
+				<point>
+					<x>356</x>
+					<y>500</y>
+				</point>
+			</points>
+			<loop>true</loop>
+		</component>
+	</hit>
+</hits>

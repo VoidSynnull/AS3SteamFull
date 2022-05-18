@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="start_condo_music">Deadly_Virus.mp3</asset>
+	</sound>
+
+	<sound type="ambient">
+		<asset loop="true" fade="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="being_swallowed">being_swallowed.mp3</asset>
+		<asset triggeredByEvent="knockOnDoor">desk_bell_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="hollow_plastic">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="hard_plastic">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="cloth">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="thin_metal">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="hollow_plastic">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="hard_plastic">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="cloth">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="thin_metal">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="player">
+		<statement id="fans" triggerEvent="triggerEvent" triggerEventArgs="pan_player">If only I had some way to reach the controls...</statement>
+		<statement id="bear" triggerEvent="triggerEvent" triggerEventArgs="pan_player">Funny bear...</statement>
+		<statement id="nuggets" triggerEvent="triggerEvent" triggerEventArgs="get_nuggets">I'd like some nuggets, please.</statement>
+	</character>
+	<character id="worker">
+		<statement id="normal">Less than 3 bucks gets you the best nuggets around!</statement>
+		<statement id="distracted">That is one talented polar bear. The one here just lies in her pool all day.</statement>
+	</character>
+</dialogs>

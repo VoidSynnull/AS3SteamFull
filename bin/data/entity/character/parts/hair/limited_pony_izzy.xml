@@ -1,0 +1,30 @@
+<part>
+	<id>limited_pony_izzy</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">MyLittlePonyQuest,Izzy</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="startFrame" type="string">trigger</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" startDelay=".1">
+				<parameters>
+					<param id="target" type="entity">player</param> 
+					<param id="soundUrl" type="string">limited/MLP/magic_chimes.mp3</param> 
+				</parameters>
+			</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

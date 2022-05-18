@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="director_d">
+		<statement event="set_off_security">It's a good thing I made it here too!</statement>
+		<statement event="freed_from_cage">Now see if you can get this teleporter working.</statement>
+		<statement event="started_teleporter">It's working at last! Bwaaah ha ha ha!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement event="set_off_security">Oh no! I set off the security system!</statement>
+    </character>
+</dialogs>

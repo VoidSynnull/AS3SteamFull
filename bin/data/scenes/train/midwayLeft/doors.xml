@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorFerrisWheel">
+		<scene>game.scenes.train.ferrisWheel.FerrisWheel</scene>
+		<x>3843</x>
+		<y>4212</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>50</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+		<door id="doorMidwayRight">
+		<scene>game.scenes.train.midwayRight.MidwayRight</scene>
+		<x>69</x>
+		<y>427</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-50</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

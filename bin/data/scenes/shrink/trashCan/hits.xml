@@ -1,0 +1,26 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="generalTrash" color="0xC9CAB3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="popsicle" color="0xA89A97" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="straw" color="0xB6A8B2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

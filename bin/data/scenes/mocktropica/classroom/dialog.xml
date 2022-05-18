@@ -1,0 +1,54 @@
+<dialogs>
+	<character id="player">
+		<statement id="teachThem" link="classicPoem" linkEntityId="leadWriter">What are you trying to teach them?</statement>
+		<statement id="onFetchingSoda" triggerEvent="triggerEvent" triggerEventArgs="searchingSoda">I'm on it, teach!</statement>
+		<statement id="sodaNotWork" link="broughtSoda" linkEntityId="leadWriter">Hey, that's not how this is supposed to work.</statement>
+		<statement id="whatNightmares" link="haveNightmares" linkEntityId="leadWriter">What nightmares?</statement>
+		<statement id="wheresScript" link="findScript" linkEntityId="leadWriter">Where might someone find a Poptropica script?</statement>
+	</character>
+	
+	<character id="leadWriter">
+		<statement id="studyPoem" link="megaBotsOne" linkEntityId="student1">Settle down, class. Today we're going to study the poem "O Captain! My Captain!"</statement>
+		<statement id="changeLives" link="teachThem" linkEntityId="player">I know I can get through to these kids. I'm going to change their lives.</statement>
+		<statement id="classicPoem" triggerEvent="triggerEvent" triggerEventArgs="givePoem">The classic poem "O Captain! My Captain!" I'm hoping it will foster a love of poetry. Y'know, as an educator, I really prefer the Socratic method...</statement>
+		<statement id="onlyPoem" link="fetchSoda" triggerEvent="triggerEvent" triggerEventArgs="askedForSoda">Argh! That's the only copy I had... I'm going to need more soda pop to get through this day.</statement>
+		<statement id="fetchSoda" link="onFetchingSoda" linkEntityId="player">That's an old writer's trick. Always give the player something to search for. Hint hint.</statement>
+		<statement id="wantSoda">O Player! O Player! Find me some soda!</statement>
+		
+		<statement id="sodaNotEnough" link="sodaNotWork" linkEntityId="player">Thanks, but that's not enough to get me back in the game.</statement>
+		<statement id="broughtSoda" link="whatNightmares" linkEntityId="player">You did bring me the soda pop... but I'm afraid that if I go back, the nightmares will return.</statement>
+		<statement id="haveNightmares" link="wheresScript" linkEntityId="player">I used to have nightmares about typos in the Poptropica scripts. I'd stay in the office all night correcting them! Why, if I saw a script right now, I'd have no choice but to correct it!</statement>
+		<statement id="findScript"  triggerEvent="triggerEvent" triggerEventArgs="askedForScript">I always put them where they belong – in the trash! Hint hint.</statement>
+		<statement id="wantScript">I always put the scripts in the trash!</statement>
+		
+		<statement id="givenScript" triggerEvent="triggerEvent" triggerEventArgs="giveBadge">So many typos! Who typed this, a three-toed sloth? I need to get to my writing station!</statement>
+		<statement id="studentsChanted" link="playBots" linkEntityId="student1">Oh my... All my hard work, it really meant something to you kids... It was all worth it.</statement>
+    	<statement id="notAsHoped" triggerEvent="triggerEvent" triggerEventArgs="writerLeaveScene">This did not go as I had hoped...</statement>
+    </character>
+    
+    <character id="student1">
+		<statement id="megaBotsOne" link="megaBotsTwo" linkEntityId="student2">No way! We want to play Mega Fighting Bots!</statement>
+		<statement id="megaBotsThree" link="megaBotsFour" linkEntityId="student2">My bot will crush your bot!</statement>
+		<statement id="chantStart" link="chantContinue" linkEntityId="student2" triggerEvent="triggerEvent" triggerEventArgs="captainChant">O captain! My captain! Our fearful trip is done.</statement>
+		<statement id="playBots" link="playBotsContinue" linkEntityId="student2">That wasn't for you. It was for this other one. Now that you quit, we can play Mega Fighting Bots all day!</statement>
+		<statement>When I grow up, I'm going to be a pro gamer!</statement>
+		<statement triggeredByEvent="lostMegaFightingBots">LOL, you're bad at games!</statement>
+	</character>
+	
+	<character id="student2">
+		<statement id="megaBotsTwo" link="megaBotsThree" linkEntityId="student1" triggerEvent="triggerEvent" triggerEventArgs="turnBackStudent">Mega Fighting Bots! Mega Fighting Bots!</statement>
+		<statement id="megaBotsFour" triggerEvent="triggerEvent" triggerEventArgs="doneBickering">No way, you noob. My bot is level 87!</statement>
+		<statement id="chantContinue" link="studentsChanted" linkEntityId="leadWriter">The ship has weather'd every rack, the prize we sought is won.</statement>
+		<statement id="playBotsContinue" link="notAsHoped" linkEntityId="leadWriter">Mega Fighting Bots! Mega Fighting Bots!</statement>
+		<statement>Mega Fighting Bots is the Mega Fighting Best!</statement>
+	</character>
+	<character id="student3">
+		<statement>My mom says children are the future. Then she shakes her head.</statement>
+	</character>
+	<character id="student4">
+		<statement>I never get a turn to play.</statement>
+	</character>
+	<character id="student5">
+		<statement>Don't tell anyone, but I actually wanted to study the poem.</statement>
+	</character>
+</dialogs>

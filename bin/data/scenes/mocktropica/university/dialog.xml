@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="adManager">
+		<statement id="obtrusiveAd" link="intro" linkEntityId="player">I've done it! I've created the most obtrusive ad of all time. Our CPM is about to go through the roof!</statement>
+		<statement id="replaceAd" triggerEvent="triggerEvent" triggerEventArgs="salesMangagerLeave">If you don't like it, you're welcome to replace it with your own, less-annoying ad. Come see me when you have enough Pop Coins.</statement>
+    </character>
+    
+    <character id="player">
+		<statement id="intro" link="replaceAd" linkEntityId="adManager">This is absurd! I can't do anything!</statement>
+	</character>
+</dialogs>
+
+

@@ -1,0 +1,40 @@
+<part>
+	<id>limited_lalaloopsy_hair_bubble</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<triggerable>true</triggerable>
+	<campaignID>2662</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.RainAssets</className>
+		<parameters>
+			<param id="particleClass">game.particles.emitter.specialAbility.AssetRain</param>
+			<param id="swfPaths">particles/taffy1.swf,particles/taffy2.swf,particles/taffy3.swf</param>
+			<param id="hair">limited_lalastretchhair</param>
+			<param id="doRotation">false</param>
+			<param id="duration">7</param>
+			<param id="tracking">LalaloopsyStretchyHairIC,Stretchy Hair</param>
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">hair</param> 
+						<param id="partId" type="string">limited_lalastretchhair</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction" startDelay="7">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">hair</param> 
+						<param id="partId" type="string">limited_lalastretchhair</param> 
+						<param id="permanent" type="boolean">false</param> 
+						<param id="waitForLoad" type="boolean">false</param> 
+						<param id="revert" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

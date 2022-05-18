@@ -1,0 +1,34 @@
+<part>
+	<id>limited_lift_spirit</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2984</campaignID>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<disableBroadcast>true</disableBroadcast>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/Frozen2VBB/lift_spirits.swf</param>
+			<param id="scaleMode">null</param>
+			<param id="alignToPlayer">true</param>
+			<param id="yOffset">-570</param>
+			<param id="xOffset">550</param>
+			<param id="animClass">game.data.animation.entity.character.JumpNinja</param>
+			<param id="animClassReturn">game.data.animation.entity.character.FallingNinja</param>
+			<param id="tracking">Frozen2VBB,LiftSpirits</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="CreateVortexAction">
+					<parameters>
+						<param id="swf" type="string">limited/Frozen2VBB/petal.swf</param>
+						<param id="position" type="entity">player</param>
+						<param id="offsetY" type="number">20</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	
+</part>

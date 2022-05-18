@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="edison">
+		<statement>I'll need your help once I get this set up. You should go meet the other passengers while you're waiting.</statement>
+		
+		<statement event="metEveryone" link="start_machine">I'm going to unveil an incredible new device. It actually captures moving pictures! Let's try it out.</statement>
+    	
+    	<statement id="start_machine" triggerEvent="triggerEvent" triggerEventArgs="entered_tunnel,true">It's working! Wait here, I've got to go find that New York Times reporter!</statement>
+    	
+    	<statement triggeredByEvent="edison_response" triggerEvent="triggerEvent" triggerEventArgs="player_innocence,true">*gasp* My machine!  What have you done with it?</statement>
+    
+    	<statement triggeredByEvent="invention_stolen" triggerEvent="triggerEvent" triggerEventArgs="startedInvestigation,true">My invention - stolen! The thief can't have gone far...</statement>
+    </character>
+    
+    <character id="player">
+    	<statement triggeredByEvent="entered_tunnel" link="missing_motion_device">I can't see a thing!</statement>
+    	
+    	<statement id="missing_motion_device" triggerEvent="triggerEvent" triggerEventArgs="edison_response,true">Hey... where'd it go!?</statement>    
+    	
+    	<statement triggeredByEvent="player_innocence" triggerEvent="triggerEvent" triggerEventArgs="invention_stolen">I don't know what happened to it! It was here when the lights went out, and then...</statement>
+    </character>    	
+</dialogs>

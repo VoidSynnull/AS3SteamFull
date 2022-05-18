@@ -1,0 +1,12 @@
+<part>
+	<id>pitchfork</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<className>game.data.specialAbility.character.TwirlItem</className>
+  	</specialAbility>
+</part>

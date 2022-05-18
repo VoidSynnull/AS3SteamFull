@@ -1,0 +1,12 @@
+<specialAbility id="shoes_running_sneakers_maroon">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddShoes</className>
+	<parameters>
+		<param id="shoePath">specialAbility/objects/shoes/running_sneaker_maroon.swf</param>
+		<param id="showBlur">true</param>
+		<param id="blursPerSecond">8</param>
+		<param id="color">0x993333</param>
+		<param id="alpha">.75</param>
+	</parameters>	
+</specialAbility>

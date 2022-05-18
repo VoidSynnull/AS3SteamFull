@@ -1,0 +1,157 @@
+<npcs>
+	<npc id="sasha">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe5ad58</hairColor>
+			<mouth>astroking</mouth>
+			<facial>poptropicon_sasha</facial>
+			<hair>poptropicon_sasha</hair>
+			<shirt>poptropicon_sasha</shirt>
+			<pants>policeman</pants>
+			<overshirt>poptropicon_sasha</overshirt>
+			<overpants>witch2</overpants>
+			<eyeState>squint</eyeState>
+			<item>mk_lead_designer01</item>
+		</skin>
+		<position>
+			<x>1100</x>
+			<y>760</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="guard">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x42321c</hairColor>
+			<mouth>HunterGiveUp</mouth>
+			<marks>mk_programmer01</marks>
+			<facial>poptropicon_guard3</facial>
+			<hair>ginnk</hair>
+			<shirt>poptropicon_consec</shirt>
+			<pants>wwmarshal</pants>
+			<overshirt>poptropicon_guard3</overshirt>
+			<overpants>poptropicon_guard3</overpants>
+			<eyeState>casual</eyeState>
+			<item>empty</item>
+		</skin>
+		<position>
+			<x>300</x>
+			<y>760</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="wizard">
+		<animations loop="true">
+			<animation duration="100">game.data.animation.entity.character.Push</animation>
+			<animation duration="20">game.data.animation.entity.character.Attack</animation>
+			<animation duration="80">game.data.animation.entity.character.Push</animation>
+			<animation duration="100">game.data.animation.entity.character.PointItem</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>vcdraculaold</marks>
+			<facial>poptropicon_wizard</facial>
+			<hair>vcchris</hair>
+			<shirt>mthninjablue</shirt>
+			<pants>mtsusanb</pants>
+			<pack>skullmoroguy3</pack>
+			<item>pointer</item>
+			<overshirt>mthfishmonger</overshirt>
+			<overpants>mthreferee</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2245</x>
+			<y>378</y>
+		</position>
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+	<npc id="computer">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+			<skin>
+				<gender>female</gender>
+				<skinColor>0x8dc63f</skinColor>
+				<hairColor>0x8dc63f</hairColor>
+				<mouth>sheep</mouth>
+				<marks>pwolf1</marks>
+				<facial>lc_astronaut</facial>
+				<hair>fm16</hair>
+				<shirt>ppromqueen1e</shirt>
+				<pants>pegyptq</pants>
+				<pack>monkey</pack>
+				<overshirt>probot1b</overshirt>
+				<overpants>ubelt2</overpants>
+				<eyeState>open</eyeState>
+			</skin>
+		<position>
+			<x>1890</x>
+			<y>355</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="pinataMan">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.StandNinja</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>leo</mouth>
+			<facial>poptropicon_eahero03</facial>
+			<hair>9</hair>
+			<shirt>1</shirt>
+			<pants>astrocurrator</pants>
+			<pack>poptropicon_eahero03</pack>
+			<overshirt>poptropicon_elfarcher2</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1500</x>
+			<y>425</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="card2">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>astroguard1</mouth>
+			<marks>goat4</marks>
+			<facial>3</facial>
+			<hair>agentguy</hair>
+			<shirt>boyshirt1</shirt>
+			<pants>nw_costume1</pants>
+			<overshirt>geditor</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1940</x>
+			<y>708</y>
+		</position>
+		<direction>right</direction>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

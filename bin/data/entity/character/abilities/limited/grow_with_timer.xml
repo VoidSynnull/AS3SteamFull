@@ -1,0 +1,26 @@
+<specialAbility id="limited/grow_with_timer">
+	<type>scale</type>
+	<campaignID>2437</campaignID>
+	<className>game.data.specialAbility.SpecialAbility</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="tracking">MHGooliopeMobileMVU,Gooliope Power</param>
+	</parameters>
+	<actions>
+		<actionChain id="before_actions">
+			<action class="SetScaleTargetAction" endDelay="2" lockInput="true">
+				<parameters>
+					<param id="object" type="entity">player</param>
+					<param id="scaleTarget" type="number">0.63</param>
+				</parameters>
+			</action>
+			<action class="SetScaleTargetAction">
+				<parameters>
+					<param id="object" type="entity">player</param>
+					<param id="scaleTarget" type="number">0.36</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

@@ -1,0 +1,26 @@
+<dialogs>
+	<character id="Meg">
+		<statement id="init" triggerEvent="triggerEvent" triggerEventArgs="Who">I will take you to Mrs. Who.</statement>
+	</character>
+	<character id="MrsWho">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="travel">I'm sending you on a quest which will help Meg save her father.</statement>
+		<statement id="travel">I'm sending you on a quest which will help Meg save her father.</statement>
+		<statement id="specs">First find Mrs. Whatsit on the planet Uriel. Here, take these spectacles. These will help you to see beyond.</statement>
+	</character>
+	<character id="player">
+		<statement id="help">I'm happy to help!</statement>
+	</character>
+	<character id="Calvin">
+		<statement>Check out our movie trailer.</statement>
+	</character>
+	<character id="Charles">
+		<statement>Explore the poster gallery.</statement>
+	</character>
+	<character id="Meg2">
+		<statement>It's so great to have my father back. Thanks!</statement>
+		<statement id="thanks">It's so great to have my father back. Thanks!</statement>
+	</character>
+	<character id="Father">
+		<statement>Thanks for helping Meg save me. You are a true warrior!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,98 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0x6633CC" id="rocks">
+		<component type="hazard">
+			<knockBackVelocity>
+				<x>400</x>
+				<y>1200</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit color="0x006633" id="grass" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit color="0xFF6600" id="wall">
+		<component type="wall"/>
+	</hit>
+	<hit color="0xFFFF00" id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit color="0x660000" id="wood" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="bugsHazard1">
+		<component type="hazard">
+ 			<visible>bugsAnim1</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="bugsHazard2">
+		<component type="hazard">
+ 			<visible>bugsAnim2</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="snakeHit">
+		<component type="hazard">
+ 			<visible>snake</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc1Hazard">
+		<component type="hazard">
+ 			<visible>croc1</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc2Hazard">
+		<component type="hazard">
+ 			<visible>croc2</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc3Hazard">
+		<component type="hazard">
+ 			<visible>croc3</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc4Hazard">
+		<component type="hazard">
+ 			<visible>croc4</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="croc5Hazard">
+		<component type="hazard">
+ 			<visible>croc5</visible>
+			<knockBackVelocity>
+				<x>300</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+</hits>

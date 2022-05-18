@@ -1,0 +1,28 @@
+<part>
+	<id>limited_olaf</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2983</campaignID>
+	<hide>
+		<part>hair</part>
+		<part>shirt</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>leg1</part>
+		<part>leg2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>eyes</part>
+		<part>mouth</part>
+		<part>head</part>
+		<part>body</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/olaf_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

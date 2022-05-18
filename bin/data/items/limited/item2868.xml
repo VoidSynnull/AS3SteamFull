@@ -1,0 +1,47 @@
+<item id="2868"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Sweet Potato Follower Card</name> <!-- Change this card name -->
+  	<campaignID>Thanksgiving2017</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="activatePower" tracking="Use Sweet Potato Follower Card"> <!-- change tracking call -->
+					<parameters>
+					  		<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="deactivatePower"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+ 	<specials>
+		<specialAbility>limited/pop_follower_sweetpotato</specialAbility>	
+	</specials>
+</item>

@@ -1,0 +1,92 @@
+<groups>	
+	<group event="pre_call_to_action" triggerAndSave="true">
+		<and>
+			<event type="call_to_action" not="true"/>
+		</and>
+	</group>
+	
+	<group event="call_to_action" triggerAndSave="true">
+		<and>
+			<event type="zeus_appeas_tree" not="true"/>
+		</and>
+	</group>
+	
+	<group event="athena_in_disguise" triggerAndSave="true">
+		<and>
+			<event type="athena_transform" not="true"/>
+		</and>
+	</group>
+	
+	<group event="got_all_items" triggerAndSave="true">
+		<and>
+			<event type="gotItem_cerberusWhisker"/>
+			<event type="gotItem_giantPearl"/>
+			<event type="gotItem_hydraScale"/>
+			<event type="gotItem_minotaurRing"/>
+			<event type="gotItem_sphinxFlower"/>
+			<event type="zeus_appears_steal" not="true"/>
+		</and>
+	</group>
+	
+	<group event="hercules_alive" triggerAndSave="true">
+		<and>
+			<event type="hercules_chilling" not="true"/>
+			<event type="hercules_lost" not="true"/>
+		</and>	
+	</group>
+	
+	<group event="pre_medusa_strike" triggerAndSave="true">
+		<and>
+			<event type="hercules_lost" not="true"/>
+		</and>
+	</group>
+
+	<group event="hercules_swimming" triggerAndSave="true">
+		<and>
+			<event type="hercules_following"/>
+			<event type="hercules_underwater"/>
+			<event type="hercules_chilling" not="true"/>
+			<event type="hercules_lost" not="true"/>
+		</and>
+	</group>
+	
+	<group event="hercules_mining" triggerAndSave="true">
+		<and>
+			<event type="hercules_following"/>
+			<event type="hercules_underground"/>
+			<event type="hercules_chilling" not="true"/>
+			<event type="hercules_lost" not="true"/>
+		</and>
+	</group>
+	
+	<group event="hercules_chilling" triggerAndSave="true">
+		<and>
+			<event type="ready_to_face_zeus"/>
+			<event type="hercules_mainStreet"/>
+			<event type="hercules_lost" not="true"/>
+		</and>
+	</group>
+	
+	<group event="can_transport_hercules" triggerAndSave="true">
+		<and>
+			<event type="zeus_appears_steal"/>
+			<event type="gotItem_aphroditeMirror"/>
+			<event type="hercules_following" not="true"/>
+		</and>
+	</group>
+	
+	<group event="ready_to_face_zeus" triggerAndSave="true">
+		<and>
+			<event type="gotItem_hadesCrown"/>
+			<event type="gotItem_poseidonTrident"/>
+		</and>
+	</group>
+	
+	<group event="cleaned_all_graffiti" triggerAndSave="true">
+		<and>
+			<event type="cleaned_graffiti_0"/>
+			<event type="cleaned_graffiti_1"/>
+			<event type="cleaned_graffiti_2"/>
+		</and>
+	</group>
+</groups>

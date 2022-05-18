@@ -1,0 +1,22 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="starting" color="0x990099" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<!-- <hit id="boatHit">
+		<component type="platformTop"/>
+		<component type="scene">
+			<visible>boat</visible>
+		</component>
+	</hit> -->
+	
+	<hit id="rocks" color="0x3366CC" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

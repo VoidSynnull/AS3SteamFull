@@ -1,0 +1,38 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true"fade="true" exclusiveType="true">poptropicon2_main_theme.mp3</asset>
+		<asset loop="true"triggeredByEvent="portal_opening" fade="true" exclusiveType="true">mighty_action_force_omegon.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="push">
+		<asset id="box" allowOverlap="false" baseVolume=".5" fade="true">smooth_surface_drag_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<!-- scene sounds -->
+		<asset triggeredByEvent="portal_opening">electric_zap_03.mp3</asset>
+		<asset triggeredByEvent="portal_opening">electric_zap_05.mp3</asset>
+		<asset triggeredByEvent="earthquake" loop="true">earthquake_02_loop.mp3</asset>
+		<asset triggeredByEvent="break_glass">glass_break_03.mp3</asset>
+		<asset triggeredByEvent="cheer1">crowd_applause_03.mp3</asset>
+		<asset triggeredByEvent="cheer2">crowd_applause_02.mp3</asset>
+		<asset triggeredByEvent="laugh">crowd_disgusted_oh_01.mp3</asset>
+		<asset triggeredByEvent="laugh2">crowd_laughter_01.mp3</asset>
+		<asset triggeredByEvent="surprised">crowd_surprised_oh_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="plastic">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="rock">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="plastic">fs_plastic_01.mp3, fs_plastic_02.mp3,fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="rock">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+</sounds>

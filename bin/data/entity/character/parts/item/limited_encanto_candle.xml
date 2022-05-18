@@ -1,0 +1,76 @@
+<part>
+	<id>limited_encanto_candle</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+<!--	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+				<param id="tracking">EncantoVBB,Shape Shift Power</param>
+			</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction" lockInput="true" endDelay="2">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_encanto_camilo_transformation,limited_encanto_luisa_transformation,limited_encanto_antonio_transformation,limited_encanto__isabela_transformation,limited_encanto_mirabel_transformation</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+						<param id="color" type="uint">1</param>
+						<param id="suffix" type="number">0</param>
+						<param id="colorize" type="boolean">false</param>
+						<param id="randomize" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="RevertSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>-->
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="zipPaths">limited/EncantoVBB/luisa_transformation.zip,limited/EncantoVBB/antonio_transformation.zip,limited/EncantoVBB/mirabel_transformation.zip,limited/EncantoVBB/camilo_transformation.zip,limited/EncantoVBB/isabela_transformation.zip</param>
+			<param id="standingOnly">true</param>
+			<param id="alignToPlayer">true</param>
+			<param id="flipPopup">false</param>
+			<param id="tracking">EncantoVBB,Shape Shift Power</param>
+		</parameters>
+	<actions>
+			<actionChain id="before_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="AudioAction">
+					<parameters>
+						<param id="target" type="entity">player</param>
+						<param id="soundUrl" type="string">effects/magic_chimes_1_second.mp3</param>
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="visibility" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+
+</part>

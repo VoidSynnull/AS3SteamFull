@@ -1,0 +1,21 @@
+<tracking>
+	<track id="custom_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice></choice>
+	</track>
+	<track id="posterLeft">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Left Outside Poster</subchoice>
+	</track>
+	<track id="posterCenterBranded">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Center Outside Poster</subchoice>
+	</track>
+	<track id="posterRight">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Right Outside Poster</subchoice>
+	</track>
+</tracking>

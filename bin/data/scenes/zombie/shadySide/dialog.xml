@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="char1">
+		<statement event="hasItem_medal">I hate the color blue!</statement>
+    </character>
+    
+    <character id="char2">
+		<statement event="hasItem_medal">I walked with a zombie last night. It was okay.</statement>
+    </character>
+    
+    <character id="player">
+		<statement triggeredByEvent="locked_door">It's locked.</statement>
+		<statement triggeredByEvent="fruit_click">Wow, they must really like fruit in this town.</statement>
+    </character>
+</dialogs>

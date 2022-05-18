@@ -1,0 +1,32 @@
+<item id="3093">
+		<type>store</type>
+		<subType>general</subType>
+		<buttons>
+			<btn>
+			<label>SELECT CHARACTER</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Midas Touch</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<value>Turn yourself or other&#10;Poptropicans into gold!</value>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+		
+ 	<specials>
+			<specialAbility>midas</specialAbility>
+	</specials>
+</item>

@@ -1,0 +1,89 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">https://play.americangirl.com/american-girl-play/en-us/games/Courtney</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">https://play.americangirl.com/play/joss/</action> 
+	</hotspot>
+		<hotspot id="poster5" type="poster">
+		<action type="openUrlOnClick">https://www.americangirl.com/shop/c/girl-of-the-year-kira</action> 
+	</hotspot>
+	<hotspot id="doorCollection" type="poster">
+		<action type="enterQuest">Collection</action> 
+	</hotspot>
+	<hotspot id="videoContainerShop" width="300" height="170" type="video" >
+		<action type="play">videoFile9</action>
+		<action type="openUrlOnClick">https://www.americangirl.com/shop/c/girl-of-the-year-kira</action> 
+	</hotspot>
+	<hotspot id="chair1" type="poster">
+		<action type="gotoAndPlay">chair1,startAni</action> 
+	</hotspot>
+	<hotspot id="chair2" type="poster">
+		<action type="gotoAndPlay">chair2,startAni</action> 
+	</hotspot>
+		<hotspot id="chair3" type="poster">
+		<action type="gotoAndPlay">chair3,startAni</action> 
+	</hotspot>
+		<hotspot id="chair4" type="poster">
+		<action type="gotoAndPlay">chair4,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle1" type="poster">
+		<action type="gotoAndPlay">sparkle1,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle2" type="poster">
+		<action type="gotoAndPlay">sparkle2,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle3" type="poster">
+		<action type="gotoAndPlay">sparkle3,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle4" type="poster">
+		<action type="gotoAndPlay">sparkle4,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle5" type="poster">
+		<action type="gotoAndPlay">sparkle5,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle6" type="poster">
+		<action type="gotoAndPlay">sparkle6,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle7" type="poster">
+		<action type="gotoAndPlay">sparkle7,startAni</action> 
+	</hotspot>
+	<hotspot id="sparkle8" type="poster">
+		<action type="gotoAndPlay">sparkle8,startAni</action> 
+	</hotspot>
+	<hotspot id="ketchupMustard" type="poster">
+		<action type="gotoAndPlay">ketchupMustard,startAni</action> 
+	</hotspot>
+	<hotspot id="phone" type="poster">
+		<action type="gotoAndPlay">phone,startAni</action> 
+	</hotspot>
+	<hotspot id="carebear" type="poster">
+		<action type="gotoAndPlay">carebear,startAni</action> 
+	</hotspot>
+	<hotspot id="boombox" type="poster">
+		<action type="gotoAndPlay">boombox,startAni</action> 
+	</hotspot>
+	<hotspot id="burger" type="poster">
+		<action type="gotoAndPlay">burger,startAni</action> 
+	</hotspot>
+	<hotspot id="brek" type="poster">
+		<action type="gotoAndPlay">brek,startAni</action> 
+	</hotspot>
+	<hotspot id="colorize" type="poster">
+		<action type="gotoAndPlay">colorize,startAni</action> 
+	</hotspot>
+	<hotspot id="wigprize" type="poster">
+		<action type="giveItemMale">2026</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2026</action> 
+		<action type="autoPlay">wigprizeclip</action>
+	</hotspot>
+		<hotspot id="poster3" type="poster">
+		<action type="className">game.scenes.custom.AdInfoPopup</action>
+        <action type="popup">Info3.swf</action>
+	</hotspot>
+			<hotspot id="poster4" type="poster">
+		<action type="className">game.scenes.custom.AdInfoPopup</action>
+        <action type="popup">Info4.swf</action>
+	</hotspot>
+</hotspots>
+

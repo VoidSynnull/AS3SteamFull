@@ -1,0 +1,23 @@
+<part>
+	<id>limited_whoopee</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2815</campaignID>
+	<specialAbility id="WhoopeeCushion">
+		<className>game.data.specialAbility.character.WhoopeeCushion</className>
+		<parameters>
+			<param id="tracking">CBSMiddleSchoolQuest,Whoopee Cushion</param>
+			<param id="swfPath">limited/CBSMiddleSchoolQuest/WhoopeeCushion.swf</param>
+			<param id="sprayOffsetX">32</param>
+			<param id="sprayOffsetY">-8</param>
+			<param id="numSounds">4</param>
+			<param id="audioPrefix">fart_0</param>
+			<param id="doAirEffect">true</param>
+		</parameters>
+		<useButton>true</useButton>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

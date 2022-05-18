@@ -1,0 +1,632 @@
+<?php //  -*-  tab-width:4;  -*- ?>
+<?php
+
+use Wolfcast\BrowserDetection;
+use Poptropica\ABTest;
+
+$param_name = 'cmg_iframe'; // Cool Math Games special handling
+$from_cmg = !empty($_REQUEST[$param_name]) || (stripos($_SERVER['HTTP_REFERER']?? '', 'coolmathgames.com') !== false);
+/**
+ * Identify Cool Math Games as a traffic source.
+ * We set utm_source before calling pageTop so it will get incorporated into a source cookie too.
+ */
+if ($from_cmg && empty($_GET['utm_source'])) {
+    $_GET['utm_source'] = 'cmg';
+}
+$commonAnalytics = (new Poptropica\Analytics\CommonTags)->pageTop();
+
+require_once 'fensites.php';
+require_once 'log/log.inc';
+require_once 'syslog.php';
+require_once 'PopUser.inc';
+
+/**
+ * Move people away from Flash (PHB-861) except for CMG and people logging in. Plus AS3 query string for our own use.
+ */
+$stay_on_page = $from_cmg || $_SERVER['REQUEST_METHOD'] == 'POST' || !empty($_POST['login']) || !empty($_REQUEST['AS3']);
+if (!$stay_on_page) {
+    fb_redirect('/');
+}
+
+log_post_data();
+
+$browser_info = new BrowserDetection();
+// Uncomment these lines to test handling of older Chrome browsers
+// $old_chrome_ua = 'Mozilla/5.0 (X11; CrOS x86_64 11895.95.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3729.125 Safari/537.36';
+// $browser_info = new BrowserDetection($old_chrome_ua);
+$is_chrome = ($browser_info->getName() == BrowserDetection::BROWSER_CHROME);
+$is_too_old = false;
+if ($is_chrome) {
+    $is_new_chrome = ($browser_info->compareVersions($browser_info->getVersion(), '76') >= 0);
+    $is_too_old = ($browser_info->compareVersions($browser_info->getVersion(), '61') < 0);
+} else {
+    $is_new_chrome = false;
+}
+$test = new ABTest('activation0130', 'flash_inst_20200130');
+$choices = [ [1, '/images/activate_flash.png'] ]; // kids in room
+if ($is_new_chrome) {
+    $choices = [
+        [10, '/images/activate_flash_v7.png'],
+        [10, '/images/activate_flash_v2.png']
+    ]; // image with video
+
+}
+$url = $test->setChoices($choices)->getRandomURL();
+$show_video = preg_match('/flash_v7/', $url);
+
+// bare-bones for Cool Math Games, or the whole thing with ads and footer? Controlled by parameter/cookie 'cmg_iframe'
+
+$fully_decorated = !$from_cmg;
+
+// set up the CDN URLs
+
+$shell = 'Shell.swf';
+if (isset($_GET['source'])) {
+	$source = $_GET['source'];
+    // avoid potential security issues
+	if (strpos($source, '/') === false) {
+	    $shell = $source;
+	}
+}
+
+$swfObject		= FenSites::staticURL('js/swfobject2-2.js');
+$campaign		= FenSites::staticURL('js/campaign.js');
+$stylesheet     = FenSites::staticURL('/css/home.css');
+$banner_plain	= FenSites::staticURL('images/banner_plain.gif');
+$banner_beta	= FenSites::staticURL('images/banner.gif');
+$middleImage	= FenSites::staticURL('images/middle.gif');
+$theGame		= FenSites::staticURL('/game/' . $shell);
+$preloader		= FenSites::staticURL('/game/ShellLoader.swf');
+$footerImage	= FenSites::staticURL('images/footer.gif');
+$didYouKnow		= FenSites::staticURL('/bottom_images/didYouKnowBar.swf');
+
+// host paths for swfs
+if (empty($_SERVER['HTTPS'])) {
+	$host = "http://{$_SERVER['HTTP_HOST']}/game/";
+} else {
+	$host = "https://{$_SERVER['HTTP_HOST']}/game/";
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <?php $commonAnalytics->setCanonicalLink(''); // suppress canonical link due to noindex attribute ?>
+	    <?php echo $commonAnalytics->headStart(); ?>
+		<title>Poptropica</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="preconnect" href="https://config.playwire.com" crossorigin />
+  		<link rel="preconnect" href="https://cdn.intergi.com" crossorigin />
+  		<link rel="preconnect" href="https://cdn.intergient.com" crossorigin />
+  		<link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin />
+  		<link rel="preconnect" href="https://cdn.playwire.com" crossorigin />
+  		<link rel="preconnect" href="https://cdn.video.playwire.com" crossorigin />
+  		<link rel="preconnect" href="https://cdn.video.playwire.com" crossorigin />
+  		<link rel="preconnect" href="https://z.moatads.com" crossorigin />
+   		<script src="<?php echo FenSites::staticURL('/js/jquery-1.8.2.min.js'); ?>" type="text/javascript"></script>
+        <script src="<?php echo $swfObject; ?>" type="text/javascript"></script>
+        <script src="<?php echo $campaign; ?>" type="text/javascript"></script>
+        <script src="/js/brainEventTracker.js" type="text/javascript"></script>
+        <script src="js/get_webgl_status.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			
+			var videoTimer = null;
+			var playingVideos = false;
+			var hasVideoContent = "false";
+			var credits = 0;
+			var activateTries = 0;
+			var neww = 960;
+			var newh = 640;
+
+			function dbug(s) {
+				if (window.console) console.log(s);
+			}
+			
+			// delayed playwire wrappers
+    		<?php if ($fully_decorated) {  ?>
+			var tyche = { mode: 'tyche', config: '//config.playwire.com/1022050/v2/websites/70618/banner.json'};
+			function loadPWWrappers() {
+				var tyche = { mode: 'tyche', config: '//config.playwire.com/1022050/v2/websites/70618/banner.json'};
+				var pws = document.createElement("script");
+				pws.setAttribute("id", "tyche");
+				pws.setAttribute("type", "text/javascript");
+				pws.setAttribute("src",	"//cdn.intergi.com/hera/tyche.js");
+				document.getElementsByTagName('head')[0].appendChild(pws);
+			}
+			<?php } ?>
+
+			/*
+			function swapVideo(){
+				document.getElementById("playwireVideos").click(function() {
+				  var src = "assets/video/street1.mp4";
+				   $("#video_background").find("#vidya").attr("src", assets/video/street2.mp4);
+				};
+			}
+			*/
+			// launch PlayWire video ads
+			function playwireVideo(){
+				playingVideos = true;
+				// clear timer
+				if (videoTimer != null)
+				{
+					window.clearInterval(videoTimer);
+					videoTimer = null;
+				}
+				// show video overlay
+				document.getElementById("playwireVideos").style.display = "block";
+				// hide close button initially
+				document.getElementById("closeVideoButton").style.display = "none";
+				// hide play again text initially
+				document.getElementById("tryAgain").style.display = "none";
+				// render video player
+				var embedScript = document.createElement("script");
+				embedScript.setAttribute("type",					"text/javascript");
+				embedScript.setAttribute("src",				 		"//cdn.playwire.com/bolt/js/zeus/embed.js");
+				embedScript.setAttribute("data-config",		 		"//config.playwire.com/1022050/playlists/v2/4624/zeus.json");
+				embedScript.setAttribute("data-width",		 		(neww + "px"));
+				embedScript.setAttribute("data-height",		 		(newh + "px"));
+				embedScript.setAttribute("data-id",			 		"videoPlayer");
+				embedScript.setAttribute("data-onready",	 		"boltListener");
+				document.getElementById("playwireEmbed").appendChild(embedScript);
+			}
+			function getWidth(){
+				return document.getElementById("middle").offsetWidth;
+			}
+			function getHeight(){
+				return document.getElementById("middle").offsetHeight;
+			}
+			// stop PlayWire videos which clicking close button
+			function closePlaywireVideo(){
+				playingVideos = false;
+				// resize page if adjusted during videos
+				displayWindowSize();
+				// clear timer
+				if (videoTimer != null)
+				{
+					window.clearInterval(videoTimer);
+					videoTimer = null;
+				}
+				// remove video
+				Bolt.removeVideo("videoPlayer", true);
+				// hide video overlay
+				document.getElementById("playwireVideos").style.display = "none";
+				// send message to game with no credits
+				document.getElementById("flashContent").playwireVideoDone(credits, hasVideoContent);
+			}
+			
+			// show PlayWire close button
+			function showCloseButton(){
+				// clear timer
+				if (videoTimer != null)
+				{
+					window.clearInterval(videoTimer);
+					videoTimer = null;
+				}
+				// show button
+				document.getElementById("closeVideoButton").style.display = "block";
+			}
+
+			function track_activate_flash(action, label) {
+                activateTries++;
+                track_click('ActivateFlashVideoClicked', activateTries);
+            }
+
+			function track_click(action, label) {
+                GATrackEvent('POPGame', action, label);
+                brainEventTracker.addEvent({
+                    event: action, campaign: 'GamePage', cluster: 'GameHome', scene: 'GameHome', choice: label, subchoice: 'PlayNow'
+                });
+                return true;
+            }
+
+            function track_click_elsewhere(element, action, label) {
+                GATrackEvent('POPGame', action, label);
+                let obj = brainEventTracker.addEvent({
+                    event: action, campaign: 'GamePage', cluster: 'GameHome', scene: 'GameHome', choice: label, subchoice: 'PlayNow'
+                });
+
+                let dest = element.getAttribute('href');
+                let http = obj.http;
+                let act = function(e) {
+                    if (http.readyState === http.DONE) {
+                        window.location = dest;
+                    }
+                };
+                http.onreadystatechange = act; // complete the click when the brain event is done (otherwise the change in location will abort the brain event)
+                act();  // in case the brain event completed before we got here
+
+                return false;
+            }
+			
+            /**
+             * Pageview event is helpful for understanding player behavior at the micro level.
+             */
+            brainEventTracker.addEvent({
+                event: 'Pageview', campaign: 'GamePage', cluster: 'GameHome', scene: 'GameHome', choice: 'GamePage', subchoice: 'PlayNow'
+            });
+            brainEventTracker.logCloseEvent({
+                event: 'Pageclose', campaign: 'GamePage', cluster: 'GameHome', scene: 'GameHome', choice: 'GamePage', subchoice: 'PlayNow'
+            })
+
+            /**
+             * WebGL capabilities are helpful for seeing how well current players will fair under Haxe
+             */
+            var info = get_webgl_status();
+            brainEventTracker.addEvent({
+                event: 'WebGLStatus', campaign: 'GamePage', cluster: 'GameHome', scene: 'GameHome', choice: info.vendor, subchoice: info.renderer
+            });
+
+            /**
+             * Determine whether the Flash plugin is enabled.  False means either disabled or not installed.
+             *
+             * @returns {boolean}
+             */
+            function flashActive() {
+                for (var i = 0;i < navigator.plugins.length;i++) {
+                    if (navigator.plugins[i].name.toLowerCase().indexOf('shockwave') !== -1) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            /**
+             * FlashEnabled/FlashDisabled events help us understand how often players are blocked
+             * and how often they allow Flash.  Suppress event for the AS2=>AS3 transition; we know it's enabled then!
+             */
+            if (!document.referrer.match(/^https:\/\/[\w-]+\.poptropica\.com\/base\.php/)) {
+                brainEventTracker.addEvent({
+                    event: flashActive() ? 'FlashEnabled' : 'FlashDisabled',
+                    campaign: 'GamePage', cluster: 'GameHome'
+                });
+            }
+
+            /**
+             * Alert when they're running a really old version of Chrome; it won't work very well.
+             */
+            var is_too_old = <?php echo json_encode($is_too_old); ?>;
+            if (is_too_old) {
+                alert("To play Poptropica we recommend that you upgrade to a newer version of Chrome " +
+                    "or choose another web browser. Ask an adult to help you if you're unsure what to do!");
+            }
+        </script>
+       
+        <?php if ($fully_decorated) { ?>
+		    <link rel="stylesheet" type="text/css" href="<?php echo $stylesheet; ?>" />
+        <?php } ?>
+		
+		<style type="text/css" media="screen">
+        <?php if ($fully_decorated) { ?>
+		html, body {
+			color:	white;
+            background-color: #139ffd;
+		}
+		* {
+			margin:	0;
+			padding: 0;
+		}
+		<?php } else { ?>
+		html, body {
+			color:	white;
+            background-color: #16202c;
+            width: 960px;
+            height: 640px;
+            overflow: hidden;
+        }
+		body {
+			margin:	0 0 0 0;
+			padding:0;
+			position:relative;
+		}
+		<?php } ?>
+		.flashimage {
+		   width: 100%;
+		   height: 100%;
+		   position: absolute;
+		}
+		</style>
+
+	</head>
+	<body>
+	    <?php echo $commonAnalytics->bodyStart(); ?>
+       
+         <!-- pop video overlay -->
+         <?php if ($fully_decorated) { ?>
+		 <div id="videoOverlay" style="position:absolute; top:15px; left:0px; width:960px; height:640px; z-index:11; padding:0px; display:block; visibility:hidden;">
+         <?php } else { ?>
+		 <div id="videoOverlay" style="position:absolute; top:0px; left:0px; width:960px; height:640px; z-index:11; padding:0px; display:block; visibility:hidden;">
+         <?php } ?>
+			<div id="videoBack" style="position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:12; padding:0px; display:block;">
+				<img src="/images/ui/video_back.jpg" width="100%" height="100%" alt="video background" />
+			</div>
+			<div id="videoLayer" style="position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:13; padding:0px; display:block;">
+				<video id="popVideo" width="100%" height="100%">
+				  <source src="" type="video/mp4" preload="metadata">
+				</video>
+			</div>
+			<div id="video_sponsor" style="position:absolute; top:0px; left:0px; padding:0px; z-index:14; display:block;">
+				<a href="javascript:videoSponsor()"><img src="/images/ui/video_sponsor.png" width="377" height="67" align="left" /></a>
+			</div>
+			<div id="video_close" style="position:absolute; top:0px; right:0px; padding:0px; z-index:15; display:block; visibility:hidden;">
+				<a href="javascript:videoClose()"><img src="/images/ui/video_close.png" width="176" height="67" align="left" /></a>
+			</div>
+			<div id="video_bottom" style="position:absolute; bottom:0px; left:0px; padding:0px; z-index:16; display:block;">
+				<img src="/images/ui/video_bottom.png" width="100%" height="8%" align="left" />
+			</div>
+			<div id="video_unmute" style="position:absolute; bottom:0px; left:0px; padding:0px; z-index:17; display:block;">
+				<a href="javascript:unmuteVideo()"><img src="/images/ui/video_unmute.png" width="40" height="90" align="left" /></a>
+			</div>
+			<div id="progress_bar" style="position:absolute; bottom:0px; left:0px; width:100%; height:5px; z-index:18; padding:0px; display:block;">
+				<img id="bar" src="/images/ui/video_bar.jpg" width="0" height="5" align="left" />
+			</div>
+		</div>
+		
+        <!-- Playwire video ads -->
+ 		<?php if ($fully_decorated) { ?>
+		<div id="playwireVideos" style="position:absolute; z-index:7; top:15px; display:none; background:#000000; left:0;">
+        <?php } else { ?>
+		<div id="playwireVideos" style="position:absolute; z-index:7; top:0; display:none; background:#000000; left:0;">
+        <?php } ?>
+			<div id="closeVideoButton" style="text-align:right; position:absolute; z-index:9; left:0; top:2px; width:100%; height:5.46875%; display:none">
+				<a href="javaScript:closePlaywireVideo()"><img style="float:right" src="/images/ads/closeButton.png" width="36" height="35" alt="Close"/></a>
+			</div>
+            <div id="tryAgain" style="text-align:center; position:absolute; z-index:9; left:0; top:48.44%; width:100%; font-size:5.625%; display: none">Try Again Later</div>
+			<div id="playwireEmbed" style="position:absolute; z-index:8"></div>
+			<script type="text/javascript">
+				// listen for Playwire messages
+				function boltListener()
+				{
+					Bolt.on( 'videoPlayer', Bolt.BOLT_AD_STARTED, function()
+					{
+						credits = 5;
+						hasVideoContent = "true";
+						// start timer
+						videoTimer = window.setInterval(showCloseButton, 15000);
+					});
+					Bolt.on( 'videoPlayer', Bolt.BOLT_AD_ERROR, function()
+					{
+						credits = 0;
+						hasVideoContent = "false";
+						// clear timer
+						if (videoTimer != null)
+						{
+							window.clearInterval(videoTimer);
+							videoTimer = null;
+						}
+						// show try again text
+						document.getElementById("tryAgain").style.display = "block";
+						// show close button
+						document.getElementById("closeVideoButton").style.display = "block";
+					});
+				}
+			</script>
+		</div>
+ 
+ 		<?php if ($fully_decorated) { ?>
+       	<div id="middle" style="position:absolute; top:15px;">
+             <div id="flashContent" style="position:absolute; top:0; left:0;">
+        <?php } else { ?>
+       	<div id="middle" style="top:0; left:0; width:960px; height:640px; margin:0; overflow:hidden;">
+            <div id="flashContent" style="position:absolute; top:0; left:0; width:960px; height:640px; margin:0;">
+        <?php } ?>
+				<div class="flashimage">
+					<a href="https://get.adobe.com/flashplayer/" onclick="track_activate_flash();">
+						<img id="activateFlash" src="<?php echo htmlspecialchars($url); ?>" width="100%" height="100%" alt="Get Adobe Flash player"/>
+						<div id="flashvideo" style="position:absolute; left:22.8%; top:38.3%; width:53.8%; height:49.3%; z-index:1000; color:#FFFFFF; font-weight:bold;">
+							<video id="flashVideo" width="100%" height="100%" loop autoplay muted>
+								<source src="images/FlashActivation.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+						<div id="flashmorehelp" style="position:absolute; left:36%; top:90%; width:38%; height:10%; z-index:1000; color:#FFFFFF; font-weight:bold;" onclick="track_click('StillHavingProblemsClicked',''); document.getElementById('flashVideo').src='images/FlashActivation2.mp4'">
+						</div>
+						<script>
+							<?php if (! $show_video) { ?>
+								document.getElementById('flashvideo').style.display = "none";
+							<?php } ?>
+						</script>
+					</a>
+				</div>
+				
+            </div>
+        </div><!-- end div#middle -->
+
+        <?php if ($fully_decorated) { ?>
+		<!-- wrappers -->
+		<div id="left_wrapper" style="position:absolute; top:15px; width:300px; height:600px; display:inline-block; z-index:1;">
+			<!-- 160x600 Skyscraper ATF -->
+			<div data-pw-desk="sky_atf" style="float:right"></div>
+			<!-- 160x600 Skyscraper ATF -->
+			<div data-pw-mobi="sky_atf" style="float:right"></div>
+		</div>
+		<div id="right_wrapper" style="position:absolute; top:15px; width:300px; height:600px; left:960px; display:inline-block; z-index:1;">
+			<!-- 160x600 Skyscraper BTF -->
+			<div data-pw-desk="sky_btf" style="float:left"></div>
+			<!-- 160x600 Skyscraper BTF -->
+			<div data-pw-mobi="sky_btf" style="float:left"></div>
+		</div>
+		<!-- blog and video panel -->
+		<div id="video-panel" style="position:absolute; background-color:#4fb4fc; height:182px;">
+			<div id="blog" style="position:absolute; z-index:1; left:0px; top:0px;">
+				<div style="position:absolute; z-index:20; left:0; top:0;">
+					<img src="images/app1.png" width="108" height="169">
+				</div>
+				<div id="appstore" style="position:absolute; z-index:21; left:108px; top:0px;">
+					<a href="https://apps.apple.com/us/app/poptropica/id818709874?ign-mpt=uo%3D4" target="_blank" onclick="track_click('AppleStoreClicked', '');"><img src="images/app2.png" width="177" height="169" alt="Get app from Apple App store."></a>
+				</div>
+				<div id="playstore" style="position:absolute; z-index:22; left:285px; top:0px;">
+					<a href="https://play.google.com/store/apps/details?id=air.com.pearsoned.poptropica" target="_blank" onclick="track_click('GoogleStoreClicked','');"><img src="images/app3.png" width="177" height="169" alt="Get app from Google Play store."></a>
+				</div>
+			</div>
+			<div id="video-player" style="position:absolute; z-index:23; background-color:#000000; width:300px; height:172px; top:5px;">
+				<script 
+					type="text/javascript" 
+					charset="utf-8" 
+					src="//cdn.playwire.com/bolt/js/zeus/embed.js" 
+					data-config="//config.playwire.com/1022050/playlists/v2/4624/zeus.json" 
+					data-width="100%" 
+					data-height="100%">
+				</script>				
+			</div>
+		</div>
+		<!-- did you know -->
+		<div id="bottom" style="position:absolute; width:960px;">
+			<!-- <div id="didYouKnow" style="position:absolute; width:640px; height:34px;"></div> -->
+			<!--flash help-->
+			<p style="color:#fff;font-size:14px;">
+				<img src="<?php echo FenSites::staticURL('/images/help/sadFaceIcon.png');?>" alt="sad face" style="vertical-align:middle;">
+				&nbsp;&nbsp;Having trouble with the <a id="helplink" href="/flash-help.html" style="color:#F8DA3D;" onclick="return track_click_elsewhere(this, 'FlashHelpClicked', '');">Flash Player</a>?
+			</p>
+			<!--flash footer and copyright-->
+			<?php include 'tmpl/footer.inc'; ?>
+			<?php include 'tmpl/copyright.inc'; ?>
+			</div>
+		</div>
+        <?php } ?>
+        
+        <br><br><br>
+
+         <?php if ($fully_decorated) { ?>
+		 <script>        
+			// Defining event listener function
+			function displayWindowSize()
+			{
+				// do nothing if playwire videos are playing
+				if (playingVideos)
+					return;
+				var space = 15;
+				var wrapperspace = 30;
+				var gamew = 960;
+				var gameh = 640;
+				var videoh = 182;
+				var wrapperw = 300;
+				var bottomspace = 7;
+				var videospace = 5;
+				var videow = 300;
+
+				// Get width and height of the window excluding scrollbars
+				var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+				var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+				// limit to max and min sizes
+				newh = h - videoh - space*2 - bottomspace;
+				if (newh > gameh)
+					newh = gameh;
+				var minheight = (videow + 2*videospace) * gameh / gamew;
+				if (newh < minheight)
+					newh = minheight;
+
+				neww = newh * gamew / gameh;
+				var left = w/2 - neww/2;
+				var right = w/2 + neww/2;
+				
+				document.getElementById("middle").style.left = left + "px";
+				document.getElementById("middle").style.width = neww + "px";
+				document.getElementById("middle").style.height = newh + "px";
+				document.getElementById("flashContent").style.width = neww + "px";
+				document.getElementById("flashContent").style.height = newh + "px";
+				document.getElementById("video-panel").style.left = left + "px";
+				document.getElementById("video-panel").style.width = neww + "px";
+				document.getElementById("video-panel").style.top = (newh + space*2) + "px";
+				document.getElementById("video-player").style.left = (neww - videow - videospace) + "px";
+				document.getElementById("left_wrapper").style.left = (left - wrapperspace - wrapperw) + "px";
+				document.getElementById("right_wrapper").style.left = (right + wrapperspace) + "px";
+				document.getElementById("bottom").style.left = left + "px";
+				document.getElementById("bottom").style.width = neww + "px";
+				document.getElementById("bottom").style.top = (newh + space*2 + videoh) + "px";
+				document.getElementById("playwireVideos").style.left = left + "px";
+				document.getElementById("playwireVideos").style.width = neww + "px";
+				document.getElementById("playwireVideos").style.height = newh + "px";
+				
+				document.getElementById("videoOverlay").style.left = left + "px";
+				document.getElementById("videoOverlay").style.width = neww + "px";
+				document.getElementById("videoOverlay").style.height = newh + "px";
+				
+				if (neww < 450)
+					document.getElementById("playstore").style.display = "none";
+				else
+					document.getElementById("playstore").style.display = "inline-block";
+			}
+
+			// Attaching the event listener function to window's resize event
+			window.addEventListener("resize", displayWindowSize);
+
+			// Calling the function for the first time
+			displayWindowSize();
+		</script>
+        <?php } ?>
+        
+        <script type="text/javascript">
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#000000";
+            params.play = "true";
+            params.loop = "true";
+            params.wmode = "gpu";
+            params.scale = "showall";
+            params.menu = "true";
+            params.devicefont = "false";
+            params.salign = "";
+            params.allowscriptaccess = "always";
+            params.base = "<?php echo htmlspecialchars($host);?>";
+
+            var flashVars = {};
+            flashVars.shellURL = <?php echo json_encode($theGame); ?>;
+
+            <?php if (!empty($_POST['login']) && isset($_POST['password'])) { ?>
+
+            let encLogin = encodeURIComponent(<?php echo json_encode($_POST['login']); ?>);
+            let encPass = encodeURIComponent(<?php echo json_encode(PopUser::hashPassword($_POST['password'])); ?>);
+            flashVars.login = encLogin;
+            flashVars.pass_hash = encPass;
+            /**
+             * Save credentials for if/when Flash becomes active, if we are in an iframe:
+             * in that case the refresh is a GET (of the containing page) instead of a POST.
+             * path=/ so on a refresh after activating Flash, /plain.html can detect the cookies and go straight to this page.
+             * samesite=None so that this works when /plain.html is embedded in CMG's iframe.
+             */
+            if (!flashActive() && window.parent.location !== window.location) {
+
+                document.cookie = 'Chrome1=' + encLogin + '; path=/; secure; samesite=None';
+                document.cookie = 'Chrome2=' + encPass  + '; path=/; secure; samesite=None';
+            }
+
+            <?php } ?>
+
+            if (flashActive()) {
+                <?php if (empty($_POST['login']) && !empty($_COOKIE['Chrome1'])) { ?>
+
+                flashVars.login = <?php echo json_encode($_COOKIE['Chrome1']); ?>;
+                flashVars.pass_hash = <?php echo json_encode($_COOKIE['Chrome2']); ?>;
+
+                <?php } ?>
+
+                /* For security, always delete cookies if Flash is active now */
+                document.cookie = 'Chrome1=; max-age=0; path=/; secure; samesite=None';
+                document.cookie = 'Chrome2=; max-age=0; path=/; secure; samesite=None';
+            }
+
+            swfobject.embedSWF(<?php echo json_encode($preloader); ?>, "flashContent", neww, newh, "11.2.0", "", flashVars, params);
+
+            var params2 = {};
+            params2.quality = "high";
+            params2.bgcolor = "#139ffd";
+            params2.play = "true";
+            params2.loop = "true";
+            params2.wmode = "gpu";
+            params2.scale = "showall";
+            params2.menu = "false";
+            params2.devicefont = "false";
+            params2.salign = "";
+            params2.allowscriptaccess = "always";
+            swfobject.embedSWF(<?php echo json_encode($didYouKnow);?>, "didYouKnow", "640", "34", "11.2.0", "", false, params2);
+        </script>
+ 
+       <!--
+        Had to remove fb/tracking_pop.php here, because it includes fb/comscore_beacon.php.
+        AS3 code will initiate all beacon calls, no page load trigger required.
+        -->
+        <?php include 'fb/google-analytics.php'; ?>
+
+        <?php echo $commonAnalytics->bodyEnd(); ?>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<scene>
+	<sceneType>shortmain</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2037</right>
+		<bottom>680</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>50</left>
+		<top>0</top>
+		<right>1970</right>
+		<bottom>615</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<absoluteFilePaths>scenes/con3/shared/dialog.xml</absoluteFilePaths>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1100</x>
+			<y>570</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

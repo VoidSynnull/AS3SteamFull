@@ -1,0 +1,29 @@
+<tracking>
+	<track id="dwight">
+		<event>EngagedInsideNPC</event>
+		<choice>Dwight</choice>
+	</track>
+	<track id="rafe">
+		<event>EngagedInsideNPC</event>
+		<choice>Rafe</choice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Left</subchoice>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Top Left</subchoice>
+	</track>
+	<track id="poster4">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Top Right</subchoice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

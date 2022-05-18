@@ -1,0 +1,26 @@
+<npcs>
+	<!-- use this for Poptropican NPC -->
+	<npc id="Harold">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x79796c</skinColor>
+			<hairColor>0xfffbd7</hairColor>
+			<mouth>sponsoredith</mouth>
+			<facial>limited_harold_mummy</facial>
+			<hair>mc_loverboy</hair>
+			<pants>char14</pants>
+			<shirt>august_b1</shirt>
+			<overshirt>limited_harold_mummy</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>420</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- position based on FLA rulers -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

@@ -1,0 +1,12 @@
+<hotspots>
+	<hotspot id="clickURL" type="poster">
+		<action type="impressionOnClick">impressionURL</action>
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="171" type="video">
+		<action type="impressionOnClick">impressionURL</action>
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+</hotspots>
+

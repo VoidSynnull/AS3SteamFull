@@ -1,0 +1,49 @@
+<item id="3449"> <!-- Change this card ID -->
+		<type>store</type>
+		<subType>general</subType>
+	
+		<buttons>
+			<btn>
+				<index>0</index>
+				<conditional id="hasAbility" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+			
+		</buttons>
+	
+				<textfields>
+		<text id="storeTitle">
+			<value>Twin Power</value>
+			</text>
+	</textfields>
+
+	
+		<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent" />	<!--	 use content bin/assets/items/limited/item999.swf -->
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+	
+	 <specials>
+		<specialAbility>pop_follower_twin</specialAbility>
+	</specials>
+
+</item>

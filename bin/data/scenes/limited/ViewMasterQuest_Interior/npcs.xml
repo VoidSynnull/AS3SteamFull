@@ -1,0 +1,25 @@
+<npcs>
+ <npc id="explorer">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfee0d8</skinColor>
+      <hairColor>0x72472b</hairColor>
+	  <facial>limited_viewmaster_face</facial>
+	 <hair>limited_viewmaster</hair>
+	<shirt>limited_viewmaster_s</shirt>
+	<pants>limited_explorer</pants>
+	<pack>limited_hiker</pack>
+	<overpants>limited_egyptarch</overpants>
+    </skin>
+	<direction>left</direction>
+    <position>
+      <x>725</x>
+      <y>810</y>
+    </position>
+    <range>
+		<x>0</x>
+		<y>0</y>
+	</range>
+	<faceSpeaker>true</faceSpeaker>
+  </npc>
+</npcs>

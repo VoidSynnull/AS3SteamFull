@@ -1,0 +1,83 @@
+<item id="3006">
+		<type>store</type>
+		<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+ 	
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		
+ 	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0xD9D9D9</color>
+			<val>0</val>
+			
+		</btn>
+		<btn>
+			<color>0x5671DA</color>
+			<val>1</val>
+			
+		</btn>
+		<btn>
+			<color>0xC03E00</color>
+			<val>2</val>
+			
+		</btn>
+	</radiobuttons>
+	
+ 	<textfields>
+			<text id="storeTitle">
+					<value>Rock Star</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<mouth>14</mouth>
+			<facial>pRockerGuy1</facial>
+			<hair>pRockerGuy1</hair>
+			<pants>pRockerGuy1</pants>
+			<shirt>pRockerGuy1</shirt>
+			<overpants>pRockerGuy1</overpants>
+			<overshirt>pRockerGuy1</overshirt>
+			<item>pRockerGuy1</item>
+		</look>
+		<look>
+			<mouth>14</mouth>
+			<facial>pRockerGuy2</facial>
+			<hair>pRockerGuy2</hair>
+			<pants>pRockerGuy1</pants>
+			<shirt>pRockerGuy2</shirt>
+			<overpants>pRockerGuy1</overpants>
+			<overshirt>pRockerGuy1</overshirt>
+			<item>pRockerGuy2</item>
+		</look>
+		<look>
+			<mouth>14</mouth>
+			<facial>pRockerGuy3</facial>
+			<hair>pRockerGuy3</hair>
+			<pants>pRockerGuy1</pants>
+			<shirt>pRockerGuy3</shirt>
+			<overpants>pRockerGuy1</overpants>
+			<overshirt>pRockerGuy1</overshirt>
+			<item>pRockerGuy3</item>
+		</look>
+	</looks> 
+	
+</item>

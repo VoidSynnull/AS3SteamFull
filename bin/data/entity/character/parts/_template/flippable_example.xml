@@ -1,0 +1,19 @@
+<part>
+	<id>flippable_example</id>
+	<asset>nw_baseball_pop</asset>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>baseball_letter</instanceName>	<!-- If instance is nested use dot notation to specify ( ex. hat.flip_clip )  -->
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+	
+</part>

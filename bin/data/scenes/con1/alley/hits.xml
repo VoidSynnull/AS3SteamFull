@@ -1,0 +1,81 @@
+<hits>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="air" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1600</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="conventionSign" color="0x69A3D1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="cardboard" color="0xCBA50C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinMetal" color="0x7ABBC0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="heavyMetal" color="0x7CBA86" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="thinPlastic" color="0xCCD2D0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="heavyPlastic" color="0x7C8B87" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="styrofoam" color="0xC9CADC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xD94600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="piping" color="0x000033" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="leaves" color="0x46934A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stones" color="0xADA49C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="vent" color="0x4AAAD9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="powerBox" color="0xACFF75" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="truck" color="0xEFC5B2" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tires" color="0xB9AB75" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="ToucanSam">
+		<statement id="init" triggerEvent="triggerEvent" triggerEventArgs="toucanDone">Help! These Wild Berries have scattered the Froot Loops! Help us collect them quickly!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="toucanDone">Help! These Wild Berries have scattered the Froot Loops! Help us collect them quickly!</statement>
+	</character>
+	<character id="Girl1">
+		<statement>Check out the frooty video.</statement>
+	</character>
+	<character id="Boy1">
+		<statement>Watch out for the wild berries!</statement>
+	</character>
+	<character id="Girl2">
+		<statement>Froot Loops is my favorite cereal.</statement>
+	</character>
+	<character id="Boy2">
+		<statement>Help Toucan Sam collect the scattered Froot Loops.</statement>
+	</character>
+</dialogs>

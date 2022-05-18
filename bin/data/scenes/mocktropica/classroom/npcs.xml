@@ -1,0 +1,146 @@
+<npcs>
+	<npc id="leadWriter" event="classroom_hideWriter">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0x232323</hairColor>
+			<mouth>sponsor_je</mouth>
+			<marks>mk_writer</marks>
+			<facial>mk_writer</facial>
+			<hair>mk_writer</hair>
+			<shirt>mk_writer</shirt>
+			<pants>sears2</pants>
+			<item>mk_writer</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>910</x>
+			<y>570</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="student1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>sponsorcwmb1</mouth>
+			<hair>40</hair>
+			<shirt>web</shirt>
+			<pants>mtpoliceman</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1167</x>
+			<y>570</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="student2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>hercules</mouth>
+			<hair>24</hair>
+			<shirt>ginnk</shirt>
+			<pants>tourist</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1304</x>
+			<y>570</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="student3">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>hercules</mouth>
+			<hair>21</hair>
+			<shirt>gboater</shirt>
+			<pants>tourist</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1485</x>
+			<y>503</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="student4">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfce1c5</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>mkstudent04</mouth>
+			<facial>mk_student04</facial>
+			<hair>mk_student04</hair>
+			<shirt>mk_student04</shirt>
+			<pants>finvendor</pants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1655</x>
+			<y>480</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="student5">
+		<animations>
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>pfool</mouth>
+			<hair>24</hair>
+			<shirt>gtinfoil</shirt>
+			<pants>tourist</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1820</x>
+			<y>453</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

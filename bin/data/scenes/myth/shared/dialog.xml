@@ -1,0 +1,38 @@
+<dialogs>
+	<character id="scroll">
+		<statement id="preface">shared.text1</statement>
+		<statement id="item1">shared.text2</statement>
+		<statement id="item2">shared.text3</statement>
+		<statement id="item3">shared.text4</statement>
+		<statement id="item4">shared.text5</statement>
+		<statement id="item5">shared.text6</statement>
+	</character>
+	
+	<character id="mirror">
+		<statement id="description">shared.text7</statement>
+	</character>
+	
+	<character id="athena">
+		<statement id="treebottom">shared.text8</statement>
+		<statement id="sphinx">shared.text9</statement>
+		<statement id="grove">shared.text10</statement>
+		<statement id="labyrinth">shared.text11</statement>
+		<statement id="mountolympus">shared.text12</statement>
+	</character>
+	
+	<character id="player">
+		<statement triggeredByEvent="one_drachma">shared.text13</statement>
+		<statement triggeredByEvent="out_of_wind">shared.text14</statement>
+		<statement triggeredByEvent="cannot_use_hades">shared.text15</statement>
+		<statement triggeredByEvent="cannot_use_poseidon">shared.text16</statement>
+		<statement triggeredByEvent="no_reason_to_use_item_default">shared.text17</statement>
+		<statement id="no_effect">shared.text18</statement>
+	</character>
+	
+	<character id="herc">
+		<statement id="not_aphrodite_text">shared.text19</statement>
+		<statement id="not_poseidon_text">shared.text20</statement>
+		<statement id="not_hades_text">shared.text21</statement>
+		<statement id="not_zeus_text">shared.text22</statement>
+	</character>
+</dialogs>

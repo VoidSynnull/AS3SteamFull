@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">apollo_flute.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="muse_note1">myth_flute_01.mp3</asset>
+		<asset id="muse_note2">myth_flute_02.mp3</asset>
+		<asset id="muse_note3">myth_flute_03.mp3</asset>
+		<asset id="muse_note4">myth_flute_01.mp3</asset>		
+		<asset id="muse_note5">myth_flute_04.mp3</asset>
+		<asset id="muse_note6">myth_flute_02.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="statues">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+		<asset id="baseGround">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="statues">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+		<asset id="baseGround">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,12 @@
+<part>
+	<id>limited_murph_follower</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<parameters>
+			<param id="front">limited_murph_foot</param>
+			<param id="back">limited_murph_foot</param>
+		</parameters>
+	</specialAbility>
+</part>

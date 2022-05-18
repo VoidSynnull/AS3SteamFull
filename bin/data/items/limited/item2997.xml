@@ -1,0 +1,60 @@
+<item id="2997"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Joss Outfit Card</name> <!-- *** Change this card name -->
+  	<campaignID>AmericanGirlVBB</campaignID> <!-- *** Change this CMS name -->
+	
+	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="true"/>
+			</actions>
+  		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>American Girl</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Joss Cheer Outfit</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundPink.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<!-- <asset id="cardContent" />  -->
+  	</assets>
+  	
+  	<looks>
+	    <look>
+			<mouth>ppopgirlle</mouth>
+			<hair>limited_joss</hair>
+			<shirt>limited_joss</shirt>
+			<pants>limited_joss</pants>
+		</look>
+	</looks> 
+    
+</item>

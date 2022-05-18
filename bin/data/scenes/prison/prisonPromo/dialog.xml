@@ -1,0 +1,37 @@
+<dialogs>
+	<character id="player">
+		<statement id="what" link="dog" linkEntityId="ratchet">Me? What did I do?</statement>
+		<statement id="wrong" link="all" linkEntityId="ratchet">I didn't do anything wrong.</statement>
+		
+		<statement id="scary" link="yea" linkEntityId="nightingale">Pelican Rock -- the scary island prison?</statement>
+		<statement id="care" link="huge" linkEntityId="nightingale">Do you want me to take care of it?</statement>		
+    </character>
+	<character id="ratchet">
+		<statement id="hold" link="what" linkEntityId="player">Hold it right there!</statement>
+		<statement id="dog" link="wrong" linkEntityId="player">I don't know, but old Sparky here doesn't like the smell of you.</statement>
+		<statement id="all" link="wear">That's what they all say.</statement>
+		<statement id="wear" link="follow" triggerEvent="giveItem" triggerEventArgs="bird_follower">As a precaution, I'll need you to wear this until you're proven innocent.</statement>
+		<statement id="follow">Old Sparky is going to have to follow you around, too.</statement>
+		<statement>Keep your nose clean, kid.</statement>
+    </character>
+   	<character id="nightingale">
+   		<conversation>
+   			<exchange>
+				<question>What's wrong?</question>
+				<answer link="scary" linkEntityId="player">I'm late for work at Pelican Rock.</answer>
+			</exchange>
+   		</conversation>
+		<statement id="yea" link="care" linkEntityId="player">Yeah! And my pet bird isn't allowed on the ferry.</statement>
+		<statement id="huge" triggerEvent="giveItem" triggerEventArgs="bird_follower" link="prison">That would be a huge help!</statement>
+		<statement id="prison" triggerEvent="triggerEvent" triggerEventArgs="night_leaves, false">Off to prison I go. Hopefully I won't see you in there any time soon...</statement>		
+   	</character>
+	<character id="prisoner1F">
+		<statement>Digging holes builds character, or so they say...</statement>
+	</character>
+	<character id="prisoner2F">
+		<statement>Just working off my debt to society.</statement>
+	</character>  	
+	<character id="prisoner3F">
+		<statement>I get to swing the pick-axe!</statement>
+	</character>
+</dialogs>

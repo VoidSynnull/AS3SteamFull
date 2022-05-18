@@ -1,0 +1,118 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sidewalk" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="buildingPlatform" color="0xCC6666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="energyBuilding" color="0xCC9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="smokeStack" color="0x336666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sign" color="0x9933CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="airTube" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1600</y>
+			</acceleration>
+			<friction>
+				<x>0</x>
+				<y>-500</y>
+			</friction>
+		</component>
+	</hit>
+	
+	<hit id="elevator">
+		<component type="movingPlatform">
+			<visible>lift</visible>
+		</component>
+	</hit>
+	
+	<hit id="train1BottomPlatform">
+		<component type="movingPlatform">
+			<visible>train1</visible>
+			<velocity>150</velocity>
+			<points>
+				<point>
+					<x>1966</x>
+					<y>2851</y>
+				</point>
+				<point>
+					<x>3185</x>
+					<y>2851</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="train1TopPlatform">
+		<component type="movingPlatform">
+			<visible>train1</visible>
+			<velocity>150</velocity>
+			<points>
+				<point>
+					<x>1966</x>
+					<y>2667</y>
+				</point>
+				<point>
+					<x>3185</x>
+					<y>2667</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="train2BottomPlatform">
+		<component type="movingPlatform">
+			<visible>train2</visible>
+			<velocity>150</velocity>
+			<points>
+				<point>
+					<x>1250</x>
+					<y>2407</y>
+				</point>
+				<point>
+					<x>2850</x>
+					<y>2407</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="train2TopPlatform">
+		<component type="movingPlatform">
+			<visible>train2</visible>
+			<velocity>150</velocity>
+			<points>
+				<point>
+					<x>1250</x>
+					<y>2222</y>
+				</point>
+				<point>
+					<x>2850</x>
+					<y>2222</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,22 @@
+<part>
+	<id>limited_legostarwars_starfighter</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootGun</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">LegoStarwarsQuest,blaster</param>
+			<param id="bulletPath">limited/LegoStarwarsQuest/BlasterShot.swf</param>
+			<param id="colors">0x666666,0x845202,0xff9900</param>
+			<param id="min">2</param>
+			<param id="max">4</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>`
+			<param id="edges">true</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

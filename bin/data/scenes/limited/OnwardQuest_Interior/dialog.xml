@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="ianbarley">
+		<statement link="um" linkEntityId="player">Hi there.</statement>
+		<statement id="try" link="go">Follow the path to find out!</statement>
+		<statement id="go" triggerEvent="triggerEvent" triggerEventArgs="startGame">Use your staff and go onward.</statement>
+	</character>
+	<character id="player">
+		<statement id="um" link="try" linkEntityId="ianbarley">Where did those unicorns come from?</statement>
+	</character>
+</dialogs>

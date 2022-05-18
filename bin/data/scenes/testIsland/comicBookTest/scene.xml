@@ -1,0 +1,33 @@
+<scene>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2000</right>
+		<bottom>1000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>2000</right>
+		<bottom>1000</bottom>	
+	</bounds>
+	<data>comic.xml</data>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<saveLocation>true</saveLocation>
+	<player>
+		<defaultPosition>
+			<x>400</x>
+			<y>920</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

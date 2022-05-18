@@ -1,0 +1,53 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">medium_winds_01.mp3</asset>
+		<asset triggeredByEvent="bonus_quest" loop="true" faded="true" exclusiveType="true">cave_or_sewer_01.mp3</asset>
+	</sound>
+
+	<sound type="effects">
+		<asset triggeredByEvent="wolf_growl" loop="true">savage_wolf_growl_01_L.mp3</asset>
+		<asset triggeredByEvent="wolf_howl">savage_wolf_howl_01.mp3</asset>
+		<asset triggeredByEvent="wolf_hit">dog_chomp_01.mp3</asset>
+		<asset triggeredByEvent="bridge_rope_snap">rope_snap_01.mp3</asset>
+		<asset triggeredByEvent="branch_strain">wood_creak_02.mp3</asset>
+		<asset triggeredByEvent="branch_break">wood_break_01.mp3</asset>
+		<asset triggeredByEvent="branch_snap">whip_01.mp3</asset>
+		<asset triggeredByEvent="branch_hit_wolf">wolf_whine_01.mp3</asset>
+		<asset triggeredByEvent="spike_hit">metal_bounce_01.mp3</asset>
+		<asset triggeredByEvent="near_torch" loop="true">torch_fire_01_L.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="vine1">ls_rope_02.mp3</asset>
+		<asset id="vine2">ls_rope_02.mp3</asset>
+		<asset id="vine3">ls_rope_02.mp3</asset>
+		<asset id="vine4">ls_rope_02.mp3</asset>
+		<asset id="vine5">ls_rope_02.mp3</asset>
+		<asset id="vine6">ls_rope_02.mp3</asset>
+		<asset id="vine7">ls_rope_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="slide">
+		<asset id="vine1">slide_down_rope_01.mp3</asset>
+		<asset id="vine2">slide_down_rope_01.mp3</asset>
+		<asset id="vine3">slide_down_rope_01.mp3</asset>
+		<asset id="vine4">slide_down_rope_01.mp3</asset>
+		<asset id="vine5">slide_down_rope_01.mp3</asset>
+		<asset id="vine6">slide_down_rope_01.mp3</asset>
+		<asset id="vine7">slide_down_rope_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="branch">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+		<asset id="step">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="bridge">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3, ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="branch">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+		<asset id="step">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>
+		<asset id="bridge">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3, fs_rope_01.mp3, fs_rope_02.mp3, fs_rope_03.mp3, fs_rope_04.mp3</asset>
+	</sound>
+</sounds>

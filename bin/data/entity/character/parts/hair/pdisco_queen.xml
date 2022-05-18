@@ -1,0 +1,30 @@
+<part>
+	<id>pdisco_queen</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<parameters>
+			<param id="partType">hair</param>
+			<param id="stopWhenJump">true</param>
+			<param id="stopWhenMove">true</param>
+			<param id="playUntilMove">true</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Disco</param> 
+						<param id="waitLabel" type="string">none</param>
+						<param id="masFrames" type="number">0</param>
+						<param id="stopOnLabel" type="boolean">true</param>
+						<param id="fsmActive" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+  	</specialAbility>
+</part>

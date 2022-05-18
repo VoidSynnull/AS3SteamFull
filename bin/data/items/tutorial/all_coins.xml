@@ -1,0 +1,35 @@
+<item id="all_coins">
+	<type>island</type>
+	<subType>tutorial</subType>
+	
+	<contentClass>
+		<className>game.ui.card.MultiFrameContentView</className>
+		<parameters>
+			<param>items/tutorial/all_coins.swf</param>
+		</parameters>
+	</contentClass>
+	
+	<textfields>
+ 		<text id="title">
+      		<value>Tutorial Coins</value>
+    	</text>
+    	<text id="islandgray">
+    		<value>YOU FOUND ALL THE COINS!</value>
+    		<y>140</y>
+    	</text>
+  	</textfields>
+	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/EarlyBackground.swf</assetPath>
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>36</brightness>
+     			<contrast>-17</contrast>
+     			<saturation>9</saturation>
+     			<hue>12</hue>
+    		</effect>
+	    </asset>
+    </assets>
+</item>

@@ -1,0 +1,47 @@
+<part>
+	<id>stor_witchbrew</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+	</components>
+<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">specialAbility/objects/potion.swf</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+			<param id="multipleSkinParts">true</param>
+			<param id="colors">0x3CDCDC,0xF80511,0xFFCC00</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="AudioAction" startDelay=".2">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">effects/water_splash_06.mp3</param> 
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">stor_potion</param>
+						<param type="boolean">false</param>
+						<param type="boolean">true</param>
+						<param type="boolean">false</param>
+						<param type="number">[color]</param>
+						<param type="number">[suffix]</param>
+						<param type="boolean">false</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

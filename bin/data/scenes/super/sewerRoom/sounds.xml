@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="effects" action="doorOpened">
+		<asset>door_rusty_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset>sewer_or_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="thickPipe">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="mediumPipe">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="smallPipe">ls_general_metal_verb_01.mp3, ls_general_metal_verb_02.mp3</asset>
+		<asset id="tiles">ls_linoleum_verb_01.mp3, ls_linoleum_verb_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="thickPipe">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="mediumPipe">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="smallPipe">fs_general_metal_verb_01.mp3, fs_general_metal_verb_02.mp3, fs_general_metal_verb_03.mp3, fs_general_metal_verb_04.mp3</asset>
+		<asset id="tiles">fs_linoleum_verb_01.mp3, fs_linoleum_verb_02.mp3, fs_linoleum_verb_03.mp3, fs_linoleum_verb_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

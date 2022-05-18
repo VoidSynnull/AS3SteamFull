@@ -1,0 +1,60 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Quirky_Suspense.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" baseVolume="1.6">forest_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="doorShip">door_hydrolics_open_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="mothra" baseVolume=".5">fart_03.mp3</asset>
+		<asset id="mushroom2">fleshy_drag_01_loop.mp3</asset>
+		<asset id="mushroom3">fleshy_drag_01_loop.mp3</asset>
+		<asset id="mushroom4">fleshy_drag_01_loop.mp3</asset>
+		<asset id="mushroom5">fleshy_drag_01_loop.mp3</asset>
+		<asset id="mushroom6">fleshy_drag_01_loop.mp3</asset>
+		<asset id="mushroom8">fleshy_drag_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="mushroomBounce1Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce2Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce2Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce3Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce3Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce4Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce4Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce5Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce5Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce6Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce6Right">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce7Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce8Left">ls_bounce_01.mp3</asset>
+		<asset id="mushroomBounce8Right">ls_bounce_01.mp3</asset>
+		<asset id="roots2">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="roots3">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="roots4">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="roots5">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="roots6">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="roots8">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="ship">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="rock">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="roots2">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="roots3">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="roots4">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="roots5">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="roots6">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="roots8">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="ship">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="rock">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+	</sound>
+</sounds>

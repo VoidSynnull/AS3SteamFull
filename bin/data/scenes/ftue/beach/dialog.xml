@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="crabs_hiding">I'll need some help to catch him. I can come back later.</statement>
+		<statement id="crabs_hiding_monkey">I just need to get him to come out of hiding.</statement>
+		<statement id="got_wrench">(Placeholder)Crab no longer has wrench.</statement>
+		<statement id="where_am_i" link="she_is_over_there" linkEntityId="monkey">Where am I?</statement>
+		<statement id="follow">I think he wants me to follow him.</statement>
+		<statement id="did_it" triggerEvent="triggerEvent" triggerEventArgs="got_wrench, true">Got it! Now to fix the plane.</statement>
+    </character>
+    <character id="monkey">
+		<statement id="she_is_over_there" triggerEvent="triggerEvent" triggerEventArgs="beach1, true">Ooo ah!</statement>
+    </character>
+</dialogs>

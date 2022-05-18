@@ -1,0 +1,91 @@
+<item id="2452"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Little Mermaid Dinglehopper Card</name> <!-- Change this card name -->
+  	<campaignID>DisneyMermaidQuest</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>2</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>GET DINGLEHOPPER</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Little Mermaid Dinglehopper Card"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>2</index>
+			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>  
+  		</btn>
+  		<btn>
+    		<index>1</index>
+      		<label>USE ON OTHERS</label>
+      		<actions>
+				<action type="activatePower" tracking="Use Little Mermaid Dinglehopper Card"> <!-- Change any parameters -->
+					<parameters>
+					  	<param id="trigger">true</param>
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Little Mermaid Dinglehopper Card">
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+		  <value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+		  <value>The Little Mermaid Diamond</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+		  <value>Dinglehopper</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+		  <value>ADVERTISEMENT</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+		  <value>Press SPACEBAR to use!</value>
+		  <y>10</y>
+		</text>
+		<text id="copyright">
+			<value>©Disney</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundTeal.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item2452.swf -->
+  	</assets>
+  	
+  	<looks>
+	    <look>
+		 	<item>ad_dinglehopper</item>
+		 	<!-- <hair>ad_dinglehopper</hair>  -->
+	   	</look> 
+	</looks> 
+
+    <conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+     <specials>
+		<specialAbility>limited/dingle_hopper</specialAbility>
+	</specials>
+</item>

@@ -1,0 +1,41 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3411</right>
+		<bottom>1703</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>20</left>
+		<top>0</top>
+		<right>3411</right>
+		<bottom>1910</bottom>
+	</bounds>
+	<assets>bunnyCam.swf,carrot.swf</assets>
+	<data>doors.xml,dialog.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="foreground" event="security_disabled">
+			<asset>foregroundFinale.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>		
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>296</x>
+			<y>404</y>
+		</defaultPosition>
+	</player>
+</scene>

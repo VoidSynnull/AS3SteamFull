@@ -1,0 +1,27 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="Sherlock">
+		<bitmap>limited/SherlockGnomesQuest/Sherlock.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>600</x> <!-- from left edge of ad unit -->
+			<y>610</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="Gnomeo">
+		<bitmap>limited/SherlockGnomesQuest/Gnomeo.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>680</x> <!-- from left edge of ad unit -->
+			<y>610</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+	<npc id="Juliet">
+		<bitmap>limited/SherlockGnomesQuest/Juliet.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>760</x> <!-- from left edge of ad unit -->
+			<y>610</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

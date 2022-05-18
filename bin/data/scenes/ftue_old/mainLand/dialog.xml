@@ -1,0 +1,110 @@
+<dialogs>
+	<character id="crusoe">
+		<statement id="look">Ah... fellow adventurers!</statement>
+		<statement id="scat">Mongo, no uniform in front of our guests?! Scat!</statement>		
+		<statement id="memories" link="long_ago">A race, you say? That reminds me of when I was a young adventurer.</statement>
+		<statement id="long_ago" link="dreams">I was a young man preparing to live my dreams.</statement>
+		<statement id="dreams" link="father">Everyone wants to follow their dreams, but mine were different.</statement>
+		<statement id="father" link="voyage">My father was always supportive, but even he couldn't keep up.</statement>
+		<statement id="voyage" link="one_day">I went on my voyage to many distant islands, only to be foiled.</statement>
+		<statement id="one_day" link="afraid">Until one day I came across a troop of monkeys.</statement>
+		<statement id="afraid" link="knew">At first I was afraid. One might say I was petrified.</statement>
+		<statement id="knew" link="smoothies">But deep down inside I knew that this is where I belonged.</statement>
+		<statement id="smoothies" link="dreams">The fruit smoothies brought me back to an earlier time when I was younger...</statement>
+		
+		<statement id="long_story_short" link="digress">And that's how I ended up at this resort.</statement>
+		<statement id="digress" link="help" linkEntityId="player">But I digress. You want to re-enter the race?</statement>
+		<statement id="need" link="stuff" linkEntityId="amelia">But of course. Just bring me some rope, a cloth, and a refreshing fruit drink.</statement>
+		<statement id="stop_bell">Quit ringing the bell, I'm right here!</statement>		
+		
+		<statement event="three_ingredients">Remember, bring me three things: cloth, rope, and a fruit drink.</statement>
+		<statement event="has_crusoe_item" triggerEvent="triggerEvent" triggerEventArgs="give_items">Have any items for me?</statement>
+		
+		<statement event="gave_rope">The rope is not enough. I still need a cloth and drink.</statement>	
+		<statement event="gave_canvas">The cloth is a start, but I need rope and that drink to put it all together</statement>
+		<statement event="gave_drink">This sure is refreshing. Can't do anything without the rope or cloth though.</statement>
+		<statement event="gave_rope_canvas">Just a drink away from entering the race! Make sure to add fruit to the machine.</statement>
+		<statement event="gave_rope_drink">I still need that cloth. I thought the fruit was originally in one...</statement>
+		<statement event="gave_canvas_drink">Could just use some rope to bring it all together.</statement>
+		
+		<statement id="gave_all" link="wait">Wait here while I work my magic.</statement>
+		<statement id="wait">No one is to disturb me. I must have complete concentration.</statement>
+		<statement id="hammock">Uh? What? Nothing like a cold drink.</statement>
+		<statement id="rested">My best work comes when I'm rested.</statement>
+		<statement id="plans">Here are the plans.</statement>
+		<statement id="built">Wake me up when you've finished building it.</statement>
+		
+		<statement event="saw_crusoe_plans">zzzzzz adventures zzzzzz</statement>
+    </character>
+    <character id="amelia">
+    	<statement id="strange">What is this, a tropical resort?</statement>
+    	<statement>Awfully empty for a resort, is anyone here?</statement>
+    	<statement id="ring_bell" forceOnScreen="true">Let's ring that bell to get someone's attention.</statement>
+    	<statement id="guests">We can't stay. We have to win the Flying Ace Race!</statement>
+    	
+    	<statement id="dialog_speed" link="dialog_speed_answer">That Crusoe guy sure talks a lot. Want me to show you how to speed up dialog?</statement>
+		<conversation id="dialog_speed_answer">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="show_dialog_speed_tutorial">Yeah!</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="skip_speed_tutorial">No thanks.</question>
+			</exchange>
+		</conversation>
+    	
+    	<statement id="stuff" triggerEvent="triggerEvent" triggerEventArgs="heard_ingredients">A rope, cloth, and drink? We can find those.</statement>    	
+		<statement event="three_ingredients">Look at this crazy contraption! If he can build this, he can definitely make a plane.</statement>
+		<statement event="has_crusoe_item">Let's hope Crusoe can make good use of those items!</statement>
+		
+		<statement id="so_long" link="gave_everything" forceOnScreen="true">What's taking him so long?</statement>
+		<statement event="gave_everything" forceOnScreen="true">Maybe you should go see what he's up to.</statement>
+		<statement id="well_rested">Hey! You used those materials to make a hammock!</statement>		
+		<statement event="saw_crusoe_plans" link="holding">Well, this plan won't work.</statement>
+		<statement id="holding">Hey, what's that monkey holding?</statement>		
+		<statement id="masterminds">The monkeys were the brains behind the operation this whole time!</statement>
+		<statement id="great">This blimp is great! [Player Name], hop aboard.</statement>
+		<statement id="made_blimp">Hop aboard!</statement>
+		
+		<statement id="gone" link="no_time">Probably taking a nap somewhere.</statement>
+		<statement id="no_time">No time to lose though, we need to get back in the race!</statement>
+    </character>
+    <character id="player">
+    	<statement id="help" link="need" linkEntityId="crusoe">Yes, can you help us?</statement>
+		<statement id="stahp" link="you_bet" linkEntityId="crusoe">We just need to know: Can you help us get off this island?</statement>
+		<statement id="no_fruit">It needs more fruit.</statement>
+		<statement id="no_fruit_dropped">I need to find some fruit for this machine.</statement>
+		<statement id="pushing">Hmm... Looks like they're trying to get it somewhere.</statement>
+		<statement id="fruit_canvas">How do I get this fruit to the machine?</statement>
+		<statement id="cranking">Crusoe is really working these poor monkeys.</statement>
+		<statement id="just_need" link="gasp">I Just need--</statement>
+		<statement id="gasp" link="pull_harder">*gasp*</statement>
+		<statement id="pull_harder">--to pull harder!</statement>
+		<statement id="strong">I guess I don't know my own strength.</statement>
+		<statement id="need_fruit">Well at least we got the fruit up there and the rope in the process!</statement>
+		<statement id="last_fruit">That's it, let's start this machine up.</statement>
+		<statement id="get_drink">That was a lot of work for such a little drink.</statement>
+		<statement id="hes_not_here">He must be around here somewhere...</statement>
+		<statement id="plan">This is your plan?</statement>
+		<statement id="monkey_plans">Wow, this is great! Can you really make this?</statement>
+		<statement id="thanks_mongo">Thanks for your help, Mongo.</statement>
+		<statement id="where_crusoe" link="gone" linkEntityId="amelia">Where's Crusoe? You'd think he'd be here to send us off.</statement>
+    </character>
+    <character id="monkey">
+    	<statement id="hello">hoo hoo haa ahh!</statement>
+    	<statement event="gave_everything">ah ah eeeeeeee!</statement>
+		<statement id="plans">eeeek eeeeek!</statement>
+		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+    <character id="monkey1">
+		<statement>ooo ooo ahh ahh?</statement>
+    	<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+     <character id="monkey2">
+		<statement event="gotItem_rope">eee eee ooo oooh!</statement>
+		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+     <character id="monkey3">
+		<statement event="gotItem_rope">hoo hoo eee eee eee!</statement>
+		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+</dialogs>

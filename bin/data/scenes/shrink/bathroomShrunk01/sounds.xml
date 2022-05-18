@@ -1,0 +1,48 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="rug">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="drawer">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="counter">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="faucet">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="hotFaucet">creaky_metal_01.mp3, creaky_metal_02.mp3, creaky_metal_03.mp3, creaky_metal_04.mp3</asset>
+		<asset id="coldFaucet">creaky_metal_01.mp3, creaky_metal_02.mp3, creaky_metal_03.mp3, creaky_metal_04.mp3</asset>
+		<asset id="dryerPlat">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="toothbrushContainer">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="hamper">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="rug">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="drawer">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="counter">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="faucet">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="hotFaucet">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="coldFaucet">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="dryerPlat">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="soapDispenser">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="hairSpray">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="plug">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="squirtPlat0">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="squirtPlat1">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="toothpasteSquirt">lotion_squeeze_01.mp3, lotion_squeeze_02.mp3, lotion_squeeze_03.mp3</asset>
+		<asset id="switch0">button_01.mp3</asset>
+		<asset id="switch1">button_01.mp3</asset>
+		<asset id="toothbrushContainer">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="hamper">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="hairBrushBounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+</sounds>

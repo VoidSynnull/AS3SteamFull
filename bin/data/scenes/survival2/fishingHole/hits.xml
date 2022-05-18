@@ -1,0 +1,86 @@
+<hits>
+	<hit id="treePushedPlatform" color="0xCCFF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="treeUnpushedPlatform" color="0x99CCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stonePlatform" color="0x9966CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="icePlatform" color="0x006699" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="iceCeiling" color="0xCC9966">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="rock" color="0xD6D5C7" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="snow" color="0xDCF7F5" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xC5BEAD" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="ice" color="0x9FD8F1" platform="true">
+		<component type="platform">
+		<!-- doesnt work well with fishing
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		 -->
+		</component>
+	</hit>
+	
+	<hit id="bounce1" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="bounce2" color="0xdd0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="bounce3" color="0xbb0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,26 @@
+<hits>
+	<hit id="stone" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sign" color="0x33CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="flower" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xFF99FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

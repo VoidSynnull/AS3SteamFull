@@ -1,0 +1,67 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/ZootopiaMMSQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml -->
+	<data type="interior" path="data/limited/ZootopiaMMSQ/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml -->
+	<assets type="interior" path="assets/limited/ZootopiaMMSQ/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<assets type="support" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>zootopia_judy_car</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2761</asset>
+		<asset>2762</asset>
+		<asset>2768</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>judy</asset>
+		<asset>nick</asset>
+	</assets>
+	
+</manifest>

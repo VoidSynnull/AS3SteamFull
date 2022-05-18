@@ -1,0 +1,56 @@
+<manifest>
+	<data type="data" path="data/limited/DuckTalesMMSQ/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>version</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="layers" path="assets/limited/DuckTalesMMSQ/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- avatar parts for NPC in front -->
+	
+	<assets type="feet" path="assets/specialAbility/objects/shoes/" ext="swf">
+		<asset>ducktales_flipper</asset>
+	</assets>
+	
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>dewey</asset>
+		<asset>huey</asset>
+		<asset>louie</asset>
+		<asset>webby</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>dewey</asset>
+		<asset>huey</asset>
+		<asset>louie</asset>
+		<asset>webby</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>ducktales</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>ducktales</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>dewey</asset>
+		<asset>huey</asset>
+		<asset>louie</asset>
+		<asset>webby</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>dewey</asset>
+		<asset>huey</asset>
+		<asset>louie</asset>
+		<asset>webby</asset>
+	</assets>
+</manifest>

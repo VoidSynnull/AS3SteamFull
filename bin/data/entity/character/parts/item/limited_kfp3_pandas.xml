@@ -1,0 +1,27 @@
+<part>
+	<id>limited_kfp3_pandas</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2787</campaignID>
+	<specialAbility>
+			<className>game.data.specialAbility.character.PlayPopupAnim</className>
+			<parameters>
+				<param id="swfPath">limited/KFP3PandasIC/transformation.swf</param>
+				<param id="tracking">KFP3PandasIC,Pandas Everywhere Power</param>
+			</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">M:limited_po_kfp3,limited_lishan_kfp3,|F:limited_meimei_kfp3</param>
+					</parameters>
+				</action>	
+				
+		
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">Night Watch Main Theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3,ls_carpet_02.mp3</asset>
+		<asset id="floor">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="metal">ls_general_metal_01.mp3,ls_general_metal_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3,fs_carpet_02.mp3,fs_carpet_03.mp3,fs_carpet_04.mp3</asset>
+		<asset id="floor">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="metal">fs_general_metal_01.mp3,fs_general_metal_02.mp3,fs_general_metal_03.mp3,fs_general_metal_04.mp3</asset>
+	</sound>
+	<sound type="effects" >
+		<asset event="toy_bird">toy_bird.mp3</asset>
+		<asset event="toy_robot">toy_robot_loop.mp3</asset>
+		<asset event="toy_rocket1">rocket_jump_01.mp3</asset>
+		<asset event="toy_rocket2">rocket_jump_02.mp3</asset>
+		<asset event="toy_rocket3">rocket_jump_03.mp3</asset>
+		<asset event="toy_train">toy_train_loop.mp3</asset>
+		<asset event="toy_heli">toy_helicopter_warmup.mp3</asset>
+		<asset event="toy_truck1">toy_truck.mp3</asset>
+		<asset event="toy_truck2">toy_digger.mp3</asset>
+		<asset event="toy_rockingHorse">wood_creak_01.mp3</asset>
+	</sound>
+</sounds>

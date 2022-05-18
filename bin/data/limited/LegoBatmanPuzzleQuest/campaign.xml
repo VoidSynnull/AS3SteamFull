@@ -1,0 +1,20 @@
+<campaign>
+  	<campaignId>LegoBatmanPuzzleQuest</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Lego Batman</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">https://ad.doubleclick.net/ddm/trackclk/N717735.8539FAMILYEDUCATIONNETWO/B20306804.207053708;dc_trk_aid=406846969;dc_trk_cid=93966282;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2861</card>
+		<card>2862</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2861Puzzle</card>
+		<card>2862Puzzle</card>
+	</boycards>
+	<girlcards>
+		<card>2861Puzzle</card>
+		<card>2862Puzzle</card>
+	</girlcards>
+</campaign>

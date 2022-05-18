@@ -1,0 +1,19 @@
+<part>
+	<id>june_icecream_strawberry</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.TootsiePop</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

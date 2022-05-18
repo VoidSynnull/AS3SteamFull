@@ -1,0 +1,14 @@
+<specialAbility id="limited/pop_follower_space_jam_lola">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2050</param>
+		<param id="skinColor">0xff7835</param>
+		<param id="overshirtFrame">limited_lola_follower</param>
+		<param id="mouthFrame">empty</param>
+		<param id="campaignName">SpaceJamAutoCard</param>
+		<param id="lineThickness">8</param>
+		<param id="noDarken">true</param>
+	 </parameters>
+</specialAbility>

@@ -1,0 +1,30 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">mythology_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3,ls_grass_02.mp3</asset>
+		<asset id="rocks">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id= "wood">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id= "tree">ls_tree_01.mp3,ls_tree_02.mp3</asset>
+		<asset id= "leaves">ls_leaves_01.mp3,ls_leaves_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="rocks">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3,fs_grass_02.mp3,fs_grass_03.mp3,fs_grass_04.mp3</asset>
+		<asset id= "wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="tree">fs_tree_01.mp3,fs_tree_02.mp3,fs_tree_03.mp3,fs_tree_04.mp3</asset>
+		<asset id= "leaves">fs_leaves_01.mp3,fs_leaves_02.mp3,fs_leaves_03.mp3,fs_leaves_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="zeus_appears_sound">myth_enter_zues_01.mp3</asset>
+		<asset triggeredByEvent="zeus_steal_sound">myth_zues_steals_items_01.mp3</asset>
+		<asset triggeredByEvent="athena_olives" baseVolume="3">myth_sparkle_loop_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="transform">
+		<asset id="athena" modifiers="position">myth_transform_01.mp3</asset>
+	</sound>
+</sounds>

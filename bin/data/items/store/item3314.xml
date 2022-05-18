@@ -1,0 +1,37 @@
+<item id="3314">
+		<type>store</type>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		<buttons>
+			<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+		</buttons>
+	<textfields>
+			<text id="storeTitle">
+					<value>ZMB Unit</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Zomberry Island</value>
+			</text>
+ 	</textfields>
+ 	
+ 	<looks>
+			<look>
+			<facial>stor_zomunit_girl</facial>
+			<shirt>stor_zomunit</shirt>
+			<pants>stor_zomunit</pants>
+			<item>stor_zomunit</item>
+			<overshirt>stor_zomunit</overshirt>
+		</look>
+	</looks> 
+</item>

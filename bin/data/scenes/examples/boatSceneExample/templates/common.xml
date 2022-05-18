@@ -1,0 +1,25 @@
+<components>
+<component class="game.components.entity.collider.BitmapCollider">
+	<properties>
+		<addAccelerationToVelocityVector>true</addAccelerationToVelocityVector>
+	</properties>
+</component>
+<component class="game.components.scene.Vehicle">
+	<properties>
+		<onlyRotateOnAccelerate>false</onlyRotateOnAccelerate>
+	</properties>
+</component>
+<component class="game.components.entity.Sleep">
+	<properties>
+		<ignoreOffscreenSleep>true</ignoreOffscreenSleep>
+	</properties>
+</component>
+<component class="game.components.motion.MotionTarget"/>
+<component class="game.components.motion.Navigation"/>
+<component class="game.components.entity.collider.RadialCollider"/>
+<component class="game.components.entity.collider.SceneCollider"/>
+<component class="game.components.entity.collider.ZoneCollider"/>
+<component class="engine.components.Audio"/>
+<component class="game.components.audio.HitAudio"/>
+<component class="game.components.hit.CurrentHit"/>
+</components>

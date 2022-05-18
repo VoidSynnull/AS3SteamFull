@@ -1,0 +1,93 @@
+<doors>
+	<door id="printExit">
+		<scene>game.scenes.nightWatch.printShop.PrintShop</scene>
+		<x>1644</x>
+		<y>518</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="toysExit">
+		<scene>game.scenes.nightWatch.toyStore.ToyStore</scene>
+		<x>305</x>
+		<y>532</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="clothingExit">
+		<scene>game.scenes.nightWatch.clothingStore.ClothingStore</scene>
+		<x>354</x>
+		<y>575</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="sportsExit">
+		<scene>game.scenes.nightWatch.sportsStore.SportsStore</scene>
+		<x>310</x>
+		<y>670</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="petStoreExit">
+		<scene>game.scenes.nightWatch.petStore.PetStore</scene>
+		<x>367</x>
+		<y>542</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="giftExit">
+		<scene>game.scenes.nightWatch.giftStore.GiftStore</scene>
+		<x>315</x>
+		<y>500</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="exitRight">
+		<scene>game.scenes.nightWatch.mallMiddle.MallMiddle</scene>
+		<x>25</x>
+		<y>1724</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

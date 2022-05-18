@@ -1,0 +1,30 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>LegoMinecraftQuest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N789069.270649POPTROPICA/B20694931.214088669;dc_trk_aid=413834428;dc_trk_cid=98131949;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.270649POPTROPICA/B20694931.214088669;dc_trk_aid=413834428;dc_trk_cid=98131949;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+		<impressions id="Mobile Main Street">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N789069.270649POPTROPICA/B20694931.214088669;dc_trk_aid=413834428;dc_trk_cid=98131949;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+		</impressions>
+	</impressionUrls>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2875Puzzle</card>
+		<card>2876Puzzle</card>
+	</boycards>
+	<girlcards>
+		<card>2875Puzzle</card>
+		<card>2876Puzzle</card>
+	</girlcards>
+</campaign>

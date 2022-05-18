@@ -1,0 +1,69 @@
+<part>
+	<id>limited_magicfishook</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2820</campaignID>
+	<specialAbility>
+	<className>game.data.specialAbility.SpecialAbility</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="partType">item</param>
+			<param id="tracking">MoanaQuest,Maui Hook</param>
+		</parameters>
+
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.PointItem</param> 
+						<param id="waitLabel" type="String">pointing</param> 
+					</parameters>
+				</action>
+				<action class="WaitAction" noWait="false">
+					<parameters> 
+						<param id="waitTime" type="Number">4</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">item</param> 
+						<param id="startFrame" type="int">1</param> 
+						<param id="mode" type="string">gotoAndStop</param>
+											
+					</parameters>
+				</action>
+				<action class="SetVisibleAction" startDelay=".5" lockInput="true">
+					<parameters> 
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="ShowOverlayAnimAction" noWait="false" lockInput="true">
+					<parameters> 
+						<param id="swfPath" type="string">limited/MoanaQuest/transform.swf</param> 
+					</parameters>
+				</action>
+				<action class="SetVisibleAction"   >
+					<parameters> 
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="SkinFrameAction" noWait="false" lockInput="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">item</param> 
+						<param id="startFrame" type="int">0</param> 
+						<param id="mode" type="string">gotoAndStop</param>
+											
+					</parameters>
+				</action>
+				
+			</actionChain>
+			
+		</actions>
+		</specialAbility>
+</part>

@@ -1,0 +1,28 @@
+<part>
+	<id>limited_mh_gooliope</id>
+	<type>hair</type>
+	<campaignID>2694</campaignID>
+	<specialAbility>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">MHGooliopeBrowserMVU,Gooliope Power</param>
+		</parameters>
+		<triggerable>true</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetScaleTargetAction" endDelay="2">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="scaleTarget" type="number">0.63</param> 
+					</parameters>
+				</action>
+				<action class="SetScaleTargetAction">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="scaleTarget" type="number">0.36</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

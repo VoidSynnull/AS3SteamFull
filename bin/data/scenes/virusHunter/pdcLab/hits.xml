@@ -1,0 +1,58 @@
+<hits>
+	<hit id="floor" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metal" color="0xC6D6EB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xA89F91" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="linoleum" color="0xE0E5EB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+
+	<!-- A vertical moving platform -->
+	<hit id="elevator">
+		<component type="movingPlatform">
+			<visible>elevatorArt</visible>
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>270</x>
+					<y>507</y>
+				</point>
+				<point>
+					<x>270</x>
+					<y>1316</y>
+				</point>
+			</points>
+			<loop>false</loop>
+			<pause>true</pause>
+		</component>
+	</hit>
+	<hit id="wallA">
+		<component type="wall"/>
+	</hit>
+	<hit id="wallB">
+		<component type="wall"/>
+	</hit>
+	<hit id="wallC">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+</hits>

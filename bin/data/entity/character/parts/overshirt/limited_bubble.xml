@@ -1,0 +1,14 @@
+<part>
+	<id>limited_bubble</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<campaignID>2982</campaignID>
+	<specialAbility id="ability_bubble">
+		<triggerable>false</triggerable>
+		<className>game.data.specialAbility.islands.time.SlowFall</className>
+		<parameters>
+			<param id="gravityDampening">-1500</param>
+		</parameters>
+		<!-- <validIslands>hub</validIslands> -->
+	</specialAbility>
+</part>

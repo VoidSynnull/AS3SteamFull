@@ -1,0 +1,57 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text8</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text9</question>
+				<answer>text3</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_phonograph">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text8</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text4</question>
+				<answer link="worry">text5</answer>
+			</exchange>
+		</conversation>		
+		<statement id="worry" triggerEvent="takeItem" triggerEventArgs="phonograph, char1">text6</statement>
+		
+		<conversation event="returned_phonograph">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text7</question>
+				<answer>text8</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text9</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char2">
+    	<statement>text10</statement>
+    </character>
+    <character id="char3">
+    	<statement>text11</statement>
+    </character>
+    <character id="char4">
+    	<statement>text12</statement>
+    </character>
+</dialogs>

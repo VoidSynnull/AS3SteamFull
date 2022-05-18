@@ -1,0 +1,19 @@
+<part>
+	<id>an_soldier</id>
+	<asset>arab_pants</asset>
+	<type>pants</type>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0xE2E2B5</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape"/>
+		</colorable>
+	</colorables>
+</part>

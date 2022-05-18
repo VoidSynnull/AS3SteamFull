@@ -1,0 +1,21 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="lockers" color="0xD9B359" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sink" color="0x2F98D0" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xF3CEA9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

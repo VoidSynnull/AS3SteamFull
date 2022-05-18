@@ -1,0 +1,52 @@
+<item id="3746"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+  <buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+  	</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0x686868</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x696969</color>
+			<val>1</val>
+		</btn>
+	 </radiobuttons>
+  	<textfields>
+		<text id="storeTitle">
+			<value>King &#38; Queen Hoodies</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			 <mouth>pfool</mouth>
+			  <hair>store_king_hoodie</hair>
+			  <pants>sponsor_mrhan</pants>
+			  <overshirt>store_king_hoodie</overshirt>
+		</look>
+		<look> <!-- Only list what you want to change -->
+			 <mouth>ppunkgirl5</mouth>
+			  <hair>store_queen_hoodie</hair>
+			  <pants>torta_piccola</pants>
+			  <overshirt>store_queen_hoodie</overshirt>
+		</look>
+	</looks>
+
+</item>

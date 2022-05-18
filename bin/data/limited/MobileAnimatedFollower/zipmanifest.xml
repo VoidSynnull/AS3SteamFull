@@ -1,0 +1,42 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MobileAnimatedFollower/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml -->
+	<data type="interior" path="data/limited/MobileAnimatedFollower/mainStreet/">
+		<asset>custom.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml -->
+	<assets type="interior" path="assets/limited/MobileAnimatedFollower/mainStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2777</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundRedOrange</asset>
+	</assets>
+
+	<assets type="support" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>follower_transparency</asset>
+	</assets>
+	
+	<assets type="support" path="assets/limited/Goldfish2014Q4ECWeek3/" ext="swf">
+		<asset>follower</asset>
+	</assets>
+
+	
+</manifest>

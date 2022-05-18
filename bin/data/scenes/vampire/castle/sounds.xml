@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">medium_winds_01.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">rain_heavy_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset id="labExit">door_knob_turn_open_01.mp3</asset>
+		<asset id="countsChamberExit">door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="leaves">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="wood">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="rocks">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3 </asset>
+		<asset id="wetness">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="leaves">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="wood">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="rocks">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="wetness">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="pry_rock">pry_boulder.mp3</asset>
+		<asset triggeredByEvent="drag_rock">heavy_rock_drag_01.wav</asset>
+		<asset triggeredByEvent="rock_land">stone_impact_05.wav</asset>
+		<asset triggeredByEvent="water_fountain">water_fountain_01_L.wav</asset>
+		<asset triggeredByEvent="thunder">thunder_clap_01.mp3,thunder_clap_02.mp3,thunder_clap_03.mp3</asset>
+	</sound>
+</sounds>

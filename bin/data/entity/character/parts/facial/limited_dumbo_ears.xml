@@ -1,0 +1,20 @@
+<part>
+	<id>limited_dumbo_ears</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2963</campaignID>
+ 	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/Dumbo2VBB/fly.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">true</param>
+			<param id="tracking">DumboVBB,fly</param>
+			<param id="parts">facial</param>
+			<param id="values">limited_dumbo_ears_fly</param>
+		</parameters>
+	</specialAbility>
+</part>

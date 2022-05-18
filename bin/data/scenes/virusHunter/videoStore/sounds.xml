@@ -1,0 +1,22 @@
+<sounds>
+	<!--  
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Sneaky_Suspense.mp3</asset>
+	</sound>
+	-->
+	<sound type="effects" action="doorOpened">
+		<asset id="door1">door_pushbar_open_01.mp3</asset>
+		<asset id="door2">bead_curtain_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="bookshelf">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="bookshelf">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="desk">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

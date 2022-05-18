@@ -1,0 +1,21 @@
+<part>
+	<id>limited_lemoncello_book</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2853</campaignID>
+  	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<parameters>
+			<param id="swfPath">limited/LemoncelloQuest/flyingBook.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">true</param>
+			<param id="npcOnTop">true</param>
+			<param id="swapForeground">true</param>
+			<param id="tracking">LemoncelloQuest,FlyingBook</param>
+		</parameters>
+	</specialAbility>
+</part>

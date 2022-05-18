@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement>Psst! I've got a plan! Come inside the tree!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Psst!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

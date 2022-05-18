@@ -1,0 +1,53 @@
+<dialogs>
+	<character id="crusoe">
+		<statement id="look">Ah... fellow adventurers!</statement>
+		<statement id="scat">Mongo, no uniform in front of our guests?! Scat!</statement>		
+		<statement id="memories" link="long_ago">A race, you say? That reminds me of when I was a young adventurer.</statement>
+		<statement id="long_ago" link="dreams">I was a young man preparing to live my dreams.</statement>
+		<statement id="dreams" link="father">Everyone wants to follow their dreams, but mine were different.</statement>
+		<statement id="father" link="voyage">My father was always supportive, but even he couldn't keep up.</statement>
+		<statement id="voyage" link="one_day">I went on my voyage to many distant islands, only to be foiled.</statement>
+		<statement id="one_day" link="afraid">Until one day I came across a troop of monkeys.</statement>
+		<statement id="afraid" link="knew">At first I was afraid. One might say I was petrified.</statement>
+		<statement id="knew" link="smoothies">But deep down inside I knew that this is where I belonged.</statement>
+		<statement id="smoothies" link="dreams">The fruit smoothies brought me back to an earlier time when I was younger...</statement>
+		
+		<statement id="long_story_short" link="help" linkEntityId="player">But I digress. You want to re-enter the race?</statement>
+		<statement id="need" link="holding" linkEntityId="amelia">No. I've never been able to get off this island.</statement>
+		<statement id="stop_bell">Quit ringing the bell, I'm right here!</statement>		
+		
+    </character>
+    <character id="amelia">
+    	<statement id="strange">What is this, a tropical resort?</statement>
+    	<statement>Awfully empty for a resort, is anyone here?</statement>
+    	<statement id="ring_bell" forceOnScreen="true">Let's ring that bell to get someone's attention.</statement>
+    	<statement id="guests">We can't stay. We have to win the Flying Ace Race!</statement>
+    	
+    	<statement id="dialog_speed" triggerEvent="triggerEvent" triggerEventArgs="shutup">That Crusoe guy sure talks a lot. Let's see if he can help us get off this island.</statement>
+    	
+		<statement id="holding" triggerEvent="triggerEvent" triggerEventArgs="monkey_seq">Hey, what's that monkey holding?</statement>		
+		<statement id="great">This blimp is great! [Player Name], hop aboard.</statement>
+		
+		<statement id="gone" link="no_time">Probably taking a nap somewhere.</statement>
+		<statement id="no_time">No time to lose though, we need to get back in the race!</statement>
+    </character>
+    <character id="player">
+    	<statement id="help" link="need" linkEntityId="crusoe">Yes, can you help us?</statement>
+		<statement id="monkey_plans">Wow, this is great! Can you really make this?</statement>
+		<statement id="where_crusoe" link="gone" linkEntityId="amelia">Where's Crusoe? You'd think he'd be here to send us off.</statement>
+    </character>
+    <character id="monkey">
+    	<statement id="hello">hoo ahh!</statement>
+ 		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+    <character id="monkey1">
+		<statement>ooo ahh?</statement>
+    	<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+     <character id="monkey2">
+		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+     <character id="monkey3">
+		<statement event="made_blimp">eeeek eeeeek!</statement>
+    </character>
+</dialogs>

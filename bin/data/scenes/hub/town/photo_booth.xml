@@ -1,0 +1,14 @@
+<scene>
+	<layers>
+		<layer id="PhotoBooth">
+			<condition type="platform">mobile</condition>
+			<offsetX>2950</offsetX>
+			<offsetY>890</offsetY>
+		</layer>
+		<layer id="PhotoBooth">
+			<condition type="platform">desktop</condition>
+			<offsetX>3020</offsetX>
+			<offsetY>895</offsetY>
+		</layer>
+	</layers>
+</scene>

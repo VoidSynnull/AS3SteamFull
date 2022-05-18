@@ -1,0 +1,50 @@
+<npcs>
+	<npc id="Meg">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullchinamerch</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>bl_drem</facial>
+			<hair>limited_meg</hair>
+			<shirt>limited_meg</shirt>
+			<pants>sponsor_mrhan</pants>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>100</x>
+			<y>1780</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	<npc id="MrsWhatsit">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>sponsor_mh</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>limited_mrs_whatsit</marks>
+			<facial>limited_mrs_whatsit</facial>
+			<hair>limited_mrs_whatsit</hair>
+			<shirt>limited_mrs_whatsit</shirt>
+			<pants>limited_mrs_whatsit</pants>
+			<item>limited_specs</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>870</x>
+			<y>680</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.4</scale>
+	</npc>
+</npcs>

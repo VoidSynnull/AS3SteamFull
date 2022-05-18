@@ -1,0 +1,97 @@
+<npcs>
+	<npc id="patches" event="parole_passed_patches">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x7c5d3e</skinColor>
+			<hairColor>0xe0e0e0</hairColor>
+			<mouth>wkgrmpa</mouth>
+			<marks>pr_patches</marks>
+			<hair>pr_patches</hair>
+			<shirt>peinstein</shirt>
+			<pants>srhazmat</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1151</x>
+			<y>1690</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="nostrand" event="parole_passed_nostrand">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>barpatron1</mouth>
+			<marks>pr_von</marks>
+			<facial>franklin</facial>
+			<hair>pr_von</hair>
+			<shirt>puertoricanfarmersbrother</shirt>
+			<pants>oldpilot</pants>
+			<overpants>surlydartman</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>600</x>
+			<y>1690</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="marion" event="parole_passed_marion">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>16</mouth>
+			<marks>mthbonsaiwoman</marks>
+			<hair>pr_marion</hair>
+			<shirt>sponsorspynext</shirt>
+			<pants>skullpirate4</pants>
+			<item>mk_writer</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>3380</x>
+			<y>1690</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="flambe" event="parole_passed_flambe">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xe75c2e</hairColor>
+			<mouth>14</mouth>
+			<marks>pr_flambe</marks>
+			<hair>pr_flambe</hair>
+			<shirt>sponsorfarmkid</shirt>
+			<pants>wkgloop01</pants>
+			<overpants>barpatron1</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>1850</x>
+			<y>1690</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+</npcs>

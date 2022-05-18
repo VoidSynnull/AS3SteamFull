@@ -1,0 +1,35 @@
+<item id="3206">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+					<value>Cool Boy Plush</value>
+			</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+
+	 	<looks>
+			<look>
+			<item>tcoolbyplush</item>
+			</look>
+		</looks>
+</item>

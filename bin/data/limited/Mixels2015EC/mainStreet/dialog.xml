@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>"My name is Nurp-Naut - don’t mind my spinning head. Come have fun with my Mixel buddies inside!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

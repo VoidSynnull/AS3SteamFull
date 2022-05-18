@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_9999">Be sure to watch this video about my new movie then play the game to get prizes!</statement> <!-- If have item card and returned to scene -->
+		<statement event="videoDone">Click the replay button to see the video and play again.</statement> <!-- if video done -->
+		<statement>Watch this video about my new movie then play my dance game and win prizes!</statement> <!-- default if above not true -->
+		<statement id="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="custom_npc_ruby">
+		<statement event="videoDone">Click the replay button to see the video and play again.</statement> <!-- if video done -->
+		<statement>Hi! I'm Ruby.</statement> <!-- default if above not true -->
+		<statement id="npcProximity">Hi! I'm Ruby.</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

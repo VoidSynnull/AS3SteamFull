@@ -1,0 +1,12 @@
+<groups>
+	<group event="captured_all_fish" triggerAndSave="true">
+		<and>
+			<event type="cuttlefish_captured"/>
+			<event type="stonefish_captured"/>
+			<event type="barreleye_captured"/>
+			<event type="seadragon_captured"/>
+			<event type="angler_captured"/>
+		</and>
+	</group>
+
+</groups>

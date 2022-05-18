@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="LegoNPC_legostarwars">
+		<statement link="ok" linkEntityId="player">Bip bop bip bip bloop!</statement>
+    </character>
+    <character id="player">
+		<statement id="ok">Ok, R2, I'll come in to pilot your starships!</statement>
+    </character>
+</dialogs>

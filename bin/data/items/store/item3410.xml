@@ -1,0 +1,44 @@
+<item id="3410">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Fairy 2</value>
+		</text>
+		
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			<eyeState>open</eyeState>
+			 <mouth>teethgrin1</mouth>
+			 <marks>freckles</marks>
+			 <hair>sponsortinkbobble</hair>
+			 <shirt>sponsortinkbobble</shirt>
+			 <pants>sponsortinkbobble</pants>
+			 <pack>sponsortink3</pack>
+			 <overpants>sponsortinkbobble</overpants>
+		</look>
+	</looks> 
+
+</item>

@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="player">
+		<statement id="reveal3">Crusoe!</statement>
+		<statement id="win2">Let's finish the race!</statement>
+    </character>
+    <character id="pilot">
+     	<statement id="intro1">We're back!</statement>
+    	<statement id="intro1b">Let's drop these bags to catch up.</statement>
+    	<statement id="dropweight">Try dropping one of those bags!</statement>
+    	<statement id="thatsit">It's working. Drop more!</statement>
+    	<statement id="hammock">Let's drop the last one!</statement>
+    	<statement id="win1">You did it! The finish line is just ahead! </statement>
+    </character>
+    <character id="baron">
+     	<statement id="woops2">What did you do?</statement>
+    	<statement id="woops4">My beloved plane!</statement>
+    </character>
+    <character id="crusoe">
+    	<statement id="reveal5">I'm finally off the island!</statement>
+     	<statement id="woops1">Whoops.</statement>
+    	<statement id="woops3">Just a little juice in the wiring.</statement>
+    	<statement id="woops5">A sticky situation to be sure. Reminds me of a time in my youth...</statement>
+    </character>
+    <character id="officiate">
+    	<statement id="winner" forceOnScreen="true">Congratulations! You are the winners!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">poptropicon1_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="hammer">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="umbrella">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="sign">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="forge">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="ship">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="car">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="hammer">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="sign">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="forge">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="ship">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="car">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+	</sound>
+</sounds>

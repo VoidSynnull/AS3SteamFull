@@ -1,0 +1,14 @@
+<adSettings>
+	<forceMSinBB>true</forceMSinBB> <!-- force main street ads in billboard scenes on browser -->
+	<forceMSinBBMobile>true</forceMSinBBMobile> <!-- force main street ads in billboard scenes on mobile -->
+	<carouselDelay>10</carouselDelay> <!-- home scene billboard carousel delay for rotation -->
+	<bumperDelay>3</bumperDelay> <!-- mobile bumper delay when leaving app -->
+	<brandingDelay>15</brandingDelay> <!-- branding timer delay in minutes (default is 15) -->
+	<networkAdsMobile>true</networkAdsMobile> <!-- enable network ads on mobile (default is true) -->
+	<kidozSpacing>5</kidozSpacing> <!-- spacing between scenes for Kidoz ads -->
+		
+	<custom1>to_island</custom1><!-- Dialog id from the town scene for adventurer guy. -->
+	<custom2>24 Carrot</custom2><!-- If dialog id is to_island, we need the island name -->
+	<custom3>game.scenes.carrot.mainStreet.MainStreet</custom3> <!-- If dialog id is to_island, we need the scene to redirect to. -->
+	<custom4>custom text here</custom4>
+</adSettings>

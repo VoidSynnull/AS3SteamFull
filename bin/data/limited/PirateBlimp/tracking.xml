@@ -1,0 +1,15 @@
+<tracking>
+	<track id="blimpVideoContainer">
+		<choice>Video</choice>
+		<subchoice>Blimp</subchoice>
+	</track>
+	<track id="blimpClickURL">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Blimp</subchoice>
+	</track>
+	<track id="custom_blimp_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice></choice>
+	</track>
+</tracking>

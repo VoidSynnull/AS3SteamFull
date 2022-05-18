@@ -1,0 +1,14 @@
+<specialAbility id="limited/pop_follower_carebear">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2019</param>
+		<param id="scaleSize">0.73</param>
+		<param id="skinColor">0xF8E648</param>
+		<param id="overshirtFrame">limited_carebear_follower</param>
+		<param id="overpantsFrame">limited_carebear_follower</param>
+		<param id="campaignName">AmericanGirlQuest</param>
+		<param id="noDarken">true</param>
+	 </parameters>
+</specialAbility>

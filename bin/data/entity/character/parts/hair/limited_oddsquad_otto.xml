@@ -1,0 +1,19 @@
+<part>
+	<id>limited_oddsquad_otto</id>
+	<type>hair</type>
+	<gender>male</gender>
+	<costumizable>false</costumizable>
+	<campaignID>2622</campaignID>
+	<notPrintable>true</notPrintable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

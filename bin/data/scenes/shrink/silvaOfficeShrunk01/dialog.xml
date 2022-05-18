@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="cj">
+		<statement id="gj" link="better idea">Great work! Now flip the shrink ray switch to ''grow''!</statement>
+    	<statement id= "better idea">Once we're back to normal size, I have an idea for a new science project.</statement>
+    </character>
+    
+    <character id="mrSilva">
+		<statement id="let me out">Let me out of heeeeeere!</statement>
+    </character>
+    
+    <character id="player">
+		<statement id="karma" link="let me out" linkEntityId="mrSilva">Welcome to my world! I hope you like your new home with the ants.</statement>
+    </character>
+</dialogs>

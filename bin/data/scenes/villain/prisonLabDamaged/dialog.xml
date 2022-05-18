@@ -1,0 +1,17 @@
+<dialogs>
+	<character id="char2">
+		<statement event="victory" triggerEvent="triggerEvent" triggerEventArgs="giveItem_medallion">We managed to lock him up in the dream machine before he came to. Thanks to you, Zeus won't be bothering anyone ever again. For your trouble, take this.</statement>
+    	<statement event="hasItem_medallion">We won't make that mistake again.</statement>
+    	<statement event="emergency_lockdown" tiggerEvent="triggerEvent" triggerEventArgs="knows_codes">Emergency lockdown! The prisoners from Super Power Island are holding one of our guards in their cells!</statement>
+    	<statement event="zeus_dream">Please, go into Zeus's dream and see if you can retrieve that code!</statement>
+    	<statement event="bonus_quest">We need your help getting the code from Zeus.</statement>
+    	<statement event="hasItem_codes">We're safe, thanks to you! Help yourself to something from our gear closet.</statement>
+    </character>
+    
+    <character id="char3">
+    	<statement event="bonus_start">Like I said -- we should have locked 'em up and thrown away the key!</statement>
+    	<statement event="knows_codes" triggerEvent="triggerEvent" triggerEventArgs="zeus_dream">Only one person knows the code to those cells. And he's fast asleep!</statement>
+    	<statement event="bonus_quest">Zeus has the code.</statement>
+    	<statement event="hasItem_codes">You did it!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,16 @@
+<dialogs>
+    <character id="player">
+		<statement triggeredByEvent="nothing_to_dig">Nothing to dig here.</statement>
+		<statement triggeredByEvent="no_gunpowder">I don't need to use gunpowder here.</statement>
+		<statement triggeredByEvent="cant_use_rope">A rope's no good here.</statement>
+		<statement triggeredByEvent="cant_use_helmet">It's not my size.</statement>
+		<statement triggeredByEvent="cant_use_furs">This might make a good tent for me.</statement>
+		<statement triggeredByEvent="cant_use_axe">I don't need to chop anything down right here.</statement>
+		<statement triggeredByEvent="cant_use_lens">I have no use for this here.</statement>
+		<statement triggeredByEvent="cant_use_candybar">Don't have time for a snack right now.</statement>
+		<statement triggeredByEvent="cant_use_goblet">I have no use for this here.</statement>
+		<statement triggeredByEvent="cant_use_drippings">This slop isn't fit for even the birds.</statement>
+		<statement triggeredByEvent="cant_use_furs">It's not my size.</statement>
+		<statement triggeredByEvent="cant_use_helmet">It's not my size.</statement>
+    </character>
+</dialogs>

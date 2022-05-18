@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">mystery_of_map_main_theme.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">beach_waves_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="sand">ls_fine_sand_01.mp3, ls_fine_sand_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="sand">fs_fine_sand_01.mp3, fs_fine_sand_02.mp3, fs_fine_sand_03.mp3, fs_fine_sand_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="digging">landslide_sand_01.mp3</asset>
+		<asset triggeredByEvent="dig">shovel_dirt_01.mp3, shovel_dirt_02.mp3</asset>
+	</sound>
+</sounds>

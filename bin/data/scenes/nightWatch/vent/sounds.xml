@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">eerie_wind.mp3</asset>
+		
+	</sound>
+	<sound type="music">
+		<asset loop="true" faded="true" exclusiveType="true">chase Theme *placeholder*.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>grate_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_heavy_metal_verb_01.mp3,ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="ladder">ls_heavy_metal_verb_01.mp3,ls_heavy_metal_verb_02.mp3</asset>
+		<asset id="vent">ls_thin_metal_verb_01.mp3,ls_thin_metal_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_heavy_metal_verb_01.mp3,fs_heavy_metal_verb_02.mp3,fs_heavy_metal_verb_03.mp3,fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="ladder">fs_heavy_metal_verb_01.mp3,fs_heavy_metal_verb_02.mp3,fs_heavy_metal_verb_03.mp3,fs_heavy_metal_verb_04.mp3</asset>
+		<asset id="vent">fs_thin_metal_verb_01.mp3,fs_thin_metal_verb_02.mp3,fs_thin_metal_verb_03.mp3,fs_thin_metal_verb_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset event="metalGrate_lock">electric_lock_01.mp3</asset>
+		<asset event="use_blowtorch">blow_torch_01_L.mp3</asset>
+		<asset event="fan_running">fan_engine_01_L.mp3</asset>
+		<asset event="gears_running">large_gears_01_L.mp3</asset>
+	</sound>
+</sounds>

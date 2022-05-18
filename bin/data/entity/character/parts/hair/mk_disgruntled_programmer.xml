@@ -1,0 +1,20 @@
+<part>
+	<id>mk_disgruntled_programmer</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<gender>male</gender>
+	<notPrintable>true</notPrintable>
+	<campaignID>2001</campaignID>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

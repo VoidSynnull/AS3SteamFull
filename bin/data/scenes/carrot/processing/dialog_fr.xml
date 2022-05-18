@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="drone2">
+		<conversation>
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>peux pas parler. Doit traiter les carottes.</answer>
+			</exchange>
+			<exchange>
+				<question>Que faites-vous?</question>
+				<answer>peux pas parler. Doit traiter les carottes.</answer>
+			</exchange>
+			<exchange>
+				<question>Regardez derrière vous!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_2">Où?</answer> 
+			</exchange>
+		</conversation>
+		
+		<statement triggeredByEvent="drone_freed_2">Merci! Maintenant, soyez prudent. Si vous êtes considéré sans Rabbot oreilles Dr. Hare va vous attraper!</statement>
+	</character>
+	
+	<character id="drone3">
+		<conversation>
+			<exchange>
+				<question>Qui êtes-vous?</question>
+				<answer>peux pas parler. Doit traiter les carottes.</answer>
+			</exchange>
+			<exchange>
+				<question>Que faites-vous?</question>
+				<answer>peux pas parler. Doit traiter les carottes.</answer>
+			</exchange>
+			<exchange>
+				<question>Rechercher! Un buffle volant!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="drone_tricked_3">Où?</answer>
+			</exchange>
+		</conversation>
+
+		<statement triggeredByEvent="drone_freed_3">je suis libre! Vous devriez probablement trouver quelques oreilles Rabbot, ou Dr. Hare trouverez-vous!</statement>
+	</character>
+</dialogs>

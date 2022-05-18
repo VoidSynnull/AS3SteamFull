@@ -1,0 +1,35 @@
+<part>
+	<id>limited_ff_blaster</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2959</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/FFQ219Quest/cereal1.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+	  		<param id="colors">0x7fdbfb</param>
+			<param id="tracking">FFQ219Quest,blaster</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_ff_cerealmess</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

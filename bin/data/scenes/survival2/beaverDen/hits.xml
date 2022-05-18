@@ -1,0 +1,112 @@
+<hits>
+	<hit id="rocks" color="0xD3D2BD" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="logs" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="damFloor" color="0x993399" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="snow" color="0x4F80FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x00FF00" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="bounce1" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0xDD0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce3" color="0xCC0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1300</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce4" color="0xBB0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce5" color="0xAA0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xcc6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	
+	<hit id="waterHit">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+	<hit id="floatingLogHit1">
+		<component type="platformTop">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<component type="scene">
+			<visible>floatingLog1</visible>
+		</component>
+	</hit>
+	<hit id="floatingLogHit2">
+		<component type="platformTop">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<component type="scene">
+			<visible>floatingLog2</visible>
+		</component>
+	</hit>
+	<hit id="floatingLogHit3">
+		<component type="platformTop">
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+		<component type="scene">
+			<visible>floatingLog3</visible>
+		</component>
+	</hit>
+
+	<hit id="leakTrigger" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="beaverWalls" color="0xcc9900">
+		<component type="wall"/>
+	</hit>
+</hits>

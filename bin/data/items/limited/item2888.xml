@@ -1,0 +1,29 @@
+<item id="2888"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Silly Streams AutoCard</name> <!-- Change this card name -->
+  	<campaignID>March2018Prizes3</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>THIS WEEK ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>March Prizes</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Silly Streams</value> <!-- Change this title -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGreen.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+</item>

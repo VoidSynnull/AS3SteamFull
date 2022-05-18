@@ -1,0 +1,18 @@
+<specialAbility id="pop_follower_zombie_monkey">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">zombie_monkey</param>
+		<param id="variant">ape</param>
+		<param id="skinColor">0x63679F</param>
+		<param id="hairColor">0x443A87</param>		
+		<param id="mouthFrame">z_zombie</param>
+		<param id="marksFrame">ftue_monkey6</param>
+		<param id="shirtFrame">ftue_monkey</param>
+		<param id="pantsFrame">z_vidgme</param>
+		<param id="packFrame">ftue_monkey</param>
+		<param id="facialFrame">zombie_eyes</param>
+		<param id="eyesFrame">zombie</param>
+	 </parameters>
+</specialAbility>

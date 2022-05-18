@@ -1,0 +1,27 @@
+<part>
+	<id>limited_pony_hitch</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>facial</part>
+	</hide>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">MLPVBB,Hitch</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="startFrame" type="string">trigger</param>
+						<param id="mode" type="string">gotoAndPlay</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

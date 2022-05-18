@@ -1,0 +1,67 @@
+<item id="2711"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Luna Costume Card</name> <!-- Change this card name -->
+  	<campaignID>MonsterHighBooYorkMVU</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="Use Luna Costume Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Luna Costume Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Monster High Boo York</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Luna Costume</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundDarkPink.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<skinColor>0xF1DE91</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>18</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>limited_mh_luna</marks>
+			<hair>limited_mh_luna</hair>
+			<shirt>limited_mh_luna</shirt>
+			<pants>limited_mh_luna</pants>
+			<pack>limited_mh_luna</pack>
+		</look>
+	</looks> 
+    
+</item>

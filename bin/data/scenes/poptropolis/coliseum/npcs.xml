@@ -1,0 +1,200 @@
+<npcs>
+	<npc id="master">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x43362B</hairColor>
+			<mouth>wwprospector</mouth>
+			<marks>wwdeputy</marks>
+			<hair>pgmc</hair>
+			<shirt>pgmc</shirt>
+			<pants>pgmc</pants>
+			<item>ppopgirl1</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>862.30</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="master" event="bonus_started">
+		<direction>right</direction>
+		<position>
+			<x>933</x>
+			<y>1288</y>
+		</position>
+	</npc>
+	
+	<npc id="scorekeeper">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xe6bc7d</skinColor>
+			<hairColor>0x453929</hairColor>
+			<mouth>sponsor_mh</mouth>
+			<marks>athena</marks>
+			<hair>athena</hair>
+			<shirt>pgfan01</shirt>
+			<pants>pgfan01</pants>
+			<pack>hero4</pack>
+			<item>probinhood1</item>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>754.6</x>
+			<y>989.1</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="scorekeeper" event="started_games">
+		<skin>
+			<item>empty</item>
+		</skin>
+	</npc>
+	
+	<npc id="warrior">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xE0D8B3</skinColor>
+			<hairColor>0x48563C</hairColor>
+			<mouth>17</mouth>
+			<marks>pgwarrior</marks>
+			<facial>pgwarrior</facial>
+			<shirt>bare</shirt>
+			<pants>pgwarrior</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>-141.35</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="warrior" event="bonus_started">
+		<direction>right</direction>
+		<position>
+			<x>733</x>
+			<y>1288</y>
+		</position>
+	</npc>
+	
+	<npc id="opponent1">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1092.3</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent2">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1378.95</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent3">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1485.6</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent4">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1652.25</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent5">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1778.9</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent6">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>1925.55</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="opponent7">
+		<skin>
+			<gender>male</gender>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2252.2</x>
+			<y>1288</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

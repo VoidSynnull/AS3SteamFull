@@ -1,0 +1,68 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/GHDTestBB/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/GHDTestBB/" ext="xml">
+		<asset>custom</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>messageChanges</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+		<asset>npcs</asset>
+		<asset>dialog</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/GHDTestBB/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+		
+	<assets type="support" path="assets/specialAbility/objects/followers/" ext="swf">
+		<asset>fred</asset>
+	</assets>
+		<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2018</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2018</asset>
+	</assets>
+		<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGrape</asset>
+	</assets>
+		<data type="follower" path="data/entity/character/abilities/" ext="xml">
+		<asset>follower_fred</asset>
+	</data>
+
+
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>ad_gh_boy2</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>ad_gh_boy2</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>ad_gh_boy2</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>ad_gh_boy2</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>ad_gh_boy2</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>ad_gh_boy2</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>ad_gh_boy2</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>ad_gh_boy2</asset>
+	</assets>
+
+</manifest>

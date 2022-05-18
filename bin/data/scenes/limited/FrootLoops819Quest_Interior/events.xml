@@ -1,0 +1,22 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">playerIntro</param3>
+		</event>
+	</group>
+	<group type="triggered" id="startGame">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartGamePopup</param2>
+			<param3 id="suffix">MusicGame</param3>
+			<param4 id="gameClass">game.scenes.custom.BeatGamePower</param4>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+	</group>
+</events>

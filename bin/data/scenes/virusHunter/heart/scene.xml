@@ -1,0 +1,35 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+    <left>0</left>
+    <top>0</top>
+    <right>3096</right>
+    <bottom>3226</bottom>
+  </cameraLimits>
+  <bounds>
+    <left>-100</left>
+    <top>0</top>
+    <right>3096</right>
+    <bottom>3226</bottom>
+  </bounds>
+  <data>dialog.xml,doors.xml,sounds.xml,hits.xml,photos.xml</data>
+  <assets>quadVirus.swf</assets>
+  <absoluteFilePaths prependTypePath="true">scenes/virusHunter/shared/sounds.xml</absoluteFilePaths>
+  <layers>
+    <layer>
+      <asset>background.swf</asset>
+      <rate>1</rate>
+    </layer>
+    <layer hit="true">
+      <asset>interactive.swf</asset>
+      <rate>1</rate>
+    </layer>
+  </layers>
+  <player>
+    <defaultPosition>
+      <x>828</x>
+      <y>530</y>
+    </defaultPosition>
+    <defaultDirection>right</defaultDirection>
+  </player>
+</scene>

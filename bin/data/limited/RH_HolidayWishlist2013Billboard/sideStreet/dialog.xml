@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Click on the green button to get a printable wish list!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Click on the green button to get a printable wish list!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

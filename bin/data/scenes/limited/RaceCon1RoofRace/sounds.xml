@@ -1,0 +1,46 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">GrandUniversityB.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="popup1">rodent_small_03.mp3</asset>
+		<asset triggeredByEvent="popup2">rodent_small_03.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="building">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="railing">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="flowerBed">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="stair">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="dumpster">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="shack">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="waterTowerBase">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="waterTowerRoof">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="umberella">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="building">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="railing">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="flowerBed">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="stair">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="dumpster">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="shack">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="waterTowerBase">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="waterTowerRoof">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">climbing_metal_pole_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb" allowOverlap="false">climbing_metal_pole_01_loop.mp3</asset>
+	</sound>
+</sounds>

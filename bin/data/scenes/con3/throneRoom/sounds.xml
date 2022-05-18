@@ -1,0 +1,102 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">reign_of_omegon.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="idle">
+		<asset id="laserhit_5_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_5_2" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_6_1" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		<asset id="laserhit_6_2" loop="true" modifiers="position">electric_hum_01_loop.mp3</asset>
+		
+		<asset id="cageBeam0" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam1" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam2" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		<asset id="cageBeam3" loop="true" modifiers="position">electric_buzz_01_loop.mp3</asset>
+		
+		<asset id="barrier3" loop="true" modifiers="position">alien_module.mp3</asset>
+		<asset id="barrier4" loop="true" modifiers="position">alien_module.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger1">
+		<asset id="throne" loop="true" modifiers="position">machinery_light_shaking_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="trigger2">
+		<asset id="throne" loop="true" modifiers="position">machinery_medium_shaking_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="trigger3">
+		<asset id="throne" loop="true" modifiers="position">machinery_heavy_shaking_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="trigger4">
+		<asset id="throne" loop="true" modifiers="position">crystal_crumbling_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="core_wires_front">flowing_water_01_loop.mp3</asset>
+		<asset id="core_wires_back">flowing_water_01_loop.mp3</asset>
+		<asset id="core" exclusiveType="true">glass_crack_02.mp3</asset>
+		
+		<asset id="core_laser0" modifiers="position" loop="true" fade="true" baseVolume=".25">laser_beam_01_loop.mp3</asset>
+		<asset id="core_laser1" modifiers="position" loop="true" fade="true" baseVolume=".25">laser_beam_01_loop.mp3</asset>
+		<asset id="core_laser2" modifiers="position" loop="true" fade="true" baseVolume=".25">laser_beam_01_loop.mp3</asset>
+		<asset id="core_laser3" modifiers="position" loop="true" fade="true" baseVolume=".25">laser_beam_01_loop.mp3</asset>
+		
+		<asset id="lift_panel1" modifiers="position" loop="true">alien_gen_uw.mp3</asset>
+		<asset id="lift_panel2" modifiers="position" loop="true">alien_gen_uw.mp3</asset>
+		<asset id="lift1" modifiers="position" loop="true">engine_high_01_loop.mp3</asset>
+		<asset id="lift2" modifiers="position" loop="true">engine_high_01_loop.mp3</asset>
+		
+		<asset id="panel1" modifiers="position" loop="true">alien_gen_uw.mp3</asset>
+		<asset id="panel2" modifiers="position" loop="true">alien_gen_uw.mp3</asset>
+		<asset id="panel3" modifiers="position" loop="true">alien_gen_uw.mp3</asset>
+		<asset id="tab_blocker1" modifiers="position" loop="true">conveyor_belt_01_loop.mp3</asset>
+		<asset id="tab_blocker2" modifiers="position" loop="true">conveyor_belt_01_loop.mp3</asset>
+		<asset id="tab_blocker3" modifiers="position" loop="true">conveyor_belt_01_loop.mp3</asset>
+		
+		<asset id="battery1" modifiers="position">soda_can_open_01.mp3</asset>
+		<asset id="battery2" modifiers="position">soda_can_open_01.mp3</asset>
+		<asset id="battery3" modifiers="position">soda_can_open_01.mp3</asset>
+		
+		<asset id="core_laser1" modifiers="position" loop="true">electric_hum_01_loop.mp3</asset>
+		<asset id="core_laser2" modifiers="position" loop="true">electric_hum_01_loop.mp3</asset>
+		<asset id="core_laser3" modifiers="position" loop="true">electric_hum_01_loop.mp3</asset>
+		<asset id="core_laser0" modifiers="position" loop="true">electric_hum_01_loop.mp3</asset>
+		
+		<asset id="cageBeam0" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam1" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam2" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		<asset id="cageBeam3" modifiers="position" exclusiveType="true">lights_flicker_01.mp3</asset>
+		
+		<asset id="fuse3">glass_break_03.mp3</asset>
+		<asset id="fuse4">glass_break_03.mp3</asset>
+		
+		<asset id="barrier3" modifiers="position" exclusiveType="true">power_down_05.mp3</asset>
+		<asset id="barrier4" modifiers="position" exclusiveType="true">power_down_05.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="laserhit_5_1">electric_zap_03.mp3</asset>
+		<asset id="laserhit_5_2">electric_zap_03.mp3</asset>
+		<asset id="laserhit_6_1">electric_zap_03.mp3</asset>
+		<asset id="laserhit_6_2">electric_zap_03.mp3</asset>
+		<asset id="force_shield">electrical_impact_01.mp3, electrical_impact_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="triggerPlat">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="plaster">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="lift1">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+		<asset id="lift2">ls_machinery_01.mp3, ls_machinery_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="triggerPlat">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="plaster">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="lift1">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+		<asset id="lift2">fs_machinery_01.mp3, fs_machinery_02.mp3, fs_machinery_03.mp3, fs_machinery_04.mp3</asset>
+	</sound>
+</sounds>

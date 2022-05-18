@@ -1,0 +1,27 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>40000</winDistance>
+	<winNPCPhrase npc="pirate">Well done, matey! Now go get your booty.</winNPCPhrase> <!-- Optional -->
+	<winDelay>2</winDelay>
+	<returnX>2900</returnX>
+	<returnY>1346</returnY>
+	<playerScale>1.225</playerScale>
+	<hideBody>true</hideBody>
+	<bikeSpeed>7</bikeSpeed>
+	<jumpSpeed>900</jumpSpeed>
+	<runningOffset>100</runningOffset>
+	<numHits>12</numHits>
+	<lockCameraNPC>true</lockCameraNPC>
+	<looks>
+		<skin>
+			<overshirt>limited_lego2_buggy_emmet</overshirt>
+		</skin>
+		<skin>
+			<overshirt>limited_lego2_buggy_lucy</overshirt>
+		</skin>
+	</looks>
+	<obstacleWrap>4000</obstacleWrap>
+	<obstacleY>912</obstacleY>
+	<obstacleStartY>1100</obstacleStartY>
+	<obstacleSpaceY>250</obstacleSpaceY>
+</game>

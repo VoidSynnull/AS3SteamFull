@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="cat_hiding">je ne pense pas qu'il va venir vers le bas sans une bonne raison.</statement>
+		<statement event="cat_following">Je pense qu'il aimait le lait.</statement>
+	</character>
+	<character id="cat">
+		<statement triggeredByEvent="milk_given">Meow</statement>
+		<statement triggeredByEvent="cat_meow">Meow</statement>
+		<statement triggeredByEvent="cat_purr">Purrrrr</statement>
+	</character>	
+</dialogs>

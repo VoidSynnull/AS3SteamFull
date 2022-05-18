@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="player">
+<!-- 		<statement triggeredByEvent="player_disguised">I can fool the guards with this black outfit.</statement> -->
+		<statement id="useful">Neat! this magic sand could be useful.</statement>
+		<statement id="crazy">that's crazy! There's gunpowder in here!</statement>
+		<statement id="oil">A pot of sticky black oil.</statement>
+		<statement id="labretry">That wasn't quite right, i should try again</statement>
+		<statement id="labmissingitems">I need all of the ingredients before i use this.</statement>
+		<statement id="labnoformula">This must be the crafting table the thieves use to make smoke bombs.</statement>
+		<statement id="burnedoutfit">so much for my highly flammable disguise...</statement>
+    </character>
+	<character id="master">
+		<statement id="what">What was that noise? Who's there?</statement>
+		<statement id="burnedOut">These lamps never hold enough oil!</statement>
+		<statement id="refilled">That's better, now back to planning our next big heist!</statement>
+		<statement id="caught" triggerEvent="triggerEvent" triggerEventArgs="get_caught">Caught you, Interloper!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="get_caught">Caught you, Interloper!</statement>
+		<statement event="player_disguised">I told you minions to get back to work!</statement>
+		<statement id="throw" triggerEvent="triggerEvent" triggerEventArgs="throwfire">I'll teach you to sneak around!</statement>
+    </character>
+</dialogs>

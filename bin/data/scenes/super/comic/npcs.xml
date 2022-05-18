@@ -1,0 +1,44 @@
+<npcs>
+	<npc id="nedNoodlehead">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>nerd</mouth>
+			<marks>acne</marks>
+			<facial>nerd</facial>
+			<hair>nerd</hair>
+			<shirt>nerd</shirt>
+			<pants>nerd</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1377</x>
+			<y>452</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="nedNoodlehead" event="beat_boss_6">
+		<skin>
+			<pack>hero7</pack>
+			<overpants>underwear</overpants>
+		</skin>
+	</npc>
+	<npc id="nedNoodlehead" event="gotItem_medallionSuper">
+		<skin>
+			<pack>hero7</pack>
+			<overpants>underwear</overpants>
+			<item>hotdog</item>
+		</skin>
+	</npc>
+</npcs>

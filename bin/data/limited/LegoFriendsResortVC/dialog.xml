@@ -1,0 +1,7 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_2929">I hope you're enjoying your prize!</statement> <!-- If have item card -->
+		<statement>Click on the toys to get a prize!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

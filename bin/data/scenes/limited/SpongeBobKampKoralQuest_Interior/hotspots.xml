@@ -1,0 +1,52 @@
+<hotspots>
+	<hotspot id="posterSpongebob" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterPatrick" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterSquidward" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterSandy" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterKrabbs" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterKampKoral" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="gameStart" type="poster">
+		<action type="trigger">startGame</action>
+	</hotspot>
+	<hotspot id="gameStartObstacle" type="poster">
+		<action type="trigger">startGameObstacle</action>
+	</hotspot>
+	<hotspot id="game1" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobKampKoralQuest_Skydive/|game.scenes.hub.skydive.Skydive</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="game2" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobKampKoralQuest_Balloons/|game.scenes.hub.balloons.Balloons</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="game3" type="poster">
+		<action type="trigger">selectArcadeGame|scenes/limited/SpongeBobKampKoralQuest_StarLink/|game.scenes.hub.starLink.StarLink</action> <!-- Pulls from campaign.xml in Quest folder -->
+	</hotspot>
+	<hotspot id="roomtrigger" type="poster">
+		<action type="specialAbilityClass">game.data.specialAbility.character.RainAssets</action>
+		<action type="specialAbilityParam1">swfPaths=limited/SpongeBobKampKoralQuest/Patty1.swf,limited/SpongeBobKampKoralQuest/Patty2.swf,limited/SpongeBobKampKoralQuest/Patty3.swf</action>
+		<action type="specialAbilityParam2">particleClass=game.particles.emitter.specialAbility.AssetRain</action>
+		<action type="specialAbilityParam3">duration=5</action>
+		<action type="trigger">pullLever</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video" locked="true">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="krabbyPattyprize" type="poster">
+		<action type="giveItemMale">2056</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2056</action> 
+		<action type="autoPlay">krabbyPattyprizeclip</action>
+	</hotspot>
+</hotspots>
+

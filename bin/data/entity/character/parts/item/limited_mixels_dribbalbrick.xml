@@ -1,0 +1,20 @@
+<part>
+<id>limited_mixels_dribbalbrick</id>
+<type>item</type>
+<costumizable>false</costumizable>
+<notPrintable>true</notPrintable>
+<campaignID>2735</campaignID>
+<components>
+<component class="game.components.entity.character.part.item.ItemMotion"/>
+</components>
+<specialAbility>
+<className>game.data.specialAbility.character.PlayPopupAnim</className>
+<triggerable>true</triggerable>
+<parameters>
+<param id="swfPath">limited/MixelsDec2015EC/DribbalPrize.swf</param>
+<param id="tracking">MixelsDec2015EC,Dribbal Run Power</param>
+<param id="alignToPlayer">true</param>
+<param id="standingOnly">true</param>
+</parameters>
+</specialAbility>
+</part>

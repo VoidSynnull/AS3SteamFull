@@ -1,0 +1,68 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoWishlist2016MS/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/LegoWishlist2016MS/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>dialog.xml</asset>
+	</data>
+	
+		<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2823</asset>
+	</data>
+	
+	<data type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2823</asset>
+	</data>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPurple</asset>
+	</assets>
+	
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/LegoWishlist2016/sideStreet/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+	
+		<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>sledgehammer</asset>
+		<asset>sponsor_carnivalcane</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>sledgehammer</asset>
+		<asset>sponsor_carnivalcane</asset>
+	</assets>
+		<data type="hair" path="data/entity/character/parts/hair/"  ext="xml">
+	<asset>sponsor_carnivalhat</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/"  ext="swf">
+	<asset>sponsor_carnivalhat</asset>
+	</assets>
+		<data type="shirt" path="data/entity/character/parts/shirt/"  ext="xml">
+	<asset>sponsor_carnivalsuit</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+	<asset>sponsor_carnivalsuit</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/"  ext="xml">
+	<asset>sponsor_carnivalsuit</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/"  ext="swf">
+	<asset>sponsor_carnivalsuit</asset>
+	</assets>
+
+	
+</manifest>

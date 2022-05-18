@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".5">hades_realm.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">eerie_moaning.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="boatHit">ls_wood_on_water_01.mp3, ls_wood_on_water_02.mp3, ls_wood_on_water_03.mp3</asset>
+		<asset id="rocks">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="boatHit" baseVolume="2">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="rocks">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+	</sound>
+</sounds>

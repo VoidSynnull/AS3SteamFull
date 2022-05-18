@@ -1,0 +1,129 @@
+<npcs>	
+	<npc id="worldGuy">
+	 	<animations loop="true">
+			<animation duration="50">game.data.animation.entity.character.Grief</animation>
+			<animation duration="150">game.data.animation.entity.character.Stand</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x936043</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>sponsorec2</mouth>
+			<marks>home_crash</marks>
+			<facial>poptropicon_worldguy</facial>
+			<hair>1</hair>
+			<shirt>poptropicon_worldguy</shirt>
+			<pants>steamcaptain</pants>
+			<item>poptropicon_worldguy</item>
+			<overpants>barpatron1</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2190</x>
+			<y>260</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="omegon">
+		<animations loop="true" random="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xffc215</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>19</mouth>
+			<marks>poptropicon_omegon</marks>
+			<facial>poptropicon_omegon</facial>
+			<hair>poptropicon_omegon</hair>
+			<shirt>1</shirt>
+			<pants>miner2</pants>
+			<pack>poptropicon_omegon</pack>
+			<overshirt>poptropicon_omegon</overshirt>
+			<eyeState>squint</eyeState>
+			<eyes>eyes_omegon</eyes>
+		</skin>
+		<position>
+			<x>420</x>
+			<y>350</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<costumizable>false</costumizable>
+		<direction>left</direction>
+	</npc>
+	<npc id="henchbot1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x2b1e1e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_henchbot</facial>
+			<shirt>poptropicon_henchbot</shirt>
+			<pants>1</pants>
+			<overshirt>poptropicon_henchbot</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>205</x>
+			<y>425</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<costumizable>false</costumizable>
+		<direction>right</direction>
+	</npc>
+	<npc id="henchbot2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x2b1e1e</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_henchbot</facial>
+			<shirt>poptropicon_henchbot</shirt>
+			<pants>1</pants>
+			<overshirt>poptropicon_henchbot</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>110</x>
+			<y>425</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<costumizable>false</costumizable>
+		<direction>right</direction>
+	</npc>
+	<npc id="meowbot" variant="creature">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x9fb391</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<facial>poptropicon_meowbot</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<pack>poptropicon_meowbot</pack>
+			<overshirt>poptropicon_meowbot</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>331</x>
+			<y>115</y>
+		</position>
+		<range>
+			<x>40</x>
+			<y>0</y>
+		</range>
+		<costumizable>false</costumizable>
+		<direction>left</direction>
+	</npc>
+</npcs>

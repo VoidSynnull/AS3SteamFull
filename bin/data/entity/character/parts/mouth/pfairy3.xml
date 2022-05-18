@@ -1,0 +1,15 @@
+<part>
+  <id>pfairy3</id>
+  <asset>pfairy</asset>
+  <type>mouth</type>
+  <gender>female</gender>
+  <costumizable>false</costumizable>
+  <colors>
+    <color id="mouthColor">0xFFA8C5</color>
+  </colors>
+  <colorables>
+    <colorable id="mouthColor">
+      <clip instanceName="colorShape"/>
+    </colorable>
+  </colorables>
+</part>

@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="hare">
+		<statement triggeredByEvent="villains_run_away">I'm out of here!</statement>
+	</character>
+	<character id="poseidon">
+		<conversation event="poseidon_risen">
+			<exchange>
+				<question>Can you stop him?</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="trident">No, this is your mess to clean up. But I will give you the power of my trident to aid you.</answer>
+			</exchange>
+		</conversation>
+		<statement triggeredByEvent="poseidon_intro">My brother is up to his old tricks, I see. Some people never change.</statement>
+		<statement event="gotItem_trident">You need to stop Zeus!</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,16 @@
+<part>
+	<id>dd_diver</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+  	<specialAbility id="dd_diver">
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+	</specialAbility>
+</part>

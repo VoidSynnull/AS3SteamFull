@@ -1,0 +1,123 @@
+<npcs>
+	<npc id="owner">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x55402D</hairColor>
+			<eyes></eyes>
+			<mouth>19</mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>1</hair>
+			<shirt>3</shirt>
+			<pants>4</pants>
+			<pack></pack>
+			<item>screwdriver</item>
+			<overshirt>clerk</overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>783</x>
+			<y>653</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="owner" event="destroyed_rabbot">
+		<skin>
+			<mouth>18</mouth>
+		</skin>
+	</npc>
+	<npc id="cat" variant="creature" event="cat_following">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBFAE8B</skinColor>
+			<hairColor>0xBFAE8B</hairColor>
+			<eyes></eyes>
+			<mouth>cat</mouth>
+			<marks></marks>
+			<facial>cat</facial>
+			<hair>cat</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>cat</pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>218</x>
+			<y>653</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="cat" variant="creature" event="cat_returned">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBFAE8B</skinColor>
+			<hairColor>0xBFAE8B</hairColor>
+			<eyes></eyes>
+			<mouth>cat</mouth>
+			<marks></marks>
+			<facial>cat</facial>
+			<hair>cat</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>cat</pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>883</x>
+			<y>653</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char3" event="destroyed_rabbot">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes></eyes>
+			<mouth>15</mouth>
+			<marks></marks>
+			<facial></facial>
+			<hair>7</hair>
+			<shirt>26</shirt>
+			<pants>1</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1118</x>
+			<y>653</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

@@ -1,0 +1,17 @@
+<part>
+	<id>pastronaut1</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="partType">facial</param>
+		</parameters>
+	</specialAbility>
+</part>

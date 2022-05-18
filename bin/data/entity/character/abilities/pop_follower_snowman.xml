@@ -1,0 +1,9 @@
+<specialAbility id="pop_follower_snowman">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="replaceWithClip">specialAbility/objects/followers/snowman.swf</param>
+		<param id="animated">true</param>
+	</parameters>
+</specialAbility>

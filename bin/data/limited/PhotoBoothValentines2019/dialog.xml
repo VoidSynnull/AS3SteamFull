@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="photobooth_npc">
+		<statement>Check out the SWEET Valentine stickers and backgrounds.</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Seasons Greetings!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

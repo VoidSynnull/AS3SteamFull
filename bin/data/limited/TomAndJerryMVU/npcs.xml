@@ -1,0 +1,21 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="limited_robin">
+		<bitmap>limited/TeenTitansGoMVU/npc.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>765</x> <!-- from left edge of ad unit -->
+			<y>404</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>	
+	<npc id="limited_raven">
+		<bitmap>limited/TeenTitansGoMVU/npc2.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>835</x> <!-- from left edge of ad unit -->
+			<y>414</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>	
+</npcs>

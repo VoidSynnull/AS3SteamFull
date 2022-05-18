@@ -1,0 +1,16 @@
+<part>
+	<id>limited_magicfishook</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2820</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/MoanaQuest/waterspout.swf</param>
+			<param id="tracking">MoanaQuest,Moana Spout</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+	</specialAbility>
+</part>

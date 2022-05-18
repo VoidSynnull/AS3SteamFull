@@ -1,0 +1,116 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LegoStarwarsQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoStarwarsQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoStarwarsQuest_Interior/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LegoStarwarsQuest_Game/">
+		<asset>game.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>obstacles.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/LegoStarwarsQuest_Game/">
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<assets type="support" path="assets/limited/LegoStarwarsQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Choose</asset>
+		<asset>amo1</asset>
+		<asset>amo2</asset>
+		<asset>BlasterShot</asset>
+		<asset>npc1</asset>
+		<asset>npc2</asset>
+		<asset>npc3</asset>
+		<asset>npc4</asset>
+		<asset>shipPrizes</asset>
+	</assets>
+	
+	<data type="abilities" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>follower_starfighter</asset>
+		<asset>follower_xwing</asset>
+	</data>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2917</asset>
+		<asset>2918</asset>
+	</data>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>mighty_action_force</asset>
+		<asset>Space_Chase</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>laser_lsw</asset>
+		<asset>short_engine_burst_01</asset>
+		<asset>metal_crash_impact_02</asset>
+		<asset>metal_crash_impact_03</asset>
+		<asset>door_hatch_01</asset>
+		<asset>metal_crash_impact_02</asset>
+		<asset>explosion_01</asset>
+		<asset>explosion_04</asset>
+	</assets>
+
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>legostarwars_starfighter</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>legostarwars_starfighter</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>legostarwars_starfighter</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>legostarwars_starfighter</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>legostarwars_starfighter</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>legostarwars_starfighter</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+		<asset>legostarwars_starfighter</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+		<asset>legostarwars_starfighter</asset>
+	</assets>
+</manifest>

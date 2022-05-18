@@ -1,0 +1,19 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>Penguin20194VBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://www.penguinrandomhouse.com/series/LKE/the-last-kids-on-earth?ref=PRH163B60D89C&aid=42056&linkid=PRH163B60D89C&pdivflag=1</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://www.penguinrandomhouse.com/series/LKE/the-last-kids-on-earth?ref=PRH163B60D89C&aid=42056&linkid=PRH163B60D89C&pdivflag=1</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+	</clickUrls>
+	<impressionUrls>
+		<impressions id="AdImpression"> <!-- For exterior ad building appeaing on main street -->
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5227501424&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+		<impressions id="VideoClicked">
+			<impression type="standard">http://pubads.g.doubleclick.net/gampad/clk?id=5227501424&iu=/96780239/1022050/70618/1022050-70618-in_game_item</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

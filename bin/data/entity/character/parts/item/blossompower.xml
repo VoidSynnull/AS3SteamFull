@@ -1,0 +1,19 @@
+<part>
+	<id>blossompower</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.RainAssets</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="particleClass">game.particles.emitter.specialAbility.AssetRain</param>
+			<param id="swfPaths">particles/blossompower1.swf,particles/blossompower2.swf,particles/blossompower3.swf</param>
+			<param id="doRotation">true</param>
+			<param id="scaleMin">1</param>
+			<param id="scaleMax">1.5</param>
+			<param id="duration">7</param>
+			<param id="tracking">MemberGiftApril2019,Blossom Power</param>
+		</parameters>
+	</specialAbility>
+</part>

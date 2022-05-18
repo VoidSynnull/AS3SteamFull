@@ -1,0 +1,51 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">24_Carrot_Main_Theme.mp3</asset>
+		<asset event="destroyed_rabbot" loop="false" fade="true" exclusiveType="true">PoptropicaTheme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset id="carrot1" triggeredByEvent="carrot_disappear_1">pop_02.mp3</asset>
+		<asset id="carrot2" triggeredByEvent="carrot_disappear_2">pop_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="metalSign">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="handRail">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="landing">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="soldSign">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="barrel">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metalFrame">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+		<asset id="metalRoof">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="barnDome">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="chimney">ls_concrete_2_01.mp3, ls_concrete_2_02.mp3</asset>
+		<asset id="tiledRoof">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="cropSoil">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="hay">ls_hard_grass_01.mp3, ls_hard_grass_02.mp3</asset>
+		<asset id="windVane">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="metalSign">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="handRail">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="landing">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="soldSign">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="barrel">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metalFrame">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+		<asset id="metalRoof">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="barnDome">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+		<asset id="chimney">fs_concrete_2_01.mp3, fs_concrete_2_02.mp3, fs_concrete_2_03.mp3, fs_concrete_2_04.mp3</asset>
+		<asset id="tiledRoof">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="cropSoil">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="hay">fs_hard_grass_01.mp3, fs_hard_grass_02.mp3, fs_hard_grass_03.mp3, fs_hard_grass_04.mp3</asset>
+		<asset id="windVane">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,64 @@
+<dialogs>
+	<character id="player">
+		<statement id="intro3">I didn't bring one!</statement>
+		<statement id="late2">Wow, what amazing flying machines and costumes!</statement>
+		<statement id="changeMind" triggerEvent="triggerEvent" triggerEventArgs="leave_tutorial_canceled, true">I changed my mind!</statement>
+		<statement id="exciting">Woo! What a great start!</statement>
+		<statement id="baron2">The Red Baroness?</statement>
+		
+    </character>
+    <character id="pilot">
+    	<statement id="intro1">Nice to have you aboard, [Player Name].</statement>
+    	<statement id="late1b" triggerEvent="triggerEvent" triggerEventArgs="race_enter, true">Let's get moving!</statement>
+    	<statement id="late1c" triggerEvent="triggerEvent" triggerEventArgs="race_enter, true">You can do that later, we've got to hurry!</statement>
+    	<statement id="costumize" triggerEvent="triggerEvent" triggerEventArgs="showHowToCostumize">I'll show you how!</statement>
+    	<statement id="costumized" triggerEvent="triggerEvent" triggerEventArgs="costumized">You look great!</statement>
+    	<statement id="start2">Hang on tight!</statement>
+    	<statement id="baron1">Oh no! The Red Baroness!</statement>
+    	<statement id="goingDown">Oh no! We're going down!</statement>
+    	<conversation id="question">
+    		<exchange>
+				<question>Where are we?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="ask_where_are_we, true">Above poptropica, ready to race!</answer>
+			</exchange>
+			<exchange>
+				<question  triggerEvent="triggerEvent" triggerEventArgs="race_enter, true">Let's go!</question>
+			</exchange>
+		</conversation>
+		
+		<statement id="save" link="confirmSave">We might run into a storm. We should save our game! Want me to show you how?</statement>
+		<conversation id="confirmSave">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="show_save_tutorial, true">Yes please!</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="skipped_save_tutorial, true">No thanks.</question>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="baron">
+    	<statement id="baron3">Sorry to throw a wrench in your plans!</statement>
+    </character>
+    <character id="officiate">
+    	<statement id="race1">Welcome Racers!</statement>
+    	<statement id="race2">Race to win credits and this medallion.</statement>
+    	<statement id="race3">Is everyone ready?</statement>
+    	<statement id="start1">Get Set...</statement>
+    	<statement id="start2">Go!</statement>
+    	<statement id="credits" link="raceReady">Credits can be earned by completing islands or events, like this one!</statement>
+    	<conversation id="raceReady">
+    		<exchange>
+				<question forceOnScreen="true" triggerEvent="triggerEvent" triggerEventArgs="raceMusic">We're ready!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="race_start">On your marks...</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true" triggerEvent="triggerEvent" triggerEventArgs="race_ask_costumes, true">How do you get cool costumes?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="showCostumize">By costumizing!</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">Can I go somewhere else?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="leave_tutorial, true">Yes, do you want to go back home?</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

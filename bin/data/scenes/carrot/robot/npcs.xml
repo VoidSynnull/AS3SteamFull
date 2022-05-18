@@ -1,0 +1,71 @@
+<npcs>
+	<npc id="drHare">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<eyes></eyes>
+			<mouth>drhare</mouth>
+			<marks></marks>
+			<facial>drhare</facial>
+			<hair></hair>
+			<shirt>drhare</shirt>
+			<pants>1</pants>
+			<pack>drhare</pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants>drhare</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>564.1</x>
+			<y>1902.05</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="drone4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x000000</hairColor>
+			<mouth>rabbitcon</mouth>
+			<marks></marks>
+			<facial>rabbitcon</facial>
+			<hair>35</hair>
+			<shirt>22</shirt>
+			<pants>2</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+			<eyes>drone</eyes>
+		</skin>
+		<position>
+			<x>1830.5</x>
+			<y>1040.25</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="drone4" event="drone_freed_4">
+		<skin>
+			<eyes>eyes</eyes>
+			<eyeState>open</eyeState>
+			<mouth>5</mouth>
+			<facial>rabbitcon2</facial>
+		</skin>
+	</npc>
+	<npc id="drone4" event="destroyed_rabbot">
+		<skin>
+			<eyes>eyes</eyes>
+			<eyeState>open</eyeState>
+			<mouth>5</mouth>
+			<facial>empty</facial>
+		</skin>
+	</npc>
+</npcs>

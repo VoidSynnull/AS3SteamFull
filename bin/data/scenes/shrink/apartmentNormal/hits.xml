@@ -1,0 +1,100 @@
+<hits>
+	<!-- Generic Platform -->
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="telescope" color="0x9AB0C6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dresser" color="0xE1D7BF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bookshelf" color="0xBDA89B" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="fishTank" color="0xBADCDE" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="fishFoodShelf" color="0xA89B93" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="livingRoomTable" color="0xC7AEA1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tv" color="0xC2BFB3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tvTable" color="0xA3AE8A" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="fridge" color="0xF7F4DD" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cabinet" color="0xE2C8AC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="kitchenShelf" color="0xCEC0A4" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="counter" color="0xE2DDC6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stove" color="0xE2DDC6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="kitchenTable" color="0xBAA99A" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bedroomFloor" color="0xD8C4A0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="livingRoomFloor" color="0xDFAA92" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="kitchenFloor" color="0xEADEC0" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bedBounce" color="0xE2A5B9" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="chairBounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

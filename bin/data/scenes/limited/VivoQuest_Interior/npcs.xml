@@ -1,0 +1,20 @@
+<npcs>
+	<npc id="Vivo">
+		<bitmap>limited/VivoQuest/Vivo.swf</bitmap> <!-- *** Path to NPC zip in quest folder -->
+		<direction>right</direction>
+		<position>
+			<x>1210</x>
+			<y>680</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="Gabi">
+		<bitmap>limited/VivoQuest/Gabi.swf</bitmap> <!-- *** Path to NPC zip in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>1337</x>
+			<y>808</y>
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

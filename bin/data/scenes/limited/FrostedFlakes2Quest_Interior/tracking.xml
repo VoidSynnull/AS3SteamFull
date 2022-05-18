@@ -1,0 +1,65 @@
+<tracking>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Left Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Middle Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice>
+		<subchoice>Right Poster</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="questDoor">
+		<event>OpenedPopup</event>
+		<choice>MusicGame</choice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="Tony">
+		<event>EngagedInsideNPC</event>
+		<choice>Tony</choice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Girl1">
+		<event>EngagedInsideNPC</event>
+		<choice>Girl1</choice>
+	</track>
+	<track id="Boy1">
+		<event>EngagedInsideNPC</event>
+		<choice>Boy1</choice>
+	</track>
+	<track id="Girl2">
+		<event>EngagedInsideNPC</event>
+		<choice>Girl2</choice>
+	</track>
+	<track id="Boy2">
+		<event>EngagedInsideNPC</event>
+		<choice>Boy2</choice>
+	</track>
+	<track id="Girl3">
+		<event>EngagedInsideNPC</event>
+		<choice>Girl3</choice>
+	</track>
+	<track id="Boy3">
+		<event>EngagedInsideNPC</event>
+		<choice>Boy3</choice>
+	</track>
+	<track id="Girl4">
+		<event>EngagedInsideNPC</event>
+		<choice>Girl4</choice>
+	</track>
+	<track id="Boy4">
+		<event>EngagedInsideNPC</event>
+		<choice>Boy4</choice>
+	</track>
+</tracking>

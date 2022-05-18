@@ -1,0 +1,180 @@
+<npcs>
+	<npc id="char1">
+		<skin>		
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>fisherman</mouth>
+			<marks>skullMainFarmer1</marks>
+			<hair>skullMainFarmer1</hair>
+			<shirt>skullMainFarmer2</shirt>
+			<pants>skullMainServant</pants>
+			<overpants>sponsorAstro2</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>3291</x>
+			<y>1575</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x917150</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>19</mouth>
+			<marks>scuffMarks</marks>
+			<hair>skullMainHayLady</hair>
+			<shirt>skullMainHayLady</shirt>
+			<pants>skullMainHayLady</pants>
+			<pack>hayPack</pack>
+			<overshirt>skullMainHayLady</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>4093</x>
+			<y>1575</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>astroKing</mouth>
+			<marks>skullMainOldMan</marks>
+			<facial>franklin</facial>
+			<hair>skullMainOldMan</hair>
+			<shirt>skullMainOldMan</shirt>
+			<pants>skullMainOldMan</pants>
+			<overpants>astroPes1</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>4786</x>
+			<y>1485</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			<mouth>14</mouth>
+			<hair>skullMainGuard1</hair>
+			<shirt>skullMainGuard1</shirt>
+			<pants>skullMainGuard1</pants>
+			<item>skullMainGuard1</item>
+			<overshirt>skullMainGuard1</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2810</x>
+			<y>1300</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char5">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>fisherman</mouth>
+			<hair>skullMainBoy</hair>
+			<shirt>skullMainBoy</shirt>
+			<pants>astroManure</pants>
+			<overpants>FLpirate3</overpants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2083</x>
+			<y>1517</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char6">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>fisherman3</mouth>
+			<marks>fisherman2</marks>
+			<hair>fisherman3</hair>
+			<shirt>fisherman3</shirt>
+			<pants>astroManure</pants>
+			<overshirt>fisherman3</overshirt>
+			<overpants>astroCurrator</overpants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2799</x>
+			<y>734</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char7" event="mainstreet_hidechars">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x443828</hairColor>
+			<mouth>5</mouth>
+			<marks>shadow2</marks>
+			<hair>skullMainMerchant</hair>
+			<shirt>skullMainMerch</shirt>
+			<pants>skullMainMerch</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1797</x>
+			<y>1517</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char8" event="mainstreet_hidechars">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf9aa17</hairColor>
+			<mouth>curator</mouth>
+			<marks>astroPrincess</marks>
+			<facial>skullMainSadLady</facial>
+			<hair>1</hair>
+			<shirt>skullMainSadLady</shirt>
+			<pants>skullMainGirl</pants>
+			<overshirt>skullMainOldLady</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2000</x>
+			<y>1517</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

@@ -1,0 +1,19 @@
+<part>
+	<id>ad_gh_blaster</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootGun</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="bulletPath">limited/GalacticHotDogsQuest/bullet.swf</param>
+			<param id="targetPrefix">obstacle</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

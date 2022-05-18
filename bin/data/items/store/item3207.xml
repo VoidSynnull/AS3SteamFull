@@ -1,0 +1,23 @@
+<item id="3207">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3207.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>YOU are the Star!!</value>
+		</text>
+			<text id="storeTitle">
+			<value>Cool Kid</value>
+		</text>
+	</textfields>
+</item>

@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Survival_1_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">ghost_town.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_crisp_snow_slide_01.mp3, ls_crisp_snow_01.mp3, ls_crisp_snow_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+	</sound>
+</sounds>

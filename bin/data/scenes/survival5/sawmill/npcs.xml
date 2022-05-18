@@ -1,0 +1,50 @@
+<npcs>
+	<npc id="buren">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<item>vccrossbow</item>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>2900</x>
+			<y>1260</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="max">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x754a2f</skinColor>
+			<hairColor>0x4a4a4a</hairColor>
+			<mouth>prisoner4</mouth>
+			<marks>survival_max</marks>
+			<hair>survival_max</hair>
+			<shirt>survival_max</shirt>
+			<pants>survival_max</pants>
+			<overshirt>survival_max</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

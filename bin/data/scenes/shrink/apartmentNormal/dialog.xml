@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="player">
+		<statement id="cat_is_inside" triggerEvent="triggerEvent" triggerEventArgs="get_cat">Oops! I let a cat in the house. I'd better get it back out.</statement>
+		<statement id="cat_is_outside" link="cat_is_outside_pt2">That's strange. The cat is gone. I wonder how it got out the door.</statement>
+		<statement id="cat_is_outside_pt2" triggerEvent="triggerEvent" triggerEventArgs="find_cj, true">Anyway... I should search the apartment for clues about what happened to C.J.</statement>
+		<statement id="clicked_microscope">I'd better get that cat back outside first.</statement>
+		<statement id="close_microscope" triggerEvent="triggerEvent" triggerEventArgs="snooped_too_much">Think small?</statement>
+		<statement id="clicked_blimp">It looks like a toy blimp.</statement>
+		<statement id="clicked_car">Now's not the time to play.</statement>
+		<statement id="clicked_snack">Now's not the time for a snack.</statement>
+    </character>
+	
+	<character id="char1">
+		<statement forceOnScreen="true" id="snooping" triggerEvent="triggerEvent" triggerEventArgs="chase_player">You've been snooping around a little too much. This will put a stop to that!</statement>
+    </character>
+</dialogs>

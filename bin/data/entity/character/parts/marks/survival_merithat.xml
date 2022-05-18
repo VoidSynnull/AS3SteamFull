@@ -1,0 +1,34 @@
+<part>
+	<id>survival_merithat</id>
+	
+	<type>marks</type>
+	
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairBoy"/>
+			<clip instanceName="hairGirl"/>
+		</colorable>
+	</colorables>
+	
+	<specialAbility id="episodic_island_part">
+		<className>game.data.specialAbility.store.EpisodicIslandPart</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="type">marks</param>
+			<param id="island">survival</param>
+			<param id="episodes">5</param>
+		</parameters>
+	</specialAbility>
+</part>

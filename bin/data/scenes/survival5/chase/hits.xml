@@ -1,0 +1,63 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<!--  pit  -->
+	<hit id="pit1">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">hole, grassCover</visibles> -->
+			<visualWidth>350</visualWidth> 
+			<event>lost_van_buren</event>
+			<type>pit</type>
+		</component>
+	</hit>
+	
+	<!--  bushes  -->
+	<hit id="bush1">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">backBush1, frontBush1</visibles> -->
+			<firstObject>true</firstObject>
+			<visualWidth>400</visualWidth> 
+		</component>
+	</hit>
+	
+	<hit id="bush2">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">backBush2, frontBush2</visibles> -->
+			<visualWidth>400</visualWidth> 
+		</component>
+	</hit>
+	
+	<!--  trees  -->
+	<hit id="tree1">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">trunk1, branch1</visibles> -->
+			<visible followProperties="x,y">branch1</visible>
+			<visualWidth>260</visualWidth> 
+		</component>
+	</hit>
+	
+	<hit id="tree2">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">trunk2, branch2</visibles> -->
+			<visible followProperties="x,y">branch2</visible>
+			<visualWidth>260</visualWidth>
+		</component>
+	</hit>
+	
+	<!--  puddles  -->
+	<hit id="puddle1">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">puddleBase1, puddleFront1</visibles> -->
+			<visualWidth>250</visualWidth> 
+		</component>
+	</hit>
+	
+	<hit id="puddle2">
+		<component type="looper">
+			<!-- <visibles followProperties="x,y">puddleBase2, puddleFront2</visibles> -->
+			<visualWidth>250</visualWidth> 
+		</component>
+	</hit>
+</hits>

@@ -1,0 +1,73 @@
+<character variant="bird" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<parts>
+		<part id="pack" optional="true">
+			<joint>pack</joint>
+			<partType>pack</partType>
+		</part>
+		<part id="hair" optional="true">
+			<joint>hair</joint>
+			<partType>hair</partType>
+		</part>
+		<part id="leg2">
+			<joint animDriven="true" ignoreRotation="true">leg2</joint>
+			<isGraphic>true</isGraphic>
+		</part>
+		<part id="foot2">
+			<joint animDriven="true">foot2</joint>
+			<partType>foot</partType>
+		</part>
+		<part id="bodySkin">
+			<joint animDriven="true">body</joint>
+			<partType>bodySkin</partType>
+		</part>
+		<part id="pants" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>pants</partType>
+		</part>
+		<part id="shirt" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>shirt</partType>
+		</part>
+		<part id="overpants" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>overpants</partType>
+		</part>
+		<part id="overshirt" optional="true">
+			<joint animDriven="true">body</joint>
+			<partType>overshirt</partType>
+		</part>
+		<part id="leg1">
+			<joint animDriven="true" ignoreRotation="true">leg1</joint>
+			<isGraphic>true</isGraphic>
+		</part>
+		<part id="foot1">
+			<joint animDriven="true">foot1</joint>
+			<partType>foot</partType>
+		</part>
+		<part id="neck">
+			<joint animDriven="true" ignoreRotation="false">neck</joint>
+		</part>
+		<part id="headSkin">
+			<joint>head</joint>
+			<partType>headSkin</partType>
+		</part>
+		<part id="marks" optional="true">
+			<joint>head</joint>
+			<partType>marks</partType>
+		</part>
+		<part id="eyes" optional="true">
+			<joint>head</joint>
+			<partType>eyes</partType>
+		</part>
+		<part id="mouth" optional="true">
+			<joint>head</joint>
+			<partType>mouth</partType>
+		</part>
+		<part id="facial" optional="true">
+			<joint>head</joint>
+			<partType>facial</partType>
+		</part>
+	</parts>
+</character>
+
+

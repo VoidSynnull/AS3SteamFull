@@ -1,0 +1,19 @@
+<part>
+	<id>limited_spongebob3d_icecream</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<triggerable>true</triggerable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+		<specialAbility>
+			<className>game.data.specialAbility.character.RainAssets</className>
+			<parameters>
+				<param id="particleClass">game.particles.emitter.specialAbility.AssetRain</param>
+				<param id="swfPath">particles/icecream.swf</param>
+				<param id="doRotation">false</param>
+				<param id="duration">7</param>
+	  		</parameters>
+		</specialAbility>	
+</part>

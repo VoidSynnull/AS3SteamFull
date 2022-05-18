@@ -1,0 +1,78 @@
+<npcs>
+	<!-- 1,1, 0xfAECC8, 0xffffff, 2, 403, 1, "survival_winston", "survival_winston", 1, "badagent", 1, 1, 1, "survival_winston" -->
+	<npc id="winston">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfAECC8</skinColor>
+			<hairColor>0xffffff</hairColor>
+			<mouth>VCvillager1</mouth>
+			<facial>survival_winston</facial>
+			<hair>survival_winston</hair>
+			<shirt>1</shirt>
+			<pants>badagent</pants>
+			<pack></pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants>survival_winston</overpants>
+			<lineColor></lineColor>
+			<eyeState></eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1875</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<!-- 1,1, 0xcf936a, 0x999999, 2, 15, "survival_vanburen", "survival_vanburen", "survival_vanburen", "survival_vanburen", "camopants", 1, 1, "survival_vanburen", 1 -->
+	<npc id="van buren">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xcf936a</skinColor>
+			<hairColor>0x999999</hairColor>
+			<mouth>15</mouth>
+			<marks>survival_vanburen</marks>
+			<facial>survival_vanburen</facial>
+			<hair>survival_vanburen</hair>
+			<shirt>survival_vanburen</shirt>
+			<pants>camopants</pants>
+			<overshirt>survival_vanburen</overshirt>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>900</x>
+			<y>950</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<!-- 1, 1, 0xfbdfcb, 0xf08b2c, 1, 1, 1, "survival_hunting_girl", 1, "skullink", "directord", 1, "survival_hunting", "survival_hunting", 1-->
+	<npc id="costume" type="portrait" variant="mannequin">
+		<skin>
+			<hairColor>0xf08b2c</hairColor>
+			<facial>survival_hunting_girl</facial>
+			<shirt>skullink</shirt>
+			<pants>directord</pants>
+			<item>survival_hunting</item>
+			<overshirt>survival_hunting</overshirt>
+		</skin>
+		<position>
+			<x>2725</x>
+			<y>910</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	<!-- 1, 1, 0xfbdfcb, 0xf08b2c, 1, 1, 1, "survival_hunting_boy", 1, "skullink", "directord", 1, "survival_hunting", "survival_hunting", 1 -->
+	<npc id="costume" event="boy" type="portrait" variant="mannequin">
+		<skin>
+			<facial>survival_hunting_boy</facial>
+		</skin>
+	</npc>
+</npcs>

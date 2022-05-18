@@ -1,0 +1,409 @@
+<npcs>
+	<!--  character 1 -->
+	<npc id="warden">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x999999</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>scuba</mouth>
+			<marks>mustache1</marks>
+			<facial>1</facial>
+			<hair>44</hair>
+			<shirt>warden</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>824</x>
+			<y>1922</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 2 -->
+	<npc id="radioactiveSuit">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>17</mouth>
+			<marks/>
+			<facial>radioactive</facial>
+			<hair>bald</hair>
+			<shirt>radioactive</shirt>
+			<pants>1</pants>
+			<pack>radioactive</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>radioactive</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1056</x>
+			<y>1564.15</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  char3.createNPC(100, 100, 0, 0, "random", undefined, "both");   Make a random Character 
+	<npc id="random1">
+	</npc>
+	-->
+	
+	<!--  character 4  -->
+	<npc id="femScientist">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>10</mouth>
+			<marks/>
+			<facial>8</facial>
+			<hair>32</hair>
+			<shirt>7</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt>labCoat</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>614</x>
+			<y>1922</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 5 -->
+	<npc id="prisonGuard">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x49321D</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>14</mouth>
+			<marks/>
+			<facial>1</facial>
+			<hair>35</hair>
+			<shirt>warden</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1058.5</x>
+			<y>1922</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 6 -->
+	<npc id="policeWoman">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xCA8C4F</skinColor>
+			<hairColor>0x55402D</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>19</mouth>
+			<marks/>
+			<facial>policeman</facial>
+			<hair>38</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>3344.6</x>
+			<y>1916</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 7 -->
+	<npc id="policeMan">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xA76A10</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>rat</mouth>
+			<marks>mustache2</marks>
+			<facial>policeman</facial>
+			<hair>44</hair>
+			<shirt>policeman</shirt>
+			<pants>policeman</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>policeman</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>5949.35</x>
+			<y>1916</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 8 -->
+	<npc id="hero">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0xEEEEEE</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>bags</marks>
+			<facial>1</facial>
+			<hair>24</hair>
+			<shirt>hero1</shirt>
+			<pants>hero1</pants>
+			<pack>hero1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>uBelt1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>4490.25</x>
+			<y>536.5</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 9  -->
+	<npc id="copyCat" event="beat_boss_1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xEAEAEA</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner2</mouth>
+			<marks>beautymark</marks>
+			<facial>1</facial>
+			<hair>prisoner2</hair>
+			<shirt>prisoner1</shirt>
+			<pants>4</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>716.7</x>
+			<y>1619.9</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 10  -->
+	<npc id="speedingSpike" event="beat_boss_2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0x49C71F</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner4</mouth>
+			<marks>shadow1</marks>
+			<facial>1</facial>
+			<hair>prisoner6</hair>
+			<shirt>prisoner1</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item>moneybag</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>585.75</x>
+			<y>1619.9</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 11  -->
+	<npc id="sirRebral" event="beat_boss_3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF3E8D1</skinColor>
+			<hairColor>0xCD8705</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner1</mouth>
+			<marks>goatScar</marks>
+			<facial>prisoner1</facial>
+			<hair>prisoner1</hair>
+			<shirt>prisoner1</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>471.8</x>
+			<y>1619.9</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 12  -->
+	<npc id="ratman" event="beat_boss_4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0x7E5829</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner4</mouth>
+			<marks>handlebar</marks>
+			<facial>1</facial>
+			<hair>prisoner4</hair>
+			<shirt>prisoner1</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>465.8</x>
+			<y>1472</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 13  -->
+	<npc id="crusher" event="beat_boss_5">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBD6840</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner3</mouth>
+			<marks>shadowScar</marks>
+			<facial>1</facial>
+			<hair>prisoner3</hair>
+			<shirt>prisoner1</shirt>
+			<pants>1</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>589.75</x>
+			<y>1472</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 14  -->
+	<npc id="bettyJetty" event="beat_boss_6">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xFF8CC6</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner5</mouth>
+			<marks>bangs1</marks>
+			<facial>1</facial>
+			<hair>prisoner5</hair>
+			<shirt>prisoner1</shirt>
+			<pants>4</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>710.7</x>
+			<y>1472</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="music">
+		<asset>Carrot_ShopTheme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>openDoor_pushBar.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">Landing_AluminamSurface_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">Landing_Snow.mp3</asset>
+		<asset id="bounce">fs_bounce_01.mp3, fs_bounce_02.mp3, fs_bounce_03.mp3, fs_bounce_04.mp3</asset>
+	</sound>
+</sounds>

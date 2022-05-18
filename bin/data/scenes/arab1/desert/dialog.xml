@@ -1,0 +1,29 @@
+<dialogs>
+	<character id="brokeMerchant">
+		<conversation>
+			<exchange>
+				<question>What's going on here?</question>
+				<answer>This used to be the bazaar, but we moved to the other side of the town after the 40 thieves kept raiding us.</answer>
+			</exchange>
+			<exchange>
+				<question>Sounds like the thieves are pretty bold.</question>
+				<answer>Tell me about it -- if you set down something valuable on this stone dais, they'll steal it before you can even turn around!</answer>
+			</exchange>
+			<exchange>
+				<question>Where do you think the 40 thieves have their hideout?</question>
+				<answer>They've got to be hiding in the caves. It's the only place that makes sense.</answer>
+			</exchange>
+		</conversation>
+		<statement id="whereGo2" link="whereGo3" linkEntityId="brokeMerchant">It must have been the thieves!</statement>
+		<statement id="whereGo3">Maybe you can spy on them from somewhere else.</statement>
+		<statement id="warn1">That looks like a nice thing to lose.</statement>
+		<statement id="warn2">Maybe you didn't hear about the 40 reasons not to place that there?</statement>
+		<statement id="warn3">Kids... they never listen.</statement>
+    </character>
+	<character id="player">
+		<statement id="whatDias">Look's like something can be placed here.</statement>
+		<statement id="openSesame">Open sesame!</statement>
+		<statement id="notMoving">Doesn't look like he wants to move.</statement>
+		<statement id="whereGo" link="whereGo2" linkEntityId="brokeMerchant">Where did that go?</statement>
+    </character>
+</dialogs>

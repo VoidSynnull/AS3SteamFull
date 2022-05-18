@@ -1,0 +1,34 @@
+<part>
+	<id>survival_max</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>leg1</part>
+		<part>foot1</part>
+	</hide>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0x464a49</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="colorShape1"/>
+			<clip instanceName="pegLeg.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.RotateToJoint">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>pegLeg</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+  	</components>
+</part>

@@ -1,0 +1,28 @@
+<doors>
+	<door id="outsideExit">
+		<scene>game.scenes.villain.prisonExterior.PrisonExterior</scene>
+		<x>2339</x>
+		<y>519</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="prisonEnter">
+		<scene>game.scenes.villain.prisonGuardRoom.PrisonGuardRoom</scene>
+		<x>3491</x>
+		<y>608</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,40 @@
+<dialogs>
+	<!--  character 1  -->
+	<character id="policeman">
+		<statement>Thank goodness you're here! Copy Cat is inside the bank and we can't catch her!</statement>
+  		<statement event="beat_boss_1">Thanks for your help. We'll take it from here.</statement>
+    </character>
+    
+    <!--  character 2  -->
+    <character id="banker">
+    	<statement>Please help! The bank has been robbed!</statement>
+    	<statement event="beat_boss_1">It's a good thing you showed up!</statement>
+    </character>
+    
+    <!--  character 3  -->
+    <character id="policewoman">
+    	<statement>The super villains broke into the bank. Copy Cat is still in there!</statement>
+    	<statement event="beat_boss_1">Thanks! We'll keep an eye on things here.</statement>
+    </character>
+    
+    <!--  character 4  -->
+    <character id="pretzelVendor">
+    	<statement>Business is great today! I'm out of pretzels!</statement>
+    </character>
+    
+    <!--  character 5  -->
+    <character id="policeman2">
+    	<statement>Betty Jetty has flown up the skyscraper. Good luck catching her!</statement>
+  		<statement event="beat_boss_6">That was some fantastic flying!</statement>
+    </character>
+    
+    <!--  character 6  -->
+    <character id="random1">
+    	<statement>A lady in prison stripes flew past my window!</statement>
+    </character>
+    
+    <!--  character 7  -->
+    <character id="random2">
+    	<statement>I hope you can fly as well as that villain up there!</statement>
+    </character>
+</dialogs>

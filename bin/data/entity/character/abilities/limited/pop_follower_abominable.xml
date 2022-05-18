@@ -1,0 +1,17 @@
+<specialAbility id="limited/pop_follower_abominable">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2976</param>
+		<param id="skinColor">0xFFFFFF</param>
+		<param id="hairColor">0xFFFFFF</param>
+		<param id="mouthFrame">tyson</param>
+		<param id="facialFrame">limited_abominable_yeti</param>
+		<param id="overshirtFrame">limited_abominable_yeti</param>
+		<param id="variant">creature</param>
+		<param id="lineThickness">.0001</param>
+		<param id="scaleSize">2.6</param>
+		<param id="campaignName">AbominableQuest</param>
+	</parameters>
+</specialAbility>

@@ -1,0 +1,24 @@
+<part>
+	<id>limited_tony_transformer</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2959</campaignID>
+	<specialAbility>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">FFQ219Quest,Transform</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">limited_tony_tigernpc</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

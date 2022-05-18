@@ -1,0 +1,19 @@
+<part>
+	<id>poseidon</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.scenes.myth.poseidonThrone.components.PoseidonBeardComponent"></component>
+  	</components>
+</part>

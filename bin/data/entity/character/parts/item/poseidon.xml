@@ -1,0 +1,13 @@
+<part>
+	<id>poseidon</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="Electrify">
+		<className>game.scenes.myth.shared.abilities.Electrify</className>
+		<useButton>true</useButton>
+		<validIslands>myth</validIslands>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

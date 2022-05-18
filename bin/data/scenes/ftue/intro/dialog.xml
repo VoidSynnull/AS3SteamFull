@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="player">
+		<statement id="intro2" triggerEvent="triggerEvent" triggerEventArgs="intro3, true">Where are we?</statement>
+		<statement id="intro4" triggerEvent="triggerEvent" triggerEventArgs="intro5, true">We're ready!</statement>
+		<statement id="exciting">Woo! What a great start!</statement>
+		
+    </character>
+    <character id="pilot">
+    	<statement id="intro1" triggerEvent="triggerEvent" triggerEventArgs="intro2, true">Nice to have you aboard, [Player Name].</statement>
+ 		<statement id="intro3" triggerEvent="triggerEvent" triggerEventArgs="race_enter, true">Above poptropica, ready to race! Let's go!</statement>
+    	<statement id="baron1">Oh no! The Red Baroness!</statement>
+    	<statement id="goingDown">Oh no! We're going down!</statement>
+    </character>
+    
+    <character id="baron">
+    	<statement id="intro5">Sorry to throw a wrench in your plans!</statement>
+    </character>
+    
+    <character id="officiate">
+    	<statement id="race1">Welcome Racers!</statement>
+    	<statement id="race2">Race to win credits and this medallion.</statement>
+    	<statement id="race3" triggerEvent="triggerEvent" triggerEventArgs="intro4, true">Is everyone ready?</statement>
+    	<statement id="intro5" triggerEvent="triggerEvent" triggerEventArgs="race_start">On your marks...</statement>
+    	<statement id="start1">Get Set...</statement>
+    	<statement id="start2">Go!</statement>
+    </character>
+</dialogs>

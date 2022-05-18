@@ -1,0 +1,54 @@
+<doors>
+	<door id="doorDowntown">
+		<scene>game.scenes.superPower.downtown.Downtown</scene>
+		<x>70</x>
+		<y>2160</y>
+		<label>
+			<text>GO RIGHT</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorComic">
+		<scene>game.scenes.superPower.comic.Comic</scene>
+		<x>741</x>
+		<y>400</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorCostume">
+		<scene>game.scenes.superPower.costume.Costume</scene>
+		<x>426</x>
+		<y>380</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorNews">
+		<scene>game.scenes.superPower.news.News</scene>
+		<x>642</x>
+		<y>1050</y>
+		<label>
+			<text>COMMON ROOM</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

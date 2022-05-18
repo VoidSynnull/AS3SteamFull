@@ -1,0 +1,23 @@
+<campaign>
+  	<campaignId>MagiswordsMMSQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Magiswords</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">https://ad.doubleclick.net/ddm/trackclk/N421001.8539FAMILYEDUCATIONNETWO/B10333700.138153080;dc_trk_aid=310521493;dc_trk_cid=74351206;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<impressionUrls>
+		<impressionUrl id="url1">https://ad.doubleclick.net/ddm/trackimp/N421001.8539FAMILYEDUCATIONNETWO/B10333700.138153080;dc_trk_aid=310521493;dc_trk_cid=74351206;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impressionUrl> <!-- Must match click thru URL in CMS -->
+	</impressionUrls>
+	<cards>
+		<card>2813</card>
+		<card>2814</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2813</card>
+		<card>2814</card>
+	</boycards>
+	<girlcards>
+		<card>2813</card>
+		<card>2814</card>
+	</girlcards>
+</campaign>

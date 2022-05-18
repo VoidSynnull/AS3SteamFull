@@ -1,0 +1,35 @@
+<part>
+	<id>june_waterballoon</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="speedX">200</param>
+			<param id="speedY">-450</param>
+			<param id="rotationSpeed">100</param>
+			<param id="tracking">MemberGift,Water Balloon Throw</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">waterballoon_splatter</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">overshirt</param>
+						<param type="string">waterballoon_splatter</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

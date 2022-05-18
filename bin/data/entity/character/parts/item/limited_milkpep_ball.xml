@@ -1,0 +1,14 @@
+<part>
+	<id>limited_milkpep_ball</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.Dribble</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="bounceTime">.5</param>
+			<param id="tracking">MilkPepMMSQ,Dribble Power</param>
+		</parameters>
+	</specialAbility>
+</part>

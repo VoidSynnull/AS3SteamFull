@@ -1,0 +1,32 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">city_night_time.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="police_chatter">police_radio_chatter_01.mp3</asset>
+		<asset triggeredByEvent="helicopter" loop="true">helicopter_loop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset id="commonExit">door_light_open_creak_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb1">none</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="bus">ls_car_hood_01.mp3, ls_car_hood_02.mp3</asset>
+		<asset id="sign">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="bus">fs_car_hood_01.mp3, fs_car_hood_02.mp3, fs_car_hood_03.mp3, fs_car_hood_04.mp3</asset>
+		<asset id="sign">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_041.mp3</asset>
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

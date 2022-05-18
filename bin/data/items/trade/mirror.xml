@@ -1,0 +1,50 @@
+<item id="mirror">
+  	<type>island</type>
+  	<subType>skullduggery</subType>
+  	<buttons>
+	    <btn>
+	      	<label>USE</label>
+	      	<actions>
+	    		<action type="triggerEvent">
+	    			<conditional id="inScene" isTrue="true"/>
+		  			<parameters>
+		  				<param id="event">use_mirror</param>
+					</parameters>					
+				</action>
+				<action type="triggerEvent">
+	    			<conditional id="inScene" isTrue="false"/>
+		  			<parameters>
+		  				<param id="event">dont_use_mirror</param>
+					</parameters>					
+				</action>
+			</actions>
+	    </btn>
+  	</buttons>
+  	<textfields>
+ 		<text>
+      		<value>Mirror</value>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/SkullduggeryBackground.swf</assetPath>
+       		<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>0</brightness>
+     			<contrast>0</contrast>
+     			<saturation>-72</saturation>
+     			<hue>157</hue>
+    		</effect>
+    	</asset>
+   		<asset id="cardContent"/>
+    </assets>
+    <conditionals>
+    	<conditional type="inScene">
+    		<parameters>
+		  		<param id="validScene">game.scenes.trade.mainStreet.MainStreet</param>
+    			<param id="validScene">game.scenes.trade.mainStreet2.MainStreet2</param>
+			</parameters>
+    	</conditional>
+    </conditionals>
+</item>

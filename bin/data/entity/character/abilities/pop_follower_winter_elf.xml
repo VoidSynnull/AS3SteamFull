@@ -1,0 +1,15 @@
+<specialAbility id="pop_follower_winter_elf">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="skinColor">0xfbdfcb</param>
+		<param id="hairColor">0x72472b</param>
+		<param id="mouthFrame">fisherman</param>
+		<param id="hairFrame">elf_follower</param>
+		<param id="overshirtFrame">elf_follower</param>
+		<param id="pantsFrame">bl_mocap</param>
+		<param id="eyeState">open</param>
+		<param id="scaleSize">0.7</param>
+	 </parameters>
+</specialAbility>

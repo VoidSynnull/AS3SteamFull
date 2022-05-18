@@ -1,0 +1,26 @@
+<item>
+	<type>store</type>
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>TURN OFF</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>USE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Feel the Red Power!</value>
+		</text>
+			<text id="storeTitle">
+			<value>Red Atom Power</value>
+		</text>
+	</textfields>
+</item>

@@ -1,0 +1,103 @@
+<dialogs>
+    <character id="player">
+    	<statement id="fireHot">shared.text3</statement>
+    </character>
+	<character id="lewis">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text7</question>
+				<answer>text4</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_silverMedal">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text5</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="silverMedal, lewis">text6</answer>
+			</exchange>
+		</conversation>
+		
+		<conversation event="returned_silverMedal">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text7</answer>
+			</exchange>
+		</conversation>
+    </character>
+	<character id="clark">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text8</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text9</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text7</question>
+				<answer>text10</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_silverMedal">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text8</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text9</answer>
+			</exchange>
+			<exchange>
+				<question>text5</question>
+				<answer>text11</answer>
+			</exchange>
+		</conversation>
+		<conversation event="returned_silverMedal">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text8</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text9</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text7</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char3">
+    	<statement>text12</statement>
+    </character>
+    <character id="char4">
+    	<statement>text13</statement>
+    </character>
+        <character id="char5">
+    	<statement>text14</statement>
+    </character>
+</dialogs>

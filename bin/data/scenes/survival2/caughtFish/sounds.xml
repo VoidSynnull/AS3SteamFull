@@ -1,0 +1,15 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_2_Ending_Cutscene.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">cold_winds.mp3</asset>
+		<asset loop="true" triggeredByEvent="cameraFocus">tech_lab.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="cameraShow">movement_small_engine_01_L.mp3</asset>
+		<asset triggeredByEvent="cameraZoom">lens_device_03.mp3</asset>
+	</sound>
+</sounds>

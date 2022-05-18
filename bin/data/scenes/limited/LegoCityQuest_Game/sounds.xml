@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">galactic_hot_dogs_main_theme.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="cloud1Hit"  baseVolume="2">puddle_slip_01.mp3</asset>
+		<asset id="cloud2Hit"  baseVolume="2">puddle_slip_01.mp3</asset>
+		<asset id="power1Hit" baseVolume="4">short_engine_burst_01.mp3</asset>
+		<asset id="wreck1Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+		<asset id="wreck2Hit"  baseVolume="4">metal_crash_impact_03.mp3</asset>
+		<asset id="wreck3Hit"  baseVolume="4">door_hatch_01.mp3</asset>
+		<asset id="wreck4Hit"  baseVolume="4">metal_crash_impact_02.mp3</asset>
+		<asset id="fire1Hit"  baseVolume="4">explosion_04.mp3</asset>
+		<asset id="fire2Hit"  baseVolume="4">explosion_04.mp3</asset>
+	</sound>
+
+</sounds>

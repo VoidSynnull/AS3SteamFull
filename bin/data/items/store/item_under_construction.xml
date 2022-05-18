@@ -1,0 +1,32 @@
+<item id="_under_construction">
+		<type>store</type>
+		<subType>general</subType>
+		<textfields>
+			<text id="title">
+				<value>Under Construction</value>
+	 	 	</text>
+	 	 	<text>
+				<value>Don't see all your cards? Don't fret!</value>
+				<size>15</size>
+				<y>105</y>
+			</text>
+			<text>
+				<value>We're doing some construction,</value>
+				<size>15</size>
+				<y>125</y>
+			</text>
+			<text>
+				<value>and will dig them up soon!</value>
+				<size>15</size>
+				<y>145</y>
+			</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack">
+				<assetPath>items/ui/background_construction.swf</assetPath>
+			</asset>
+			<asset id="cardContent">
+			<assetPath>items/ui/under_construction.swf</assetPath>
+		</asset>
+		</assets>
+</item>

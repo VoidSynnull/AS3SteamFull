@@ -1,0 +1,13 @@
+<part>
+	<id>pgamerdude</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+  		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+ 		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  		<parameters>
+			<param id="partType">facial</param>
+  		</parameters>
+  	</specialAbility>
+</part>

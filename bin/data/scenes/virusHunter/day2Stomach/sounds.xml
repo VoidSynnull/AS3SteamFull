@@ -1,0 +1,31 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Quirky_Suspense.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="fatOpen" allowOverlap="false">burn_flesh_02.mp3</asset>
+		<asset triggeredByEvent="fatTear" allowOverlap="false">burn_flesh_01.mp3</asset>
+		<asset triggeredByEvent="fatBounce">squish_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="treat1" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset id="treat2" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset id="treat3" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset id="treat4" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset id="treat5" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		<asset id="treat6" allowOverlap="false">dirt_break_01.mp3, dirt_break_02.mp3, dirt_break_03.mp3, dirt_break_04.mp3, dirt_break_05.mp3</asset>
+		
+		<asset id="fat1" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat2" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat3" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat4" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat5" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat6" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat7" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		<asset id="fat8" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+		
+		<asset id="radial">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+	</sound>
+</sounds>

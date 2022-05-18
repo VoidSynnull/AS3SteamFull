@@ -1,0 +1,32 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+		<component type="platform"/>
+	</hit>	
+	<hit id="radial0">
+		<component type="radial">
+		<rebound>-.7</rebound>
+		</component>
+		<component type="platform"/>
+	</hit>
+	<hit id="radial1">
+		<component type="radial">
+		<rebound>-.7</rebound>
+		</component>
+		<component type="platform"/>
+	</hit>
+	<hit id="radial2">
+		<component type="radial">
+		<rebound>-.7</rebound>
+		</component>
+		<component type="platform"/>
+	</hit>
+	<hit id="radial3">
+		<component type="radial">
+		<rebound>-.7</rebound>
+		</component>
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,41 @@
+<item id="3620">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+		<buttons>
+	 		<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+				<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+ 	</buttons>
+		
+		<textfields>
+			<text id="storeTitle">
+				<value>Mardi Gras Jester</value>
+			</text>
+	</textfields>
+	
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+	<looks>
+		<look>
+			<mouth>teethgrin1</mouth>
+			<hair>spring_outfit_jester</hair>
+			<shirt>spring_outfit_jester</shirt>
+			<pants>spring_outfit_jester</pants>
+			<overpants>spring_outfit_jester</overpants>
+		</look>
+	</looks>
+	
+</item>

@@ -1,0 +1,47 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="elevatorFloor" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="metalDesk" color="0x999999" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cabinet" color="0x336600" platform="true">
+		<component type="platform"/>
+	</hit>
+		
+	<hit id="wood" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+	
+	<!-- Don't really have sound for walls and ceilings, but they're here anyway.
+	<hit id="elevatorWallLeft">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="elevatorWallRight">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="elevatorCeiling">
+		<component type="ceiling"/>
+	</hit>
+	-->
+</hits>

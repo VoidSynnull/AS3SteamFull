@@ -1,0 +1,39 @@
+<dialogs>
+    <character id="player">
+    	<statement id="gate_locked">text1</statement>
+    	<statement event="unlock_gate" link="gate_locked" linkEntityId="herc">text2</statement>
+    </character>
+    
+    <character id="char1">
+    	<statement>text3</statement>
+    </character>
+    
+    <character id="fanGirl">
+    	<statement>text4</statement>
+    	<statement event="lost_hercules">text5</statement>
+    	<statement event="zeus_gate_open">text5</statement>
+    	<statement event="gotItem_medalMythology">text6</statement>
+    </character>
+    
+    <character id="char3">
+    	<statement>text7</statement>
+    	<statement event="gotItem_medalMythology">text8</statement>
+    </character>
+    
+    <character id="char4">
+    	<statement>text9</statement>
+    	<statement event="gotItem_medalMythology">text10</statement>
+    </character>
+    
+    <character id="herc">
+    	<statement id="after_you">text11</statement>
+   	 	<statement event="zeus_gate_open">text11</statement>
+    	<statement id="gate_locked" link="gate_locked_2">text12</statement>
+    	<statement id="gate_locked_2" triggerEvent="triggerEvent" triggerEventArgs="zeus_gate_open,true">text13</statement>
+    </character>
+    
+    <character id="char6">
+    	<statement>text14</statement>
+    	<statement event="gotItem_medalMythology">text15</statement>
+    </character>
+</dialogs>

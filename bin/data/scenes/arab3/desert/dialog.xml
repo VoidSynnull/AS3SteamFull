@@ -1,0 +1,116 @@
+<dialogs>
+	<character id="player">
+		<statement id="what">What happened?</statement>
+		<statement id="where">Where did the thieves go?</statement>
+		<statement id="genie">And the genie?</statement>
+		<statement id="break">Would you mind breaking this for me?</statement>
+		<statement id="need">guess he won't be needing this.</statement>
+		
+		<statement id="need_both">I can't catch the genie without an enchanted vessel, and his true name!</statement>
+		<statement id="need_name">I still can't catch the genie without knowing his true name!</statement>
+		<statement id="need_lamp">I still can't catch the genie without an enchanted vessel!</statement>
+		<statement id="have_lamp_name">I have the lamp and his true name, he won't be running this time!</statement>
+		<statement id="up">I need to get up there first.</statement>
+		<statement id="ready">I've got you now Samhal, no more games!</statement>
+		
+		<statement id="time">Now where did he go this time?</statement>
+		
+		<statement id="cliff">Nothing left of the thieves' hideout.</statement>
+		
+		<statement id="father">Father?</statement>
+		<statement id="right">I should try to make things right.</statement>
+	</character>
+	
+		
+	<character id="genie">
+		<statement id="rage">That's it! I'm going somewhere you'll never reach me!</statement>
+		<statement id="taunt">You'll always be a step behind me!</statement>
+		<statement id="wish">That's what you think, first you'll have to find me!</statement>
+	</character>
+	
+	<character id="genieHuman">
+		<statement id="again">Here he goes again. Maybe you have something that will help him see the light.</statement>
+		<statement>Maybe you have something that will help him see the light.</statement>
+		<statement id="back">I think you already have what you need to set things right...</statement>
+	</character>
+	
+	<character id="genieThief">
+		<statement id="souls">I've stolen my share of treasures from this dais... and now I'll take your soul!</statement>
+		<statement id="please">Please, father, let me go!</statement>
+		<statement id="everything">Not everything...</statement>
+		<statement id="command">Your wish is my command...</statement>
+		<statement id="princess">I never wanted the life of a princess, I wanted what we had before all this.</statement>
+		<statement id="life">We lived simply then, but we were happy.</statement>
+	</character>
+	
+	<character id="sultan">
+		<statement id="understand">What more than power and riches could she possibly want? I don't understand!</statement>
+		<statement id="stop">Scheherazade! Stop!</statement>
+		<statement id="treasure">Scheherazade, what have you done? All of our treasure is gone!  We had everything we ever wanted!</statement>
+		<statement id="riches">We can get it back! Yes, you have the power to get our riches back!</statement>
+		<statement id="what">Why are you showing me this?</statement>		
+		<statement id="nothing">You haven't shown me anything!</statement>
+		<statement id="drawing">What's this?</statement>
+		<statement id="blind">Oh i've been so blind!</statement>
+		<statement id="sorry">Scheherazade, I'm sorry. I've been so foolish. But now I know how to fix everything.</statement>
+		<statement id="thank" link="wishes">Thank you, [PLAYER_NAME].  Before I make my wish would you like to make one, for all of your help?</statement>
+				
+		<conversation id="wishes">
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="wish_robots">I wish to have a robot army of butlers!</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="wish_animals">I wish to be able to speak to animals!</question>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="wish_banjo">I wish to be the worlds best banjo player!</question>
+			</exchange>
+		</conversation>
+		<statement id="fine" link="lamp">A fine choice. As for me...</statement>
+		<statement id="lamp" triggerEvent="triggerEvent" triggerEventArgs="make_wish">My greed made me forget what was truly valuable. I wish that I'd never found the lamp in the first place.</statement>
+	</character>
+	
+	<character id="old">
+		<statement id="goner">I thought you were a goner for sure! That whole cave system collapsed just as I got you out.</statement>
+		<statement id="scattered">They scattered like scarabs in torchlight.</statement>
+		<statement id="sultan">The whole town's got genie fever! Maybe the sultan will know what to do.</statement>
+		<statement>If only i were younger, i'd be out looking for that genie too!</statement>
+		
+		<conversation event="genie_in_desert">
+			<exchange>
+				<question>What happened to you?</question>
+				<answer>I wished to be young again.</answer>
+			</exchange>
+			<exchange>
+				<question>Well, I guess you got your wish...</question>
+				<answer>You'd think I might have predicted this ironic outcome with my hard-won wisdom.</answer>
+			</exchange>
+		</conversation>
+	</character>
+	
+	<character id="turban">
+		<statement>This compass supposedly points to the genie. I'll find him no matter where he hides!</statement>
+		<statement event="genie_in_desert">This compass is useless. It's spinning like a top!</statement>
+		<statement id="waste">This is a huge waste of time. I'm going to get back to work inventing Algebra.</statement>
+	</character>
+	
+	<character id="enforcer">
+		<conversation>
+			<exchange>
+				<question>Hey, you're that big tough henchman.</question>
+				<answer>Not anymore. The master thief kicked me out. Said I was useless now.</answer>
+			</exchange>
+			<exchange>
+				<question>Why is that?</question>
+				<answer>Everything I touch falls apart! I couldn't enforce a ham sandwich at this point.</answer>
+			</exchange>
+			<exchange>
+				<question>What are you doing out here?</question>
+				<answer>I'll be safe in the desert. Can't break sand, right?</answer>
+			</exchange>
+		</conversation>
+		
+		<statement id="useful">Finally, a chance to be useful again!</statement>
+		<statement id="else">If you need anything else pulverized, bring it to me.</statement>
+	</character>
+</dialogs>

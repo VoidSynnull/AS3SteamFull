@@ -1,0 +1,77 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+
+	<hit id="mp1">
+		<component type="movingPlatform">
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>2196</x>
+					<y>1620</y>
+				</point>
+				<point>
+					<x>2196</x>
+					<y>800</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="mp2">
+		<component type="movingPlatform">
+			<velocity>120</velocity>
+			<points>
+				<point>
+					<x>3567.8</x>
+					<y>1620</y>
+				</point>
+				<point>
+					<x>3567.8</x>
+					<y>800</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="trees" color="0x00FF66" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x006633" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stone" color="0xC2D6D6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xF4DFA3" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="clay" color="0xFF3366" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ceramics" color="0x99CCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sand" color="0xFFA84A" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="water" color="0x0000ff">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0x41B6E1</splashColor1>
+			<splashColor2>0x4DCBDE</splashColor2>
+			<density>1</density>
+			<viscosity>.96</viscosity>
+		</component>
+	</hit>
+	<!-- <hit id="waterRadial" color="0x990099">
+		<component type="radial">
+			<rebound>0.1</rebound>
+		</component>
+	</hit>  -->
+</hits>

@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="photobooth_npc">
+		<statement>Get your photo taken, and share it with friends!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

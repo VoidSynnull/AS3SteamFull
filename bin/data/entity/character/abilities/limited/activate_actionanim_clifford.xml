@@ -1,0 +1,28 @@
+<specialAbility id="limited/activate_actionanim_clifford">
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<save>true</save>
+	<parameters>
+		<param id="actions">cliff1,cliff2</param>
+		<param id="tracking">CliffordQuest,emojis</param>
+	</parameters>
+	<actions>
+		<actionChain id="now_actions_cliff1">
+			<action class="ShowOverlayAnimAction">
+				<parameters>
+					<param id="zipPath" type="string">limited/CliffordQuest/cameraAnim1.swf</param>
+					<param id="scalemode" type="string">player</param>
+				</parameters>
+			</action>
+		</actionChain>
+		<actionChain id="now_actions_cliff2">
+			<action class="ShowOverlayAnimAction">
+				<parameters>
+					<param id="zipPath" type="string">limited/CliffordQuest/cameraAnim2.swf</param>
+					<param id="scalemode" type="string">player</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

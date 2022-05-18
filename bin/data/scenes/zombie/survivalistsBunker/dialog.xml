@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="survivalist_convo_started" triggerEvent="triggerEvent" triggerEventArgs="how_survive">How do you survive in here?</statement>
+		<statement triggeredByEvent="survival_convo" triggerEvent="triggerEvent" triggerEventArgs="need_coffee">That sounds excruciating.</statement>
+		<statement triggeredByEvent="need_help" triggerEvent="triggerEvent" triggerEventArgs="will_help">Yeah! I need to get up to those shipping containers. but the zombies attack me every time I step out of the light.</statement>
+    	<statement triggeredByEvent="wrongUse_coffee">Bleh! This coffee is too strong!</statement>
+    </character>
+    
+    <character id="char1">
+    	<statement event="hasItem_medal">I've learned my lesson, from now on, I'm just locking the door and staying put.</statement>
+    	<statement triggerEvent="triggerEvent" triggerEventArgs="survivalist_convo_started">I thought the end of the world would come when the machines became self-aware. But zombies? Didn't see that coming.</statement>
+    	<statement triggeredByEvent="how_survive" triggerEvent="triggerEvent" triggerEventArgs="survival_convo">Canned food, bottled water, and the companionship of a shadow puppet I call 'Hombre Umbra.'</statement>
+    	<statement triggeredByEvent="need_coffee" link="reckon">I'll be honest: I'd do just about anything for a fresh cup of coffee right about now.</statement>
+    	<statement id="reckon" triggerEvent="triggerEvent" triggerEventArgs="need_help">But we all need something, I reckon.</statement>
+    	<statement triggeredByEvent="will_help" triggerEvent="triggerEvent" triggerEventArgs="spoke_to_survivalist">I'll cover you, soldier. I'll shine a spotlight to let you climb the shipping containers.</statement>
+    	<statement event="spoke_to_survivalist">I’ll cover you, soldier. I’ll shine a spotlight to let you climb the shipping containers.</statement>
+    	<statement triggeredByEvent="giveItem_coffee" link="check_out">At last, fresh coffee!</statement>
+    	<statement id="check_out" triggerEvent="triggerEvent" triggerEventArgs="gotItem_keyCard" link="key_card">Now that I know you're not a government stooge, check out what I found outside.</statement>
+    	<statement id="key_card" link="rabbit_hole">It's the key to the shipyard's computer network!</statement>
+    	<statement id="rabbit_hole">Who knows how deep the rabbit hole goes...</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,26 @@
+<specialAbility id="limited/pop_follower_bunny">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="id">2978</param>
+		<param id="facialFrame">limited_bunny_follower</param>
+		<param id="overpantsFrame">limited_bunny_follower</param>		
+		<param id="useSpecialActionBtn">true</param>
+		<param id="hideParts">body,hair,shirt,arm1,arm2,hand1,hand2,foot1,foot2,leg1,leg2,eyes,mouth,head</param>
+		<param id="campaignName">ToyStory4HEVBB</param>
+	</parameters>
+		<actions>
+			<actionChain id="click_actions">
+			<action class="TalkAction" noWait="true">
+					<parameters>
+						<param id="char" type="string">popFollower</param> 
+						<param id="sayText" type="string">Let's kick it.</param> 
+						<param id="directSay" type="boolean">true</param>
+						<param id="end_id" type="string">null</param> 
+						<param id="talkHeight" type="number">1.5</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+</specialAbility>

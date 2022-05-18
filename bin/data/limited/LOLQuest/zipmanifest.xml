@@ -1,0 +1,173 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/LOLQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/LOLQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<data type="interior" path="data/scenes/limited/LOLQuest_Game/" ext="xml">
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>npcs</asset>
+		<asset>dialog</asset>
+		<asset>tracking</asset>
+	</data>
+	<assets type="interior" path="assets/scenes/limited/LOLQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	<assets type="game" path="assets/scenes/limited/LOLQuest_Game/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+	
+	
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/LOLQuest/" ext="swf">
+		<asset>Lose</asset>
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>DaBossNPC</asset>
+		<asset>LadyDivaNPC</asset>
+		<asset>McSwagNPC</asset>
+		<asset>NeonliciousNPC</asset>
+		<asset>pet1NPC</asset>
+		<asset>pet2NPC</asset>
+		<asset>pet3NPC</asset>
+		<asset>RoyalBeeNPC</asset>
+		<asset>SwagNPC</asset>
+		<asset>totQueenBeeNPC</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2068</asset>
+		<asset>2069</asset>
+		<asset>2070</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2068</asset>
+		<asset>2069</asset>
+		<asset>2070</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/music/limited/LOLQuest/" ext="mp3" keep="true">
+		<asset>calling_all_bbs_inst</asset>
+		<asset>im_a_queen</asset>
+	</assets>
+	<assets type="sounds" path="sound/limited/LOLQuest/" ext="mp3" keep="true">
+		<asset>im_a_queen_short</asset>
+	</assets>
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>fs_sand_01</asset>
+		<asset>fs_sand_02</asset>
+		<asset>fs_sand_03</asset>
+		<asset>fs_sand_04</asset>
+		<asset>ls_sand_01</asset>
+		<asset>ls_sand_02</asset>
+		<asset>fs_grass_01</asset>
+		<asset>fs_grass_02</asset>
+		<asset>fs_grass_03</asset>
+		<asset>fs_grass_04</asset>
+		<asset>ls_grass_01</asset>
+		<asset>ls_grass_02</asset>
+		<asset>fs_water_01</asset>
+		<asset>fs_water_02</asset>
+		<asset>fs_water_03</asset>
+		<asset>fs_water_04</asset>
+		<asset>ls_water_splash_01</asset>
+		<asset>ls_water_splash_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>fs_swim_water_01</asset>
+		<asset>fs_swim_water_02</asset>
+		<asset>fs_swim_water_03</asset>
+		<asset>whoosh_05</asset>
+		<asset>wing_flap_small_01</asset>
+		<asset>whack_03</asset>
+		<asset>Landing_gravelAndGrass</asset>
+		<asset>alarm_04</asset>
+		<asset>ratchet_crank_short_01</asset>
+		<asset>grab_rope_03</asset>
+		<asset>slide_down_rope_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>ppunkgirl5</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>ppunkgirl5</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_party_cruiser</asset>
+		<asset>limited_royalbee</asset>
+		<asset>limited_ladydiva</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_party_cruiser</asset>
+		<asset>limited_royalbee</asset>
+		<asset>limited_ladydiva</asset>
+	</assets>
+		<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_ladydiva</asset>
+		<asset>limited_royalbee</asset>
+	</assets>
+</manifest>

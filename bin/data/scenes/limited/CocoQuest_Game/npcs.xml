@@ -1,0 +1,29 @@
+<npcs>
+	<npc id="dante" variant="creature">
+    	<skin>
+			<gender>male</gender>
+			<skinColor>0x584C49</skinColor>
+			<pack>limited_dante</pack>
+			<facial>limited_dante</facial>
+			<overshirt>limited_dante</overshirt>
+    	</skin>
+		<position>
+			<x>50</x>
+			<y>595</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.28</scale>
+		<direction>right</direction>
+	</npc>
+	<npc id="hector">
+		<bitmap>limited/CocoQuest/hector.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>13800</x>
+			<y>595</y>
+		</position>
+	</npc>
+</npcs>

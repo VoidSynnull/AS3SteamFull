@@ -1,0 +1,68 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2000</right>
+		<bottom>2000</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>2100</right>
+		<bottom>1920</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>distantBackdrop.swf</asset>
+			<rate>0</rate>
+			<condition type="merge">background</condition>
+		</layer>
+		<layer>
+			<asset>distantClouds.swf</asset>
+			<rate>.2</rate>
+			<condition type="merge">background</condition>
+		</layer>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.3</rate>
+			<condition type="merge">background</condition>
+		</layer>
+		<layer hit="true">
+			<asset>windmill.swf</asset>
+			<rate>.5</rate>
+			<condition type="hide">-40</condition>
+		</layer>
+		<layer>
+			<asset>nearClouds.swf</asset>
+			<rate>.75</rate>
+			<condition type="merge">background</condition>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>nearest.swf</asset>
+			<rate>1.25</rate>
+			<condition type="merge">foreground</condition>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>160</x>
+			<y>1920</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

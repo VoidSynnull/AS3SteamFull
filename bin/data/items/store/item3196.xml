@@ -1,0 +1,70 @@
+<item id="3196">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+		<x>30</x>
+	</contentClass>
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		<btn>
+			
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>USE</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+		<specials>
+			<specialAbility>follower_parrot2</specialAbility>
+		</specials>
+		
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals> 
+		
+	<textfields>
+		<text id="storeTitle">
+			<value>Captain Crimson</value>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<hair>ppirategirl1</hair>
+			<facial>ppirateguy1</facial>
+			<marks>scar</marks>
+			<mouth>ppirateguy1</mouth>
+			<overpants>ppirategirl1</overpants>
+			<overshirt>ppirateguy1</overshirt>
+			<pants>ppirategirl1</pants>
+			<shirt>ppirategirl1</shirt>
+			<item>ppiratesword</item>
+		</look>
+	</looks>
+</item>

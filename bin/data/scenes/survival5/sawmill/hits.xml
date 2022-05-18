@@ -1,0 +1,61 @@
+<hits>
+	<hit id="plank" color="0x00ff00" platform="true">
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0xCC9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="logs" color="0x6666FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="buren_path" color="0xFF99CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x00CCFF</splashColor1>
+			<splashColor2>0x0033FF</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-800</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>1500</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="crateWall" color="0x006666">
+		<component type="wall"/>
+	</hit>
+	<hit id="crateFloor" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="step">
+		<component type="movingPlatform"/>
+	</hit>	
+	<hit id="wheelPlatform1">
+		<component type="movingPlatform"/>
+	</hit>	
+	<hit id="wheelPlatform2">
+		<component type="movingPlatform"/>
+	</hit>
+</hits>

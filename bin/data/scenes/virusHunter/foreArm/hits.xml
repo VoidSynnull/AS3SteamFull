@@ -1,0 +1,275 @@
+<hits>
+	<hit id="radial" color="0x9933CC">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="enemySpawnBase1" color="0x00CCCC">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="enemySpawnBase2" color="0x00DDDD">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="musclesUnlocked" color="0x99ffcc">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="musclesLocked" color="0xE73AC6">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="nerve1Target">
+		<component type="weaponTarget">
+			<maxDamage>.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="nerve2Target">
+		<component type="weaponTarget">
+			<maxDamage>.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="enemySpawn1" color="0x0000ff">
+		<component type="radial"/>
+	</hit>
+	<hit id="enemySpawn1Target">
+		<component type="weaponTarget">
+			<maxDamage>25</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+				<weapon>
+					<type>basicGun</type>
+					<factor>2</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="enemySpawn2" color="0x0066ff">
+		<component type="radial"/>
+	</hit>
+	<hit id="enemySpawn2Target"> 
+		<component type="weaponTarget">
+			<maxDamage>25</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+				<weapon>
+					<type>basicGun</type>
+					<factor>2</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow1" color="0xB23E3E"/>
+	<hit id="bloodFlow1Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow2" color="0xcc0000"/>
+	<hit id="bloodFlow2Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow3" color="0xcc3300"/>
+	<hit id="bloodFlow3Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow4" color="0xcc6600"/>
+	<hit id="bloodFlow4Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow5" color="0xcc9900"/>
+	<hit id="bloodFlow5Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow6" color="0xcccc00"/>
+	<hit id="bloodFlow6Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow7" color="0xccff00"/>
+	<hit id="bloodFlow7Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="calc1" color="0x330000">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="calc1Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="calc2" color="0x336600">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="calc2Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="calc3" color="0x333300">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="calc3Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="calc4" color="0x339900">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="calc4Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="calc5" color="0x33cc00">
+		<component type="radial"/>
+	</hit>
+	<hit id="calc5Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="calc6" color="0x33ff00">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="calc6Target">
+		<component type="weaponTarget">
+			<maxDamage>3</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

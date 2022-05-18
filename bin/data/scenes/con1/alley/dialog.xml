@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="guard1">
+		<statement id="vips">VIPS only.</statement>
+    </character>
+    
+    <character id="guard2">
+		<statement id="scram">Scram.</statement>
+    </character>
+    
+    <character id="bouncer">
+    	<statement id="getOff">Get down from there!</statement>
+	
+		<statement id="catapult" triggerEvent="triggerEvent" triggerEventArgs="inquire_further">Yeah, it sure is cool. Wait, did you say dangerous? Yes. Dangerous.</statement>
+		<statement forceOnScreen="true" id="theNorse" link="nostalgia" linkEntityId="player">Those people dressed as Norsemen out there. They lovingly crafted it. It looks like it would really work!</statement>
+		<statement id="goPlay" triggerEvent="triggerEvent" triggerEventArgs="regain_control">I'd like to go to the con, but… nah. This is all silly stuff. Kids' stuff.</statement>
+		
+		<statement event="showMjolnir" link="bribeHammer" linkEntityId="player">Wow! That's an amazing Mjolnir replica!</statement>
+		<statement id="theOneTrue" triggerEvent="triggerEvent" triggerEventArgs="regain_control">Sorry, only Thor himself could move me from this spot. </statement>
+		
+		<statement id="cantBe" link="datHammer" linkEntityId="player">The Norse God Thor! Is it really you?</statement>
+		<statement id="repost" link="beGone" linkEntityId="player">Looks like a replica I saw earlier, but never mind. How may I serve you, o powerful Thor?</statement>
+		<statement id="toatsMcGoats" triggerEvent="triggerEvent" triggerEventArgs="bouncer_out, true">Yes! Yes! It's all I ever wanted!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="guard1" link="vips" linkEntityId="guard1">May I go in this way?</statement>
+		<statement id="guard2" link="scram" linkEntityId="guard2">May I go in this way?</statement>
+		<statement id="bouncer" triggerEvent="triggerEvent" triggerEventArgs="dat_catapult">That catapult looks pretty dangerous.</statement>
+		
+		<statement id="inquireFurther" link="theNorse" linkEntityId="bouncer">Where did it come from?</statement>
+		<statement id="nostalgia" link="goPlay" linkEntityId="bouncer">You sound wistful.</statement>
+		
+		<statement id="bribeHammer" link="theOneTrue" linkEntityId="bouncer">Perhaps I could give this to you in exchange for letting me use the catapult.</statement>
+
+		<statement id="iAmWhoAm" triggerEvent="triggerEvent" triggerEventArgs="thor_almighty">I have come bearing an important message.</statement>
+		<statement id="datHammer" triggerEvent="triggerEvent" triggerEventArgs="flash_hammer">Of course it's me. Just look at my hammer.</statement>
+		<statement id="beGone" link="toatsMcGoats" linkEntityId="bouncer">You should totally leave your post and hang out at the con.</statement>
+		
+		<statement id="bucky" triggerEvent="triggerEvent" triggerEventArgs="viking2_quest_complete, true">Bucky Lucas as the Norse god of thunder? Sounds like a hit!</statement>
+		<statement id="forGlory">FOR GLORY!</statement>
+    </character>
+    
+    <!-- <character id="hero">
+    	<statement triggerEvent="triggerEvent" triggerEventArgs="panic">Without my super powers, I'm too scared to climb down!</statement>
+    </character> -->
+</dialogs>

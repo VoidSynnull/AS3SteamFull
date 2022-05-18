@@ -1,0 +1,16 @@
+<game>
+	<className>game.scene.template.ads.TopDownRaceGame</className>
+	<returnX>2640</returnX>
+	<returnY>803</returnY>
+	<choosePopup>limited/Cars3Quest/Choose.swf</choosePopup>
+	<speed>800</speed>
+	<targetDistance>50000</targetDistance>
+	<maxHits>9</maxHits>
+	<tileHeight>700</tileHeight>
+	<animFrameRate>8</animFrameRate>
+	<sideSpeed>400</sideSpeed>
+	<hitRotation>20</hitRotation>
+	<hitRotationTime>1.0</hitRotationTime>
+	<leftEdgeBounds>200</leftEdgeBounds>
+	<rightEdgeBounds>600</rightEdgeBounds> <!-- added to left edge bounds -->
+</game>

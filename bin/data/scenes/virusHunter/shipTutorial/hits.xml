@@ -1,0 +1,147 @@
+<hits>
+	<hit id="cave" color="0x006bff">
+		<component type="radial"/>
+	</hit>
+	<hit id="muscle1" color="0x9900ff">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="muscle2" color="0x330066">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="nerve" color="0x0099ff">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="bloodFlow1" color="0xcc0066">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>4000</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow2" color="0xcc0033">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>4000</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="fanCurrent" color="0x00ffff">
+		<component type="mover">
+			<acceleration>
+				<x>-1000</x>
+				<y>0</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="fat1" color="0xffff33">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>  
+	<hit id="fat2" color="0xffcc66">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="fat3" color="0xff9999">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	<hit id="fat1Target">
+		<component type="weaponTarget">
+			<maxDamage>6</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="fat2Target">
+		<component type="weaponTarget">
+			<maxDamage>6</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="fat3Target">
+		<component type="weaponTarget">
+			<maxDamage>6</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>scalpel</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="bloodFlow1Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="bloodFlow2Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="muscle1Target">
+		<component type="weaponTarget">
+			<maxDamage>.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="muscle2Target">
+		<component type="weaponTarget">
+			<maxDamage>.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	<hit id="nerveTarget">
+		<component type="weaponTarget">
+			<maxDamage>.001</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>shock</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

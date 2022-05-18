@@ -1,0 +1,16 @@
+<part>
+	<id>ad_monstersinc_boo</id>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<notPrintable>true</notPrintable>
+	<campaignID>2362</campaignID>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>	
+</part>

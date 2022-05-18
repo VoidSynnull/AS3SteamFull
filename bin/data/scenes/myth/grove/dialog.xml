@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="youngWoman">
+		<statement>text1</statement>
+	</character>
+	
+	<character id="youngGuy">
+		<statement>text2</statement>
+		<statement id="cleaned_all_graffiti" triggerEvent="giveItem" triggerEventArgs="silverDrachma">text3</statement>
+		<statement event="hasItem_silverDrachma">text3</statement>
+    </character>
+    
+    <character id="oldGuy">
+    	<statement>text4</statement>
+    </character>
+    
+    <character id="satyr">
+    	<statement>text5</statement>
+    	<statement triggeredByEvent="off_limits">text5</statement>
+    	<statement event="zeus_appears_tree">text6</statement>
+    </character>
+</dialogs>

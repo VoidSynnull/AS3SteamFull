@@ -1,0 +1,151 @@
+<obstacles>
+	<!-- list obstacles types here: moving, static, boost, slick, or placement -->
+	<!-- each must have baseName and type -->
+	<!-- obstacles are grouped with attributes for all enclosed items -->	
+	<!-- attributes for individual items will override group attributes -->	
+	<!-- all item names must end with integer and match instance names in the FLA file -->
+	<obstacle baseName="mud" type="slick" slickTime="1.5">
+		<item name="mud1" />
+	</obstacle>
+	<obstacle baseName="power" type="boost" boostSpeed="500" boostTime="2.0" >
+		<item name="power1" />
+	</obstacle>
+	<obstacle baseName="car" type="crashing" speed="400" hitTime="0.2" >
+		<item name="car1" speed="420" />
+		<item name="car2" speed="390" />
+		<item name="car3" />
+		<item name="car4" speed="410" />
+		<item name="car5" />
+		<item name="car6" speed="420" />
+		<item name="car7" speed="390" />
+		<item name="car8" />
+		<item name="car9" speed="410" />
+	</obstacle>
+	<obstacle baseName="wreck" type="static" hitSpeed="-300" hitTime="2" >
+		<item name="wreck1" />
+		<item name="wreck2" />
+		<item name="wreck3" />
+		<item name="wreck4" />
+		<item name="wreck5" />
+		<item name="wreck6" />
+	</obstacle>
+	<obstacle baseName="fire" type="static"  x="60" spacingY="2000" hitSpeed="-300" hitTime="2" >
+		<item name="fire1" />
+		<item name="fire2" />
+	</obstacle>
+	<obstacle baseName="finish" type="placement" >
+		<item name="finish1" />
+	</obstacle>
+
+	<!-- list obstacles positions here in any order -->
+	<!-- each must have name, x, and y -->
+	<!-- names without numbers will sequentially pull from matching names above -->
+	<position name="finish1" x="500" y="49000"/>
+	<position name="car" x="800" y="48200"/>
+	<position name="car" x="650" y="48000"/>
+	<position name="wreck6" x="200" y="47500"/>
+	<position name="car" x="350" y="47100"/>
+	<position name="car" x="650" y="47000"/>
+	<position name="wreck5" x="800" y="46500"/> 
+	<position name="car" x="800" y="46000"/>
+	<position name="car" x="200" y="46100"/>
+	<position name="wreck4" x="350" y="45500"/>
+	<position name="car" x="650" y="44500"/>
+	<!--<position name="wreck3" x="500" y="44000"/>-->
+	<position name="car" x="800" y="43000"/>
+	<position name="car" x="200" y="43100"/>
+	<position name="wreck2" x="650" y="42500"/>
+	<position name="car" x="500" y="42000"/>
+	<position name="car" x="650" y="41000"/>
+	<position name="car" x="200" y="40100"/>
+	<position name="fire1" x="600" y="40050"/>
+	<position name="car" x="800" y="40000"/>
+	<!--<position name="wreck1" x="650" y="39500"/>-->
+	<position name="car" x="350" y="39100"/>
+	<position name="wreck4" x="650" y="38500"/>
+	<position name="power1" x="500" y="38200"/>
+	<position name="car" x="800" y="38100"/>
+	<position name="car" x="200" y="38000"/>
+	<!--<position name="wreck1" x="300" y="37800"/>-->
+	<position name="car" x="650" y="37500"/>
+	<position name="wreck6" x="200" y="36500"/>
+	<position name="car" x="500" y="36000"/>
+	<position name="wreck5" x="800" y="35500"/>
+	<position name="car" x="800" y="35100"/>
+	<position name="car" x="200" y="35000"/>
+	<position name="car" x="350" y="34600"/>
+	<!--<position name="wreck4" x="650" y="34500"/>-->
+	<position name="mud1" x="800" y="34100"/>
+	<position name="car" x="500" y="34000"/>
+	<position name="wreck3" x="350" y="33500"/>
+	<position name="car" x="200" y="33000"/>
+	<position name="car" x="800" y="33100"/>
+	<position name="wreck4" x="100" y="33000"/>
+	<position name="car" x="650" y="32100"/>
+	<!--<position name="wreck2" x="500" y="32500"/>-->
+	<position name="car" x="350" y="32000"/>
+	<position name="car" x="200" y="30000"/>
+	<position name="car" x="800" y="30100"/>
+	<!--<position name="wreck1" x="500" y="29500"/>-->
+	<position name="car" x="650" y="29000"/>
+	<position name="car" x="350" y="29000"/>
+	<position name="wreck6" x="800" y="28500"/>
+	<position name="car" x="500" y="28000"/>
+	<position name="power1" x="200" y="28000"/>
+	<position name="car" x="650" y="27000"/>
+	<position name="car" x="350" y="26500"/>
+	<!--<position name="wreck5" x="500" y="26500"/>-->
+	<position name="car" x="650" y="26000"/>
+	<position name="car" x="500" y="25000"/>
+	<position name="wreck4" x="350" y="24500"/>
+	<position name="car" x="800" y="24100"/>
+	<position name="mud1" x="500" y="24200"/>
+	<position name="car" x="650" y="23000"/>
+	<position name="car" x="350" y="23100"/>
+	<!--<position name="wreck3" x="800" y="22500"/>-->
+	<position name="car" x="500" y="22000"/>
+	<position name="wreck2" x="650" y="21500"/>
+	<position name="car" x="200" y="21100"/>
+	<position name="car" x="650" y="20000"/>
+	<position name="wreck1" x="200" y="19500"/>
+	<position name="car" x="350" y="19000"/>
+	<position name="fire1" x="800" y="18500"/>
+	<position name="car" x="500" y="18000"/>
+	<!--<position name="wreck5" x="350" y="17500"/>-->
+	<position name="car" x="800" y="17000"/>
+	<position name="car" x="200" y="17100"/>
+	<position name="power1" x="650" y="17000"/>
+	<position name="car" x="350" y="16100"/>
+	<!--<position name="wreck4" x="200" y="15500"/>-->
+	<position name="car" x="500" y="15000"/>
+	<position name="car" x="800" y="14100"/>
+	<position name="fire1" x="200" y="14100"/>
+	<position name="mud1" x="500" y="14100"/>
+	<position name="car" x="200" y="14000"/>
+	<!--<position name="wreck3" x="350" y="13500"/>-->
+	<position name="car" x="350" y="12000"/>
+	<position name="wreck2" x="650" y="11500"/>
+	<position name="car" x="800" y="11000"/>
+	<position name="car" x="200" y="10100"/>
+	<position name="power1" x="500" y="9900"/>
+	<!--<position name="wreck1" x="200" y="9500"/>-->
+	<position name="car" x="350" y="9000"/>
+	<position name="wreck6" x="650" y="8500"/>
+	<position name="car" x="500" y="8000"/>
+	<position name="wreck5" x="350" y="7500"/>
+	<position name="car" x="800" y="7000"/>
+	<position name="car" x="650" y="6100"/>
+	<!--<position name="wreck4" x="200" y="6000"/>-->
+	<position name="car" x="350" y="5500"/>
+	<position name="mud1" x="650" y="5000"/>
+	<position name="car" x="200" y="5000"/>
+	<!--<position name="wreck3" x="500" y="4500"/>-->
+	<position name="car" x="800" y="4500"/>
+	<position name="car" x="650" y="3500"/>
+	<position name="wreck2" x="800" y="3100"/>
+	<position name="car" x="350" y="3000"/>
+	<position name="car" x="500" y="2000"/>
+	<!--<position name="wreck1" x="350" y="1500"/>-->
+	<position name="car" x="200" y="1000"/>
+	<position name="car" x="800" y="800"/>
+</obstacles>

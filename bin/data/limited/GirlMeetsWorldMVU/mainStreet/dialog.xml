@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="npczapped">
+		<statement event="hasAdItem_2539">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Watch this cool video to get a hat like mine</statement> <!-- default if above not true -->
+	</character>
+	<character id="npcgmw">
+		<statement event="hasAdItem_2539">Watch this cool video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to see the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Watch this cool video to get a hat like mine</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

@@ -1,0 +1,19 @@
+<part>
+	<id>limited_vmtest</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="DIPopup">
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>		
+		<parameters>
+			<param id="tracking">ViewMasterTestIC,View Master Power</param>
+			<param id="action">Salute</param>
+			<param id="swfPath">limited/ViewMasterTest/test.swf</param>
+			<param id="label">raised</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

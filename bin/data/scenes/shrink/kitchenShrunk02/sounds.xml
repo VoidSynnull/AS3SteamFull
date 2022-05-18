@@ -1,0 +1,52 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorKitchenShrunk01A">none</asset>
+		<asset id="doorKitchenShrunk01B">none</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="dough">fs_mud_01.mp3, fs_mud_02.mp3, fs_mud_03.mp3, fs_mud_04.mp3</asset>
+		<asset id="kettle">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="stove">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="stoveBurner">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="cabinet">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="jar">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="shelf">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="drawer">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="counter">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+		<asset id="glass">fs_glass_01.mp3, fs_glass_02.mp3, fs_glass_03.mp3, fs_glass_04.mp3</asset>
+		<asset id="catFood">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+		<asset id="light">fs_glass_01.mp3, fs_glass_02.mp3, fs_glass_03.mp3, fs_glass_04.mp3</asset>
+		<asset id="fruitBowl">fs_tile_01.mp3, fs_tile_02.mp3, fs_tile_03.mp3, fs_tile_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="dough">ls_mud_01.mp3, ls_mud_02.mp3</asset>
+		<asset id="tableBowl">landing_full_cerealbowl_01.mp3, landing_full_cerealbowl_02.mp3</asset>
+		<asset id="kettle">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="stove">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="stoveBurner">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="cabinet">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="jar">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="shelf">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="drawer">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="counter">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		<asset id="glass">ls_glass_01.mp3, ls_glass_02.mp3</asset>
+		<asset id="catFood">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+		<asset id="light">ls_glass_01.mp3, ls_glass_02.mp3</asset>
+		<asset id="fruitBowl">ls_tile_01.mp3, ls_tile_02.mp3</asset>
+		
+		<asset id="counterBowl">landing_full_cerealbowl_01.mp3, landing_full_cerealbowl_02.mp3</asset>
+	</sound>
+</sounds>

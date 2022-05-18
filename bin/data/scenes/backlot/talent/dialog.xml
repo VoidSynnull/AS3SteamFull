@@ -1,0 +1,30 @@
+<dialogs>
+  <character id="char1">
+    <statement link="home" linkEntityId="char2">We knew Madison would be a star from the moment she was born. Just look at those cheekbones!</statement>
+    <statement id="cant">We can't go home, sweetie. We sold the house to pay for our bus fare to Hollywood, remember?</statement>
+  </character>
+  <character id="char2">
+    <statement id="home" link="cant" linkEntityId="char1">Mama, I wana go home.</statement>
+  </character>
+  <character id="char3">
+    <statement link="cry" linkEntityId="char4" triggerEvent="triggerEvent" triggerEventArgs = "cry">My Dakota is so talented. Look, she can cry on cue.</statement>
+    <statement id="see">See? She's a natural!</statement>
+  </character>
+  <character id="char4">
+    <statement id="cry" link="see" linkEntityId="char3">WAAAAAA!</statement>
+  </character>
+  <character id="char5">
+    <statement link="me" linkEntityId="player">You... you're a natural! You've got the look of a star!</statement>
+    <statement id="just pay" link="i dont have" linkEntityId="player">Just pay me a thousand dollars for your set-up fee and we'll get started.</statement>
+    <statement id="hmm" triggerEvent="triggerEvent" triggerEventArgs="talk_to_harvey, true">Hmm. If it's money you need, I heard Harvey Scoops is looking for help with his gossip rag.</statement>
+  	<statement id="oh my" link="where" linkEntityId="player">Oh my... there hasn't been an actress like this for decades. She was a big star!</statement>
+  	<statement id="next best thing" triggerEvent="triggerEvent" triggerEventArgs="change_into_star">I'll get you the next best thing....</statement>
+  	<statement id="at your service" triggerEvent="triggerEvent" triggerEventArgs="found_gracie, true" >Lacey WIlliams, at your service! This talent agency thing was just a safety net. I'll see you at the studio!</statement>
+  </character>
+  <character id="player">
+    <statement id="me" link="just pay" linkEntityId="char5">Me? A star?</statement>
+    <statement id="i dont have" link="hmm" linkEntityId="char5">I don't have a thousand dollars!</statement>
+    <statement id="help" link="oh my" linkEntityId="char5" triggerEvent="takeItem" triggerEventArgs="headShot">Can you help me find an actress like this?</statement>
+    <statement id="where" link="next best thing" linkEntityId="char5">Where could we find someone like her?</statement>
+  </character>
+</dialogs>

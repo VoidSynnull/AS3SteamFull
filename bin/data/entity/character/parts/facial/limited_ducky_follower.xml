@@ -1,0 +1,14 @@
+<part>
+	<id>limited_ducky_follower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2978</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">entity/character/foot/limited_ducky_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+</part>

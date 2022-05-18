@@ -1,0 +1,26 @@
+<part>
+	<id>limited_pollypcket_amulet</id>
+	<type>overshirt</type>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<sfPauseTimer>2</sfPauseTimer>
+		<parameters>
+			<param id="swfPath">limited/PollyPocketQuest/shrink.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="tracking">PollyPocketQuest,Shrink</param>
+		</parameters>
+		<actions>
+			<actionChain id="after_actions">
+				<action class="SetScaleAction" >
+					<parameters>
+						<param id="object" type="string">ALL</param> 
+						<param id="scaleTarget" type="number">0.16</param> 
+						<param id="toggle" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

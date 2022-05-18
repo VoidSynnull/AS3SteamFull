@@ -1,0 +1,17 @@
+<specialAbility id="limited/popup_anim_caprisun">
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+	<parameters>
+		<param id="swfPath">limited/CapriSun2014Quest/LogoSmash.swf</param>
+	</parameters>
+	<actions>
+		<actionChain id="after_actions">
+			<action class="AnimationAction" startDelay="1">
+				<parameters>
+					<param id="char" type="entity">player</param> 
+					<param id="animationClass" type="class">game.data.animation.entity.character.FistPunch</param> 
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

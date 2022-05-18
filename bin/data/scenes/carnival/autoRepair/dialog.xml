@@ -1,0 +1,76 @@
+<dialogs>
+	<character id="player">
+		<statement id="clickCarParts">I don't need any car parts.</statement>
+		<statement id="clickVentClosed">The vent is blocked by the car.</statement>
+		<statement id="clickVentOpen">The vent is open now.</statement>
+		<statement id="clickBevelMachine">This is used to sharpen and straighten metal. Neat.</statement>
+		<statement id="askForHose">Uh, yeah. It's my… </statement>	
+		<statement id="stillWorking" link="hateCarnivals" linkEntityId="marnie">You're still at work?</statement>	
+		<statement id="newspapersBlocking" triggerEvent="triggerEvent" triggerEventArgs="openNewspaperPopup">These old newspapers are in the way.</statement>
+		<statement id="newspapersClosed">That's a strange story. I wonder what became of that boy.</statement>	
+		<statement id="carTroubleAnswer" triggerEvent="triggerEvent" triggerEventArgs="continue_scene">Uh, yeah. It's my...</statement>
+		<statement id="clickMotorOil">Looks like motor oil.</statement>
+		<statement id="hosePermission">I can't take this without permission.</statement>
+		
+	</character>
+	
+	<character id="marnie">
+		<!-- it seems that giving a conversation an id means it cannot respond to an event, so have to have this one here twice so it can be set by id after getting the hose -->
+		<conversation>
+			<exchange>
+				<question>Are you Honest Gabe?</question>
+				<answer>Pfft. "Honest" Gabe is serving five years for defrauding customers.</answer>
+			</exchange>
+			<exchange>
+				<question>What did he do?</question>
+				<answer>Watered down gasoline, made up phantom repairs… what didn't he do? The man's a snake. At least I bought his store for cheap.</answer>
+			</exchange>
+			<exchange>
+				<question>Why not change the name, then?</question>
+				<answer>Hey, a strong brand is a strong brand. </answer>
+			</exchange>
+		</conversation>
+		<conversation id="info">
+			<exchange>
+				<question>Are you Honest Gabe?</question>
+				<answer>Pfft. "Honest" Gabe is serving five years for defrauding customers.</answer>
+			</exchange>
+			<exchange>
+				<question>What did he do?</question>
+				<answer>Watered down gasoline, made up phantom repairs… what didn't he do? The man's a snake. At least I bought his store for cheap.</answer>
+			</exchange>
+			<exchange>
+				<question>Why not change the name, then?</question>
+				<answer>Hey, a strong brand is a strong brand. </answer>
+			</exchange>
+		</conversation>
+		<statement id="useLiftWhenCarPresent">Hands off! I'm still working on that car.</statement>
+		<statement id="notCarPart">That's not a car part! Quit wasting my time.</statement>
+		<statement id="giveHose">A motorist stranded without a radiator hose?!?! This is an emergency. Please, just take one off the shelf. You can pay me later.</statement>
+		<statement id="tryFryOil">You can't afford the good stuff. In a pinch I'd recommend fry oil. Half the cost, twice the grease!</statement>
+		<statement id="hateCarnivals">Carnivals make my skin crawl.</statement>
+		<statement id="carTrouble">Car trouble?</statement>
+		<conversation id="hoseConversation">
+			<exchange>
+				<question>Pneumatic Hose</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="ask_hose_wrong">That's not a car part! Quit wasting my time.</answer>
+			</exchange>
+			<exchange>
+				<question>Radiator Hose</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="ask_hose_right">A motorist stranded without a radiator hose?!?! This is an emergency. Please, just take one off the shelf. You can pay me later.</answer>
+			</exchange>
+			<exchange>
+				<question>Garden Hose</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="ask_hose_wrong">That's not a car part! Quit wasting my time.</answer>
+			</exchange>
+		</conversation>
+		<conversation event="set_night">
+			<exchange>
+				<question>You're still at work?</question>
+				<answer>Carnivals make my skin crawl.</answer>
+			</exchange>
+		</conversation>
+		
+		
+    </character>
+</dialogs>

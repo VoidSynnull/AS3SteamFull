@@ -1,0 +1,44 @@
+<part>
+	<id>limited_moana_conch</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2820</campaignID>
+	<specialAbility>
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/MoanaQuest/wave_power.swf</param>
+			<param id="tracking">MoanaQuest,Wave Power</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+			<param id="flipPopup">true</param>
+		</parameters>
+		
+		<actions>
+		
+			<actionChain id="now_actions">
+				<action class="SkinFrameAction" noWait="true">
+					<parameters> 
+						<param id="char" type="entity">player</param> 
+						<param id="type" type="string">item</param> 
+						<param id="start" type="int">2</param> 
+						<param id="mode" type="string">play</param> 
+					</parameters>
+				</action>				
+				<action class="AnimationAction" noWait="false" startDelay="2.5">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param> 
+					</parameters>
+				</action>
+			
+			</actionChain>
+			
+		</actions>
+		
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

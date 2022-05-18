@@ -1,0 +1,16 @@
+<part>
+	<id>limited_strangemagic</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2630</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/StrangeMagic/floating.swf</param>
+			<param id="tracking">StrangeMagicMVU,Fairy Wings</param>
+			<param id="pack">limited_strangemagictwo</param>
+		</parameters>
+	</specialAbility>
+</part>

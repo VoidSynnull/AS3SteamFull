@@ -1,0 +1,24 @@
+<hotspots>
+	<hotspot id="posterLeft" type="poster">
+		<action type="openUrlOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22627056&PluID=0&ord=[RANDOM]</action>
+		<action type="impressionOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22627056&PluID=0&ord=[RANDOM]&rtu=-1</action>
+	</hotspot>
+	<hotspot id="posterRight" type="poster">
+		<action type="openUrlOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22627052&PluID=0&ord=[RANDOM]</action> 
+		<action type="impressionOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22627052&PluID=0&ord=[RANDOM]&rtu=-1</action>
+	</hotspot>
+	<hotspot id="posterTopL" type="poster">
+		<action type="openUrlOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22627054&PluID=0&ord=[RANDOM]</action> 
+		<action type="impressionOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22627054&PluID=0&ord=[RANDOM]&rtu=-1</action>
+	</hotspot>
+	<hotspot id="posterTopR" type="poster">
+		<action type="openUrlOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22627053&PluID=0&ord=[RANDOM]</action> 
+		<action type="impressionOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22627053&PluID=0&ord=[RANDOM]&rtu=-1</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22627057&PluID=0&ord=[RANDOM]</action>
+		<action type="impressionOnClick">http://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22627057&PluID=0&ord=[RANDOM]&rtu=-1</action>
+	</hotspot>
+</hotspots>
+

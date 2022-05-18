@@ -1,0 +1,13 @@
+<dialogs>
+    <character id="player">
+		<statement triggeredByEvent="clickDoor">It looks like I need a key to get inside.</statement>
+		<statement triggeredByEvent="click_Painting">I think this was when Mordred started to fall into madness.</statement>
+		<statement triggeredByEvent="used_Door">Well... Looks like there's no going back.</statement>
+    </character>
+       <character id="bard">
+		<statement>I can't escape this room! The door seems to have a mind of its own!</statement>
+		<statement event="gotItem_stopWatch">If only there was a way to slow it down!</statement>
+		<statement triggeredByEvent="knocked_by_Door">You see i already tried that.</statement>
+		<statement triggeredByEvent="time_Stoped">Brilliant! Frozen time will allow me to slip through!</statement>
+    </character>
+</dialogs>

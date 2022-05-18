@@ -1,0 +1,55 @@
+<item id="3632">
+	<type>store</type>
+	<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+			<parameters>
+				<param id="hidePlayer">true</param>
+				<param id="scale">0.6</param>
+			</parameters>
+			<x>100</x>
+			<y>-40</y>
+	</contentClass>
+		
+	<buttons>
+		<btn>
+			<index>0</index>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>FOLLOW</label>
+				<actions>
+				<action type="activatePower"> <!-- change tracking call -->
+					<parameters>
+								<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<index>0</index>
+ 			<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+		</btn>
+	</buttons>
+
+	<textfields>
+		<text id="storeTitle">
+			<value>Chick Follower</value>
+			 </text>
+	</textfields>
+	
+	<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+	
+	<assets>
+		<asset id="cardBack" />
+		</assets>
+	
+		 <specials>
+		<specialAbility>pop_follower_spring_chicken</specialAbility><!--spring_chick_follower-->
+	</specials>
+</item>

@@ -1,0 +1,43 @@
+<doors>	
+	<door id="doorCommon">
+		<scene>TimmyCommon</scene>
+		<x>551</x>
+		<y>882</y>
+		<label>
+			<text>Common Room</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorStore">
+		<scene>game.scenes.timmy.store.Store</scene>
+		<x>775</x>
+		<y>625</y>
+		<label>
+			<text>Enter</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorMainMap">
+		<scene>game.scenes.map.map.Map</scene>
+	    <x>0</x>
+	    <y>0</y>
+	    <label>
+	      <text>Exit To Map</text>
+	      <asset>exitUp</asset>
+	      <offset>
+	        <x>0</x>
+	        <y>0</y>
+	      </offset>
+	    </label>
+	</door>
+</doors>

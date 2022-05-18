@@ -1,0 +1,38 @@
+<hits>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="fountainBase" color="0x97C2C9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="statueHead" color="0x7D9CA1" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="statueBase" color="0x95956C" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodenBench" color="0xB6973A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="trashCan" color="0x2A2323" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="aluminumRoof" color="0x9AF09A" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="signPost" color="0x238523" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="pavement" color="0xCDD9BB" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="drinkingFountain" color="0xDEDEA9" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

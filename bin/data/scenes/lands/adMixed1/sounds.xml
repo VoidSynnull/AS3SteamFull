@@ -1,0 +1,17 @@
+<sounds>
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_crystal">realms_crystal.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_lunar">realms_lunar.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_fire">realms_fire.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_grass">realms_grass.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_sand">realms_sand.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_snow">realms_snow.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="set_ambient_swamp">realms_swamp.mp3</asset>
+	</sound>
+</sounds>

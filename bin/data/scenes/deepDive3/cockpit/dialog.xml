@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="player">
+		<statement id="who" triggerEvent="triggerEvent" triggerEventArgs="whoOver">Who are you?</statement>
+		<statement id="thisWhole" triggerEvent="triggerEvent" triggerEventArgs="thisWholeOver">This whole time, I've been talking to you?</statement>
+		<statement id="years" triggerEvent="triggerEvent" triggerEventArgs="yearsOver">You mean... you've been stuck here for millions of years?</statement>
+		<statement id="getOut" triggerEvent="triggerEvent" triggerEventArgs="getOutOver">I'd better get out of here!</statement>
+    </character>
+</dialogs>

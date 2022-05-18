@@ -1,0 +1,47 @@
+<item id="5254"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+  	<campaignID>MemberGift</campaignID>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+  <buttons>
+	 	<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeSubTitle">
+			<value>Member Gift</value>
+		</text>
+		<text id="storeTitle">
+			<value>Blue Storm Viking</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<mouth>tpirateblue</mouth>
+			<hair>blue_storm_viking</hair>
+			<shirt>blue_storm_viking</shirt>
+			<pants>blinked</pants>
+			<overshirt>blue_storm_viking</overshirt>
+		</look>
+	</looks>
+
+</item>

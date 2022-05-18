@@ -1,0 +1,29 @@
+<game>
+	<musicFile>PrisonRadio3x.mp3</musicFile>
+	<musicVolume>50</musicVolume>
+	<timeout>34</timeout>
+	<numDrums>4</numDrums>
+	<numLights>3</numLights>
+	<numAnims>5</numAnims>
+	<coords>-280,154</coords>
+	<scale>0.72</scale>
+	<item>limited_yellow_guitar</item>
+	<animClassName>game.data.animation.entity.character.GuitarLoop</animClassName>
+	<speed>140</speed> <!-- pixels per second -->
+	<needleJump>4</needleJump>
+	<overlap>85</overlap>
+	<accuracy>0.75</accuracy>
+	<bpm>42.0</bpm>
+	<initialDist>460</initialDist>
+	<note0>0,0.5,1,7,12,12.5,13,18</note0>
+	<note1>2,4,6,8,10,14,16,20</note1>
+	<note2>5,9,17,21</note2>
+	<note3>3,11,15,19</note3>
+	<color1>0x399E2D,0x328BB0,0xB03332,0x6E32B0</color1>
+	<color2>0x74D768,0x70BDDE,0xE27372,0xA572DE</color2>
+	<particleClassName>game.particles.emitter.specialAbility.ColoredBomb</particleClassName>
+	<particleRange>10,80</particleRange>
+	<buttonScale>1.5</buttonScale>
+	<correctSound>cowbell_01.mp3</correctSound>
+	<incorrectSound>dissonant_guitar_03.mp3</incorrectSound>
+</game>

@@ -1,0 +1,32 @@
+<item id="3307">
+		<type>store</type>
+		<contentClass> <!-- This displays avatar with instruct -->
+			<className>game.ui.card.CharacterContentView</className>
+		</contentClass>
+
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		<buttons>
+			<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+			</btn>
+		</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Just don't eat yourself...</value>
+			</text>
+			<text id="storeTitle">
+					<value>Candy Bar</value>
+			</text>
+ 	</textfields>
+ 	<looks>
+			<look>
+			<marks>stor_candybar</marks>
+			<pants>1</pants>
+		</look>
+	</looks> 
+</item>

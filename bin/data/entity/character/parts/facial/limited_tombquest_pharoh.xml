@@ -1,0 +1,32 @@
+<part>
+	<id>limited_tombquest_pharoh</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<campaignID>2700</campaignID>
+	<notPrintable>true</notPrintable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility id="ScreenSwarm">
+		<className>game.data.specialAbility.character.ScreenSwarm</className>
+		<parameters>
+			<param id="swfPath">specialAbility/objects/Scorpion.swf</param>
+			<param id="numObjects">30</param>
+			<param id="offsetX">60</param>
+			<param id="offsetY">30</param>
+			<param id="time">9</param>
+			<param id="tracking">TombQuestScorpionIC,Scorpion Swarm</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>logo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

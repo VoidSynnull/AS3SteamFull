@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset fade="true" exclusiveType="true" loop="true">limited/Vivo/My_Own_Drum_Vivo_1.mp3</asset>
+	</sound>
+
+	<sound action="impact" type="effects">
+		<asset id="grass">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="ground">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="croc1Hazard">dissonant_guitar_01.mp3</asset>
+		<asset id="croc2Hazard">dissonant_guitar_01.mp3</asset>
+		<asset id="croc3Hazard">dissonant_guitar_01.mp3</asset>
+		<asset id="croc4Hazard">dissonant_guitar_01.mp3</asset>
+		<asset id="croc5Hazard">dissonant_guitar_01.mp3</asset>
+		<asset id="bugsHazard1">dissonant_guitar_01.mp3</asset>
+		<asset id="bugsHazard2">dissonant_guitar_01.mp3</asset>
+		<asset id="snakeHit">dissonant_guitar_01.mp3</asset>
+		<asset id="rocks">dissonant_guitar_01.mp3</asset>
+	</sound>
+	
+	<sound action="step" type="effects">
+		<asset id="grass">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="ground">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

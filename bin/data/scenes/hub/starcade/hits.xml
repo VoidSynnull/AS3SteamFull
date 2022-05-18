@@ -1,0 +1,102 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="b_squid_hit" color="0xff3300" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-650</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_frog_hit" color="0xff3311" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_fish_hit" color="0xff3322" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_rabbit_hit" color="0xff3333" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-900</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower1_hit" color="0xffff11" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower2_hit" color="0xffff22" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower3_hit" color="0xffff33" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower4_hit" color="0xffff44" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-750</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower5_hit" color="0xffff55" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1000</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower6_hit" color="0xffff66" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="b_flower7_hit" color="0xffff77" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

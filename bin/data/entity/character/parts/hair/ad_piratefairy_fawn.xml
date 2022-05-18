@@ -1,0 +1,18 @@
+<part>
+	<id>ad_piratefairy_fawn</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<notPrintable>true</notPrintable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

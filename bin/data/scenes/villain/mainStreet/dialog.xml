@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="char1">
+		<statement>I've been on a lot of rigs in my time, and this one is the roughest I've ever worked.</statement>
+		<statement event="used_radio">There's only one place more remote than this rig - and that's where that chopper is going.</statement>
+    	<statement event="hasItem_medallion">You defeated Dr. Jupiter!</statement>
+    </character>
+    
+    <character id="char2">
+		<statement>Any news from the mainland? No, don't tell me. It'll just make me homesick.</statement>
+		<statement event="used_radio">We've seen a lot of people head to Dr. Jupiter's island. We've never seen anyone come back.</statement>
+    	<statement event="hasItem_medallion">You made it back!</statement>
+    </character>
+    
+    <character id="char3">
+		<statement>We've been alone out here for months. The only person we've seen is that old man in his helicopter.</statement>
+		<statement event="used_radio">Be careful out there! I heard there's a storm rolling in.</statement>
+    	<statement event="hasItem_medallion">Great Job!</statement>
+    </character>
+</dialogs>

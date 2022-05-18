@@ -1,0 +1,133 @@
+<obstacles>
+	<!-- list obstacles types here: moving, static, boost, slick, or placement -->
+	<!-- each must have baseName and type -->
+	<!-- obstacles are grouped with attributes for all enclosed items -->	
+	<!-- attributes for individual items will override group attributes -->	
+	<!-- all item names must end with integer and match instance names in the FLA file -->
+	<obstacle baseName="oil" type="slick" slickTime="1.5">
+		<item name="oil1" />
+	</obstacle>
+	<obstacle baseName="power" type="boost" boostSpeed="500" boostTime="2.0" >
+		<item name="power1" />
+	</obstacle>
+	<obstacle baseName="car" type="moving" speed="400" hitTime="0.35" >
+		<item name="car1" speed="420" />
+		<item name="car2" speed="390" />
+		<item name="car3" />
+		<item name="car4" speed="410" />
+		<item name="car5" />
+		<item name="car6" speed="420" />
+		<item name="car7" speed="390" />
+		<item name="car8" />
+		<item name="car9" speed="410" />
+	</obstacle>
+	<obstacle baseName="post" type="static" x="50" spacingY="1200" hitSpeed="-600" hitTime="2" >
+		<item name="post1" startY="-600" />
+		<item name="post2" startY="-300" />
+		<item name="post3" startY="0" />
+		<item name="post4" startY="300" />
+	</obstacle>
+	<obstacle baseName="wreck" type="static" hitSpeed="-300" hitTime="2" >
+		<item name="wreck1" />
+		<item name="wreck2" />
+		<item name="wreck3" />
+	</obstacle>
+	<obstacle baseName="finish" type="placement" >
+		<item name="finish1" />
+	</obstacle>
+
+	<!-- list obstacles positions here in any order -->
+	<!-- each must have name, x, and y -->
+	<!-- names without numbers will sequentially pull from matching names above -->
+	<position name="finish1" x="480" y="49000"/>
+	<position name="car" x="640" y="48000"/>
+	<position name="car" x="160" y="48100"/>
+	<position name="car" x="800" y="48200"/>
+	<position name="car" x="640" y="47000"/>
+	<position name="car" x="320" y="47100"/>
+	<position name="car" x="800" y="46000"/>
+	<position name="car" x="480" y="46200"/>
+	<position name="car" x="160" y="46100"/>
+	<position name="car" x="640" y="44500"/>
+	<position name="wreck1" x="480" y="44000"/>
+	<position name="car" x="800" y="43000"/>
+	<position name="car" x="160" y="43100"/>
+	<position name="car" x="480" y="42000"/>
+	<position name="car" x="320" y="41500"/>
+	<position name="car" x="640" y="41000"/>
+	<position name="car" x="160" y="40100"/>
+	<position name="car" x="800" y="40000"/>
+	<position name="car" x="640" y="39000"/>
+	<position name="car" x="320" y="39100"/>
+	<position name="car" x="160" y="38000"/>
+	<position name="car" x="800" y="38100"/>
+	<position name="power1" x="480" y="38200"/>
+	<position name="car" x="640" y="37500"/>
+	<position name="car" x="320" y="37000"/>
+	<position name="car" x="480" y="36000"/>
+	<position name="car" x="800" y="35100"/>
+	<position name="car" x="160" y="35000"/>
+	<position name="car" x="640" y="34500"/>
+	<position name="car" x="320" y="34600"/>
+	<position name="oil1" x="800" y="34100"/>
+	<position name="car" x="480" y="34000"/>
+	<position name="car" x="160" y="33000"/>
+	<position name="car" x="800" y="33100"/>
+	<position name="car" x="640" y="32100"/>
+	<position name="car" x="320" y="32000"/>
+	<position name="car" x="480" y="31000"/>
+	<position name="car" x="160" y="30000"/>
+	<position name="car" x="800" y="30100"/>
+	<position name="car" x="640" y="29000"/>
+	<position name="car" x="320" y="29000"/>
+	<position name="car" x="480" y="28000"/>
+	<position name="power1" x="160" y="28000"/>
+	<position name="car" x="640" y="27000"/>
+	<position name="car" x="800" y="27000"/>
+	<position name="car" x="320" y="26500"/>
+	<position name="car" x="640" y="26000"/>
+	<position name="car" x="480" y="25000"/>
+	<position name="car" x="800" y="24100"/>
+	<position name="car" x="160" y="24000"/>
+	<position name="oil1" x="480" y="24200"/>
+	<position name="car" x="640" y="23000"/>
+	<position name="car" x="320" y="23100"/>
+	<position name="car" x="480" y="22000"/>
+	<position name="car" x="160" y="21100"/>
+	<position name="car" x="800" y="21000"/>
+	<position name="car" x="640" y="20000"/>
+	<position name="wreck2" x="160" y="19500"/>
+	<position name="car" x="320" y="19000"/>
+	<position name="car" x="480" y="18000"/>
+	<position name="car" x="800" y="17000"/>
+	<position name="car" x="160" y="17100"/>
+	<position name="power1" x="640" y="17000"/>
+	<position name="car" x="160" y="16000"/>
+	<position name="car" x="320" y="16100"/>
+	<position name="car" x="480" y="15000"/>
+	<position name="car" x="800" y="14100"/>
+	<position name="oil1" x="480" y="14100"/>
+	<position name="car" x="160" y="14000"/>
+	<position name="car" x="640" y="13000"/>
+	<position name="car" x="320" y="12000"/>
+	<position name="car" x="800" y="11000"/>
+	<position name="car" x="160" y="10100"/>
+	<position name="car" x="640" y="10000"/>
+	<position name="power1" x="480" y="9900"/>
+	<position name="car" x="320" y="9000"/>
+	<position name="wreck3" x="640" y="8500"/>
+	<position name="car" x="480" y="8000"/>
+	<position name="car" x="320" y="7500"/>
+	<position name="car" x="800" y="7000"/>
+	<position name="car" x="640" y="6100"/>
+	<position name="car" x="320" y="5500"/>
+	<position name="oil1" x="640" y="5000"/>
+	<position name="car" x="480" y="5000"/>
+	<position name="car" x="800" y="4500"/>
+	<position name="car" x="160" y="4000"/>
+	<position name="car" x="640" y="3500"/>
+	<position name="car" x="320" y="3000"/>
+	<position name="car" x="480" y="2000"/>
+	<position name="car" x="160" y="1000"/>
+	<position name="car" x="800" y="800"/>
+</obstacles>

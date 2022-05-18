@@ -1,0 +1,36 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Prisoner.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">sunny_clear_day_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="pipes">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="step1">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step2">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step3">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step4">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step5">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="step6">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="grate">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="bounce_hoop">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bust">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="pipes">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="step1">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step2">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step3">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step4">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step5">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="step6">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="grate">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="bounce_hoop">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="bust">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

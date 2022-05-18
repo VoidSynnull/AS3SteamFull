@@ -1,0 +1,22 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">sewers_or_cave_01.mp3</asset>
+		<asset loop="true" faded="true" exclusiveType="true">rain_light_and_muffled.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset loop="true" faded="true" exclusiveType="true">torch_fire_01_L.mp3</asset>
+		<asset triggeredByEvent="torch_burnout" exclusiveType="true">torchFire_extinguish_01.mp3</asset>
+		<asset triggeredByEvent="torch_wet" exclusiveType="true">torchFire_extinguish_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="water">ls_cave_pond_splash_01.mp3, ls_cave_pond_splash_02.mp3, ls_cave_pond_splash_03.mp3</asset>
+		<asset id="floor">ls_concrete_verb_01.mp3, ls_concrete_verb_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3</asset>
+		<asset id="floor">fs_concrete_verb_01.mp3, fs_concrete_verb_02.mp3, fs_concrete_verb_03.mp3, fs_concrete_verb_04.mp3</asset>
+	</sound>
+</sounds>

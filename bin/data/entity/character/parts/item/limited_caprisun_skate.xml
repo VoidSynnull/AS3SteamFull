@@ -1,0 +1,12 @@
+<part>
+	<id>limited_caprisun_skate</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.Skateboard</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/CapriSun2016EC/Skateboard.swf</param> <!-- location of swf in assets/limited -->
+		</parameters>
+	</specialAbility>
+</part>

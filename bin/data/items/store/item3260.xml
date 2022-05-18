@@ -1,0 +1,24 @@
+<item id="3260">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3260.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+			<value>Vampire Countess</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to reveal fangs!</web>
+			<mobile>Tap ACTION to reveal fangs!</mobile>
+		</text>
+	</textfields>
+</item>

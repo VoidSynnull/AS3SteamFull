@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="poppy">
+		<statement>Come inside and play!</statement>
+		<statement triggeredByEvent="npcProximity">Hi!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="branch">
+		<statement>Ready to rock?</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement>Fill out your Freaky Fusion wishlist so you can go Freaky Fab like me!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Howdy!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

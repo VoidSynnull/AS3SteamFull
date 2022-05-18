@@ -1,0 +1,26 @@
+<part>
+	<id>limited_dowk_pumpkin_bazooka</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2600</campaignID>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<parameters>
+	  		<param id="actionClass">game.data.animation.entity.character.Sword</param>
+			<param id="triggerLabel">fire</param>
+	  		<param id="swfPath">limited/DOWKLongHaulQuest/pumpkin.swf</param>
+	  		<param id="offsetX">60</param>
+	  		<param id="offsetY">-30</param>
+	  		<param id="speedX">600</param>
+	  		<param id="speedY">-400</param>
+			<param id="friction">0</param>
+	  		<param id="gravity">800</param>
+	  		<param id="hideInHand">false</param>
+			<param id="tracking">DOWKLongHaulQuest,Pumpkin Bazooka</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

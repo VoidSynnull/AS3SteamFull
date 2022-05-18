@@ -1,0 +1,29 @@
+<doors>
+	<door id="doorLeft">
+		<scene>game.scenes.train.clubExterior.ClubExterior</scene>
+		<x>1936</x>
+		<y>630</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorRight">
+		<scene>game.scenes.train.diningCar.DiningCar</scene>
+		<x>50</x>
+		<y>470</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

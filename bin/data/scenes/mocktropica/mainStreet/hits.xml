@@ -1,0 +1,53 @@
+<hits>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rock" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x003300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0x666666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="truck" color="0xcccccc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="glass" color="0xFF0099" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x993300" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="hay" color="0xff3333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="blimp" color="0x99CCFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plastic" color="0xff0000" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="awning" color="0x336600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="crateTop" color="0xcc9900" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="safety" color="0x990000">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+</hits>

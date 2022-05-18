@@ -1,0 +1,21 @@
+<npcs>
+	<npc id="buzz">
+		<bitmap>limited/ToyStory4HEVBB/buzz.swf</bitmap> <!-- *** Path to NPC swf in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>785</x> <!-- from left edge of ad unit -->
+			<y>590</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="woody">
+		<bitmap>limited/ToyStory4HEVBB/woody.swf</bitmap> <!-- *** Path to NPC swf in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>360</x> <!-- from left edge of ad unit -->
+			<y>585</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

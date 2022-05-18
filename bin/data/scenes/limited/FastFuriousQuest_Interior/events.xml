@@ -1,0 +1,26 @@
+<events>
+
+	<group type="triggered" id="initSceneWin">
+	<event>
+	<param1 id="action">setZoneTrigger</param1>
+			<param2 id="clip">zone1</param2>
+			<param3 id="event">noevent</param3>
+			<param3 id="listenOnce">false</param3>
+			<param3 id="exitEvent">newevent</param3>
+	</event>
+	<event>
+		<param1 id="action">callFunction</param1>
+		<param2 id="function">enteredZone</param2>
+		<param3 id="zoneId">zone1</param3>
+		<param4 id="characterID">player</param4>
+		<param5 id="event">setWinDialog</param5>
+	
+	</event>
+	</group>
+	<group type="triggered" id="start">
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

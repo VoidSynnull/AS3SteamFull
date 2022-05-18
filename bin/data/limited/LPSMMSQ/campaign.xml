@@ -1,0 +1,20 @@
+<campaign>
+  	<campaignId>LPSMMSQ</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>LPS</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">https://ad.doubleclick.net/ddm/clk/309986507;137513256;p</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2811</card>
+		<card>2812</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2811Hiding</card>
+		<card>2812Collection</card>
+	</boycards>
+	<girlcards>
+		<card>2811Hiding</card>
+		<card>2812Collection</card>
+	</girlcards>
+</campaign>

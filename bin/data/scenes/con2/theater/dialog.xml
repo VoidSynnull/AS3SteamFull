@@ -1,0 +1,67 @@
+<dialogs>
+	<character id="player">
+		<statement id="what_contest" triggerEvent="triggerEvent" triggerEventArgs="emcee_gesture">What contest?</statement>
+		<statement id="omegon" link="nobody_knows" linkEntityId="emcee">Omegon? What does he look like?</statement>
+		<statement id="locked">Hmm. Locked...</statement>
+		<statement id="get_ready" triggerEvent="triggerEvent" triggerEventArgs="run_off">All right!</statement>
+    </character>
+	<character id="emcee">
+		<statement id="dramatic" link="what_contest" linkEntityId="player">Dramatic entrance, but your timing's off. The contest doesn't start for a little while.</statement>
+		<statement id="whoever">Whoever comes up with the best Omegon costume will win a walk-on role in the Mighty Action Force sequel.</statement>
+		<statement>Whoever comes up with the best Omegon costume will win a walk-on role in the Mighty Action Force sequel.</statement>
+		
+		<statement id="welcome" link="today">Welcome to the PoptropiCon costume contest.</statement>
+		<statement id="today" link="hear_it" triggerEvent="triggerEvent" triggerEventArgs="cheer1">Today's winner will win a walk-on role in the next Mighty Action Force movie.</statement>
+		<statement id="hear_it" triggerEvent="triggerEvent" triggerEventArgs="enter_contestant_1">Let's hear it for contestant #1!</statement>
+		<statement id="terrible" triggerEvent="triggerEvent" triggerEventArgs="enter_contestant_2">Terrible. Just terrible. Next up is contestant #2!</statement>
+		<statement id="unfortunate" triggerEvent="triggerEvent" triggerEventArgs="enter_player">Wow, that's unfortunate. All right, let's get this over with. Contestant #3?</statement>
+		<statement id="pretty_good" link="winner">Hey, that's actually pretty good! I can't believe it!</statement>
+		<statement id="winner" triggerEvent="triggerEvent" triggerEventArgs="enter_omegon">No reason to prolong this. The winner of the costume contest is --</statement>
+		
+		<statement id="amazing" link="bow" linkEntityId="omegon" triggerEvent="triggerEvent" triggerEventArgs="shake3">Amazing! A surprise contestant -- and what a costume! I don't even see any seams.</statement>
+		<statement id="terrific" link="destroy" linkEntityId="omegon" triggerEvent="triggerEvent" triggerEventArgs="shake4">Haha, terrific. Well, I don't need to see any more. We have a winner!</statement>
+		<statement id="milk" triggerEvent="triggerEvent" triggerEventArgs="omegon_glow">No need to milk it. Let's get you your prize. You, sir, should unmask.</statement>
+		<statement id="no_mask" triggerEvent="triggerEvent" triggerEventArgs="omegon_attack">No mask? No mask!</statement>
+		<statement id="ahh">Ahh!</statement>
+		
+		<statement id="get_ready" triggerEvent="triggerEvent" triggerEventArgs="get_ready">You should put on your costume, the contest is about to begin.</statement>
+		<statement id="after_contest">Your costume was good, but that last guy's was amazing!</statement>
+    </character>
+	<character id="omegon">
+		<statement id="bow" link="terrific" linkEntityId="emcee">Bow to Omegon!</statement>
+		<statement id="destroy" link="milk" linkEntityId="emcee">I have come to destroy the Mighty Action Force.</statement>
+		<statement id="no_mask" link="no_mask" linkEntityId="emcee">I wear no mask.</statement>
+    </character>
+	<character id="superhero">
+		<statement>That's the prize of a lifetime! Who will make the best Omegon costume?</statement>
+		<statement id="hehheh">Heh heh...</statement>
+		<statement id="hmm">Hmm...</statement>
+		<statement id="ooh">Ooh...</statement>
+		<statement id="ahh">Ahh!</statement>
+		<statement id="after_contest">I don't really know what to think about that contest...</statement>
+    </character>
+	<character id="viking">
+		<statement>Nobody knows what Omegon looks like in the movie. The filmmakers have kept everything under wraps.</statement>
+		<statement id="after_contest">I love omegon!</statement>
+    </character>
+	<character id="hippie">
+		<statement>The card games at these conventions are always the best. I can't wait!</statement>
+		<statement event="starter_deck" link="question">Just got to play the Mighty Action Force card game, and it was really fun! Want to play?</statement>
+		<conversation id="question">
+			<exchange>
+				<question>Sure.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="play_hippie">Lets play!</answer>
+			</exchange>
+			<exchange>
+				<question>No thanks.</question>
+			</exchange>
+		</conversation>
+		<statement id="after_contest">That contest was the best show of the con!</statement>
+    </character>
+	<character id="contestant1">
+		<statement id="ahh">Ahh!</statement>
+    </character>
+	<character id="contestant2">
+		<statement id="ahh">Ahh!</statement>
+    </character>
+</dialogs>

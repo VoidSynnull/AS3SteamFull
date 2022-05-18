@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="custom_blimp_npc_alt">
+		<statement event="hasAdItem_2833" triggerEvent="triggerEvent" triggerEventArgs="playBlimpVideo">Watch the video.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="playBlimpVideo">Watch the video and get a prize.</statement>
+	</character>
+	<character id="custom_blimp_npc">
+		<conversation>
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm Captain Jack Sparrow. Watch the video to get a prize.</answer>
+			</exchange>
+			<exchange>
+				<question>Can I watch the pirate video?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="playBlimpVideo">Aye! And get a prize fer watching.</answer>
+			</exchange>
+			<exchange>
+				<question>Can I travel in your pirate blimp?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="goTravelMap">Aye, Matey!</answer>
+			</exchange>
+		</conversation>
+	</character>
+</dialogs>

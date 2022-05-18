@@ -1,0 +1,10 @@
+<!-- set "Click through URL" field in CMS to campaign.xml if billboard awards cards -->
+<campaign>
+  	<campaignId>WhoWasBillboard</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths (don't change) -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id (only needed if billboard awards cards) -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.whowasbookseries.com/?ref=PRH0301177054</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+</campaign>

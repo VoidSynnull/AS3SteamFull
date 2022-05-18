@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>�Qu� pasa?</question>
+				<answer>Nuestro querido pueblo est� en ruinas!</answer>
+			</exchange>
+			<exchange>
+				<question>�Qu� pas�?</question>
+				<answer>Todas las zanahorias han desaparecido! Nuestra econom�a est� cayendo a pedazos!</answer>
+			</exchange>
+			<exchange>
+				<question>�Qu� puedo hacer para ayudar?</question>
+				<answer>Averig�e qu� le ha pasado a nuestras zanahorias!</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="destroyed_rabbot" link="getMedal">Las zanahorias han dejado desaparecer!</statement>
+		<statement id="getMedal" triggerEvent="triggerEvent" triggerEventArgs="award_medal">Has salvado a nuestra ciudad! Como alcalde, me presento con esta medalla!</statement>
+		
+		<statement event="gotItem_medalCarrot">Gracias! Ahora podemos empezar a trabajar en lo que este pueblo grande otra vez!</statement>
+	</character>
+	<character id="char2">
+		<statement>no he sido capaz de encontrar un trabajo ya que la f�brica cerr�.</statement>
+		<statement event="destroyed_rabbot">Hay un mont�n de trabajo por hacer!</statement>
+	</character>
+	<character id="char3">
+		<statement>Lo sentimos, pero estamos a plomo de gas.</statement>
+		<statement event="destroyed_rabbot" link="reopen">cosas se ven por aqu�.</statement>
+		<statement id="reopen">yo deber�a ser capaz de reabrir la estaci�n pronto!</statement>
+	</character>
+	<character id="char5">
+		<statement>Es bueno estar de vuelta a casa! Gracias!</statement>
+	</character>
+</dialogs>

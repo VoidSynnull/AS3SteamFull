@@ -1,0 +1,251 @@
+<dialogs>
+	<character id="probably">
+		<statement id="eek">Eeeeeek!</statement>
+		<statement id="spiders">Hah! Spiders. Little fuzzies.</statement>
+		<statement id="like">I like em.</statement>
+		<statement id="choose">Choose three challengers, my fearless friend.</statement>
+		<statement id="chosen" link="confirm">The challengers have been chosen! Are you ready?</statement>
+		<conversation id = "confirm">
+			<exchange>
+				<question forceOnScreen="true">Let's choose new challengers.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="repick">Choose wisely.</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">I'm a beginner.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="difficulty_easy">Got it. These games will be set to basic mode.</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true">Ready to rock!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="difficulty_normal">You sound confident. This is sure to be quite the competition!</answer>
+			</exchange>
+			<exchange>
+				<question forceOnScreen="true" >Watch me dominate!</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="difficulty_hard">Hoho! Someone's confident. You better be ready for the challenge of a lifetime!</answer>
+			</exchange>
+		</conversation>
+		<statement id="begin" triggerEvent="triggerEvent" triggerEventArgs="games_started, true">Hee-hee! I'm so thrilled I can barely breathe! Let the games begin!</statement>
+		<statement id="winners">Third place will now be awarded. I'd salute you if I could lift my arm.</statement>
+		<statement id="second">Second place is reserved for the one with very toned biceps. You know who you are.</statement>
+		<statement id="drum roll">Beat your bongos like mad for our new island champion!!!  And first place goes too...</statement>
+		<statement id="congrats">Congratulations to our winners!</statement>
+		<statement id="credits">As for you [Player Name], based on your achievements you have earned a grand total of...</statement>
+		<statement id="uhoh" link = "save">Uh oh... if you want to earn these credits, you will have to save your game first.</statement>
+		<statement id="save" link = "response">Do you want to save your game so you can earn these credits.</statement>
+		<conversation id = "response">
+			<exchange>
+				<question>Yes please.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="save_game">Great! I'll set you up!</answer>
+			</exchange>
+			<exchange>
+				<question>No thanks.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="continue_game">No worries.</answer>
+			</exchange>
+		</conversation>
+		<statement id="splendid">Splendid, as promised here are your credits.</statement>
+		<statement id="next">Bring on the next challenge!</statement>
+		<statement id="final" triggerEvent="triggerEvent" triggerEventArgs="competition_finished, true">And that's the end of the show! I'd like to thank Snakey for hugging my body the whole time. It was wonderfully awkward. Come back soon!!!</statement>
+    </character>
+    <character id="c1">
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+    <character id="c2" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+    <character id="c3" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+   <character id="c4" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+    <character id="c5" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+   <character id="c6" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="won'tJones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+    <character id="c7" forceOnScreen="true" >
+		<statement id="drHare" forceOnScreen="true" >Prepare to be my minon.</statement>
+		<statement id="kittenWhispers" forceOnScreen="true" >Prrrrrr-fect.</statement>
+		<statement id="zackStyles" forceOnScreen="true" >No one can stop me.</statement>
+		<statement id="jayIsaacs" forceOnScreen="true" >I love happy endings.</statement>
+		<statement id="babyGooGoo" forceOnScreen="true" >Applause!!! Applause!!!</statement>
+		<statement id="bopbop" forceOnScreen="true" >I'll dance past you.</statement>
+		<statement id="scherazade" forceOnScreen="true" >I'll slip by you like a shadow.</statement>
+		<statement id="grimReaper" forceOnScreen="true" >Consider yourself dead.</statement>
+		<statement id="zeus" forceOnScreen="true" >I move like lightning.</statement>
+		<statement id="aphrodite" forceOnScreen="true" >Beautiful choice.</statement>
+		<statement id="hades" forceOnScreen="true" >You're going down!</statement>
+		<statement id="mandyScreams" forceOnScreen="true" >Woke up like this.</statement>
+		<statement id="vanBuren" forceOnScreen="true" >Run if you must, but I will catch you.</statement>
+		<statement id="omegon" forceOnScreen="true" >Blast! Why did you choose me?</statement>
+		<statement id="tortaPiccola" forceOnScreen="true" >Bring it on, cupcake.</statement>
+		<statement id="kickerHalfpipe" forceOnScreen="true" >Prepare to be shredded.</statement>
+		<statement id="amaraEnorme" forceOnScreen="true" >I LOVE that you chose me.</statement>
+		<statement id="bobFloss" forceOnScreen="true" >I'm ready, friend.</statement>
+		<statement id="shett" forceOnScreen="true" >Let's talk about this.</statement>
+		<statement id="blinked" forceOnScreen="true" >I don't want to talk about this.</statement>
+		<statement id="brindiBundee" forceOnScreen="true" >I love my baby croc.</statement>
+		<statement id="wont'Jones" forceOnScreen="true" >This place rates 9.0 on my weird-o-meter.</statement>
+		<statement id="jackNeuron" forceOnScreen="true" >I'm competitive by nature.</statement>
+		<statement id="shendiva" forceOnScreen="true" >I just like to have fun.</statement>
+		<statement id="ringmaster" forceOnScreen="true" >Your soul belongs to me.</statement>
+		<statement id="deli" forceOnScreen="true" >Hello.</statement>
+		<statement id="teslaTopsy" forceOnScreen="true" >I respect your choice.</statement>
+    </character>
+</dialogs>

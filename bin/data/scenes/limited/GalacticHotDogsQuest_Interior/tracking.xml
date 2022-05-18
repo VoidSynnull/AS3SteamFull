@@ -1,0 +1,24 @@
+<tracking>
+	<track id="cosmoe">
+		<event>EngagedInsideNPC</event>
+		<choice>Cosmoe</choice>
+	</track>
+	<track id="humphree">
+		<event>EngagedInsideNPC</event>
+		<choice>Humphree</choice>
+	</track>
+	<track id="posterLeft">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Left</subchoice>
+	</track>
+	<track id="posterRight">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster Right</subchoice>
+	</track>
+	<track id="videoContainer">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

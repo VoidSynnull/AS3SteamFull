@@ -1,0 +1,34 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="waterSteps" color="0x00ffff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0x55BDD8</splashColor2>
+		</component>	
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>0</y>
+			</acceleration>
+			<friction>
+				<x>0</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+	</hit>
+</hits>

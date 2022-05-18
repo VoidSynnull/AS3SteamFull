@@ -1,0 +1,65 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>13500</winDistance>
+	<chaseDistance>200</chaseDistance>
+	<winNPCPhrase npc="scrooge">Follow me! Adventure Awaits!</winNPCPhrase> <!-- Optional -->
+	<winDelay>3</winDelay>
+	<chaserPrefix>pegleg</chaserPrefix>
+	<chaserClip>pegleg</chaserClip>
+	<npcSpeed>330</npcSpeed>
+	<chaserIgnorePlatforms>true</chaserIgnorePlatforms>
+	<chaserIgnoreWalls>true</chaserIgnoreWalls>
+	<returnX>2100</returnX>
+	<returnY>1430</returnY>
+	<next>Part2</next>
+	<looks>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_huey</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>limited_ducktales</pants>
+			<overshirt>limited_huey</overshirt>
+		</skin>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_dewey</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>limited_ducktales</pants>
+			<overshirt>limited_dewey</overshirt>
+		</skin>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_louie</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>limited_ducktales</pants>
+			<overshirt>limited_louie</overshirt>
+		</skin>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xffffff</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>15</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_webby</facial>
+			<hair>1</hair>
+			<shirt>1</shirt>
+			<pants>limited_ducktales</pants>
+			<overshirt>limited_webby</overshirt>
+		</skin>
+	</looks>
+</game>

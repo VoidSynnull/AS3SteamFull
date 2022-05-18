@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>1</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_lightningmcqueen</facial>
+			<hair>bald</hair>
+			<shirt>pvampire_boy</shirt>
+			<pants>2</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>110</x>
+			<y>420</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

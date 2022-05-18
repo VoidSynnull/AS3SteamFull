@@ -1,0 +1,76 @@
+<npcs>
+	<npc id="man">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Sit</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFC4A8</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>1</mouth> <!-- hashimoto4 -->
+			<marks>is_wom</marks>
+			<hair>is_wom</hair>
+			<shirt>is_wom</shirt>
+			<pants>jefferson</pants>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>900</x>
+			<y>521</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<npc id="woman">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Run</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>1</mouth>
+			<hair>is_wow</hair>
+			<shirt>is_wow</shirt>
+			<pants>jefferson</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>409</x>
+			<y>490</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+
+  <npc id="joe">
+    <skin>
+      <gender>male</gender>
+      <skinColor>0xfbdfcb</skinColor>
+      <hairColor>0x0</hairColor>
+      <mouth>16</mouth>
+      <facial>is_stockman</facial>
+      <hair>is_stockman</hair>
+      <shirt>is_chem</shirt>
+      <pants>conworker1</pants>
+      <item>barbell</item>
+      <eyeState>squint</eyeState>
+    </skin>
+    <direction>right</direction>
+	<faceSpeaker>false</faceSpeaker>
+    <position>
+      <x>566</x>
+      <y>522</y>
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+ </npcs>

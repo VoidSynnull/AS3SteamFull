@@ -1,0 +1,1221 @@
+<Animation name="nap" isLooping="true" >
+
+	<events>
+		
+		<FrameData index="0" label="loop" >
+			<FrameEvent method="setEyes">
+				<param>closed</param>
+			</FrameEvent>
+		</FrameData>
+		
+		<FrameData index="60">
+			<FrameEvent method="gotoAndPlay">
+				<param>loop</param>
+			</FrameEvent>
+		</FrameData>
+		
+	</events>
+
+			<parts>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="-10.85" y="-17.05" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="neck" symbolName="neck">
+					<dimensions>
+						<geom:Rectangle left="-18.55" top="-12.95" width="37.2" height="29.45"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.4986559139784946" y="0.4397283531409168"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0" rotation="0.3"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0.05000000000000071"/>
+			<Keyframe index="5" x="0" y="0.05000000000000071" rotation="0.5"/>
+			<Keyframe index="6" x="0" y="0.05000000000000071" rotation="0.6"/>
+			<Keyframe index="7" x="0" y="0.05000000000000071" rotation="0.8"/>
+			<Keyframe index="8" x="0" y="0.05000000000000071"/>
+			<Keyframe index="9" x="0" y="0.05000000000000071" rotation="1"/>
+			<Keyframe index="10" x="0" y="0.05000000000000071"/>
+			<Keyframe index="11" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.1"/>
+			<Keyframe index="12" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.3"/>
+			<Keyframe index="13" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="14" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="15" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.5"/>
+			<Keyframe index="16" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="17" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="18" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.8"/>
+			<Keyframe index="19" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="20" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="21" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="22" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="23" x="-0.05000000000000071" y="0.15000000000000213" rotation="2"/>
+			<Keyframe index="24" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="25" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="26" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="27" x="-0.05000000000000071" y="0.15000000000000213" rotation="2.1"/>
+			<Keyframe index="28" x="-0.05000000000000071" y="0.15000000000000213"/>
+			<Keyframe index="29" x="-0.05000000000000071" y="0.15000000000000213" rotation="2.3"/>
+			<Keyframe index="30" x="-0.05000000000000071" y="0.15000000000000213" rotation="2"/>
+			<Keyframe index="31" x="-0.09999999999999964" y="0.15000000000000213"/>
+			<Keyframe index="32" x="-0.05000000000000071" y="0.15000000000000213" rotation="1.8"/>
+			<Keyframe index="33" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="34" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.6"/>
+			<Keyframe index="35" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.5"/>
+			<Keyframe index="36" x="-0.09999999999999964" y="0.10000000000000142"/>
+			<Keyframe index="37" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.3"/>
+			<Keyframe index="38" x="-0.05000000000000071" y="0.10000000000000142"/>
+			<Keyframe index="39" x="-0.05000000000000071" y="0.10000000000000142" rotation="1.1"/>
+			<Keyframe index="40" x="-0.05000000000000071" y="0.10000000000000142" rotation="1"/>
+			<Keyframe index="41" x="0" y="0.05000000000000071"/>
+			<Keyframe index="42" x="-0.05000000000000071" y="0.05000000000000071" rotation="0.8"/>
+			<Keyframe index="43" x="-0.05000000000000071" y="0.05000000000000071"/>
+			<Keyframe index="44" x="0" y="0.05000000000000071"/>
+			<Keyframe index="45" x="0" y="0.05000000000000071"/>
+			<Keyframe index="46" x="0" y="0.05000000000000071" rotation="0.5"/>
+			<Keyframe index="47" x="0" y="0.05000000000000071"/>
+			<Keyframe index="48" x="0" y="0.05000000000000071"/>
+			<Keyframe index="49" x="-0.05000000000000071" y="0" rotation="0.3"/>
+			<Keyframe index="50" x="-0.05000000000000071" y="0.05000000000000071"/>
+			<Keyframe index="51" x="-0.05000000000000071" y="0.05000000000000071"/>
+			<Keyframe index="52" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="-0.05000000000000071" rotation="0.1"/>
+			<Keyframe index="55" x="0" y="-0.05000000000000071" rotation="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="14.7" y="-1.45" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="head" symbolName="head">
+					<dimensions>
+						<geom:Rectangle left="-18.6" top="-15.05" width="37.2" height="30.1"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="1.1411290322580645" y="1.3372093023255813"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="3.2" y="-3.45" scaleX="1" scaleY="1" rotation="0.5" elementType="movie clip" instanceName="paw1" symbolName="fl foot">
+					<dimensions>
+						<geom:Rectangle left="-6.7" top="-1.15" width="7.8" height="4.75"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.8461538461538463" y="0.27368421052631575"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0.04999999999999982" y="0.050000000000000266" rotation="-0.2"/>
+			<Keyframe index="2" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="3" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="4" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="5" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="6" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="7" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="8" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="9" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="10" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="11" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="12" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="13" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="14" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="15" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="16" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="17" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="18" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="19" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="20" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="21" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="22" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="23" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="24" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="25" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="26" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="27" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="28" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="29" x="0" y="0" rotation="0"/>
+			<Keyframe index="30" x="0.04999999999999982" y="0.050000000000000266" rotation="-0.2"/>
+			<Keyframe index="31" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="32" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="33" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="34" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="35" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="36" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="37" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="38" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="39" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="40" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="41" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="42" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="43" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="44" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="45" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="46" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="47" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="48" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="49" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="50" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="51" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="52" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="53" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="54" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="55" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="56" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="57" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="58" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="59" x="0.04999999999999982" y="0.050000000000000266"/>
+			<Keyframe index="60" x="0" y="0" rotation="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="6.05" y="-3.4" scaleX="1" scaleY="1" rotation="65.7" elementType="movie clip" instanceName="calf1" symbolName="fll leg">
+					<dimensions>
+						<geom:Rectangle left="-3.1" top="-1.1" width="5.35" height="6.4"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5794392523364487" y="0.1796875"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0.04999999999999982" y="0"/>
+			<Keyframe index="4" x="0.04999999999999982" y="0"/>
+			<Keyframe index="5" x="0.04999999999999982" y="0"/>
+			<Keyframe index="6" x="0.04999999999999982" y="0"/>
+			<Keyframe index="7" x="0.04999999999999982" y="0"/>
+			<Keyframe index="8" x="0.10000000000000053" y="0"/>
+			<Keyframe index="9" x="0.10000000000000053" y="0"/>
+			<Keyframe index="10" x="0.10000000000000053" y="0"/>
+			<Keyframe index="11" x="0.10000000000000053" y="0"/>
+			<Keyframe index="12" x="0.10000000000000053" y="0"/>
+			<Keyframe index="13" x="0.10000000000000053" y="0"/>
+			<Keyframe index="14" x="0.15000000000000036" y="0"/>
+			<Keyframe index="15" x="0.15000000000000036" y="0"/>
+			<Keyframe index="16" x="0.15000000000000036" y="0"/>
+			<Keyframe index="17" x="0.15000000000000036" y="0"/>
+			<Keyframe index="18" x="0.15000000000000036" y="0"/>
+			<Keyframe index="19" x="0.15000000000000036" y="0"/>
+			<Keyframe index="20" x="0.15000000000000036" y="0"/>
+			<Keyframe index="21" x="0.15000000000000036" y="0"/>
+			<Keyframe index="22" x="0.20000000000000018" y="0"/>
+			<Keyframe index="23" x="0.20000000000000018" y="0"/>
+			<Keyframe index="24" x="0.20000000000000018" y="0"/>
+			<Keyframe index="25" x="0.20000000000000018" y="0"/>
+			<Keyframe index="26" x="0.20000000000000018" y="0"/>
+			<Keyframe index="27" x="0.20000000000000018" y="0"/>
+			<Keyframe index="28" x="0.20000000000000018" y="0"/>
+			<Keyframe index="29" x="0.20000000000000018" y="0"/>
+			<Keyframe index="30" x="0.25" y="0"/>
+			<Keyframe index="31" x="0.25" y="0"/>
+			<Keyframe index="32" x="0.20000000000000018" y="0"/>
+			<Keyframe index="33" x="0.20000000000000018" y="0"/>
+			<Keyframe index="34" x="0.20000000000000018" y="0"/>
+			<Keyframe index="35" x="0.20000000000000018" y="0"/>
+			<Keyframe index="36" x="0.20000000000000018" y="0"/>
+			<Keyframe index="37" x="0.15000000000000036" y="0"/>
+			<Keyframe index="38" x="0.15000000000000036" y="0"/>
+			<Keyframe index="39" x="0.15000000000000036" y="0"/>
+			<Keyframe index="40" x="0.15000000000000036" y="0"/>
+			<Keyframe index="41" x="0.15000000000000036" y="0"/>
+			<Keyframe index="42" x="0.15000000000000036" y="0"/>
+			<Keyframe index="43" x="0.15000000000000036" y="0"/>
+			<Keyframe index="44" x="0.10000000000000053" y="0"/>
+			<Keyframe index="45" x="0.10000000000000053" y="0"/>
+			<Keyframe index="46" x="0.10000000000000053" y="0"/>
+			<Keyframe index="47" x="0.10000000000000053" y="0"/>
+			<Keyframe index="48" x="0.10000000000000053" y="0"/>
+			<Keyframe index="49" x="0.10000000000000053" y="0"/>
+			<Keyframe index="50" x="0.10000000000000053" y="0"/>
+			<Keyframe index="51" x="0.10000000000000053" y="0"/>
+			<Keyframe index="52" x="0.10000000000000053" y="0"/>
+			<Keyframe index="53" x="0.04999999999999982" y="0"/>
+			<Keyframe index="54" x="0.04999999999999982" y="0"/>
+			<Keyframe index="55" x="0.04999999999999982" y="0"/>
+			<Keyframe index="56" x="0.04999999999999982" y="0"/>
+			<Keyframe index="57" x="0.04999999999999982" y="0"/>
+			<Keyframe index="58" x="0.04999999999999982" y="0"/>
+			<Keyframe index="59" x="0.04999999999999982" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="7.75" y="-5.45" scaleX="1" scaleY="1" rotation="54" elementType="movie clip" instanceName="thigh1" symbolName="flu leg">
+					<dimensions>
+						<geom:Rectangle left="-1.55" top="-0.7" width="3.8" height="5.8"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.4078947368421053" y="0.13793103448275862"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0" rotation="-0.10000000000000142"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0.04999999999999982" y="0"/>
+			<Keyframe index="4" x="0.04999999999999982" y="0"/>
+			<Keyframe index="5" x="0.04999999999999982" y="0"/>
+			<Keyframe index="6" x="0.04999999999999982" y="0"/>
+			<Keyframe index="7" x="0.04999999999999982" y="0"/>
+			<Keyframe index="8" x="0.09999999999999964" y="0"/>
+			<Keyframe index="9" x="0.09999999999999964" y="0"/>
+			<Keyframe index="10" x="0.09999999999999964" y="0"/>
+			<Keyframe index="11" x="0.09999999999999964" y="0"/>
+			<Keyframe index="12" x="0.09999999999999964" y="0"/>
+			<Keyframe index="13" x="0.09999999999999964" y="0"/>
+			<Keyframe index="14" x="0.15000000000000036" y="0"/>
+			<Keyframe index="15" x="0.15000000000000036" y="0"/>
+			<Keyframe index="16" x="0.15000000000000036" y="0"/>
+			<Keyframe index="17" x="0.15000000000000036" y="0"/>
+			<Keyframe index="18" x="0.15000000000000036" y="0"/>
+			<Keyframe index="19" x="0.15000000000000036" y="0"/>
+			<Keyframe index="20" x="0.15000000000000036" y="0"/>
+			<Keyframe index="21" x="0.15000000000000036" y="0"/>
+			<Keyframe index="22" x="0.20000000000000018" y="0"/>
+			<Keyframe index="23" x="0.20000000000000018" y="0"/>
+			<Keyframe index="24" x="0.20000000000000018" y="0"/>
+			<Keyframe index="25" x="0.20000000000000018" y="0"/>
+			<Keyframe index="26" x="0.20000000000000018" y="0"/>
+			<Keyframe index="27" x="0.20000000000000018" y="0"/>
+			<Keyframe index="28" x="0.20000000000000018" y="0"/>
+			<Keyframe index="29" x="0.20000000000000018" y="0" rotation="0"/>
+			<Keyframe index="30" x="0.20000000000000018" y="0" rotation="-0.10000000000000142"/>
+			<Keyframe index="31" x="0.20000000000000018" y="0"/>
+			<Keyframe index="32" x="0.15000000000000036" y="0"/>
+			<Keyframe index="33" x="0.15000000000000036" y="0"/>
+			<Keyframe index="34" x="0.15000000000000036" y="0"/>
+			<Keyframe index="35" x="0.15000000000000036" y="0"/>
+			<Keyframe index="36" x="0.15000000000000036" y="0"/>
+			<Keyframe index="37" x="0.09999999999999964" y="0"/>
+			<Keyframe index="38" x="0.09999999999999964" y="0"/>
+			<Keyframe index="39" x="0.09999999999999964" y="0"/>
+			<Keyframe index="40" x="0.09999999999999964" y="0"/>
+			<Keyframe index="41" x="0.09999999999999964" y="0"/>
+			<Keyframe index="42" x="0.09999999999999964" y="0"/>
+			<Keyframe index="43" x="0.09999999999999964" y="0"/>
+			<Keyframe index="44" x="0.04999999999999982" y="0"/>
+			<Keyframe index="45" x="0.04999999999999982" y="0"/>
+			<Keyframe index="46" x="0.04999999999999982" y="0"/>
+			<Keyframe index="47" x="0.04999999999999982" y="0"/>
+			<Keyframe index="48" x="0.04999999999999982" y="0"/>
+			<Keyframe index="49" x="0.04999999999999982" y="0"/>
+			<Keyframe index="50" x="0.04999999999999982" y="0"/>
+			<Keyframe index="51" x="0.04999999999999982" y="0"/>
+			<Keyframe index="52" x="0.04999999999999982" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0" rotation="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="17.8" y="-3.95" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="paw3" symbolName="bl foot">
+					<dimensions>
+						<geom:Rectangle left="-7" top="-0.95" width="7.8" height="4.75"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.9038461538461539" y="0.21052631578947367"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="15.9" y="-12" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="thigh3" symbolName="blu leg">
+					<dimensions>
+						<geom:Rectangle left="-3" top="-1.05" width="5.9" height="8.35"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.125748502994012"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="4" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="5" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="6" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="7" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="8" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="9" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="10" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="11" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="12" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="13" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="14" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="15" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="16" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="17" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="18" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="19" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="20" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="21" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="22" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="23" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="24" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="25" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="26" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="27" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="28" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="29" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="30" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="31" x="0.09999999999999964" y="-0.1999999999999993"/>
+			<Keyframe index="32" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="33" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="34" x="0.09999999999999964" y="-0.15000000000000036"/>
+			<Keyframe index="35" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="36" x="0.049999999999998934" y="-0.15000000000000036"/>
+			<Keyframe index="37" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="38" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="39" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="40" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="41" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="42" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="43" x="0.049999999999998934" y="-0.09999999999999964"/>
+			<Keyframe index="44" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="45" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="46" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="47" x="0.049999999999998934" y="-0.05000000000000071"/>
+			<Keyframe index="48" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="49" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="50" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="51" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="52" x="0" y="-0.05000000000000071"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="17.1" y="-10.55" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="calf3" symbolName="bll leg">
+					<dimensions>
+						<geom:Rectangle left="-2.25" top="-0.5" width="4.65" height="9.3"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.48387096774193544" y="0.05376344086021505"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0" rotation="-0.1"/>
+			<Keyframe index="7" x="0" y="0" rotation="-0.3"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0" rotation="-0.5"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0" rotation="-0.7"/>
+			<Keyframe index="30" x="0" y="0" rotation="-0.5"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="-0.05000000000000071" y="0" rotation="-0.3"/>
+			<Keyframe index="36" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0.05000000000000071"/>
+			<Keyframe index="40" x="0" y="0.05000000000000071"/>
+			<Keyframe index="41" x="0" y="0.05000000000000071"/>
+			<Keyframe index="42" x="0" y="0.05000000000000071"/>
+			<Keyframe index="43" x="0" y="0.05000000000000071"/>
+			<Keyframe index="44" x="0" y="0.05000000000000071"/>
+			<Keyframe index="45" x="-0.05000000000000071" y="0" rotation="-0.1"/>
+			<Keyframe index="46" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="47" x="-0.05000000000000071" y="0" rotation="0"/>
+			<Keyframe index="48" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="49" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="50" x="-0.05000000000000071" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="13.1" y="-18" scaleX="1" scaleY="1.04" rotation="-29.6" elementType="movie clip" instanceName="body" symbolName="body">
+					<dimensions>
+						<geom:Rectangle left="-19.85" top="-3.85" width="23.35" height="17.8"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.8479657387580299" y="0.21629213483146068"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="-0.10000000000000142" scaleY="1.0096153846153846"/>
+			<Keyframe index="2" x="-0.15000000000000036" y="-0.25" scaleY="1.0192307692307692"/>
+			<Keyframe index="3" x="-0.1999999999999993" y="-0.3999999999999986" scaleY="1.028846153846154"/>
+			<Keyframe index="4" x="-0.1999999999999993" y="-0.5500000000000007" scaleY="1.0384615384615385"/>
+			<Keyframe index="5" x="-0.1999999999999993" y="-0.6000000000000014" scaleY="1.0480769230769231"/>
+			<Keyframe index="6" x="-0.29999999999999893" y="-0.75" scaleY="1.0576923076923077"/>
+			<Keyframe index="7" x="-0.29999999999999893" y="-0.8999999999999986" scaleY="1.0673076923076923"/>
+			<Keyframe index="8" x="-0.40000000000000036" y="-1"/>
+			<Keyframe index="9" x="-0.40000000000000036" y="-1.1000000000000014" scaleY="1.076923076923077"/>
+			<Keyframe index="10" x="-0.40000000000000036" y="-1.1999999999999993" scaleY="1.0865384615384615"/>
+			<Keyframe index="11" x="-0.5" y="-1.3500000000000014" scaleY="1.096153846153846"/>
+			<Keyframe index="12" x="-0.5499999999999989" y="-1.4499999999999993"/>
+			<Keyframe index="13" x="-0.5" y="-1.5500000000000007" scaleY="1.1057692307692306"/>
+			<Keyframe index="14" x="-0.5999999999999996" y="-1.5500000000000007" scaleY="1.1153846153846152"/>
+			<Keyframe index="15" x="-0.6500000000000004" y="-1.6499999999999986"/>
+			<Keyframe index="16" x="-0.6500000000000004" y="-1.8000000000000007" scaleY="1.125"/>
+			<Keyframe index="17" x="-0.75" y="-1.8000000000000007" scaleY="1.1346153846153846"/>
+			<Keyframe index="18" x="-0.6999999999999993" y="-1.8999999999999986"/>
+			<Keyframe index="19" x="-0.75" y="-2" scaleY="1.1442307692307692"/>
+			<Keyframe index="20" x="-0.7999999999999989" y="-2"/>
+			<Keyframe index="21" x="-0.8499999999999996" y="-2"/>
+			<Keyframe index="22" x="-0.8499999999999996" y="-2.1000000000000014" scaleY="1.1538461538461537"/>
+			<Keyframe index="23" x="-0.7999999999999989" y="-2.1499999999999986"/>
+			<Keyframe index="24" x="-0.8499999999999996" y="-2.1499999999999986" scaleY="1.1634615384615383"/>
+			<Keyframe index="25" x="-0.8499999999999996" y="-2.25"/>
+			<Keyframe index="26" x="-0.7999999999999989" y="-2.25"/>
+			<Keyframe index="27" x="-0.8499999999999996" y="-2.3000000000000007"/>
+			<Keyframe index="28" x="-0.9000000000000004" y="-2.3500000000000014" scaleY="1.173076923076923"/>
+			<Keyframe index="29" x="-0.9000000000000004" y="-2.3500000000000014"/>
+			<Keyframe index="30" x="-0.8499999999999996" y="-2.25" scaleY="1.1634615384615383"/>
+			<Keyframe index="31" x="-0.8499999999999996" y="-2.1000000000000014" scaleY="1.1538461538461537"/>
+			<Keyframe index="32" x="-0.6999999999999993" y="-2.0500000000000007" scaleY="1.1442307692307692"/>
+			<Keyframe index="33" x="-0.6999999999999993" y="-1.9499999999999993" scaleY="1.1346153846153846"/>
+			<Keyframe index="34" x="-0.6500000000000004" y="-1.75" scaleY="1.125"/>
+			<Keyframe index="35" x="-0.5999999999999996" y="-1.6499999999999986" scaleY="1.1153846153846152"/>
+			<Keyframe index="36" x="-0.5999999999999996" y="-1.5" scaleY="1.1057692307692306"/>
+			<Keyframe index="37" x="-0.5499999999999989" y="-1.3999999999999986"/>
+			<Keyframe index="38" x="-0.5" y="-1.3000000000000007" scaleY="1.096153846153846"/>
+			<Keyframe index="39" x="-0.4499999999999993" y="-1.1999999999999993" scaleY="1.0865384615384615"/>
+			<Keyframe index="40" x="-0.4499999999999993" y="-1.1000000000000014" scaleY="1.076923076923077"/>
+			<Keyframe index="41" x="-0.4499999999999993" y="-1.0500000000000007"/>
+			<Keyframe index="42" x="-0.40000000000000036" y="-1" scaleY="1.0673076923076923"/>
+			<Keyframe index="43" x="-0.40000000000000036" y="-0.8500000000000014" scaleY="1.0576923076923077"/>
+			<Keyframe index="44" x="-0.34999999999999964" y="-0.8000000000000007"/>
+			<Keyframe index="45" x="-0.25" y="-0.6999999999999993" scaleY="1.0480769230769231"/>
+			<Keyframe index="46" x="-0.29999999999999893" y="-0.6499999999999986"/>
+			<Keyframe index="47" x="-0.1999999999999993" y="-0.5500000000000007" scaleY="1.0384615384615385"/>
+			<Keyframe index="48" x="-0.25" y="-0.5"/>
+			<Keyframe index="49" x="-0.15000000000000036" y="-0.5" scaleY="1.028846153846154"/>
+			<Keyframe index="50" x="-0.15000000000000036" y="-0.3500000000000014"/>
+			<Keyframe index="51" x="-0.15000000000000036" y="-0.3000000000000007" scaleY="1.0192307692307692"/>
+			<Keyframe index="52" x="-0.15000000000000036" y="-0.25"/>
+			<Keyframe index="53" x="-0.049999999999998934" y="-0.25" scaleY="1.0096153846153846"/>
+			<Keyframe index="54" x="-0.049999999999998934" y="-0.25"/>
+			<Keyframe index="55" x="-0.09999999999999964" y="-0.14999999999999858"/>
+			<Keyframe index="56" x="-0.049999999999998934" y="-0.10000000000000142"/>
+			<Keyframe index="57" x="-0.049999999999998934" y="-0.05000000000000071" scaleY="1"/>
+			<Keyframe index="58" x="-0.049999999999998934" y="-0.10000000000000142"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="0" y="-3.6" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="paw2" symbolName="fr foot">
+					<dimensions>
+						<geom:Rectangle left="-7" top="-1.45" width="7.8" height="4.75"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.8846153846153847" y="0.3368421052631579"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="-0.65" y="-6.5" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="calf2" symbolName="frl leg">
+					<dimensions>
+						<geom:Rectangle left="-3.3" top="-0.85" width="5.35" height="6.4"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.616822429906542" y="0.14843749999999997"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="-1.6" y="-9.75" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="thigh2" symbolName="fru leg">
+					<dimensions>
+						<geom:Rectangle left="-1.05" top="-0.35" width="3.8" height="5.8"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.2894736842105263" y="0.06034482758620689"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="9.6" y="-4.1" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="paw4" symbolName="br foot">
+					<dimensions>
+						<geom:Rectangle left="-7.05" top="-1" width="7.8" height="4.75"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.9038461538461539" y="0.2421052631578947"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="7.2" y="-12.05" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="thigh4" symbolName="bru leg">
+					<dimensions>
+						<geom:Rectangle left="-2.95" top="-0.75" width="5.9" height="8.35"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5" y="0.09580838323353294"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="9" y="-10.7" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" instanceName="calf4" symbolName="brul leg">
+					<dimensions>
+						<geom:Rectangle left="-2.6" top="-1.2" width="4.65" height="9.3"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.5268817204301075" y="0.09677419354838708"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0" y="0"/>
+			<Keyframe index="2" x="0" y="0"/>
+			<Keyframe index="3" x="0" y="0"/>
+			<Keyframe index="4" x="0" y="0"/>
+			<Keyframe index="5" x="0" y="0"/>
+			<Keyframe index="6" x="0" y="0"/>
+			<Keyframe index="7" x="0" y="0"/>
+			<Keyframe index="8" x="0" y="0"/>
+			<Keyframe index="9" x="0" y="0"/>
+			<Keyframe index="10" x="0" y="0"/>
+			<Keyframe index="11" x="0" y="0"/>
+			<Keyframe index="12" x="0" y="0"/>
+			<Keyframe index="13" x="0" y="0"/>
+			<Keyframe index="14" x="0" y="0"/>
+			<Keyframe index="15" x="0" y="0"/>
+			<Keyframe index="16" x="0" y="0"/>
+			<Keyframe index="17" x="0" y="0"/>
+			<Keyframe index="18" x="0" y="0"/>
+			<Keyframe index="19" x="0" y="0"/>
+			<Keyframe index="20" x="0" y="0"/>
+			<Keyframe index="21" x="0" y="0"/>
+			<Keyframe index="22" x="0" y="0"/>
+			<Keyframe index="23" x="0" y="0"/>
+			<Keyframe index="24" x="0" y="0"/>
+			<Keyframe index="25" x="0" y="0"/>
+			<Keyframe index="26" x="0" y="0"/>
+			<Keyframe index="27" x="0" y="0"/>
+			<Keyframe index="28" x="0" y="0"/>
+			<Keyframe index="29" x="0" y="0"/>
+			<Keyframe index="30" x="0" y="0"/>
+			<Keyframe index="31" x="0" y="0"/>
+			<Keyframe index="32" x="0" y="0"/>
+			<Keyframe index="33" x="0" y="0"/>
+			<Keyframe index="34" x="0" y="0"/>
+			<Keyframe index="35" x="0" y="0"/>
+			<Keyframe index="36" x="0" y="0"/>
+			<Keyframe index="37" x="0" y="0"/>
+			<Keyframe index="38" x="0" y="0"/>
+			<Keyframe index="39" x="0" y="0"/>
+			<Keyframe index="40" x="0" y="0"/>
+			<Keyframe index="41" x="0" y="0"/>
+			<Keyframe index="42" x="0" y="0"/>
+			<Keyframe index="43" x="0" y="0"/>
+			<Keyframe index="44" x="0" y="0"/>
+			<Keyframe index="45" x="0" y="0"/>
+			<Keyframe index="46" x="0" y="0"/>
+			<Keyframe index="47" x="0" y="0"/>
+			<Keyframe index="48" x="0" y="0"/>
+			<Keyframe index="49" x="0" y="0"/>
+			<Keyframe index="50" x="0" y="0"/>
+			<Keyframe index="51" x="0" y="0"/>
+			<Keyframe index="52" x="0" y="0"/>
+			<Keyframe index="53" x="0" y="0"/>
+			<Keyframe index="54" x="0" y="0"/>
+			<Keyframe index="55" x="0" y="0"/>
+			<Keyframe index="56" x="0" y="0"/>
+			<Keyframe index="57" x="0" y="0"/>
+			<Keyframe index="58" x="0" y="0"/>
+			<Keyframe index="59" x="0" y="0"/>
+			<Keyframe index="60" x="0" y="0"/>
+		</Motion>
+
+		<Motion duration="61" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+			<source>
+				<Source frameRate="60" x="16.4" y="-13.15" scaleX="1" scaleY="1" rotation="111.3" elementType="movie clip" instanceName="tail" symbolName="tail">
+					<dimensions>
+						<geom:Rectangle left="-1.75" top="-9.75" width="6.25" height="10.4"/>
+					</dimensions>
+					<transformationPoint>
+						<geom:Point x="0.264" y="0.9423076923076923"/>
+					</transformationPoint>
+				</Source>
+			</source>
+ 
+			<Keyframe index="0"/>
+			<Keyframe index="1" x="0.05000000000000071" y="0.20000000000000107" rotation="2.5"/>
+			<Keyframe index="2" x="0.10000000000000142" y="0.34999999999999964" rotation="5"/>
+			<Keyframe index="3" x="0.15000000000000213" y="0.5500000000000007" rotation="7"/>
+			<Keyframe index="4" x="0.25" y="0.6500000000000004" rotation="8.799999999999997"/>
+			<Keyframe index="5" x="0.25" y="0.7000000000000011" rotation="10.100000000000009"/>
+			<Keyframe index="6" x="0.25" y="0.8000000000000007" rotation="11.299999999999997"/>
+			<Keyframe index="7" x="0.25" y="0.9000000000000004" rotation="12"/>
+			<Keyframe index="8" x="0.15000000000000213" y="0.8000000000000007" rotation="9.600000000000009"/>
+			<Keyframe index="9" x="0.15000000000000213" y="0.5500000000000007" rotation="7.5"/>
+			<Keyframe index="10" x="0.10000000000000142" y="0.5" rotation="5.6000000000000085"/>
+			<Keyframe index="11" x="0.10000000000000142" y="0.34999999999999964" rotation="4"/>
+			<Keyframe index="12" x="0.05000000000000071" y="0.20000000000000107" rotation="2.5"/>
+			<Keyframe index="13" x="0.05000000000000071" y="0.15000000000000036" rotation="1.5"/>
+			<Keyframe index="14" x="0" y="0.09999999999999964" rotation="0.5"/>
+			<Keyframe index="15" x="0" y="0" rotation="0"/>
+			<Keyframe index="16" x="0.05000000000000071" y="0.20000000000000107" rotation="2.5"/>
+			<Keyframe index="17" x="0.10000000000000142" y="0.34999999999999964" rotation="5"/>
+			<Keyframe index="18" x="0.15000000000000213" y="0.5500000000000007" rotation="7"/>
+			<Keyframe index="19" x="0.25" y="0.6500000000000004" rotation="8.799999999999997"/>
+			<Keyframe index="20" x="0.25" y="0.7000000000000011" rotation="10.100000000000009"/>
+			<Keyframe index="21" x="0.25" y="0.8000000000000007" rotation="11.299999999999997"/>
+			<Keyframe index="22" x="0.25" y="0.9000000000000004" rotation="12"/>
+			<Keyframe index="23" x="0.20000000000000284" y="0.75" rotation="9.299999999999997"/>
+			<Keyframe index="24" x="0.15000000000000213" y="0.5" rotation="7"/>
+			<Keyframe index="25" x="0.10000000000000142" y="0.34999999999999964" rotation="5"/>
+			<Keyframe index="26" x="0.05000000000000071" y="0.25" rotation="3.200000000000003"/>
+			<Keyframe index="27" x="0.10000000000000142" y="0.20000000000000107" rotation="1.7999999999999972"/>
+			<Keyframe index="28" x="0.05000000000000071" y="0.05000000000000071" rotation="0.7000000000000028"/>
+			<Keyframe index="29" x="0" y="0" rotation="0"/>
+			<Keyframe index="30" x="0.05000000000000071" y="0.15000000000000036" rotation="2.299999999999997"/>
+			<Keyframe index="31" x="0.10000000000000142" y="0.34999999999999964" rotation="4.5"/>
+			<Keyframe index="32" x="0.20000000000000284" y="0.45000000000000107" rotation="6.299999999999997"/>
+			<Keyframe index="33" x="0.15000000000000213" y="0.5500000000000007" rotation="8"/>
+			<Keyframe index="34" x="0.20000000000000284" y="0.7000000000000011" rotation="9.299999999999997"/>
+			<Keyframe index="35" x="0.20000000000000284" y="0.8000000000000007" rotation="10.5"/>
+			<Keyframe index="36" x="0.25" y="0.8000000000000007" rotation="11.299999999999997"/>
+			<Keyframe index="37" x="0.25" y="0.9000000000000004" rotation="12"/>
+			<Keyframe index="38" x="0.15000000000000213" y="0.8000000000000007" rotation="9.600000000000009"/>
+			<Keyframe index="39" x="0.15000000000000213" y="0.5500000000000007" rotation="7.5"/>
+			<Keyframe index="40" x="0.10000000000000142" y="0.5" rotation="5.6000000000000085"/>
+			<Keyframe index="41" x="0.10000000000000142" y="0.34999999999999964" rotation="4"/>
+			<Keyframe index="42" x="0.05000000000000071" y="0.20000000000000107" rotation="2.5"/>
+			<Keyframe index="43" x="0.05000000000000071" y="0.15000000000000036" rotation="1.5"/>
+			<Keyframe index="44" x="0" y="0.09999999999999964" rotation="0.5"/>
+			<Keyframe index="45" x="0" y="0" rotation="0"/>
+			<Keyframe index="46" x="0.05000000000000071" y="0.15000000000000036" rotation="2.299999999999997"/>
+			<Keyframe index="47" x="0.10000000000000142" y="0.34999999999999964" rotation="4.5"/>
+			<Keyframe index="48" x="0.20000000000000284" y="0.45000000000000107" rotation="6.299999999999997"/>
+			<Keyframe index="49" x="0.15000000000000213" y="0.5500000000000007" rotation="8"/>
+			<Keyframe index="50" x="0.20000000000000284" y="0.7000000000000011" rotation="9.299999999999997"/>
+			<Keyframe index="51" x="0.20000000000000284" y="0.8000000000000007" rotation="10.5"/>
+			<Keyframe index="52" x="0.25" y="0.8000000000000007" rotation="11.299999999999997"/>
+			<Keyframe index="53" x="0.25" y="0.9000000000000004" rotation="12"/>
+			<Keyframe index="54" x="0.20000000000000284" y="0.75" rotation="9.299999999999997"/>
+			<Keyframe index="55" x="0.15000000000000213" y="0.5" rotation="7"/>
+			<Keyframe index="56" x="0.10000000000000142" y="0.34999999999999964" rotation="5"/>
+			<Keyframe index="57" x="0.05000000000000071" y="0.25" rotation="3.200000000000003"/>
+			<Keyframe index="58" x="0.10000000000000142" y="0.20000000000000107" rotation="1.7999999999999972"/>
+			<Keyframe index="59" x="0.05000000000000071" y="0.05000000000000071" rotation="0.7000000000000028"/>
+			<Keyframe index="60" x="0" y="0" rotation="0"/>
+		</Motion>
+	</parts>
+</Animation>

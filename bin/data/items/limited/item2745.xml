@@ -1,0 +1,65 @@
+<item id="2745"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Norm Lemming Card</name> <!-- Change this card name -->
+  	<campaignID>NormOfTheNorthMMQ</campaignID> <!-- Change this CMS name -->
+	
+	  <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<y>0</y>
+	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Norm Lemming Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>PLAY GAME</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Norm Lemming Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Norm of the North</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Lemming Rider</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundOrange.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<!-- <asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.swf -->
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<hair>limited_notn</hair>
+		</look>
+	</looks> 
+</item>

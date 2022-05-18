@@ -1,0 +1,48 @@
+<item id="3313">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<buttons>
+			<btn>
+			<conditional id="hasLook" isTrue="false"/>
+			<label>USE</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Zomberry Island</value>
+		</text>
+		<text id="storeTitle">
+			<value>Safety Flare</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to&#10;drop your safety flare!</web>
+			<mobile>Tap ACTION to&#10;drop your safety flare!</mobile>
+		</text>
+	</textfields>
+	
+	<looks>
+		<look>
+			<item>stor_flare</item>
+		</look>
+	</looks>
+	
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+</item>

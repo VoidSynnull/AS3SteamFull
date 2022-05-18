@@ -1,0 +1,91 @@
+<part>
+	<id>limited_cinderella</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2641</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+			<className>game.data.specialAbility.character.PlayPopupAnim</className>
+			<parameters>
+				<param id="swfPath">limited/CinderellaMVU/transformation.swf</param>
+				<param id="tracking">CinderellaMVU,Transformation Power</param>
+			</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">limited_cinderella1</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">ppopgirl1</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">limited_cinderella1</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">limited_cinderella1</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">M:mthoudini,mteiffel,mttwain|F:limited_cinderella2,mythpes4,mtdancer</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">M:ppromking1e|F:limited_cinderella2,limited_cinderella3,limited_cinderella4</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">M:limited_cinderella6,ppromking1f,limited_cinderella3|F:limited_cinderella2,limited_cinderella4,limited_cinderella5</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">M:|F:limited_cinderella1,limited_cinderella2,limited_cinderella3</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">M:mustache1,beardshort4,goat1|F:</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">M:greekwiseguy|F:ppopgirl1</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

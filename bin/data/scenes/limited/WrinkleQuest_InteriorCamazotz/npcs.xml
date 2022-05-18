@@ -1,0 +1,141 @@
+<npcs>
+	<npc id="Meg">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>casual</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>skullchinamerch</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>bl_drem</facial>
+			<hair>limited_meg</hair>
+			<shirt>limited_meg</shirt>
+			<pants>sponsor_mrhan</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>240</x>
+			<y>1300</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="creepyboy1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>laugh</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_creepyeyes</facial>
+			<hair>mk_writer</hair>
+			<shirt>limited_camazotz1</shirt>
+			<pants>sponsorec2</pants>
+			<item>limited_redball</item>
+		</skin>
+		<direction>right</direction>
+		<position>
+			<x>140</x>
+			<y>1290</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="creepygirl1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>laugh</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_creepyeyes</facial>
+			<hair>girlhair4</hair>
+			<shirt>limited_camazotz3</shirt>
+			<pants>sponsorec2</pants>
+			<item>limited_redball</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1020</x>
+			<y>1290</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="creepyboy2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>laugh</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_creepyeyes</facial>
+			<hair>is_stockman</hair>
+			<shirt>limited_camazotz2</shirt>
+			<pants>sponsorec2</pants>
+			<item>limited_redball</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>1660</x>
+			<y>1290</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="creepygirl2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>laugh</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_creepyeyes</facial>
+			<hair>23</hair>
+			<shirt>limited_camazotz4</shirt>
+			<pants>sponsorec2</pants>
+			<item>limited_redball</item>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2440</x>
+			<y>1290</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="MrsWhich">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>srcj</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>limited_mrs_which</marks>
+			<hair>limited_mrs_which</hair>
+			<shirt>limited_mrs_which</shirt>
+			<pants>limited_mrs_which</pants>
+			<item>limited_specs</item>
+			<overshirt>limited_mrs_which</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2450</x>
+			<y>615</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<scale>0.4</scale>
+	</npc>
+</npcs>

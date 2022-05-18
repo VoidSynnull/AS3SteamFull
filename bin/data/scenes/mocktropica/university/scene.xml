@@ -1,0 +1,51 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>4052</right>
+		<bottom>1712</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-100</left>
+		<top>0</top>
+		<right>4252</right>
+		<bottom>1672</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/mocktropica/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer event="set_day">
+			<asset>backdropDay.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer event="set_night">
+			<asset>backdropNight.swf</asset>
+			<rate>.75</rate>
+		</layer>		
+		<layer event="set_rain">
+			<asset>overlayRain.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="set_night">
+			<asset>backgroundNight.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>40</x>
+			<y>1672</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

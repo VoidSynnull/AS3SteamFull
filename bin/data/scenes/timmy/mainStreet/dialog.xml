@@ -1,0 +1,32 @@
+<dialogs>
+	<character id="timmy">
+		<statement id="evil_doings" link="such_as" linkEntityId="player">You there! Newcomer! Step lightly. There are evil doings afoot.</statement>
+		<statement id="missing_pants" link="be_careful" linkEntityId="player">Someone stole my pants!</statement>
+		<statement id="catch_the_criminal" link="idle" linkEntityId="player">You'll need to be more than that.  Since you're new around here, you're the only person I can trust. Will you help me collar the criminal?</statement>
+		<statement id="split_up" link="business_partner">Great. We'll have to split up, but I'll leave pages from my detective log around town to help you out.</statement>
+		<statement id="business_partner" triggerEvent="triggerEvent" triggerEventArgs="get_detective_log">To start with, you may want to investigate my former business partner. His loyalty is in question.</statement>
+		<statement id="lounging">You can usually find him lounging at my house, waiting for someone to leave food unguarded.</statement>
+		<statement id="dont_remind">Oh, come on. Don't draw attention to it.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="such_as" link="missing_pants" linkEntityId="timmy">Such as?</statement>
+    	<statement id="be_careful" link="catch_the_criminal" linkEntityId="timmy">I'll... be careful, I guess.</statement>
+    	<statement id="idle" link="split_up" linkEntityId="timmy">Far be it from me to stand idly by while a pants thief terrorizes this fair city.</statement>
+    	<statement id="no_pants">Oh! I didn't realize you meant the pants you were wearing!</statement>
+    	
+    	<statement id="locked">The door is locked.</statement>
+    	<statement id="boo" link="yikes" linkEntityId="scutaro">Boo!</statement>
+    	<statement id="ooga" link="monster" linkEntityId="scutaro">Ooga Booga!</statement>
+    	<statement id="here_we_go" forceOnScreen="true">After those pants!</statement>
+    	<statement id="no_keys">What kind of turkey parks in the middle of the street like this?</statement>
+    </character>
+    
+    <character id="scutaro">
+    	<statement>I can only deliver this to Corrina Corrina.</statement>
+    	<statement id="knock">Anyone there? I've got that surveillance equipment you ordered, Corrina Corrina.</statement>
+    	<statement id="yikes" link="beat_it">Yipes! Hey, that wasn't nice. You could have really startled me if you weren't so goofy looking.</statement>
+    	<statement id="beat_it" triggerEvent="triggerEvent" triggerEventArgs="beat_it">Anyway, beat it. I can only deliver this to Corrina Corrina.</statement>
+    	<statement id="monster">Yeeaaarrgh! A monster!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,23 @@
+<dialogs>
+  <character id="char1">
+    <statement event="gotItem_kirkCoffeeCup" link="that" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="stop_and_listen">What can I get you?</statement>
+    <statement link="no thanks" linkEntityId="player">What can I get you? Decaf, half-caf, mega-caf? Latte, espresso, latte-espress?</statement>
+    <statement id="sorry" triggerEvent="triggerEvent" triggerEventArgs="pour_coffee_right">Oh, sorry, we're out of lattes. You can order something else off the menu.</statement>
+  </character>
+  <character id="char2">
+    <statement event="talk_to_willy">I can't believe you never heard of me... Willy Bingleman.</statement>
+    <statement link="who" linkEntityId="player">That's right. It's me, WIlly Bingleman</statement>
+    <statement id="you know" link="what" linkEntityId="player">You know... "Me no likey!"</statement>
+    <statement id="never" link="sorry never" linkEntityId="player">You never saw my big hit, "First-Grade Sourpuss"?</statement>
+    <statement triggerEvent="triggerEvent" triggerEventArgs="talk_to_willy, true" id="someday">Someday I'll get a serious role again, and everyone will likey me!</statement>
+    <statement id="at last" triggerEvent="triggerEvent" triggerEventArgs="found_villain, true">At last! A chance to show off my dark side!</statement>
+  </character>
+  <character id="player">
+    <statement id="no thanks">Nothing for me, thanks.</statement>
+    <statement id="that" link="sorry" linkEntityId="char1">Half-caf leviathan latte-espresso.</statement>
+    <statement id="who" link="you know" linkEntityId="char2" triggerEvent="triggerEvent" triggerEventArgs="you_know">...who?</statement>
+    <statement id="what" link="never" linkEntityId="char2">I don't follow.</statement>
+    <statement id="sorry never" link="someday" linkEntityId="char2">Sorry, never saw it.</statement>
+    <statement triggeredByEvent="whiteHat">I, don't think he would make a good hero.</statement>
+  </character>
+</dialogs>

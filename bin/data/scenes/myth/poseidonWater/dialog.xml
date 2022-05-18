@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="player_drown">text1</statement>
+		<statement id="thanks">text2</statement>
+		<statement id="rocks_blocking">text3</statement>
+    </character>
+    <character id="herc">
+		<statement id="open_path">text4</statement>
+    	<statement id="no_problem">text5</statement>
+    	<statement>text5</statement>
+		<statement event="hasItem_poseidonTrident" triggerEvent="triggerEvent" triggerEventArgs="use_mirror">shared.text29</statement>	
+    </character>
+</dialogs>

@@ -1,0 +1,43 @@
+<item id="3497">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<buttons>
+		<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>PUT ON</label>
+				<actions>
+				<action type="activatePower"/>
+			</actions>
+			</btn>
+			<btn>
+			<conditional id="hasAbility" isTrue="true"/>
+				<label>TAKE OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		
+	<textfields>
+			<text id="storeTitle">
+			<value id="title">Running Sneakers</value>
+		</text>
+		
+		<text id="storeInstructions">
+			<value>Feel the speed!</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+		
+		<specials>
+			<specialAbility>shoes_running_sneakers_maroon</specialAbility>
+		</specials>
+
+		<conditionals>
+			<conditional type="hasAbility" />
+		</conditionals>
+</item>

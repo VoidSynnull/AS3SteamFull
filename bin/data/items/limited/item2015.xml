@@ -1,0 +1,103 @@
+<item id="2015"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>SpongeBobBalloons</name> <!-- *** Change this card name -->
+  	<campaignID>SpongeBobMovieQuest</campaignID> <!-- *** Change this CMS name -->
+	
+    <contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<parameters>
+			<param id="clickableSpecial">true</param>
+		</parameters>
+		<y>25</y>
+	</contentClass>
+	
+  	<buttons>
+		<btn>
+			<index>1</index>
+			<conditional id="hasAbility" isTrue="false"/>
+			<label>INFLATE</label>
+			<actions>
+				<action type="activatePower" tracking="true">
+					<parameters>
+						<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+		</btn>
+		<btn>
+			<index>1</index>
+			<conditional id="hasAbility" isTrue="true"/>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="deactivatePower"/>
+			</actions>
+		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+	</buttons>
+	
+	<radiobuttons>
+		<btn>
+			<asset>limited/SpongeBobMovieQuest/radio_btn1.swf</asset>
+			<color>0xF5EE38</color>
+			<val>limited/balloon_spongebob</val>
+		</btn>
+		<btn>
+			<asset>limited/SpongeBobMovieQuest/radio_btn2.swf</asset>
+			<color>0xFF669C</color>
+			<val>limited/balloon_patrick</val>
+		</btn>
+	</radiobuttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>SpongeBob Movie</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Character Balloons</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+		<!-- 
+		<text id="memberinstructions"> 
+			<web>click balloon to change characters!</web>
+			<mobile>tap balloon to change characters!</mobile>
+			<y>115</y>
+		</text>
+		 -->
+		<text id="copyright">
+			<value>©2021 PARAMOUNT ANIMATION</value> <!-- Change or delete this copyright -->
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBlue.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+  	<specials>
+		<specialAbility>limited/balloon_spongebob</specialAbility>
+		<specialAbility>limited/balloon_patrick</specialAbility>
+	</specials>
+	
+	<looks>
+		<look>
+			<item>empty</item>
+		</look>
+	</looks>
+	
+	<conditionals>
+		<conditional type="hasAbility"/>
+	</conditionals>
+</item>

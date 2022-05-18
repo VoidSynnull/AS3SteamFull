@@ -1,0 +1,40 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>5468</right>
+		<bottom>1638</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>80</left>
+		<top>-200</top>
+		<right>5468</right>
+		<bottom>1660</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml,items.xml</data>
+	<assets></assets>
+	<absoluteFilePaths>scenes/survival2/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.75</rate>
+			<condition type="merge">background</condition>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>5400</x>
+			<y>1440</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

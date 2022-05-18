@@ -1,0 +1,34 @@
+<hits>
+  <hit id="baseGround" platform="true">
+    <component type="platform"/>
+  </hit>
+   <hit id="ledgeHit" color="0x00ffff"  platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="lions" color="0xC4D4C0" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="bounce" color="0xff0000" platform="true">
+    <component type="bounce">
+      <velocity>
+        <x>0</x>
+        <y>-800</y>
+      </velocity>
+    </component>
+  </hit>
+  <hit id="roof_tile" color="0xD1BCDA" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="window_sills" color="0xD7C3DF" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="roof_wood" color="0xEDB1A0" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="light_post" color="0xC1D1D6" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="concrete" color="0x00ff00" platform="true">
+    <component type="platform"/>
+  </hit>
+</hits>

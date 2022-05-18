@@ -1,0 +1,43 @@
+<doors>
+	<door id="doorInterior">
+		<scene>game.scenes.spy.docksInterior.DocksInterior</scene>
+		<x>1348</x>
+		<y>1824</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorAttic">
+		<scene>game.scenes.spy.docksInterior.DocksInterior</scene>
+		<x>512</x>
+		<y>200</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorMain">
+		<scene>game.scenes.spy.mainStreet.MainStreet</scene>
+		<x>10</x>
+		<y>2142</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

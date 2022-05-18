@@ -1,0 +1,31 @@
+<part>
+	<id>pfool</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+ 	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param> 
+						<param id="waitLabel" type="string">raised</param>
+						<param id="maxFrames" type="int">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.ClownWater</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+  	</specialAbility>
+</part>

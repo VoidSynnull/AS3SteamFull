@@ -1,0 +1,44 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true">Survival_1_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">cold_winds.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="log">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<!-- <asset id="snow">ls_snow_01.mp3, ls_snow_02.mp3</asset> -->
+		<asset id="snow">ls_crisp_snow_slide_01.mp3, ls_crisp_snow_01.mp3, ls_crisp_snow_02.mp3</asset>
+		
+		<asset id="snowyBranch">ls_snow_01.mp3, ls_snow_02.mp3</asset>
+		<asset id="ice">ls_snow_01.mp3, ls_snow_02.mp3</asset>
+	
+		<asset id="bounce0">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce1">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="bounce2">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		
+		<asset id="boulderTopRight1">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="boulderTopLeft1">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="boulderTopRight2">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="boulderTopLeft2">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="boulderTopRight3">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="boulderTopLeft3">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="log">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<!-- <asset id="snow">fs_snow_01.mp3, fs_snow_02.mp3, fs_snow_03.mp3, fs_snow_04.mp3</asset> -->
+		<asset id="snow">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		
+		<asset id="ice">fs_glass_01.mp3, fs_glass_02.mp3, fs_glass_03.mp3, fs_glass_04.mp3</asset>
+		<asset id="snowyBranch">fs_snow_01.mp3, fs_snow_02.mp3, fs_snow_03.mp3, fs_snow_04.mp3</asset>
+		
+		<asset id="boulderTopRight1">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="boulderTopLeft1">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="boulderTopRight2">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="boulderTopLeft2">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="boulderTopRight3">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="boulderTopLeft3">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,31 @@
+<part>
+	<id>mem_lifted_love</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<disableBroadcast>true</disableBroadcast>
+		<parameters>
+			<param id="tracking">StoreItem,Levitate Book</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="TalkAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="say_id" type="string">Volantem levitatio!</param> 
+						<param id="directSay" type="boolean">true</param>
+					</parameters>
+				</action>
+				<action class="TweenNPCSAction" startDelay=".5">
+					<parameters>
+						<param id="duration" type="Number">4</param>
+						<param id="height" type="Number">100</param>
+						<!-- <param id="includePlayer" type="boolean">true</param> -->
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

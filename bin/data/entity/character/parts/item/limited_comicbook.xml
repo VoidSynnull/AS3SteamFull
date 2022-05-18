@@ -1,0 +1,26 @@
+<part>
+	<id>limited_comicbook</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="alignToPlayer">true</param>
+			<param id="swfPaths">limited/AmericanGirlQuest/p1.swf,limited/AmericanGirlQuest/p2.swf,limited/AmericanGirlQuest/p3.swf,limited/AmericanGirlQuest/p4.swf,limited/AmericanGirlQuest/p5.swf,limited/AmericanGirlQuest/p6.swf</param>
+			<param id="tracking">AmericanGirlQuest,comic</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>content</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

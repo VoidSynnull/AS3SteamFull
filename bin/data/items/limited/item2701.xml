@@ -1,0 +1,45 @@
+<item id="2701"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>WBB Driver Card</name> <!-- Change this card name -->
+  	<campaignID>WBBDriverIC</campaignID> <!-- Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>I WANT BEARS!</label>
+    		<actions>
+				<action type="gotoUrl" tracking="Use WBB Driver Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+ 
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="adtitle">
+			<value></value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value></value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			
+		</text>
+  	</textfields>
+	
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundBrown.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+</item>

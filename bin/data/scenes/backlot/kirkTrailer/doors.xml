@@ -1,0 +1,28 @@
+<doors>
+  <door id="door1">
+    <scene>game.scenes.backlot.kirkTrailerInterior.KirkTrailerInterior</scene>
+    <x>445</x>
+    <y>500</y>
+    <label>
+      <text>Enter</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+  <door id="cartExit">
+    <scene>game.scenes.backlot.backlotTopDown.BacklotTopDown</scene>
+    <x>1240</x>
+    <y>1220</y>
+    <label>
+      <text>Ride</text>
+      <asset>exit3D</asset>
+      <offset>
+        <x>0</x>
+        <y>0</y>
+      </offset>
+    </label>
+  </door>
+</doors>

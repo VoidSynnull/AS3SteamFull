@@ -1,0 +1,48 @@
+<part>
+	<id>limited_spiesdisguise_car</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>head</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>leg1</part>		
+		<part>leg2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+		<part>body</part>
+		<part>head</part>
+		<part>hair</part>
+		<part>eyes</part>
+		<part>mouth</part>
+		<part>shirt</part>
+		<part>overshirt</part>
+		<part>overpants</part>
+		<part>pants</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="speedX">200</param>
+			<param id="speedY">-450</param>
+			<param id="rotationSpeed">100</param>
+			<param id="tracking">OnwardQuest,Wizard Staff</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_9lives_cakemess</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

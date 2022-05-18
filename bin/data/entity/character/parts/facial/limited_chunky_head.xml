@@ -1,0 +1,13 @@
+<part>
+	<id>limited_chunky_head</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<className>game.data.specialAbility.islands.survival.SetHandParts</className>
+		<parameters>
+			<param id="front">limited_chunky_foot</param>
+			<param id="back">limited_chunky_foot</param>
+		</parameters>
+	</specialAbility>
+</part>

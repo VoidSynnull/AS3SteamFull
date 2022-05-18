@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="npc">
+	
+	    <conversation>
+				<exchange>
+					<question>Did someone just come through here?</question>
+					<answer>Nope.</answer>
+				</exchange>
+				<exchange>
+					<question>Are you sure? She was wearing a white lab coat.</question>
+					<answer>It's just me and these VHS tapes, pal.</answer>
+				</exchange>
+				<exchange>
+					<question>Fine. What movie do you recommend?</question>
+					<answer>Can't you see I'm busy here?</answer>
+				</exchange>
+		</conversation>
+		
+		<statement id="noEntry">Hey, staff only!</statement>
+		<statement id="seenBadge" link="seenBadge2">Oh! I didn't realize you were PDC.</statement>
+		<statement id="seenBadge2" link="seenBadge3">I thought you were some kind of weirdo who still had a VCR.</statement>
+		<statement id="seenBadge3" triggerEvent="triggerEvent" triggerEventArgs="used_badge,true">Come on in.</statement>
+		
+	</character>
+</dialogs>

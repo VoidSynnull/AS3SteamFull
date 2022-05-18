@@ -1,0 +1,34 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/Incredibles2MMSQ/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/Incredibles2MMSQ/" ext="xml">
+		<asset>custom</asset>
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in ad scene -->
+	<assets type="game" path="assets/limited/Incredibles2MMSQ/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</assets>
+	
+	<!-- bitmap npcs from quest folder -->
+	<assets type="game" path="assets/limited/Incredibles2Quest/" ext="swf">
+		<asset>violet2</asset>
+		<asset>bob</asset>
+		<asset>dash</asset>
+		<asset>helen</asset>
+	</assets>
+
+</manifest>

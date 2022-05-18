@@ -1,0 +1,114 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/WildLifeQuest/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+	</data>
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/WildLifeQuest_Interior/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>doors.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/WildLifeQuest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/WildLifeQuest/" ext="swf">
+		<asset>DefenseGame</asset>
+		<asset>CarmelloFollower</asset>
+		<asset>Carmello</asset>
+		<asset>Epi</asset>
+		<asset>Kiki</asset>
+		<asset>Mak</asset>
+		<asset>Pango</asset>
+		<asset>Robinson</asset>
+		<asset>Rosie</asset>
+		<asset>Scrubby</asset>
+	</assets>
+	
+	<data type="support" path="data/limited/WildLifeQuest/" ext="xml">
+		<asset>DefenseGame</asset>
+	</data>
+	<data type="support" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>follower_twl_carmello</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2808</asset>
+		<asset>2809</asset>
+	</data>
+	
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2809</asset>
+	</assets>
+
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundGreen</asset>
+	</assets>
+	
+		<!-- sound assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>twitch_game</asset>
+	</assets>
+	
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>pop_04</asset>
+		<asset>mini_game_loss</asset>
+		<asset>achievement_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" ext="xml">
+		<asset>5</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" ext="swf">
+		<asset>5</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" ext="xml">
+		<asset>scuffmarks</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" ext="swf">
+		<asset>scuffmarks</asset>
+	</assets>
+	
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_wildlife</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_wildlife</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" ext="xml">
+		<asset>limited_wildlife</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" ext="swf">
+		<asset>limited_wildlife</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" ext="xml">
+		<asset>limited_wildlife</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" ext="swf">
+		<asset>limited_wildlife</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" ext="xml">
+		<asset>skullcannon</asset>
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" ext="swf">
+		<asset>skullcannon</asset>
+	</assets>
+
+</manifest>

@@ -1,0 +1,29 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0x00ff11" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="chest" color="0x00ff22" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stone" color="0x00cc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="magicSandPlat0">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+</hits>

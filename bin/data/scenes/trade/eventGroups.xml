@@ -1,0 +1,11 @@
+<groups>
+	<group event="caribbeanport_hidechars" triggerAndSave="true">
+		<event type="trade_gotPiece4" not="true" />
+	</group>
+	<group event="mainstreet2_hidechars" triggerAndSave="true">
+		<event type="trade_gotTreasure" is="true" />
+	</group>
+	<group event="mainstreet_hidechars" triggerAndSave="true">
+		<event type="trade_usedMirror" not="true" />
+	</group>
+</groups>

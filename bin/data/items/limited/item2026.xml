@@ -1,0 +1,77 @@
+<item id="2026"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>80sHair</name> <!-- *** Change this card name -->
+  	<campaignID>AmericanGirlQuest</campaignID> <!-- *** Change this CMS name -->
+	
+   <contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+	<radiobuttons> <!-- Change button colors -->
+		<btn>
+			<color>0x8d4ea9</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x3ad0b1</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0x42bdde</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+    		<label>COSTUMIZE</label>
+   			<actions>
+				<action type="costumize" tracking="true"/>
+			</actions>
+  		</btn>
+		<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>American Girl</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>80s Hair</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundPink.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<!-- <asset id="cardContent" />  -->
+  	</assets>
+  	
+  	<looks>
+	    <look>
+			<hair>limited_courtneyprize1</hair>
+		</look>
+		<look>
+			<hair>limited_courtneyprize2</hair>
+		</look>
+		<look>
+			<hair>limited_courtneyprize3</hair>
+		</look>
+	</looks> 
+    
+</item>

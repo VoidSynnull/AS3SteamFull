@@ -1,0 +1,176 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="radial" color="0x9933CC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm1Color" color="0x808040">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm2Color" color="0x408080">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm3Color" color="0xFF8080">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm4Color" color="0xBD9BE3">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm5Color" color="0xA3DCD7">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm6Color" color="0xE0D09E">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm7Color" color="0xB0E49A">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm8Color" color="0xD3ABC5">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="worm9Color" color="0x8594FA">
+		<component type="radial">
+			<rebound>-2</rebound>
+		</component>
+	</hit>
+	
+	<hit id="teeth" color="0x663333">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="cut1" color="0x0099CC">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1600</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="cut2" color="0xCC9900">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>1600</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="cut3" color="0x000080">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>1600</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="cut4" color="0x99CCFF">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1600</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="cut5" color="0xFFCCCC">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-1600</y>
+			</acceleration>
+		</component>
+	</hit>
+	
+	<hit id="cut1Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="cut2Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="cut3Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="cut4Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="cut5Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

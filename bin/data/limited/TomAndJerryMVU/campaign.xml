@@ -1,0 +1,27 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>TomAndJerryMVU</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+	<musicFile>dangerous_pursuit.mp3</musicFile>
+ 	
+  	<clickUrls>
+		<clickUrl id="Default">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229838134;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- Default clickURL as catch-all (use ad building clickURL)-->
+		<clickUrl id="Video">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229990638;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on video end screen -->
+		<clickUrl id="Poster">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229838134;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on posters that take user to sponsor site -->
+		<clickUrl id="Card">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229982133;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on visit sponsor button on cards -->
+		<clickUrl id="Start">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229982748;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on start popup -->
+		<clickUrl id="Win">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229982748;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on win popup -->
+		<clickUrl id="Lose">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229982748;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on lose popup -->
+		<clickUrl id="Info">https://ad.doubleclick.net/ddm/trackclk/N421001.1918853PLAYWIREMEDIA.COM/B21744797.229838134;dc_trk_aid=427877016;dc_trk_cid=106498843;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=</clickUrl> <!-- for clicking on sponsor banner on info/synopsis popup -->
+	</clickUrls>
+	
+	<boycards>
+		<card>2935</card>
+		<card>2936</card>
+	</boycards>
+	<girlcards>
+		<card>2935</card>
+		<card>2937</card>
+	</girlcards>
+</campaign>

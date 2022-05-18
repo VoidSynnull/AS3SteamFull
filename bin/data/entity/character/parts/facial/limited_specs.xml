@@ -1,0 +1,14 @@
+<part>
+	<id>limited_specs</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.IslandTransport</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/WrinkleQuest/tesser.swf</param>
+			<param id="tracking">WrinkleQuest,teleport</param>
+		</parameters>
+	</specialAbility>
+</part>

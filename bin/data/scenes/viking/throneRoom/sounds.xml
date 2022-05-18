@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">viking_fortress.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="trigger">
+		<asset id="flame1" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+		<asset id="flame2" fade="true" modifiers="position" loop="true">torch_fire_01_loop.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="throne">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="throne">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,26 @@
+<npcs>
+	<!-- use this for Poptropican NPC -->
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>ppeacekeeper</mouth>
+			<hair>stor_winter_gpoofball</hair>
+			<shirt>ad_monstersinc_boo</shirt>
+			<pants>char3</pants>
+			<overshirt>ad_lalagirls_mittens</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-100</x> <!-- from left edge of ad unit -->
+			<y>0</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="no_use_wrench">I can fix the plane with this.</statement>
+		<statement id="no_use_">No reason to use this here.</statement>
+		<statement id="no_use_wrench_crank">The wrench is not the right size. We need to help the monkey another way.</statement>
+		
+		<statement event="cant_use_rope">Crusoe wanted the rope to get us back in the race.</statement>
+		<statement event="cant_use_canvas">Crusoe will use this cloth to help us get off this island. Let's bring it to him.</statement>
+		<statement event="cant_use_drink">Not sure why Crusoe needs a drink, but we better get this to him!</statement>
+		
+		<statement id="not_close_to_crusoe">We need to get closer to Crusoe to give him this.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,27 @@
+<hits>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="counterTops" color="0x4E8CCC" platform="true">
+		<component type="platform"/>		
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="reflectiveFloor">
+		<component type="reflective">
+		    <surface>1</surface>
+		    <type>default</type>
+		    <offsetX>0</offsetX>
+		    <offsetY>0</offsetY>
+		    <alpha>0.25</alpha>
+		</component>
+	</hit>
+</hits>

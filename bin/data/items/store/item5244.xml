@@ -1,0 +1,43 @@
+<item id="5244"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+  		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeTitle">
+			<value>Jack Frost</value>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<conditionals>
+    	<conditional type="hasAbility" />
+    </conditionals>
+    
+ 	<looks>
+			<look>
+				<marks>jack_frost</marks>
+				<hair>jack_frost</hair>
+				<shirt>jack_frost</shirt>
+				<pants>lawyer</pants>
+				<item>jack_frost</item>
+				<mouth>ppunkguy4</mouth>
+		 	</look> 
+	</looks>
+
+</item>

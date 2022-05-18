@@ -1,0 +1,201 @@
+<npcs>
+	<npc id="tailor">
+		<skin>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x663333</hairColor>
+			<eyeState>squint</eyeState>
+			<mouth>18</mouth>
+			<marks>stor_winter_gpoofball</marks>
+			<facial>5</facial>
+			<hair>30</hair>
+			<shirt>wwbanditgirl</shirt>
+			<pants>tt_mom</pants>
+			<item>scissors</item>
+      		<overshirt>stor_winter_scarf</overshirt>
+		</skin>
+		<position>
+			<x>580</x>
+			<y>910</y>
+		</position>
+		<range>
+			<x>80</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="wheelGuy">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>subGuide</mouth>
+			<marks>limited_ppeacekeeper</marks>
+			<facial>limited_captainjack</facial>
+			<hair>limited_captainjack</hair>
+			<shirt>limited_henry</shirt>
+			<pants>limited_judy</pants>
+			<item>sponsorthepirates_lizsword</item>
+			<overpants>sponsorthepirates_lizbelt</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2000</x>
+			<y>900</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="amelia">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfdd9c8</skinColor>
+			<hairColor>0xf5894e</hairColor>
+			<eyeState>open</eyeState>
+			<mouth>mthfishmonger</mouth>
+			<hair>home_crash</hair>
+			<shirt>home_crash</shirt>
+			<pants>peinstein</pants>
+			<pack>home_crash</pack>
+			<overshirt>home_crash</overshirt>
+		</skin>
+		<position>
+			<x>1450</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="bundleNpc" dynamicParts="true">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>5</mouth>
+			<hair>26</hair>
+			<shirt>1</shirt>
+			<pants>2</pants>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2420</x>
+			<y>890</y>
+		</position>
+		<!-- <range>
+			<x>150</x>
+			<y>0</y>
+		</range> -->
+		<direction>left</direction>
+		<costumizable>false</costumizable>
+	</npc>
+	<npc id="dj">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0x42321c</hairColor>
+			<mouth>pPromQueen1</mouth>
+			<facial>sponsorsbsuit</facial>
+			<hair>empty</hair>
+			<shirt>1</shirt>
+			<pants>directord</pants>
+			<overshirt>sponsorsbsuit</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>4880</x>
+			<y>896</y>
+		</position>
+		<range>
+			<x>100</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="officiate" event="show_ftue_ending">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x744A2F</skinColor>
+			<hairColor>0x999694</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>wwprospector</mouth>
+			<marks>grandpa</marks>
+			<facial>empty</facial>
+			<hair>mayor</hair>
+			<shirt>wwprospector</shirt>
+			<pants>ss</pants>
+			<pack>empty</pack>
+			<item>empty</item>
+			<overshirt>empty</overshirt>
+			<overpants>nw_belt01</overpants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>1450</x>
+			<y>825</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+
+	<npc id="petgirl">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0xf9aa18</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pcowgirl1</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>char32</hair>
+			<shirt>bl_dref</shirt>
+			<pants>char11</pants>
+			<item>puppy</item>
+		</skin>
+		<position>
+			<x>2560</x>
+			<y>890</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+
+	<npc id="npc_friend">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x000000</skinColor>
+			<hairColor>0x000000</hairColor>
+		</skin>
+		<position>
+			<x>1170</x>
+			<y>958</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="npc_friend_bitmap" >
+		<bitmap>Blank.swf</bitmap>
+		<position>
+			<x>1170</x>
+			<y>958</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

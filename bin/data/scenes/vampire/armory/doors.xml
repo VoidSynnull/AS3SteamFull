@@ -1,0 +1,28 @@
+<doors>
+	<door id="door1">
+		<scene>game.scenes.vampire.greatHall.GreatHall</scene>
+				<x>240</x>
+				<y>1686</y>
+		<label>
+			<text>Enter</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id = "windowDoor">
+	<scene>game.scenes.vampire.castle.Castle</scene>
+			<x>477</x>
+			<y>1544</y>
+		<label>
+			<text>Exit</text>
+			<asset>exitRight</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

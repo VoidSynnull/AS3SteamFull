@@ -1,0 +1,51 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">wormhole_no_strings.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="trigger">
+		<asset id="player" loop="true">thrusters_loop_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="debris1Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris2Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris3Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris4Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris5Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris6Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris7Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris8Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris11Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris12Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris14Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris15Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris16Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris17Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris18Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		<asset id="debris19Hit" baseVolume="2">machine_impact_01.mp3, machine_impact_02.mp3, machine_impact_03.mp3, machine_impact_04.mp3, machine_impact_05.mp3, machine_impact_06.mp3</asset>
+		
+		<asset id="debris9Hit" baseVolume="2">snow_large_impact_03.mp3</asset>
+		<asset id="debris10Hit" baseVolume="2">snow_large_impact_03.mp3</asset>
+		<asset id="debris13Hit" baseVolume="2">snow_large_impact_03.mp3</asset>
+		
+		<asset id="rock1Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock2Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock3Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock4Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock5Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock6Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock7Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock8Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock9Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock10Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock11Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock12Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock13Hit" baseVolume="2">stone_break_06.mp3</asset>
+		<asset id="rock14Hit" baseVolume="2">stone_break_06.mp3</asset>
+		
+		<asset id="miasmaTop" baseVolume="2">torch_fire_extinguish_02.mp3</asset>
+		<asset id="miasmaBottom" baseVolume="2">torch_fire_extinguish_02.mp3</asset>
+		<asset id="floor">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+</sounds>

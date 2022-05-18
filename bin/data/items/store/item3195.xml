@@ -1,0 +1,64 @@
+<item id="3195">
+		<type>store</type>
+		<subType>general</subType>
+		
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeTitle">
+			<value>Crystal Crusader</value>
+		</text>
+		<text id="storeSubTitle">
+			<value>Ice to Meet You!</value>
+		</text>
+	</textfields>
+	
+	<radiobuttons>
+			<btn>
+				<color>0x92D8F5</color>
+				<val>0</val>
+			</btn>
+			<btn>
+				<color>0x14A5E2</color>
+				<val>1</val>
+			</btn>
+		</radiobuttons>
+		
+	<looks>
+		<look>
+			<mouth>teethGrin1</mouth>
+			<hair>ticesh</hair>
+			<facial>ticesh</facial>
+			<pants>ticesh</pants>
+			<shirt>ticesh</shirt>
+			<item>ticeshshield</item>
+			<pack>ticesh</pack>
+		</look>
+		<look>
+			<mouth>teethGrin1</mouth>
+			<hair>ticesh</hair>
+			<facial>ticesh</facial>
+			<pants>ticesh</pants>
+			<shirt>ticesh</shirt>
+			<item>ticeshstaff</item>
+			<pack>ticesh</pack>
+		</look>
+	</looks>
+</item>

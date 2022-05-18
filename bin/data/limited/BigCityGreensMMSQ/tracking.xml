@@ -1,0 +1,26 @@
+<tracking>
+	<track id="Cricket">
+		<event>EngagedOutsideNPC</event>
+		<choice>Cricket</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Tilly">
+		<event>EngagedOutsideNPC</event>
+		<choice>Tilly</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="Bill">
+		<event>EngagedOutsideNPC</event>
+		<choice>Bill</choice> <!-- *** npc name -->
+	</track>
+	<track id="Gramma">
+		<event>EngagedOutsideNPC</event>
+		<choice>Gramma</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="poster">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

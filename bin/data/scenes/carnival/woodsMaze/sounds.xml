@@ -1,0 +1,18 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">Lewis_and_Clark_Expedition.mp3</asset>
+		<asset loop="true" event ="set_evening">Twisted_Old_Forest.mp3</asset>
+		<asset loop="true" event ="set_night">forest_night.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+	</sound>
+</sounds>

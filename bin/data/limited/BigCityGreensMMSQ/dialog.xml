@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="Cricket">
+		<statement>I'm Cricket! Come on in.</statement>
+		<statement triggeredByEvent="npcProximity">Howdy!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="Tilly">
+		<statement>Woohooooo, my name's Tilly.</statement>
+	</character>
+	<character id="Bill">
+		<statement>Folks call me Bill.</statement>
+	</character>
+	<character id="Gramma">
+		<statement>I'm Gramma. The only way you're going to get me down that slimy old crime hole is ya drag me, kicking and screaming.</statement>
+	</character>
+</dialogs>

@@ -1,0 +1,22 @@
+<part>
+	<id>zeus</id>
+	<asset>basic_dress</asset>
+	<type>pants</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>leg1</part>
+		<part>leg2</part>
+	</hide>
+	<colors>
+		<color id="pantsColor">0xE23702</color>
+	</colors>
+	<colorables>
+		<colorable id="pantsColor">
+			<clip instanceName="dress.colorShape1"/>
+		</colorable>
+	</colorables>
+	<components>
+		<component class="game.components.entity.character.part.pants.Dress"></component>
+		<component class="engine.components.SpatialAddition"></component>
+  	</components>
+</part>

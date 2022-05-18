@@ -1,0 +1,30 @@
+<!-- this file gets pulled down from the server for any campaign with cards -->
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<!-- MMQ, MMSQ and MBBQ campaigns will refer to this file instead of a campaign.xml file in the own folders -->
+<campaign>
+  	<campaignId>VideoTest</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.legobatman.com</clickUrl>
+	</clickUrls>
+	<!-- impressions when clicking (ClickToSponsor event) by category or id-->
+	<impressionOnClicks>
+	</impressionOnClicks>
+	<!-- third-party impressions by event name -->
+	<impressionUrls>
+		<impressions id="Home Web Carousel 1">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740524;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="standard">https://z.moatads.com</impression>
+		</impressions>
+		<impressions id="VideoClicked">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740794;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="standard">https://z.moatads.com</impression>
+		</impressions>
+		<impressions id="VideoReplayed">
+			<impression type="standard">https://ad.doubleclick.net/ddm/trackimp/N783065.270649POPTROPICA/B20692808.215740794;dc_trk_aid=413060261;dc_trk_cid=97552632;ord=[RANDOM];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?</impression>
+			<impression type="standard">https://z.moatads.com</impression>
+		</impressions>
+	</impressionUrls>
+</campaign>

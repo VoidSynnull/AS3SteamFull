@@ -1,0 +1,97 @@
+<npcs>
+	<npc id="attacker">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf08b2c</hairColor>
+			<mouth>prisoner3</mouth>
+			<marks>bl_carson</marks>
+			<facial>viking_river</facial>
+			<hair>viking_river</hair>
+			<shirt>viking_river</shirt>
+			<pants>1</pants>
+			<pack>viking_river</pack>
+			<overshirt>viking_river</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>-100</x>
+			<y>205</y>
+		</position>
+		<direction>right</direction>
+		<scale>0.45</scale>
+	</npc>
+	
+	<npc id="npc1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xB77E48</skinColor>
+			<hairColor>0x4A2C17</hairColor>
+			<mouth>1</mouth>
+			<eyeState>casual</eyeState>
+		</skin>
+		<position>
+			<x>105</x>
+			<y>-20</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="npc2">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xeeccb3</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>prisoner5</mouth>
+			<marks>bangs1</marks>
+			<hair>comic_mya</hair>
+			<shirt>comic_mya</shirt>
+			<pants>comic_mya</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>35</x>
+			<y>-20</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="npc3">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf4dbca</skinColor>
+			<hairColor>0xe9b667</hairColor>
+			<mouth>comic_oliver</mouth>
+			<marks>comic_oliver</marks>
+			<hair>comic_oliver</hair>
+			<shirt>comic_oliver</shirt>
+			<pants>comic_oliver</pants>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>-35</x>
+			<y>-20</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="npc4">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xf4dbca</skinColor>
+			<hairColor>0x333538</hairColor>
+			<mouth>comic_jorge</mouth>
+			<hair>comic_jorge</hair>
+			<shirt>comic_jorge</shirt>
+			<pants>comic_jorge2</pants>
+			<pack>comic_jorge</pack>
+			<overshirt>comic_jorge</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>-105</x>
+			<y>-20</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+</npcs>

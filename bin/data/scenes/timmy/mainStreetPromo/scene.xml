@@ -1,0 +1,76 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>5445</right>
+		<bottom>1600</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>-100</top>
+		<right>5445</right>
+		<bottom>1560</bottom>
+	</bounds>
+	<data>custom.xml,dialog.xml,doors.xml,hits.xml,sounds.xml</data>
+	<assets></assets>
+	<layers>
+		<!-- <layer>
+			<asset>backdrop0.swf</asset>
+			<rate>.75</rate>
+		</layer> 
+		 
+		<layer>
+			<asset>backdrop1.swf</asset>
+			<rate>.75</rate>
+		</layer> 
+		
+		<layer>
+			<asset>backdrop2.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		-->
+	
+		<layer>
+			<asset>backdrop3.swf</asset>
+			<rate>.75</rate>
+		</layer> 
+	<!-- 	
+		<layer>
+			<asset>background0.swf</asset>
+			<rate>1</rate>
+		</layer>
+		
+		
+		<layer>
+			<asset>background1.swf</asset>
+			<rate>1</rate>
+		</layer>
+
+		<layer id="background">
+			<asset>background2.swf</asset>
+			<rate>1</rate>
+		</layer>
+		-->
+		<layer id="background">
+			<asset>background3.swf</asset>
+			<rate>1</rate>
+		</layer>
+		
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>4550</x>
+			<y>1555</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

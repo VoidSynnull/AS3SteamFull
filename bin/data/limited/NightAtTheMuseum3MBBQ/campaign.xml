@@ -1,0 +1,21 @@
+<campaign>
+  	<campaignId>NightAtTheMuseum3BBQuest</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Night at the Museum 3</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">http://www.nightatthemuseummovie.com/</clickUrl> <!-- Must match click thru URL in CMS -->
+	</clickUrls>
+	<cards>
+		<card>2642</card>
+		<card>2643</card>
+		<card>2644</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2642</card>
+		<card>2644</card>
+	</boycards>
+	<girlcards>
+		<card>2643</card>
+		<card>2644</card>
+	</girlcards>
+</campaign>

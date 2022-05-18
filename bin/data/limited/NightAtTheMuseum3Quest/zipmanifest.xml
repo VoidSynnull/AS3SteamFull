@@ -1,0 +1,225 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/NightAtTheMuseum3Quest/" ext="xml">
+		<asset>campaign</asset>
+		<asset>zipmanifest</asset>
+		<asset>classes</asset>
+		<asset>popup/page</asset>
+	</data>
+	
+	<!-- main street xml files and swfs -->
+	<!-- from scene.xml in ad scene plus scene.xml -->
+	<data type="game" path="data/limited/NightAtTheMuseum3Quest/mainStreet/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>doors.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>custom.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>popup.xml</asset>
+	</data>
+
+	<data type="game" path="assets/limited/NightAtTheMuseum3Quest/mainStreet/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/NightAtTheMuseum3Quest_Interior/">
+		<asset>scene.xml</asset>
+		<asset>dialog.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hotspots.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/NightAtTheMuseum3Quest_Interior/">
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>foreground.swf</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/NightAtTheMuseum3Quest_Game/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>game.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/NightAtTheMuseum3Quest_Game/" ext="swf">
+		<asset>background</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/NightAtTheMuseum3Quest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>mainStreet/background</asset>
+		<asset>mainStreet/interactive</asset>
+		<asset>icon</asset>
+		<asset>island</asset>
+		<asset>logo</asset>
+		<asset>popup/background</asset>
+		<asset>popup/slides</asset>
+	</assets>
+	
+	<!-- creature files -->
+	<data type="creature" path="data/entity/character/" keep="true">
+		<asset>parts/foot/creature.xml</asset>
+		<asset>parts/hand/creature.xml</asset>
+		<asset>animation/creature/navigation/stand.xml</asset>
+		<asset>animation/creature/navigation/walk.xml</asset>
+		<asset>animation/creature/navigation/jump.xml</asset>
+		<asset>animation/creature/navigation/fall.xml</asset>
+		<asset>animation/creature/navigation/land.xml</asset>
+		<!--<asset>animation/creature/navigation/hurt.xml</asset>-->
+	</data>
+	<assets type="creature" path="assets/entity/character/" keep="true">
+		<asset>foot/creature.swf</asset>
+		<asset>hand/creature.swf</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2642</asset>
+		<asset>2643</asset>
+		<asset>2644</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2644</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPurple</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>prisoner4</asset>
+		<asset>fire_mouth</asset>
+		<asset>15</asset>
+		<asset>cleo</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>prisoner4</asset>
+		<asset>fire_mouth</asset>
+		<asset>15</asset>
+		<asset>cleo</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>shadow2</asset>
+		<asset>goat4</asset>
+		<asset>nw_sportsowner</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>shadow2</asset>
+		<asset>goat4</asset>
+		<asset>nw_sportsowner</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>franklin</asset>
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>franklin</asset>
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>nightmuseum3_caveman</asset>
+		<asset>poptropicon_hero2</asset>
+		<asset>teddy</asset>
+		<asset>cleo</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>nightmuseum3_caveman</asset>
+		<asset>poptropicon_hero2</asset>
+		<asset>teddy</asset>
+		<asset>cleo</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>nightmuseum3_lance</asset>
+		<asset>caprisun_guide</asset>
+		<asset>cleo</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>nightmuseum3_lance</asset>
+		<asset>caprisun_guide</asset>
+		<asset>cleo</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>7</asset>
+		<asset>astroguard1</asset>
+		<asset>astromanure</asset>
+		<asset>cleo</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>7</asset>
+		<asset>astroguard1</asset>
+		<asset>astromanure</asset>
+		<asset>cleo</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+		<asset>dexter_back</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+		<asset>dexter_back</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>nightmuseum3_cave</asset>
+		<asset>natm3_tablet</asset>
+		<asset>pegyptq</asset>
+		<asset>lancelotsword</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>nightmuseum3_cave</asset>
+		<asset>natm3_tablet</asset>
+		<asset>pegyptq</asset>
+		<asset>lancelotsword</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>nightmuseum3_cave</asset>
+		<asset>astroguard1</asset>
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>nightmuseum3_cave</asset>
+		<asset>astroguard1</asset>
+		<asset>dexter</asset>
+		<asset>natm3_tric</asset>
+	</assets>
+	<data type="overpants" path="data/entity/character/parts/overpants/" prefix="limited_" ext="xml">
+	</data>
+	<assets type="overpants" path="assets/entity/character/overpants/" prefix="limited_" ext="swf">
+	</assets>
+</manifest>

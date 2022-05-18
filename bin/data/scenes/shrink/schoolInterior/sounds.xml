@@ -1,0 +1,33 @@
+<sounds>
+	<sound type="music">
+		<asset>none</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">crowd_muffled.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorMainStreet">openDoor_pushBar.mp3</asset>
+		<asset id="doorSchoolCafetorium">openDoor_pushBar.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="lockers">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="chair">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="bubbler">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="woodenBench">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="machine">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="lockers">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="chair">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="bubbler">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="woodenBench">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="machine">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+	</sound>
+</sounds>

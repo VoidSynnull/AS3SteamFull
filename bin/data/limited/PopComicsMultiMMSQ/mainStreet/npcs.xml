@@ -1,0 +1,22 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF1D897</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>limited_comic_scarecrow</facial>
+			<pants>limited_comic_oliver</pants>
+			<overshirt>limited_comic_scarecrow</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>565</x>
+			<y>595</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

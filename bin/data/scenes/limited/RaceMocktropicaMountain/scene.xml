@@ -1,0 +1,43 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>1794</right>
+		<bottom>5507</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>1894</right>
+		<bottom>5423</bottom>
+	</bounds>
+	<data>dialog.xml,npcs.xml,sounds.xml,hits.xml,rewards.xml,actions.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdropDay.swf</asset>
+			<rate>.75</rate>
+		</layer>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1750</x>
+			<y>5423</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+	<saveLocation>false</saveLocation>
+</scene>

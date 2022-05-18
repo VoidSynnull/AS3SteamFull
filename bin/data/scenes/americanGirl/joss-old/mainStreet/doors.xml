@@ -1,0 +1,68 @@
+<doors>
+	<door id="exitToMap">
+		<scene>game.scenes.map.map.Map</scene>
+		<x>0</x>
+		<y>0</y>
+		<label>
+			<text>TRAVEL</text>
+			<type>exitUp</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorTheater" campaignName="AmericanGirlQuest">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=AmericanGirlQuest_InteriorTheater</scene> <!-- AS3 destination -->
+			 <x>130</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorGym" campaignName="AmericanGirlQuest">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=AmericanGirlQuest_InteriorGym</scene> <!-- AS3 destination -->
+			 <x>250</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorShop" campaignName="AmericanGirlQuest">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=AmericanGirlQuest_InteriorShop</scene> <!-- AS3 destination -->
+			 <x>1300</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="doorSurfShop" campaignName="AmericanGirlQuest">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=AmericanGirlQuest_InteriorSurfShop</scene> <!-- AS3 destination -->
+			 <x>993</x>
+			<y>1485</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

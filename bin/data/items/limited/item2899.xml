@@ -1,0 +1,49 @@
+<item id="2899"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Father's Day Card</name> <!-- *** Change this card name -->
+  	<campaignID>Incredibles2Autocard</campaignID> <!-- *** Change this CMS name -->
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<label>PRINT</label>
+			<actions>
+				<action type="printPoster" tracking="true">
+					<parameters>
+						<param id="path">posters/Incredibles2.swf</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT WEBSITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="true" />
+	  		</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Incredibles 2</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Father's Day Card</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundRed.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+		<asset id="cardContent" /> <!-- Will use content bin/assets/items/limited/item9999.swf -->
+  	</assets>
+</item>

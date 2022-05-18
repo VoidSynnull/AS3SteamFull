@@ -1,0 +1,13 @@
+<dialogs>
+	<!--  character 1  -->
+	<character id="hotdogVendor">
+		<statement triggerEvent="giveItem" triggerEventArgs="hotdog">Nothing like a good hot dog during a crisis.</statement>
+    	<statement event="gotItem_hotdog">Enjoy your hot dog.</statement>
+    </character>
+    
+    <!--  character 2 -->
+    <character id="policeman">
+    	<statement>I need some backup here.  Just watch out for flying rocks!</statement>
+    	<statement event="beat_boss_3">Thanks for your help. I'll secure the area.</statement>
+    </character>
+</dialogs>

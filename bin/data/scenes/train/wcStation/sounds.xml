@@ -1,0 +1,19 @@
+<sounds>
+	<sound type="ambient">
+		<asset absoluteUrl="true">effects/steam_01.mp3</asset>
+		<asset>steam_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="trainPlatform">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="rope">ls_wicker_01.mp3, ls_wicker_02.mp3</asset>
+		<asset id="roof">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="baseGround">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="trainPlatform">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="rope">fs_wicker_01.mp3, fs_wicker_02.mp3, fs_wicker_03.mp3, fs_wicker_04.mp3</asset>
+		<asset id="roof">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="baseGround">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+	</sound>
+</sounds>

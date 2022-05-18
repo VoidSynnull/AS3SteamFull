@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="bubby">		
+		<statement link="eek" linkEntityId="sissy" triggerEvent="triggerEvent" triggerEventArgs="bubbyPose">Grr, I'm a monster!</statement>
+		<statement id="nope">You're not even scary!</statement>
+    </character>    
+        
+    <character id="sissy">		
+		<statement id="eek">Eek, don't capture me, Mr. Monster!</statement>
+		<statement link="nope" linkEntityId="bubby" triggerEvent="triggerEvent" triggerEventArgs="sissyPose">Grr! Now I'm a monster!</statement>
+    </character>
+</dialogs>

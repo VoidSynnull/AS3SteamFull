@@ -1,0 +1,17 @@
+<!-- set "Click through URL" field in CMS to campaign.xml to support handling of cards -->
+<campaign>
+  	<campaignId>UpsideDownMagicVBB</campaignId> <!-- *** Must match campaign folder name -->
+  	<version>2</version> <!-- version number that doesn't use steet paths -->
+	<lockVideo>true</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+ 	
+	<clickUrls>
+		<clickUrl id="Default">https://disneynow.com/shows/upside-down-magic</clickUrl>
+	</clickUrls>
+	
+	<boycards>
+		<card>2016</card>
+	</boycards>
+	<girlcards>
+		<card>2016</card>
+	</girlcards>
+</campaign>

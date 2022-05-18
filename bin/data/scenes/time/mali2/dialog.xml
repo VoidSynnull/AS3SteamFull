@@ -1,0 +1,14 @@
+<dialogs>
+	<character id="char1">
+		<statement event="gotItem_declaration" triggerEvent="triggerEvent" triggerEventArgs="maliDocs_openPuzzle">text1</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="maliDocs_openPuzzle">text2</statement>
+    	<statement id="docTalk6">text3</statement>
+    	<statement id="docTalk7" triggerEvent="giveItem" triggerEventArgs="declaration, char1">text4</statement>
+    </character>
+	<character id="char2">
+		<statement>text5</statement>
+    </character>
+	<character id="char3">
+		<statement>text6</statement>
+    </character>
+</dialogs>

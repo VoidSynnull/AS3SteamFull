@@ -1,0 +1,85 @@
+<groups>
+	<group event="no_intro_yard" triggerAndSave="true">
+		<and>
+			<event type="yard_intro_shown" not="true"/>
+		</and>
+	</group>
+	<group event="not_sent_to_cell" triggerAndSave="true">
+		<and>
+			<event type="shown_cell_intro" not="true"/>
+		</and>
+	</group>
+	<group event="bigTunaFree" triggerAndSave="true">
+		<or>
+			<event type="yard_intro_shown" not="true"/>
+			<event type="drilled_plate"/>
+		</or>
+	</group>
+	
+	<group event="all_eggs_parole_next" triggerAndSave="true">
+		<and>
+			<event type="parole_next_day_patches"/>
+			<event type="eggs_collected_3"/>
+		</and>
+	</group>
+	
+	<group event="all_eggs_parole_passed" triggerAndSave="true">
+		<and>
+			<event type="parole_passed_patches"/>
+			<event type="eggs_collected_3"/>
+		</and>
+	</group>
+	
+	<group event="traded_eggs" triggerAndSave="true">
+		<and>
+			<event type="gotItem_eggs"/>
+			<event type="hasItem_eggs" not="true"/>
+		</and>
+	</group>
+	
+	<group event="got_all_eggs" triggerAndSave="true">
+		<and>
+			<event type="eggs_collected_1"/>
+			<event type="eggs_collected_2"/>
+			<event type="eggs_collected_3"/>
+<!-- 			<event type="need_eggs"/>			 -->
+			<event type="hasItem_eggs"/>
+		</and>
+	</group>
+	
+	<group event="planted_seeds" triggerAndSave="true">
+		<and>
+			<event type="hasItem_sunflower_seeds" not="true"/>
+			<event type="gotItem_sunflower_seeds"/>
+			<event type="gotItem_sunflower" not="true"/>
+		</and>
+	</group>
+	
+	<group event="ask_for_prison_files" triggerAndSave="true">
+		<and>
+			<event type="yard_intro_shown"/>
+			<event type="hasItem_prison_files" not="true"/>
+			<event type="marion_given_gum" not="true"/>
+		</and>
+	</group>
+	
+	<group event="give_painted_head_back" triggerAndSave="true">
+		<and>
+			<event type="hasItem_painting"/>
+			<event type="gotItem_dummy_head"/>
+			<event type="hasItem_dummy_head" not="true"/>
+			<event type="gotItem_painted_dummy_head" not="true"/>
+			<event type="give_tonight" not="true"/>
+		</and>
+	</group>
+	
+	<group event="give_painted_pasta_back" triggerAndSave="true">
+		<and>
+			<event type="hasItem_painting"/>
+			<event type="gotItem_uncooked_pasta"/>
+			<event type="hasItem_uncooked_pasta" not="true"/>
+			<event type="gotItem_painted_pasta" not="true"/>
+			<event type="give_tonight" not="true"/>
+		</and>
+	</group>
+</groups>

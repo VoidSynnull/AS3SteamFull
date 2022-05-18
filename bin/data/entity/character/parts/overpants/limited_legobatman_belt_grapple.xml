@@ -1,0 +1,15 @@
+<part>
+	<id>limited_legobatman_belt_grapple</id>
+	<type>overpants</type>
+	<campaignID>2828</campaignID>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/LegoBatmanQuest/grapple.swf</param>
+			<param id="tracking">LegoBatmanQuest,use grapple</param>
+		</parameters>
+	</specialAbility>
+</part>

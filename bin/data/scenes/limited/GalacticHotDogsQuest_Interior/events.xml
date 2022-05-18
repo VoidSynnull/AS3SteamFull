@@ -1,0 +1,55 @@
+<events>
+	<group type="dialogStart" id="cosmoe">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+	</group>
+	<group type="triggered" id="jerkrun">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">hooded_jerk</param2>
+			<param3 id="target">1600,785</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jack1</param2>
+			<param3 id="target">1500,785</param3>
+		</event>
+		<event>
+			<param1 id="action">moveToTarget</param1>
+			<param2 id="npcID">jack2</param2>
+			<param3 id="target">1350,785</param3>
+		</event>
+		<event>
+			<param1 id="action">wait</param1>
+			<param2 id="delay">2</param2>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">cosmoe</param2>
+			<param3 id="sayID">doneJerkRun</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">hooded_jerk</param2>
+			<param3 id="coords">-100,785</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">jack1</param2>
+			<param3 id="coords">-200,785</param3>
+		</event>
+		<event>
+			<param1 id="action">setSpatial</param1>
+			<param2 id="npcID">jack2</param2>
+			<param3 id="coords">-350,785</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

@@ -1,0 +1,16 @@
+<part>
+	<id>storediscus1</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility id="discThrow">
+		<className>game.data.specialAbility.character.DiscThrow</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="color">0xA08C52</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

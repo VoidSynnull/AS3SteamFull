@@ -1,0 +1,33 @@
+<dialogs>
+	<character id="timmy">
+	<!-- 	<conversation>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="talk">Who are you?</question>
+				<answer>I'm Timmy Failure, the world's greatest detective. And I'm finally getting my own Poptropica Island.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="talk">That's cause for a celebration!</question>
+				<answer triggerFirst="true" triggerEvent="triggerEvent" triggerEventArgs="store_icon">Right, that's why you can use the promo code "TIMMY" in the Poptropica Store to get 50 free credits.</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="talk">Great! I love free stuff.</question>
+				<answer>Come back next Thursday for something else new.</answer>
+			</exchange>
+		</conversation> -->
+		
+	<!-- <statement id="got_costume">Come back next Thursday and I might have something else for you.</statement>
+		<statement triggerEvent="giveItem" triggerEventArgs="3439">You need a good disguise to do detective work. Nothing is less conspicuous than a polar bear costume.</statement> -->
+		
+	<!-- <statement id="got_poster">You've already got this week's prize. Come back next Thursday for something else new.</statement>
+	<statement>A good detective is only as good as his advertising. You need a customized poster.</statement> <!--  triggerEvent="giveItem" triggerEventArgs="3444" -->
+	
+	<!-- <statement>Timmy Failure Island is almost done, but the common room is open now!</statement>  -->
+	
+	<!-- <statement triggerEvent="giveItem" triggerEventArgs="3440">I feel different, somehow. More colorful. Here's a free coloring page for you.</statement>
+		<statement id="gotItem_3440">Don't waste your time talking to me. Color that page!</statement>    -->
+		
+		<statement triggerFirst="true" triggerEvent="triggerEvent" triggerEventArgs="store_icon2">Like my scarf? You can get your own in the Poptropica Store. Use the code "LOSTPANTS" and get 75 credits! Come back 9/17 to play Timmy Failure Island!</statement>
+		
+	<!-- <statement id="got_scarf">How much more free swag can I give you? Timmy Failure Island is coming next week!</statement>  -->
+	</character>
+</dialogs>

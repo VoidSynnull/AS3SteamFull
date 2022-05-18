@@ -1,0 +1,222 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PopComicsMultiQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>campaign</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/PopComicsMultiQuest_Interior/">
+		<asset>dialog.xml</asset>
+		<asset>events.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>hotspots.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>sounds.xml</asset>
+		<asset>tracking.xml</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/PopComicsMultiQuest_Interior/">
+		<asset>backdrop.swf</asset>
+		<asset>background.swf</asset>
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/PopComicsMultiQuest_GameFlying/">
+		<asset>dialog.xml</asset>
+		<asset>game.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>motionMaster.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>scene.xml</asset>
+		<asset>segmentPatterns.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/PopComicsMultiQuest_GameFlying/">
+		<asset>interactive.swf</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/PopComicsMultiQuest_GameFinding/">
+		<asset>scene.xml</asset>
+		<asset>hits.xml</asset>
+		<asset>npcs.xml</asset>
+		<asset>game.xml</asset>
+		<asset>sounds.xml</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/PopComicsMultiQuest_GameFinding/">
+		<asset>background.swf</asset>
+		<asset>foreground.swf</asset>
+		<asset>background2.swf</asset>
+		<asset>interactive.swf</asset>
+		<asset>backdrop.swf</asset>
+	</assets>
+	
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/PopComicsMultiQuest/" ext="swf">
+		<asset>StartFlying</asset>
+		<asset>WinFlying</asset>
+		<asset>LoseFlying</asset>
+		<asset>banana_peel</asset>
+		<asset>StartFinding</asset>
+		<asset>WinFinding</asset>
+		<asset>LoseFinding</asset>
+		<asset>coconut</asset>
+	</assets>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2552</asset>
+		<asset>2692</asset>
+		<asset>2693</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2552</asset>
+		<asset>2693</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundBlue</asset>
+	</assets>
+
+	<!-- animation xml files -->
+	<data type="animation" path="data/entity/character/animation/human/" ext="xml" keep="true">
+		<asset>standNinja</asset>
+		<asset>throw</asset>
+	</data>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/music/" ext="mp3" keep="true">
+		<asset>ad_interior_scene</asset>
+		<asset>chase_game</asset>
+		<asset>collection_game</asset>
+	</assets>
+
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>flesh_impact_03</asset>
+		<asset>wood_impact_02</asset>
+		<asset>ls_heavy_metal_02</asset>
+		<asset>whoosh_05</asset>
+		<asset>ls_bounce_01</asset>
+		<asset>ls_bounce_02</asset>
+		<asset>ls_bounce_03</asset>
+		<asset>explosion_01</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="mouth" path="data/entity/character/parts/mouth/" prefix="limited_" ext="xml">
+		<asset>leo</asset>
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+		<asset>shadycop</asset>
+		<asset>hashimoto</asset>
+		<asset>fm5</asset>
+		<asset>wwgambler</asset>
+	</data>
+	<assets type="mouth" path="assets/entity/character/mouth/" prefix="limited_" ext="swf">
+		<asset>leo</asset>
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+		<asset>shadycop</asset>
+		<asset>hashimoto</asset>
+		<asset>fm5</asset>
+		<asset>wwgambler</asset>
+	</assets>
+	<data type="marks" path="data/entity/character/parts/marks/" prefix="limited_" ext="xml">
+		<asset>comic_oliver</asset>
+		<asset>comic_monkey1</asset>
+	</data>
+	<assets type="marks" path="assets/entity/character/marks/" prefix="limited_" ext="swf">
+		<asset>comic_oliver</asset>
+		<asset>comic_monkey1</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" prefix="limited_" ext="xml">
+		<asset>comic_scarecrow</asset>
+		<asset>comic_tinman</asset>
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" prefix="limited_" ext="swf">
+		<asset>comic_scarecrow</asset>
+		<asset>comic_tinman</asset>
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</assets>
+	<data type="hair" path="data/entity/character/parts/hair/" prefix="limited_" ext="xml">
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" prefix="limited_" ext="swf">
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+	</assets>
+	<data type="shirt" path="data/entity/character/parts/shirt/" prefix="limited_" ext="xml">
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+	</data>
+	<assets type="shirt" path="assets/entity/character/shirt/" prefix="limited_" ext="swf">
+		<asset>comic_jorge</asset>
+		<asset>comic_oliver</asset>
+	</assets>
+	<data type="pants" path="data/entity/character/parts/pants/" prefix="limited_" ext="xml">
+		<asset>comic_oliver</asset>
+		<asset>comic_jorge</asset>
+		<asset>comic_jorge_broom</asset>
+		<asset>comic_oliver</asset>
+		<asset>comic_oliver_broom</asset>
+	</data>
+	<assets type="pants" path="assets/entity/character/pants/" prefix="limited_" ext="swf">
+		<asset>comic_oliver</asset>
+		<asset>comic_jorge</asset>
+		<asset>comic_jorge_broom</asset>
+		<asset>comic_oliver</asset>
+		<asset>comic_oliver_broom</asset>
+	</assets>
+	<data type="pack" path="data/entity/character/parts/pack/" prefix="limited_" ext="xml">
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</data>
+	<assets type="pack" path="assets/entity/character/pack/" prefix="limited_" ext="swf">
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</assets>
+	<data type="item" path="data/entity/character/parts/item/" prefix="limited_" ext="xml">
+		<asset>comic_tinman</asset>
+		<asset>banana_peel</asset>
+		<asset>banana</asset>
+		<asset>comics_coconut</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" prefix="limited_" ext="swf">
+		<asset>comic_tinman</asset>
+		<asset>banana_peel</asset>
+		<asset>banana</asset>
+		<asset>comics_coconut</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" prefix="limited_" ext="xml">
+		<asset>comic_tinman</asset>
+		<asset>comic_scarecrow</asset>
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" prefix="limited_" ext="swf">
+		<asset>comic_tinman</asset>
+		<asset>comic_scarecrow</asset>
+		<asset>comic_lion</asset>
+		<asset>comic_monkey1</asset>
+	</assets>
+</manifest>

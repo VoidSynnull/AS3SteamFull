@@ -1,0 +1,34 @@
+<part>
+	<id>limited_frootloop_shooter</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2907</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/FruitLoopsQuest/cereal.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+	  		<param id="colors">0x7fdbfb,0x9ff89c,0x89536a,0xed584c</param>
+			<param id="tracking">FruitLoopsQuest,blast</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="ColorizeNPCAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="number">[color]</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,36 @@
+<events>
+	<group type="triggered" id="initScene">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Sherlock</param2>
+			<param3 id="sayID">init</param3>
+		</event>
+	</group>
+	<group type="triggered" id="initSceneReturn">
+	</group>
+	<group type="triggered" id="start">
+		<event>
+			<param1 id="action">lockInput</param1>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">player</param2>
+			<param3 id="sayID">init</param3>
+		</event>
+		<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">Sherlock</param2>
+			<param3 id="sayID">quest</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param2 id="function">loadStartPopup</param2>
+		</event>
+		<event>
+			<param1 id="action">unlockInput</param1>
+		</event>
+	</group>
+</events>

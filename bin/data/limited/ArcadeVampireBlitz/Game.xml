@@ -1,0 +1,18 @@
+<game>
+	<campaign>ArcadeVampireBlitz</campaign>
+	<bgMusic>dangerous_pursuit.mp3</bgMusic>
+	<frameRate>31</frameRate>
+	<timeout>30</timeout>
+	<targetSpeed>8</targetSpeed>
+	<shootDelay>15</shootDelay>
+	<projectileName>garlic</projectileName>
+	<projectileTotal>1</projectileTotal>
+	<projectileFrames>22</projectileFrames>
+	<!-- from bottom row to top row -->
+	<targets>vamp1,ghost1,demon1,bat1,vamp3,ghost2,vamp2,ghost3,vamp4,bat2</targets>
+	<weights>0.01,0.01,0.02,0.005,0.01,0.01,0.01,0.01,0.01,0.005</weights>
+	<scores>120,-25,50,200,100,-25,140,-25,160,200</scores>
+	<delays>29,30,50,20,31,30,27,30,25,20</delays>
+	<distances>10,10,10,12,12,12,14,13,13,13</distances>
+	<sfx>pop_04.mp3</sfx>
+</game>

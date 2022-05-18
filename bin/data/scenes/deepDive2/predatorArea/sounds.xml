@@ -1,0 +1,26 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">dark_atmosphere.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="revealShark">Boss_Battle_Theme.mp3</asset>
+		<asset loop="true" fade="true" exclusiveType="true" triggeredByEvent="sharkTrapped">dark_atmosphere.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">dark_low_ambient.mp3</asset>
+	</sound>
+	<sound type="effects" action="randomEvents">
+		<asset triggeredByEvent="getFish">ping_18.mp3</asset>
+		<asset triggeredByEvent="revealShark">frightening_reveal_uw.mp3</asset>
+		<asset triggeredByEvent="glassCrush">break_block_02.mp3</asset>
+		<asset triggeredByEvent="glassHit">glass_break_02.mp3,glass_break_01.mp3</asset>
+		<asset triggeredByEvent="glassBreak">glass_break_03.mp3</asset>
+		<asset triggeredByEvent="sharkChomp">big_pow_04.mp3</asset>
+		<asset triggeredByEvent="sharkEat">chewing_2a.mp3</asset>
+		<asset triggeredByEvent="sharkCharge">myth_air_bubble_01.mp3</asset>
+		<asset triggeredByEvent="sharkTrapped">power_on_07.mp3</asset>
+		<asset triggeredByEvent="got_puzzle_piece_2">points_ping_01c.mp3</asset>
+		<asset triggeredByEvent="got_puzzle_piece_6">points_ping_01c.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="metalWalls" allowOverlap="false" baseVolume="0.5">cart_bump_01.mp3,cart_bump_02.mp3,cart_bump_03.mp3</asset>
+	</sound>
+</sounds>

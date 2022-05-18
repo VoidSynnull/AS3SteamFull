@@ -1,0 +1,44 @@
+<item id="3459">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Pan</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <mouth>yogosbucks</mouth>
+			 <marks>stor_pan</marks>
+			 <facial>stor_pan</facial>
+			 <hair>stor_pan</hair>
+			 <shirt>stor_pan</shirt>
+			 <pants>satyr</pants>
+			 <pack>satyr</pack>
+			 <item>stor_pan</item>
+			 <overpants>stor_pan</overpants>
+		</look>
+	</looks> 
+
+</item>

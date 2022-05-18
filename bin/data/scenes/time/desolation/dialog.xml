@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>text4</question>
+				<answer triggerEvent="giveItem" triggerEventArgs="timeDevice">text5</answer>
+			</exchange>
+		</conversation>
+		<statement event="gotItem_timeDevice">text6</statement>
+    </character>
+</dialogs>

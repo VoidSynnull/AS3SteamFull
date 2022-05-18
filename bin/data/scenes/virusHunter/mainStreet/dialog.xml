@@ -1,0 +1,71 @@
+<dialogs>
+	<character id="player">
+		<statement id="hookOutOfReach">There's a hook, but it's out of reach.</statement>
+		<statement id="cantUseResistanceBand">There's no reason to use the resistance band right here.</statement>
+		<statement id="cantUseShreddedDocuments">Maybe somebody else around here could make sense of this.</statement>
+		<statement id="frenzied">She's frenzied! I can't get near her.</statement>
+		<statement id="stay">Stay! I'll be right back...</statement>
+	</character>
+	<character id="citizen1">
+		<statement>This has always been such a quiet town. But lately, I've been seeing a lot of new people!</statement>
+    </character>
+	<character id="citizen2">
+		<statement id="walkingHere">I'm walking here! Go back where you came from!</statement>
+		<statement>Another new arrival, eh? At least you're not wearing a white lab coat like the rest.</statement>
+    </character>
+	<character id="citizen3">
+		<statement>Something very strange is happening in this town... but I have no idea what!</statement>
+    </character>
+	<character id="youngPerson">
+		<statement id="statement1">Argh, not that pirate radio host again!</statement>
+		<statement id="statement2">I don't understand it. This only happens when I'm waiting for the bus. The signal must be coming from nearby.</statement>
+    </character>
+	<character id="bertShell">
+		<conversation>
+			<exchange>
+				<question>Excuse me.</question>
+				<answer>An intruder! How'd you find me? Satellite technology? Thermal imaging?</answer>
+			</exchange>
+			<exchange>
+				<question>I just climbed up onto the roof.</question>
+				<answer>So you're not one of those government types?</answer>
+			</exchange>
+			<exchange>
+				<question>No, I'm trying to figure out what's going on here.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="talkToBert" link="giveVanHint">Maybe we can help each other out. You get me proof that the agents of the new world order have set up shop here, and I'll get you inside.</answer>
+			</exchange>
+		</conversation>
+		<statement id="giveVanHint">I see a mysterious van parked behind that condo. Go check it out.</statement>
+		<statement id="radioTalk" triggerEvent="triggerEvent" triggerEventArgs="finishRadioTalk">The government thugs showed up a few nights ago and immediately went underground. It's my belief that this is the tip of the spear of a reptilian invasion --</statement>
+		<conversation event="gotItem_shreddedDocuments">
+			<exchange>
+				<question>Are these any help?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="openShreddedDocumentsPopup">Hmm... some of these strips are a different color than the rest. Let's separate them and see if we can piece together a document.</answer>
+			</exchange>
+		</conversation>
+		<statement id="assembledShreds" triggerEvent="triggerEvent" triggerEventArgs="takeCloserLook">Nice work! Let's take a closer look.</statement>
+		<statement event="assembled_shreds" link="getBadge">So, they're using the PDC as a front, eh? That helps us. I've got every phony government credential in the book.</statement>
+		<statement id="getBadge"  triggerEvent="giveItem" triggerEventArgs="pdcIdBadge">Let's see, FBI, CIA, DOD, NSA... a-ha! Here you go. A PDC ID badge. This should get you into the bunker.</statement>
+		<conversation event="gotItem_pdcIdBadge">
+			<exchange>
+				<question>But where is the bunker located?</question>
+				<answer>They must have set up a front somewhere. You'll have to look around.</answer>
+			</exchange>
+		</conversation>
+		<statement event="used_badge">You're on your own now.</statement>
+    </character>
+    
+    <character id="dog">
+    	<statement>Woof woof!</statement>
+    </character>
+    
+    <character id="girl">
+    	<statement id="thank_you" event="girl_in_main_street" link="ace_pilot" linkEntityId="dr_lange">Thank you for saving my dog! She's such a good girl.</statement>
+    	<statement event="exited_dog">Thank you for saving my dog! She's such a good girl.</statement>
+    </character>
+    
+    <character id="dr_lange">
+    	<statement id="ace_pilot" triggerEvent="triggerEvent" triggerEventArgs="exited_dog, true">You're an ace pilot! I hope we never need your help again, but if we do, you'll need to look the part.</statement>
+    	<statement event="exited_dog">You're an ace pilot! I hope we never need your help again.</statement>
+    </character>
+</dialogs>

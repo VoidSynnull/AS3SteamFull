@@ -1,0 +1,43 @@
+<item id="3524">
+	<type>store</type>
+	<subType>general</subType>
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"/>
+				<label>TURN ON</label>
+				<actions>
+				<action type="applyLook"/> 
+			</actions>
+			</btn>
+			<btn>
+ 			<conditional id="hasLook" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="removeLook"/>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>White Out</value>
+		</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate a Blizzard.</web>
+			<mobile>Tap ACTION to activate a Blizzard.</mobile>
+		</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+		
+	<conditionals>
+			<conditional type="hasLook" />
+		</conditionals>
+		
+		<looks>
+			<look>
+		 	<item>pwhiteout</item>
+		 	</look> 
+	</looks>
+</item>

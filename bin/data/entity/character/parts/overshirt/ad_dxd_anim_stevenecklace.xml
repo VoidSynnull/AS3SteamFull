@@ -1,0 +1,29 @@
+<part>
+	<id>ad_dxd_anim_stevenecklace</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2546</campaignID>
+	
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>false</triggerable>
+		<parameters>
+			<param id="swfPath">limited/DisneyDXDAnimacationWK1Quest/BlingPower.swf</param>
+			<param id="lockInput">false</param>
+		</parameters>
+	</specialAbility>
+	
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>xdlogo</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

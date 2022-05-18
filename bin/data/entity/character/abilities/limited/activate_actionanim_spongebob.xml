@@ -1,0 +1,46 @@
+<specialAbility id="limited/activate_actionanim_spongebob">
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+	<triggerable>true</triggerable>
+	<useButton>true</useButton>
+	<parameters>
+		<param id="actions">spongebob,patrick,tartar,barnacles</param>
+		<param id="id">2014</param>
+		<param id="tracking">SpongeBobMovieQuest,emojis</param>
+	</parameters>
+	<actions>
+		<actionChain id="now_actions_tartar">
+			<action class="TalkAction">
+				<parameters>
+					<param id="char" type="entity">player</param>
+					<param id="say_id" type="string">Aw, Tartar sauce!</param> 
+					<param id="directSayText" type="boolean">true</param> 
+				</parameters>
+			</action>
+		</actionChain>
+		<actionChain id="now_actions_barnacles">
+			<action class="TalkAction">
+				<parameters>
+					<param id="char" type="entity">player</param>
+					<param id="say_id" type="string">Oh, Barnacles!</param> 
+					<param id="directSayText" type="boolean">true</param> 
+				</parameters>
+			</action>
+		</actionChain>
+		<actionChain id="now_actions_spongebob">
+			<action class="ShowOverlayAnimAction">
+				<parameters>
+					<param id="swfpath" type="string">limited/SpongeBobMovieQuest/cameraAnim1.swf</param>
+					<param id="scalemode" type="string">player</param>
+				</parameters>
+			</action>
+		</actionChain>
+		<actionChain id="now_actions_patrick">
+			<action class="ShowOverlayAnimAction">
+				<parameters>
+					<param id="swfpath" type="string">limited/SpongeBobMovieQuest/cameraAnim2.swf</param>
+					<param id="scalemode" type="string">player</param>
+				</parameters>
+			</action>
+		</actionChain>
+	</actions>
+</specialAbility>

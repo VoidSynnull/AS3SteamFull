@@ -1,0 +1,37 @@
+<dialogs>
+	<character id="player">
+		<statement id="outCold">He's out cold.</statement>
+		<statement id="heyKey">Hey, he dropped a key.</statement>
+		<statement id="why" link="me" linkEntityId="vizier">The Sultan sent me to recover his lamp.</statement>
+		<statement id="what" link="escape" linkEntityId="vizier">He just said it was "like no other."</statement>
+    </character>
+    
+    <character id="vizier">
+		<statement id="start" link="why" linkEntityId="player">Why are you here?</statement>
+		<statement id="me" link="what" linkEntityId="player">Ah... what did he tell you about this lamp?</statement>
+		<statement id="escape" triggerEvent="triggerEvent" triggerEventArgs="viz_chatted">I may be able to give you something to aid in your quest. Find a way to my cell door without being seen.</statement>
+		<statement event="talked_to_vizier">Come find me if you escape!</statement>
+		<statement event="player_disguised" triggerEvent="giveItem" triggerEventArgs="formula">Quick! take this formula, you should be able to find the ingredients around here and assemble them at a crafting table.</statement>
+		<statement event="gotItem_formula">Find those ingredients!</statement>
+		<statement event="gotItem_magic_sand">You made the magic sand, great! try to use it to get the key to my cell from the jailer upstairs!</statement>
+		<statement event="gotItem_cell_key" triggerEvent="triggerEvent" triggerEventArgs="open_cell">You found the key, quick! get me out of here!</statement>
+    	<statement event="vizier_following">What are we waiting for? Let's go!</statement>
+    	<statement id="out">Freedom at last! let's get out of here!</statement>
+    </character>
+    
+	<character id="guard0">
+		<statement event="player_disguised">Hello fellow thief!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+		<statement id="halt" triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+    </character>
+    <character id="guard1">
+		<statement event="player_disguised">Get back to your post.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+		<statement id="halt" triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+    </character>
+    <character id="guard2">
+		<statement event="player_disguised">Greetings comrade!</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+		<statement id="halt" triggerEvent="triggerEvent" triggerEventArgs="player_caught_cells">HALT Prisoner! You're going back in your cell!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,69 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="water">
+		<!-- This causes a splash on the surface in a defined color range. -->
+		<component type="water">
+			<splashColor1>0xFF339900</splashColor1>
+			<splashColor2>0x33ccff33</splashColor2>
+			<viscosity>.9</viscosity>
+		</component>
+		<component type="mover">
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="barrelHit1">
+		<component type="platformTop"/>
+		<!--<component type="scene">
+			<visible>barrel1</visible>
+		</component>-->
+	</hit>
+	<hit id="barrelHit2">
+		<component type="platformTop"/>
+		<!--<component type="scene">
+			<visible>barrel2</visible>
+		</component>-->
+	</hit>
+	<hit id="barrelHit3">
+		<component type="platformTop"/>
+		<!--<component type="scene">
+			<visible>barrel3</visible>
+		</component>-->
+	</hit>
+	
+	<hit id="fence" color="0xDE9E5F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalCap" color="0x253C96" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metalPipe" color="0xE75F5F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concreteSiding" color="0xC1D7D3" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="concreteRoof" color="0x98B0BC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowBoards" color="0xB9A875" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="sewerPipe" color="0xA2CE84" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="shore" color="0xCABE7B" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="barrels" color="0x987758" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="smokeStack" color="0x531817" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="brickRoof" color="0xD66969" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

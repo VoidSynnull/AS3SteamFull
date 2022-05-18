@@ -1,0 +1,16 @@
+<part>
+	<id>limited_penguins_dibble</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2645</campaignID>
+	<specialAbility>
+	<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/PenguinsVendorCart/penguin.swf</param>
+			<param id="tracking">PenguinsVendorCart,Penguin Power</param>
+			<param id="alignToPlayer">true</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,50 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data path="data/limited/DisneyBakeOffAutoCards/" type="campaign" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset>
+	</data>
+
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2058</asset>
+		<asset>2059</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2058</asset>
+		<asset>2059</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundPink</asset>
+	</assets>
+
+<!-- avatar parts -->
+	<data type="item" path="data/entity/character/parts/item/" ext="xml">
+		<asset>limited_icing_blaster</asset>
+		<asset>limited_sprinkles_canon</asset>
+	</data>
+	<assets type="item" path="assets/entity/character/item/" ext="swf">
+		<asset>limited_icing_blaster</asset>
+		<asset>limited_sprinkles_canon</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_disney_apron</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_disney_apron</asset>
+	</assets>
+		<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>store_prom_party</asset>
+		<asset>limited_dara</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>store_prom_party</asset>
+		<asset>limited_dara</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_dara</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_dara</asset>
+	</assets>
+</manifest>

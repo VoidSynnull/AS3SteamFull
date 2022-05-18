@@ -1,0 +1,58 @@
+<hits>
+	<hit id="dirt" color="0xCBB4AA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="puddle" color="0xB0B4A8" platform="true">
+		<component type="platform"/>
+		<component type="emitter">
+			<className class="game.particles.emitter.WaterSplash" type="impact">
+				<params>
+					<param id="color">0x606951</param>
+					<param id="color2">0x859171</param>
+					<param id="total">4</param>
+					<param id="size">10</param>
+				</params>
+			</className>
+			<className class="game.particles.emitter.WaterSplash" type="step">
+				<params>
+					<param id="color">0x606951</param>
+					<param id="color2">0x859171</param>
+					<param id="total">4</param>
+					<param id="size">10</param>
+				</params>
+			</className>
+		</component>
+	</hit>
+	
+	<hit id="grass" color="0xDFCBA7" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="dogPath" color="0xB8B297" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rock" color="0xCBC1B9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wood" color="0xBAACA6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="treeBridge" color="0xBCB0AC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="parachute" color="0xDBC499" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+</hits>

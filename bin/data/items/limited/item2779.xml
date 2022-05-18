@@ -1,0 +1,73 @@
+<item id="2779"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Rock Star Guitar Card</name> <!-- Change this card name -->
+  	<campaignID>BeatGameTest</campaignID> <!-- Change this CMS name -->
+	
+  	<contentClass> <!-- This displays avatar -->
+  		<className>game.ui.card.CharacterContentView</className>
+  	</contentClass>
+	
+  	<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Rock Star Guitar Card" /> <!-- change tracking call -->
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+    		<label>PLAY GAME</label>
+    		<actions>
+				<action type="openPopup" tracking="Play Game"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="className">game.scenes.custom.AdStartGamePopup</param>
+	  					<param id="gameClass">game.scenes.custom.BeatGamePower</param>
+	  					<param id="gameID">BeatMusicGame</param>
+					</parameters>
+				</action>
+			</actions>
+    	</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="limited">
+			<value>FOR A LIMITED TIME ONLY</value>
+		</text>
+		<text id="subtitle">
+			<value>Rock Star</value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value>Electric Guitar</value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value>ADVERTISEMENT</value>
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundGrape.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+  	</assets>
+  	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+    
+  	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<item>limited_yellow_guitar_play</item>
+		</look>
+	</looks> 
+</item>

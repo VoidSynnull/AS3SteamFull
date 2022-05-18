@@ -1,0 +1,16 @@
+<encounters>
+	<enemies>
+		<enemy id="ship1" points="200" health="2" face="none"/><!-- none, forward or player -->
+		<enemy id="ship2" points="700" health="3" face="player"/>
+		<enemy id="ship3" points="300" health="5"/>
+	</enemies>
+	<patterns>
+		<pattern id="pattern3" time="3"/>
+		<pattern id="pattern1" time="15"/>
+		<pattern id="pattern2" time="27"/>
+		<pattern id="pattern3" time="39"/>
+		<pattern id="pattern2" time="40"/>
+		<pattern id="pattern3" time="52"/>
+		<pattern id="pattern1" time="53"/>
+	</patterns>
+</encounters>

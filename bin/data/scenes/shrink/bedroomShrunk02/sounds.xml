@@ -1,0 +1,65 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Shrink_Ray_Main_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">room_tone.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>none</asset>
+		<asset id="doorBedroomShrunk01">none</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">grab_rope_03.mp3</asset>
+		<asset id="rope1" allowOverlap="false">grab_rope_03.mp3</asset>
+		<asset id="rope2" allowOverlap="false">grab_rope_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climbDown">
+		<asset id="climb" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="rope1" allowOverlap="false">slide_down_rope_01.mp3</asset>
+		<asset id="rope2" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="fanCollider">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="telescopeBody">fs_plastic_01.mp3, fs_plastic_02.mp3, fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+		<asset id="fishTank">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="teleHit">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="scopeHit">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="collider1">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="collider2">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="dresser">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="fanBody">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="trashCanStand">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="trashCanTipped">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="bed">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="dollHead">fs_cloth_01.mp3, fs_cloth_02.mp3, fs_cloth_03.mp3, fs_cloth_04.mp3</asset>
+		<asset id="plug">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="pushPin">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="bladeHit">whack_01.mp3</asset>
+		<asset id="fanCollider">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="baseGround">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="telescopeBody">ls_plastic_01.mp3, ls_plastic_02.mp3</asset>
+		<asset id="fishTank">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="teleHit">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="scopeHit">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="collider1">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="collider2">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="dresser">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="fanBody">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="trashCanStand">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="trashCanTipped">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="bed">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="dollHead">ls_cloth_01.mp3, ls_cloth_02.mp3</asset>
+		<asset id="plug">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="pushPin">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,28 @@
+<doors>
+	<door id="topExit">
+		<scene>game.scenes.zombie.subway.Subway</scene>
+		<x>1836</x>
+		<y>372</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exitUP</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="topExit" event="zombie_rodeTrain">
+		<scene>game.scenes.zombie.subwayBunker.SubwayBunker</scene>
+		<x>684</x>
+		<y>832</y>
+		<label>
+			<text>EXIT</text>
+			<asset>exitUP</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

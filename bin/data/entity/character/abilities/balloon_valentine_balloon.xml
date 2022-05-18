@@ -1,0 +1,9 @@
+<specialAbility id="balloon_valentine_balloon">
+	<save>true</save>
+	<className>game.data.specialAbility.character.AddBalloon</className>
+	<parameters>
+		<param id="swfPath">specialAbility/objects/balloons/valentine_balloon.swf</param>
+		<param id="offsetY">-100</param>
+	</parameters>
+	<triggerable>false</triggerable>
+</specialAbility>

@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="photobooth_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xffe271</skinColor>
+			<hairColor>0xe08430</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>witch</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>beautyMark</marks>
+			<hair>witch</hair>
+			<shirt>witch</shirt>
+			<pack>witch</pack>
+			<item>broom1</item>
+			<overpants>witch</overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-100</x>
+			<y>0</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

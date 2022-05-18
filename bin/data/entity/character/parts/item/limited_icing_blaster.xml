@@ -1,0 +1,27 @@
+<part>
+	<id>limited_icing_blaster</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TimelineGun</className>
+  		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">DisneyBakeOffQuest,Icing</param>
+		</parameters>
+ 		<parameters>
+			<param id="animationClass">game.data.animation.entity.character.Salute</param>
+			<param id="triggerFrame">raised</param>
+  		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="AudioAction">
+					<parameters>
+						<param id="target" type="entity">player</param>
+						<param id="soundUrl" type="string">effects/lotion_squeeze_03.mp3</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+  	</specialAbility>
+</part>

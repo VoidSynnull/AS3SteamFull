@@ -1,0 +1,47 @@
+<layers>
+<!-- porthole layer -->
+<layer id="porthole">
+	<displayObject>art.porthole</displayObject>
+	<property>scaleY</property>
+	<offset>1.2</offset>
+	<multiplier>.4</multiplier>
+	<operation>sin</operation>
+</layer>
+<layer id="porthole">
+	<displayObject>art.porthole</displayObject>
+	<property>x</property>
+	<offset>art.porthole.x</offset>
+	<multiplier>5</multiplier>
+	<operation>sin</operation>
+</layer>
+<!-- roof layer -->
+<layer id="top">
+	<displayObject>art.top</displayObject>
+	<property>scaleY</property>
+	<offset>.95</offset>
+	<multiplier>-.05</multiplier>
+	<operation>sin</operation>
+</layer>
+<layer id="top">
+	<displayObject>art.top</displayObject>
+	<property>x</property>
+	<offset>art.top.x</offset>
+	<multiplier>6</multiplier>
+	<operation>sin</operation>
+</layer>
+<!-- ship deck layer -->
+<layer id="deck">
+	<displayObject>art.deck</displayObject>
+	<property>scaleY</property>
+	<offset>1</offset>
+	<multiplier>-.03</multiplier>
+	<operation>sin</operation>
+</layer>
+<layer id="deck">
+	<displayObject>art.deck</displayObject>
+	<property>x</property>
+	<offset>art.deck.x</offset>
+	<multiplier>3</multiplier>
+	<operation>sin</operation>
+</layer>
+</layers>

@@ -1,0 +1,42 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>-300</top>
+		<right>3038</right>
+		<bottom>900</bottom>
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>-300</top>
+		<right>3038</right>
+		<bottom>775</bottom>
+	</bounds>
+	<data>doors.xml,sounds.xml,hits.xml,custom1.xml,custom2.xml,custom3.xml,blimp.xml</data>
+	<assets></assets>
+	<layers>
+		<layer>
+			<asset>backdrop.swf</asset>
+			<rate>.9</rate>
+		</layer>
+		<layer id="background">
+			<asset>background.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1570</x>
+			<y>840</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

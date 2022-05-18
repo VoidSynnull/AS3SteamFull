@@ -1,0 +1,34 @@
+<part>
+	<id>limited_ghd_jupiterjolt</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>		
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animClass" type="class">game.data.animation.entity.character.Salute</param> 
+						<param id="waitLabel" type="String">raised</param> 
+						<param id="maxFrames" type="int">0</param> 
+						<param id="stopOnLabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="partType" type="string">item</param> 
+						<param id="startFrame" type="int">1</param> 
+						<param id="mode" type="string">gotoAndPlay</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

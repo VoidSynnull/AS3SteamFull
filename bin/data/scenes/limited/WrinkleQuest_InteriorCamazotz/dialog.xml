@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="Meg">
+		<statement>Don't trust anyone. Nothing is as it seems.</statement>
+		<statement id="init">Something about this place is very odd. I feel darkness.</statement>
+		<statement id="message">To find Mrs. Which, we need to get closer to the light.</statement>
+		<statement id="warrior">Be a warrior!</statement>
+		<statement id="done">You did it! Now I can go save my father.</statement>
+	</character>
+	<character id="player">
+		<statement id="message">OK, let's climb up high so we can get away from these strange kids.</statement>
+		<statement id="warrior">I'm scared. This is creepy. I can feel the darkness too.</statement>
+	</character>
+	<character id="MrsWhich">
+		<statement id="warrior" triggerEvent="triggerEvent" triggerEventArgs="done">You can conquer the darkness by being the light.</statement>
+	</character>
+</dialogs>

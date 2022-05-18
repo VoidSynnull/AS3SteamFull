@@ -1,0 +1,137 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/MyLittlePonyQuest/" ext="xml">
+		<asset>zipmanifest</asset>
+	</data>
+
+		<!-- interior xml files and swfs -->
+	<!-- from scene.xml in interior scene plus scene.xml -->
+	<data type="interior" path="data/scenes/limited/MyLittlePonyQuest_Interior/" ext="xml">
+		<asset>dialog</asset>
+		<asset>doors</asset>
+		<asset>events</asset>
+		<asset>hits</asset>
+		<asset>hotspots</asset>
+		<asset>npcs</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+		<asset>tracking</asset>
+	</data>
+	<!-- from scene.xml in interior scene -->
+	<assets type="interior" path="assets/scenes/limited/MyLittlePonyQuest_Interior/" ext="swf">
+		<asset>background</asset>
+		<asset>interactive</asset>
+		<asset>foreground</asset>
+	</assets>
+
+	<!-- game xml files and swfs -->
+	<!-- from scene.xml in game scene plus scene.xml -->
+	<data type="game" path="data/scenes/limited/MyLittlePonyQuest_Game/" ext="xml">
+		<asset>dialog</asset>
+		<asset>game</asset>
+		<asset>hits</asset>
+		<asset>scene</asset>
+		<asset>sounds</asset>
+	</data>
+	<!-- from scene.xml in game scene -->
+	<assets type="game" path="assets/scenes/limited/MyLittlePonyQuest_Game/" ext="swf">
+		<asset>background1</asset>
+		<asset>background2</asset>
+		<asset>interactive</asset>
+	</assets>
+
+	<!-- popups, followers, bitmap NPCs -->
+	<assets type="support" path="assets/limited/MyLittlePonyQuest/" ext="swf">
+		<asset>Start</asset>
+		<asset>Win</asset>
+		<asset>Lose</asset>
+		<asset>Hitch</asset>
+		<asset>Izzy</asset>
+		<asset>Pipp</asset>
+		<asset>Pipp_Follower</asset>
+		<asset>Sunny_Follower</asset>
+		<asset>Sunny</asset>
+		<asset>Zipp</asset>
+	</assets>
+	
+	<!-- card xml files, swfs, backs -->
+	<data type="card" path="data/items/limited/" prefix="item" ext="xml">
+		<asset>2073</asset>
+		<asset>2074</asset>
+		<asset>2075</asset>
+	</data>
+	<assets type="card" path="assets/items/limited/" prefix="item" ext="swf">
+		<asset>2073</asset>
+		<asset>2074</asset>
+		<asset>2075</asset>
+	</assets>
+	<assets type="cardBack" path="assets/items/limited/backs/" ext="swf">
+		<asset>AdBackgroundTeal</asset>
+	</assets>
+
+	<data type="follower" path="data/entity/character/abilities/limited/" ext="xml">
+		<asset>pop_follower_mlp_sunny</asset>
+		<asset>follower_mlp_pipp</asset>
+	</data>
+
+	<!-- music assets -->
+	<assets type="sounds" path="sound/limited/MLP/" ext="mp3" keep="true">
+		<asset>magic_chimes</asset>
+	</assets>
+	
+	<!-- sound assets -->
+	<assets type="sounds" path="sound/effects/" ext="mp3" keep="true">
+		<asset>ls_dirt_01</asset>
+		<asset>ls_dirt_02</asset>
+		<asset>ls_wood_01</asset>
+		<asset>ls_wood_02</asset>
+		<asset>ls_grass_01</asset>
+		<asset>ls_grass_02</asset>
+		<asset>ls_concrete_01</asset>
+		<asset>ls_concrete_02</asset>
+		<asset>fs_dirt_01</asset>
+		<asset>fs_dirt_02</asset>
+		<asset>fs_dirt_03</asset>
+		<asset>fs_dirt_04</asset>
+		<asset>fs_wood_01</asset>
+		<asset>fs_wood_02</asset>
+		<asset>fs_wood_03</asset>
+		<asset>fs_wood_04</asset>
+		<asset>fs_grass_01</asset>
+		<asset>fs_grass_02</asset>
+		<asset>fs_grass_03</asset>
+		<asset>fs_grass_04</asset>
+		<asset>fs_concrete_01</asset>
+		<asset>fs_concrete_02</asset>
+		<asset>fs_concrete_03</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>fs_concrete_04</asset>
+		<asset>ls_wood_plank_01</asset>
+		<asset>ls_wood_plank_02</asset>
+		<asset>fs_wood_plank_01</asset>
+		<asset>fs_wood_plank_02</asset>
+		<asset>fs_wood_plank_03</asset>
+		<asset>fs_wood_plank_04</asset>
+	</assets>
+
+	<!-- avatar parts -->
+	<data type="hair" path="data/entity/character/parts/hair/" ext="xml">
+		<asset>limited_pony_izzy</asset>
+	</data>
+	<assets type="hair" path="assets/entity/character/hair/" ext="swf">
+		<asset>limited_pony_izzy</asset>
+	</assets>
+	<data type="facial" path="data/entity/character/parts/facial/" ext="xml">
+		<asset>limited_pony_izzy</asset>
+		<asset>sunny_follower</asset>
+	</data>
+	<assets type="facial" path="assets/entity/character/facial/" ext="swf">
+		<asset>limited_pony_izzy</asset>
+		<asset>sunny_follower</asset>
+	</assets>
+	<data type="overshirt" path="data/entity/character/parts/overshirt/" ext="xml">
+		<asset>limited_sunny_game</asset>
+	</data>
+	<assets type="overshirt" path="assets/entity/character/overshirt/" ext="swf">
+		<asset>limited_sunny_game</asset>
+	</assets></manifest>

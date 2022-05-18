@@ -1,0 +1,15 @@
+<part>
+  <id>ppunkguy1</id>
+  <asset>ppunkguy</asset>
+  <type>mouth</type>
+  <gender>male</gender>
+  <costumizable>false</costumizable>
+  <colors>
+    <color id="mouthColor">0xFFFFFF</color>
+  </colors>
+  <colorables>
+    <colorable id="mouthColor">
+      <clip instanceName="colorShape1"/>
+    </colorable>
+  </colorables>
+</part>

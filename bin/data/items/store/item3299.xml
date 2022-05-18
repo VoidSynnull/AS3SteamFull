@@ -1,0 +1,30 @@
+<item id="3299">
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+		<asset id="cardContent">
+			<assetPath>items/store/item3299.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<index>0</index>
+			<label>CHEW</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+		<btn>
+			<index>0</index>
+			<label>STOP CHEWING</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Charlie and the Chocolate Factory</value>
+		</text>
+		<text id="storeTitle">
+			<value>Everlasting Gobstopper</value>
+			<size>25</size>
+		</text>
+	</textfields>
+</item>

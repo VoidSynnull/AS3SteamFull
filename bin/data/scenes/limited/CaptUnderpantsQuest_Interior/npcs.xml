@@ -1,0 +1,36 @@
+<npcs>
+	<npc id="CaptUnderpants">
+		<bitmap>limited/CaptUnderpantsMMSQ/CaptUnderpants.swf</bitmap>
+		<direction>right</direction>
+		<position>
+			<x>392</x>
+			<y>523</y>
+		</position>
+	</npc>
+	<npc id="George">
+		<bitmap>limited/CaptUnderpantsQuest/George.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>755</x>
+			<y>527</y>
+		</position>
+	</npc>
+	<npc id="Harold">
+		<bitmap>limited/CaptUnderpantsQuest/Harold.swf</bitmap>
+		<direction>left</direction>
+		<position>
+			<x>1519</x>
+			<y>491</y>
+		</position>
+	</npc>
+	<npc id="MannCU" variant="mannequin" type="portrait">
+		<skin>
+			<pack>capt_underpants_cape</pack>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>2415</x>
+			<y>518</y>
+		</position>
+	</npc>
+</npcs>

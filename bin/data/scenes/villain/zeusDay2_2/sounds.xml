@@ -1,0 +1,29 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">reversed_jungle_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="climb">
+		<asset id="climb1">rope_strain_02.mp3</asset>
+		<asset id="climb2">rope_strain_02.mp3</asset>
+		<asset id="climb3">rope_strain_02.mp3</asset>
+		<asset id="climb4">rope_strain_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="slide">
+		<asset id="climb1">slide_down_rope_01.mp3</asset>
+		<asset id="climb2">slide_down_rope_01.mp3</asset>
+		<asset id="climb3">slide_down_rope_01.mp3</asset>
+		<asset id="climb4">slide_down_rope_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="branch">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="bounce">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+		<asset id="mushroom">ls_bounce_01.mp3, ls_bounce_02.mp3, ls_bounce_03.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="branch">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+	</sound>
+	
+</sounds>

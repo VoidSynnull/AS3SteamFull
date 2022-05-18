@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="bitmap_npc">
+		<statement>I wonder if my luck will ever change. Let's ask the Fortune Teller inside.</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey.</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

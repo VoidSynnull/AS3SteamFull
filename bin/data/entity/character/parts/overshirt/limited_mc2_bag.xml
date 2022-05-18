@@ -1,0 +1,13 @@
+<part>
+	<id>limited_mc2_bag</id>
+	<type>overshirt</type>
+	 <specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/MCSquaredQuest/ink1.swf</param>
+			<param id="swfPaths">limited/MCSquaredQuest/ink1.swf,limited/MCSquaredQuest/ink2.swf,limited/MCSquaredQuest/ink3.swf</param>
+			<param id="tracking">MCSquaredQuest,Ink Power</param>
+		</parameters>
+	</specialAbility>
+</part>

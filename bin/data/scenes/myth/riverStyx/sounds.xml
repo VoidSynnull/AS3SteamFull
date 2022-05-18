@@ -1,0 +1,36 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">hades_realm.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">eerie_moaning.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="crocHit">myth_aligator_attack_01.mp3</asset>
+		<asset id="stalacHit">myth_sphinx_wake_01.mp3</asset>
+		<asset id="flameAudio" loop="true" baseVolume="2" modifies="position">torch_fire_01_L.mp3</asset>
+		<asset id="soulHit" loop="true" baseVolume="2" modifiers="position">ghost_moan.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="splash">
+		<asset id="crocHit">myth_boat_bump_01.mp3</asset>
+		<asset id="stalacHit">myth_dive_01.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="crocHit">dog_chomp_01.mp3</asset>
+		<asset id="soulHit">sizzle_01.mp3</asset>
+		<asset id="stalacHit">whack_03.mp3</asset>
+		<asset id="water">ls_water_splash_01.mp3, ls_water_splash_02.mp3</asset>
+		<asset id="boatHit">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="water">fs_water_01.mp3, fs_water_02.mp3, fs_water_03.mp3, fs_water_04.mp3, fs_swim_water_01.mp3, fs_swim_water_02.mp3, fs_swim_water_03.mp3</asset>
+		<asset id="boatHit" baseVolume="2">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+	</sound>
+</sounds>

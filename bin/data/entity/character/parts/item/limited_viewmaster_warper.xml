@@ -1,0 +1,17 @@
+<part>
+	<id>limited_viewmaster_warper</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2722</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/ViewMasterEC/IslandWarper.swf</param>
+			<param id="tracking">ViewMasterEC,Warper</param>
+			<param id="moveToBack">true</param>
+			<param id="useRandomBG">true</param>
+			<param id="numBGs">3</param>
+		</parameters>
+	</specialAbility>
+</part>

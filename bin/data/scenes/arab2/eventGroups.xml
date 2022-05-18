@@ -1,0 +1,13 @@
+<groups>
+	<!-- This is the default groupEvent setup.  Once all the conditions are satisfied it will complete the 'happyNpc' event.  It will NOT trigger an event, so changes from the event
+	will not be applied until a scene reload -->
+	<group event="got_all_ingredients"  triggerAndSave="true">
+		<and>
+			<event type="gotItem_viper_skin"/>
+			<event type="gotItem_gunpowder"/>
+			<event type="gotItem_quicksilver"/>
+			<event type="gotItem_borax"/>
+			<event type="gotItem_formula"/>
+		</and>
+	</group>
+</groups>

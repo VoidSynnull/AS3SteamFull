@@ -1,0 +1,15 @@
+<part>
+	<id>photdogshooter4</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.Ketchup</className>
+		<useButton>true</useButton>
+  		<parameters>
+			<param id="color">0x66FF00</param>
+  		</parameters>
+  	</specialAbility>
+</part>

@@ -1,0 +1,13 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="bookshelf" platform="true" color="0x996600">
+		<component type="platform"/>
+	</hit>
+</hits>

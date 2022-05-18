@@ -1,0 +1,12 @@
+<dialogs>   
+    <character id="player">
+    	<statement triggeredByEvent="rocks_blocking">text1</statement>
+    	<statement triggeredByEvent="closer_to_the_beast">text2</statement>
+    </character>
+    <character id="herc">
+		<statement id="open_path">text3</statement>
+    	<statement id="go_ahead">text4</statement>
+    	<statement>text4</statement>
+		<statement event="hasItem_hadesCrown" triggerEvent="triggerEvent" triggerEventArgs="use_mirror">shared.text29</statement>	
+    </character>
+</dialogs>

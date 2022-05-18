@@ -1,0 +1,41 @@
+<sounds>
+	<!-- <sound type="music">
+		<asset>prepare_for_liftoff.mp3</asset>
+	</sound>  -->
+	<sound type="music">
+		<asset loop="true" event="set_day">MocktropicaMainThemeGlitched.mp3</asset>
+		<asset loop="true" event ="developer_returned">MocktropicaMainTheme.mp3</asset>
+		<asset loop="true" event ="set_night">night_theme.mp3</asset>
+	</sound>
+
+	<sound type="ambient">
+		<asset event="set_rain" loop="true" faded="true" exclusiveType="true">rain_light.mp3</asset>
+		<asset event="set_day" loop="true" faded="true" exclusiveType="true">sunny_clear_day_2.mp3</asset>
+		<asset event="set_night" loop="true" faded="true" exclusiveType="true">nighttime_crickets.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">Landing_forestGravel_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_dirt_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="rock">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="metal">fs_thin_metal_01.mp3, fs_thin_metal_02.mp3, fs_thin_metal_03.mp3, fs_thin_metal_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="rock">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="metal">ls_thin_metal_01.mp3, ls_thin_metal_02.mp3</asset>
+	</sound>
+	
+</sounds>

@@ -1,0 +1,41 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+        <action type="popup">GalacticHotDogsECQuest/Cosmoe_Goober.swf</action>
+        <action type="gameID">Cosmoe_Goober</action>
+        <action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+        <action type="popup">GalacticHotDogsECQuest/Humphree_Fred.swf</action>
+        <action type="gameID">Humphree_Fred</action>
+        <action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+        <action type="popup">GalacticHotDogsECQuest/StartSynopsis.swf</action>
+        <action type="gameID">Synopsis</action>
+        <action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="poster4" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+        <action type="popup">GalacticHotDogsECQuest/Dagger_jax.swf</action>
+        <action type="gameID">Dagger_Jax</action>
+        <action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="poster5" type="poster">
+		<action type="className">game.scenes.custom.AdStartPopup</action>
+        <action type="popup">GalacticHotDogsECQuest/Queen_Krax.swf</action>
+        <action type="gameID">Queen_Krax</action>
+        <action type="suppressSponsorClick">true</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="poster6" type="poster">
+        <action type="enterPhotoBooth">true</action>
+        <action type="suffix">AR</action>
+    </hotspot>
+</hotspots>
+

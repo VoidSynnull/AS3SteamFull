@@ -1,0 +1,85 @@
+<doors>
+	<door id="doorDining">
+		<scene>game.scenes.train.diningCar.DiningCar</scene>
+		<x>2418</x>
+		<y>470</y>
+		<label>
+			<text>Go Left</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorLeMonde">
+		<scene>game.scenes.train.leMondeCabin.LeMondeCabin</scene>
+		<x>454</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorEdison">
+		<scene>game.scenes.train.edisonCabin.EdisonCabin</scene>
+		<x>584</x>
+		<y>450</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorTwain">
+		<scene>game.scenes.train.twainCabin.TwainCabin</scene>
+		<x>584</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorExtra">
+		<scene>game.scenes.train.extraCabin.ExtraCabin</scene>
+		<x>590</x>
+		<y>448</y>
+		<label>
+			<text>Enter</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorLuggage">
+		<scene>game.scenes.train.luggageCar.LuggageCar</scene>
+		<x>40</x>
+		<y>477</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

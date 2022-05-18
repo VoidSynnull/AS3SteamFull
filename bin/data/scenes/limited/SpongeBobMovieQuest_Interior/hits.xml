@@ -1,0 +1,65 @@
+<hits>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x033333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="metal" color="0xFF99FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0x66FFFF" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="bucketHit1">
+		<component type="movingPlatform">
+			<visible>trolly1</visible>
+			<velocity>100</velocity>
+			<teleportToStart>true</teleportToStart>
+			<points>
+				<point>
+					<x>0</x>
+					<y>510</y>
+				</point>
+				<point>
+					<x>3411</x>
+					<y>510</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+	
+	<hit id="bucketHit2">
+		<component type="movingPlatform">
+			<visible>trolly2</visible>
+			<velocity>100</velocity>
+			<teleportToStart>true</teleportToStart>
+			<points>
+				<point>
+					<x>0</x>
+					<y>510</y>
+				</point>
+				<point>
+					<x>3411</x>
+					<y>510</y>
+				</point>
+			</points>
+		</component>
+	</hit>
+</hits>

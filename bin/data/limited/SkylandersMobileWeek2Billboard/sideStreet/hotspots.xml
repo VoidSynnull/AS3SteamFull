@@ -1,0 +1,17 @@
+<hotspots>
+	<hotspot id="posterTop" type="poster">
+		<action type="impressionOnClick">impressionURL</action>
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="posterBottom" type="poster">
+		<action type="impressionOnClick">impressionURL</action>
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="impressionOnClick">impressionURL</action>
+		<action type="play">videoFile</action> <!-- Pulls from CMS -->
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from CMS -->
+		<action type="giveItemMale">2620</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2620</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

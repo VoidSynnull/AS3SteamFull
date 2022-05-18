@@ -1,0 +1,16 @@
+<part>
+	<id>beach_scuba</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape1"/>
+		</colorable>
+	</colorables>
+</part>

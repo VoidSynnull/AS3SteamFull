@@ -1,0 +1,39 @@
+<dialogs>
+	<character id="player">
+		<statement id="askSugarHelp">Do you need some help?</statement>
+		<statement id="askDuckHelp">Is there a problem?</statement>
+		<statement id="waterSpigot">Hmm. Maybe if I find a hose…</statement>
+		<statement id="needIn">I need to get in there!</statement>
+    </character>
+	<character id="ralph">
+		<statement>Sorry, I can't talk now. We have to get the Midway ready for tonight, and we're way behind schedule.</statement>
+    </character>
+    <character id="maccchio">
+		<statement>Come back later.</statement>
+    </character>
+    <character id="bubby">
+		<statement>Mom told me to keep an eye on Sissy. She'd better not get lost in the Mirror Maze.</statement>
+	</character>
+    <character id="sissy">
+		<statement>Bubby's gonna win me a teddy bear! Mommy said so!</statement>
+    </character>
+    <character id="edgar">
+    	<statement>I sure hope you can help out. If everything goes well tonight, they'll make me a full-fledged carnie!</statement>
+		<statement id="startCarnival">You did it! We can open the carnival!</statement>		
+		<statement id="friedDoughReady">Is any of that fried dough ready yet? I'm a demon for that stuff!</statement>
+    </character>
+    <character id="foodstandWorker">
+		<statement id="outSugar">Darn, that Edgar! He can't get enough of my fried dough, and now I'm out of sugar!</statement>
+		<statement id="needSugarHelp">I need some powdered sugar, but none of that store-bought stuff. Here's the recipe. See if you can find a chemistry set and whip up a batch.</statement>
+		<statement id="findSugar">Find a chemistry set and whip up a batch of powdered sugar!</statement>
+		<statement id="giveSugar">You're a lifesaver. Thanks, kid. On the house.</statement>
+		<statement id="backToWork">Back to work, trainee!</statement>
+		<statement id="thanksSugarHelp">Thanks for getting me that sugar.</statement>
+    </character>
+    <character id="duckGameWorker">
+		<statement id="duckDisaster">What a disaster.</statement>
+		<statement id="needDuckHelp">I don't have any water for the Duck Game. See if you can find a hose.</statement>
+		<statement id="ducksSwim" triggerEvent="triggerEvent" triggerEventArgs="ducksSwimming">My boys can swim!</statement>
+    </character>    
+
+</dialogs>

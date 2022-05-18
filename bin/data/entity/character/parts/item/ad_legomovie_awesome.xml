@@ -1,0 +1,25 @@
+<part>
+	<id>ad_legomovie_awesome</id>
+	<type>item</type>
+	<campaignID>2544</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="swfPath">limited/LegoMovieJune2014IC/Everything_is_Awesome_Power.swf</param> 
+		</parameters>
+		<actions>
+			<actionChain id="now_actions">
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/LegoMovieJune2014IC/awesome.mp3</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

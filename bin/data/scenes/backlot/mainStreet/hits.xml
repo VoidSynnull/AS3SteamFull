@@ -1,0 +1,36 @@
+<hits>
+  <hit id="climb">
+    <component type="climb"/>
+  </hit>
+  <hit id="carHit">
+   <component type="hazard">
+		<knockBackVelocity>
+			<x>4000</x>
+			<y>500</y>
+		</knockBackVelocity>
+	</component>
+  </hit>
+  <hit id="concreteRoof" color="0xB9C7D5" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="brickRoof" color="0xCEC8B4" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="post" color="0xC1D1D6" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="sign" color="0x87B9E7" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="bounce" color="0xff0000" platform="true">
+    <component type="bounce">
+      <velocity>
+        <x>0</x>
+        <y>-800</y>
+      </velocity>
+    </component>
+  </hit>
+  <hit id="baseGround">
+    <component type="platform"/>
+  </hit>
+</hits>

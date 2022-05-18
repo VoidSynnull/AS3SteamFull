@@ -1,0 +1,44 @@
+<sounds>
+  <sound type="music">
+    <asset>Carrot_ShopTheme.mp3</asset>
+  </sound>
+  <sound type="ambient">
+    <asset loop="true">room_tone.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>openDoor_pushBar.mp3</asset>
+  </sound>
+  <sound type="effects">
+    <asset triggeredByEvent="flashlight_on" >button_02.mp3</asset>
+    <asset triggeredByEvent="flashlight_off" >button_02.mp3</asset>
+    <asset triggeredByEvent="cat_meow" >cat_meow_01.mp3</asset>
+    <asset triggeredByEvent="tap" >hammering_on_wood_01.mp3,hammering_on_wood_02.mp3,hammering_on_wood_03.mp3</asset>
+    <asset triggeredByEvent="slam" >wood_impact_01.mp3</asset>
+    <asset triggeredByEvent="window_open" >pry_lid_01.mp3</asset>
+    <asset triggeredByEvent="wind_blowing" absoluteUrl="true" >ambient/medium_winds_01.mp3</asset>
+    <asset triggeredByEvent="fire_flare" >fire_burst_01.mp3</asset>
+    <asset triggeredByEvent="bear_roar" >bear_growl_01.mp3</asset>
+    <asset triggeredByEvent="chest_open" >open_chest_02.mp3</asset>
+    <asset triggeredByEvent="ghost_moan" >ghost_moan_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+    <asset id="stage">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+    <asset id="stairs">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+    <asset id="barrel">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+    <asset id="stove">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+    <asset id="roof">ls_metal_shelf_01.mp3, ls_metal_shelf_02.mp3</asset>
+    <asset id="planks">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+    <asset id="bed">ls_bounce_01.mp3, ls_bounce_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+    <asset id="stage">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+    <asset id="stove">fs_metal_01.mp3, fs_metal_02.mp3, fs_metal_03.mp3, fs_metal_04.mp3</asset>
+    <asset id="stairs">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+    <asset id="roof">fs_metal_shelf_01.mp3, fs_metal_shelf_02.mp3, fs_metal_shelf_03.mp3, fs_metal_shelf_04.mp3</asset>
+    <asset id="barrel">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+    <asset id="planks">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+    <asset id="bed">fs_bounce_01.mp3, fs_bounce_02.mp3, fs_bounce_03.mp3, fs_bounce_04.mp3</asset>
+  </sound>
+</sounds>

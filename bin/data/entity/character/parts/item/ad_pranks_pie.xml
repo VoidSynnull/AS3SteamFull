@@ -1,0 +1,37 @@
+<part>
+	<id>ad_pranks_pie</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2471</campaignID>
+  	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>		
+		<triggerable>true</triggerable> 
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="ParticleEmitterAction" noWait="true">
+					<parameters>
+						<param type="class">game.particles.emitter.specialAbility.ConfettiBomb</param>
+						<param type="*">[container]</param>
+						<param type="entity">[npc]</param>
+						<param type="entity">[npc]</param>
+						<param type="array">0xFFFBAF,0xCFB776,20</param>
+					</parameters>
+				</action>
+				<action class="AddGlowFilterAction">
+					<parameters>
+						<param type="*">[npc]</param>
+						<param type="uint">0xFFFBAF</param>
+						<param type="number">1</param>
+						<param type="point">100,100</param>
+						<param type="number">0.5</param>
+						<param type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

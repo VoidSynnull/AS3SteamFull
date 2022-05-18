@@ -1,0 +1,15 @@
+<part>
+	<id>ad_gh_iceblaster</id>
+	<type>item</type>
+	<specialAbility id="freezeRay">
+		<className>game.data.specialAbility.character.FreezeRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/GalacticHotDogsVendorCart/iceblock.swf</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

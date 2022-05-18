@@ -1,0 +1,220 @@
+<skin beingType="baymax" assetPath="entity/character/" dataPath="entity/character/parts/">
+	<skinParts>
+		
+		<!-- PARTS -->
+		
+		<skinPart id="eyes">
+			<part>eyes</part>
+			<value>eyes</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="marks">
+			<part>marks</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="mouth">
+			<part>mouth</part>
+			<value>1</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="facial">
+			<part>facial</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="hair">
+			<part>hair</part>
+			<value>1</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="pants">
+			<part>pants</part>
+			<value>2</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="shirt">
+			<part>shirt</part>
+			<value>2</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="overpants">
+			<part>overpants</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="overshirt">
+			<part>overshirt</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="item">
+			<part>item</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="item2">
+			<part>item2</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="pack">
+			<part>pack</part>
+			<value></value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="hand1">
+			<part>hand1</part>
+			<value>hand</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="hand2">
+			<part>hand2</part>
+			<value>hand</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="foot1">
+			<part>foot1</part>
+			<value>foot</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="foot2">
+			<part>foot2</part>
+			<value>foot</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="head">
+			<part>headSkin</part>
+			<value>headskin</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="body">
+			<part>bodySkin</part>
+			<value>bodyskin</value>
+			<colorSet/>
+		</skinPart>
+		<skinPart id="arm1">
+			<part>arm1</part>
+			<value></value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+			<line></line>
+		</skinPart>
+		<skinPart id="arm2">
+			<part>arm2</part>
+			<value></value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+			<line></line>
+		</skinPart>
+		<skinPart id="leg1">
+			<part>leg1</part>
+			<value></value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+			<line></line>
+		</skinPart>
+		<skinPart id="leg2">
+			<part>leg2</part>
+			<value></value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+			<line></line>
+		</skinPart>
+		
+		<!-- 
+			Some skin parts are not associated with assets, but we still want to use the existing systems to propagate their changes in value. 
+			To do this we use metadata in the same way that standard parts associated with assets would, using the same systems to update changes in value.
+			Since the metadata for these skin parts will never change, only their values, we can define their metadata here.
+			In all of these cases we are using metadata to define what parts to apply the skin part's values to.
+			
+			In the case of the gender skinPart, we are applying the gender value to the eyes part, since gender will effect if the eyes have eyelashes or not.
+			
+			In the case of the skinColor skinPart, we are applying the skinColor value to all of the parts that needs to match the skin color.
+			
+			See the SkinSystem for more on how the skinPart values get applied.
+		-->
+		
+		<!-- STATES -->
+
+		<skinPart id="gender">
+			<value>male</value>
+			<metaData>
+				<state id="gender"/>
+				<applyState id="gender">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+		
+		<skinPart id="eyeState">
+			<value>squint</value>
+			<metaData>
+				<state id="eyeState"/>
+				<applyState id="eyeState">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+
+		<!-- COLORS -->
+		
+		<skinPart id="skinColor">
+			<value numeric="true">0xFFCC66</value>
+			<colorSet>
+				<colorAspect id="skinColor"/>
+			</colorSet>
+			<metaData>
+				<colors>
+					<color id="skinColor"/>
+				</colors>
+				<applyColors>
+					<applyColor id="skinColor">
+						<!--
+						<part id="body"/>
+						<part id="head"/>
+						<part id="hand1"/>
+						<part id="hand2"/>
+						<part id="foot1"/>
+						<part id="foot2"/>
+						-->
+						<part id="arm1"/>
+						<part id="arm2"/>
+						<part id="leg1"/>
+						<part id="leg2"/>
+					</applyColor>
+				</applyColors>
+			</metaData>
+		</skinPart>
+		<skinPart id="hairColor">
+			<value numeric="true">0x7C5E23</value>
+			<colorSet>
+				<colorAspect id="hairColor"/>
+			</colorSet>
+			<metaData>
+				<colors>
+					<color id="hairColor"/>
+				</colors>
+				<applyColors>
+					<applyColor id="hairColor">
+						<part id="hair"/>
+					</applyColor>
+				</applyColors>
+			</metaData>
+		</skinPart>
+		
+	</skinParts>
+</skin>
+

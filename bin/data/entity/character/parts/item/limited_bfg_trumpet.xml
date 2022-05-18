@@ -1,0 +1,35 @@
+<part>
+	<id>limited_bfg_trumpet</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2795</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/BFGQuest/Ball.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+	  		<param id="colors"> 0x79DC70, 0xD85DD7, 0xEDEB7B</param>
+			<param id="tracking">BFGQuest,BFG Trumpet Power</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="ColorizeNPCAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="number">[color]</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

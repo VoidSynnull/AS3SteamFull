@@ -1,0 +1,65 @@
+<dialogs>
+	<character id="player">
+		<statement id="me" link="quitLoafing" linkEntityId="cook">Me?</statement>
+		<statement id="serving" triggerEvent="triggerEvent" triggerEventArgs="pointing">Serving?</statement>
+		<statement id="sneaky">I don't want them getting too suspicious of me. Best play along for now.</statement>
+		<statement id="leave_tray">I should leave the tray here.</statement>
+		<statement id="sucess">We made it past them. Let's lose this outfit.</statement>
+		<statement id="uhoh">Uh oh.</statement>
+    </character>
+    
+	<character id="mya">
+		<statement id="chute">Everybody into the chute!</statement>
+    </character>
+    
+	<character id="cook">
+		<statement id="youThere" link="me" linkEntityId="player">You there!</statement>
+		<statement id="quitLoafing" link="serving" linkEntityId="player">No, the jotunn behind you. Of course, you! Quit loafing and start serving.</statement>
+		<statement id="serveNow">Serve the men and women their drinks! Chop chop!</statement>
+		
+		<statement>Serve the men and women their drinks! Chop chop!</statement>
+		
+		<statement id="catch">That guy's an imposter! The prisoners are getting away!</statement>
+    </character>
+    
+    <character id="giant">
+    	<statement>How can I eat my meat without any mead?!</statement>
+    	<statement id="finally">Ugh, finally! About time!</statement>
+    	<statement id="myFurs">What are you doing?! You have not earned your furs yet.</statement>
+    	<statement id="thanks">Not now. Can't you see I'm busy?</statement>
+    	<statement id="served_giant">Not now. Can't you see I'm busy?</statement>
+    </character>
+    
+    <character id="giant2">
+        <statement id="sup">Hail!</statement>
+    	<statement id="catch">The prisoners are getting away!</statement>
+    </character>
+    
+    <character id="underling_1">
+		<statement id="thanks">Obliged. Now be off with you.</statement>
+    	<statement id="joke_setup" link="return" linkEntityId="underling_2">Have you heard this one? 'What has six eyes, six arms, six legs, three heads, and a very short life?'</statement>
+		<statement id="punch_line">Three people about to be eaten by a dragon.</statement>
+		<statement id="return" link="punch_line" linkEntityId="underling_3">Interpretive dance?</statement>
+		
+    	<statement id="not_that_one">Can I just get a normal glass instead?</statement>
+    	
+    	<statement id="hey">Hail big guy, how goes the feasting?</statement>
+	</character>
+	<character id="underling_2">
+		<statement id="thanks">I wonder if they realize they are telling the same jokes over and over.</statement>
+		<statement id="joke_setup" link="return" linkEntityId="underling_3">Okay, okay. "One tooth to bite, he's the forests foe. One tooth to fight, as all Norse know." What is it?</statement>
+		<statement id="punch_line">An axe!</statement>
+		<statement id="return" link="punch_line" linkEntityId="underling_1">Hmm... I give up.</statement>
+		
+    	<statement id="not_that_one">That looks too heavy for me.</statement>
+    	
+    	<statement id="wait">Wait, didn't the big guy already walk by?</statement>
+	</character>
+	<character id="underling_3">
+    	<statement>They should have grabbed a drink before sitting down.</statement>
+		<statement id="thanks">Eating and joking with friends; this is the life!</statement>
+		<statement id="joke_setup" link="return" linkEntityId="underling_1">Here's a good one. How do vikings communicate?</statement>
+		<statement id="punch_line">By norse code!</statement>
+		<statement id="return" link="punch_line" linkEntityId="underling_2">Ugh, I'm no good at riddles...</statement>
+	</character>
+</dialogs>

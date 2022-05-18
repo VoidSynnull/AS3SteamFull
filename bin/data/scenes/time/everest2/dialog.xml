@@ -1,0 +1,35 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text6</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text7</question>
+				<answer>text3</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_goggles">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text6</question>
+				<answer>text2</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text4</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="goggles, char1">text5</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char2">
+    	<statement>text6</statement>
+    </character>
+</dialogs>

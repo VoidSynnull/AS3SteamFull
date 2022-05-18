@@ -1,0 +1,16 @@
+<dialogs>
+	<character id="webby">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="gong">I have to keep an eye on these trouble makers.</statement>
+		<statement id="nobody">Nobody better touch the gong!</statement>
+	</character>
+	<character id="huey">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="gong">I dare you to hit it!</statement>
+	</character>
+	<character id="dewey">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="gong">I want to hit the gong so bad!</statement>
+		<statement id="oops">I couldn't resist.</statement>
+	</character>
+	<character id="louie">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="gong">That’s crazy. Don't hit it... unless...you want to.</statement>
+	</character>
+</dialogs>

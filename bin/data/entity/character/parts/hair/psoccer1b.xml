@@ -1,0 +1,24 @@
+<part>
+	<id>psoccer1b</id>
+	<type>hair</type>
+	<costumizable>false</costumizable>
+	<retrieveColors>
+		<part id="hairColor">hairColor</part>
+	</retrieveColors>
+	<colors>
+		<color id="shirtColor1">0xF09842</color>
+		<color id="shirtColor2">0x349EE4</color>
+		<color id="hairColor"/>
+	</colors>
+	<colorables>
+		<colorable id="shirtColor1">
+			<clip instanceName="colorShape1"/>
+		</colorable>
+		<colorable id="shirtColor2">
+			<clip instanceName="colorShape2"/>
+		</colorable>
+		<colorable id="hairColor">
+			<clip instanceName="hairShape"/>
+		</colorable>
+	</colorables>
+</part>

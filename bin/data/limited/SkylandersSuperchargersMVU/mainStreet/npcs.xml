@@ -1,0 +1,25 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x976639</skinColor>
+			<hairColor>0xffcc99</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>leo</mouth> <!-- use frame label for numbers after 60 -->
+			<facial>limited_skylanders_flynn</facial>
+			<hair>bald</hair>
+			<shirt>limited_skylanders_flynn</shirt>
+			<pants>limited_skylanders_flynn</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>169</x>
+			<y>589</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

@@ -1,0 +1,8 @@
+<campaign>
+  	<campaignId>CosmoeFriendNPC</campaignId> <!-- Must match CMS name in CMS -->
+	<lockVideo>false</lockVideo> <!-- overrides locked video flag in hotspots.xml -->
+  	<!-- click URLs by default, category, or id -->
+	<clickUrls>
+		<clickUrl id="Default">http://www.google.com</clickUrl> <!-- Default clickURL -->
+	</clickUrls>
+</campaign>

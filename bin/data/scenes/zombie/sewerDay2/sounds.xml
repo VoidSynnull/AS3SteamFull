@@ -1,0 +1,29 @@
+<sounds>
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="false">sewers_or_cave_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="rat_bite">rat_bite_01.mp3</asset>
+		<asset triggeredByEvent="pushing_crate" loop="true">heavy_gritty_drag_01_L.mp3</asset>
+		<asset triggeredByEvent="pressure_jet">water_splash_04.mp3</asset>
+		<asset triggeredByEvent="water_pump_cure">inject_cure_01.mp3</asset>
+		<asset triggeredByEvent="water_pump_spray">spray_cure_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="concrete">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="crate">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="brick">ls_brick_01.mp3, ls_brick_02.mp3</asset>
+		<asset id="coffin">ls_wood_plank_decay_01.mp3, ls_wood_plank_decay_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="concrete">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="crate">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="brick">fs_brick_01.mp3, fs_brick_02.mp3, fs_brick_03.mp3, fs_brick_04.mp3</asset>
+		<asset id="coffin">fs_wood_plank_decay_01.mp3, fs_wood_plank_decay_02.mp3, fs_wood_plank_decay_03.mp3, fs_wood_plank_decay_04.mp3</asset>
+	</sound>
+</sounds>

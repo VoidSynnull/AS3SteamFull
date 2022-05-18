@@ -1,0 +1,42 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="climb" color="0xFFFF00">
+		<component type="climb"/>
+	</hit>
+	<hit id="lefwall" color="0x669966">
+		<component type="wall"/>
+	</hit>
+	<hit id="trap_movingHit1">
+		<component type="hazard">
+			<visible>trap_movingHit1Clip</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="trap_dart1">
+		<component type="hazard">
+			<visible>trap_dart1Clip</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+	<hit id="trap_stationaryHit1">
+		<component type="hazard">
+			<visible>trap_stationaryHit1Clip</visible>
+			<knockBackVelocity>
+				<x>1500</x>
+				<y>600</y>
+			</knockBackVelocity>
+		</component>
+	</hit>
+
+</hits>

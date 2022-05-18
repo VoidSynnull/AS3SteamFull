@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="player">
+		<statement event="bunker_locked">It's locked.</statement>
+		<statement triggeredByEvent="bunker_opened" linked="unlocked">Looks like that computer program did the trick.</statement>
+		<statement id="unlocked" link="noise">The door is now unlocked!</statement>
+		<statement id="noise">What was that noise?</statement>
+    </character>
+</dialogs>

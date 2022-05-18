@@ -1,0 +1,23 @@
+<sounds>	
+	<sound type="music">
+		<asset loop="true">arabian_palace.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_heavy_open_creak_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="behind_dias">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="pedestal">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="baseGround">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="behind_dias">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="pedestal">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="baseGround">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+	</sound>
+</sounds>

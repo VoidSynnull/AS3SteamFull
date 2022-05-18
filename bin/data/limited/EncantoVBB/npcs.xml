@@ -1,0 +1,22 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="mirabel">
+		<bitmap>limited/EncantoVBB/Mirabel.swf</bitmap> <!-- *** Path to NPC zip in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>0</x> <!-- position based on FLA rulers -->
+			<y>400</y> <!-- position based on FLA rulers -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	<npc id="antonio">
+		<bitmap>limited/EncantoVBB/Antonio.swf</bitmap> <!-- *** Path to NPC zip in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>300</x> <!-- position based on FLA rulers -->
+			<y>402</y> <!-- position based on FLA rulers -->
+		</position>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+	
+</npcs>

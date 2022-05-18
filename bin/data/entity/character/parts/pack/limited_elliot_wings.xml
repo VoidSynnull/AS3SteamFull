@@ -1,0 +1,19 @@
+<part>
+	<id>limited_elliot_wings</id>
+	<type>pack</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2806</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnimWithPlayer</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/PetesDragonQuest/jetpack.swf</param>
+			<param id="tracking">PetesDragonQuest,Elliot Wings</param>
+			<param id="npcXOffSet">0</param>
+			<param id="alignToPlayer">true</param>
+			<param id="standingOnly">true</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,55 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>3650</right>
+		<bottom>1620</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>-50</left>
+		<top>0</top>
+		<right>3700</right>
+		<bottom>1565</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,hits.xml,npcs.xml,sounds.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/arab3/shared/dialog.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>backdropNight.swf</asset>
+			<rate>.70</rate>
+		</layer>
+		<layer event="sultan_made_wish">
+			<asset>backdropDay.swf</asset>
+			<rate>.70</rate>
+		</layer>
+		<layer>
+			<asset>backgroundNight.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="sultan_made_wish">
+			<asset>backgroundDay.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>foregroundNight.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer event="sultan_made_wish">
+			<asset>foregroundDay.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>520</x>
+			<y>1500</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

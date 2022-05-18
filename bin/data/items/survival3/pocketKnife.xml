@@ -1,0 +1,69 @@
+<item id="pocketKnife">
+	<type>island</type>
+	<subType>survival3</subType>
+	
+	<contentClass>
+		<className>game.ui.card.MultiFrameContentView</className>
+		<parameters>
+			<param>items/survival3/armyKnife.swf</param>
+		</parameters>
+	</contentClass>
+	
+	<value>use_saw</value>
+	
+	<textfields>
+  		<text id="title">
+    		<value>Pocket Knife</value>
+  		</text>
+  	</textfields>
+  	
+  	<buttons>
+  		<btn>
+  			<label>USE</label>
+  			<actions>
+  				<action type="triggerEvent">
+	  				<parameters>
+			  			<param id="event"/>
+			  		</parameters>
+			  	</action>
+  			</actions>
+  		</btn>
+  	</buttons>
+  	
+  	<radiobuttons>
+  		
+  		<btn>
+  			<alpha>0</alpha>
+  			<val>use_saw</val>
+			<y>22</y>
+			<x>-43</x>
+  		</btn>
+  		<btn>
+  			<alpha>0</alpha>
+  			<val>use_cork</val>
+			<y>22</y>
+			<x>0</x>
+  		</btn>
+  		<btn>
+  			<alpha>0</alpha>
+  			<val>use_screwdriver</val>
+			<y>22</y>
+			<x>43</x>
+  		</btn>
+  	</radiobuttons>
+  	
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/survival1/background.swf</assetPath>
+  			<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>0</brightness>
+     			<contrast>0</contrast>
+     			<saturation>-80</saturation>
+     			<hue>25</hue>
+    		</effect>
+    	</asset>
+    	<asset id="cardContent"/>
+    </assets>    
+</item>

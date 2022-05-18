@@ -1,0 +1,58 @@
+<doors>
+	<door id="door1">
+		<scene>game.scenes.con1.alley.Alley</scene>
+		<x>580</x>
+		<y>1830</y>
+		<direction>right</direction>
+		<label>
+			<text>ENTER</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="door2">
+		<scene>game.scenes.con1.adMixed.AdMixed</scene>
+		<x>1850</x>
+		<y>1015</y>
+		<direction>left</direction>
+		<label>
+			<text>GO LEFT</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+		<connectingSceneDoors>
+			<door id="exitLeft">
+				<scene>game.scenes.con1.parking.Parking</scene>
+				<x>2950</x>
+				<y>1470</y>
+				<direction>left</direction>
+			</door>
+			<door id="exitRight">		
+				<scene>game.scenes.con1.center.Center</scene>
+				<x>400</x>
+				<y>1830</y>
+				<direction>right</direction>
+			</door>
+		</connectingSceneDoors>
+	</door>
+	<door id="doorCommon">
+		<scene>game.scenes.con1.common.Common</scene>
+		<x>959</x>
+		<y>825</y>
+		<direction>left</direction>
+		<label>
+			<text>COMMON ROOM</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

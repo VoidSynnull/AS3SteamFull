@@ -1,0 +1,70 @@
+<item id="3048">
+		<type>store</type>
+		<subType>general</subType>
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<radiobuttons>
+		<btn>
+			<color>0xCC4839</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0x236CC7</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xCC66CC</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Cheerleader</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<marks>astroPrincess</marks>
+			<mouth>pCheerleader</mouth>
+			<hair>pCheerleader1</hair>
+			<pants>pCheerleader1</pants>
+			<shirt>pCheerleader1</shirt>
+			<item>pPomPom</item>
+		</look>
+		<look>
+			<marks>astroPrincess</marks>
+			<mouth>pCheerleader</mouth>
+			<hair>pCheerleader2</hair>
+			<pants>pCheerleader2</pants>
+			<shirt>pCheerleader2</shirt>
+			<item>pPomPom</item>
+		</look>
+		<look>
+			<marks>astroPrincess</marks>
+			<mouth>pCheerleader</mouth>
+			<hair>pCheerleader3</hair>
+			<pants>pCheerleader3</pants>
+			<shirt>pCheerleader3</shirt>
+			<item>pPomPom</item>
+		</look>
+	</looks> 
+	
+</item>

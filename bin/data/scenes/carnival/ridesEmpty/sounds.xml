@@ -1,0 +1,25 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">sunny_day.mp3</asset>
+	</sound>
+	<sound type="ambient">
+    	<asset loop="true">sunny_clear_day.mp3</asset>
+    </sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="floor">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>		
+		<asset id="sand">fs_sand_01.mp3,fs_sand_02.mp3,fs_sand_03.mp3,fs_sand_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3,fs_wood_02.mp3,fs_wood_03.mp3,fs_wood_04.mp3</asset>
+	</sound>	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="floor">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3,ls_sand_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3,ls_wood_02.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="rollOut" exclusiveType="true">tractor_start_01.mp3</asset>
+		<asset triggeredByEvent="rollOut" exclusiveType="true" loop="true" fade="true">tractor_01_L.mp3</asset>
+	</sound>
+</sounds>

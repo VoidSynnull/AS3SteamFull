@@ -1,0 +1,55 @@
+<hits>
+	<hit id="snow" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0x9FB364" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0x76653F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="plane" color="0xCCCCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0x999999" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xFF6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="bounce0" color="0xDD0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="bounce1" color="0xFF0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0xCC0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	<hit id="baseGround">
+		<component type="platform"/>
+	</hit>
+</hits>

@@ -1,0 +1,26 @@
+<dialogs>
+	<character id="sophia">
+    	<statement id="action" triggerEvent="triggerEvent" triggerEventArgs="action">AND... ACTION!</statement>
+    	<statement id="buffalo"> We need more buffalo! </statement>
+    	<statement id="need buffalo"> I don't see any buffalo. </statement>
+    	<statement id="tornado"> Cue the tornado! </statement>
+    	<statement id="need tornado"> I'm still waiting for that tornado. </statement>
+    	<statement id="donkey"> Cue the villain! </statement>
+    	<statement id="need donkey"> Where's the villain? </statement>
+    	
+    	<statement id="all wrong" triggerEvent="triggerEvent" triggerEventArgs="wrong_action" > What? this is all wrong! </statement>
+    	<statement id="wrong cue" triggerEvent="triggerEvent" triggerEventArgs="wrong_action" > That wasn't the cue! </statement>
+    	<statement id="not in script" triggerEvent="triggerEvent" triggerEventArgs="wrong_action" > This isn't in the script! </statement>
+    	
+    	<statement id="print it" triggerEvent="triggerEvent" triggerEventArgs="print"> That's great! Print it! </statement>
+    	<statement id="boring"> CUT! We need more action! </statement>
+    	<statement id="disaster" triggerEvent="triggerEvent" triggerEventArgs="again"> CUT! This whole scene is a disaster! </statement>
+  	</character>
+  	<character id="hero">
+    	<statement id="end of the line" link="no likey" linkEntityId="villain">It's the end of the line for you Black Bandit!</statement>
+    	<statement id="too old">I'm getting too old for this stuff.</statement>
+  	</character>
+  	<character id="villain">
+    	<statement id="no likey" triggerEvent="triggerEvent" triggerEventArgs="end_of_the_line">Me no likey!</statement>
+  	</character>
+</dialogs>

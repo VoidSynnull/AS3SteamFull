@@ -1,0 +1,18 @@
+<specialAbility id="limited/pop_follower_americangirl_murph">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<disableBroadcast>true</disableBroadcast>
+	<parameters>
+		<param id="id">2998</param>
+		<param id="skinColor">0xB8782D</param>
+		<param id="shirtFrame">limited_murph_follower</param>
+		<param id="overshirtFrame">limited_murph_follower</param>
+		<param id="campaignName">AmericanGirlVBB</param>
+		<param id="lineThickness">12</param>
+		<param id="noDarken">true</param>
+		<param id="variant">creature</param>
+		<param id="hideParts">body,hair,shirt,eyes,mouth,head</param>
+		<param id="scaleSize">.8</param>
+	 </parameters>
+</specialAbility>

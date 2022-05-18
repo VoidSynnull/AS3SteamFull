@@ -1,0 +1,9 @@
+<dialogs>
+	<character id="Meg">
+		<statement>Find Mrs. Whatsit. She is somewhere on Uriel.</statement>
+		<statement id="init">Find Mrs. Whatsit. She is somewhere on Uriel. I'll meet back up with you later.</statement>
+	</character>
+	<character id="MrsWhatsit">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="travel">You have proven that you have great courage. Go to Camazotz and seek the light to find Mrs. Which to complete your quest.</statement>
+	</character>
+</dialogs>

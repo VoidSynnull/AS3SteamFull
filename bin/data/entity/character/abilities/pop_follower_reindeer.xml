@@ -1,0 +1,12 @@
+<specialAbility id="pop_follower_reindeer">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="skinColor">0x876949</param>
+		<param id="overshirtFrame">reindeer</param>
+		<param id="facialFrame">reindeer</param>
+		<param id="packFrame">reindeer</param>
+		<param id="variant">creature</param>
+	 </parameters>
+</specialAbility>

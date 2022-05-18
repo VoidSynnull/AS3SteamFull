@@ -1,0 +1,187 @@
+<groups>
+	<group event="display_sophia_ess1" triggerAndSave="true">
+		<and>
+			<event type="try_to_enter_ss1"/>
+			<event type="carson_returns_stage_1" not="true"/>
+		</and>
+	</group>
+	<group event="display_harvey" triggerAndSave="true">
+		<and>
+			<event type="talk_to_harvey"/>
+			<event type="entered_backlot" not="true"/>
+		</and>
+	</group>
+	<group event="take_picture" triggerAndSave="true">
+		<and>
+			<event type="cameraAndFilm"/>
+			<event type="entered_backlot" not="true"/>
+		</and>
+	</group>
+	<group event="took_picture" triggerAndSave="true">
+		<and>
+			<event type="cameraAndFilm"/>
+			<event type="entered_backlot"/>
+		</and>
+	</group>
+	<group event="get_kirk_coffee" triggerAndSave="true">
+		<and>
+			<event type="disrupted_kirk"/>
+			<event type="made_to_order" not = "true"/>
+			<event type="has_item_kirk_coffee_cup" not = "true"/>
+		</and>
+	</group>
+	<group event="complete_movie_editing" triggerAndSave="true">
+		<and>
+			<event type="complete_editing"/>
+			<event type="complete_foley"/>
+		</and>
+	</group>
+	
+	<group event="have_both_cups" triggerAndSave="true">
+		<and>
+			<event type="hasItem_coffeeCupLeft"/>
+			<event type="hasItem_coffeeCupRight"/>
+		</and>
+	</group>
+	
+	<group event="found_pages" triggerAndSave="true">
+		<and>
+			<event type="got_page_1"/>
+			<event type="got_page_2"/>
+			<event type="got_page_3"/>
+			<event type="got_page_4"/>
+		</and>
+	</group>
+	
+	<group event="found_one_page" triggerAndSave="true">
+		<and>
+			<event type="found_two_pages" not="true"/>
+			<event type="found_three_pages" not="true"/>
+			<event type="found_pages" not="true"/>
+			<or>
+				<event type="got_page_1"/>
+				<event type="got_page_2"/>
+				<event type="got_page_3"/>
+				<event type="got_page_4"/>
+			</or>
+		</and>
+	</group>
+	
+	<group event="found_two_pages" triggerAndSave="true">
+		<and>
+			<event type="found_three_pages" not="true"/>
+			<event type="found_pages" not="true"/>
+			<or>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_2"/>
+				</and>
+				<and>
+					<event type="got_page_2"/>
+					<event type="got_page_3"/>
+				</and>
+				<and>
+					<event type="got_page_3"/>
+					<event type="got_page_4"/>
+				</and>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_3"/>
+				</and>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_4"/>
+				</and>
+				<and>
+					<event type="got_page_2"/>
+					<event type="got_page_4"/>
+				</and>
+			</or>
+		</and>
+	</group>
+	
+	<group event="found_three_pages" triggerAndSave="true">
+		<and>
+			<event type="found_pages" not="true"/>
+			<or>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_2"/>
+					<event type="got_page_3"/>
+				</and>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_2"/>
+					<event type="got_page_4"/>
+				</and>
+				<and>
+					<event type="got_page_1"/>
+					<event type="got_page_3"/>
+					<event type="got_page_4"/>
+				</and>
+				<and>
+					<event type="got_page_2"/>
+					<event type="got_page_3"/>
+					<event type="got_page_4"/>
+				</and>
+			</or>
+		</and>
+	</group>
+	
+	<group event="ready_to_act" triggerAndSave="true">
+		<and>
+			<event type="found_hero"/>
+			<event type="found_villain"/>
+		</and>
+	</group>
+	<group event="go_to_stage2" triggerAndSave="true">
+		<and>
+			<event type="complete_stage2" not="true"/>
+			<event type="complete_stage3"/>
+			<event type="complete_stage4"/>
+		</and>
+	</group>
+	<group event="go_to_stage3" triggerAndSave="true">
+		<and>
+			<event type="complete_stage2"/>
+			<event type="complete_stage3" not="true"/>
+			<event type="complete_stage4"/>
+		</and>
+	</group>
+	<group event="go_to_stage4" triggerAndSave="true">
+		<and>
+			<event type="complete_stage2"/>
+			<event type="complete_stage3"/>
+			<event type="complete_stage4" not="true"/>
+		</and>
+	</group>
+	<group event="show_sophia" triggerAndSave="true">
+		<or>
+			<and>
+				<event type="complete_movie_editing"/>
+				<event type="go_see_movie" not="true"/>
+			</and>
+			<event type="saw_movie"/>
+		</or>
+	</group>
+	<group event="complete_all_stages" triggerAndSave="true">
+		<and>
+			<event type="complete_stage1"/>
+			<event type="complete_stage2"/>
+			<event type="complete_stage3"/>
+			<event type="complete_stage4"/>
+		</and>
+	</group>
+	<group event="complete_movie_editing" triggerAndSave="true">
+		<and>
+			<event type="complete_editing"/>
+			<event type="complete_foley"/>
+		</and>
+	</group>
+	<group event="kirk_in_sound_stage_4" triggerAndSave="true">
+		<and>
+			<event type="offered_part_stage_4" not="true"/>
+			<event type="complete_stage1"/>
+		</and>
+	</group>
+</groups>

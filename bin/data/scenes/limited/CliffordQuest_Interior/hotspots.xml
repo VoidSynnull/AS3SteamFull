@@ -1,0 +1,47 @@
+<hotspots>
+	<hotspot id="posterSpongebob" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterHut" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterPatrick" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterSquidward" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterClifford" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterSandy" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterKrabbs" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterKampKoral" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="posterSign" type="poster">
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="gameStart" type="poster">
+		<action type="trigger">startGame</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video" locked="true">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+	<hotspot id="emojiprize" type="poster">
+		<action type="giveItemMale">2064</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2064</action> 
+		<action type="autoPlay">emojiprizeclip</action>
+	</hotspot>
+		<hotspot id="growprize" type="poster">
+		<action type="giveItemMale">2063</action> <!-- To award an item card to a boy -->
+		<action type="giveItemFemale">2063</action> 
+		<action type="autoPlay">growprizeclip</action>
+	</hotspot>
+	
+</hotspots>

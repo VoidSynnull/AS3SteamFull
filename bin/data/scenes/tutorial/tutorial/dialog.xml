@@ -1,0 +1,27 @@
+<dialogs>
+	<character id="pilot">
+		<statement link="yes" linkEntityId="player">This island is filled with mega coins. See if you can find all eight!</statement>
+    </character>
+	<character id="player">
+		<statement id="yes">Can do!</statement>
+    </character>
+	<character id="amelia">
+		<statement id="win" link="win2">Nice Work! You'll get more credits for each island you complete.</statement>
+		<statement id="win2" triggerEvent="triggerEvent" triggerEventArgs="winDone">Now on to home island!</statement>
+    </character>
+	<character id="stand1">
+		<statement>You've got skills.</statement>
+    </character>
+	<character id="stand2">
+		<statement>I love foxes.</statement>
+    </character>
+	<character id="stand3">
+		<statement>My dog, Harold, is wild and dangerous. Keep going.</statement>
+    </character>
+	<character id="fox">
+		<statement>I wonder how long this girl is going to stare at me.</statement>
+    </character>
+	<character id="dog2">
+		<statement>I actually like small hugs.</statement>
+    </character>
+</dialogs>

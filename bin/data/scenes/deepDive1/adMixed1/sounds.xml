@@ -1,0 +1,16 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" absoluteUrl="true">ambient/underwater.mp3</asset>
+	</sound>
+	<sound type="ambient">
+		<asset loop="true">under_water_02_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3</asset>
+	</sound>
+</sounds>

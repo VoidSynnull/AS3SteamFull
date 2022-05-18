@@ -1,0 +1,42 @@
+<hits>
+	<hit id="concrete" color="0xFF66CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="shelf" color="0xCC3333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="desk" color="0x336666" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="barrel" color="0x9933CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x961E23</splashColor1>
+			<splashColor2>0xB03D41</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>0</y>
+			</acceleration>
+			<friction>
+				<x>200</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

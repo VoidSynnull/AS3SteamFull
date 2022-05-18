@@ -1,0 +1,6 @@
+<dialogs>
+	<character id="cosmoe">
+		<statement>A giant horde of aliens want to squash us now! JUMP IN!</statement> <!-- default statement -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>  <!-- if avatar walks by -->
+	</character>
+</dialogs>

@@ -1,0 +1,42 @@
+<island>
+	<name>Home</name>
+	<island>hub</island>
+	<gameVersion>AS3</gameVersion>
+	<islandFolder>scenes/map/map/islands/hub/</islandFolder>
+	<numEpisodes>0</numEpisodes>
+	<showProgress>false</showProgress>
+	
+	<!-- 
+	asset is an alternative asset to be loaded in for a custom notification
+	event is a check to see if the notification should be displayed (if true the notification will NOT display)
+	<notification asset="custom/notifications/notification.swf" event="gotItem_2884,custom">Find Hidden Item!</notification>
+	 -->
+	 <!-- <notification asset="custom/notifications/notification_valentines.swf" event="gotItem_3614,store" platform="web">Find Hidden Items!</notification> -->
+	 
+	<components>
+		<component class="engine.components.SpatialAddition"/>
+		<component class="game.components.motion.WaveMotion">
+			<properties>
+				<add function="true">
+					<constructor>
+						<data class="game.data.WaveMotionData">
+							<constructor>
+								<property>y</property>
+								<velocity>5</velocity>
+								<step>0.05</step>
+							</constructor>
+						</data>
+					</constructor>
+				</add>
+			</properties>
+		</component>
+	</components>
+	
+	<pages>
+		<page class="game.scenes.map.map.groups.GenericPage">
+			<properties>
+				<pageFolder>island/</pageFolder>
+			</properties>
+		</page>
+	</pages>
+</island>

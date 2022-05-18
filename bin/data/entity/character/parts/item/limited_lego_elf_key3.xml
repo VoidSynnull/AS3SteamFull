@@ -1,0 +1,39 @@
+<part>
+	<id>limited_lego_elf_key3</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2871</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/LegoElvesVC/LavaPower.swf</param>
+			<param id="tracking">LegoElvesVC,lava</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+						<param id="waitlabel" type="string">raised</param> 
+						<param id="maxframes" type="int">0</param> 
+						<param id="stoponlabel" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="SkinFrameAction" noWait="false">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="part" type="string">item</param> 
+						<param id="start" type="string">flash</param> 
+						<param id="mode" type="string">gotoAndPlay</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

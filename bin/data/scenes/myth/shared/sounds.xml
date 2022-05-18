@@ -1,0 +1,45 @@
+<sounds>
+	<sound type="effects" action="random">
+		<asset triggeredByEvent="open_scroll">myth_scroll_unravel_01.mp3</asset>
+		<asset id="athena" loop="true" fade="true" baseVolume="3">myth_sparkle_loop_01.mp3</asset>
+		<asset triggeredByEvent="mirror_hover">myth_mirror_hover_01.mp3</asset>
+		<asset triggeredByEvent="teleport">myth_mirror_teleport_01.mp3</asset>
+		<asset triggeredByEvent="moved_paper">pickup_piece_01.mp3</asset>
+		<asset triggeredByEvent="connect_paper">drop_piece_01.mp3</asset>
+		<asset triggeredByEvent="snake_hiss">myth_snake_hissing_01.mp3</asset>
+		<asset triggeredByEvent="right_snake">myth_hit_right_snake_01.mp3</asset>
+		<asset triggeredByEvent="wrong_snake">myth_hit_wrong_snake_01.mp3</asset>
+		<asset triggeredByEvent="pickup_bone">myth_pickup_bone_01.mp3</asset>
+		<asset triggeredByEvent="styx_loss" fade="true" loop="true">torch_fire_01_L.mp3</asset>
+		<asset triggeredByEvent="correct_god" baseVolume="2">myth_mg_correct_01.mp3</asset>
+		<asset triggeredByEvent="break_heart" baseVolume="2">myth_mg_wrong_01.mp3</asset>
+		<asset triggeredByEvent="next_statue">myth_next_statue_01.mp3</asset>
+		<asset triggeredByEvent="size_transform">myth_transform_01.mp3</asset>
+		<asset id="scorpion" triggeredByEvent="scorpion_skitter" fade="true" exclusiveType="true">myth_scorpion_skitter_loop_01.mp3</asset>
+		<asset triggeredByEvent="scorpion_sting">rat_bite_01.mp3</asset>
+		<asset id="puzzleBlock" triggeredByEvent="raise_wall">myth_wall_raise_01.mp3</asset>
+				
+		<asset id="flame" loop="true" modifiers="position" baseVolume=".5">torch_fire_01_L.mp3</asset>
+		
+		<asset id="note1">myth_flute_01.mp3</asset>
+		<asset id="note2">myth_flute_02.mp3</asset>
+		<asset id="note3">myth_flute_03.mp3</asset>
+		<asset id="note4">myth_flute_04.mp3</asset>
+		
+		<asset id="player" triggeredByEvent="electrify_player" loop="true" fade="true" exclusiveType="true">myth_sparkle_loop_01.mp3</asset>
+		<asset id="player" triggeredByEvent="delectrify_player" loop="true" fade="true" exclusiveType="true">none</asset>
+		
+		<asset id="zeusFlash" allowOverlap="true" baseVolume="2">thunder_clap_01.mp3</asset>	
+	</sound>
+	
+	<sound type="effects" action="random1">
+		<asset id="zeusFlash" allowOverlap="true" baseVolume="2">thunder_clap_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="random2">
+		<asset id="zeusFlash" allowOverlap="true" baseVolume="2">thunder_clap_03.mp3</asset>
+	</sound>	
+	
+	<sound type="effects" action="enter">
+		<asset id="zeusFlash" allowOverlap="false" baseVolume="3">thunder_big_clap_01.mp3</asset>
+	</sound>
+</sounds>

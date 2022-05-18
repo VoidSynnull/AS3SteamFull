@@ -1,0 +1,29 @@
+<game>
+	<className>RaceGame</className>
+	<winDistance>29000</winDistance>
+	<!-- Optional -->
+	<!-- Optional -->
+	<returnX>3250</returnX>
+	<returnY>960</returnY>
+	<raceSpeed>6</raceSpeed>
+	<numHits>6</numHits>
+	<multiJump>true</multiJump>
+	<numOfJumps>2</numOfJumps>
+	<!--
+	<partType>overshirt</partType>
+	<partValue>limited_sunny_game</partValue>
+	-->
+	<hideBody>true</hideBody>
+	<clearParts>true</clearParts>
+	<forceWinThreshold>true</forceWinThreshold>
+	<obstacleWrap>3000</obstacleWrap>
+	<obstacleY>750</obstacleY>
+	<obstacleStartY>1100</obstacleStartY>
+	<obstacleSpaceY>100</obstacleSpaceY>
+	<stopPlayer>true</stopPlayer>
+	<looks>
+		<skin>
+			<overshirt>limited_sunny_game</overshirt>
+		</skin>
+	</looks>
+</game>

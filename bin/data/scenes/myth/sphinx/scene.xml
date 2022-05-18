@@ -1,0 +1,52 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+		<left>0</left>
+		<top>0</top>
+		<right>2624</right>
+		<bottom>2600</bottom>	
+	</cameraLimits>
+	<bounds>
+		<left>0</left>
+		<top>0</top>
+		<right>2700</right>
+		<bottom>2600</bottom>
+	</bounds>
+	<data>dialog.xml,doors.xml,sounds.xml,hits.xml,items.xml</data>
+	<assets></assets>
+	<absoluteFilePaths prependTypePath="true">scenes/myth/shared/sounds.xml, scenes/myth/shared/dialog.xml, scenes/myth/shared/npcs.xml</absoluteFilePaths>
+	<layers>
+		<layer>
+			<asset>background.swf</asset>
+			<rate>1</rate>
+			<zIndex>0</zIndex>
+		</layer>
+		<layer>
+			<asset>floodedBackground.swf</asset>
+			<rate>1</rate>
+			<zIndex>1</zIndex>
+		</layer>
+		<layer hit="true">
+			<asset>interactive.swf</asset>
+			<rate>1</rate>
+			<zIndex>2</zIndex>
+		</layer>
+		<layer>
+			<asset>foreground.swf</asset>
+			<rate>1</rate>
+			<zIndex>3</zIndex>
+		</layer>
+		<layer>
+			<asset>floodedForeground.swf</asset>
+			<rate>1</rate>
+			<zIndex>4</zIndex>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1277</x>
+			<y>1274</y>
+		</defaultPosition>
+		<defaultDirection>right</defaultDirection>
+	</player>
+</scene>

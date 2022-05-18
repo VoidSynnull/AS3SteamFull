@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x00aab1</skinColor>
+			<hairColor>0x000000</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<facial>ad_skylander</facial>
+			<shirt>ad_skylander</shirt>
+			<pack>ad_skylander</pack>
+			<item>ad_skylander</item>
+			<overshirt>ad_skylander</overshirt>
+			<pants>1</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>27</x>
+			<y>707</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

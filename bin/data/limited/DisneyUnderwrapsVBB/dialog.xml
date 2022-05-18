@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="Harold">
+		<statement link="t" linkEntityId="player" event="hasItem_2083">Groan</statement> <!-- If have item card and returned to scene -->
+		<statement link="b" linkEntityId="player">Groan</statement>
+		<statement id="c" link="d" linkEntityId="player">Groan</statement>
+		<statement id="e" link="g" linkEntityId="player">Groan</statement>
+		<statement id="npcProximity">Groan!</statement>  <!-- if avatar walks by -->
+	</character>
+	<character id="player">
+		<statement id="t" event="videoDone">Harold, you want me to watch the video again? Ok.</statement>
+		<statement id="b" linkEntityId="Harold">You must must be Harold the Mummy</statement>
+		<statement id="d" link="e" linkEntityId="Harold">Shall I watch this video to get prizes?</statement>
+		<statement id="g" linkEntityId="Harold">Sounds good!</statement>
+	</character>
+</dialogs>

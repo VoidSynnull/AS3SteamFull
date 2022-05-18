@@ -1,0 +1,7 @@
+<dialogs>
+	<character id="explorer">
+	<statement>I challenge you to find all the missing reels around the world!</statement>
+		<statement triggeredByEvent="startDialog" triggerEvent="triggerEvent" triggerEventArgs="startSecondDialog">With the View-Master, you can see the world in a new way!</statement>
+		<statement triggeredByEvent="startSecondDialog" triggerEvent="triggerEvent" triggerEventArgs="startgame">I challenge you to find all the missing reels around the world!</statement>
+    </character>
+</dialogs>

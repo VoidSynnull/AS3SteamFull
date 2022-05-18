@@ -1,0 +1,64 @@
+<npcs>
+
+	<!--  character 1  -->
+	<npc id="bettyJetty" event="setBoss6">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0xFF8CC6</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>prisoner5</mouth>
+			<marks>bangs1</marks>
+			<facial>1</facial>
+			<hair>prisoner5</hair>
+			<shirt>prisoner1</shirt>
+			<pants>4</pants>
+			<pack>1</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1034.05</x>
+			<y>1917.85</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	
+	<!--  character 2  -->
+	<npc id="nedNoodlehead">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0xEABB00</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>nerd</mouth>
+			<marks>acne</marks>
+			<facial>nerd</facial>
+			<hair>nerd</hair>
+			<shirt>nerd</shirt>
+			<pants>nerd</pants>
+			<pack>hero7</pack>
+			<item></item>
+			<overshirt/>
+			<overpants>underwear</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1379.9</x>
+			<y>3120.05</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

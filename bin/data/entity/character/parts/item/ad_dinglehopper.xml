@@ -1,0 +1,40 @@
+<part>
+	<id>ad_dinglehopper</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+  	<specialAbility>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="AnimationAction" lockInput="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Salute</param>
+						<param id="waitLabel" type="string">raised</param>
+						<param id="maxFrames" type="number">0</param>
+						<param id="stopOnLabel" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction" lockInput="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">ad_dinglehopper</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction" startDelay="5" lockInput="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">ad_dinglehopper</param>
+						<param id="permanent" type="boolean">false</param>
+						<param id="waitForLoad" type="boolean">false</param>
+						<param id="revert" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

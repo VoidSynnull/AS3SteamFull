@@ -1,0 +1,50 @@
+<dialogs>
+	<character id="char1">
+		<conversation>
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text9</question>
+				<answer>text4</answer>
+			</exchange>
+		</conversation>
+		<conversation event="hasItem_statuette">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text2</question>
+				<answer>text3</answer>
+			</exchange>
+			<exchange>
+				<question style="haveitem">text5</question>
+				<answer triggerEvent="takeItem" triggerEventArgs="statuette, char1">text6</answer>
+			</exchange>
+		</conversation>
+		<conversation event="returned_statuette">
+			<exchange>
+				<question>shared.text1</question>
+				<answer>text1</answer>
+			</exchange>
+			<exchange>
+				<question>text7</question>
+				<answer>text8</answer>
+			</exchange>
+			<exchange>
+				<question>shared.text2</question>
+				<answer>text9</answer>
+			</exchange>
+		</conversation>
+    </character>
+    <character id="char2">
+    	<statement>text10</statement>
+    	<statement event="returned_statuette">text11</statement>
+    </character>
+</dialogs>

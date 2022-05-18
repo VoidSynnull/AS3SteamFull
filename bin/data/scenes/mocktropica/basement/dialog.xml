@@ -1,0 +1,97 @@
+<dialogs>
+	<character id="player">
+		<statement id="money">I need to find some money to get one of these.</statement>
+		<statement id="easy">This is way easy. Any old blockhead can design games!</statement>
+		<statement id="who" link="fired" linkEntityId="designer1">Who's Billy Jordan?</statement>
+		<statement id="find" triggerEvent="triggerEvent" triggerEventArgs="findHim">Okay, I'll find him!</statement>
+		<statement id="laps" link="brilliant" linkEntityId="costCutter">Um. Why are they all sitting on each other's laps?</statement>
+		<statement id="youDidIt" triggerEvent="triggerEvent" triggerEventArgs="getCostume">You did it, Bucket Bot.</statement>
+	</character>
+	
+	<character id="guy">
+		<statement>Doesn't anyone read the sign?</statement>
+		<statement id="oof">Oof!</statement>
+	</character>
+	
+	<character id="programmer1">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="programmer1">We need more manpower! I'm doing the work of two people!</statement>
+    </character>
+    
+    <character id="programmer2">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="programmer2">All work and no play makes me want to curl up into a ball and cry.</statement>
+		<statement id="fix" link="who" linkEntityId="player">The only one that can fix this is Billy Jordan!</statement>
+    </character>
+    
+    <character id="designer1">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="designer1">We'll never get this island out on time! We haven't even finished the Main Street scene!</statement>
+		<statement id="without" link="quest" triggerEvent="triggerEvent" triggerEventArgs="questOn">Without our missing co-workers, we'll never get this island out on time!</statement>
+		<conversation id="quest">
+			<exchange>
+				<question>Can I help?</question>
+				<answer>We need our old designer back to finish our mountain scene! We need our old writer back to finish the script! We need our old programmer to fix the bugs!</answer>
+			</exchange>
+			<exchange>
+				<question>So, basically you've got a fetch quest for me?</question>
+				<answer>I'm sorry, I'm not familiar with that term...</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="findThem">Where can I find them?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="getBadges">Here, take these Employee ID Badges. They should help you in your quest. Again -- totally not a fetch quest.</answer>
+			</exchange>
+		</conversation>
+		<statement id="found_staff">Have you found our missing staff members yet? You have their badges.</statement>
+		<statement id="fired" link="find" linkEntityId="player">Our old developer. But after he got fired, he went nuts! He's off meditating in nature.</statement>
+    </character>
+    
+    <character id="designer2">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="designer2,true">We have no leadership!</statement>
+		<statement id="bug" triggerEvent="triggerEvent" triggerEventArgs="faceLeft" link="fix" linkEntityId="programmer2">Oh no! A critical bug! Who can help us?!</statement>
+    </character>
+    
+    <character id="leadDesigner">
+		<statement>I decided to make the scene a little darker, like my soul.</statement>
+    	<statement id="mountainFinished" triggerEvent="triggerEvent" triggerEventArgs="mountainFinished">Mountain rendering nearly complete... I decided to make the scene a little darker, like my soul.</statement>
+    </character>
+    
+    <character id="costCutter">
+    	<statement id="brilliant" triggerEvent="triggerEvent" triggerEventArgs="twoDeep">This is my brilliant new “Two-Deep” program. Double the space, half the money wasted on chairs!</statement>
+    </character>
+	
+	<character id="leadDeveloper">
+    	<statement>That should fix that annoying inventory bug!</statement>
+		<statement id="fix" triggerEvent="triggerEvent" triggerEventArgs="openHud">All right, that should fix your inventory. And what's with this dialogue bug? It's a one-line fix. Geez.</statement>
+		<statement id="backDoor">I've hacked a backdoor exploit that will allow you to bypass the MegaFightingBots paywall. Get in there and find our missing programmer!</statement>
+		<statement id="wellDone">Well done, well done.</statement>
+		<statement id="welcomeBack" linkEntityId="hertz" link="happyBack">You're back!</statement>
+		<statement id="theresANote" linkEntityId="hertz" link="token">There's a note! What does it say?</statement>
+    </character>
+    
+    <character id="hertz">
+    	<statement>Good to be back.</statement>
+    	<statement id="happyBack" triggerEvent="triggerEvent" triggerEventArgs="bucketBotCard">Happy to be here.</statement>
+    	<statement id="token" linkEntityId="player" link="youDidIt">It says "A token of my appreciation. -BB"</statement>
+    </character>
+    
+    <character id="sleepingProgrammer">
+    	<conversation>
+			<exchange>
+				<question>What are you doing down there?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="backToSleep">Sleeping! Isn't that clear?</answer>
+			</exchange>
+			<exchange>
+				<question>You still work here? I thought they fired the other programmers.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="backToSleep">I think everybody just kind of forgot about me.</answer>
+			</exchange>
+			<exchange>
+				<question>I'm looking for a Poptropica script. Have you seen one?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="spokeToSleeper">Bah! I don't care about any script, I'm going back to snooze-town.</answer>
+			</exchange>
+		</conversation>
+		<statement id="mother">Mmm... What...? Yes mother, more sweets for breakfast... Sweets for every meal... Yum...</statement>
+		<statement id="smell" triggerEvent="triggerEvent" triggerEventArgs="jumpUp">What is that smell...? Cheap frosting? A stale workplace delight?</statement>
+		<statement id="cake" triggerEvent="triggerEvent" triggerEventArgs="runOut">Cake!</statement>
+    </character>
+	<character id="bathroomPerson">
+		<statement>Thoroughly occupied! Sorry!</statement>
+    </character>
+</dialogs>

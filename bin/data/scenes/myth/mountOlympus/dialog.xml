@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="snake_appear" link="justASnake" linkEntityId="herc">text1</statement>
+    </character>
+    
+    <character id="herc">
+		<statement id="justASnake" triggerEvent="triggerEvent" triggerEventArgs="herc_walk_to_snake">text2</statement>
+    	<statement id="uhoh" triggerEvent="triggerEvent" triggerEventArgs="turn_herc_to_stone">text3</statement>
+    </character>
+    
+    <character id="statueDialog">
+    	<statement>text4</statement>
+    </character>
+    
+    <character id="medusa">
+		<statement id="medusa_appear" link="uhoh" linkEntityId="herc">text5</statement>
+    </character>
+    
+    <character id="aeolus">
+		<statement>text6</statement>
+		<statement id="get_my_bag" triggerEvent="takeItem" triggerEventArgs="silverDrachma,aeolus" link="your_bag">text6</statement>
+		<statement id="your_bag" triggerEvent="giveItem" triggerEventArgs="bagOfWind">text7</statement>
+		<statement event="gotItem_bagOfWind" triggerEvent="triggerEvent" triggerEventArgs="use_bag_of_wind">text8</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,38 @@
+<item id="3534"> <!-- Fall 4 Female -->
+	<type>store</type>
+	<subType>general</subType>
+	
+				<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+	</buttons>
+	
+	<textfields>
+			<text id="storeTitle">
+			<value>Fall Fashion 4</value>
+		</text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+				<facial>stor_fall_glasses_orange</facial>
+				<hair>stor_fall_bun</hair>
+				<shirt>stor_fall_gray_vneck</shirt>
+				<pants>stor_fall_black</pants>
+		 	<overshirt>stor_fall_zebra_headphones</overshirt>
+		 	</look> 
+	</looks>
+</item>

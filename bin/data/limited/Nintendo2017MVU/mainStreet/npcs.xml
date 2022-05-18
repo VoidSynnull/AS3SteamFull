@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde7b6</skinColor>
+			<hairColor>0x0</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>14</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>lc_astronaut</marks>
+			<facial>lc_astronaut</facial>
+			<pants>directord</pants>
+			<pack>lc_astronaut</pack>
+			<item>limited_rasberry</item>
+			<overshirt>lc_astronaut2</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>-30</x>
+			<y>513</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

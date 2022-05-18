@@ -1,0 +1,112 @@
+<hits>
+	<hit id="radial" color="0x9933CC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	<hit id="minMuscles" color="0xCCFFCC">
+		<component type="radial">
+			<rebound>-1</rebound>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow1" color="0xCCCC66">
+		<component type="mover">
+			<acceleration>
+				<x>-200</x>
+				<y>3000</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow1Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow2" color="0xCC9966">
+		<component type="mover">
+			<acceleration>
+				<x>-200</x>
+				<y>-2000</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow2Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow3" color="0xCC6666">
+		<component type="mover">
+			<acceleration>
+				<x>-3000</x>
+				<y>25</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow3Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow4" color="0xCC0099">
+		<component type="mover">
+			<acceleration>
+				<x>4000</x>
+				<y>10</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow4Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+	
+	<hit id="bloodFlow5" color="0xCC3399">
+		<component type="mover">
+			<acceleration>
+				<x>-4000</x>
+				<y>10</y>
+			</acceleration>
+		</component>
+	</hit>
+	<hit id="bloodFlow5Target">
+		<component type="weaponTarget">
+			<maxDamage>2</maxDamage>
+			<vulnerable>
+				<weapon>
+					<type>goo</type>
+					<factor>1</factor>
+				</weapon>
+			</vulnerable>
+		</component>
+	</hit>
+</hits>

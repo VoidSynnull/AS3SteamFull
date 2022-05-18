@@ -1,0 +1,17 @@
+<part>
+	<id>open_close_example</id>
+	<asset>atlantis3_pilot</asset>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+	<specialAbility id="open_close_example">
+		<className>game.data.specialAbility.character.PartTimelineOpenClose</className>
+		<parameters>
+			<param id="partType">facial</param>			<!-- should be same part type given in type tag above -->
+		</parameters>
+	</specialAbility>
+	
+</part>

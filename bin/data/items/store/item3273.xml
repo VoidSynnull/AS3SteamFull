@@ -1,0 +1,37 @@
+<item id="3273">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<buttons>
+ 		<btn>
+	 		<label>COSTUMIZE</label>
+	 		<actions>
+				<action type="costumize"/>
+			</actions>
+ 		</btn>
+	</buttons>
+	
+	<textfields>
+		<text id="storeSubTitle">
+			<value>International Waffle Day</value>
+		</text>
+		<text id="storeTitle">
+			<value>Waffle</value>
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+	
+	<looks>
+		<look>
+			<marks>p_waffle_girl</marks>
+			<pants>1</pants>
+		</look>
+	</looks> 
+</item>

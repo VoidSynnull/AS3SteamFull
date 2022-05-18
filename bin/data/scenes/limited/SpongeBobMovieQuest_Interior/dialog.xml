@@ -1,0 +1,18 @@
+<dialogs>
+	<character id="patrick">
+		<statement>Ohm Nom...Krabby...Patties! Nom Nom.</statement>
+		<statement triggeredByEvent="npcProximity_patrick">Ohm Nom...Krabby...Patties! Nom Nom.</statement>
+	</character>
+	<character id="spongebob">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="startGame">Let's get some Snaaaacks!</statement>
+		<statement triggeredByEvent="npcProximity_spongebob">My pet snail Gary is missing. Can you follow his trail to find him?</statement>
+	</character>
+	<character id="sandy">
+		<statement>Eeee Yah! Think you got what it takes to play these?</statement>
+		<statement triggeredByEvent="npcProximity_sandy">Eeee Yah! Think you got what it takes to play these?</statement>
+	</character>
+	<character id="mrkrabs">
+		<statement>I love this movie almost as much as I love me money!</statement>
+		<statement triggeredByEvent="npcProximity_mrkrabs">I love this movie almost as much as I love me money!</statement>
+	</character>
+</dialogs>

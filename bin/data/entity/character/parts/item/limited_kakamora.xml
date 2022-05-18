@@ -1,0 +1,16 @@
+<part>
+	<id>limited_kakamora</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<notPrintable>true</notPrintable>
+	<campaignID>2821</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/LegoDisneyPrincessMVU/kakamora_animation.swf</param>
+			<param id="tracking">LegoDisneyPrincessMVU,Crazy Kakamora</param>
+		</parameters>
+	</specialAbility>
+</part>

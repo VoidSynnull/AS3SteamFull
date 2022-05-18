@@ -1,0 +1,49 @@
+<dialogs>
+	<character id="player">
+		<statement id="me?">Who? Me?</statement>
+		<statment id="more_items">Prehaps I should get more information before going in there.</statment>
+	</character>
+	
+	<character id="char1">
+		<statement>My husband couldn't get out before they closed the tunnels! I hope he's okay...</statement>
+		<statement event="player_won">Now I'll never be able to get my husband to eat his fruit!</statement>
+    </character>
+    
+    <character id="char2">
+		<statement>I heard there are hundreds of zombies on the other side of the tunnel, but I don't plan on finding out!</statement>
+    	<statement event="player_won">Amazing work in there!</statement>
+    </character>
+    
+    <character id="char3">
+    	<statement triggeredByEvent="no_quest">No one is allowed through. The island is under quarantine due to the zombie outbreak.</statement>
+		<statement>Use your brains in there.</statement>
+		<statement event="player_won">Way to use your brains!</statement>
+    </character>
+    
+    <character id="char4">
+    	<conversation>
+    		<exchange>
+    			<question>What do you know about these zombies?</question>
+    			<answer>Dr. Romero was working on a cure, but we've lost touch with him. He had been sending us video updates from his phone.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>What can I do?</question>
+    			<answer>You can find Dr. Romero - or, if you can't find him, find his cell phone. It has all his research on it.</answer>
+    		</exchange>
+    		<exchange>
+    			<question>Anything else I need to know?</question>
+    			<answer>Use that clue notebook to take note of anything that might help. I've written down Dr. Romero's address and phone number for you.</answer>
+    		</exchange>
+    	</conversation>
+		<statement triggeredByEvent="start_quest" triggerEvent="triggerEvent" triggerEventArgs="too_old">I've got a police force full of cowards! Is there no one here brave enough to tangle with a few zombies!?</statement>
+  		<statement triggeredByEvent="have_guts">Well, what about you? Have you got the guts?</statement>
+  		<statement triggeredByEvent="give_flashlight">You'll also need this flashlight.</statement>
+  		<statement event="player_won">You've really got guts, kid. Well done!</statement>
+    </character>
+    
+    <character id="char5">
+		<statement>Zombies, man... I'm too old for this-</statement>
+		<statement triggeredByEvent="too_old" triggerEvent="triggerEvent" triggerEventArgs="have_guts">I'm three days from retirement!</statement>
+   		<statement event="player_won">Good work. Now who's going to clean up this mess?</statement>
+    </character>
+</dialogs>

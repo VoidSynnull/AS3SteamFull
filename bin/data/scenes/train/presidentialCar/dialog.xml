@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="cleveland">
+	
+		<statement link="presIntro" triggerEvent="triggerEvent" triggerEventArgs="presIntro,true">I knew you'd make it here eventually.</statement>
+		
+		<conversation event="presIntro">
+			<exchange>
+				<question>Who are you?</question>
+				<answer>I'm President Grover Cleveland! I've been following your investigation with the help of my Pinkerton man.</answer>
+			</exchange>
+			<exchange>
+				<question>You've been trying to solve the mystery, too?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="talkedToCleveland,true">Yes! And we've almost got it. You have all the evidence you need to collar a suspect. Let's try to put it all together.</answer>
+			</exchange>
+		</conversation>
+		
+		<statement event="talkedToCleveland">If you take a closer look at the trunk and identify its owner, you will find the true identity of the thief.</statement>
+    </character>
+</dialogs>

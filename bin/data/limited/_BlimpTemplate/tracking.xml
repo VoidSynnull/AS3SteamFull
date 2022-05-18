@@ -1,0 +1,17 @@
+<tracking>
+	<track id="blimpVideoContainer">
+		<choice>Video</choice> <!-- game code forces this to Video -->
+		<subchoice>blimpVideoContainer</subchoice> <!-- game code will supply video clip name as subchoice -->
+	</track>
+	<track id="clickURL">
+		<event>ClickToSponsor</event>
+		<choice>Poster</choice> <!-- game code forces this to Poster -->
+		<subchoice>Blimp</subchoice>
+		<triggerImpression>true</triggerImpression>
+	</track>
+	<track id="custom_blimp_npc">
+		<event>EngagedOutsideNPC</event>
+		<choice>NPC Name</choice> <!-- *** npc name -->
+		<triggerImpression>true</triggerImpression>
+	</track>
+</tracking>

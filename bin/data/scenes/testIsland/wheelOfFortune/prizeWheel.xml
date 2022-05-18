@@ -1,0 +1,156 @@
+<prizeWheel>
+	<!-- 
+	<asset>assets/scenes/testIsland/wheelOfFortune/wheelOfFortune.swf</asset>
+	<prizes>
+		<prize type="creditsLow" weight="20" unique="false"></prize>
+		<prize type="costume" weight="10"></prize>
+		<prize type="creditsMedium" weight="25" unique="false"></prize>
+		<prize type="grandPrize" weight="1"></prize>
+		<prize type="creditsHigh" weight="20" unique="false"></prize>
+		<prize type="multiCostume" weight="6"></prize>
+		<prize type="creditsJackPot" weight="15" unique="false"></prize>
+		<prize type="follower" weight="3"></prize>
+	</prizes>
+	 -->
+	 
+	<prizes>
+		<prize type="grandPrize" unique="true"></prize>
+		<prize type="credits1"></prize>
+		<prize type="credits2"></prize>
+		<prize type="credits3"></prize>
+		<prize type="credits4"></prize>
+		<prize type="credits5"></prize>
+		<prize type="again"></prize>
+		<prize type="credits6"></prize>
+		<prize type="credits7"></prize>
+		<prize type="credits8"></prize>
+		<prize type="credits9"></prize>
+		<prize type="credits10"></prize>
+	</prizes>
+	<inventory>
+		<group type="credits1">
+			<prize>25</prize>
+		</group>
+		<group type="credits2">
+			<prize>50</prize>
+		</group>
+		<group type="credits3">
+			<prize>75</prize>
+		</group>
+		<group type="credits4">
+			<prize>100</prize>
+		</group>
+		<group type="credits5">
+			<prize>125</prize>
+		</group>
+		<group type="credits6">
+			<prize>150</prize>
+		</group>
+		<group type="credits7">
+			<prize>175</prize>
+		</group>
+		<group type="credits8">
+			<prize>200</prize>
+		</group>
+		<group type="credits9">
+			<prize>225</prize>
+		</group>
+		<group type="credits10">
+			<prize>250</prize>
+		</group>
+		<group type="grandPrize">
+			<prize>3264</prize>
+			<prize>3003</prize>
+			<prize>3010</prize>
+			<prize>3034</prize>
+			<prize>3044</prize>
+			<prize gender="male">3046</prize>
+			<prize gender="female">3047</prize>
+			<prize gender="male">3111</prize>
+			<prize gender="female">3112</prize>
+			<prize>3195</prize>
+			<prize gender="male">3196</prize>
+			<prize gender="female">3197</prize>
+			<prize>3014</prize>
+			<prize>3017</prize>
+			<prize>3042</prize>
+			<prize>3043</prize>
+			<prize>3059</prize>
+			<prize>3069</prize>
+			<prize gender="male">3073</prize>
+			<prize gender="female">3074</prize>
+			<prize>3079</prize>
+			<prize>3084</prize>
+			<prize gender="male">3130</prize>
+			<prize gender="female">3131</prize>
+			<prize gender="male">3178</prize>
+			<prize gender="female">3179</prize>
+			<prize>3184</prize>
+			<prize>3194</prize>
+			<prize>3202</prize>
+			<prize>3243</prize>
+		</group>
+	</inventory>
+	<!-- 
+	<inventory>
+		<group type="creditsLow">
+			<prize>credits15</prize>
+			<prize>credits20</prize>
+			<prize>credits25</prize>
+		</group>
+		<group type="creditsMedium">
+			<prize>credits50</prize>
+			<prize>credits60</prize>
+			<prize>credits75</prize>
+		</group>
+		<group type="creditsHigh">
+			<prize>credits100</prize>
+			<prize>credits125</prize>
+			<prize>credits150</prize>
+		</group>
+		<group type="creditsJackPot">
+			<prize>credits200</prize>
+			<prize>credits250</prize>
+			<prize>credits300</prize>
+		</group>
+		<group type="costume">
+			<prize>3014</prize>
+			<prize>3017</prize>
+			<prize>3042</prize>
+			<prize>3043</prize>
+			<prize>3059</prize>
+			<prize>3069</prize>
+			<prize gender="male">3073</prize>
+			<prize gender="female">3074</prize>
+			<prize>3079</prize>
+			<prize>3084</prize>
+			<prize gender="male">3130</prize>
+			<prize gender="female">3131</prize>
+			<prize gender="male">3178</prize>
+			<prize gender="female">3179</prize>
+			<prize>3184</prize>
+			<prize>3194</prize>
+			<prize>3202</prize>
+			<prize>3243</prize>
+		</group>
+		<group type="follower">
+			<prize gender="male">3196</prize>
+			<prize gender="female">3197</prize>
+		</group>
+		<group type="multiCostume">
+			<prize>3003</prize>
+			<prize>3010</prize>
+			<prize>3034</prize>
+			<prize>3044</prize>
+			<prize gender="male">3046</prize>
+			<prize gender="female">3047</prize>
+			<prize gender="male">3111</prize>
+			<prize gender="female">3112</prize>
+			<prize>3195</prize>
+		</group>
+		<group type="grandPrize">
+			<prize>3264</prize>
+		</group>
+	</inventory>
+	 -->
+</prizeWheel>

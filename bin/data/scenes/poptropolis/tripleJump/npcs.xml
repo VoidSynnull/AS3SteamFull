@@ -1,0 +1,19 @@
+<!-- TripleJump -->
+<npcs>
+   <npc id="playerDummy">
+    <direction>right</direction>
+    <skin>
+ 	  <gender>1</gender>
+      <skinColor>0xfae0c9</skinColor>
+      <hairColor>0x58493e</hairColor>
+    </skin>
+    <position>
+      <x>270</x>
+      <y>780</y><!-- This actually puts him at 746. I have no idea why - Gabriel. It's probably accounting for his Edge, distance from center to bottom. - Bard-->
+    </position>
+    <range>
+	<x>0</x>
+<y>0</y>
+</range>
+  </npc>
+</npcs>

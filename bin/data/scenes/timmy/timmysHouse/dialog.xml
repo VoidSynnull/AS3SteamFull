@@ -1,0 +1,38 @@
+<dialogs>
+    <character id="player">
+		<statement id="total">No idea what a polar bear is doing this far from the north pole, but he sure seems to be hungry.</statement>
+		<statement id="total2">Total sure spends a lot of time in the kitchen, hoping for treats I'd bet.</statement>
+		<statement id="amazing">This thing is amazing! It automatically sucks up anything that's left on the floor.</statement>
+		<statement id="key_inside">I need to find a tool to open this to get the key.</statement>
+		<statement id="roomba_broken" link="bear">Hey, the robo-vac broke! i wonder what happened.</statement>
+		<statement id="bear">I should check to see if the LazyBear2000 recorded anything.</statement>
+		<statement id="screwdriver2">I should check the recording before i go taking this apart.</statement>
+		<statement id="screwdriver">No reason to get into the Robo-Vac.</statement>
+		<statement id="whoops">Whoops! I hope that wasn't important...</statement>
+		<statement id="locked">Child-proof lock, also keeps out polar bears it seems...</statement>
+		<statement id="shears">Nothing left to cut up here.</statement>
+		<statement id="locked2">Locked, there's probably a key around here somewhere.</statement>
+		<statement id="key">Hey, the Robo-Vac ate some kind of key!</statement>
+		<statement id="record">The lazybear 2000 hasn't recorded anything yet, I should come back later.</statement>
+		<statement id="phone">I'd better not. Don't want to get in trouble.</statement>
+		
+		<statement id="missing_pieces">I don't have all of the parts for the lazy bear yet.</statement>
+			
+		<statement id="treats_found">Ah... so that's what he was after.</statement>
+		<statement id="shoes_found">Um.... that's Timmy's office?  Looks like a closet to me, but these are nice shoes, maybe I could use them.</statement>
+		
+		<statement id="treats">Wow. He'll follow me anywhere to get these treats.</statement>
+		<statement id="sitting">He was just standing here. He wasn't doing anything.</statement>
+		<statement id="how">How are we supposed to do that?</statement>
+		<statement id="where">Now where am I going to find all that stuff...</statement>
+		
+		<statement id="what">Timmy shouldn't leave this thing out in public. It might scare someone!</statement>
+    </character>
+    <character id="timmy">
+		<statement id="fast">Not so fast! I won't let you abscond with my partner that easily.</statement>
+		<statement id="slack">That's exactly the problem. He needs to be watched around the clock so he doesn't slack off in the kitchen all day.</statement>
+		<statement id="lazy">Easy: with the Lazy Bear 2000. I'm far too busy to make it myself, so I'm delegating the responsibility to you. Here are the instructions.</statement>
+   		<statement id="nice">Nice work. Now we'll be able to catch my slumbering partner in the act.</statement>
+   		<statement id="lead">I've got another lead for you. A classmate of mine has been acting friendly -- a little too friendly. I'd like you to check him out.</statement>
+    </character>
+</dialogs>

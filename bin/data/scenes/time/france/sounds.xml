@@ -1,0 +1,37 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Statue_of_Liberty.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_light_open_creak_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="planks">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="fence">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="roof">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="building">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="statue">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="barrel">ls_wood_crate_01.mp3</asset>
+		<asset id="crate">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="chimney">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="planks">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="fence">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="roof">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="building">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="statue">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="barrel">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="crate">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="chimney">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

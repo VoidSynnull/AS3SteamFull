@@ -1,0 +1,11 @@
+<dialogs>
+	<character id="npc">
+		<statement event="watch_security1">I had to let the last guy go because he was getting spooked, seeing and hearing things that weren’t there.</statement>
+		<statement event="watch_security2">Before I can hire you, I need to see if you’re up for the job. Follow me.</statement>
+    </character>
+    <character id="player">
+		<statement event="nightWatch_alert0">I should go check it out. That map on the wall might help me locate MacGuffin's.</statement>
+		<statement event="examine_energyDrinks">The manager warned me to stay away from energy drinks.</statement>
+		<statement event="examine_notes">Just a bunch of paranoid notes from the last watchman.</statement>
+    </character>
+</dialogs>

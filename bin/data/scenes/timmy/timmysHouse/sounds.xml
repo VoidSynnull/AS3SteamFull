@@ -1,0 +1,27 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true">sneaky_shop_theme.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_knob_turn_open_01.mp3</asset>
+	</sound>
+	<sound type="effects" action="impact">
+		<asset id="floor">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="fridge">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+		<asset id="carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="floor_carpet">ls_carpet_01.mp3, ls_carpet_02.mp3</asset>
+		<asset id="counter">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="bounce">ls_spring_01.mp3, ls_spring_misc_furniture_01.mp3</asset>
+		
+		<asset id="roombaPlat">ls_toilet_plastic_01.mp3, ls_toilet_plastic_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="floor">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="fridge">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+		<asset id="carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="floor_carpet">fs_carpet_01.mp3, fs_carpet_02.mp3, fs_carpet_03.mp3, fs_carpet_04.mp3</asset>
+		<asset id="counter">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		
+		<asset id="roombaPlat">fs_plastic_01.mp3, fs_plastic_02.mp3,fs_plastic_03.mp3, fs_plastic_04.mp3</asset>
+	</sound>
+</sounds>

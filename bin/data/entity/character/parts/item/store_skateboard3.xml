@@ -1,0 +1,40 @@
+<part>
+	<id>store_skateboard3</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<actions>
+		
+			<actionChain id="before_actions">
+			
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">overshirt</param>
+						<param id="partID" type="string">store_skateboard3_riding</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="partType" type="string">item</param>
+						<param id="partID" type="string">blank</param>
+						<param id="permanent" type="boolean">false</param>
+					</parameters>
+				</action>
+				<action class="SetPlayerFrictionAction">
+					<parameters>
+						<param id="friction" type="number">.1</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

@@ -1,0 +1,15 @@
+<part>
+	<id>limited_dora_torch</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2970</campaignID>
+		<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<parameters>
+			<param id="partType">item</param>
+			<param id="tracking">DoraVBB,Torch</param>
+		</parameters>
+	</specialAbility>
+</part>

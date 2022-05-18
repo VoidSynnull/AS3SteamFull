@@ -1,0 +1,11 @@
+<part ignoreBitmap="true">
+	<id>medusa</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<specialAbility>
+  		<className>game.data.specialAbility.store.Medusa</className>
+  	</specialAbility>
+</part>

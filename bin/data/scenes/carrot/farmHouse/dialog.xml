@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="player">
+		<statement triggeredByEvent="cat_hiding">text51</statement>
+		<statement triggeredByEvent="cat_following">text52</statement>
+	</character>
+	<character id="cat">
+		<statement triggeredByEvent="milk_given">text53</statement>
+		<statement triggeredByEvent="cat_meow">text53</statement>
+		<statement triggeredByEvent="cat_following">text54</statement>
+		<statement triggeredByEvent="cat_purr">text54</statement>
+	</character>	
+</dialogs>

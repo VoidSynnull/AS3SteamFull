@@ -1,0 +1,229 @@
+<map>
+	<!-- 
+		Page Location Groups ::: uhendba : 0229
+		groups of coordinates used to arrange islands on page
+		- @size - max islands per page (referenced by defaults by the number of islands in a partition)
+		- @name - OPTIONAL: named group for custom location groups (referenced in partitions)
+		- @scale - OPTIONAL: custom scale for islands
+	-->
+	<locations>
+	
+		<!-- CUSTOM LOCATION GROUPS -->
+		<group name="easy_islands_custom" size="3" scale="1.1">
+			<!-- Small Grouping of 3 islands + 1 custom placement (for pop worlds)
+				3 Islands are in a zigzag pattern from left to right
+			 -->
+			<location>
+				<x>0.30</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.50</x>
+				<y>0.40</y>
+			</location>
+			<location>
+				<x>0.70</x>
+				<y>0.66</y>
+			</location>
+			<!-- custom placement (pop worlds callout) -->
+			<custom>
+				<x>0.15</x>
+				<y>0.27</y>
+			</custom>
+		</group>
+		
+		<!-- DEFAULT LOCATION GROUPS -->
+		<group size="2" scale="1.3">
+			<!-- Smallest Grouping of 2 islands
+				2 Islands are side by side on an even line
+			-->
+			<location>
+				<x>0.37</x>
+				<y>0.61</y>
+			</location>
+			<location>
+				<x>0.63</x>
+				<y>0.61</y>
+			</location>
+		</group>
+		<group size="3" scale="1.2">
+			<!-- Small Grouping of 3 islands
+				3 Islands are in a zigzag pattern from left to right
+			 -->
+			<location>
+				<x>0.30</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.50</x>
+				<y>0.40</y>
+			</location>
+			<location>
+				<x>0.70</x>
+				<y>0.66</y>
+			</location>
+		</group>
+		<group name="four_islands" size="4" scale="1.1">
+			<!-- Medium Grouping of 4 islands
+				4 Islands are in a zigzag pattern from left to right
+			-->
+			<location>
+				<x>0.23</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.41</x>
+				<y>0.40</y>
+			</location>
+			<location>
+				<x>0.59</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.77</x>
+				<y>0.40</y>
+			</location>
+		</group>
+		<group name="five_islands" size="5" scale="1.0">
+			<!-- Medium Grouping of 5 islands
+				5 Islands are in a zigzag pattern from left to right
+			-->
+			<location>
+				<x>0.16</x>
+				<y>0.40</y>
+			</location>
+			<location>
+				<x>0.33</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.50</x>
+				<y>0.40</y>
+			</location>
+			<location>
+				<x>0.67</x>
+				<y>0.66</y>
+			</location>
+			<location>
+				<x>0.84</x>
+				<y>0.40</y>
+			</location>
+		</group>
+		<group size="7" scale="0.95">
+			<!-- Default Grouping of 5 - 7 islands 
+				5-7 Islands are shown in rows 4 top, 3 bottom
+			-->
+			<location>
+				<x>0.15</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.38</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.62</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.85</x>
+				<y>0.36</y>
+			</location>
+			<location>
+				<x>0.27</x>
+				<y>0.68</y>
+			</location>
+			<location>
+				<x>0.5</x>
+				<y>0.68</y>
+			</location>
+			<location>
+				<x>0.73</x>
+				<y>0.68</y>
+			</location>
+		</group>
+	</locations>
+	
+	<!-- 
+		::: Island Partitions ::: uhendba : 0229
+		partitions added to separate islands into their own "groups" e.g. "Starter Islands", "Easy Islands" etc.
+		- islands within partitions will be shown in their own "page(s)"
+		- @name - partitions with name attribute assigned will have a banner with the name appear below the islands
+		- @group - OPTIONAL: @name of custom location group to use 
+	-->
+	<islands>
+		<partition>
+			<island>hub</island>
+			<island>arabEpisodic</island>
+			<island>tutorial</island>
+		</partition>
+		<partition location_group="easy_islands_custom">
+			<island>carrot</island>
+			<island>conEpisodic</island>
+			<island>survivalEpisodic</island>
+			<!-- custom placement (pop worlds callout) -->
+		</partition>
+		<partition location_group="four_islands">
+			<island>timmy</island>
+			<island>prison</island>
+			<island>time</island>
+			<island>myth</island>
+		</partition>
+		<partition location_group="five_islands">
+			<island>reality2</island>
+			<island>deepDiveEpisodic</island>
+			<island>viking</island>
+			<island>ghd</island>
+			<island>shrink</island>
+		</partition>
+		<partition location_group="five_islands">
+			<island>virusHunter</island>
+			<island>poptropolis</island>
+			<island>carnival</island>
+			<island>mocktropica</island>
+		</partition>
+	</islands>
+	
+	<adIslands>
+		<island>
+			<page>1</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>1</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>2</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>2</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>3</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>3</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>4</page>
+			<x>0.1</x>
+			<y>0.7</y>
+		</island>
+		<island>
+			<page>4</page>
+			<x>0.9</x>
+			<y>0.7</y>
+		</island>
+	</adIslands>
+</map>	

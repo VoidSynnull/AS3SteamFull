@@ -1,0 +1,29 @@
+<part>
+	<id>limited_wasp</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+		<part>marks</part>
+	</hide>
+	<campaignID>2902</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.SpecialAbility</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">AntmanAndTheWaspMVU,shrink</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetScaleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="scale" type="number">0.15</param>
+						<param id="toggle" type="boolean">true</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

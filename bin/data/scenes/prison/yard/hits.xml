@@ -1,0 +1,61 @@
+<hits>
+	<hit id="pipes" color="0x77E6F5" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="step1" color="0x99CCFF" platform="true">
+		<component type="platform">
+			<depth>1</depth>
+		</component>
+	</hit>
+	<hit id="step2" color="0x99FFFF" platform="true">
+		<component type="platform">
+			<depth>2</depth>
+		</component>
+	</hit>
+	<hit id="step3" color="0xCC00FF" platform="true">
+		<component type="platform">
+			<depth>3</depth>
+		</component>
+	</hit>
+	<hit id="step4" color="0xCC33FF" platform="true">
+		<component type="platform">
+			<depth>4</depth>
+		</component>
+	</hit>
+	<hit id="step5" color="0xCC66FF" platform="true">
+		<component type="platform">
+			<depth>5</depth>
+		</component>
+	</hit>
+	<hit id="step6" color="0xCC99FF" platform="true">
+		<component type="platform">
+			<depth>6</depth>
+		</component>
+	</hit>
+	<hit id="grate" color="0xCCCC33" platform="true">
+		<component type="platform"/>
+	</hit>	
+	<hit id="bust" color="0x99CCCC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xFF9900">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xFFFF00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="bounce_hoop" color="0xCC9966" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-950</y>
+			</velocity>
+		</component>
+	</hit>
+</hits>

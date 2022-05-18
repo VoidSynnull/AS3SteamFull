@@ -1,0 +1,43 @@
+<item id="3032">
+		<type>store</type>
+		<subType>general</subType>
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Pirate Captain</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to activate&#10;this outfit’s special action!</web>
+			<mobile>Tap ACTION to activate&#10;this outfit’s special action!</mobile>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<marks>pPirateGuy1</marks>
+			<mouth>pPirateGuy1</mouth>
+			<facial>pPirateGuy1</facial>
+			<hair>pPirateGuy1</hair>
+			<pants>pPirateGuy1</pants>
+			<shirt>pPirateGuy1</shirt>
+			<overpants>pPirateGuy1</overpants>
+			<overshirt>pPirateGuy1</overshirt>
+			<item>pPirateSword</item>
+		</look>
+	</looks> 
+	
+</item>

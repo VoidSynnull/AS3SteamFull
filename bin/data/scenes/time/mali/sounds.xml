@@ -1,0 +1,28 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Mali_Empire.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">desert_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="doorOpened">
+		<asset>door_heavy_open_creak_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="tree">ls_leaves_01.mp3,ls_leaves_02.mp3</asset>
+		<asset id="wood">ls_wood_plank_01.mp3,ls_wood_plank_02.mp3</asset>
+		<asset id="roof">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="tree">fs_leaves_01.mp3,fs_leaves_02.mp3,fs_leaves_03.mp3</asset>
+		<asset id="wood">fs_wood_plank_01.mp3,fs_wood_plank_02.mp3,fs_wood_plank_03.mp3,fs_wood_plank_04.mp3</asset>
+		<asset id="roof">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+	</sound>
+	<sound type="effects">
+		<asset triggeredByEvent="snake_bite" allowOverlap="true">snake_bite_01.mp3</asset>
+	</sound>
+</sounds>

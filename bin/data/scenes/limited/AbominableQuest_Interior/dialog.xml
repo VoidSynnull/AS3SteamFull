@@ -1,0 +1,23 @@
+<dialogs>
+	<character id="yi">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="shipEnter">It's really peaceful here, far from danger.</statement>
+		<statement id="cut">I'll make sure you get back home to your family.</statement>
+	</character>
+	<character id="pen">
+		<statement>Don't forget to watch the awesome video.</statement>
+		<statement id="cut" forceOnScreen="true" >They're after us!</statement>
+	</character>
+	<character id="heli">
+		<statement id="cut">Code red! I want my yeti back!</statement>
+	</character>
+	<character id="jin">
+		<statement>Talk to Yi if you can help us.</statement>
+		<statement id="cut" forceOnScreen="true">Hop in the boat!</statement>
+	</character>
+	<character id="yetinpc">
+		<statement>ROAR!</statement>
+	</character>
+	<character id="player">
+		<statement id="cut">I'd better go talk to Yi, that girl in the red shirt.</statement>
+	</character>
+</dialogs>

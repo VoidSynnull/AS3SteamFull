@@ -1,0 +1,19 @@
+<part>
+	<id>poptropicon_consec</id>
+	<type>shirt</type>
+	<costumizable>false</costumizable>
+	<gender>female</gender>
+	<gender>male</gender>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>text</instanceName>
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

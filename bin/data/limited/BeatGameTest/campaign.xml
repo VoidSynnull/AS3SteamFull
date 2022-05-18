@@ -1,0 +1,18 @@
+<campaign>
+  	<campaignId>BeatGameTest</campaignId> <!-- Must match CMS name in CMS -->
+  	<name>Beat Music Game</name> <!-- Must match display name in CMS -->
+	<clickUrls>
+		<clickUrl id="url1">http://www.funbrain.com/comics/poptropica/</clickUrl> <!-- Must match click thru URL in CMS -->
+		<clickUrl id="game">http://www.funbrain.com</clickUrl> <!-- click URL for game launched from card -->
+	</clickUrls>
+		<cards>
+		<card>2779</card>
+	</cards>
+	<!-- used for AS3 win popups -->
+	<boycards>
+		<card>2779BeatMusicGame</card>
+	</boycards>
+	<girlcards>
+		<card>2779BeatMusicGame</card>
+	</girlcards>
+</campaign>

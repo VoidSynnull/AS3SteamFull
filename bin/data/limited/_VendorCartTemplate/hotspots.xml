@@ -1,0 +1,7 @@
+<hotspots>
+	<hotspot id="poster" type="poster">
+		<action type="openUrlOnClick">clickURL</action> <!-- Pulls from campaign.xml -->
+		<action type="giveItemMale">9999</action> <!-- To award an item card to a boy -->
+        <action type="giveItemFemale">9999</action> <!-- To award an item card to a girl -->
+	</hotspot>
+</hotspots>

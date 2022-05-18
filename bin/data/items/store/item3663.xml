@@ -1,0 +1,71 @@
+<item id="3663">
+	<type>store</type>
+	<subType>general</subType>
+		
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<radiobuttons>
+		<btn>
+			<color>0x191265</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xfff9dc</color>
+			<val>1</val>
+		</btn>
+		<btn>
+			<color>0xbf76e1</color>
+			<val>2</val>
+		</btn>
+	</radiobuttons>
+	
+	<buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+		
+		<textfields>
+			<text id="storeTitle">
+				<value>Notebooks</value>
+			</text>
+	</textfields>
+	
+	
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+		
+	<looks>
+		<look>
+			<item>notebook_1</item>
+		</look>
+		<look>
+			<item>notebook_3</item>
+		</look>
+		<look>
+			<item>notebook_2</item>
+		</look>
+	</looks> 
+
+	
+</item>

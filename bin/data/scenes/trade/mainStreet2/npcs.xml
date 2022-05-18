@@ -1,0 +1,176 @@
+<npcs>
+	<npc id="char1">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0x917150</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>19</mouth>
+			<marks/>
+			<facial>skullMainGirl</facial>
+			<hair>1</hair>
+			<shirt>skullMainGirl</shirt>
+			<pants>astroVill2</pants>
+			<pack>1</pack>
+			<item>1</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>344</x>
+			<y>1199</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char2">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xfde6b6</skinColor>
+			<hairColor>0x72462a</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>fisherman</mouth>
+			<marks>skullMainFarmer2</marks>
+			<facial>skullMainFarmer2</facial>
+			<hair>1</hair>
+			<shirt>skullMainFarmer2</shirt>
+			<pants>skullMainServant</pants>
+			<pack>1</pack>
+			<item>colonialRake</item>
+			<overshirt>skullMainFarmer2</overshirt>
+			<overpants>astroManure</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1572</x>
+			<y>1580</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char3">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfde6b6,</skinColor>
+			<hairColor>0x443828</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>curator</mouth>
+			<marks>scuffMarks</marks>
+			<facial>skullMainLadyFarm</facial>
+			<hair>skullMainHayLady</hair>
+			<shirt>skullMainFarmLady</shirt>
+			<pants>skullMainFarmLady</pants>
+			<pack>1</pack>
+			<item>basket</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>squint</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>2612</x>
+			<y>1580</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char4">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x777777</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>greekWiseGuy</mouth>
+			<marks>wrinkles</marks>
+			<facial>franklin</facial>
+			<hair>skullMainOldLady</hair>
+			<shirt>skullMainOldLady</shirt>
+			<pants>skullMainServant</pants>
+			<pack>1</pack>
+			<item>1</item>
+			<overshirt>skullMainOldLady</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>1961</x>
+			<y>1576</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char5">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfae0c9</skinColor>
+			<hairColor>0xf9aa17</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>astroPrincess</mouth>
+			<marks>astroPrincess</marks>
+			<facial>skullMainSadLady</facial>
+			<hair>1</hair>
+			<shirt>skullMainSadLady</shirt>
+			<pants>skullMainGirl</pants>
+			<pack>1</pack>
+			<item>1</item>
+			<overshirt>skullMainOldLady</overshirt>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>5150</x>
+			<y>1763</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char6" event="mainstreet2_hidechars">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd2aa72</skinColor>
+			<hairColor>0x999999</hairColor>
+			<eyes>eyes</eyes>
+			<mouth>shadyCop</mouth>
+			<marks>wrinkles</marks>
+			<facial>1</facial>
+			<hair>skullMainGov</hair>
+			<shirt>skullMainGov</shirt>
+			<pants>skullMainGov</pants>
+			<pack>1</pack>
+			<item>cane</item>
+			<overshirt/>
+			<overpants>1</overpants>
+			<lineColor></lineColor>
+			<eyeState>open</eyeState>
+			<lineWidth></lineWidth>
+		</skin>
+		<position>
+			<x>4050</x>
+			<y>970</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+</npcs>

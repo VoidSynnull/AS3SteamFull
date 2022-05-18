@@ -1,0 +1,17 @@
+<part>
+	<id>oillamplit</id>
+	<type>item</type>
+	<notPrintable>true</notPrintable>
+	<specialAbility id="torch_flame">
+		<className>game.data.specialAbility.islands.arab.AddDynamicFlames</className>
+		<useButton>false</useButton>
+		<validIslands>arab2</validIslands>
+		<parameters>
+			<param id="flameScale">0.6</param>
+		</parameters>
+	</specialAbility>
+	<!--><components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components></!-->
+	
+</part>

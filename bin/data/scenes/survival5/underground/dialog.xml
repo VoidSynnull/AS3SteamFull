@@ -1,0 +1,21 @@
+<dialogs>
+	<character id="maxDialog">
+		<statement id="got_you" forceOnScreen="true">Got you now, you swine!</statement>
+	</character>
+	
+	<character id="max">
+		<statement event="ready_to_fight">Perfect! Take that equipment to the sawmill and set up a trap for Van Buren!</statement>
+		<statement id="not_vanBuren" linkEntityId="player" link="who_are_you">Wait - you're not Van Buren.</statement>
+		<statement id="max_mcgullicutty" linkEntityId="player" link="clues">Max McGullicutty, at your service.</statement>
+		<statement id="on_the_run" link="survival" triggerEvent="triggerEvent" triggerEventArgs="reset_zoom">That's right. I've been on the run from Van Buren for over a year now, waiting for someone like you to show up.</statement>
+		<statement id="survival" linkEntityId="player" link="what_now">I've been able to survive underground even with this gammy leg - but with your help, we can turn the tables on Van Buren!</statement>
+		<statement id="sawmill" triggerEvent="triggerEvent" triggerEventArgs="return_control">The old sawmill is the perfect place for us to spring a trap. We'll need a rope, a gear, and a whistle. Get those, and then we'll capture Van Buren!</statement>
+		<statement>The old sawmill is the perfect place for us to spring a trap. We'll need a rope, a gear, and a whistle. Get those, and then we'll capture Van Buren!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="who_are_you" triggerEvent="triggerEvent" triggerEventArgs="introduce_myself">Who are you?</statement>
+    	<statement id="clues" linkEntityId="max" link="on_the_run">You're the one who left all those clues for me!</statement>
+    	<statement id="what_now" linkEntityId="max" link="sawmill"> I'd like nothing more. What do we do?</statement>
+    </character>
+</dialogs>

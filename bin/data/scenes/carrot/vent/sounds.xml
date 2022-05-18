@@ -1,0 +1,40 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Factory_Theme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">air_ducts_1.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_squeaky_metal_swing_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- <asset triggeredByEvent="gotItem_wireCutters">card_get.mp3</asset> -->
+	</sound>
+	
+	<sounds type="effects" action="impact">
+		<asset id="air">air_ducts_1.mp3</asset>
+		<asset id="underVent">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="ventFloor">ls_thin_metal_verb_01.mp3, ls_thin_metal_verb_02.mp3</asset>
+		<asset id="snow">ls_crisp_snow_01.mp3</asset>
+		<asset id="underVentSnow">ls_crisp_snow_01.mp3</asset>
+		<asset id="barrels">ls_metal_verb_01.mp3, ls_metal_verb_02.mp3</asset>
+		<asset id="sand">ls_sand_01.mp3, ls_sand_02.mp3</asset>
+		<asset id="dirt">ls_dirt_01.mp3, ls_dirt_02.mp3</asset>
+		<asset id="muck">ls_squishy_muck_01.mp3, ls_squishy_muck_02.mp3</asset>
+	</sounds>
+	
+	<sounds type="effects" action="step">
+		<asset id="underVent">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>		
+		<asset id="ventFloor">fs_thin_metal_verb_01.mp3, fs_thin_metal_verb_02.mp3, fs_thin_metal_verb_03.mp3, fs_thin_metal_verb_04.mp3</asset>
+		<asset id="snow">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		<asset id="underVentSnow">fs_crisp_snow_01.mp3, fs_crisp_snow_02.mp3, fs_crisp_snow_03.mp3, fs_crisp_snow_04.mp3</asset>
+		<asset id="barrels">fs_metal_verb_01.mp3, fs_metal_verb_02.mp3, fs_metal_verb_03.mp3, fs_metal_verb_04.mp3</asset>
+		<asset id="sand">fs_sand_01.mp3, fs_sand_02.mp3, fs_sand_03.mp3, fs_sand_04.mp3</asset>
+		<asset id="dirt">fs_dirt_01.mp3, fs_dirt_02.mp3, fs_dirt_03.mp3, fs_dirt_04.mp3</asset>
+		<asset id="muck">fs_squishy_muck_01.mp3, fs_squishy_muck_02.mp3, fs_squishy_muck_03.mp3, fs_squishy_muck_04.mp3</asset>
+	</sounds>
+</sounds>

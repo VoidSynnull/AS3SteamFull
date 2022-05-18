@@ -1,0 +1,45 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="chemsPlat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="stand0Plat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+<!-- 	 	<visible>stand0</visible> -->
+		</component>
+	</hit>
+	<hit id="stand1Plat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="stand2Plat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+	<hit id="stand3Plat" platform="true">
+		<component type="movingPlatform">
+	 		<velocity>0</velocity>
+	 		<loop>false</loop>
+		</component>
+	</hit>
+</hits>

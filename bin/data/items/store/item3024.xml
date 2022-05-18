@@ -1,0 +1,28 @@
+<item id="3024">
+	<type>island</type>
+	<subType>examples</subType>
+	<buttons>
+		<btn>
+				<label>CREATE</label>
+				<actions>
+				<action type="openPopup">
+						<parameters>
+							<param id="className"></param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+	</buttons>
+	<textfields>
+		<text id="storeTitle">
+				<value>Multiverse</value>
+			</text>
+			<text id="storeInstructions">
+			<value>Create a multi-player room and then invite your friends to chat or play games!</value>
+		</text>
+		</textfields>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+</item>

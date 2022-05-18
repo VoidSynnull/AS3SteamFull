@@ -1,0 +1,15 @@
+<part>
+	<id>medusa1</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	<components>
+		<component class="game.scenes.myth.mountOlympus.components.MedusaHairComponent">
+			<properties>
+				<drawOnce>true</drawOnce>
+			</properties>
+		</component>
+  	</components>
+</part>

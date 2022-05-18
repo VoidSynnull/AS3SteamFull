@@ -1,0 +1,15 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="platform" color="0x333333" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0x666666">
+		<component type="wall"/>
+	</hit>
+	<hit id="bounce" color="0x777777">
+		<component type="bounce"/>
+	</hit>
+	
+</hits>

@@ -1,0 +1,11 @@
+<tracking>
+	<track id="LegoNPC_legostarwars">
+		<event>EngagedOutsideNPC</event>
+		<choice>LegoNPC</choice>
+	</track>
+	<track id="poster_legostarwars">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Outside Poster</subchoice>
+	</track>
+</tracking>

@@ -1,0 +1,20 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Spiked Bounce Ball</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Plow through obstacles like a Poptropican wrecking ball in the Shrink Shot mini game!</value>
+		</text>
+	</textfields>
+</item>

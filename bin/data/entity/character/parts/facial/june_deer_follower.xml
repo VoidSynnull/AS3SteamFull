@@ -1,0 +1,19 @@
+<part>
+	<id>june_deer_follower</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.AddShoes</className>
+		<triggerable>false</triggerable> 
+		<parameters>
+			<param id="shoePath">specialAbility/objects/shoes/hoof_deer_foot.swf</param>
+			<param id="showBlur">false</param>
+		</parameters>
+	</specialAbility>
+	<hide>
+		<part>head</part>
+		<part>mouth</part>
+		<part>eyes</part>
+		<part>body</part>
+	</hide>
+</part>

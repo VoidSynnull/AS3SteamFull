@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="liongirl">
+		<statement event="hasAdItem_2968">Watch the video!</statement> <!-- If have item card -->
+		<statement event="videoDone">Click the replay button to watch the video again.</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch the video!</statement> <!-- if video playing -->
+		<statement>Watch the video to get a very cool prize!</statement> <!-- default if above not true -->
+		<statement triggeredByEvent="npcProximity">Hey!</statement>
+	</character>
+	<character id="lionboy">
+		<statement>Roar!!!</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

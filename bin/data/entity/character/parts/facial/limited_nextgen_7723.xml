@@ -1,0 +1,31 @@
+<part>
+	<id>limited_nextgen_7723</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>head</part>
+		<part>arm1</part>
+		<part>arm2</part>
+		<part>leg1</part>		
+		<part>leg2</part>
+		<part>hand1</part>
+		<part>hand2</part>
+		<part>foot1</part>
+		<part>foot2</part>
+		<part>body</part>
+	</hide>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ShootRay</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="rayPath">limited/NetflixNextGenQuest/ray.swf</param>
+			<param id="targetPrefix">zone</param>
+			<param id="colors">0x7F7F7F,0xA2A2A2</param>
+			<param id="explodeSound">effects/explosion_01.mp3</param>
+			<param id="offsetX">40</param>
+			<param id="offsetY">25</param>
+			<param id="inset">80</param>
+		</parameters>
+	</specialAbility>
+</part>

@@ -1,0 +1,35 @@
+<item id="3385"> <!-- Change this card ID -->
+		<type>store</type>
+	<subType>general</subType>
+	<!-- Change this card name -->
+	 <!-- Change this CMS name -->
+	
+	<buttons>
+				 	<btn>
+				<index>0</index>
+					<label>PRINT</label>
+					<actions>
+				<action type="gotoUrl"> <!-- change tracking call -->
+						<parameters>
+							<param id="urlId">http://www.poptropica.com/images/island-tour/galactic_hotdogs/neonWienerPaperCraft.pdf</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+				</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Make your own</value> <!-- Change this subtitle -->
+		</text>
+		<text id="storeTitle">
+			<value>Neon Wiener</value> <!-- Change this title -->
+		</text>
+	</textfields>
+	
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+
+
+</item>

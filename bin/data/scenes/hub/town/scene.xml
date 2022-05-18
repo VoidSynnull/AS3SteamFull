@@ -1,0 +1,46 @@
+<scene>
+	<sceneType>mainstreet</sceneType>
+	<bounds>
+		<left>-1000</left>
+		<top>-500</top>
+		<right>5400</right>
+		<bottom>1035</bottom>
+	</bounds>
+	<cameraLimits>
+		<left>-1050</left>
+		<top>-470</top>
+		<right>5550</right>
+		<bottom>1200</bottom>
+	</cameraLimits>
+	<data>dialog.xml,doors.xml,npcs.xml,sounds.xml,hits.xml,photo_booth.xml,mini_game.xml,blimp.xml,custom.xml,custom2.xml</data>
+	<assets></assets>
+	<layers>
+		<layer id="backdrop">
+			<asset>backdrop_redesign.swf</asset>
+			<rate>0.75</rate>
+		</layer>
+		<layer id="background">
+			<asset>background_redesign.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer>
+			<asset>wheel_redesign.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer hit="true" id="interactive">
+			<asset>interactive_redesign.swf</asset>
+			<rate>1</rate>
+		</layer>
+		<layer id="foreground">
+			<asset>foreground_redesign.swf</asset>
+			<rate>1</rate>
+		</layer>
+	</layers>
+	<player>
+		<defaultPosition>
+			<x>1625</x>
+			<y>780</y>
+		</defaultPosition>
+		<defaultDirection>left</defaultDirection>
+	</player>
+</scene>

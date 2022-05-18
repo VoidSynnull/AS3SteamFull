@@ -1,0 +1,31 @@
+<hits>
+  <hit id="car" color="0xD0E7EF" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="concrete" color="0xDDD3B5" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="crates" color="0xD6C5AC" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="roof_metal" color="0xC8C8C0" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="beams" color="0xB0B2AC" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="grass" color="0xADD1A5" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="baseGround" platform="true">
+    <component type="platform"/>
+  </hit>
+  <hit id="bounce" color="0xff0000" platform="true">
+    <component type="bounce">
+      <velocity>
+        <x>0</x>
+        <y>-500</y>
+      </velocity>
+    </component>
+  </hit>
+</hits>

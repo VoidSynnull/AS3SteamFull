@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Deadly_Virus.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<asset triggeredByEvent="acid_splashed_1">fs_water_01.mp3</asset>
+		<asset triggeredByEvent="acid_splashed_2">fs_water_02.mp3</asset>
+		<asset triggeredByEvent="acid_splashed_3">fs_water_04.mp3</asset>
+		
+		<asset triggeredByEvent="splinter_removed">squish_05.mp3</asset>
+		<asset triggeredByEvent="fighting_infection">consume_virus_L.mp3</asset>
+		<asset triggeredByEvent="part_stolen_1">ls_unstable_metal_01.mp3</asset>
+		<asset triggeredByEvent="part_stolen_2">ls_unstable_metal_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="radial" allowOverlap="false">squish_01.mp3, squish_02.mp3, squish_03.mp3, squish_04.mp3</asset>
+	</sound>
+</sounds>

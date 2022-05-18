@@ -1,0 +1,74 @@
+<hits>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="dirt" color="0xCBB4AA" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="snow" color="0xFFFFFF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="grass" color="0xDFCBA7" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xBAACA6" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="rock" color="0xCBC1B9" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="seesaw1">
+		<component type="movingPlatform">
+			<visible>log1</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	<hit id="seesaw2">
+		<component type="movingPlatform">
+			<visible>log2</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	<hit id="seesaw3">
+		<component type="movingPlatform">
+			<visible>log3</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	<hit id="bounce0" color="0xFF0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="bounce1" color="0xDD0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="bounce2" color="0xCC0000" platform="true">
+		<component type="bounce">
+	      <velocity>
+	        <x>0</x>
+	        <y>-1100</y>
+	      </velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x00BFBA</splashColor1>
+			<splashColor2>0xFFFFFF</splashColor2>
+		</component>
+	</hit>
+</hits>

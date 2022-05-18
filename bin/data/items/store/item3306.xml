@@ -1,0 +1,46 @@
+<item id="3306">
+	<type>store</type>
+	<subType>general</subType>
+	<assets>
+		<asset id="cardBack" />
+			<asset id="cardContent"/>
+		</assets>
+	<buttons>
+		<btn>
+			<conditional id="hasLook" isTrue="false"></conditional>
+			<label>I'M A SKELETON</label>
+			<actions>
+				<action type="applyLook"/>
+			</actions>
+			<index>1</index>
+		</btn>
+		<btn>
+			<conditional id="hasLook" isTrue="true"></conditional>
+			<label>TAKE OFF</label>
+			<actions>
+				<action type="removeLook"/>
+			</actions>
+			<index>1</index>
+		</btn>
+		<btn>
+			<label>I SEE SKELETONS</label>
+			<actions>
+				<action type="applyLookNPC"/>
+			</actions>
+		</btn>
+	</buttons>
+	<textfields>
+			<text id="storeTitle">
+			<value>Skeleton Power</value>
+		</text>
+	</textfields>
+	<conditionals>
+		<conditional type="hasLook"/>
+	</conditionals>
+	<looks>
+			<look>
+			<facial>skeleton</facial>
+			<overshirt>skeleton</overshirt>
+		</look>
+	</looks> 
+</item>

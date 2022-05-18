@@ -1,0 +1,35 @@
+<part>
+	<id>limited_jojo</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="tracking">JTeamVBB,Competition Outfit</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+			<action class="AudioAction" >
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/JTeamVBB/change_me_10.mp3</param> 
+					</parameters>
+				</action>
+				<action class="AnimationAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.DanceMoves01Loop</param>
+					</parameters>
+				</action>
+				<action class="AnimationAction" startDelay="10">
+					<parameters>
+						<param id="char" type="entity">player</param>
+						<param id="animationClass" type="class">game.data.animation.entity.character.Pop</param>
+					</parameters>
+				</action>
+				
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

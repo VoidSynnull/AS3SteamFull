@@ -1,0 +1,22 @@
+<dialogs>
+	<character id="buren">
+		<statement id="got_you">Got you now!</statement>
+		<statement id="clever" link="why" linkEntityId="player">Very clever! You nearly had me. But no one outfoxes Myron Van Buren.</statement>
+    	<statement id="thrill" link="trophy">The thrill of the hunt, my dear! All for the thrill of the hunt.</statement>
+    	<statement id="trophy">Now... time for me to add another trophy to my collection.</statement>
+    	<statement id="ahh">Ahh!</statement>
+    	<statement id="aim">No matter -- my aim's just as good from here!</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="yikes">Yikes!</statement>
+    	<statement id="why" link="thrill" linkEntityId="buren" forceOnScreen="true">Why are you doing this?</statement>
+    	<statement id="not" forceOnScreen="true">Not if I can help it!</statement>
+    	<statement id="own_medicine">Have a taste of your own medicine!</statement>
+    </character>
+    
+    <character id="max">
+    	<statement id="tally">Tally-ho!</statement>
+    	<statement id="last_hunt">You've made your last hunt, Van Buren.</statement>
+    </character>
+</dialogs>

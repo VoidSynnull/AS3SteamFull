@@ -1,0 +1,15 @@
+<specialAbility id="limited/dingle_hopper">
+	<type>transform_npcs</type>
+	<triggerable>false</triggerable>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">ad_dinglehopper</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+</specialAbility>

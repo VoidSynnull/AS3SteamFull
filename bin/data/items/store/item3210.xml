@@ -1,0 +1,25 @@
+<item>
+	<type>store</type>
+	<assets>
+		<asset id="cardBack" />
+			<assetPath>items/store/item3210.swf</assetPath>
+		</asset>
+	</assets>
+	<buttons>
+		<btn>
+			<label>COSTUMIZE</label>
+			<asset>items/shared/whiteButton.swf</asset>
+		</btn>
+	</buttons>
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Shrink Ray Island</value>
+		</text>
+			<text id="storeTitle">
+			<value>Hard Helmet</value>
+		</text>
+		<text id="storeInstructions">
+			<value>Knock through objects with greater ease in the Shrink Shot mini game!</value>
+		</text>
+	</textfields>
+</item>

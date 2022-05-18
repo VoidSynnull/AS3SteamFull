@@ -1,0 +1,45 @@
+<hits>
+	<hit id="secretPath" color="0x00ffff" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tree" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="squish" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1400</y>
+			</velocity>
+		</component>
+	</hit>
+		<hit id="weakbounce" color="0xFF0066" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-600</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb2">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb3">
+		<component type="climb"/>
+	</hit>
+	<hit id="climb4">
+		<component type="climb"/>
+	</hit>
+</hits>

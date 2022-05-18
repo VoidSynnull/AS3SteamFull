@@ -1,0 +1,48 @@
+<sounds>
+	<sound type="music">
+		<asset>Carrot_ShopTheme.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">sunny_clear_day.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="bounce">ls_spring_01.mp3</asset>
+		<asset id="largeWoodenSign">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="woodenPlankFence">ls_tree_01.mp3, ls_tree_02.mp3</asset>
+		<asset id="washer">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="tires">ls_hard_plastic_01.mp3, ls_hard_plastic_02.mp3</asset>
+		<asset id="smallWoodenDrawer">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="largeWoodenDrawer">ls_old_wood_plank_01.mp3, ls_old_wood_plank_02.mp3</asset>
+		<asset id="sturdyMetalPole">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="magnetTowerBase">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="magnetTowerEngine">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="magnetTowerCockpit">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="scrapCar">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="scrappedTv">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="oilCanister">ls_heavy_metal_01.mp3, ls_heavy_metal_02.mp3</asset>
+		<asset id="scrapCar2">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="magnet">ls_general_metal_01.mp3. ls_general_metal_02.mp3</asset>
+		<asset id="baseGround">ls_gravel_01.mp3, ls_gravel_02.mp3</asset>
+		
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="largeWoodenSign">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="woodenPlankFence">fs_tree_01.mp3, fs_tree_02.mp3, fs_tree_03.mp3, fs_tree_04.mp3</asset>
+		<asset id="washer">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="tires">fs_hard_plastic_01.mp3, fs_hard_plastic_02.mp3, fs_hard_plastic_03.mp3, fs_hard_plastic_04.mp3</asset>
+		<asset id="smallWoodenDrawer">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="largeWoodenDrawer">fs_old_wood_plank_01.mp3, fs_old_wood_plank_02.mp3, fs_old_wood_plank_03.mp3, fs_old_wood_plank_04.mp3</asset>
+		<asset id="sturdyMetalPole">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="magnetTowerBase">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="magnetTowerEngine">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="magnetTowerCockpit">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="scrapCar">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="scrappedTv">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="oilCanister">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="scrapCar2">fs_heavy_metal_01.mp3, fs_heavy_metal_02.mp3, fs_heavy_metal_03.mp3, fs_heavy_metal_04.mp3</asset>
+		<asset id="magnet">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="baseGround">fs_gravel_01.mp3, fs_gravel_02.mp3, fs_gravel_03.mp3, fs_gravel_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,42 @@
+<scene>
+	<sceneType>default</sceneType>
+	<cameraLimits>
+    <left>0</left>
+    <top>0</top>
+    <right>1316.15</right>
+    <bottom>1208.6</bottom>
+  </cameraLimits>
+  <bounds>
+    <left>-100</left>
+    <top>0</top>
+    <right>1316.15</right>
+    <bottom>534</bottom>
+  </bounds>
+  <data>npcs.xml,sounds.xml,hits.xml</data>
+  <assets/>
+  <layers>
+    <layer>
+      <asset>background.swf</asset>
+      <rate>1</rate>
+    </layer>
+    <layer hit="true">
+      <asset>hits.swf</asset>
+      <rate>1</rate>
+    </layer>
+	<layer>
+      <asset>foreground.swf</asset>
+      <rate>1</rate>
+    </layer>
+	<layer hit="true">
+      <asset>hudInterface.swf</asset>
+      <rate>1</rate>
+    </layer>
+  </layers>
+  <player>
+    <defaultPosition>
+      <x>347.35</x>
+      <y>411.35</y>
+    </defaultPosition>
+    <defaultDirection>left</defaultDirection>
+  </player>
+</scene>

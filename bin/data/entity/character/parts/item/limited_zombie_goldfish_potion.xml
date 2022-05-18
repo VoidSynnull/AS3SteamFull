@@ -1,0 +1,44 @@
+<part>
+	<id>limited_zombie_goldfish_potion</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2766</campaignID>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PlayPopupAnim</className>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="swfPath">limited/ZombieGoldfishTransformIC/Transform.swf</param>
+			<param id="alignToPlayer">true</param>
+			<param id="tracking">ZombieGoldfishTransformIC,Potion</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="object" type="entity">player</param> 
+						<param id="visibility" type="boolean">false</param> 
+					</parameters>
+				</action>
+				<action class="PartParticlesAction">
+					<parameters>
+						<param id="particleClass" type="class">game.particles.emitter.specialAbility.WhiteCloud</param>
+						<param id="part" type="string">body</param> 
+						<param id="startColor" type="number">0xFFFFFF</param> 
+						<param id="endColor" type="number">0xFFFFFF</param> 
+					</parameters>
+				</action>
+			</actionChain>
+			<actionChain id="after_actions">
+				<action class="SetVisibleAction" noWait="true">
+					<parameters>
+						<param id="char" type="entity">player</param> 
+						<param id="visibility" type="boolean">true</param> 
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>	
+</part>

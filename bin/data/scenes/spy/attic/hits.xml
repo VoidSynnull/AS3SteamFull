@@ -1,0 +1,25 @@
+<hits>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-800</y>
+			</velocity>
+		</component>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="cardboardBox" color="0xC25E32" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="coatHanger" color="0xBDC6BF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" color="0xB7A74F" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="windowFrame" color="0x845B48" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

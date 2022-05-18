@@ -1,0 +1,73 @@
+<item id="2544"> <!-- Change this card ID -->
+  	<type>custom</type>
+	<subType>general</subType>
+	<name>Everything Is Awesome Card</name> <!-- Change this card name -->
+  	<campaignID>LegoMovieJune2014AwesomeIC</campaignID> <!-- Change this CMS name -->
+	
+  		<buttons>
+  		<btn>
+  			<index>1</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook" tracking="Use Everything Is Awesome Card"/> <!-- change tracking call -->
+			</actions>
+  		</btn>
+		<btn>
+  			<index>1</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+					<action type="removeLook"/>
+			</actions>
+  		</btn>
+    	<btn>
+    		<index>0</index>
+      		<label>VISIT SITE</label>
+      		<actions>
+				<action type="gotoUrl" tracking="Everything Is Awesome Card"> <!-- change tracking call -->
+	  				<parameters>
+	  					<param id="urlId">url1</param> <!-- NOTE :: This should get pulled from campaign.xml -->
+					</parameters>
+				</action>
+	  		</actions>
+    	</btn>
+  	</buttons>
+  	<textfields>
+		<text id="limited">
+			<value></value>
+		</text>
+		<text id="subtitle">
+			<value></value> <!-- Change this subtitle -->
+		</text>
+		<text id="adtitle">
+			<value></value> <!-- Change this title -->
+		</text>
+		<text id="ad">
+			<value></value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			
+		</text>
+  	</textfields>
+	
+  	<assets>
+		<asset id="cardBack">
+    		<assetPath>items/limited/backs/AdBackgroundLegoMovie.swf</assetPath> <!-- Change this background swf -->
+    	</asset>
+     <!--	<asset id="cardContent" />   use content bin/assets/items/limited/item999.swf -->
+  	</assets>
+  	
+  	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<looks>
+	    <look> <!-- Only list what you want to change -->
+			<item>ad_legomovie_awesome</item>
+		</look>
+	</looks> 
+	  
+	
+
+</item>

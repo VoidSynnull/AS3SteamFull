@@ -1,0 +1,54 @@
+<doors>
+	<door id="subwayExit">
+		<scene>game.scenes.zombie.subwayWharf.SubwayWharf</scene>
+		<x>140</x>
+		<y>233</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exitDown</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="fenceDoor">
+		<scene>game.scenes.zombie.chinatown.Chinatown</scene>
+		<x>236</x>
+		<y>1170</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="survivalDoor">
+		<scene>game.scenes.zombie.survivalistsBunker.SurvivalistsBunker</scene>
+		<x>59</x>
+		<y>435</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="fruitDoor">
+		<scene>game.scenes.zombie.fruitContainer.FruitContainer</scene>
+		<x>55</x>
+		<y>460</y>
+		<label>
+			<text>ENTER</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

@@ -1,0 +1,20 @@
+<part>
+	<id>stor_candybar</id>
+	<type>marks</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>hair</part>
+	</hide>
+	
+	<components>
+		<component class="game.components.entity.character.part.FlipPart">
+			<properties>
+				<instanceData class="game.data.character.part.InstanceData">
+					<constructor>
+						<instanceName>flip</instanceName>	<!-- If instance is nested use dot notation to specify ( ex. hat.flip_clip )  -->
+					</constructor>
+				</instanceData>
+			</properties>
+		</component>
+	</components>
+</part>

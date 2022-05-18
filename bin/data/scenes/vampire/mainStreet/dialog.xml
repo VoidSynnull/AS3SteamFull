@@ -1,0 +1,50 @@
+<dialogs>
+	<character id="player">
+		<statement id="help">I'm here to help. I'll see if I can find your daughter.</statement>
+		<statement id="cinema_noMedal">I don't have time to watch a movie. I need to find Katya!</statement>
+		<statement id="cinema_medal">I've had enough of vampires, thanks.</statement>
+	</character>
+	<character id="char1">
+		<statement triggerEvent="event" triggerEventArgs="help">My darling Katya is missing! Oh, she and her boyfriend are nowhere to be found.</statement>
+    	<statement event="won">Katya is safe thanks to you!</statement>
+    </character>
+    
+    <character id="char2">
+    	<conversation>
+    		<exchange>
+    			<question>What's going on?</question>
+    			<answer>You haven't seen Katya and Christopher, have you?</answer>
+    		</exchange>
+    		<exchange>
+    			<question>I'm afraid not. Who are they?</question>
+    			<answer>Two teenage lovebirds. They've gone missing.</answer>
+    		</exchange>
+    	</conversation>
+    	<statement event="won">Thanks for helping our village.</statement>
+    </character>
+    
+    <character id="char3">
+    	<statement link="next">I guess I should probably be looking for Katya and Christopher, but I really want to see this movie again.</statement>
+    	<statement id="next">I'm waiting for the next showing.</statement>
+    	<statement event="won">When is this show going to start!?</statement>
+    </character>
+    
+     <character id="char4">
+    	<statement>I wish my boyfriend was a vampire. They're so romantic!</statement>
+    </character>
+    
+    <character id="char5">
+    	<statement>These kids love this vampire stuff. Ticket sales have been great!</statement>
+    </character>
+    
+    <character id="char6">
+    	<statement>Katya and Christopher are just crazy about vampires. I suspect they've gone to Bram's castle to see one in person.</statement>
+   		<statement event="won">We'll never have to worry about Count Bram again!</statement>
+    </character>
+    
+    <character id="char7">
+    	<statement>Those dumb kids know they're not allowed anywhere near Bram's castle, but I guess their curiosity got the best of them.</statement>
+    	<statement event="won">Count Bram is gone, but I'm sure those kids will find other ways to get into trouble.</statement>
+    	<statement event="cannon_hole">Look at that! Someone shot a cannonball right through my roof!</statement>
+    </character>
+</dialogs>

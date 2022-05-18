@@ -1,0 +1,94 @@
+<hits>
+	<hit id="dough" color="0xD7D5D6" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+	
+	<hit id="stove" color="0xADA8A3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="stoveBurner" color="0x9296A9" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="cabinet" color="0xDAC1A6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="jar" color="0xF1BFB1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="shelf" color="0xB7A69A" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="counterBowl" color="0xE5EBA1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="counter" color="0xE5DCC6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="glass" color="0xE6F1EB" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="catFood" color="0x8DAEC7" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tableBowl" color="0xEAD7A8" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="fruitBowl" color="0xC198B6" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="drawer" color="0xF9F7E3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="table" color="0xC2AF9E" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="light" color="0xC0CBA3" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="steamHit" color="0x66FF00">
+		<component type="mover">
+			<acceleration>
+				<x>5000</x>
+				<y>-5000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>500</y>
+			</friction>
+			<!-- If true, platforms have higher priority so you'll stick to them even in water. -->
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform"/>
+		<component type="platformRebound">
+			<bounce>0</bounce>
+		</component>
+	</hit>
+</hits>

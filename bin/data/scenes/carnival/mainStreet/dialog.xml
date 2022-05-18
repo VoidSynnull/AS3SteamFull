@@ -1,0 +1,25 @@
+<dialogs>
+	<character id="player">
+		<statement id="needInApothecary">I need to get in there!</statement>
+		<statement id="whoAreYou">Who are you?</statement>
+		<statement id="youNervous">You look nervous.</statement>
+		<statement id="howHelp">What can I do?</statement>
+	</character>
+	<character id="man">
+		<statement>After all these years, the carnival has finally come back to town! I can't wait!</statement>
+	</character>
+	<character id="woman">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="showPaperPop">Opening night of the carnival. How exciting. It's in all the papers!</statement>
+	</character>
+	<character id="father">
+		<statement>Little Junior here loves his ice cream. I just hope he can keep it down when he hits the rides.</statement>
+	</character>
+	<character id="junior">
+		<statement>Get your own.</statement>
+	</character>
+	<character id="edgar">
+		<statement id="imEdgar">I'm Edgar – proud carnie apprentice.</statement>
+		<statement id="waitingCarnival">All these people are waiting for the carnival to open, but I don't think it's going to be ready in time.</statement>
+		<statement id="bigHelp">It would be a big help if you could talk to the other workers and see if there's anything they need. The carnival is this way.</statement>
+    </character>
+</dialogs>

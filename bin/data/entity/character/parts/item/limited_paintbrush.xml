@@ -1,0 +1,56 @@
+<part>
+	<id>limited_paintbrush</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<campaignID>2900</campaignID>
+	<specialAbility>
+		<className>game.data.specialAbility.character.ThrowItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<parameters>
+			<param id="swfPath">limited/GetOutOfMyRoomMVU/balloon.swf</param>
+			<param id="hideInHand">false</param>
+			<param id="actionClass">game.data.animation.entity.character.PointItem</param>
+			<param id="triggerLabel">pointing</param>
+			<param id="offsetX">75</param>
+			<param id="offsetY">-25</param>
+	  		<param id="speedX">300</param>
+	  		<param id="speedY">-300</param>
+	  		<param id="colors">0x0099ff,0xfffc00,0xff0004</param>
+			<param id="tracking">GetOutOfMyRoomMVU,Paint</param>
+			<param id="popupPath">limited/GetOutOfMyRoomMVU/paintPopup.swf</param>
+		</parameters>
+		
+		<actions>
+			<actionChain id="npc_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">facial</param>
+						<param type="string">limited_paintsplat</param>
+						<param type="boolean">false</param>
+						<param type="true">true</param>
+						<param type="boolean">false</param>
+						<param type="number">[color]</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param type="entity">[npc]</param>
+						<param type="string">overshirt</param>
+						<param type="string">limited_paintsplat</param>
+						<param type="boolean">false</param>
+						<param type="true">true</param>
+						<param type="boolean">false</param>
+						<param type="number">[color]</param>
+					</parameters>
+				</action>
+				<action class="ShowOverlayAnimAction" lockInput="true">
+					<parameters>
+						<param type="string">limited/GetOutOfMyRoomMVU/splatPopup.swf</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

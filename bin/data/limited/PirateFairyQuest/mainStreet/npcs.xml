@@ -1,0 +1,30 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>pPopGirl1</mouth> <!-- use frame label for numbers after 60 -->
+			<marks>sponsortinkerbell</marks>
+			<facial></facial>
+			<hair>sponsortinkerbell</hair>
+			<shirt>ad_piratefairy_tink</shirt>
+			<pants>1</pants>
+			<pack>sponsortink3</pack>
+			<item></item>
+			<overshirt></overshirt>
+			<overpants></overpants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>589.95</x>
+			<y>886.55</y>
+		</position>
+		<range>
+			<x>200</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

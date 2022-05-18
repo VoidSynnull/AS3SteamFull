@@ -1,0 +1,14 @@
+<specialAbility id="pop_follower_elephant">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddPopFollower</className>
+	<parameters>
+		<param id="skinColor">0x789FB6</param>
+		<param id="hairColor">0x789FB6</param>
+		<param id="lineThickness">25</param>
+		<param id="facialFrame">elephant_follower</param>
+		<param id="shirtFrame">elephant_follower</param>
+		<param id="variant">creature</param>
+		<param id="creature">true</param>
+	 </parameters>
+</specialAbility>

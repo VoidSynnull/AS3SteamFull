@@ -1,0 +1,20 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" baseVolume=".5">hades_realm.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true">eerie_moaning.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="rocks">ls_brick_verb_01.mp3, ls_brick_verb_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="step">
+		<asset id="rocks">fs_brick_verb_01.mp3, fs_brick_verb_02.mp3, fs_brick_verb_03.mp3, fs_brick_verb_04.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="random">
+		<asset id="bat" modifiers="position" loop="true">myth_bat_flap_wings_os_01.mp3</asset>
+	</sound>
+</sounds>

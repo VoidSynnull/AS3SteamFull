@@ -1,0 +1,49 @@
+<item id="3050">
+	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+		<buttons>
+			<btn>
+			<conditional id="hasAbility" isTrue="false"/>
+				<label>TORCH</label>
+				<actions>
+				<action type="activatePower">
+					<parameters>
+							<param id="trigger">true</param>
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+			<btn>
+				<conditional id="hasAbility" isTrue="true"/>
+				<label>TURN OFF</label>
+				<actions>
+				<action type="deactivatePower"/>
+			</actions>
+			</btn>
+		</buttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Torch</value>
+	 	 	</text>
+		<text id="storeSubTitle">
+			<value>Lighten up!</value>
+			
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+ 	<specials>
+			<specialAbility>torch</specialAbility>
+	</specials>
+	
+	<conditionals>
+			<conditional type="hasAbility"/>
+		</conditionals>
+</item>

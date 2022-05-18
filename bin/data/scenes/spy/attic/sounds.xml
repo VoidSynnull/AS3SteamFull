@@ -1,0 +1,22 @@
+<sounds>
+	<!-- <sound type="ambient">
+		<asset loop="true" fade="true" exclusiveType="true">.mp3</asset>
+	</sound>  -->
+
+	<sound type="effects" action="impact">
+		<asset id="bounce">ls_spring_01.mp3</asset>
+		<asset id="cardboardBox">ls_cardboard_01.mp3, ls_cardboard_02.mp3</asset>
+		<asset id="coatHanger">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="wood">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+		<asset id="windowFrame">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="baseGround">ls_wood_01.mp3, ls_wood_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="cardboardBox">fs_cardboard_01.mp3, fs_cardboard_02.mp3, fs_cardboard_03.mp3, fs_cardboard_04.mp3</asset>
+		<asset id="coatHanger">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="wood">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="windowFrame">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="baseGround">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

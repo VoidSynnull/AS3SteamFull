@@ -1,0 +1,124 @@
+<hits>
+	<!-- this id should match the name of the hit area movieclip in the hits.fla -->
+	<hit id="conveyor">
+		<component type="movingPlatform">
+			<!-- this id should match the name of the art for the hit area movieclip in the hits.fla -->
+			<visible>conveyorArt</visible>
+			<!-- set the velocity (distance over one second) -->
+			<velocity>80</velocity>
+			<!-- add as many points as needed -->
+			<points>
+				<point>
+					<x>4056.5</x>
+					<y>775</y>
+				</point>
+				<point>
+					<x>4056.5</x>
+					<y>328</y>
+				</point>
+			</points>
+			<loop>true</loop>
+			<pause>true</pause>
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="floor" color="0x00ff00" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="grass" color="0xB2BE9E" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="wood" color="0xCCBDA4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="beam" color="0xBDB19D" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="old_wood" color="0xB4B1A4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="trees" color="0xBBC6A2" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="stone" color="0xBAC2CB" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="rope" color="0xC7B9A4" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="plane" color="0xD5A99E" platform="true">
+		<component type="platform">
+		<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="ice" color="0xA8CFFF" platform="true">
+		<component type="platform">
+			<friction>
+				<x>1.1</x>
+				<y>0</y>
+			</friction>
+		</component>
+	</hit>
+	<hit id="bounce" color="0xff0000" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1100</y><!-- <y>-1400</y> -->
+			</velocity>
+		</component>
+	</hit>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffff00">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+			<viscosity>200.0</viscosity>
+			<density>100</density>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-20000</y>
+			</acceleration>
+			<friction>
+				<x>500</x>
+				<y>4000</y>
+			</friction>
+			<stickToPlatforms>true</stickToPlatforms>
+		</component>
+	</hit>
+	<hit id="air" color="0x00eeff">
+		<component type="mover">
+			<acceleration>
+				<x>0</x>
+				<y>-2000</y>
+			</acceleration>
+			<friction>
+				<x>6</x>
+				<y>0</y>
+			</friction>
+			<stickToPlatforms>false</stickToPlatforms>
+		</component>
+	</hit>
+</hits>

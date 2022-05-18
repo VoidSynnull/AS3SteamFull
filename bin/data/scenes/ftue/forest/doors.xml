@@ -1,0 +1,30 @@
+<doors>
+	<door id="door1">
+		<scene>game.scenes.ftue.beach.Beach</scene>
+		<x>3400</x>
+		<y>700</y>
+		<direction>left</direction>
+		<label>
+			<text>GO LEFT</text>
+			<type>exitLeft</type>
+			<offset>
+				<x>150</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	<door id="door2">
+		<scene>game.scenes.ftue.mainLand.MainLand</scene>
+		<x>200</x>
+		<y>1700</y>
+		<direction>right</direction>
+		<label>
+			<text>GO RIGHT</text>
+			<type>exitRight</type>
+			<offset>
+				<x>-100</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

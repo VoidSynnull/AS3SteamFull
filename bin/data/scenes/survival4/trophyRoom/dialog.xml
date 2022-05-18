@@ -1,0 +1,44 @@
+<dialogs>
+	<character id="van buren">
+		<statement id="trophies" link="rhino" triggerEvent="triggerEvent" triggerEventArgs="trophy_lit_1">Here are the trophies of my greatest hunts.</statement>
+		
+		<statement id="rhino" link="gorilla" triggerEvent="triggerEvent" triggerEventArgs="trophy_lit_2">This African rhino nearly gored me!</statement>
+		
+		<statement id="gorilla" link="of course">The silverback gorilla is a wily foe indeed, but I got the best of him!</statement>
+		
+		<statement id="of course" link="no you didnt" linkEntityId="player" triggerEvent="triggerEvent" triggerEventArgs="trophy_lit_3">Of course, that was nothing compared to my greatest triumph of all.</statement>
+		
+		<statement id="oh yes" triggerEvent="triggerEvent" triggerEventArgs="meet_winston">Oh yes -- there's no challenge like finding good help!</statement>
+    	
+    	<statement id="meet winston" link="charmed" linkEntityId="winston">Please meet my man, Winston. A more faithful servant you will never find.</statement>
+    	
+		<statement id="forgive me" triggerEvent="triggerEvent" triggerEventArgs="tour_complete_2, true">Forgive me a bit of vainglory. This bust of me contains a perfect replica of my voice saying the Van Buren family rallying cry!</statement>
+    	<statement id="taxidermist" link="ready supper">More shoddy work by my taxidermist. I should have *his* head, ha ha!</statement>
+    	
+    	<statement id="ready supper" link="at once" linkEntityId="winston">Winston, please inform the chef that we are ready for supper, and then prepare our guest's quarters for the night.</statement>
+    	
+    	<statement id="meet me">As for you, dear friend, join me for dinner in the banquet room, and don't tarry!</statement>
+    	
+    	<statement id="you shall not pass">Let's not rush the tour!</statement>
+    	
+    	<statement id="dont tarry">I said, DON'T tarry!</statement>
+    	
+    	<statement id="no tomfoolery">No tomfoolery in the trophy room!</statement>
+    </character>
+    
+    <character id="winston">
+    	<statement id="droll" link="meet winston" linkEntityId="van buren">Quite droll, sir.</statement>
+		<statement id="charmed" triggerEvent="triggerEvent" triggerEventArgs="tour_complete_1, true">Charmed.</statement>
+		<statement id="charmed2" >Charmed.</statement>
+		<statement id="at once" triggerEvent="triggerEvent" triggerEventArgs="tour_complete_3, true">At once, m'lord.</statement>
+    </character>
+    
+    <character id="player">
+		<statement id="not now" >I'd better leave it for now.</statement>
+		<statement id="no you didnt" link="oh yes" linkEntityId="van buren">You don't mean...!</statement>
+    </character>
+    
+    <character id="statue">
+		<statement>Tally-ho!</statement>
+	</character>
+</dialogs>

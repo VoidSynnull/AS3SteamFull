@@ -1,0 +1,62 @@
+<item id="3193">
+		<type>store</type>
+		<subType>general</subType>
+		
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+	
+	<buttons>
+			<btn>
+					<label>COSTUMIZE</label>
+					<actions>
+						<action type="costumize"/>
+					</actions>
+			</btn>
+		</buttons>
+
+	<textfields>
+			<text id="storeTitle">
+					<value>Spy Agent</value>
+			</text>
+		<text id="storeSubTitle">
+			<value>Never Shaken, Never Stirred.</value>
+		</text>
+		</textfields>
+		
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+	<radiobuttons>
+			<btn>
+				<color>0x373737</color>
+				<val>0</val>
+			</btn>
+			<btn>
+				<color>0x5B63A4</color>
+				<val>1</val>
+			</btn>
+		</radiobuttons>
+
+		<looks>
+		<look>
+			<mouth>14</mouth>
+			<facial>ss</facial>
+			<hair>sears5</hair>
+			<shirt>tux</shirt>
+			<pants>ss</pants>
+			<item>tplungergun</item>
+		</look>
+		<look>
+			<mouth>14</mouth>
+			<facial>tfunglasses</facial>
+			<hair>sears5</hair>
+			<shirt>tux</shirt>
+			<pants>ss</pants>
+			<item>tplungergun</item>
+		</look>
+	</looks>
+</item>

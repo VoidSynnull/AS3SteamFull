@@ -1,0 +1,24 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0x917151</skinColor>
+			<hairColor>0x453929</hairColor>
+			<eyeState>squint</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<mouth>5</mouth> <!-- use frame label for numbers after 60 -->
+			<hair>bl_critic02</hair>
+			<shirt>limited_caprisun</shirt>
+			<pants>ad_maddie</pants>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>800</x>
+			<y>797</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

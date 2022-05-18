@@ -1,0 +1,17 @@
+<dialogs>
+	
+	<character id="player">
+		<statement triggeredByEvent="useItem_coffee">Bleh! This coffee is too strong!</statement>
+		<statement triggeredByEvent="useItem_keyCard">No need to use this right now.</statement>
+		<statement triggeredByEvent="keycard_worked">It works!</statement>
+	</character>
+	
+	<character id="char10">
+		<statement>Any luck finding some fresh coffee.</statement>
+		<statement event="hasItem_keyCard">I'll cover you, soldier. I'll shine a spotlight to let you climb the shipping containers.</statement>
+    	<statement triggeredByEvent="giveItem_coffee" link="stooge">At last, fresh coffee!</statement>
+    	<statement id="stooge">Now that I know you're not a government stooge, check out what I found outside.</statement>
+    	<statement triggeredByEvent="gotItem_keyCard" link="rabbitHole">It's the key to the shipyard's computer network!</statement>
+    	<statement id="rabbitHole">Who knows how deep the rabbit hole goes...</statement>
+    </character>
+</dialogs>

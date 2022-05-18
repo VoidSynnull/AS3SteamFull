@@ -1,0 +1,19 @@
+<manifest>
+	<!-- campaign xml files -->
+	<data type="campaign" path="data/limited/PawPatrolMapDriver2/" ext="xml">
+		<asset>zipmanifest</asset>
+		<asset>version</asset> <!-- remove this if no new code added for this campaign -->
+		<asset>map/island</asset>
+	</data>
+
+	<!-- map swfs -->
+	<assets type="island" path="assets/limited/PawPatrolMapDriver2/map/" ext="swf">
+		<asset>island</asset>
+	</assets>
+
+	<!-- map swfs -->
+	<assets type="island" path="assets/mapDrivers/" ext="png">
+		<asset>PawPatrolApprovedMapDriver</asset>
+	</assets>
+
+</manifest>

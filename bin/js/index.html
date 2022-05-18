@@ -1,0 +1,42 @@
+<?php
+require_once 'fensites.php';
+$swfObject		= FenSites::staticURL('/game/js/swfobject2-2.js');
+$shortcut		= FenSites::staticURL('/game/assets/ui/login/shortcut.swf');
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Poptropica Shortcut</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+		#divFloat{
+			position:absolute;
+			top:50px;
+			left:50%;
+			width:960px;
+			height:640px;
+			margin-left:-480px;
+		}
+		</style>
+        <script src="<?php echo $swfObject; ?>" type="text/javascript"></script>
+		<script type="text/javascript">
+            var flashvars = {};
+            var queryString = location.search;
+            var startPos = queryString.indexOf("?island=");
+            var scenePos = queryString.indexOf("&scene=");
+            if ((startPos != -1) && (scenePos != -1))
+            {
+                flashvars.island = queryString.substring(8,scenePos);
+                flashvars.scene = queryString.substr(scenePos+7);
+            }
+            var params = {menu:"false", quality:"best"};
+            var attributes = {align:"middle"};
+            swfobject.embedSWF("<?php echo $shortcut; ?>", "main", "960", "640", "11.2.0", false, flashvars, params, attributes);
+        </script>
+	</head>
+	<body>
+    	<div id="divFloat">
+			<div id="main"></div>
+        </div>
+	</body>
+</html>

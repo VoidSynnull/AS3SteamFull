@@ -1,0 +1,52 @@
+<npcs>
+	
+	<!-- use this for Poptropican NPC -->
+	<npc id="custom_npc">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0xfff469</hairColor>
+			<eyeState>casual</eyeState>
+			<eyes>eyes</eyes>
+			<mouth>sponsorheatherg</mouth>
+			<hair>limited_jojo</hair>
+			<pants>limited_jojo</pants>
+			<shirt>limited_jojo</shirt>
+			<overshirt>limited_jojo</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>120</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- position based on FLA rulers -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+	<npc id="custom_npc_ruby">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xe6c1b3</skinColor>
+			<hairColor>0x3a2114</hairColor>
+			<eyeState>casual</eyeState>
+			<eyes>eyes</eyes>
+			<mouth>limited_wafflegirl</mouth>
+			<facial>limited_ruby_d</facial>
+			<hair>limited_ruby_d</hair>
+			<pants>limited_ruby_d</pants>
+			<shirt>limited_ruby_d</shirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>200</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- position based on FLA rulers -->
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

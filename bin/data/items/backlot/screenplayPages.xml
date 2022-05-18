@@ -1,0 +1,66 @@
+<item id="screenplayPages">
+	<type>island</type>
+	<subType>backlot</subType>
+	<buttons>
+		<btn>
+			<conditional id="has_all" isTrue="true"/>
+    		<label>EXAMINE</label>
+    		<actions>
+	    		<action type="openPopup">
+		  			<parameters>
+		  				<param id="className">game.scenes.backlot.shared.popups.MovieScript</param>
+					</parameters>
+				</action>
+			</actions>
+  		</btn>
+	</buttons>
+	<textfields>
+ 		<text>
+      		<value>Screenplay Pages</value>
+    	</text>
+  	</textfields>
+	<assets>
+  		<asset id="cardBack">
+  			<assetPath>items/shared/BacklotBackground.swf</assetPath>
+    	</asset>
+		<asset id="cardContent">
+			<conditional id="has_one" isTrue="true"/>
+			<assetPath>items/backlot/screenplayPages1.swf</assetPath>
+		</asset>
+		<asset id="cardContent">
+			<conditional id="has_two" isTrue="true"/>
+			<assetPath>items/backlot/screenplayPages2.swf</assetPath>
+		</asset>
+		<asset id="cardContent">
+			<conditional id="has_three" isTrue="true"/>
+			<assetPath>items/backlot/screenplayPages3.swf</assetPath>
+		</asset>
+    	<asset id="cardContent">
+			<conditional id="has_all" isTrue="true"/>
+			<assetPath>items/backlot/screenplayPages.swf</assetPath>
+		</asset>
+    </assets>
+    
+    <conditionals>
+    	<conditional type="checkEvents" id="has_all">
+    		<parameters>
+		  		<param id="event">found_pages</param>
+			</parameters>
+    	</conditional>
+    	<conditional type="checkEvents" id="has_one">
+    		<parameters>
+		  		<param id="event">found_one_page</param>
+			</parameters>
+    	</conditional>
+    	<conditional type="checkEvents" id="has_two">
+    		<parameters>
+		  		<param id="event">found_two_pages</param>
+			</parameters>
+    	</conditional>
+    	<conditional type="checkEvents" id="has_three">
+    		<parameters>
+		  		<param id="event">found_three_pages</param>
+			</parameters>
+    	</conditional>
+    </conditionals>
+</item>

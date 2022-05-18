@@ -1,0 +1,59 @@
+<npcs>
+	<npc id="timmy" event="before_timmy_left_main"  variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>2918</x>
+			<y>1530</y>
+		</position>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="scutaro" event="before_scutaro_gone" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/scutaro.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<!-- <x>-100</x>
+			<y>1555</y> -->
+			<x>545</x>
+			<y>1460</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="total" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/total.swf</movieClip>
+		<position>
+			<x>-100</x>
+			<y>1555</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	<npc id="npc_friend">
+		<skin>
+		  <gender>male</gender>
+		  <skinColor>0x000000</skinColor>
+		  <hairColor>0x000000</hairColor>
+		</skin>
+		<position>
+		  <x>4730</x>
+		  <y>1555</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="npc_friend_bitmap" >
+		<bitmap>Blank.swf</bitmap>
+		<position>
+		  <x>4730</x>
+		  <y>1555</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

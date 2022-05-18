@@ -1,0 +1,27 @@
+<part>
+	<id>limited_milkpep_choco</id>
+	<type>overshirt</type>
+	<costumizable>false</costumizable>
+	<hide>
+		<part>shirt</part>
+		<part>pants</part>
+		<part>body</part>
+		<part>head</part>
+		<part>arm1</part>
+        <part>arm2</part>
+        <part>hand1</part>
+        <part>hand2</part>
+        <part>hair</part>
+        <part>mouth</part>
+        <part>eyes</part>
+	</hide>
+	<applyColors>
+		<applyColor id="pantsColor">
+			<part id="leg1"/>
+			<part id="leg2"/>
+		</applyColor>
+	</applyColors>
+	<colors>
+		<color id="pantsColor">0</color>
+	</colors>
+</part>

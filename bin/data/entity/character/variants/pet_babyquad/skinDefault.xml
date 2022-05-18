@@ -1,0 +1,187 @@
+<skin beingType="creature" assetPath="entity/pet_babyquad/" dataPath="entity/pet_babyquad/parts/">>
+	<skinParts>
+	
+		<!-- PARTS -->
+	
+		<skinPart id="eyes">
+			<part>eyes</part>
+			<value>eyes</value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="marks">
+			<part>marks</part>
+			<value></value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="mouth">
+			<part>mouth</part>
+			<value></value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="facial">
+			<part>facial</part>
+			<value></value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="hat">
+			<part>hat</part>
+			<value></value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="tail">
+			<part>tail</part>
+			<value>kitten</value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="paw1">
+			<part>paw1</part>
+			<value>kitten</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="paw2">
+			<part>paw2</part>
+			<value>kitten</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="paw3">
+			<part>paw3</part>
+			<value>kitten</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="paw4">
+			<part>paw4</part>
+			<value>kitten</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="calf1">
+			<part>calf1</part>
+			<value>kitten_front</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="calf2">
+			<part>calf2</part>
+			<value>kitten_front</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="calf3">
+			<part>calf3</part>
+			<value>kitten_back</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="calf4">
+			<part>calf4</part>
+			<value>kitten_back</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="thigh1">
+			<part>thigh1</part>
+			<value>kitten_front</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="thigh2">
+			<part>thigh2</part>
+			<value>kitten_front</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="thigh3">
+			<part>thigh3</part>
+			<value>kitten_back</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="thigh4">
+			<part>thigh4</part>
+			<value>kitten_back</value>
+			<colorSet>
+				<darken></darken>
+			</colorSet>
+		</skinPart>
+		<skinPart id="head">
+			<part>headSkin</part>
+			<value>kitten</value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="body">
+			<part>bodySkin</part>
+			<value>kitten</value>
+			<colorSet></colorSet>
+		</skinPart>
+		<skinPart id="overbody">
+			<part>overbody</part>
+			<value></value>
+			<colorSet></colorSet>
+		</skinPart>
+		
+		<!-- STATES -->
+		
+		<skinPart id="gender">
+			<value>male</value>
+			<metaData>
+				<state id="gender"/>
+				<applyState id="gender">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+		<skinPart id="eyeState">
+			<value>open</value>
+			<metaData>
+				<state id="eyeState"/>
+				<applyState id="eyeState">
+					<part id="eyes"/>
+				</applyState>
+			</metaData>
+		</skinPart>
+
+		<!-- COLORS -->
+		
+		<skinPart id="skinColor">
+			<value numeric="true">0xFF9831</value>
+			<colorSet>
+				<colorAspect id="skinColor"/>
+			</colorSet>
+			<metaData>
+				<colors>
+					<color id="skinColor"/>
+				</colors>
+				<applyColors>
+					<applyColor id="skinColor">
+						<part id="body"/>
+						<part id="head"/>
+						<part id="paw1"/>
+						<part id="paw2"/>
+						<part id="paw3"/>
+						<part id="paw4"/>
+						<part id="arm1"/>
+						<part id="arm2"/>
+						<part id="leg1"/>
+						<part id="leg2"/>
+						<part id="tail"/>
+					</applyColor>
+				</applyColors>
+			</metaData>
+		</skinPart>
+		
+	</skinParts>
+</skin>

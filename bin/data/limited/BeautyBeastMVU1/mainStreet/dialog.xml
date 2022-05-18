@@ -1,0 +1,8 @@
+<dialogs>
+	<character id="custom_npc">
+		<statement event="hasAdItem_2829">Have you enabled your Lumiere companion prize?</statement> <!-- If have item card -->
+		<statement event="videoDone">Have you enabled your Lumiere companion prize?</statement> <!-- if video done -->
+		<statement event="videoPlaying">Watch this cool video!</statement> <!-- if video playing -->
+		<statement>Watch this video to get a Lumiere companion prize.</statement> <!-- default if above not true -->
+	</character>
+</dialogs>

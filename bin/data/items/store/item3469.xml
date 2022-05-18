@@ -1,0 +1,44 @@
+<item id="3469">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+	<textfields>
+		<text id="storeSubTitle">
+			<value>Fall Fashion Bundle</value>
+			</text>
+		<text id="storeTitle">
+			<value>Outfit 2</value>
+			 </text>
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+	
+		<looks>
+			<look>
+			 <mouth>sponsorec1</mouth>
+			 <facial>stor_fallf_gbri</facial>
+			 <hair>stor_fallf_pony</hair>
+			 <shirt>stor_fallf_gbl</shirt>
+			 <pants>adams</pants>
+			 <overshirt>stor_fallf_</overshirt>
+		</look>
+	</looks> 
+
+</item>

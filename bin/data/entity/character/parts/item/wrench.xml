@@ -1,0 +1,12 @@
+<part>
+	<id>wrench</id>
+	<type>item</type>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+  	<specialAbility>
+  		<className>game.data.specialAbility.character.TwirlItem</className>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+  	</specialAbility>
+</part>

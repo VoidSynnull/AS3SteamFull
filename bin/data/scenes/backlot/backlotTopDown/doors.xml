@@ -1,0 +1,99 @@
+<doors>
+	<door id="doorStage1">
+		<scene>game.scenes.backlot.extSoundStage1.ExtSoundStage1</scene>
+		<x>3573.5</x>
+        <y>1148</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorStage2">
+		<scene>game.scenes.backlot.extSoundStage2.ExtSoundStage2</scene>
+		<x>188</x>
+        <y>1131</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorStage3">
+		<scene>game.scenes.backlot.extSoundStage3.ExtSoundStage3</scene>
+		<x>206</x>
+        <y>1132</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorStage4">
+		<scene>game.scenes.backlot.extSoundStage4.ExtSoundStage4</scene>
+		<x>1576.95</x>
+        <y>1127</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorSunriseStreet" event="opened_backlot_gate"><!-- need to make it so that his door does not work before you open the gates -->
+		<scene>game.scenes.backlot.sunriseStreet.SunriseStreet</scene>
+		<x>6220</x>
+        <y>1152</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorPostProduction">
+		<scene>game.scenes.backlot.extPostProduction.ExtPostProduction</scene>
+		<x>1501.9</x>
+        <y>1092</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+	
+	<door id="doorKirksTrailer">
+		<scene>game.scenes.backlot.kirkTrailer.KirkTrailer</scene>
+		<x>1660.9</x>
+        <y>883</y>
+		<label>
+			<text>Exit</text>
+			<asset>exit3D</asset>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

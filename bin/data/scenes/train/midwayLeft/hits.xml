@@ -1,0 +1,27 @@
+<hits>
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	<hit id="ceiling" color="0xffcc00">
+		<component type="ceiling"/>
+	</hit>
+	
+	<hit id="totem" color="0xD29D55" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodPlanks" color="0xFF6464" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stonePathway" color="0x62A0FF" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="woodBench" color="0xB07700" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" color="0x071363" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+</hits>

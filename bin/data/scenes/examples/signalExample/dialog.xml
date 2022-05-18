@@ -1,0 +1,15 @@
+<dialogs>
+	<character id="npc1">
+		<conversation>
+			<exchange>
+				<question>I'm in dire need of a tutorial.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="signalPopup">Just give the "Signal", and I'll bring it up!</answer>
+			</exchange>
+		</conversation>
+    </character>
+    
+    <character id="npc2">
+		<statement link="passiveAggression">No, it's fine! Just put your feet on the table.</statement>
+    	<statement id="passiveAggression">It's not like anyone eats off that or anything...</statement>
+    </character>
+</dialogs>

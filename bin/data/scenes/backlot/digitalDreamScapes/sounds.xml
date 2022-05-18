@@ -1,0 +1,16 @@
+<sounds>
+  <sound type="ambient">
+    <asset loop="true">monitor_screen_hum_01_L.mp3</asset>
+  </sound>
+  <sound type="effects" action="doorOpened">
+    <asset>door_pushbar_open_01.mp3</asset>
+  </sound>
+  <sound type="effects" action="impact">
+    <asset id="baseGround">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+    <asset id="tables">ls_hollow_plastic_01.mp3, ls_hollow_plastic_02.mp3</asset>
+  </sound>
+  <sound type="effects" action="step">
+    <asset id="baseGround">fs_linoleum_01.mp3, fs_linoleum_02.mp3,fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+    <asset id="tables">fs_hollow_plastic_01.mp3, fs_hollow_plastic_02.mp3, fs_hollow_plastic_03.mp3, fs_hollow_plastic_04.mp3</asset>
+  </sound>
+</sounds>

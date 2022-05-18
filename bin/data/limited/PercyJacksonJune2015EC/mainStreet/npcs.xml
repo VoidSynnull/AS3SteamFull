@@ -1,0 +1,26 @@
+<npcs>
+	<npc id="custom_npc">
+		<skin>
+		<eyeState>open</eyeState> <!-- 1:squint, 2:casual, 3:open -->
+			<skinColor>0xd2aa72</skinColor>
+			 <hairColor>0x72472b</hairColor>
+			 <mouth>sponsorcwmb1</mouth>
+			 <marks>satyr</marks>
+			 <hair>satyr</hair>
+			 <shirt>limited_percyjackson_camp</shirt>
+			 <pants>satyr</pants>
+			 <pack>satyr</pack>
+			 <overshirt>amulet</overshirt>
+		</skin>
+		<direction>left</direction>
+		<position>
+			<x>105</x>
+			<y>720</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<proximity>100</proximity>
+	</npc>
+</npcs>

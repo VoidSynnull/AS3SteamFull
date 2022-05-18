@@ -1,0 +1,21 @@
+<hotspots>
+	<hotspot id="game" type="poster">
+		<action type="popup">WildLifeQuest/DefenseGame.swf</action> <!-- Name of popup in campaign folder -->
+		<action type="className">game.scenes.custom.TwitchGamePower</action> <!-- popup class -->
+		<action type="param1">WildLifeQuest/DefenseGame.xml</action>
+	</hotspot>
+	<hotspot id="poster" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

@@ -1,0 +1,11 @@
+<part>
+	<id>ghd_gelatin</id>
+	<type>item</type>
+	<convertAllTimelines>true</convertAllTimelines>
+	<specialAbility id="gelatinSaladBounce">
+		<triggerable>false</triggerable>
+		<className>game.data.specialAbility.islands.ghd.GelatinSaladBounce</className>
+		<validIslands>ghd</validIslands>
+		<validScenes>Barren1,Barren2</validScenes>
+	</specialAbility>
+</part>

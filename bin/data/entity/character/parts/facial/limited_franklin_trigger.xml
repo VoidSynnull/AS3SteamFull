@@ -1,0 +1,72 @@
+<part>
+	<id>limited_franklin_trigger</id>
+	<type>facial</type>
+	<notPrintable>true</notPrintable>
+	<campaignID>2708</campaignID>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<parameters>
+			<param id="tracking">BenFranklinPowerIC,Transform Power</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">skinColor</param>
+						<param id="partID" type="string">0xFDD5C4</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hairColor</param>
+						<param id="partID" type="string">0xffcc99</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">mouth</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">hair</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">pants</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">shirt</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">facial</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+				<action class="SetSkinAction">
+					<parameters>
+						<param id="char" type="string">NPCS</param>
+						<param id="partType" type="string">marks</param>
+						<param id="partID" type="string">limited_franklin_pain</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

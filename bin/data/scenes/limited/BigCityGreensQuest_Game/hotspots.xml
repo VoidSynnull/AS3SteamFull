@@ -1,0 +1,41 @@
+<hotspots>
+	<hotspot id="poster1" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster2" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster3" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster4" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster5" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster6" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster7" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster8" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="poster9" type="poster">
+		<action type="openUrlOnClick">clickURL</action> 
+	</hotspot>
+	<hotspot id="trash" type="poster">
+		<action type="specialAbilityClass">game.data.specialAbility.character.RainAssets</action>
+		<action type="specialAbilityParam1">swfPaths=limited/BigCityGreensQuest/cane.swf,limited/BigCityGreensQuest/chicken.swf,limited/BigCityGreensQuest/coffee.swf,limited/BigCityGreensQuest/dog.swf,limited/BigCityGreensQuest/fish.swf,limited/BigCityGreensQuest/hammer.swf,limited/BigCityGreensQuest/skull.swf,limited/BigCityGreensQuest/soda.swf</action>
+		<action type="specialAbilityParam2">particleClass=game.particles.emitter.specialAbility.AssetRain</action>
+		<action type="specialAbilityParam3">duration=5</action>
+		<action type="trigger">clickTrash</action>
+	</hotspot>
+	<hotspot id="videoContainer" width="300" height="170" type="video" locked="true">
+		<action type="play">videoFile</action>
+		<action type="openUrlOnClick">clickURL</action>
+	</hotspot>
+</hotspots>
+

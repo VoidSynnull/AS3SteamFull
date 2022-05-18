@@ -1,0 +1,11 @@
+<game>
+	<islands>americanGirl,tutorial,reality2,prison,hub,timmy,home,carrot,shrink,myth,time,survival1,survival2,survival3,survival4,survival5,deepDive1,deepDive2,deepDive3,con1,con2,con3,arab1,arab2,ghd,viking,arab3</islands>
+	<bundles>arabian,atlantis,athletes,dangerousagents,entertainer,fairyfriends,falloutfits,galactichotdogs,greekgods,halloween1,halloween2,halloween3,hoa,knights,monkeys,motm,pets,pie,poptropicon,predator,royalball,shrinkray,spaceexplorers,spooky,survival,tasty,vikingfeast,winter1,winter2,wrappedup,</bundles>
+	<firstScene>game.scenes.start.login.Login</firstScene>
+	<defaultScene>game.scenes.start.login.Login</defaultScene>
+	<overrideScene></overrideScene>
+	<sceneClass id="home">game.scenes.hub.town.Town</sceneClass>
+	<sceneClass id="map">game.scenes.map.map.Map</sceneClass>
+	<sceneClass id="store">game.scenes.hub.store.Store</sceneClass>
+	<autoLoadFirstScene>true</autoLoadFirstScene>
+</game>

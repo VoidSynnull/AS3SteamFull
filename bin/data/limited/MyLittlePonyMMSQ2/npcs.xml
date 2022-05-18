@@ -1,0 +1,12 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="Sunny">
+		<bitmap>limited/MyLittlePonyQuest/Sunny.swf</bitmap> <!-- *** Path to NPC zip in quest folder -->
+		<direction>left</direction>
+		<faceSpeaker>false</faceSpeaker>
+		<position>
+			<x>550</x> <!-- from left edge of ad unit -->
+			<y>415</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

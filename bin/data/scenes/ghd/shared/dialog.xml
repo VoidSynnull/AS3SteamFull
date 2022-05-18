@@ -1,0 +1,13 @@
+<dialogs>
+	<character id="player">
+		<statement id="close_guano">Maybe one of these mushrooms would like some of this.</statement>
+		<statement triggeredByEvent="no_use_egg">This is an extra-jumbo egg.</statement>
+		<statement triggeredByEvent="no_use_fruit">That big alien chef said he'd trade me something for ingredients like this.</statement>
+		<statement triggeredByEvent="no_use_empty_fuel_cell">This is missing a nuclear pellet.</statement>
+		<statement triggeredByEvent="no_use_full_fuel_cell">Cosmoe needs this for his nuclear hibachi.</statement>
+<!-- 		<statement triggeredByEvent="no_use_gelatin_salad">I can't eat this, it's like rubber!</statement> -->
+		<statement triggeredByEvent="no_use_giant_spatula">This is no time for a spatula.</statement>
+ 		<statement triggeredByEvent="no_use_guano">This stuff makes a great fertilizer... but I don't want to know where it comes from.</statement>
+		<statement triggeredByEvent="no_use_seed_pod">That big alien chef said he'd trade me something for ingredients like this.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,24 @@
+<dialogs>
+	<character id="kid1">
+		<statement link="um" linkEntityId="player">We hear you're the best. Are you the best?</statement>
+		<statement id="try" triggerEvent="triggerEvent" triggerEventArgs="startGame">OK. Then just try and get past all of us!</statement>
+	</character>
+	<character id="player">
+		<statement id="um" link="try" linkEntityId="kid1">The best? uhhh sure.</statement>
+	</character>
+	<character id="npc1">
+		<statement>Meet us at the basketball court.</statement>
+	</character>
+	<character id="npc2">
+		<statement>Try and get past us in the game.</statement>
+	</character>
+	<character id="npc3">
+		<statement>We're tougher than we look.</statement>
+	</character>
+	<character id="npc4">
+		<statement>Milk's got things like calcium and vitamin D, which help give you the strong bones you need!</statement>
+	</character>
+	<character id="npc5">
+		<statement>Strawberry milk is my favorite.</statement>
+	</character>
+</dialogs>

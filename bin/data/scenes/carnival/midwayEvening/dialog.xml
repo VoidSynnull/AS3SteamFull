@@ -1,0 +1,46 @@
+<dialogs>
+	<character id="player">
+		<statement id="wantWinWeight">If I want to win this game, I've got to find a way to fool the guesser.</statement>
+		<statement id="gotBluntedDart">No wonder it won't pop anything – the tip has been completely worn down!</statement>
+		<statement id="askFryOil">Actually, I was hoping you could give me a cupful of fry oil.</statement>		
+		<statement id="notThirsty">I'm not thirsty right now.</statement>	
+    </character>
+    <character id="bubby">
+		<statement id="bluntDart" triggerEvent="triggerEvent" triggerEventArgs="giveBluntedDart">I hit those balloons three different times, but they won't pop! What's wrong with this thing?</statement>
+		<statement id="ballonsWontPop">I hit those balloons three different times, but they won't pop!</statement>
+    </character>
+    <character id="sissy">
+		<statement>Bubby was supposed to win me a teddy bear. I'm telling Mommy!</statement>
+    </character>
+    <character id="foodstandWorker">
+    	<statement id="thanksSugar">Thanks for getting me that sugar.</statement>
+		<statement id="wantSoda">Want a soda?</statement>
+		<statement id="giveFryOil">Not my taste, but, hey, I believe in freedom! Eat what you want.</statement>
+		<statement id="gaveFryOil">A cup of fry oil...</statement>
+    </character>
+    <character id="father">
+		<statement>It's just like when the carnival came through when I was a boy. Hopefully without all the… unpleasantness that followed.</statement>
+    </character>
+    <character id="junior">
+		<statement>Be quiet, I'm eating!</statement>
+    </character>
+    <character id="guesser">
+		<statement id="stepUpGuess" triggerEvent="triggerEvent" triggerEventArgs="getOnScale">Step right up and let me guess your weight. If I'm off by ten pounds or more, you'll win a prize beyond belief!</statement>
+		<statement id="guessWeightStart">You, my friend, are 115 pounds! </statement>
+		<statement id="guessWeightRight" >Another perfect prognostication! </statement>
+		<statement id="guessWeightWrong">I don't believe it! I've never been wrong! Well, I'm a man of my word, so here's your prize. </statement>
+    	<statement id="wonGuess">You already won today! </statement>
+    </character>
+    <character id="woman">
+    	<statement>He guessed my weight right.</statement>
+		<statement id="guesserCheating">This guy must be cheating. He's never wrong!</statement>
+    </character>
+    <character id="edgar">
+    	<statement id="noPopping">I have no idea why the balloons aren't popping.</statement>    	
+		<statement id="poppedBalloon" triggerEvent="triggerEvent" triggerEventArgs="giveSouvenirCup">Sorry, the teddy bears are just for display. Here, you can have this cup instead.</statement>
+   		<statement id="wonBallon">Sorry, one prize a day.</statement>
+    </character>
+    <character id="duckGameWorker">
+		<statement>Pick the right duck and win a prize!</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,20 @@
+<dialogs>
+	<character id="sultan">
+		<conversation id="quest">
+			<exchange>
+				<question>What happened here?</question>
+				<answer>The forty thieves happened! They ransacked my palace and left me with nothing.</answer>
+			</exchange>
+			<exchange>
+				<question>You mean, you're broke?</question>
+				<answer>Money can be replaced, But the thieves took one precious thing from me: a lamp that is like no other. Find it, and I will grant you a fabulous reward.</answer>
+			</exchange>
+			<exchange>
+				<question>How can I find the lamp?</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="questAccepted, true" >I don't know. But perhaps you can start your quest with this. It is my last jewel. Trade it wisely.</answer>
+			</exchange>
+		</conversation>
+		<statement id="findMyLamp">Find my lamp, and I will grant you a fabulous reward.</statement>
+		<statement id="lamp">That is nothing but an ordinary lamp. The lamp I seek is like no other.</statement>
+    </character>
+</dialogs>

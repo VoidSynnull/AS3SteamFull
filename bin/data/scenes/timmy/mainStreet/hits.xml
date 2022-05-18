@@ -1,0 +1,56 @@
+<hits>
+	<hit id="concrete" platform="true" color="0x0033ff">
+		<component type="platform"/>
+	</hit>
+	<hit id="scutaroPath" platform="true" color="0x990033">
+		<component type="wall"/>
+	</hit>
+	<hit id="concreteBag" platform="true" color="0x99FF99">
+		<component type="platform"/>
+	</hit>
+	<hit id="ladder" platform="true" color="0xcccc99">
+		<component type="platform"/>
+	</hit>
+	<hit id="roof" platform="true" color="0xcc9999">
+		<component type="platform"/>
+	</hit>
+	<hit id="shingles" platform="true" color="0xff6666">
+		<component type="platform"/>
+	</hit>
+	<hit id="stones" platform="true" color="0x0099ff">
+		<component type="platform"/>
+	</hit>
+	<hit id="wood" platform="true" color="0xcc6633">
+		<component type="platform"/>
+	</hit>
+	<hit id="wall" color="0xffcc00">
+		<component type="wall"/>
+	</hit>
+	<hit id="bankWall" color="0xffff99">
+		<component type="wall"/>
+	</hit>
+	<hit id="bankFloor" platform="true" color="0x99ff00">
+		<component type="platform"/>
+	</hit>
+	<hit id="bankCeiling" color="0x33CCCC">
+		<component type="ceiling"/>
+	</hit>
+	<hit id="trashBounce" platform="true">
+		<component type="bounce">
+			<velocity>
+				<x>0</x>
+				<y>-1200</y>
+			</velocity>
+		</component>
+	</hit>
+	
+	<hit id="basket" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="climb">
+		<component type="climb"/>
+	</hit>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>	
+</hits>

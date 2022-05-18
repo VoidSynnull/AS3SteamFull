@@ -1,0 +1,81 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true" event="show_ftue_ending">poptropolis_games_main_theme_1st_half.mp3</asset>
+		<!-- <asset loop="true" fade="true" exclusiveType="true">poptropica_menu_theme.mp3</asset> -->
+		<asset loop="true" fade="true" exclusiveType="true">calm_seas.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" fade="true">sunny_clear_day_02.mp3</asset>
+		<asset loop="true" fade="true">light_wind_01_loop.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="cobble">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="blimpPlatform">ls_cobble_01.mp3, ls_cobble_02.mp3</asset>
+		<asset id="wood_plank">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="linoleum">ls_linoleum_01.mp3, ls_linoleum_02.mp3</asset>
+		<asset id="rope">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+		<asset id="metal">ls_metal_01.mp3, ls_metal_02.mp3</asset>
+		<asset id="grass">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="hay">ls_grass_01.mp3, ls_grass_02.mp3</asset>
+		<asset id="bounce">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_rama_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_tree_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_pig_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_swing_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_tire_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_frog_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_xmas1_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="b_xmas2_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="t_leaves1_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves2_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves3_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves4_hit">leaves_rustle_01.mp3</asset>
+		<asset id="b_snowman_hit">ls_spring_02.mp3, ls_spring_03.mp3</asset>
+		<asset id="pulleyPlatform">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="t_sm_hit">snow_large_impact_03.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="cobble">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="blimpPlatform">fs_cobble_01.mp3, fs_cobble_02.mp3, fs_cobble_03.mp3, fs_cobble_04.mp3</asset>
+		<asset id="wood_plank">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="linoleum">fs_linoleum_01.mp3, fs_linoleum_02.mp3, fs_linoleum_03.mp3, fs_linoleum_04.mp3</asset>
+		<asset id="rope">fs_rope_01.mp3, fs_rope_02.mp3,fs_rope_03.mp3, fs_rope_04.mp3</asset>
+		<asset id="metal">fs_metal_01.mp3, fs_metal_02.mp3,fs_metal_03.mp3, fs_metal_04.mp3</asset>
+		<asset id="grass">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="hay">fs_grass_01.mp3, fs_grass_02.mp3, fs_grass_03.mp3, fs_grass_04.mp3</asset>
+		<asset id="pulleyPlatform">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="t_leaves1_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves2_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves3_hit">leaves_rustle_01.mp3</asset>
+		<asset id="t_leaves4_hit">leaves_rustle_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects">
+		<!-- <asset triggeredByEvent="seagull">seagull_squawk_01.mp3</asset> usual-->
+		<asset triggeredByEvent="seagull">seagull_squawk_01.mp3</asset><!-- halloween -->
+		<asset triggeredByEvent="ac">gears_04a.mp3</asset>
+		<asset triggeredByEvent="ping">selection_03.mp3</asset>
+		<asset triggeredByEvent="pour">water_splash_09b.mp3</asset>
+		<asset triggeredByEvent="puff">poof_01.mp3</asset>
+		<asset triggeredByEvent="pop1">pop_05.mp3</asset>
+		<asset triggeredByEvent="pop2">pop_05.mp3</asset>
+		<asset triggeredByEvent="squish">squish_05.mp3</asset>
+		<asset triggeredByEvent="reset">gears_16.mp3</asset>
+		<asset triggeredByEvent="stomp">cart_bump_03.mp3</asset>
+		<asset triggeredByEvent="bang">machine_impact_03.mp3</asset>
+		<asset triggeredByEvent="splat">squish_02.mp3</asset>
+		<asset triggeredByEvent="whack">whack_01.mp3</asset>
+		<asset triggeredByEvent="boo">ghost_moan_01.mp3</asset>
+		<asset triggeredByEvent="snow">ls_snow_02.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="climb">
+		<asset id="climb" allowOverlap="false">ls_rope_01.mp3, ls_rope_02.mp3</asset>
+	</sound>
+	<sound type="effects" action="climbDown">
+		<asset id="climb" allowOverlap="false">slide_down_rope_01.mp3</asset>
+	</sound>
+</sounds>

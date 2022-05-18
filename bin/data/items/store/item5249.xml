@@ -1,0 +1,57 @@
+<item id="5249"> <!-- Change this card ID -->
+  	<type>store</type>
+	<subType>general</subType>
+	
+	<contentClass> <!-- This displays avatar -->
+		<className>game.ui.card.CharacterContentView</className>
+		<parameters>
+				<param id="scale">.6</param>
+			</parameters>
+			<y>-30</y>
+	</contentClass>
+	
+  <buttons>
+  		<btn>
+  			<index>0</index>
+			<conditional id="hasLook" isTrue="false"/>
+    		<label>USE</label>
+    		<actions>
+				<action type="applyLook"/>
+			</actions>
+  		</btn>
+  		<btn>
+  			<index>0</index>
+ 			<conditional id="hasLook" isTrue="true"/>
+    		<label>PUT AWAY</label>
+    		<actions>
+				<action type="removeLook"/>
+			</actions>
+  		</btn>
+  	</buttons>
+	
+  	<textfields>
+		<text id="storeTitle">
+			<value>Snow Cone Toss</value>
+		</text>
+		<text id="memberinstructions"> <!-- Change any member instructions -->
+			<web>Tap space bar to throw!</web>
+			<mobile>Press ACTION to throw!</mobile>
+			<y>108</y>
+		</text>
+  	</textfields>
+	
+	<assets>
+		<asset id="cardBack" />
+	</assets>
+
+	<conditionals>
+    	<conditional type="hasLook" />
+    </conditionals>
+	
+	<looks>
+		<look> <!-- Only list what you want to change -->
+			<item>snow_cone</item>
+		</look>
+	</looks>
+
+</item>

@@ -1,0 +1,32 @@
+<island>
+	<name>Game Jam</name>
+	<eventsClass>game.scenes.gameJam.GameJamEvents</eventsClass>
+	<gameVersion>AS3</gameVersion>
+	<island>gameJam</island>
+	
+	<!-- All 'permanentEvents' will be stored to the server with the 'islandName_' prefix added. -->
+	<permanentEvents>
+	</permanentEvents>
+	
+	<!-- All island items will be converted from their string format into the ints specified here before being stored in the database. -->
+	<itemIdMap>
+	</itemIdMap>
+	
+	<firstScene>
+		<scene>game.scenes.gameJam.dancingZombie.DancingZombie</scene>
+		<x>4270</x>
+		<y>1390</y>
+		<direction>left</direction>
+		<label>
+			<text>Exit</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</firstScene>
+	
+	<playerMap></playerMap>
+	<medallion></medallion>
+</island>

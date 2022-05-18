@@ -1,0 +1,34 @@
+<island>
+	<name>Test Island</name>
+  	<eventsClass>game.scenes.testIsland.TestIslandEvents</eventsClass>
+  	<gameVersion>AS3</gameVersion>
+  	<island>testIsland</island>
+  	
+  	<permanentEvents>
+	    <event>drone_freed_1</event>
+	    <event>drone_freed_2</event>
+	    <event>drone_freed_3</event>
+	    <event>drone_freed_4</event>
+	    <event>sewer_opened</event>
+	    <event>security_disabled</event>
+	    <event>milk_given</event>
+	    <event>engine_on</event>
+	    <event>destroyed_rabbot</event>
+	    <event>cat_returned</event>
+	    <event>all_drones_free</event>
+	    <event>started</event>
+  	</permanentEvents>
+  	
+  	<itemIdMap>
+	    <item id="betaCostume">3329</item>
+	    <item id="bowlOfMilk">47</item>
+	    <item id="carrotTransporter">46</item>
+	    <item id="crowbar">40</item>
+	    <item id="droneEars">42</item>
+	    <item id="emptyBowl">45</item>
+	    <item id="medalCarrot">1004</item>
+	    <item id="systemPassword">44</item>
+	    <item id="ventBlueprints">43</item>
+	    <item id="wireCutters">41</item>
+  	</itemIdMap>
+</island>

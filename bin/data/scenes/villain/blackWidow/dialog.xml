@@ -1,0 +1,29 @@
+<dialogs>
+	<character id="widow">
+		<conversation>
+			<exchange>
+				<question>What happened here?</question>
+				<answer>I've finally got my exhibition here for all to see!</answer>
+			</exchange>
+			<exchange>
+				<question>Did you make all this mess?</question>
+				<answer>Mess? I've made this place better!</answer>
+			</exchange>
+			<exchange>
+				<question>Who painted all these paintings?</question>
+				<answer>The only one worth looking at is this one I painted here!</answer>
+			</exchange>
+		</conversation>
+		<statement link="next" event="villain_spokeToWidow">What are you looking at?</statement>
+		<statement id="next">There's nothing else  here worth seeing but my masterpiece!</statement>
+		<statement event="angryWidow">You're just like all the rest! But you won't ignore my genius!</statement>
+		<statement event="angryWidow2">You won't ignore my genius!</statement>
+		<statement event="angryWidow3">I won't let you destroy my work!</statement>
+    </character>
+    	<character id="player">
+		<statement event="widowCleared">I did it. She's gone!</statement>
+		<statement evennt="used_turpentine">I've already got the Turpentine ready.</statement>
+		<statement event="villain_notSpokeToWidow">Maybe I should talk to the Black Widow first...</statement>
+		<statement event="lookpaintings">These paintings have all been vandalized. They need to be cleaned up.</statement>
+    </character>
+</dialogs>

@@ -1,0 +1,29 @@
+<doors>
+	<door id="door1">
+		<scene>game.scenes.con1.adStreet3.AdStreet3</scene>
+		<x>50</x>
+		<y>1015</y>
+		<label>
+			<text>Go Right</text>
+			<type>exitRight</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+		<connectingSceneDoors>
+			<door id="exitLeft">
+				<scene>game.scenes.con1.bathrooms.Bathrooms</scene>
+				<x>2200</x>
+				<y>1050</y>
+				<direction>left</direction>
+			</door>
+			<door id="exitRight">
+				<scene>game.scenes.con1.parking.Parking</scene>
+				<x>200</x>
+				<y>1470</y>
+				<direction>right</direction>
+			</door>
+		</connectingSceneDoors>
+	</door>
+</doors>

@@ -1,0 +1,142 @@
+<npcs>
+	<npc id="erik">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xebccad</skinColor>
+			<hairColor>0xeb8849</hairColor>
+			<mouth>oldexplorer</mouth>
+			<marks>comic_erik</marks>
+			<facial>comic_erik</facial>
+			<hair>comic_erik</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<pack>comic_erik</pack>
+			<overshirt>comic_erik</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>280</x>
+			<y>750</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+		<scale>.25</scale>
+	</npc>
+	
+	<npc id="underling_1">
+		<animations loop="true">
+			<animation>game.data.animation.entity.character.Tremble</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xebccad</skinColor>
+			<hairColor>0x72472b</hairColor>
+			<mouth>prisoner3</mouth>
+			<facial>comic_underling</facial>
+			<hair>empty</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<item2>comic_underling</item2>
+			<overshirt>comic_underling</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>850</x>
+			<y>872</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	
+	<npc id="underling_2">
+		<animations loop="true" random="true">
+			<animation duration="220">game.data.animation.entity.character.Stand</animation>
+			<animation duration="42">game.data.animation.entity.character.Cough</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xebccad</skinColor>
+			<hairColor>0x2e2419</hairColor>
+			<mouth>prisoner3</mouth>
+			<marks>comic_underling</marks>
+			<facial>comic_underling</facial>
+			<hair>comic_underling</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<item2>comic_underling</item2>
+			<overshirt>comic_underling</overshirt>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>755</x>
+			<y>872</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="underling_3">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfee0d8</skinColor>
+			<hairColor>0xf5c455</hairColor>
+			<mouth>shadyCop</mouth>
+			<marks>scar</marks>
+			<hair>comic_throneviking</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<overshirt>comic_throneviking</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>655</x>
+			<y>872</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+	<npc id="thorlak">
+		<animations loop="true" random="true">
+			<animation duration="220">game.data.animation.entity.character.Stand</animation>
+			<animation>game.data.animation.entity.character.Think</animation>
+		</animations>
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xd69f74</skinColor>
+			<hairColor>0x0</hairColor>
+			<mouth>astroguard1</mouth>
+			<marks>comic_thorlak</marks>
+			<hair>comic_thorlak</hair>
+			<shirt>1</shirt>
+			<pants>1</pants>
+			<item>empty</item>
+			<pack>comic_thorlak</pack>
+			<overshirt>comic_underling</overshirt>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>545</x>
+			<y>873</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>left</direction>
+	</npc>
+</npcs>

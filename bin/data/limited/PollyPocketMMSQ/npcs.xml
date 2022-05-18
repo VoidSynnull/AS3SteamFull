@@ -1,0 +1,12 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="polly">
+		<bitmap>limited/PollyPocketQuest/polly.swf</bitmap> <!-- *** Path to NPC swf in quest folder -->
+		<direction>left</direction>
+		<position>
+			<x>195</x> <!-- from left edge of ad unit -->
+			<y>405</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+		<proximity>100</proximity> <!-- distance for proximity dialog trigger (remove if not needed) -->
+	</npc>
+</npcs>

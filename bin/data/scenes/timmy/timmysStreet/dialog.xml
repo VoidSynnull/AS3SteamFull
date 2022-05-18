@@ -1,0 +1,89 @@
+<dialogs>
+	<character id="timmy">
+		<statement id="nefarious" link="trying_to_help" linkEntityId="corrina">At last, I have proof of your misdeeds, you nefarious huckster!</statement>
+		<statement id="magistrate" link="good_luck" linkEntityId="corrina">Save it for the magistrate. You'll be in shackles for the rest of your natural life!</statement>
+	
+		<statement id="got_her" link="advanced_tech">Joke's on her. Garbage stink is the ideal olfactory camouflage.</statement>
+		<statement id="advanced_tech" link="wait" linkEntityId="player">That kind of advanced detective technique is why I was able to solve this case in the first place, totally unassisted.</statement>
+		<statement id="case_notes" link="remember_different" linkEntityId="player">Of course I did! I'm the greatest detective alive. My case notes prove it.</statement>
+    
+    	<statement id="got_pants">My pants! My wonderful, flattering pants!</statement>
+    	<statement id="innocent">Don't give me the innocent act. I know what you've done.</statement>
+    	<statement id="clearly">Clearly, you stole my pants and planted them in order to get credit for solving the case!</statement>
+    	<statement id="huckster">At last, I have proof of your misdeeds, you nefarious huckster!</statement>
+    	<statement id="magistrate2">Save it for the magistrate. You'll be in shackles for the rest of your natural life!</statement>
+    	
+    	<statement id="got_her2">Joke's on her. Garbage stink is the ideal olfactory camouflage.</statement>
+<!--   	<statement id="advanced_tech2">That kind of advanced detective technique is why I was able to solve this case in the first place, totally unassisted.</statement>
+		<statement id="case_notes2">Of course I did! I'm the greatest detective alive. My case notes prove it.</statement> -->
+   		<statement id="medal">If that's what it takes to get you to leave, so be it. May we never meet again.</statement>
+   		
+   		<statement id="got_medal">I'm still the best detective in town!</statement>
+		
+		<!-- New dialog for moving timmy into timmys street -->
+		<statement id="mishap" link="unleash">Well, this is no good. We need a plan B.</statement>
+		<statement id="unleash" link="yes" linkEntityId="player">I was hoping it wouldn't come to this, but it's time to unleash...</statement>
+		<statement id="silence" triggerEvent="triggerEvent" triggerEventArgs="dramatic_pause">Silence! Let me have this dramatic pause.</statement>
+		
+		<statement id="totalmobile" link="the_what" linkEntityId="player">...the Totalmobile!</statement>
+		<statement id="dire" link="gather">It's for dire emergencies only, but it's hard to imagine a more critical moment than this.</statement>
+		<statement id="gather" triggerEvent="triggerEvent" triggerEventArgs="get_page_9">These are the instructions. Gather the necessary equipment and come back to me.</statement>
+		
+		<!--  have all the total mobile pieces -->
+		<statement id="one_problem" link="what_now" linkEntityId="player">Only one problem.</statement>
+		<statement id="she" link="effort" linkEntityId="player">She who must not be named! She's after the trash truck, too!</statement>
+		<statement id="lets_go">Quite the contrary! We have to get there first! Let's go!</statement>
+		
+		<statement id="gather_equipment">Once you gather the necessary equipment, come back to me.</statement>
+		<statement id="distracted">Oh, he's dancing again I see. Total is such a ham.</statement>
+    </character>
+    
+    <character id="corrina">
+    	<statement id="trying_to_help" link="magistrate" linkEntityId="timmy">What are you talking about? I was trying to help you!</statement>
+    	<statement id="good_luck" triggerEvent="triggerEvent" triggerEventArgs="exit_corrina">I don't have time for this. Good luck washing off the garbage stink.</statement>
+       
+        <statement id="drama">There probably was a way to get them back without all the drama.</statement>
+    	<statement id="excuse">Excuse me?</statement>
+    	<statement id="help">What are you talking about? I was trying to help you!</statement>
+    	<statement id="good_luck2">I don't have time for this. Good luck washing off the garbage stink.</statement>
+    </character>
+    
+    <character id="crocus">
+    	<statement id="what_the">What in the blazes?! Why is that hoodlum Crispin's car in my living room?</statement>
+    	<randomSet id="random">
+	    	<statement>Youth is wasted on you little whippersnappers.</statement>
+	    	<statement>Get away from my lawn.</statement>
+	    	<statement>Can't an old man get some peace and quiet in his own house?</statement>
+    	</randomSet>
+    	<statement id="distracted">A dancing polar bear, now I have seen everything.</statement>
+    </character>
+    
+    <character id="player">
+    	<statement id="wait" link="case_notes" linkEntityId="timmy">Wait just one minute. You didn't solve this case by yourself.</statement>
+    	<statement id="remember_different" triggerEvent="triggerEvent" triggerEventArgs="intro_complete, true">That's not how I remember it. Not how I remember it at all...</statement>
+    	<statement id="lost_them">Dang, lost them. What's that?</statement>
+<!--	<statement id="wait2">Wait just one minute. You didn't solve this case by yourself.</statement>  -->
+    	<statement id="not_again">Let's not go through all this again. Just give me the darn medallion.</statement>  
+    	<statement id="must_see_timmy">My ride is cooked! Now what?</statement>
+    	
+    	<statement id="ready">The Totalmobile is ready. We just need to put it together.</statement>
+		<statement id="what_now">What now?</statement>
+		<statement id="effort">Oh, so maybe we don't even have to go through all this effort.</statement>
+		<statement id="too_tight">I can't get in through here, there is something in the way.</statement>
+		
+		<!-- New dialog for moving timmy into timmys street -->
+		<statement id="mishap" link="unleash" linkEntityId="timmy">Slight mishap with the car. We need a plan B.</statement>
+		<statement id="yes" link="silence" linkEntityId="timmy">...yes?</statement>
+		
+		<statement id="the_what" link="dire" linkEntityId="timmy">The what now?</statement>
+		
+		<statement id="ready" link="one_problem" linkEntityId="timmy">The Totalmobile is ready. We just need to put it together.</statement>
+		<statement id="what_now" link="she" linkEntityId="timmy">What now?</statement>
+		<statement id="effort" link="lets_go" linkEntityId="timmy">Oh, so maybe we don't even have to go through all this effort.</statement>
+    </character>
+    
+    <character id="molly">
+    	<statement>Senor Burrito is just the prettiest, cutest, fuzzy-wuzziest.</statement>
+    	<statement id="likes_you">Aw, Senior Burrito likes you. That's how I know a good person when I see one.</statement>
+    </character>
+</dialogs>

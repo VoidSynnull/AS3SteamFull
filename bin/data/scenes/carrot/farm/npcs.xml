@@ -1,0 +1,76 @@
+<npcs>
+	<npc id="char1">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xF4D8B0</skinColor>
+			<hairColor>0x55402D</hairColor>
+			<mouth>scuba</mouth>
+			<marks>beardshort2</marks>
+			<hair>farmer</hair>
+			<shirt>farmer</shirt>
+			<pants>1</pants>
+			<item>pitchfork</item>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2947</x>
+			<y>1098</y>
+		</position>
+		<range>
+			<x>150</x>
+			<y>0</y>
+		</range>
+	</npc>
+	<npc id="char1" event="destroyed_rabbot">
+		<skin>
+			<mouth>5</mouth>
+		</skin>
+	</npc>
+	<npc id="cat" variant="creature" event="cat_following">
+		<skin>
+			<gender>male</gender>
+			<skinColor>0xBFAE8B</skinColor>
+			<hairColor>0xBFAE8B</hairColor>
+			<mouth>cat</mouth>
+			<facial>cat</facial>
+			<hair>cat</hair>
+			<shirt>bare</shirt>
+			<pants>bare</pants>
+			<pack>cat</pack>
+			<eyeState>squint</eyeState>
+		</skin>
+		<position>
+			<x>2770.4</x>
+			<y>1098</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+	</npc>
+	<npc id="char3" event="destroyed_rabbot">
+		<animations>
+			<animation>game.data.animation.entity.character.Hammer</animation>
+		</animations>
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xFFE271</skinColor>
+			<hairColor>0x000000</hairColor>
+			<mouth>9</mouth>
+			<hair>29</hair>
+			<shirt>19</shirt>
+			<pants>14</pants>
+			<item2>hammer</item2>
+			<eyeState>open</eyeState>
+		</skin>
+		<position>
+			<x>2460</x>
+			<y>1008</y>
+		</position>
+		<range>
+	<x>0</x>
+<y>0</y>
+</range>
+		<faceSpeaker>false</faceSpeaker>
+	</npc>
+</npcs>

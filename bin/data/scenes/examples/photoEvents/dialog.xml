@@ -1,0 +1,10 @@
+<dialogs>
+	<character id="johnDoe">
+		<conversation>
+			<exchange>
+				<question>Lay an event trigger on me, my good man.</question>
+				<answer triggerEvent="triggerEvent" triggerEventArgs="doPhoto">Sure! OK! Anything you want, just don't hit me.</answer>
+			</exchange>
+		</conversation>
+    </character>
+</dialogs>

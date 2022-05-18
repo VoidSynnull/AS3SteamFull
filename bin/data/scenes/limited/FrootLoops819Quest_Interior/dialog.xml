@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="Sam">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartGamePopup|MusicGame|game.scenes.custom.BeatGamePower">Jump into my imagination!</statement>
+		<statement triggeredByEvent="SamIntro" triggerEvent="triggerEvent" triggerEventArgs="startGame">Jump into my imagination to find out!</statement>
+	</character>
+	<character id="player">
+		<statement id="playerIntro" triggerEvent="triggerEvent" triggerEventArgs="SamIntro">What are you thinking about?</statement>
+	</character>
+	<character id="Girl1">
+		<statement>Watch this video.</statement>
+	</character>
+	<character id="Boy1">
+		<statement>Click on the thought bubble to play the game.</statement>
+	</character>
+	<character id="Girl2">
+		<statement>If you beat the game you'll get a fun prize.</statement>
+	</character>
+	
+</dialogs>

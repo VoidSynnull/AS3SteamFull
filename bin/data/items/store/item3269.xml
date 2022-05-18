@@ -1,0 +1,39 @@
+<item id="3269">
+		<type>store</type>
+		<subType>general</subType>
+
+	<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	<buttons>
+			<btn>
+				<index>0</index>
+				<label>COSTUMIZE</label>
+	 			<actions>
+				<action type="costumize" tracking="Use Cherry Pie Costume"/> <!-- change tracking call -->
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Sweet As Pie. My, oh, my!</value>
+		</text>
+		<text id="storeTitle">
+			<value>Cherry</value>
+		</text>
+	</textfields>
+	<assets>
+			<asset id="cardBack" />
+		</assets>
+
+		<looks> <!-- Set up the looks for each button -->
+			<look> <!-- Only list what you want to change -->
+			<facial>pie_hat</facial>
+			<overshirt>pie_cherry</overshirt>
+				<pants>1</pants>
+		</look>
+	</looks> 
+
+</item>

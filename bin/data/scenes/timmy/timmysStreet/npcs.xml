@@ -1,0 +1,100 @@
+<npcs>
+	<npc id="timmy" event="before_timmy_left_main" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>640</x>
+			<y>970</y>
+		</position>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="corrina" event="before_timmy_left_main" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/corrina.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>730</x>
+			<y>970</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="timmy" event="outro" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>640</x>
+			<y>970</y>
+		</position>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="corrina" event="outro" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/corrina.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>730</x>
+			<y>970</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="timmy" event="crashed_car" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/timmy.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>2410</x>
+			<y>970</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+		
+	<npc id="corrina" event="crashed_car" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/corrina.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>730</x>
+			<y>1270</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+	
+	<npc id="crocus" event="crashed_car" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/crocus.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>2910</x>
+			<y>923</y>
+		</position>
+		<direction>right</direction>
+		<ignoreDepth>true</ignoreDepth>
+		<scale>.9</scale>
+	</npc>
+	
+	<npc id="total" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/total.swf</movieClip>
+		<position>
+			<x>700</x>`l
+			<y>950</y>
+		</position>
+		<direction>right</direction>
+	</npc>
+	
+	
+	<npc id="molly" event="before_rollo_freed" variant="movieclip">
+		<movieClip>scenes/timmy/shared/npcs/molly.swf</movieClip>
+		<talkMouth>mouth</talkMouth>
+		<position>
+			<x>1740</x><!-- 630</x> -->
+			<y>970</y>
+		</position>
+		<direction>left</direction>
+		<ignoreDepth>true</ignoreDepth>
+	</npc>
+</npcs>

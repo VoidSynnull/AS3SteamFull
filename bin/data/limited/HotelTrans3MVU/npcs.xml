@@ -1,0 +1,11 @@
+<npcs>
+	<!-- use this for bitmapped NPC -->
+	<npc id="Drac">
+		<bitmap>limited/HotelTrans3MVU/Drac.swf</bitmap> <!-- *** Path to NPC swf in MVU folder -->
+		<direction>left</direction>
+		<position>
+			<x>-51</x> <!-- from left edge of ad unit -->
+			<y>581</y> <!-- add 5 pixels to custom Y value -->
+		</position>
+	</npc>
+</npcs>

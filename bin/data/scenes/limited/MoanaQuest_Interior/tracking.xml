@@ -1,0 +1,33 @@
+<tracking>
+	<track id="maui">
+		<event>EngagedInsideNPC</event>
+		<choice>Maui</choice>
+	</track>
+	<track id="moana">
+		<event>EngagedInsideNPC</event>
+		<choice>Moana</choice>
+	</track>
+	<track id="poster1">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 1</subchoice>
+	</track>
+	<track id="poster2">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 2</subchoice>
+	</track>
+	<track id="poster3">
+		<event>ClickToSponsor</event>
+		<choice>Posters</choice>
+		<subchoice>Poster 3</subchoice>
+	</track>
+	<track id="videoContainer1">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+	<track id="videoContainer2">
+		<choice>Video</choice>
+		<subchoice></subchoice>
+	</track>
+</tracking>

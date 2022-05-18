@@ -1,0 +1,12 @@
+<specialAbility id="limited/follower_skull_jar">
+	<save>true</save>
+	<triggerable>false</triggerable>
+	<className>game.data.specialAbility.character.AddFollower</className>
+	<parameters>
+		<param id="id">2582</param>
+		<param id="swfPath">limited/LockwoodEC/Follower.swf</param> <!-- path to follower swf -->
+		<param id="disableFlip">true</param>
+		<param id="clickableAnimation">true</param>
+		<param id="clickableAudioPath">limited/LockwoodEC/skulljar.mp3</param>
+	</parameters>
+</specialAbility>

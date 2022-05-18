@@ -1,0 +1,42 @@
+<item id="3458">
+		<type>store</type>
+		<subType>general</subType>
+
+			<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+	
+	<buttons>
+			<btn>
+			<index>0</index>
+			<label>COSTUMIZE</label>
+			<actions>
+				<action type="costumize"/>
+			</actions>
+		</btn>
+		</buttons>
+
+<textfields>
+		<text id="storeTitle">
+			<value>Apollo</value>
+		</text>
+		
+	</textfields>
+	
+		<assets>			<asset id="cardBack" />
+		</assets>
+
+		<looks>
+			<look>
+			 <mouth>15</mouth>
+			 <facial>stor_apollo</facial>
+			 <shirt>stor_apollo</shirt>
+			 <pants>5</pants>
+			 <item>stor_apollo</item>
+			 <overshirt>stor_apollo</overshirt>
+			 <overpants>stor_apollo</overpants>
+		</look>
+	</looks> 
+
+</item>

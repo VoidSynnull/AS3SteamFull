@@ -1,0 +1,39 @@
+<part>
+	<id>limited_walkman</id>
+	<type>facial</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<triggerable>true</triggerable>
+		<useButton>true</useButton>
+		<sfPauseTimer>10</sfPauseTimer>
+		<parameters>
+			<param id="tracking">AmericanGirlQuest,walkman</param>
+		</parameters>
+		<actions>
+			<actionChain id="before_actions">
+				<action class="StopAudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/AmericanGirl/walkman.mp3</param> 
+						<param id="audioId" type="string">walkman</param> 
+						<param id="sceneMusic" type="boolean">true</param> 
+						<param id="resumeMusicDelay" type="number">10</param>
+					</parameters>
+				</action>
+				<action class="AudioAction" noWait="true">
+					<parameters>
+						<param id="target" type="entity">player</param> 
+						<param id="soundUrl" type="string">limited/AmericanGirl/walkman.mp3</param> 
+						<param id="radius" type="number">500</param>
+						<param id="minVolume" type="number">0</param>
+						<param id="maxVolume" type="number">.5</param>
+						<param id="ease" type="function">null</param>
+						<param id="loop" type="boolean">false</param>
+						<param id="stopMusicEffect" type="boolean">true</param>
+						<param id="audioId" type="string">walkman</param>
+					</parameters>
+				</action>
+			</actionChain>
+		</actions>
+	</specialAbility>
+</part>

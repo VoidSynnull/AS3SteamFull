@@ -1,0 +1,13 @@
+<part>
+	<id>june_marshmallowstick</id>
+	<type>item</type>
+	<costumizable>false</costumizable>
+	<specialAbility>
+		<className>game.data.specialAbility.character.PartTimelineOnOff</className>
+		<useButton>true</useButton>
+		<triggerable>true</triggerable> 
+		<parameters>
+			<param id="partType">item</param>
+		</parameters>
+	</specialAbility>
+</part>

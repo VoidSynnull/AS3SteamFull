@@ -1,0 +1,13 @@
+<events>
+<group type="triggered" id="jerkrun">
+	<event>
+			<param1 id="action">talk</param1>
+			<param2 id="npcID">eda</param2>
+			<param3 id="sayID">doneJerkRun</param3>
+		</event>
+		<event>
+			<param1 id="action">callFunction</param1>
+			<param1 id="function">loadStartPopup</param1>
+		</event>
+	</group>
+</events>

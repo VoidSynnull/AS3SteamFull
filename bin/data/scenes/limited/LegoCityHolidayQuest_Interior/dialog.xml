@@ -1,0 +1,12 @@
+<dialogs>
+	<character id="npc1">
+		<statement id="start" triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Quick get in!.</statement>
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">Quick get in!.</statement>
+	</character>
+	<character id="npc2">
+		<statement triggerEvent="triggerEvent" triggerEventArgs="loadStartPopup">We found a mommoth! Let's get him.</statement>
+	</character>
+	<character id="npc3">
+		<statement>We finally found it. A mammoth!</statement>
+	</character>
+</dialogs>

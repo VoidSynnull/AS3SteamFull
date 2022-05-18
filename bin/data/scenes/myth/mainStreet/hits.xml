@@ -1,0 +1,27 @@
+<hits>
+	<hit id="baseGround" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="stone" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="clay" color="0x996600" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit id="brick" color="0x006600" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit id="metal" color="0x99cc00" platform="true">
+		<component type="platform"/>
+	</hit>
+		<hit id="helmet" color="0x99cccc" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="tile" color="0xcccc00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="climb1">
+		<component type="climb"/>
+	</hit>
+</hits>

@@ -1,0 +1,23 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">ringmasters_tent.mp3</asset>
+	</sound>
+
+	<sound type="effects" action="impact">
+		<asset id="baseGround">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="platformhit">ls_concrete_01.mp3, ls_concrete_02.mp3</asset>
+		<asset id="tree1Hit">cart_bump_01.mp3</asset>
+		<asset id="tree2Hit">cart_bump_01.mp3</asset>
+		<asset id="break1Hit">cart_bump_01.mp3</asset>
+		<asset id="break2Hit">cart_bump_01.mp3</asset>
+		<asset id="car1Hit">small_pow_05.mp3</asset>
+		<asset id="car2Hit">small_pow_05.mp3</asset>
+		<asset id="monk1Hit">cart_bump_01.mp3</asset>
+		<asset id="monk2Hit">cart_bump_01.mp3</asset>
+		<asset id="bearHit">cart_bump_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="baseGround">fs_concrete_01.mp3, fs_concrete_02.mp3, fs_concrete_03.mp3, fs_concrete_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,19 @@
+<dialogs>
+	<character id="sultan">
+		<conversation>
+			<exchange>
+				<question>I'm sorry. I had the lamp, and then lost it.</question>
+				<answer>If only my dear friend the vizier were here. He would know what to do.</answer>
+			</exchange>
+			<exchange>
+				<question>I met him in the thieves' lair! He helped me find the lamp.</question>
+				<answer>He is wise and brave! Tell me, is there news of him?</answer>
+			</exchange>
+			<exchange>
+				<question triggerEvent="triggerEvent" triggerEventArgs="lockScene">Um� y'know, last I saw of him he just kind of disappeared into thin air.</question>
+				<answer link="mustFind" linkEntityId="sultan">Heh, that is like him.</answer>
+			</exchange>
+		</conversation>
+		<statement id="mustFind" triggerEvent="triggerEvent" triggerEventArgs="sultanLeave">I must find that genie. You may stay in the palace if you wish, but don't go poking around in here. </statement>
+    </character>
+</dialogs>

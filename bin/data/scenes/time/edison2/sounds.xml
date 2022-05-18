@@ -1,0 +1,31 @@
+<sounds>
+	<sound type="music">
+		<asset loop="true" fade="true" exclusiveType="true">Edisons_Workshop.mp3</asset>
+	</sound>
+	
+	<sound type="ambient">
+		<asset loop="true" faded="true" exclusiveType="true">bubbling.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="doorOpened">
+		<asset>door_light_close_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="impact">
+		<asset id="table">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="light">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="edisonTable">ls_wood_plank_01.mp3, ls_wood_plank_02.mp3</asset>
+		<asset id="edisonLight">ls_general_metal_01.mp3, ls_general_metal_02.mp3</asset>
+		<asset id="floor">ls_wood_crate_01.mp3</asset>
+		<asset id="baseGround">ls_wood_crate_01.mp3</asset>
+	</sound>
+	
+	<sound type="effects" action="step">
+		<asset id="table">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="light">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="edisonTable">fs_wood_plank_01.mp3, fs_wood_plank_02.mp3, fs_wood_plank_03.mp3, fs_wood_plank_04.mp3</asset>
+		<asset id="edisonLight">fs_general_metal_01.mp3, fs_general_metal_02.mp3, fs_general_metal_03.mp3, fs_general_metal_04.mp3</asset>
+		<asset id="floor">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+		<asset id="baseGround">fs_wood_01.mp3, fs_wood_02.mp3, fs_wood_03.mp3, fs_wood_04.mp3</asset>
+	</sound>
+</sounds>

@@ -1,0 +1,40 @@
+<npcs>
+	<npc id="judy">
+		<skin>
+			<gender>female</gender>
+			<skinColor>0xfbdfcb</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			 <facial>limited_judy</facial>
+			 <pants>limited_judy</pants>
+			 <overshirt>limited_judy</overshirt>
+		</skin>
+		<position>
+			<x>135</x>
+			<y>660</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+		<direction>right</direction>
+	</npc>
+	
+	<npc id="duke">
+		<skin>
+		 <gender>male</gender>
+			<skinColor>0x96352C</skinColor>
+			<hairColor>0x503a2a</hairColor>
+			 <facial>limited_duke</facial>
+			 <shirt>limited_duke</shirt>
+			 <pants>limited_duke</pants>
+		</skin>
+		<position>
+			<x>13800</x>
+			<y>660</y>
+		</position>
+		<range>
+			<x>0</x>
+			<y>0</y>
+		</range>
+	</npc>
+</npcs>

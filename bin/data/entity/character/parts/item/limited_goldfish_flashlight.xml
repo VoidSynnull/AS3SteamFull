@@ -1,0 +1,14 @@
+<part>
+	<id>limited_goldfish_flashlight</id>
+	<type>item</type>
+	<campaignID>2589</campaignID>
+	<specialAbility id="Flashlight">
+		<className>game.data.specialAbility.custom.Flashlight</className>
+		<parameters>
+			<param id="tracking">Goldfish2014Q4ECWeek2,Flashlight</param>
+		</parameters>
+	</specialAbility>
+	<components>
+		<component class="game.components.entity.character.part.item.ItemMotion"></component>
+  	</components>
+</part>

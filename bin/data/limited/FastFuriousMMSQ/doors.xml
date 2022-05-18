@@ -1,0 +1,13 @@
+<doors>
+	<door id="customDoor">
+		<scene>game.scenes.custom.questInterior.QuestInterior|campaignScene=FastFuriousQuest_Interior</scene> <!-- *** AS3 destination scene name -->
+		<label>
+			<text>ENTER</text>
+			<type>exit3D</type>
+			<offset>
+				<x>0</x>
+				<y>0</y>
+			</offset>
+		</label>
+	</door>
+</doors>

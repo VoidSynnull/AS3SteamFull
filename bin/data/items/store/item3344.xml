@@ -1,0 +1,31 @@
+<item id="3344">
+		<type>store</type>
+		<subType>general</subType>
+
+	<buttons>
+			<btn>
+ 			<label>USE</label>
+				<actions>
+				<action type="openPopup" tracking="Use Raven Swarm"> <!-- change tracking call -->
+						<parameters>
+							<param id="className">game.scenes.custom.CardAnimPower</param>
+							<param id="swfPath">scenes/carnival/shared/RavenPower.swf</param> <!-- location of swf in assets -->
+					</parameters>
+				</action>
+			</actions>
+			</btn>
+		</buttons>
+
+		<textfields>
+		<text id="storeSubTitle">
+			<value>Monster Carnival Island</value>
+			</text>
+		<text id="storeTitle">
+			<value>Raven Swarm</value>
+			</text>
+	</textfields>
+	<assets>
+		<asset id="cardBack" /><asset id="cardContent"/>
+		</assets>
+
+</item>

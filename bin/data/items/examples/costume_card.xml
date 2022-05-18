@@ -1,0 +1,47 @@
+<item id="costume_card"> <!-- Make sure the id name is the same as your .xml and the .swf art you want to load on the card -->
+  	<type>island</type>
+  	<subType>examples</subType> <!-- Set subType to the location of card .swf art - bin/assets/items/"folder" -->
+  	<contentClass>
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+	
+	<textfields>
+   	 	<text>
+      		<value>Costume Item</value>
+   	 	</text>
+  	</textfields>
+	
+	<assets>
+  		<asset id="cardBack">
+		<!-- Instead of the "shared" folder, you can also put the island card "background.swf" art inside the island folder you are using for all the other cards. EX - "items/"island_name"/background.swf" -->
+			<assetPath>items/shared/EarlyBackground.swf</assetPath>
+			<!-- These effect settings change the color of the background card, you get the numbers from Flash's "Adjust Color" filter -->
+			<effect>
+      			<name>adjustColorFilter</name>
+      			<enabled>true</enabled>
+      			<brightness>36</brightness>
+     			<contrast>-17</contrast>
+     			<saturation>9</saturation>
+     			<hue>12</hue>
+    		</effect>
+	    </asset>
+    </assets>
+
+  	<buttons>
+	    	<btn>
+	      	<label>COSTUMIZE</label>
+	      	<actions>
+		  		<action type="costumize"/>
+		  	</actions>
+	    	</btn>
+  	</buttons>
+
+  	<looks>
+	    <look>
+	    	<mouth>15</mouth>
+	 		<facial>mteiffel</facial>
+		 	<pants>pbiker1</pants>
+	   	</look> 
+	</looks> 
+	
+</item>

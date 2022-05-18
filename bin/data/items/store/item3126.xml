@@ -1,0 +1,55 @@
+<item id="3126">
+		<type>store</type>
+		<subType>general</subType>
+					<contentClass> <!-- This displays avatar  -->
+		<className>game.ui.card.CharacterContentView</className>
+	</contentClass>
+
+
+		<buttons>
+				<btn>
+						<label>COSTUMIZE</label>
+						<actions>
+						<action type="costumize"/>
+					</actions>
+				</btn>
+		</buttons>
+	<radiobuttons>
+		<btn>
+			<color>0xFF0000</color>
+			<val>0</val>
+		</btn>
+		<btn>
+			<color>0xFFFF00</color>
+			<val>1</val>
+		</btn>
+	</radiobuttons>
+		<textfields>
+			<text id="storeTitle">
+					<value>Hot Dog</value>
+	 	 	</text>
+		<text id="storeInstructions">
+			<web>Tap space bar to&#10;activate the Shooters.</web>
+			<mobile>Tap ACTION to&#10;activate the Shooters.</mobile>
+		</text>
+		</textfields>
+		<assets>
+		<asset id="cardBack" />
+		</assets>
+		
+		<looks>
+			<look>
+			<marks>photdog</marks>
+			<hair>34</hair>
+			<pants>nim2</pants>
+			<item>photdogshooter1</item>
+		</look>
+		<look>
+			<marks>photdog</marks>
+			<hair>34</hair>
+			<pants>nim2</pants>
+			<item>photdogshooter2</item>
+		</look>
+	</looks>
+
+</item>

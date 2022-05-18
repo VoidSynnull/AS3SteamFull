@@ -1,0 +1,51 @@
+<hits>
+	<hit id="grass" color="0x00ff00" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="snow" color="0xE7FFFC" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="rock" color="0xD8D7C1" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tree" color="0xC1B7A2" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="tipWing" color="0x6699CC" platform="true">
+		<component type="platform"/>
+	</hit>
+	<hit id="wing" color="0x9BBACA" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="seesaw">
+		<component type="movingPlatform">
+			<visible>planeWing</visible>
+			<velocity>0</velocity>
+		</component>
+	</hit>
+	
+	<hit id="fallenTree" color="0xCFA897" platform="true">
+		<component type="platform"/>
+	</hit>
+	
+	<hit id="wall" color="0xff6600">
+		<component type="wall"/>
+	</hit>
+	
+	<hit id="water" color="0x0000ff">
+		<component type="water">
+			<splashColor1>0x6BC3D9</splashColor1>
+			<splashColor2>0xE1E8FF</splashColor2>
+		</component>
+		<component type="mover">
+			<acceleration>
+				<x>-25000</x>
+			</acceleration>
+		</component>
+	</hit>	
+</hits>

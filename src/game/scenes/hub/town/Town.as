@@ -202,7 +202,7 @@ package game.scenes.hub.town
 			super.init(container);
 			
 			// if not mobile, then check for member gifts when scene is done loading
-			super.shellApi.sceneManager.sceneLoaded.addOnce(checkMemberGifts);
+			//super.shellApi.sceneManager.sceneLoaded.addOnce(checkMemberGifts);
 		}
 		
 		override protected function addGroups():void
@@ -1885,9 +1885,9 @@ package game.scenes.hub.town
 		private function triggerMemberAnim():void
 		{
 			// lock input
-			SceneUtil.lockInput(this, true);
+			//SceneUtil.lockInput(this, true);
 			// load animation
-			super.shellApi.loadFile(super.shellApi.assetPrefix + "ui/popups/memberGifts.swf", memberAnimLoaded);
+			//super.shellApi.loadFile(super.shellApi.assetPrefix + "ui/popups/memberGifts.swf", memberAnimLoaded);
 		}
 		
 		// when member gifts animation loaded

@@ -190,13 +190,13 @@ package game.scenes.virusHunter.cityLeft{
 		
 		private function loadScene(popup:Popup = null):void
 		{
-			if(!isMember) this.shellApi.loadScene(CityLeft);
-			else
-			{
+			//if(!isMember) this.shellApi.loadScene(CityLeft);
+			//else
+			//{
 				SceneUtil.lockInput(this);
 				var interaction:SceneInteraction = this.girl.get(SceneInteraction);
 				interaction.triggered.remove(this.openBonusPopup);
-			}
+			//}
 		}
 		
 		private function handleRun():void

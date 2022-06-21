@@ -337,6 +337,7 @@ package game.scenes.survival2.fishingHole
 			
 			this.shellApi.completeEvent(this._events.FISHING_HOLE_TREE_PUSHED);
 			this.getEntityById("treePushedPlatform").add(new Platform());
+			this.getEntityById("treePushedPlatform").remove(Sleep)
 			this.removeEntity(this.getEntityById("treeUnpushedPlatform"));
 			this.removeEntity(this.getEntityById("platformHole"));
 			removeEntity(interaction);

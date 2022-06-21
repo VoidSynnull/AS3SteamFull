@@ -634,7 +634,16 @@ package game.systems.entity
 			else
 			{
 				trace( "SkinSystem :: onDataLoaded : there is no current value, reload with a default part." );
-				skinPart.setValue( SkinUtils.getDefaultPart( skinPart.id ), true );	// NOTE :: for now setting replacement as permanent, may want to reconsider. -bard
+				var defaultSkinPart:String = SkinUtils.getDefaultPart( skinPart.id );
+					if(defaultSkinPart != ""){
+						skinPart.setValue( SkinUtils.getDefaultPart( skinPart.id ), true );	// NOTE :: for now setting replacement as permanent, may want to reconsider. -bard
+
+					} else
+					{
+						trace("remove skin part")
+						skinPart.remove(true)
+					}
+				//skinPart.setValue( SkinUtils.getDefaultPart( skinPart.id ), true );	// NOTE :: for now setting replacement as permanent, may want to reconsider. -bard
 				skinPart.loaded.addOnce(Command.create(lookReadyToSave, node));
 			}
 		}

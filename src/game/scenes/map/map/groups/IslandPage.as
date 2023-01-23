@@ -531,6 +531,7 @@ package game.scenes.map.map.groups
 			if(lastLoc is PlayerLocation)
 			{
 				var lastLocation:PlayerLocation = lastLoc;
+				
 				this.loadSceneAS3OrAS2(island, lastLocation.scene, lastLocation.locX, lastLocation.locY, lastLocation.direction == "L" ? "left" : "right");
 			}
 			//If not, we'll load the island's default starting scene and location.
@@ -563,7 +564,12 @@ package game.scenes.map.map.groups
 			if(scene.indexOf(".") > -1)
 			{
 				var sceneClass:Class = ClassUtils.getClassByName(scene);
-				this.shellApi.loadScene(sceneClass, x, y, direction, null, null, onIslandLoadFailure);
+				if (sceneClass != null) {
+					this.shellApi.loadScene(sceneClass, x, y, direction, null, null, onIslandLoadFailure);
+
+				}else {
+					this.shellApi.loadFile(super.shellApi.dataPrefix + "scenes/" + island + "/island.xml", this.islandXMLLoaded);
+				}
 			}
 			else
 			{

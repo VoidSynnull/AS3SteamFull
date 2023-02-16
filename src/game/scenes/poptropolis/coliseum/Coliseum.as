@@ -115,7 +115,7 @@ package game.scenes.poptropolis.coliseum
 			
 			super.shellApi.eventTriggered.add(handleEventTriggered);
 			_events = super.events as PoptropolisEvents;
-			_isMember = super.shellApi.profileManager.active.isMember;
+			_isMember = true
 			
 			/**
 			 * Potropolis doesn't seem to be loading fast enough for the podium to disappear before people can see it.
